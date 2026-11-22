@@ -14859,7 +14859,7 @@ repaired MCP route (tower-compute home): its description,
 prompt context, question and standing position state no
 verdict and carry no proposed-and-unadjudicated framing,
 and no platform change is made. Execution venue:
-tower-compute. PR #662. CI on the substance head f7922c87:
+tower-compute. PR #662. CI on the substance head f7d7e452:
 10/10 per job — Backend tests (pytest), Cloud image smoke
 (Spec 083), Evidence Graph script smoke tests, Freeze gate
 records check (C4), Frontend tests (Playwright), Indus
