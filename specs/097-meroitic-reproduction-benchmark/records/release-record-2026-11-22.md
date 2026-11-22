@@ -102,3 +102,14 @@ The released text is subject to the owner's queued traceability
 (AI slop / hallucination) check over all three programs. Any
 correction will go through a new deposit version, not a silent
 edit.
+
+## 7. Dated amendment, 2026-11-22 (slop check)
+
+§5 above is superseded in fact: ResearchGate was completed
+later on 2026-11-22 (~17:05 ET). Publication 418214318 was
+added with DOI 10.5281/zenodo.24449454 and the conforming
+PDF attached, verified on its live public page. §5 original
+text is preserved above. See
+records/slop-check-amendment-2026-11-22.md for the full
+Meroitic slop-check amendment, including the §4 concept-DOI
+imprecision note and the paper corrections prepared.
