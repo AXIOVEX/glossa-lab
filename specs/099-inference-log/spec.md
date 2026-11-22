@@ -113,6 +113,17 @@ Three deliverables, in dependency order:
   > the amended standings
   > (`records/inference-log-amendment-2026-11-22.md`);
   > this grounding text is not rewritten.
+  >
+  > **M048 pointer (2026-11-22):** M048's corrected
+  > battery result, produced under the F-4 commission,
+  > scored at the corrected battery's 2-point promotion
+  > threshold (score 2), and the re-adjudication RT2-08
+  > attached to that outcome reclassed M048 from U to I;
+  > the standings of record are **3 E + 66 I + 4 R +
+  > 3 P + 18 U = 94**. The log as amended carries the
+  > amended standings
+  > (`records/inference-log-amendment-2026-11-22.md`);
+  > this grounding text is not rewritten.
 - The filed bases of record are the audit package appendix
   (`APPENDIX-94.md`, filed 2026-11-20 from the program's
   anchor-support audit and canonical anchor register, updated

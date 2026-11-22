@@ -55,6 +55,21 @@ source-diversity flag as that record states them.
 > `records/adoption-aee-assessment.json`, and
 > `glossa-indus/map/map-data.json` are read under it as
 > well.
+>
+> **M048 pointer (2026-11-22):** the standings of record
+> are now **3 E + 66 I + 4 R + 3 P + 18 U = 94**: M048's
+> corrected battery result scored at the corrected
+> battery's 2-point promotion threshold, and the
+> re-adjudication RT2-08 attached to that outcome
+> reclassed M048 from U to I
+> (`specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md`);
+> the log as amended carries the amended standings
+> (`records/inference-log-amendment-2026-11-22.md`). This
+> pointer extends the governance above: the claim's
+> mirrors in `aee-claims.json`,
+> `records/adoption-aee-assessment.json`, and
+> `glossa-indus/map/map-data.json` are read under it as
+> well.
 *Falsifier:* a sign in the standings record absent from the
 log or present twice; a log entry whose reading, class, or
 flag differs from the standings record's row for that sign.

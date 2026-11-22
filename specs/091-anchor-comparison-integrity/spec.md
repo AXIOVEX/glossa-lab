@@ -341,3 +341,22 @@ reclassed from E to U on its remaining filed basis. The
 executed partition as amended is **3 E + 65 I + 4 R + 3 P +
 19 U = 94** (`records/f9-itemization-adjudication-2026-11-22.md`;
 the standings record as amended by its F-9 amendment).
+
+---
+
+## M048 re-adjudication note (2026-11-22)
+
+The partition stated in the F-9 note above moved once
+more. M048's corrected battery result was produced under
+the F-4 commission (score 2: positional PASS, DEDR PASS
+`exact_match_3`, bigram NOT_RUN) and met the corrected
+battery's 2-point promotion threshold; the
+re-adjudication that Red Team Round 2 finding RT2-08
+attached to that outcome, commissioned by the owner on
+2026-11-22, reclassed M048 from U to I on the parity
+with M089 stated in the standings supplement. The
+executed partition as amended is **3 E + 66 I + 4 R +
+3 P + 18 U = 94**
+(`records/m048-readjudication-2026-11-22.md`; the
+standings record as amended by its M048 re-adjudication
+amendment).

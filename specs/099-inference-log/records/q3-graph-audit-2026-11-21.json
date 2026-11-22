@@ -881,7 +881,7 @@
   },
   "M048": {
    "divergent": false,
-   "executed_class": "U",
+   "executed_class": "I",
    "primary": {
     "class_outcome": "unchanged",
     "destination": null,

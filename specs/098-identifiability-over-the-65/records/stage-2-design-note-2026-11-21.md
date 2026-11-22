@@ -60,3 +60,17 @@ under the itemization test the owner adopted
 (`specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md`).
 The Stage 1 figures in this note stand as executed at the
 populations they state.
+
+**M048 pointer (2026-11-22):** the population for future
+stages is 69 since the M048 re-adjudication of this date:
+M048 was reclassed from U to I on its filed
+corrected-battery result (score 2, the threshold RT2-08
+named), so the population is the 66 class I readings plus
+the 3 class E readings
+(`specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md`).
+The count matches the Stage 2 executed population by
+coincidence of number only: Stage 2 executed over 65 I +
+4 E, with M047 in the E arm and M048 outside the
+population, and the Stage 1 and Stage 2 figures in this
+note stand as executed at the populations they state. No
+stage is commissioned by this pointer.

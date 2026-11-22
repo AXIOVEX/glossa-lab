@@ -198,3 +198,35 @@ sentence "M047 stays E (VERIFIED AS FILED, provenance
 only)" is superseded by this amendment: the verification
 outcome stands as provenance, and the class moves under
 the itemization test, not under the strike rule.
+
+## M048 re-adjudication amendment (2026-11-22)
+
+**The RT2-08 threshold rule, executed.** The Round 2
+amendment to the standings supplement states the rule
+for the M048/M089 pair: both were judged by the corrected
+battery's 2-point promotion threshold; M089's class I
+rests on its filed corrected-battery result at that
+threshold; M048's class U rested on the absence of a
+qualifying filed result; and if M048's corrected battery
+result were produced and scored at the threshold, its
+class would have to be re-adjudicated. The result has
+since been produced under the F-4 commission
+(`records/m048-corrected-battery-result-2026-11-22.md`;
+run `study-20261122T075700Z-f40448`): score 2 —
+positional PASS, DEDR PASS (`exact_match_3`), bigram
+NOT_RUN (the pinned corpus is not held on the execution
+venue) — the promotion threshold met under the battery's
+own rule (a `not_run` never counts; the score is the
+number of passes). The re-adjudication commissioned by
+the owner on 2026-11-22 was executed the same day
+(`records/m048-readjudication-2026-11-22.md`): the
+qualifying filed result the Round 2 statement made the
+class turn on now exists, and on the M089 parity
+**M048 takes class I.** The executed partition as
+amended is **3 E + 66 I + 4 R + 3 P + 18 U = 94**. The
+Round 2 amendment's sentence for M048 ("its class rests
+on the absence of a qualifying filed result") is
+superseded by this amendment: the absence it named no
+longer holds. Nothing in this amendment disturbs §4's
+addendum rule or the F-9 amendment's itemization test;
+neither is engaged by a threshold re-adjudication.

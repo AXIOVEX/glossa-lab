@@ -7,10 +7,10 @@
 > The current standings are the register of 287 readings and the
 > strict core of 94 readings within it: 3 carry external-support claims on file (decomposed on re-verification: 2 partially verified, dictionary leg only (M124; M329 — its DEDR leg is verified at the print entry cited, the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved, and its filed Sanskrit pura leg fails); 1 not verifiable from lawfully reachable material (M330)) (all three are
 > recorded as NOT IDENTIFIABLE on the program's reported
-> identifiability test), 65 are internally motivated candidates
+> identifiability test), 66 are internally motivated candidates
 > (reading-level support not demonstrated; identifiability
 > untested), 4 requiring revalidation, 3 are reported as pending
-> expert review, and 19 with insufficient evidence for their
+> expert review, and 18 with insufficient evidence for their
 > proposed readings (M044, ku, among them since 2026-11-21: its filed DEDR leg was contradicted in the restored tree and its external-support claim was struck under the programme's addendum rule; and M047, min/mīn, since 2026-11-22: its Parpola proposal stands verified as filed as a prior proposal for the fish signs, but its filed basis holds no itemized external-support item under the itemization test adopted that day, and it was reclassed on its remaining basis).
 >
 > The package below is retained unchanged as the historical
