@@ -19,6 +19,17 @@
 > same day, when the outside claim behind its earlier standing was
 > checked against its named source and contradicted.
 
+> **Appended correction, November 22, 2026 (Red Team Round 5 —
+> RT5-03).** The counts sentence in the note above is dated:
+> (5, 65, 4, 3, 17) was the partition as executed by the
+> relabeling on 2026-11-21, before the M044 addendum
+> adjudication of the same date struck M044's claim and moved
+> it from the external-support class to the insufficient
+> class. The executed class counts of record are
+> **(4, 65, 4, 3, 18)**. M044's strike is annotated on its
+> row below; this note brings the head note current. The
+> annex above is not edited.
+
 Filed 2026-11-21 under the owner's order of that day (Glossa-Lab chat,
 Workstream D). This annex closes the gap recorded during preparation of
 the Co-scientist audit package for the 94 strict readings: the filed
