@@ -1,5 +1,19 @@
 # Eteocypriot Program — Execution Freeze Record
 
+> **Correction pointer (2026-11-21, Red Team Round 2 — RT2-13,
+> RT1-08, RT2-22):** this record's census statement that ICS 196
+> is "held complete", and its seal language for the held-out
+> set, are superseded. ICS 196 is held from secondary
+> reproductions (`records/ics196-custody-correction-2026-11-21.md`);
+> the held-out set is held out by procedural exclusion under
+> the delimitation of record — no seal was applied to material
+> the program does not hold. The E1 citation forms are
+> amendment 2's (`records/outcome-record-amendment-2-2026-11-21.md`
+> §§1–2). Corpus identity succession: executed bytes SHA-256
+> 5077285e… (this freeze's pin); Round 1 custody correction
+> 60125fcf…; Round 2 correction (corpus version 1.1.0)
+> 32b96f67….
+
 **Date:** 2026-11-20. **Program:** Spec 096 — Eteocypriot
 Program, Stage 1 (corpus assembly and freeze). **Commission:**
 the owner lifted the execution gate in chat on 2026-11-20 ("in
