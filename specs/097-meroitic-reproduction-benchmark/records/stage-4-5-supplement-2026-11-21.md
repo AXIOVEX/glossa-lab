@@ -1,5 +1,26 @@
 # Spec 097 Stage 4.5 — Supplement: the de Voogt Reply, the Tranche Standing, and the Governing Gate
 
+> **Correction pointer (2026-11-21, Red Team Round 3 —
+> RT3-04):** the following statements in this supplement are
+> superseded by
+> `records/stage-4-5-supplement-correction-2026-11-21.md`,
+> which governs where the two differ: the header's two
+> governed-file citations (neither file exists; the governing
+> records are named in the correction record §4); §1's
+> "Claude Rilly has never replied" and §2's "not confirmed by
+> either named author" (Rilly was not sent a letter;
+> correction record §3); §2's "design's registered trigger"
+> and §3's tranche gate, including the quoted custody
+> condition and the governing statement built on it (both
+> withdrawn; the governing gate statement is the correction
+> record §2); and §4's statements of the stages' computation
+> bases — Stage 4.2 "not the acquired corpus", Stage 4.3 on
+> a "repository-fixture corpus (551 tokens)", "the acquired
+> corpus entered at Stage 4.4", and "Stage 4.2 — unaffected
+> by the corpus-license question" (the bases as executed are
+> restated in the correction record §1). A reader of this
+> supplement alone should read the correction record with it.
+
 **Date: 2026-11-21. Filed under Red Team Round 1 (findings
 RT1-11, RT1-12, RT1-32), each adjudicated APPLY on 2026-11-21.
 The tranche design (`records/stage-4-5-anchor-tranche-design-2026-11-20.md`),

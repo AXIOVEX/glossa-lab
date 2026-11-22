@@ -1,5 +1,19 @@
 # Spec 097 Corpus Custody — Supplement: Chronology and the Objection Undertaking
 
+> **Correction pointer (2026-11-21, Red Team Round 3 —
+> RT3-04):** this supplement's §2 extension of the objection
+> undertaking (the Stage 4.4 outcome record and its results
+> file as the undertaking's objects, as records depending on
+> "the acquired corpus"), and the custody filename cited in
+> its header below (a file that does not exist; the custody
+> record is `records/custody-record-2026-11-20.md`), are
+> superseded by `records/custody-erratum-2026-11-21.md`,
+> which governs where the two differ: the undertaking's
+> objects are the benchmark outcome record,
+> `records/leg-b-results.json`, `records/leg-c-summary.json`,
+> and citations of them, and the acquired corpus carries its
+> own separate, licensed basis.
+
 **Date: 2026-11-21. Filed under Red Team Round 1, finding
 RT1-28, adjudicated APPLY on 2026-11-21. The custody record
 (`records/corpus-custody-and-license-2026-11-20.md`) is NOT

@@ -1,5 +1,15 @@
 # Meroitic Program — Citation Discipline Record (Spec 097)
 
+> **Correction pointer (2026-11-21, Red Team Round 3 —
+> RT3-04):** this record's §1 basis statement for A8 (the
+> dim-100/120 vocabulary header counts) and its §6
+> attribution of the B1 gloss pair to freeze v1 are
+> superseded by
+> `records/citation-discipline-erratum-2026-11-21.md`, whose
+> own §2 freeze citation is corrected by that erratum's
+> Round 3 note (RT3-07). Citations of Leg A bases and of the
+> B1 glosses follow the erratum as corrected.
+
 **Date: 2026-11-21. Filed under Red Team Round 1 (findings
 RT1-29, RT1-33, RT1-34, RT1-44, RT1-45, RT1-46, RT1-47,
 RT1-48, RT1-49, RT1-56), each adjudicated APPLY on 2026-11-21.
@@ -78,8 +88,7 @@ sequence executed on a single calendar day, 2026-11-20; every
 ordering in a self-hosted record. That is disclosed, not
 cured, by this sentence.
 
-## 5. Stage 4.2 — framework-dependence stated at the point
-## of citation (RT1-47)
+## 5. Stage 4.2 — framework-dependence stated at the point of citation (RT1-47)
 
 The affiliation test's evidence base is substantially one
 scholarly tradition testing itself, and citations of the

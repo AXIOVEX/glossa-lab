@@ -112,3 +112,18 @@ the send record for the tranche; and
 supplement's header carries the same wrong custody filename;
 it is corrected by the same erratum (see the custody erratum
 record of this date).
+
+## 5. Round 3 note: the Stage 4.2 gloss in §1 (RT3-21)
+
+Section 1's per-stage assessment calls Stage 4.2's outcome
+"an internal-consistency result (registered affiliation R3
+not displaced)". That gloss is softer than its source and is
+not to be quoted without the outcome record's verdict head.
+The Stage 4.2 outcome record's verdict reads, verbatim:
+**"UNDECIDABLE AT THIS POWER. R3 (isolate / null) is
+recorded as not displaced, and as nothing more"** — with
+freeze v2's power statement forbidding any reading of the
+double failure as a positive classification. Citations of
+Stage 4.2 follow the outcome record's wording. The §1
+characterizations of Stages 4.3 and 4.4 stand as filed; they
+match their records.
