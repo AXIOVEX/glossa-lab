@@ -30,7 +30,7 @@ papers directory).
 - Record: 24449060
 - DOI: 10.5281/zenodo.24449060
 - Concept DOI: 10.5281/zenodo.24449059
-- Version: 1.0.0
+- Version: 1.0.0 as deposited
 - Licence: cc-by-4.0
 - Access: open access
 - Deposited file: pierson_2026_eteocypriot_program_preprint_v1.pdf,
@@ -44,13 +44,28 @@ papers directory).
 
 The deposited PDF carries its own DOI.
 
+### Naming-standard note
+
+The deposit predates the owner's file naming and version
+standard of 2026-11-22 16:27 ET by hours. Under the owner's
+ruling of 2026-11-22 16:32 ET the deposit stands as-is and
+conformance applies from its next version forward; there is
+no redeposit for naming alone.
+
+During the conformance pass an unpublished new-version draft
+(id 24449451) was created and left unpublished under that
+ruling. The local TeX stands byte-identical to the deposited
+TeX.
+
+A link sweep of the paper found zero BitConcepts link targets.
+
 ## 3. Academia
 
 - Work: 181628208
 - URL: https://www.academia.edu/181628208/Too_Thin_to_Test_A_Preregistered_Pilot_Study_of_Eteocypriot_Bilingual_Alignment_Its_Registered_Verdicts_and_the_Corrections_They_Required
 
 Verified on the public page: title, abstract, PDF attachment,
-and DOI displayed.
+and DOI displayed. Untouched by the conformance pass.
 
 ## 4. Co-scientist
 
@@ -58,13 +73,14 @@ An independent-assessment brief was submitted on 2026-11-22.
 
 - Session: https://www.academia.edu/co-scientist/chats/34ae4c8f-bdb4-40ec-9989-2e24cd0697e1
 
+The brief cites DOI 10.5281/zenodo.24449060, which stands.
 The brief, a state appendix, and the paper PDF were attached.
 No follow-ups were sent.
 
 ## 5. ResearchGate
 
 PENDING. Blocked on the owner's one-time sign-in in the
-automation profile. Not attempted in this run.
+automation profile. Not attempted.
 
 ## 6. Standing note
 
