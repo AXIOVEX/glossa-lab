@@ -14612,3 +14612,34 @@ Ledger/matrix/map equivalence gate, Shell wrappers
 (macos-latest, ubuntu-latest, windows-latest) — all success.
 Adjudication: RED-TEAM-ROUND-3-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 3, Indus corrections (Specs 091/098 + top level)
+
+The M044 adjudication record gains the one-paragraph
+amendment stating the M329 distinction on its own face —
+numbering alignment verified at entries 7, 340, 399, 1651;
+1638 inside the verified neighbourhood; 4524 demonstrably
+diverged — an amendment, not a re-adjudication; the outcome
+stands (RT3-03). The preprint supersession banners
+(pierson_2026_indus_preprint and seal_translation_report,
+.md and .tex) carry the standings clause in dated form
+instead of the stale 5 E / 17 U as current (RT3-05). The
+Round 2 entries for PR #647, #648, #650 and #652 gain their
+merge hashes and per-job CI verdicts from the check runs on
+their heads, and PR #645's bare assertion is substantiated
+the same way (RT3-09). The standings supplement gains a head
+correction pointer to the current partition (RT2-02
+residue); the falsifiers annex gains Round 3 row annotations
+(M329, M124 — RT3-13); the top README's Phase-109 note gains
+the dated v11 update clause (RT3-14); the Spec 098 Stage 2
+correction record gains M044's Stage 1 posture in full
+(RT3-15); the register reconciliation's §(c) tally is
+dispositioned over all 49 citations (RT3-16). CI on the
+substance head e8f50a9b6: 10/10 per job — Backend tests
+(pytest), Cloud image smoke (Spec 083), Evidence Graph script
+smoke tests, Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks, Ledger/matrix/
+map equivalence gate, Shell wrappers (macos-latest,
+ubuntu-latest, windows-latest) — all success. Adjudication:
+RED-TEAM-ROUND-3-ADJUDICATION.md (goal record). Execution
+venue: tower-compute.
