@@ -1159,3 +1159,55 @@ open.
 **AI disclosure:** this addendum was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+## 9. Owner decisions — second batch, 2026-11-22
+
+The owner took the next three owner-decision items of §6
+in the Glossa-Lab chat on 2026-11-22. The acts are
+recorded here; the remaining items (OD-8 to OD-22) stand
+open.
+
+- **OD-5 (I-21) — AUTHORISED IN SPLIT FORM, 11:36 ET.**
+  The motif-claims rerun is authorised and in
+  preparation; the per-seal iconography deposit is held
+  until Miller's reply on the F-1 Holdat permission
+  track. No deposit is made under this act while the
+  reply is outstanding.
+- **OD-6 (I-23) — COMMISSIONED, 11:37 ET.** The
+  inspection of Spec 099's 25 ambiguous items for
+  unstated inputs, with a published basis-survival view,
+  is commissioned. Execution runs separately; this
+  addendum records the commission only.
+- **OD-7 (I-24) — ADOPTED, 11:40 ET.** The Indus
+  assessment's strongest public formulation is adopted
+  as the program's canonical public wording for the
+  Indus standings. The canonical text, quoted verbatim
+  from the refresh reassessment
+  (`indus-refresh-reassessment-2026-11-22.md`, the Indus
+  input pinned by hash in §0), is:
+
+  > We maintain a register of 94 candidate Indus sign
+  > readings. Its classes describe filed bases and
+  > review status, not calibrated probabilities of
+  > correctness. Source checks have rejected some
+  > attributions, while other claims remain unverified
+  > or unreproducible from the tracked record. The
+  > executed identifiability screening has identified
+  > no reading; four candidates qualified for further
+  > sealed scoring, whose maximum interpretation is
+  > discrimination on pseudo-held-out data. The Indus
+  > script is not deciphered, and no reading in this
+  > register is established.
+
+  The counts it carries are those of record at adoption
+  (94 = 3 E + 66 I + 4 R + 3 P + 18 U; the four
+  candidates are the Stage 2 PROCEED signs M089, M267,
+  M347, M375). Program public surfaces adopt the
+  canonical wording at their next update; the Axiovex
+  Indus page's current wording already matches its
+  substance as of the 2026-11-22 pass. No publication
+  is effected by this addendum.
+
+**AI disclosure:** this addendum was executed by an AI
+agent (Muse, via Muse) at the direction of Tristen
+Pierson, per constitution sec. VI.
