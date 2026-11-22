@@ -33,11 +33,23 @@ Frozen definitions (spec.md section 3):
 
 Modes:
 
-- `record`: requires `--deposit FILE` (an existing deposit
-  file) and `--deposit-record CITATION` (the deposit
-  record's citation). Without them the gate is closed: the
-  tool prints GATE CLOSED and exits 3, computing nothing.
-  This is claim C100-1's mechanism, not a courtesy.
+- `record`: requires `--deposit FILE` and
+  `--deposit-record PATH`. The gate is mechanical
+  (RT6-C2, 2026-11-22): record mode refuses (GATE CLOSED,
+  exit 3, computing nothing) UNLESS all of: (a) the deposit
+  path resolves to the registered deposit path
+  `specs/100-motif-claims-rerun/records/iconography-deposit-v1.csv`
+  inside the repository rooted at `--root`; (b)
+  `--deposit-record` names a repo-relative path to a file
+  that exists in that tree; (c) that record file states the
+  deposit CSV's SHA-256 and the stated hash matches the
+  actual deposit file; (d) that record file carries a line
+  beginning `Permission basis:` that states a granting
+  Miller reply as its basis: the line must contain a
+  granting term and no refusal term (see
+  `gate_record_check`). Any other CSV, any other path, or
+  any bare citation string does not open the gate. This is
+  claim C100-1's mechanism, not a courtesy.
 - `proof`: synthetic labels only, generated deterministically
   in memory from the real population's seal ids; never reads
   a deposit; every output carries the banner
@@ -57,6 +69,7 @@ import argparse
 import csv
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -93,6 +106,75 @@ PROOF_ICONS = [
     "synthetic-unicorn",
     "synthetic-none",
 ]
+
+REGISTERED_DEPOSIT_REL = Path(
+    "specs/100-motif-claims-rerun/records/iconography-deposit-v1.csv")
+
+# RT6-C2 gate rule for the `Permission basis:` line (spec
+# section 5, deposit-landing step, as amended 2026-11-22):
+# the line must contain a granting term and must contain
+# no refusal term. A line recording refusal or silence
+# therefore never satisfies the gate.
+GRANTING_TERMS = (
+    "grants", "granted", "granting", "grant of permission",
+    "confirms permission", "permission confirmed",
+    "permission is granted",
+)
+REFUSAL_TERMS = (
+    "refus", "deni", "silence", "silent", "no reply",
+    "not granted", "does not grant", "no permission",
+    "withheld", "without permission",
+)
+
+
+def gate_record_check(root: Path, deposit: Path | None,
+                      deposit_record: str | None) -> str | None:
+    """Return None if the mechanical gate opens, else the
+    refusal reason. Checks (a)-(d) of the module docstring,
+    in order; every failure is GATE CLOSED."""
+    if deposit is None or deposit_record is None or not str(deposit_record).strip():
+        return "record mode requires a deposit file and its deposit record"
+    # (a) deposit must resolve to the registered path in-tree
+    registered = (root / REGISTERED_DEPOSIT_REL)
+    try:
+        if deposit.resolve() != registered.resolve():
+            return ("deposit path is not the registered deposit path "
+                    + str(REGISTERED_DEPOSIT_REL))
+    except OSError:
+        return "deposit path cannot be resolved"
+    if not deposit.is_file():
+        return "registered deposit file does not exist"
+    # (b) deposit-record must be a repo-relative path in-tree
+    rec_rel = Path(str(deposit_record))
+    if rec_rel.is_absolute():
+        return "--deposit-record must be a repo-relative path"
+    rec_path = (root / rec_rel)
+    try:
+        rec_resolved = rec_path.resolve()
+        root_resolved = root.resolve()
+        if root_resolved not in rec_resolved.parents and rec_resolved != root_resolved:
+            return "--deposit-record path escapes the repository tree"
+    except OSError:
+        return "--deposit-record path cannot be resolved"
+    if not rec_path.is_file():
+        return "deposit record file does not exist in the tree"
+    text = rec_path.read_text(encoding="utf-8", errors="replace")
+    # (c) record must state the deposit CSV's actual SHA-256
+    actual = hashlib.sha256(deposit.read_bytes()).hexdigest()
+    stated = {m.group(0).lower() for m in re.finditer(r"\b[0-9a-fA-F]{64}\b", text)}
+    if actual not in stated:
+        return "deposit record does not state the deposit CSV's SHA-256"
+    # (d) Permission basis line: granting term, no refusal term
+    basis_lines = [ln.strip() for ln in text.splitlines()
+                   if ln.strip().startswith("Permission basis:")]
+    if not basis_lines:
+        return "deposit record carries no 'Permission basis:' line"
+    basis = basis_lines[0].lower()
+    if any(term in basis for term in REFUSAL_TERMS):
+        return "'Permission basis:' line records refusal or silence, not a grant"
+    if not any(term in basis for term in GRANTING_TERMS):
+        return "'Permission basis:' line states no granting Miller reply"
+    return None
 
 
 class PathDisagreement(Exception):
@@ -235,16 +317,16 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--deposit", type=Path, default=None,
                         help="deposit CSV (record mode, required)")
     parser.add_argument("--deposit-record", default=None,
-                        help="citation of the deposit record (record mode, required)")
+                        help="repo-relative path to the deposit record file (record mode, required)")
     parser.add_argument("--out", type=Path, default=None,
                         help="write the outcome JSON here (default: stdout only)")
     args = parser.parse_args(argv)
 
     if args.mode == "record":
-        if args.deposit is None or not args.deposit.is_file() \
-                or not args.deposit_record:
-            print("GATE CLOSED: record mode requires an existing deposit "
-                  "file and its record citation. The deposit is held "
+        reason = gate_record_check(args.root, args.deposit,
+                                   args.deposit_record)
+        if reason is not None:
+            print(f"GATE CLOSED: {reason}. The deposit is held "
                   "under flag F-1 (Spec 100, claim C100-1); nothing "
                   "has been computed.")
             return 3

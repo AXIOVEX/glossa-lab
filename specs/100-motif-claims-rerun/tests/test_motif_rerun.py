@@ -1,4 +1,4 @@
-"""Spec 100 — test cases TC-100-01..TC-100-06.
+"""Spec 100 — test cases TC-100-01..TC-100-09.
 
 Implemented against the pipeline of record
 (`tools/motif_rerun.py`, `tools/deposit_extract.py`).
@@ -15,6 +15,8 @@ The pytest process exit code is the payload verdict.
 from __future__ import annotations
 
 import hashlib
+import os
+import shutil
 import importlib.util
 import json
 import subprocess
@@ -45,6 +47,47 @@ MARGINALS_634 = {
 }
 
 
+
+def _record_run(root, deposit=None, record=None, out=None):
+    cmd = [sys.executable, str(TOOLS / "motif_rerun.py"),
+           "--mode", "record", "--root", str(root)]
+    if deposit is not None:
+        cmd += ["--deposit", str(deposit)]
+    if record is not None:
+        cmd += ["--deposit-record", str(record)]
+    if out is not None:
+        cmd += ["--out", str(out)]
+    return subprocess.run(cmd, capture_output=True, text=True)
+
+
+def _simulated_tree(tmp_path):
+    """A temp repo tree: real population files symlinked in,
+    a header-only deposit at the registered path, and a
+    deposit record stating its hash + a granting basis."""
+    root = tmp_path / "repo"
+    (root / "outputs").mkdir(parents=True)
+    for name in ("phase100_full_corpus.json",
+                 "phase114_full_seal_translations.json"):
+        os.symlink(ROOT / "outputs" / name, root / "outputs" / name)
+    dep_rel = Path("specs/100-motif-claims-rerun/records/iconography-deposit-v1.csv")
+    dep = root / dep_rel
+    dep.parent.mkdir(parents=True)
+    dep.write_text("cisi_id,iconography\n", encoding="utf-8")
+    digest = hashlib.sha256(dep.read_bytes()).hexdigest()
+    rec_rel = "specs/100-motif-claims-rerun/records/deposit-record-fixture.md"
+    rec = root / rec_rel
+    return root, dep, rec_rel, rec, digest
+
+
+def _write_record(rec, digest, basis_line):
+    rec.write_text(f"# fixture deposit record\nSHA-256: {digest}\n{basis_line}\n",
+                   encoding="utf-8")
+
+
+GRANT_LINE = ("Permission basis: Miller reply of record grants "
+              "permission for the statistics-and-deposit basis.")
+
+
 def test_tc100_01_gate_closed_without_deposit(tmp_path):
     """C100-1: record mode without a deposit refuses, exit 3,
     GATE CLOSED, and writes no outcome."""
@@ -66,6 +109,32 @@ def test_tc100_01_gate_closed_without_deposit(tmp_path):
     assert proc.returncode == 3
     assert "GATE CLOSED" in proc.stdout
     assert not out.exists()
+
+
+
+def test_tc100_01_foreign_deposit_and_bogus_citation_refused(tmp_path):
+    """RT6-C2: an existing foreign CSV + any citation string does
+    NOT open the gate; neither does a registered-path deposit
+    with a bogus citation / hash-less / refusal record."""
+    out = tmp_path / "outcome.json"
+    foreign = tmp_path / "foreign.csv"
+    foreign.write_text("cisi_id,iconography\nX-1,tiger\n", encoding="utf-8")
+    proc = _record_run(ROOT, deposit=foreign, record="any citation string", out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout
+    assert not out.exists()
+
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path)
+    # bogus citation: no such in-tree record file
+    proc = _record_run(root, deposit=dep, record="specs/100-motif-claims-rerun/records/nope.md", out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout and not out.exists()
+    # record file without the deposit's SHA-256
+    _write_record(rec, "0" * 64, GRANT_LINE)
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout and not out.exists()
+    # record file with correct hash but a refusal basis line
+    _write_record(rec, digest, "Permission basis: Miller reply refuses permission.")
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout and not out.exists()
 
 
 def test_tc100_02_fixture_arithmetic():
@@ -166,8 +235,8 @@ def test_tc100_05_missing_label_handling():
 def test_tc100_06_extractor_pin_and_schema(tmp_path):
     """C100-1/C100-6: the deposit extractor refuses a source
     whose SHA-256 is not the pin (exit 2, nothing written) and
-    extracts a schema-correct source under its true pin, one
-    row per seal, iconography from the seal's first row."""
+    refuses a non-pinned source even under its own hash
+    (RT6-H3); the schema leg is checked via extract()."""
     src = tmp_path / "source.csv"
     src.write_text(
         "cisi_number,position,letters,iconography,site\n"
@@ -184,13 +253,86 @@ def test_tc100_06_extractor_pin_and_schema(tmp_path):
     assert "PIN MISMATCH" in proc.stdout
     assert not out.exists()
 
-    pin = hashlib.sha256(src.read_bytes()).hexdigest()
+    # RT6-H3: a non-pinned source is refused even with its own
+    # hash as --pin (the pin is no longer caller-supplied).
+    own = hashlib.sha256(src.read_bytes()).hexdigest()
+    assert own != de.PIN_OF_RECORD and len(de.PIN_OF_RECORD) == 64
     proc = subprocess.run(
         [sys.executable, str(TOOLS / "deposit_extract.py"),
-         "--source", str(src), "--pin", pin, "--out", str(out)],
+         "--source", str(src), "--pin", own, "--out", str(out)],
+        capture_output=True, text=True)
+    assert proc.returncode == 2
+    assert "PIN MISMATCH" in proc.stdout
+    assert not out.exists()
+    # No --pin: the embedded constant is used; same refusal.
+    proc = subprocess.run(
+        [sys.executable, str(TOOLS / "deposit_extract.py"),
+         "--source", str(src), "--out", str(out)],
+        capture_output=True, text=True)
+    assert proc.returncode == 2
+    assert "PIN MISMATCH" in proc.stdout
+    assert not out.exists()
+    # Schema leg as a direct extract() unit check.
+    seals = de.extract(src)
+    assert seals == {"X-0002": "tiger", "X-0001": ""}
+
+
+def test_tc100_07_no_standing_change_without_adjudication(tmp_path):
+    """C100-4: a gate-opening rerun outcome carries no standing,
+    ledger, or register change, and mutates no package file."""
+    watched = [SPEC_DIR / "claims.md", SPEC_DIR / "spec.md"]
+    before = {f: hashlib.sha256(f.read_bytes()).hexdigest() for f in watched}
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path)
+    _write_record(rec, digest, GRANT_LINE)
+    out = tmp_path / "outcome.json"
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 0, proc.stdout
+    outcome = json.loads(out.read_text(encoding="utf-8"))
+    flat = json.dumps(outcome).lower()
+    for forbidden in ("standing", "ledger", "register"):
+        assert forbidden not in flat
+    after = {f: hashlib.sha256(f.read_bytes()).hexdigest() for f in watched}
+    assert before == after
+
+
+def test_tc100_08_proof_banner_and_synthetic_labels(tmp_path):
+    """C100-7: proof mode carries the banner and uses only the
+    deterministic synthetic label set."""
+    out = tmp_path / "proof.json"
+    proc = subprocess.run(
+        [sys.executable, str(TOOLS / "motif_rerun.py"),
+         "--mode", "proof", "--root", str(ROOT), "--out", str(out)],
         capture_output=True, text=True)
     assert proc.returncode == 0
-    rows = out.read_text(encoding="utf-8").strip().splitlines()
-    assert rows[0] == "cisi_id,iconography"
-    assert rows[1] == "X-0001,"
-    assert rows[2] == "X-0002,tiger"
+    assert "PROOF - NOT A RESULT" in proc.stdout
+    assert "PROOF - NOT A RESULT" in out.read_text(encoding="utf-8")
+    pop = mr.load_population_a(ROOT / "outputs" / "phase100_full_corpus.json")
+    labels = mr.synthetic_labels(pop)
+    assert set(labels.values()) <= set(mr.PROOF_ICONS)
+    assert all(v.startswith("synthetic-") for v in labels.values())
+
+
+def test_tc100_09_miller_reply_trigger_states(tmp_path):
+    """C100-6: grant opens the mechanical gate; refusal and
+    silence keep it closed (exit 3)."""
+    out = tmp_path / "outcome.json"
+    # grant -> gate opens, record mode proceeds
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path / "grant")
+    _write_record(rec, digest, GRANT_LINE)
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 0, proc.stdout
+    # refusal -> gate closed
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path / "refusal")
+    _write_record(rec, digest, "Permission basis: Miller reply refuses permission.")
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout
+    # silence -> gate closed (basis line recording silence)
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path / "silence")
+    _write_record(rec, digest, "Permission basis: silence to date; no reply received.")
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout
+    # silence -> no basis line at all
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path / "none")
+    rec.write_text(f"# fixture\nSHA-256: {digest}\n", encoding="utf-8")
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout

@@ -21,6 +21,8 @@ Nothing is computed for the record before the deposit: the rerun executes only o
 
 The rerun replays the 13 animal-motif claims exactly as filed: the 1,670-seal population of the tracked corpus files, the filed motif for each sign (backend/reports/INDUS_FINAL_ANCHORS.json: "Exclusive to <animal> seals (lift > 5.0)"), the filed threshold lift > 5.0, and the frozen motif-match and lift definitions of spec section 3; no revised threshold, revised motif assignment, or exploratory test is part of the rerun of record, and M063's filed corrected figures (3 of 18 gharial-motif seals, lift 4.35 against the 5.0 threshold) remain visible as a failed specification whatever the rerun finds.
 
+*Correction note (2026-11-22, Red Team Round 6, RT6-M7; original claim text above preserved):* the phrase "3 of 18 gharial-motif seals" mislabels the denominator: 18 is the sign total (a+b), and the gharial-motif total (a+c) is 64. Corrected wording: "3 of its 18 seals carry the gharial motif (gharial-motif seals total 64)".
+
 *Falsifier:* A rerun table computed on a different population, threshold, or motif assignment; a revised-threshold figure presented as the rerun's verdict; the M063 row omitting its filed 4.35.
 *Does not establish:* That a reproduced association would pick the right word among competing readings for the same animal; the tables test association only.
 
