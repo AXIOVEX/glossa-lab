@@ -5,7 +5,7 @@
 >
 > The current paper is version 11 (DOI: 10.5281/zenodo.24376384).
 > The current standings are the register of 287 readings and the
-> strict core of 94 readings within it: 5 carry external-support claims on file, unverified (all five are
+> strict core of 94 readings within it: 5 carry external-support claims on file (decomposed on re-verification: 1 verified as filed, provenance only (M047); 2 partially verified, dictionary leg only (M124; M329, whose filed Sanskrit pura leg fails); 2 not verifiable from lawfully reachable material (M044, M330)) (all five are
 > recorded as NOT IDENTIFIABLE on the program's reported
 > identifiability test), 65 are internally motivated candidates
 > (reading-level support not demonstrated; identifiability
