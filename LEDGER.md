@@ -14421,6 +14421,17 @@ above (2026-11-20 entry) now carries the custody caveat in the
 same sentence (RT1-28). Adjudication:
 RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09, extended to this entry on the same
+defect):** PR #647, merged at ac917db5d (head 92cbf4c36).
+Per-job verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success; Freeze
+gate records check (C4) success; Frontend tests (Playwright)
+success; Indus public validation checks success;
+Ledger/matrix/map equivalence gate success; Shell wrappers
+(macos-latest) success; Shell wrappers (ubuntu-latest)
+success; Shell wrappers (windows-latest) success — 10/10.
 
 ## 2026-11-21 — Red Team Round 2, Eteocypriot corrections (Spec 096)
 
@@ -14441,6 +14452,17 @@ remaining in public git history at 173882a2 (RT2-12). spec.md
 carries dated amendment pointers at §§2–3 (RT2-24).
 Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09, extended to this entry on the same
+defect):** PR #648, merged at 29e6febff (head 6453d2116).
+Per-job verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success; Freeze
+gate records check (C4) success; Frontend tests (Playwright)
+success; Indus public validation checks success;
+Ledger/matrix/map equivalence gate success; Shell wrappers
+(macos-latest) success; Shell wrappers (ubuntu-latest)
+success; Shell wrappers (windows-latest) success — 10/10.
 
 ## 2026-11-21 — Red Team Round 2, Spec 098 corrections
 
@@ -14457,6 +14479,17 @@ execution freeze annex carries the population amendment
 carries the head population pointer (71 → 70 → 69) (RT1-17).
 Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09):** PR #650, merged at 7cdbfd866 (head
+283ed3859). Per-job verdicts from the check runs on the PR
+head: Backend tests (pytest) success; Cloud image smoke
+(Spec 083) success; Evidence Graph script smoke tests
+success; Freeze gate records check (C4) success; Frontend
+tests (Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success; Shell
+wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10.
 
 ## 2026-11-21 — Red Team Round 1, Indus corrections (PR #645) — entry recorded retroactively (RT2-09)
 
@@ -14473,8 +14506,18 @@ restored tree; M329/4524 tree-vs-print numbering flagged),
 Stage 4 status record, adjudication supplement, Spec 093
 closure-qualifier addendum, Spec 098 Stage 2 design note,
 ANCHOR_STATUS_AUDIT supersession note, README surfaces
-corrected. CI: 10/10 per job at merge. Recorded 2026-11-21
-under Red Team Round 2, finding RT2-09.
+corrected. Recorded 2026-11-21 under Red Team Round 2,
+finding RT2-09. **CI verdicts (substantiated 2026-11-21,
+Red Team Round 3 — RT3-09):** per-job verdicts from the
+check runs on the PR head 2cfa95e9d: Backend tests (pytest)
+success; Cloud image smoke (Spec 083) success; Evidence
+Graph script smoke tests success; Freeze gate records check
+(C4) success; Frontend tests (Playwright) success; Indus
+public validation checks success; Ledger/matrix/map
+equivalence gate success; Shell wrappers (macos-latest)
+success; Shell wrappers (ubuntu-latest) success; Shell
+wrappers (windows-latest) success — 10/10. (This replaces
+the bare "10/10 per job" assertion as first recorded.)
 
 ## 2026-11-21 — Red Team Round 2, Indus corrections (Specs 091/093 + top level)
 
@@ -14498,6 +14541,17 @@ section heading are corrected (RT1-53) and both README
 standings decompositions are brought current (RT1-02).
 Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09):** PR #652, merged at 2d7180715 (head
+5eed2b29a). Per-job verdicts from the check runs on the PR
+head: Backend tests (pytest) success; Cloud image smoke
+(Spec 083) success; Evidence Graph script smoke tests
+success; Freeze gate records check (C4) success; Frontend
+tests (Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success; Shell
+wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10.
 
 ## 2026-11-21 — Red Team Round 3, Meroitic corrections (Spec 097)
 

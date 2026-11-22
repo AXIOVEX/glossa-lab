@@ -219,3 +219,23 @@ of the charge is recorded here:
 - **M048.** No corrected battery result is filed for this sign;
   see the standings supplement's Round 2 amendment for the
   threshold statement applied to M048 and M089.
+
+## Round 3 row annotations (2026-11-21)
+
+- **M329 (poṉ).** Two annotations its row above does not
+  carry. (i) Its DEDR leg (entry 4524) is verified at the
+  print entry cited (2nd-edition p. 404 reproduction: poṉ,
+  'gold'); the restored tree's entry 4524 is a different
+  entry (a 2-row bark entry), and the tree/print numbering
+  divergence is unresolved (register reconciliation §(c)).
+  (ii) Its Sanskrit pura leg fails: pura means a stronghold
+  or city, not the filed gloss (external-support
+  re-verification record, PR #633). The claim stands PARTIALLY
+  VERIFIED on those two legs' combined posture, as the
+  standings records state.
+- **M124 (kuTam).** Its DEDR entry (1651, kuṭam, 'waterpot')
+  is one of the DEDR re-verification pass's three exact
+  attestations — the cited entry attests the filed form and
+  gloss in the restored tree (register reconciliation §(c)).
+  The row's other legs stand as the re-verification record
+  states them (PARTIALLY VERIFIED overall).

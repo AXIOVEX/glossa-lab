@@ -1,5 +1,17 @@
 # Indus Program — Standings Supplement (Red Team Round 1)
 
+> **Correction pointer (2026-11-21, Red Team Round 3 —
+> RT2-02 residue):** the standings line below ("5 E + 65 I +
+> 4 R + 3 P + 17 U = 94") and §1's heading ("The five E
+> rows") state the partition as this supplement filed it.
+> The M044 adjudication of 2026-11-21 (Red Team Round 2;
+> `records/m044-addendum-adjudication-2026-11-21.md`) struck
+> M044's claim after this supplement's head text was written:
+> **the current partition is 4 E + 65 I + 4 R + 3 P + 18 U =
+> 94**, Arm E is M047, M124, M329, M330, and §1's M044 row is
+> read with this supplement's appended Round 2 amendment,
+> which states the act at the tail.
+
 **Date: 2026-11-21. Filed under Red Team Round 1 (findings
 RT1-02, RT1-14, RT1-15, RT1-16, RT1-20, RT1-37), adjudicated
 2026-11-21. This supplement annotates the standings of the
