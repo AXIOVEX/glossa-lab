@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1017,
+  "claims_total": 1025,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 993,
+   "draft": 1001,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "8a521d407a5e0895c024cf3eca92050b3967d65e63d0bd8836f56d8421c47875",
-   "ledger_lines": 1048,
+   "ledger_sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
+   "ledger_lines": 1056,
    "ledger_date": "2026-11-21",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "22bcb79215604c2f03a2fb33b722a24f871f7e486a7293b469cbc0f89c061826",
+   "matrix_sha256": "124651709c42dc7ef2cca35934f43cf5d0d429c8e9565175248b9afcbb024366",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "3d71c9ac4ef5240dfee79720f1b07b9d342f14f2cb49f24f1ea87ea79264d3f7",
-   "comparison_sha256": "b23c6d1856033fdf25319ad8a5919d4a713e4fa5c8e6aeecc487b6d6f7166613",
-   "settling_canonical_sha256": "073d888fa145729bf3b6216ff9a84fc26cb6fff69c91ed797b06442cb1a0b970"
+   "assignment_sets_sha256": "3f2d97d7f4581e90756d463274dddd4206e519e801412a6185c821437c746274",
+   "comparison_sha256": "cb56c50a38a5fc4e412ddbf2bc49073fced85afe796360c0f5fee3a0560954c6",
+   "settling_canonical_sha256": "6cd5555961406fe70f04d1ec9c9fc916bca06a9ff56ac02c10386f4e72820801"
   }
  },
  "elements": [
@@ -8202,6 +8202,70 @@
    "kind": "claim",
    "id": "098-identifiability-over-the-65/C098-1",
    "statement": "Nothing is scored before the freeze and the seal: no held-out inscription is revealed to the scoring path, and no scoring-path code runs on development data for this study, before the freeze record is committed and the Stage 1 seal record (held-out count and SHA-256 only) is committed; the held-out list is released to the scoring path exactly once, at scoring, and that release is recorded. This does not establish: that the held-out material is pristine against the candidates' historical derivation; that is C098-6's separate, capped question.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-6",
+   "statement": "Cycles are computed, not asserted: the completion record states the strongly connected components of the log's (b)-graph (named-target edges) as computed, and lists the (b) items whose targets the filed bases do not name as open ends; no record of this package describes the dependency structure among the 94 as acyclic or as cyclic beyond that computation and that list. This does not establish: that an unnamed-target edge conceals no cycle; the record states the limit on its face, which is what replaces the dependency record's 'not established in either direction' with a bounded, checkable statement.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-1",
+   "statement": "The log carries every one of the 94, exactly once, as the standings record states them: every strict-core reading in the executed standings (the WS2 relabel execution record: 5 E + 65 I + 4 R + 3 P + 17 U) appears exactly once in the inference log, with its sign, its reading as recorded, its executed class, and its source-diversity flag as that record states them. This does not establish: that the standings are correct; the log transcribes the record of record, it does not re-derive it.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-8",
+   "statement": "Execution discipline: venue, index, payload verdicts: all execution runs on tower-compute in fresh clones under ~/glossa-work/; every build, check, and audit run of this package is indexed in the spec's records with its raw output or its hash; and every reported verdict is the run's own payload verdict, never a wrapper or transport state. This does not establish: that a complete index proves the runs were correct; it proves they are all on the record, which is what makes their correctness checkable.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-4",
+   "statement": "The audit is a pure function of the log: the Q3 graph audit's per-reading outcomes and component list reproduce exactly from the log file, the executed standings it carries, and the class rules of spec section 4.2, with no other input; an independent implementation of those rules recomputes the filed audit table without difference. This does not establish: that the class rules are the uniquely right ones; they are the adjudication's, applied as recorded, so the audit measures what the program's own rules imply.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-3",
+   "statement": "Every item is typed by the filed basis, and ambiguity is recorded, never resolved silently: each item is typed (a) primary evidence, (b) another reading or a candidate-system construct used as evidence, or ambiguous, under the typing rules of spec section 3.3; every (b) item names the readings it depends on, or records that the basis names no target; every (b) and ambiguous item carries a reason tied to the basis text; and every (b) classification was verified by reading the filed basis clause it cites. This does not establish: that a (b) typing makes an item worthless; it makes the item dependent, which is what the audit measures; several (b) items record real co-occurrence whose raw counts the log also carries as (a) items.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-7",
+   "statement": "The M267 dependency statement is exact to the log, and no retest is run: the statement names every (b)-type premise in M267's log entry, with its kind and its named targets, states which of M267's (a) items survive removal, and states what a dependency-aware retest must hold fixed or exclude; this package runs no M267 retest and designs none in executable detail. This does not establish: that M267's reading is false; it establishes what its filed basis depends on, which is the input a future retest commission needs.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-5",
+   "statement": "The audit applies the adjudication's class rules and moves nothing: each reading's outcome is stated in the vocabulary of spec section 4.2 (class unchanged / basis weakened with the losses named / class would change with the destination named), computed under the relabel execution record's class definitions and the reclassification form of its addendum; both the primary treatment (ambiguous retained) and the sensitivity treatment (ambiguous removed) are computed and any divergence reported; and no standing, anchor, or register entry is altered by the audit or by any record of this package. This does not establish: that a 'class would change' outcome changes the class; it is a report to a further adjudication, which this package is not.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "099-inference-log/C099-2",
+   "statement": "The log is complete against the filed bases, and contains nothing they do not state: every evidence element stated in a reading's filed basis (the appendix row as filed from the register, cross-checked against the frozen register snapshot and the falsifiers annex's evidence line) appears in that reading's log entry as an item citing the verbatim basis clause it was extracted from; and no log item cites a clause its entry's filed basis does not contain. This does not establish: that the filed bases are complete derivations; where a basis is truncated or thin, the log records the truncation or thinness, it does not repair it.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -27560,6 +27624,94 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-4",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-5",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-5",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-6",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-6",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-7",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-7",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "099-inference-log/C099-8",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "099-inference-log/C099-8",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -32807,6 +32959,46 @@
    "constrains": 0
   },
   "098-identifiability-over-the-65/C098-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-6": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-8": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-7": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-5": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "099-inference-log/C099-2": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -38912,6 +39104,54 @@
    },
    {
     "id": "098-identifiability-over-the-65/C098-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-6",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-8",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-7",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-5",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "099-inference-log/C099-2",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -58272,6 +58512,94 @@
     ]
    },
    {
+    "row": "099-inference-log/C099-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-4",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-5",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-5",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-6",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-6",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-7",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-7",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "099-inference-log/C099-8",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "099-inference-log/C099-8",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -58439,8 +58767,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1017,
-   "rows_with_cells": 1003,
+   "rows_total": 1025,
+   "rows_with_cells": 1011,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -58798,30 +59126,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1540,
+   "cells_total": 1548,
    "cells_by_relation": {
-    "supports": 1533,
+    "supports": 1541,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1533,
+    "documents": 1541,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1008,
-    "total": 1017,
+    "covered": 1016,
+    "total": 1025,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 994,
-      "total": 994
+      "covered": 1002,
+      "total": 1002
      }
     }
    },
@@ -63866,8 +64194,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1017,
-   "rows_with_cells": 1003,
+   "rows_total": 1025,
+   "rows_with_cells": 1011,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -64225,15 +64553,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1540,
+   "cells_total": 1548,
    "cells_by_relation": {
-    "supports": 1533,
+    "supports": 1541,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1533,
+    "documents": 1541,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -64302,7 +64630,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 993,
+    "draft": 1001,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -64312,26 +64640,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 977,
+    "created": 985,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 994,
+    "bundle": 1002,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1008,
-   "total": 1017,
+   "covered": 1016,
+   "total": 1025,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 994,
-     "total": 994
+     "covered": 1002,
+     "total": 1002
     }
    },
    "gap_claims": [
@@ -64348,8 +64676,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1017,
-   "total": 1017
+   "without_state": 1025,
+   "total": 1025
   },
   "unresolved": {
    "sign_mentions": [
@@ -65835,7 +66163,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261121T110155Z-e5597c",
+      "record": "settling-20261122T033634Z-974b13",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -65849,7 +66177,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261121T110155Z-f28db5",
+      "record": "settling-20261122T033700Z-bdc7da",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -163872,6 +164200,686 @@
     },
     "sign_records": []
    }
+  },
+  "099-inference-log/C099-6": {
+   "id": "099-inference-log/C099-6",
+   "statement": "Cycles are computed, not asserted: the completion record states the strongly connected components of the log's (b)-graph (named-target edges) as computed, and lists the (b) items whose targets the filed bases do not name as open ends; no record of this package describes the dependency structure among the 94 as acyclic or as cyclic beyond that computation and that list. This does not establish: that an unnamed-target edge conceals no cycle; the record states the limit on its face, which is what replaces the dependency record's 'not established in either direction' with a bounded, checkable statement.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "A cycle in the log's named-target (b)-graph absent from the completion record's component list; an open end omitted from the list; or a cyclicity claim in the package not backed by the computed components."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-6",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-6",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-6",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-6",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-1": {
+   "id": "099-inference-log/C099-1",
+   "statement": "The log carries every one of the 94, exactly once, as the standings record states them: every strict-core reading in the executed standings (the WS2 relabel execution record: 5 E + 65 I + 4 R + 3 P + 17 U) appears exactly once in the inference log, with its sign, its reading as recorded, its executed class, and its source-diversity flag as that record states them. This does not establish: that the standings are correct; the log transcribes the record of record, it does not re-derive it.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "A sign in the standings record absent from the log or present twice; a log entry whose reading, class, or flag differs from the standings record's row for that sign."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-1",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-1",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-8": {
+   "id": "099-inference-log/C099-8",
+   "statement": "Execution discipline: venue, index, payload verdicts: all execution runs on tower-compute in fresh clones under ~/glossa-work/; every build, check, and audit run of this package is indexed in the spec's records with its raw output or its hash; and every reported verdict is the run's own payload verdict, never a wrapper or transport state. This does not establish: that a complete index proves the runs were correct; it proves they are all on the record, which is what makes their correctness checkable.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "A run executed on the coordination VM or the mini-server; a stage record claiming a check whose raw output is not filed or hashed in the package's records; or a reported verdict that is a wrapper state rather than the payload's own record."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-8",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-8",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-8",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-8",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-4": {
+   "id": "099-inference-log/C099-4",
+   "statement": "The audit is a pure function of the log: the Q3 graph audit's per-reading outcomes and component list reproduce exactly from the log file, the executed standings it carries, and the class rules of spec section 4.2, with no other input; an independent implementation of those rules recomputes the filed audit table without difference. This does not establish: that the class rules are the uniquely right ones; they are the adjudication's, applied as recorded, so the audit measures what the program's own rules imply.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "The determinism recomputation (TC-099-03's implementation, run over the real log at Stage 2) differing from the filed audit table on any reading or component; or the audit tool's input manifest naming a source beyond the log and the class-rule records."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-4",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-4",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-3": {
+   "id": "099-inference-log/C099-3",
+   "statement": "Every item is typed by the filed basis, and ambiguity is recorded, never resolved silently: each item is typed (a) primary evidence, (b) another reading or a candidate-system construct used as evidence, or ambiguous, under the typing rules of spec section 3.3; every (b) item names the readings it depends on, or records that the basis names no target; every (b) and ambiguous item carries a reason tied to the basis text; and every (b) classification was verified by reading the filed basis clause it cites. This does not establish: that a (b) typing makes an item worthless; it makes the item dependent, which is what the audit measures; several (b) items record real co-occurrence whose raw counts the log also carries as (a) items.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "A (b) item whose cited basis clause, read plainly, states primary evidence and no other reading or construct; an ambiguous item with no reason; a named target absent from the cited clause and from the records the spec names as the item's source."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-3",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-3",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-7": {
+   "id": "099-inference-log/C099-7",
+   "statement": "The M267 dependency statement is exact to the log, and no retest is run: the statement names every (b)-type premise in M267's log entry, with its kind and its named targets, states which of M267's (a) items survive removal, and states what a dependency-aware retest must hold fixed or exclude; this package runs no M267 retest and designs none in executable detail. This does not establish: that M267's reading is false; it establishes what its filed basis depends on, which is the input a future retest commission needs.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "A (b) item in M267's log entry missing from the statement; a slot marker named in the statement that M267's entry does not carry; or a retest result, in any form, anywhere in this package's records."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-7",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-7",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-7",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-7",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-5": {
+   "id": "099-inference-log/C099-5",
+   "statement": "The audit applies the adjudication's class rules and moves nothing: each reading's outcome is stated in the vocabulary of spec section 4.2 (class unchanged / basis weakened with the losses named / class would change with the destination named), computed under the relabel execution record's class definitions and the reclassification form of its addendum; both the primary treatment (ambiguous retained) and the sensitivity treatment (ambiguous removed) are computed and any divergence reported; and no standing, anchor, or register entry is altered by the audit or by any record of this package. This does not establish: that a 'class would change' outcome changes the class; it is a report to a further adjudication, which this package is not.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "An outcome inconsistent with the rules applied to the log's items for that reading; a filed outcome missing its sensitivity divergence where the two treatments differ; or a standings record changed citing this audit as its basis."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-5",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-5",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-5",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-5",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
+  },
+  "099-inference-log/C099-2": {
+   "id": "099-inference-log/C099-2",
+   "statement": "The log is complete against the filed bases, and contains nothing they do not state: every evidence element stated in a reading's filed basis (the appendix row as filed from the register, cross-checked against the frozen register snapshot and the falsifiers annex's evidence line) appears in that reading's log entry as an item citing the verbatim basis clause it was extracted from; and no log item cites a clause its entry's filed basis does not contain. This does not establish: that the filed bases are complete derivations; where a basis is truncated or thin, the log records the truncation or thinness, it does not repair it.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-21",
+   "falsifier": [
+    "A filed basis element with no corresponding log item (the completeness check of TC-099-02 enumerates the checkable families mechanically); or a log item whose basis_span does not occur in the entry's basis_as_filed."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C099-2",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "099-inference-log/C099-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "099-inference-log/C099-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C099-2",
+     "document_id": null,
+     "path": "specs/099-inference-log/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c81ad87fcda492e17f039d5dbdf10e7a4a2d689d24d054ce983f70d6225ee17a",
+     "spec": "099-inference-log"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -163879,7 +164887,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "3d71c9ac4ef5240dfee79720f1b07b9d342f14f2cb49f24f1ea87ea79264d3f7",
+   "sha256": "3f2d97d7f4581e90756d463274dddd4206e519e801412a6185c821437c746274",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -163923,15 +164931,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261121T110155Z-e5597c",
+    "record": "settling-20261122T033634Z-974b13",
     "scenario": "t405-incumbent-over-full-frame",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "8a521d407a5e0895c024cf3eca92050b3967d65e63d0bd8836f56d8421c47875",
-      "lines": 1048
+      "sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
+      "lines": 1056
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -163982,15 +164990,15 @@
     }
    },
    {
-    "record": "settling-20261121T110155Z-f28db5",
+    "record": "settling-20261122T033700Z-bdc7da",
     "scenario": "t405-full-register-over-full-frame",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "8a521d407a5e0895c024cf3eca92050b3967d65e63d0bd8836f56d8421c47875",
-      "lines": 1048
+      "sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
+      "lines": 1056
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -164045,7 +165053,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "b23c6d1856033fdf25319ad8a5919d4a713e4fa5c8e6aeecc487b6d6f7166613",
+   "sha256": "cb56c50a38a5fc4e412ddbf2bc49073fced85afe796360c0f5fee3a0560954c6",
    "result": {
     "claims_compared": [
      {
@@ -164293,7 +165301,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "073d888fa145729bf3b6216ff9a84fc26cb6fff69c91ed797b06442cb1a0b970",
+   "sha256": "6cd5555961406fe70f04d1ec9c9fc916bca06a9ff56ac02c10386f4e72820801",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -164628,8 +165636,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1017,
-   "claims_untouched_by_any_run": 1016,
+   "claims_total": 1025,
+   "claims_untouched_by_any_run": 1024,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,
