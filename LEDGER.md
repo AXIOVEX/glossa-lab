@@ -14911,6 +14911,25 @@ Ledger/matrix/map equivalence gate, Shell wrappers
 success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
 §2 (goal record). Execution venue: tower-compute.
 
+**Merge and CI verdicts (recorded 2026-11-22, F-9
+execution completion):** PR #663, merged at
+e0e48a1306f4e80e33720a17abf873ad99b9bacf (final head
+149d8499294c06d5611bb2e3d7705276d6593ad5; the branch was
+rebased twice over parallel landings — PRs #662, #664,
+#666 — with the LEDGER conflicts resolved keeping all
+entries, and this entry's cited substance head updated to
+the rebased head 3915c3dd). Per-job verdicts from the
+check runs on the PR head: Backend tests (pytest)
+success; Cloud image smoke (Spec 083) success; Evidence
+Graph script smoke tests success; Freeze gate records
+check (C4) success; Frontend tests (Playwright) success;
+Indus public validation checks success; Ledger/matrix/map
+equivalence gate success; Shell wrappers (macos-latest)
+success; Shell wrappers (ubuntu-latest) success; Shell
+wrappers (windows-latest) success — 10/10. The substance
+head as first pushed (ebb34e79) also returned 10/10 per
+job before the rebases.
+
 ## 2026-11-22 — F-4 study package, Spec 091 items (M267 retest, DEDR pass, M048 battery)
 
 The F-4 study package (owner's commission in chat,
