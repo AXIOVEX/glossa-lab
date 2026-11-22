@@ -155,3 +155,14 @@ counts **296 items: 210 (a) / 61 (b) / 25 ambiguous** over
 the same 94 entries. The verification payloads above were
 re-run against the repaired log and pass; the payloads are
 recorded in the amendment record.
+
+## Amendment pointer (2026-11-22, F-9)
+
+The standings this log carries have since moved once more:
+the owner adopted the itemization test (Red Team Round 4,
+flag F-9) and M047 was reclassed from E to U on 2026-11-22
+(`specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md`).
+The log as amended carries executed class U for M047; no
+item changed and the census stands at 296 items (210 (a) /
+61 (b) / 25 ambiguous). Record:
+`records/inference-log-amendment-2026-11-22.md`.

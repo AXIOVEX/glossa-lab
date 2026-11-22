@@ -53,3 +53,10 @@ total), the permutation-null 99th-percentile conjunct is part
 of the frozen bar, and the floor figure is 21 of 70 **in
 expectation**. The population is 69 since the M044 act of the
 same date.
+
+**F-9 pointer (2026-11-22):** the population is 68 since
+the F-9 act of this date: M047 was reclassed from E to U
+under the itemization test the owner adopted
+(`specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md`).
+The Stage 1 figures in this note stand as executed at the
+populations they state.

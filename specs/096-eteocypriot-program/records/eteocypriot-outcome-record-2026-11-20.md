@@ -26,6 +26,16 @@
 > supported nor falsified on evidence… recorded TOO THIN";
 > "not triggered; the claim's positive content is
 > untested") is the history that form cites.
+>
+> **Adjudication (2026-11-22):** the four verdicts of §4
+> were adjudicated as proposed by the named approver, the
+> program owner, Tristen Pierson, on 2026-11-22
+> (`records/adjudication-record-2026-11-22.md`). They are
+> no longer proposed or unadjudicated, and each is cited in
+> the form the adjudication record states; for C096-4, the
+> qualifier's "pending named-human adjudication" element is
+> discharged by that act, and the claim remains a
+> self-assessed process claim. Ledger standings unchanged.
 
 **Date:** 2026-11-20. **Program:** Spec 096 — Eteocypriot
 Program, Stages 2–3 (registered analysis; outcome and

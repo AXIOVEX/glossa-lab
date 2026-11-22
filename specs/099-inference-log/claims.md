@@ -42,6 +42,19 @@ source-diversity flag as that record states them.
 > byte-for-byte (verified at this correction) — and it
 > carries no governance text of its own. A consumer of the
 > map data must read C099-1 under the pointer above.
+>
+> **F-9 pointer (2026-11-22):** the standings of record
+> are now **3 E + 65 I + 4 R + 3 P + 19 U = 94**: the
+> owner adopted the itemization test (Red Team Round 4,
+> flag F-9) and M047 was reclassed from E to U
+> (`specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md`);
+> the log as amended carries the amended standings
+> (`records/inference-log-amendment-2026-11-22.md`). This
+> pointer extends the governance above: the claim's
+> mirrors in `aee-claims.json`,
+> `records/adoption-aee-assessment.json`, and
+> `glossa-indus/map/map-data.json` are read under it as
+> well.
 *Falsifier:* a sign in the standings record absent from the
 log or present twice; a log entry whose reading, class, or
 flag differs from the standings record's row for that sign.

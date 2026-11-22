@@ -103,6 +103,16 @@ Three deliverables, in dependency order:
   > **4 E + 65 I + 4 R + 3 P + 18 U = 94**. The log as
   > landed carries the amended standings throughout; this
   > grounding text is not rewritten.
+  >
+  > **F-9 pointer (2026-11-22):** the owner adopted the
+  > itemization test (Red Team Round 4, flag F-9); the
+  > directed re-examination reclassed M047 from E to U
+  > (its filed basis holds no itemized external-support
+  > item), and the standings of record are **3 E + 65 I +
+  > 4 R + 3 P + 19 U = 94**. The log as amended carries
+  > the amended standings
+  > (`records/inference-log-amendment-2026-11-22.md`);
+  > this grounding text is not rewritten.
 - The filed bases of record are the audit package appendix
   (`APPENDIX-94.md`, filed 2026-11-20 from the program's
   anchor-support audit and canonical anchor register, updated

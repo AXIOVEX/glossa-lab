@@ -14811,7 +14811,6 @@ Shell wrappers (macos-latest, ubuntu-latest,
 windows-latest) — all success. Adjudication:
 RED-TEAM-ROUND-5-ADJUDICATION.md (goal record). Execution
 venue: tower-compute.
-
 ## 2026-11-22 — Spec 096: ICS 196 edition-verification ILL request placed (F-3)
 
 The closing act named by the ICS 196 custody correction of
@@ -14831,6 +14830,86 @@ The custody status stands as corrected until the material
 arrives and the verification is recorded. Execution venue:
 tower-compute.
 
+## 2026-11-22 — Spec 096 adjudicated: the four Eteocypriot verdicts as proposed
+
+The adjudication outstanding since 2026-11-20 is
+discharged. The named approver, the program owner, Tristen
+Pierson, adjudicated the four Spec 096 verdicts as proposed
+on 2026-11-22, in the Glossa-Lab chat, the verdicts as
+amended through Red Team Rounds 1 to 4: C096-1 NOT
+SUPPORTED (A1 cited only as the pure index-offset check
+with predetermined 0/2; A2 as executed unanchored, 1 of 2;
+the Androkles conjunct TOO THIN at freeze); C096-2 TOO THIN
+and C096-3 NOT ENGAGED, each in amendment 2 §10's mandated
+form ("closed / unengaged at freeze on census grounds;
+falsifier never engaged"); C096-4 SUPPORTED narrowed, a
+self-assessed process claim whose qualifier's
+pending-adjudication element the act discharges (falsifier
+NOT FIRED in its letter, ENGAGED in its substance). The act
+is recorded at
+specs/096-eteocypriot-program/records/adjudication-record-2026-11-22.md,
+with head pointers on the outcome record and on amendment
+2. The amendment 2 §6 discipline ("proposed verdicts,
+unadjudicated; ledger standings unchanged") no longer
+applies as to the verdicts' status; ledger standings are
+unchanged — C096-1..C096-4 stand at draft / created, and no
+standing is moved by this landing. The platform project
+`eteocypriot_program` was checked the same day through the
+repaired MCP route (tower-compute home): its description,
+prompt context, question and standing position state no
+verdict and carry no proposed-and-unadjudicated framing,
+and no platform change is made. Execution venue:
+tower-compute. PR #662. CI on the substance head f7d7e452:
+10/10 per job — Backend tests (pytest), Cloud image smoke
+(Spec 083), Evidence Graph script smoke tests, Freeze gate
+records check (C4), Frontend tests (Playwright), Indus
+public validation checks, Ledger/matrix/map equivalence
+gate, Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success.
+
+**AI disclosure:** executed by an AI agent (Muse, via
+Muse) at the direction of Tristen Pierson, per
+constitution sec. VI. The adjudication act is the owner's.
+## 2026-11-22 — F-9 itemization act (Specs 091/099): M047 reclassed E to U
+
+The owner adopted the Red Team Round 4 adjudication's
+recommendation (flag F-9) on 2026-11-22: the itemization
+test applies prospectively to class E — the
+external-support claim must appear in the reading's
+inference-log entry as an external-support item. The
+directed re-examination found no itemizable published
+proposal in M047's filed basis on the M330-01 standard
+(its only Parpola clause names Parpola 1994a as a source
+of the catalogue crosswalk and truncates there; the
+verified §10.1 proposal is family-level and reaches the
+sign through the program's own identity step), so no
+published_proposal item is entered, and M047 is reclassed
+on its remaining filed basis to class U. The executed
+partition is 3 E + 65 I + 4 R + 3 P + 19 U = 94; M124,
+M329 and M330 are verified to carry itemized
+external-support items and stand in E. The rule is landed
+as the F-9 amendment to the standings record; the act
+record is
+specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md.
+Spec 099's log and Q3 audit were regenerated under a
+builder amendment arm: census unchanged (296 items),
+audit payload identical (0 class changes, weakened 44,
+cycles 0, open ends 38), the audit JSON diff exactly one
+field (M047's executed class); TC-099-01 and TC-099-02
+PASS, fixture suite 15 passed (amendment record in Spec
+099's records). Partition statements are updated on every
+living surface (standings supplement, both spec packages'
+pointers, the Q3 completion copies appended identically,
+the Stage 1 record, the Spec 098 Stage 2 design note,
+both repo READMEs). PR #663. CI on the substance head
+3915c3dd: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke
+tests, Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all
+success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
+§2 (goal record). Execution venue: tower-compute.
 ## 2026-11-22 — Spec 098 Stage 2 executed (T201 + T202)
 
 Stage 2 of Spec 098 executed on the owner's commission of

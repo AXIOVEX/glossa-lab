@@ -11,6 +11,18 @@
 > 94**, Arm E is M047, M124, M329, M330, and §1's M044 row is
 > read with this supplement's appended Round 2 amendment,
 > which states the act at the tail.
+>
+> **F-9 pointer (2026-11-22):** the partition above moved
+> once more. The owner adopted the itemization test (Red
+> Team Round 4, flag F-9), and the directed re-examination
+> reclassed M047 to U: its filed basis holds no itemized
+> external-support item. **The current partition is 3 E +
+> 65 I + 4 R + 3 P + 19 U = 94**, Arm E is M124, M329,
+> M330, and §1's M047 row is read with this supplement's
+> appended F-9 amendment, which states the act at the
+> tail. The governing record is
+> `records/f9-itemization-adjudication-2026-11-22.md`; the
+> standings record carries the rule as its F-9 amendment.
 
 **Date: 2026-11-21. Filed under Red Team Round 1 (findings
 RT1-02, RT1-14, RT1-15, RT1-16, RT1-20, RT1-37), adjudicated
@@ -164,3 +176,24 @@ at the direction of Tristen Pierson, per constitution sec. VI.
   corrected battery result is referred to the study-scale
   commission family (owner Flag F-4); if it is run and scores
   at the threshold, M048's class must be re-adjudicated.
+
+---
+
+## F-9 amendment (2026-11-22)
+
+- **Partition.** The head partition is amended by the F-9
+  act: **3 E + 65 I + 4 R + 3 P + 19 U = 94**.
+- **M047.** §1's row ("verified as filed, provenance only")
+  stands as the re-verification outcome and is not
+  disturbed: Parpola 1994 §10.1's proposal for the
+  fish-sign family remains verified as filed as a prior
+  proposal. The class moves on a different ground. Under
+  the itemization test the owner adopted on 2026-11-22,
+  class E requires the support to appear in the reading's
+  inference-log entry as an external-support item, and
+  M047's entry holds none (a superseded positional
+  assignment and a crosswalk identity; the filed basis
+  states no published proposal of the value and truncates
+  at the crosswalk clause). Reclassed on its remaining
+  filed basis, M047 stands in class U
+  (`records/f9-itemization-adjudication-2026-11-22.md`).

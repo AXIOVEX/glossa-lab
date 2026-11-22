@@ -14,6 +14,16 @@ run record, and no ledger standing. Where it corrects a
 citation form, the corrected form governs citation from this
 record onward.
 
+> **Adjudication pointer (2026-11-22):** the condition §6
+> states is discharged. The approver named there, the
+> program owner, Tristen Pierson, adjudicated the four
+> verdicts as proposed on 2026-11-22
+> (`records/adjudication-record-2026-11-22.md`). §6's
+> discipline ("proposed verdicts, unadjudicated; ledger
+> standings unchanged") no longer applies as to the
+> verdicts' status; ledger standings remain unchanged. §6
+> stands as the history of the naming and of the wait.
+
 ## 1. A1 relabelled; C096-1's citation form corrected (RT1-05)
 
 The outcome record reports "A1 (strict segment-parallel):

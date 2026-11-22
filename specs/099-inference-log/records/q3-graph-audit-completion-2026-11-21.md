@@ -180,3 +180,18 @@ and counts 296 items; the audit was regenerated over the
 repaired log and every outcome in this record is unchanged
 (0 class changes under both treatments; weakened 44 / 63;
 acyclic), because every merged item is an (a) item.
+
+**F-9 note (2026-11-22).** The definition question flagged
+above is settled: on 2026-11-22 the owner adopted the
+itemization test, and the directed re-examination
+reclassed M047 from E to U — its filed basis holds no
+itemized external-support item, and no internal motivation
+for the reading remains on it
+(`specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md`).
+The standings of record are now 3 E + 65 I + 4 R + 3 P +
+19 U = 94. The audit was regenerated over the amended log
+(`specs/099-inference-log/records/inference-log-amendment-2026-11-22.md`)
+and every outcome in this record is unchanged (0 class
+changes under both treatments; weakened 44 / 63;
+acyclic), because M047's entry holds no (b) or ambiguous
+item under either class.
