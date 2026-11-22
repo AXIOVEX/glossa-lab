@@ -99,6 +99,8 @@ Local control surface. Start/stop/restart backend, open UI, quick status.
 
 **94 strict SA-independent H+M candidate readings** (90 HIGH + 4 MEDIUM) covering 73.68% of the Holdat IVS corpus — a falsifiable computational decipherment hypothesis for the Indus Script (~2600–1900 BCE). Re-based 2026-10-06 (Phase-109; see the note at the top of this README): the full post-review anchor table holds 287 entries (166 HIGH + 5 MEDIUM + 3 LOW + 113 CANDIDATE).
 
+**Where the 94 stand now.** An independent desk audit of the filed summaries for these 94 readings was completed on November 21, 2026, and the programme's adjudication of it was filed the same day. Five readings carry external-support claims on file: published work or evidence from outside the programme is recorded as pointing the same way, the audit did not verify that support against the primary publications, and all five returned NOT IDENTIFIABLE in the programme's reported identifiability test. Sixty-five are internally motivated candidates: motivated by the programme's own material, with reading-level support for the specific sound and meaning not demonstrated and identifiability untested. Four require revalidation, three are reported as pending expert review, and seventeen rest on insufficient evidence for their proposed readings. The five and the sixty-five are never summed as supported; the programme's earlier labels for these classes (independently supported; supported on internal evidence only) are superseded by this paragraph wherever they appear in undated text in this repository.
+
 | Metric | Value |
 |---|---|
 | Strict SA-independent H+M readings | 94 (90 HIGH + 4 MEDIUM) |
