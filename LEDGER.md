@@ -14983,3 +14983,56 @@ the run record as first filed lacked the run-defs v3 header
 and index entry; conformed in bd50faa9, gate PASS locally and
 in CI.) Commission: F-4 STUDY PACKAGE (goal record).
 Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, F-4 Spec
+091):** PR #665, merged at
+7206e9d2c75a34ac78b8622ada9cc9011ff9cbe5 (final head
+89a551a0). Per-job verdicts from the check runs on the final
+PR head (run 45003530270): Backend tests (pytest) success;
+Cloud image smoke (Spec 083) success; Evidence Graph script
+smoke tests success; Freeze gate records check (C4) success;
+Frontend tests (Playwright) success; Indus public validation
+checks success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (Two pushes of this branch produced no
+workflow run in a congested window — verified 0 check runs
+on the affected heads; the runs above are on the merge head
+after origin/main was merged in twice, resolving LEDGER tail
+conflicts against PRs #663 and #668, both entries preserved
+exactly once.)
+
+## 2026-11-22 — 
+ — F-4 study package, Spec 097 items (662 reproduction, freeze v3)
+
+The F-4 study package's two Spec 097 items land. The
+662-count reproduction (RT1-13's open arm): the corpus
+completion record's claim — the deposited mero-corpus.txt
+(18,090 lines, Otten pin c9158f68) collapses to 662 distinct
+texts under name-masking — is the MikeKovetsky/meroitic
+account's figure, and running that account's pipeline
+unmodified over the pinned file (SHA-256 verified on the
+venue) reproduces it exactly: private pool 178 and royal
+pool 11 as filed; 2,168 masked skeletons after dedup; 1,019
+after collapse; and 662 distinct texts with 18,075 tokens
+after clean_v2, the 662 texts' copy counts summing to
+exactly 18,090 (27.3 copies per text, the filed "about 27").
+Outcome: REPRODUCES EXACTLY; the record notes the 662 is the
+full pipeline's final figure, as the account's own report
+attributes it. Meroitic freeze v3 (RT1-47's F-4 arm): a new
+freeze for future work only, adopting freeze v2 sections 1–3
+and 5–8 unchanged (the 335/33 split over the 368-text
+acquired corpus stands) and replacing only the section 4
+vocabulary companion, applying section 3's own
+no-Wikipedia standard to the vocabulary's apparatus: 182 →
+179 forms, Wikipedia citations 33 → 0 (30 removed with forms
+retained on their scholarly apparatus, including scored
+concepts 16 and 75; 3 excluded and named — qes, qos, qesw,
+anchor A1's forms, already PROVISIONAL under v2 section 3).
+Concept coverage is identical across all 12 scored concepts,
+so Stage 4.2's S = 4 and every Stage 4 verdict compute
+identically under v3; freeze v2 and all landed Stage 4
+results stand untouched. The freeze record carries the
+framework-dependence statement at the point of citation.
+Commission: F-4 STUDY PACKAGE (goal record). Execution
+venue: tower-compute.
