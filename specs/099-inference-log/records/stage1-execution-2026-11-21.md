@@ -166,3 +166,17 @@ The log as amended carries executed class U for M047; no
 item changed and the census stands at 296 items (210 (a) /
 61 (b) / 25 ambiguous). Record:
 `records/inference-log-amendment-2026-11-22.md`.
+
+## Amendment pointer (2026-11-22, M048 re-adjudication)
+
+The standings this log carries have since moved once
+more: M048's corrected battery result, produced under
+the F-4 commission, scored at the corrected battery's
+2-point promotion threshold, and the re-adjudication
+RT2-08 attached to that outcome reclassed M048 from U
+to I on 2026-11-22
+(`specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md`).
+The log as amended carries executed class I for M048;
+no item changed and the census stands at 296 items
+(210 (a) / 61 (b) / 25 ambiguous). Record:
+`records/inference-log-amendment-2026-11-22.md`.

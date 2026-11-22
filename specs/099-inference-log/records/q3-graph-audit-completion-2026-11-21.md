@@ -195,3 +195,21 @@ and every outcome in this record is unchanged (0 class
 changes under both treatments; weakened 44 / 63;
 acyclic), because M047's entry holds no (b) or ambiguous
 item under either class.
+
+**M048 note (2026-11-22).** The standings moved once
+more: M048's corrected battery result (F-4 commission;
+score 2, promotion threshold met) triggered the
+re-adjudication RT2-08 had attached to that outcome,
+and M048 was reclassed from U to I
+(`specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md`).
+The standings of record are now 3 E + 66 I + 4 R + 3 P
++ 18 U = 94. The audit was regenerated over the amended
+log
+(`specs/099-inference-log/records/inference-log-amendment-2026-11-22.md`)
+and every outcome in this record is unchanged (0 class
+changes under both treatments; weakened 44 / 63;
+acyclic): M048's outcome is unchanged and weakened
+under both treatments under either class, its entry's
+item shape being the same as M089's, whose class I
+rests on a filed corrected-battery result at the same
+threshold.

@@ -945,6 +945,16 @@ def _(b):
            "corrected battery result is filed for this sign; "
            "its class rests on the absence of a qualifying "
            "filed result")
+    b.note("M048 re-adjudication amendment (2026-11-22): a "
+           "corrected battery result is now filed for this "
+           "sign (score 2: positional pass, DEDR pass "
+           "exact_match_3, bigram not run; records/"
+           "m048-corrected-battery-result-2026-11-22.md), "
+           "and re-adjudicated under RT2-08 the reading "
+           "takes class I on that result, on the M089 parity "
+           "stated in the standings supplement; this log's "
+           "executed class follows the amended standings "
+           "(records/m048-readjudication-2026-11-22.md)")
 
 
 @curate("M145")
@@ -1041,6 +1051,16 @@ def build(appendix_text: str, standings_text: str) -> dict:
         assert "M047 takes class U" in standings_text
         assert standings["M047"]["executed_class"] == "E"
         standings["M047"]["executed_class"] = "U"
+    # M048 re-adjudication amendment to the standings
+    # record (2026-11-22): RT2-08's referred arm — M048's
+    # corrected battery result was produced under the F-4
+    # commission, scored at the 2-point promotion
+    # threshold, and M048 takes class I. Applied and
+    # asserted on the same form as the arms above.
+    if "## M048 re-adjudication amendment" in standings_text:
+        assert "M048 takes class I" in standings_text
+        assert standings["M048"]["executed_class"] == "U"
+        standings["M048"]["executed_class"] = "I"
     assert len(appendix) == 94, len(appendix)
     assert len(standings) == 94, len(standings)
     assert set(appendix) == set(standings), (
@@ -1091,7 +1111,10 @@ def build(appendix_text: str, standings_text: str) -> dict:
                          "m044-addendum-adjudication-2026-11-21.md) "
                          "and its F-9 amendment (M047 to class U; "
                          "records/f9-itemization-adjudication-"
-                         "2026-11-22.md)",
+                         "2026-11-22.md) and its M048 "
+                         "re-adjudication amendment (M048 to "
+                         "class I; records/"
+                         "m048-readjudication-2026-11-22.md)",
             "annotations": "standings-supplement-2026-11-21.md; "
                            "dependency-record-2026-11-21.md; "
                            "coscientist-audit-94-adjudication-"

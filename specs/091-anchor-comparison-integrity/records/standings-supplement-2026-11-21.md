@@ -23,6 +23,18 @@
 > tail. The governing record is
 > `records/f9-itemization-adjudication-2026-11-22.md`; the
 > standings record carries the rule as its F-9 amendment.
+>
+> **M048 pointer (2026-11-22):** the partition above moved
+> once more. M048's corrected battery result was produced
+> under the F-4 commission (score 2, promotion threshold
+> met), and the re-adjudication RT2-08 attached to that
+> outcome reclassed M048 from U to I. **The current
+> partition is 3 E + 66 I + 4 R + 3 P + 18 U = 94**, and
+> the M048/M089 paragraph of the Round 2 amendment below
+> is read with this supplement's appended M048
+> re-adjudication amendment, which states the act at the
+> tail. The governing record is
+> `records/m048-readjudication-2026-11-22.md`.
 
 **Date: 2026-11-21. Filed under Red Team Round 1 (findings
 RT1-02, RT1-14, RT1-15, RT1-16, RT1-20, RT1-37), adjudicated
@@ -197,3 +209,29 @@ at the direction of Tristen Pierson, per constitution sec. VI.
   at the crosswalk clause). Reclassed on its remaining
   filed basis, M047 stands in class U
   (`records/f9-itemization-adjudication-2026-11-22.md`).
+
+---
+
+## M048 re-adjudication amendment (2026-11-22)
+
+- **Partition.** The head partition is amended by the
+  M048 re-adjudication: **3 E + 66 I + 4 R + 3 P + 18 U
+  = 94**.
+- **M048.** The Round 2 amendment's M048/M089 paragraph
+  stated the rule and the referral: M048's class U rested
+  on the absence of a qualifying filed corrected-battery
+  result, and if the result were produced and scored at
+  the corrected battery's 2-point promotion threshold,
+  the class would have to be re-adjudicated. The result
+  was produced under the F-4 commission
+  (`records/m048-corrected-battery-result-2026-11-22.md`):
+  score 2 (positional PASS; DEDR PASS, `exact_match_3`;
+  bigram NOT_RUN, the pinned corpus not held on the
+  execution venue), promotion threshold met. The
+  re-adjudication commissioned by the owner on
+  2026-11-22 was executed the same day
+  (`records/m048-readjudication-2026-11-22.md`): on the
+  parity the Round 2 paragraph itself sets up with M089,
+  whose class I rests on its filed result at the same
+  threshold, **M048 takes class I**. M089's statement in
+  that paragraph is untouched.

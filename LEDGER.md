@@ -15111,3 +15111,48 @@ tools/stage2_run.py (payload verdicts: T201 population=69
 seal_verify=True guard_pass=True grid_reproduced=True;
 outcome distribution 48/17/4). Execution venue:
 tower-compute.
+
+## 2026-11-22 — M048 re-adjudication (Spec 091, RT2-08): M048 reclassed U to I
+
+The owner commissioned the re-adjudication on
+2026-11-22. RT2-08's adjudication stated the
+consequence in advance: M048 and M089 were judged by
+the corrected battery's 2-point promotion threshold;
+M089's class I rests on its filed corrected-battery
+result at that threshold; M048's class U rested on the
+absence of a qualifying filed result; if the result
+were produced and scored at the threshold, the class
+would have to be re-adjudicated. The F-4 commission
+produced the result (score 2: positional PASS, DEDR
+PASS exact_match_3, bigram NOT_RUN — the pinned corpus
+not held on the execution venue), and the
+re-adjudication executed here reclasses M048 to class
+I on the M089 parity: the battery counts passes and
+never counts a not_run, and both readings meet the
+threshold on executed legs. The executed partition is
+3 E + 66 I + 4 R + 3 P + 18 U = 94. The act record is
+specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md;
+the outcome is landed as the M048 re-adjudication
+amendment to the standings record. Spec 099's log and
+Q3 audit were regenerated under a builder amendment
+arm: census unchanged (296 items), audit payload
+identical (0 class changes, weakened 44, cycles 0,
+open ends 38), the audit JSON diff exactly one field
+(M048's executed class); TC-099-01 and TC-099-02 PASS,
+fixture suite 15 passed (amendment record in Spec 099's
+records). Partition statements are updated on every
+living surface (standings supplement, both spec
+packages' pointers, the Q3 completion copies appended
+identically, the Stage 1 record, the Spec 098 Stage 2
+design note, both repo READMEs). The Spec 098
+population for future stages is 69 (66 I + 3 E); the
+Stage 1 and Stage 2 executed records stand as history
+at the populations they state. PR #671. CI on the
+substance head 7088b199: 10/10 per job — Backend tests
+(pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4),
+Frontend tests (Playwright), Indus public validation
+checks, Ledger/matrix/map equivalence gate, Shell
+wrappers (macos-latest, ubuntu-latest, windows-latest)
+— all success. Commission: the owner, in chat
+2026-11-22. Execution venue: tower-compute.

@@ -901,7 +901,7 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 | M046-02 | dictionary_entry | a | DEDR 1286 recorded as this reading's dictionary reference | — | — |
 | M046-03 | corrected_validation | a | corrected site-statistics check: outcome insufficient data; the sign was moved from requires revalidation to its filed class on this result | — | — |
 
-## M048 — mu/muṉ (class U, Q4 N)
+## M048 — mu/muṉ (class I, Q4 N)
 
 > Basis as recorded: Positional analysis; UPGRADED: high frequency (157); consistent TERMINAL position (n=157); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M267 (n=7); collocates with HIGH anchor M176 (n=5); collocat; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role
 
@@ -917,6 +917,7 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 
 - Note: the basis truncates at 'collocat;' after the third collocate; no further premise is stated and none is entered
 - Note: Round 2 amendment (standings supplement): no corrected battery result is filed for this sign; its class rests on the absence of a qualifying filed result
+- Note: M048 re-adjudication amendment (2026-11-22): a corrected battery result is now filed for this sign (score 2: positional pass, DEDR pass exact_match_3, bigram not run; records/m048-corrected-battery-result-2026-11-22.md), and re-adjudicated under RT2-08 the reading takes class I on that result, on the M089 parity stated in the standings supplement; this log's executed class follows the amended standings (records/m048-readjudication-2026-11-22.md)
 
 ## M059 — ēḷ/eḷ (class U, Q4 N)
 
