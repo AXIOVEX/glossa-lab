@@ -105,13 +105,13 @@
   form, proposed reading, evidence class, source, and licensed
   use; the development / held-out split hash-pinned in the
   freeze. Claims: C097-8. Acceptance: **record**.
-- [ ] **T404 — Affiliation adjudication.** R1/R2/R3 tested as
+- [x] **T404 — Affiliation adjudication.** R1/R2/R3 tested as
   registered; verdict record with the tests' outputs. Claims:
-  C097-9. Acceptance: **test**.
-- [ ] **T405 — Candidate readings and blind scoring.**
+  C097-9. Acceptance: **test**. Landed 2026-11-20: `records/stage-4-2-affiliation-test-outcome-2026-11-20.md` (PR #619). Ticked 2026-11-21 (RT1-32).
+- [x] **T405 — Candidate readings and blind scoring.**
   Generation from licensed routes only; identifiability
   screening; frozen readings scored once on the sealed
-  held-out set. Claims: C097-10. Acceptance: **test**.
-- [ ] **T406 — Expert-verification package.** The design of
-  Stage 4.5 prepared for the owner's approval; no outreach.
+  held-out set. Claims: C097-10. Acceptance: **test**. Landed 2026-11-20: `records/stage-4-3-candidate-generation-outcome-2026-11-20.md` (PR #620) and `records/stage-4-4-blind-test-outcome-2026-11-20.md` (PR #621). Ticked 2026-11-21 (RT1-32).
+- [x] **T406 — Expert-verification package.** The design of
+  Stage 4.5 prepared for the owner's approval; executed 2026-11-20 as the owner-delegated send recorded in `records/stage-4-5-anchor-tranche-send-record-2026-11-20.md` (the ‘no outreach’ drafting is superseded by that record; see also `records/stage-4-5-supplement-2026-11-21.md`).
   Claims: C097-11. Acceptance: **record**.

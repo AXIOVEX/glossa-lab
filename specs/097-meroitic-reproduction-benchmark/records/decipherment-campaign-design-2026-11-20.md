@@ -172,9 +172,9 @@ position by authority; it registers tests.
 - **Rival R3 — Isolate / null.** No affiliation is
   demonstrable on present evidence (the standing classification
   in reference works that list Meroitic as unclassified).
-  R3 is the null every other rival must beat: it is *supported*
-  exactly when R1 and R2 both fail their registered tests, and
-  it is falsified by either rival passing.
+  R3 is the null every other rival must beat. **Amended
+  2026-11-21 to the freeze v2 §5 form, which governs:** R3 is
+  recordable only as *not displaced*; a double failure of R1 and R2 under the registered power statement is UNDECIDABLE AT THIS POWER with R3 not displaced; it is displaced by either rival passing.
 - **Not carried, with cause:** the Saharan proposal (Winters)
   and the Tocharian proposal are named in the literature but
   are not carried as registered rivals: neither has been

@@ -26,13 +26,14 @@ verbatim; nothing was re-derived after execution began.
 
 A reproduction benchmark, run as the program's own implementation,
 of one published computational decipherment-adjacent study:
-Giorgos Otten and Antonios Anastasopoulos, "Towards Ancient
+Joshua Otten and Antonios Anastasopoulos, "Towards Ancient
 Meroitic Decipherment: A Computational Approach", ALP workshop at
 NAACL 2025, pp. 208–219 (ACL Anthology 2025.alp-1.11, DOI
 10.18653/v1/2025.alp-1.11). Meroitic is the right calibration
-target for the projected-constraint machinery precisely because it
-is deciphered at the sign level and undeciphered at the language
-level: sign values are known, so the machinery's statistics can be
+target for the projected-constraint machinery precisely because
+its script is deciphered while its language is not: the sign
+values have been known since Griffith (1907–1911), so the
+machinery's statistics can be
 checked against ground truth, while no reading produced here can
 borrow authority from a decipherment that does not exist.
 
@@ -41,6 +42,8 @@ standing; it writes no Indus record; its fixture
 (`backend/glossa_lab/data/meroitic.py`) is the benchmark's
 starting inventory, not its data; and the platform's legacy
 Meroitic benchmark output is not a reproduction target.
+
+**Erratum (2026-11-21, RT1-50):** §1 originally named the benchmark's first author ‘Giorgos Otten’. The author is **Joshua Otten** (ACL Anthology record 2025.alp-1.11; George Mason University). The permission letter of 2026-11-20 was addressed from the paper's author block and reached the right correspondent; only this spec text was wrong. The §1 shorthand ‘deciphered at the sign level’ is likewise replaced above by the campaign design §1 phrasing.
 
 ## 2. The grounding
 
