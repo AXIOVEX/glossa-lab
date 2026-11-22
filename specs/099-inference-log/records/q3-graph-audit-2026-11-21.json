@@ -1,0 +1,2104 @@
+{
+ "artifact": "q3-graph-audit",
+ "edge_census": {
+  "a": 213,
+  "ambiguous": 25,
+  "b": 61,
+  "items": 299
+ },
+ "headline": {
+  "class_changes_primary": 0,
+  "class_changes_sensitivity": 0,
+  "divergent_readings": 23,
+  "readings": 94,
+  "weakened_primary": 44,
+  "weakened_sensitivity": 63
+ },
+ "open_ends": [
+  {
+   "item": "M202-02",
+   "kind": "slot_label",
+   "sign": "M202",
+   "target_note": "the basis names the slot but no reading as its premise"
+  },
+  {
+   "item": "M330-02",
+   "kind": "slot_label",
+   "sign": "M330",
+   "target_note": "the basis names the slot but no reading as its premise"
+  },
+  {
+   "item": "M002-02",
+   "kind": "self_assertion",
+   "sign": "M002",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M004-02",
+   "kind": "self_assertion",
+   "sign": "M004",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M005-02",
+   "kind": "self_assertion",
+   "sign": "M005",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M009-02",
+   "kind": "self_assertion",
+   "sign": "M009",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M010-02",
+   "kind": "self_assertion",
+   "sign": "M010",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M014-02",
+   "kind": "self_assertion",
+   "sign": "M014",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M015-02",
+   "kind": "self_assertion",
+   "sign": "M015",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M017-02",
+   "kind": "self_assertion",
+   "sign": "M017",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M018-02",
+   "kind": "self_assertion",
+   "sign": "M018",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M020-02",
+   "kind": "self_assertion",
+   "sign": "M020",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M023-02",
+   "kind": "self_assertion",
+   "sign": "M023",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M025-02",
+   "kind": "self_assertion",
+   "sign": "M025",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M026-02",
+   "kind": "self_assertion",
+   "sign": "M026",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M027-02",
+   "kind": "self_assertion",
+   "sign": "M027",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M030-02",
+   "kind": "self_assertion",
+   "sign": "M030",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M034-02",
+   "kind": "self_assertion",
+   "sign": "M034",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M037-02",
+   "kind": "self_assertion",
+   "sign": "M037",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M038-02",
+   "kind": "self_assertion",
+   "sign": "M038",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M041-02",
+   "kind": "self_assertion",
+   "sign": "M041",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M050-02",
+   "kind": "self_assertion",
+   "sign": "M050",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M066-02",
+   "kind": "self_assertion",
+   "sign": "M066",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M068-01",
+   "kind": "self_assertion",
+   "sign": "M068",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M069-02",
+   "kind": "self_assertion",
+   "sign": "M069",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M070-02",
+   "kind": "self_assertion",
+   "sign": "M070",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M075-02",
+   "kind": "self_assertion",
+   "sign": "M075",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M078-02",
+   "kind": "self_assertion",
+   "sign": "M078",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M347-01",
+   "kind": "slot_label",
+   "sign": "M347",
+   "target_note": "the slot is a model construct; the basis names no single reading as its premise"
+  },
+  {
+   "item": "M165-03",
+   "kind": "slot_label",
+   "sign": "M165",
+   "target_note": "the basis names the slot but no reading as its premise"
+  },
+  {
+   "item": "M222-01",
+   "kind": "slot_label",
+   "sign": "M222",
+   "target_note": "the basis names no individual reading as the coherence premise"
+  },
+  {
+   "item": "M362-03",
+   "kind": "slot_label",
+   "sign": "M362",
+   "target_note": "the basis names the slot pattern but no individual reading as its premise"
+  },
+  {
+   "item": "M398-03",
+   "kind": "slot_label",
+   "sign": "M398",
+   "target_note": "the pattern names are constructs; the concrete pattern instance is carried as its own item"
+  },
+  {
+   "item": "M077-02",
+   "kind": "self_assertion",
+   "sign": "M077",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M176-01",
+   "kind": "internal_label",
+   "sign": "M176",
+   "target_note": "the label names no other reading; it is the system's own assignment"
+  },
+  {
+   "item": "M305-02",
+   "kind": "self_assertion",
+   "sign": "M305",
+   "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+  },
+  {
+   "item": "M336-06",
+   "kind": "interpreted_anchor",
+   "sign": "M336",
+   "target_note": "the basis as filed names no target; the clause is truncated"
+  },
+  {
+   "item": "M342-01",
+   "kind": "internal_label",
+   "sign": "M342",
+   "target_note": "the label names no other reading; it is the system's own assignment"
+  }
+ ],
+ "outcomes": {
+  "M002": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M002-02"
+    ],
+    "weakened": true
+   },
+   "reading": "kuṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M002-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M004": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M004-02"
+    ],
+    "weakened": true
+   },
+   "reading": "kēḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M004-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M005": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M005-02",
+     "M005-04"
+    ],
+    "weakened": true
+   },
+   "reading": "kōṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M005-02",
+     "M005-04"
+    ],
+    "weakened": true
+   }
+  },
+  "M006": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "puli",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M007": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "aaL",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M009": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M009-02"
+    ],
+    "weakened": true
+   },
+   "reading": "āṇ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M009-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M010": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M010-02"
+    ],
+    "weakened": true
+   },
+   "reading": "paṭ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M010-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M012": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "oṉṟu/1",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M013": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "nakaram",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M014": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M014-02"
+    ],
+    "weakened": true
+   },
+   "reading": "tiru",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M014-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M015": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M015-02"
+    ],
+    "weakened": true
+   },
+   "reading": "mā",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M015-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M016": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kaḷiṟu",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M017": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M017-02"
+    ],
+    "weakened": true
+   },
+   "reading": "kai",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M017-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M018": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M018-02"
+    ],
+    "weakened": true
+   },
+   "reading": "nēr",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M018-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M020": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M020-02"
+    ],
+    "weakened": true
+   },
+   "reading": "kuṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M020-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M023": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M023-02"
+    ],
+    "weakened": true
+   },
+   "reading": "vaḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M023-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M025": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M025-02"
+    ],
+    "weakened": true
+   },
+   "reading": "cem",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M025-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M026": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M026-02"
+    ],
+    "weakened": true
+   },
+   "reading": "mā",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M026-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M027": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M027-02"
+    ],
+    "weakened": true
+   },
+   "reading": "māṟ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M027-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M029": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "yānai",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M029-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M030": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M030-02",
+     "M030-04"
+    ],
+    "weakened": true
+   },
+   "reading": "kō",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M030-02",
+     "M030-04"
+    ],
+    "weakened": true
+   }
+  },
+  "M032": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "koL",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M032-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M034": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M034-02"
+    ],
+    "weakened": true
+   },
+   "reading": "tōḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M034-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M037": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M037-02",
+     "M037-04"
+    ],
+    "weakened": true
+   },
+   "reading": "kēḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M037-02",
+     "M037-04"
+    ],
+    "weakened": true
+   }
+  },
+  "M038": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M038-02"
+    ],
+    "weakened": true
+   },
+   "reading": "pōr",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M038-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M039": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "āṉai",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M041": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M041-02"
+    ],
+    "weakened": true
+   },
+   "reading": "pēr",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M041-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M042": {
+   "divergent": true,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "vaN",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M042-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M044": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ku",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M045": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "yānai",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M046": {
+   "divergent": true,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kaL",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M046-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M047": {
+   "divergent": false,
+   "executed_class": "E",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "min/mīn",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M048": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M048-03",
+     "M048-05",
+     "M048-07"
+    ],
+    "weakened": true
+   },
+   "reading": "mu/muṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M048-03",
+     "M048-05",
+     "M048-07"
+    ],
+    "weakened": true
+   }
+  },
+  "M049": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "pu",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M049-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M050": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M050-02"
+    ],
+    "weakened": true
+   },
+   "reading": "pār",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M050-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M051": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "pū/puḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M052": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ta",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M052-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M053": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "mi",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M053-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M054": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "mi",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M054-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M055": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "miN3",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M055-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M057": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "māṭu",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M059": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ēḷ/eḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M060": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kāṇṭāmirukam",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M061": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ka",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M061-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M062": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "erutu",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M063": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "mutalai",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M065": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kuTam",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M066": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M066-02"
+    ],
+    "weakened": true
+   },
+   "reading": "cōḻ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M066-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M067": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kōṭṭāṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M068": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M068-01",
+     "M068-03"
+    ],
+    "weakened": true
+   },
+   "reading": "maṟi",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M068-01",
+     "M068-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M069": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M069-02"
+    ],
+    "weakened": true
+   },
+   "reading": "nēr",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M069-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M070": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M070-02"
+    ],
+    "weakened": true
+   },
+   "reading": "vēl",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M070-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M073": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kōṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M074": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ker",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M075": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M075-02",
+     "M075-04"
+    ],
+    "weakened": true
+   },
+   "reading": "māṟ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M075-02",
+     "M075-04"
+    ],
+    "weakened": true
+   }
+  },
+  "M076": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "naN",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M076-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M077": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M077-02"
+    ],
+    "weakened": true
+   },
+   "reading": "nal",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M077-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M078": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M078-02"
+    ],
+    "weakened": true
+   },
+   "reading": "cēr",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M078-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M080": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "vēṅkai",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M082": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "pa",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M087": {
+   "divergent": true,
+   "executed_class": "R",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "veL",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M087-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M089": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M089-03",
+     "M089-05",
+     "M089-07"
+    ],
+    "weakened": true
+   },
+   "reading": "tu/tū",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M089-03",
+     "M089-05",
+     "M089-07"
+    ],
+    "weakened": true
+   }
+  },
+  "M099": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kol/koḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M108": {
+   "divergent": true,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kaL",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M108-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M124": {
+   "divergent": false,
+   "executed_class": "E",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kuTam",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M128": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kaṇ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M128-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M130": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "mui",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M130-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M145": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "miṭ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M145-01",
+     "M145-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M151": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "viḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M162": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "il/iḷ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M165": {
+   "divergent": true,
+   "executed_class": "R",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M165-03"
+    ],
+    "weakened": true
+   },
+   "reading": "cul",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M165-01",
+     "M165-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M176": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M176-01"
+    ],
+    "weakened": true
+   },
+   "reading": "an/aṇ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M176-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M194": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "kaṭ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M194-01",
+     "M194-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M202": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M202-02"
+    ],
+    "weakened": true
+   },
+   "reading": "can",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M202-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M220": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "al",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M222": {
+   "divergent": true,
+   "executed_class": "P",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M222-01"
+    ],
+    "weakened": true
+   },
+   "reading": "min",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M222-01",
+     "M222-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M233": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ūr",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M264": {
+   "divergent": true,
+   "executed_class": "R",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "peN",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M264-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M267": {
+   "divergent": true,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M267-05"
+    ],
+    "weakened": true
+   },
+   "reading": "iN/in (genitive of)",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M267-04",
+     "M267-05"
+    ],
+    "weakened": true
+   }
+  },
+  "M305": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M305-02",
+     "M305-04",
+     "M305-06"
+    ],
+    "weakened": true
+   },
+   "reading": "ōṭu/comitative",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M305-02",
+     "M305-04",
+     "M305-06"
+    ],
+    "weakened": true
+   }
+  },
+  "M311": {
+   "divergent": true,
+   "executed_class": "R",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "vaTamiin",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M311-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M328": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ā/āl",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M329": {
+   "divergent": false,
+   "executed_class": "E",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "poṉ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M330": {
+   "divergent": false,
+   "executed_class": "E",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M330-02"
+    ],
+    "weakened": true
+   },
+   "reading": "can",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M330-02"
+    ],
+    "weakened": true
+   }
+  },
+  "M336": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M336-03",
+     "M336-05",
+     "M336-06"
+    ],
+    "weakened": true
+   },
+   "reading": "iṉ/locative",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M336-03",
+     "M336-05",
+     "M336-06"
+    ],
+    "weakened": true
+   }
+  },
+  "M342": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M342-01"
+    ],
+    "weakened": true
+   },
+   "reading": "ay/ā",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M342-01"
+    ],
+    "weakened": true
+   }
+  },
+  "M347": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M347-01",
+     "M347-03"
+    ],
+    "weakened": true
+   },
+   "reading": "ka",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M347-01",
+     "M347-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M351": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "vī",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M362": {
+   "divergent": false,
+   "executed_class": "P",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M362-03"
+    ],
+    "weakened": true
+   },
+   "reading": "aṇi",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M362-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M367": {
+   "divergent": false,
+   "executed_class": "U",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M367-03",
+     "M367-05",
+     "M367-06"
+    ],
+    "weakened": true
+   },
+   "reading": "am/neuter",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M367-03",
+     "M367-05",
+     "M367-06"
+    ],
+    "weakened": true
+   }
+  },
+  "M374": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M374-03"
+    ],
+    "weakened": true
+   },
+   "reading": "kul",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M374-03"
+    ],
+    "weakened": true
+   }
+  },
+  "M375": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M375-04"
+    ],
+    "weakened": true
+   },
+   "reading": "taṇ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M375-04"
+    ],
+    "weakened": true
+   }
+  },
+  "M391": {
+   "divergent": false,
+   "executed_class": "I",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   },
+   "reading": "ka/kaṇ",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [],
+    "weakened": false
+   }
+  },
+  "M398": {
+   "divergent": true,
+   "executed_class": "P",
+   "primary": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M398-03",
+     "M398-05"
+    ],
+    "weakened": true
+   },
+   "reading": "kuṟi",
+   "sensitivity": {
+    "class_outcome": "unchanged",
+    "destination": null,
+    "lost_items": [
+     "M398-03",
+     "M398-05",
+     "M398-06"
+    ],
+    "weakened": true
+   }
+  }
+ },
+ "scc_cycles": [],
+ "self_loops": [],
+ "spec": "099-inference-log"
+}

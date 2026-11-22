@@ -41,15 +41,15 @@
 
 ## Stage 2 — The audit and the M267 statement
 
-- [ ] T201 — The reference audit runs over the landed log;
+- [x] T201 — The reference audit runs over the landed log;
       TC-099-03's independent implementation recomputes it
       from the log alone; the two compared exactly.
-- [ ] T202 — The completion record written: per-reading
+- [x] T202 — The completion record written: per-reading
       outcomes under both treatments with divergences, the
       component result, the open ends, the spot-check
       comparison in the spot-check's own terms, and the
       M267 dependency statement (spec section 5).
-- [ ] T203 — The completion record filed into
+- [x] T203 — The completion record filed into
       specs/091-anchor-comparison-integrity/records/ as the
       Q3 audit's completion record, with a copy under this
       spec's records/; the package closes. No standing,
