@@ -14779,3 +14779,35 @@ Shell wrappers (macos-latest) success; Shell wrappers
 success — 10/10. (This entry's per-job list as first
 recorded was complete; this block adds the PR number and
 merge hash it lacked.)
+
+## 2026-11-22 — Red Team Round 5 corrections (Specs 091/096/097 + LEDGER)
+
+The Round 4 entries for PRs #657, #658 and #659 gain
+appended merge-and-CI completion blocks — PR numbers,
+merge hashes, and full per-job verdict lists from the
+check runs on the PR heads — completing the two truncated
+lists (RT5-01, on the RT3-09 form; the originals are
+unedited). The #658 entry and the amendment-2 correction
+note gain STEMS count corrections: STEMS has 15 entries,
+not 16 (RT5-05). Spec 099's claims.md C099-1 pointer is
+extended to govern the generated map mirror
+(`glossa-indus/map/map-data.json`), which embeds the claim
+as filed and reproduces byte-for-byte under the
+generator's `--check` (RT5-02). The falsifiers annex head
+note gains a dated correction: its (5, 65, 4, 3, 17)
+counts are the relabel-execution partition; the counts of
+record are (4, 65, 4, 3, 18) (RT5-03). The custody
+supplement gains a second appended citation correction
+withdrawing the §1 "after the fact" quote, which appears
+in no record (RT5-08). RT5-04, RT5-06 and RT5-07 were
+adjudicated DO NOT APPLY (residual observations under the
+pointer pattern adjudicated at RT4-12). PR #660. CI on
+the substance head d2358832: 10/10 per job — Backend
+tests (pytest), Cloud image smoke (Spec 083), Evidence
+Graph script smoke tests, Freeze gate records check
+(C4), Frontend tests (Playwright), Indus public
+validation checks, Ledger/matrix/map equivalence gate,
+Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success. Adjudication:
+RED-TEAM-ROUND-5-ADJUDICATION.md (goal record). Execution
+venue: tower-compute.
