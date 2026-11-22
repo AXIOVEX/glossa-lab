@@ -108,7 +108,10 @@ above reads true end to end:
    (`test_spec095_stage4_instantiation.py`); dashboard
    studies 101 → 102 (`test_spec095_t403_dashboard.py`);
    the taxonomy domain census, Program infrastructure
-   24 → 25 (`test_program_map_conformance.py`).
+   24 → 25 (`test_program_map_conformance.py`); and the
+   gate's own evidence pins, map edge census supports
+   1,548 → 1,552 and program-map study nodes 101 → 102
+   (`test_spec086_ledger_gate.py`).
 3. **Departure acts appended.** The three superseded
    settling records named in §2 departed the run store
    in this landing; their departure acts were appended
