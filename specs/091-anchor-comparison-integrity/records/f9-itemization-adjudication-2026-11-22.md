@@ -232,3 +232,21 @@ entry for M047. **M047 remains class U.**
 **AI disclosure:** this amendment was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+## Supersession pointer, 2026-11-22 — the future identifiability population (RT6-L2)
+
+**Filed under Red Team Round 6, finding RT6-L2.** The
+Downstream effects section above states that the
+identifiability population "falls from 69 to 68" for any
+future stage. That figure was superseded the same day by
+the M048 act
+(`records/m048-readjudication-2026-11-22.md`), which
+reclassed M048 from U to I. **The population is 69 for
+any future stage (66 I + 3 E).** The original sentence
+stands as filed, as history of this act at its execution;
+no future stage may cite 68 as its population on this
+record's authority.
+
+**AI disclosure:** executed by an AI agent (Muse, via
+Muse) at the direction of Tristen Pierson, per
+constitution sec. VI.

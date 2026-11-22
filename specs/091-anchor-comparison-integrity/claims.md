@@ -107,6 +107,60 @@ anchors with landed external lines. Register falsifier, carried in
 substance: *an anchor whose only producible support after the pass
 remains same-lineage stays internal-only and the count stands — the
 find closes per-anchor only as external lines actually land.*
+
+> **Amendment pointer (2026-11-21, M202 addendum):** the
+> count stated in this claim's text is the count as filed.
+> M202 departed class E earlier than the other departures
+> recorded below: under the addendum rule in the standings
+> relabel execution record of 2026-11-21
+> (`records/standings-relabel-execution-2026-11-21.md`
+> section 4), M202's external claim, contradicted against
+> its named source, was struck and M202 took class U; the
+> executed partition became 5 E + 65 I + 4 R + 3 P + 17 U
+> = 94.
+>
+> **Amendment pointer (2026-11-21, M044 addendum):**
+> M044 was likewise struck to class U on 2026-11-21
+> (`records/m044-addendum-adjudication-2026-11-21.md`);
+> the partition became 4 E + 65 I + 4 R + 3 P + 18 U = 94.
+>
+> **F-9 pointer (2026-11-22):** M047 was reclassed from
+> E to U by the F-9 itemization act
+> (`records/f9-itemization-adjudication-2026-11-22.md`;
+> PRs #663/#668); the partition became 3 E + 65 I + 4 R +
+> 3 P + 19 U = 94.
+>
+> **M048 pointer (2026-11-22):** M048 was reclassed from
+> U to I by the M048 re-adjudication of the same date
+> (`records/m048-readjudication-2026-11-22.md`). **The
+> current partition is 3 E + 66 I + 4 R + 3 P + 18 U =
+> 94, and Arm E is M124, M329, M330.**
+>
+> **Supersession pointer (2026-11-22, Red Team Round 6
+> — RT6-H1):** the present-tense statement in this
+> claim's text that the program's count "is at all times
+> exactly 6 (M044, M047, M124, M202, M329, M330) plus the
+> anchors with landed external lines" is superseded as a
+> statement of the current standings by the pointers
+> above. The label "independently supported" is retired
+> as a class name: the six formerly so called were
+> relabelled class E (external-support claims on file)
+> on 2026-11-21, and the current class E arm is the
+> three readings named in the M048 pointer. This pointer
+> also governs this claim's mirrors in
+> `specs/091-anchor-comparison-integrity/aee-claims.json`
+> and
+> `specs/091-anchor-comparison-integrity/records/adoption-aee-assessment.json`,
+> and its downstream generated mirrors in
+> `glossa-indus/map/map-data.json` and
+> `glossa-indus/matrix/matrix.json`, whose texts are the
+> claim as filed and are not rewritten (the append-only
+> bundle rule): a consumer of any of those mirrors must
+> read C091-6 under these pointers. The generated files
+> are produced only by the repo's generation tooling
+> (`tools/ledger/generate_map.py`,
+> `tools/ledger/generate_matrix.py`) from the canonical
+> ledger and carry no governance text of their own.
 *Falsifier:* an anchor counted independently supported whose support
 lines on record are all same-lineage; or a supported count that differs
 from 6 + (anchors with filed external lines).

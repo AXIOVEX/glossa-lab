@@ -36,6 +36,18 @@
 > tail. The governing record is
 > `records/m048-readjudication-2026-11-22.md`.
 
+> **RT6-L1 pointer (2026-11-22, Red Team Round 6):**
+> section 1's blanket sentence "All five readings remain
+> NOT IDENTIFIABLE" is superseded by the L-1 addendum's
+> per-sign, per-study outcomes
+> (`records/register-wording-addendum-2026-11-22.md`
+> section 1: under Spec 098 Stage 2, M124 returned NOT
+> IDENTIFIABLE; M329 and M330 returned UNDECIDABLE AT
+> THIS POWER). Identifiability is stated per study and
+> per sign, never as a class-wide intrinsic. Two of the
+> five readings in section 1 (M044 and M047) are also no
+> longer class E, under the pointers above.
+
 **Date: 2026-11-21. Filed under Red Team Round 1 (findings
 RT1-02, RT1-14, RT1-15, RT1-16, RT1-20, RT1-37), adjudicated
 2026-11-21. This supplement annotates the standings of the
