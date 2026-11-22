@@ -1117,3 +1117,45 @@ constitution sec. VI. The adjudication dispositions are
 the program's recorded answers to the three assessments;
 the OWNER DECISION items are the owner's to take, and the
 APPLY items land only under §5 in a later pass.
+
+## 8. Owner decisions — first batch, 2026-11-22
+
+The owner took the first four owner-decision items of §6
+in the Glossa-Lab chat on 2026-11-22. The acts are
+recorded here; the remaining items (OD-5 to OD-22) stand
+open.
+
+- **OD-1 (I-10) — ADOPTED, 11:21 ET.** The F-9 reopen
+  clause is broadened prospectively, on the terms stated
+  in §6. Instrument: the dated amendment of 2026-11-22 to
+  `records/f9-itemization-adjudication-2026-11-22.md`,
+  landed with this addendum. No standing changes under
+  it: M047 remains class U, and no basis entry is made
+  for M047, the verified Parpola §10.1 proposal being
+  family-level rather than a proposal of mīn for that
+  sign.
+- **OD-2 (I-18) — ADOPTED, 11:25 ET.** The search for
+  independently fixed sign-to-language evidence is the
+  Indus program's top research priority. This is a
+  direction act: it commissions no study by itself, and
+  future Indus commissions are ordered against it.
+- **OD-3 (I-19) — COMMISSIONED, 11:19 ET.** Spec 098
+  Stage 3 is commissioned for the four historically
+  eligible signs (M089, M267, M347, M375), with the
+  eligibility reconciliation and the M267 and M089 checks
+  as prerequisites and the seal released once under the
+  custody rules. The commission is recorded here for
+  completeness; its execution and outcome are recorded by
+  the Stage 3 execution itself under Spec 098, not by
+  this addendum.
+- **OD-4 (I-20) — COMMISSIONED, 11:26 ET.** The
+  re-verification remainder is commissioned as a package
+  (M330 targeted inspection; M124/M329 outside-proposal
+  legs; the Elamite forms and the incomplete Mahadevan
+  citation mapped and finished or retired). Execution is
+  dispatched separately; this addendum records the
+  commission only.
+
+**AI disclosure:** this addendum was executed by an AI
+agent (Muse, via Muse) at the direction of Tristen
+Pierson, per constitution sec. VI.
