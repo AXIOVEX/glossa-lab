@@ -140,3 +140,19 @@ sequence is never left to be reconstructed from PR numbers.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Citation correction (2026-11-21, Red Team Round 4 — RT4-07)
+
+Appended by the Round 4 adjudication; the text above is
+unedited and remains governed by this supplement's head
+pointer. §4's paraphrase "The custody record's formulation
+('the permission question was raised before this verdict
+was recorded')" repeats the custody supplement's
+attribution of that sentence to the custody record. The
+sentence appears in no record: the custody record
+(`records/custody-record-2026-11-20.md`, §§1–3 only)
+contains no such formulation, and the attribution is
+withdrawn here as it is in the custody supplement's own
+citation correction of the same date. §4's chronology,
+established from the PR record (freeze v2, PR #617; the
+send, PR #618; Stages 4.2–4.4, PRs #619–#621), stands.
