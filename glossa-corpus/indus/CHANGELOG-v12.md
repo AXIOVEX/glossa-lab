@@ -21,14 +21,17 @@ References 36–38) are v11 content, carried unchanged; they are not
 v12 changes.
 
 **Build.** LuaLaTeX (TeX Live 2026, VM toolchain), two passes, zero
-errors, zero undefined references. 48 pages (v11 deposited build:
-39 pages; credit-corrected v11 build: 40 pages).
+errors, zero undefined references. 50 pages as amended (48 pages as
+first built; v11 deposited build: 39 pages; credit-corrected v11
+build: 40 pages).
 
-**Identity of the v12 review build.**
+**Identity of the v12 review build (as amended, 2026-11-22).**
 - Source: `pierson_2026_indus_decipherment_preprint_v12.tex`,
-  SHA-256 `e2084881f1492365692c92c21b7ec1ed6a6005f9331cc21fef72bc69df4e48e2`.
+  SHA-256 `13f4f23047c45c18f49ab3041c752d6a1d6dbf159906a4e626b04c332355dd17`.
+  (As first built: `e2084881f1492365692c92c21b7ec1ed6a6005f9331cc21fef72bc69df4e48e2`.)
 - PDF: `pierson_2026_indus_decipherment_preprint_v12.pdf`,
-  SHA-256 `f4e62eb814d2dc6be462c6a600d0dd1d9bd00f642b62b33c37dc4eb97785628e`.
+  SHA-256 `b4a965dcef44f5529c0ab4c1b447d59db6780f19aa3dc50945dc23bd6db19758`.
+  (As first built: `f4e62eb814d2dc6be462c6a600d0dd1d9bd00f642b62b33c37dc4eb97785628e`.)
 - The review PDF was compiled from a build copy differing from the
   source in exactly one string: the §6 placeholder
   `%%VERSION_DOI%%` rendered as "assigned at deposit" (a literal
@@ -37,9 +40,10 @@ errors, zero undefined references. 48 pages (v11 deposited build:
   for the v11 freeze builds). At deposit, the pin procedure
   substitutes the assigned version DOI, per
   `v11_version_note_DEPOSIT.md`.
-- Word count: the printed figure, 27,337, is the review build's
-  measured fixed point (method: `pdftotext | wc -w`, rebuilt to the
-  fixed point, per the v11 note's method). The DOI pin at deposit
+- Word count: the printed figure, 28,580, is the amended review
+  build's measured fixed point (method: `pdftotext | wc -w`,
+  rebuilt to the fixed point, per the v11 note's method; as first
+  built: 27,337). The DOI pin at deposit
   changes the count by −2 ("assigned at deposit" is three tokens;
   the DOI is one); the figure is re-verified on the rebuilt deposit
   PDF at that step, per the v11 note's remaining-steps procedure.
@@ -66,7 +70,9 @@ errors, zero undefined references. 48 pages (v11 deposited build:
    adjudicated verdict (a candid research-management register, not a
    calibrated scale of reading correctness; no correctness
    probability warranted for any reading); the E/I/R/P/U classes;
-   the current partition 4 E + 65 I + 4 R + 3 P + 18 U = 94;
+   the current partition 3 E + 65 I + 4 R + 3 P + 19 U = 94
+   (as first built: 4 E + 65 I + 4 R + 3 P + 18 U; amended
+   2026-11-22, see the amendment section below);
    "supported" retired; the two strikes (M202, M044); falsifiers
    filed for 93 of 94; the Indus script remains undeciphered.
    (Records: the audit adjudication; the standings supplement.)
@@ -150,7 +156,9 @@ errors, zero undefined references. 48 pages (v11 deposited build:
      adoption (2026-11-22) of the itemization test prospectively;
      the directed M047 Parpola §10.1 itemization re-examination,
      stated as in progress with its outcome to be reported — **no
-     result is pre-stated**; M330's second-exposure position
+     result is pre-stated** (the re-examination was executed and
+     its outcome is carried by the 2026-11-22 amendment below,
+     which rewrites D.5); M330's second-exposure position
      (survives the itemization test; would fall only under a finer
      rule requiring partial verifiability, not adopted).
      (Records: the Round 4 red-team adjudication, flag F-9; the
@@ -196,7 +204,9 @@ errors, zero undefined references. 48 pages (v11 deposited build:
      population now 69 after M044, no Stage 1 result changes);
      T104 (seal struck: 2,413 clusters, 517 held out, custody
      outside the repository, released exactly once at Stage 3);
-     Stage 2 commissioned 2026-11-22, not yet run at writing.
+     Stage 2 commissioned 2026-11-22, not yet run at writing
+     (executed 2026-11-22; its outcome is carried by the amendment
+     below, which extends D.9).
      (Records: the Spec 098 Stage 1 records — provenance,
      grapheme-gap resolution, population annex, execution freeze
      annex, seal record.)
@@ -241,6 +251,84 @@ errors, zero undefined references. 48 pages (v11 deposited build:
      (4) the 605 → 287 → 161 → 94 lineage and the "shrinking
      claims" narrative.
 
+## Pre-deposit amendment (2026-11-22)
+
+The owner approved v12 for deposit on 2026-11-22 "as long as we
+have all things resolved prior to deposit". Four items resolved
+after the build; this amendment carries their outcomes. Every
+partition surface in the paper (abstract, §5, Appendix D.2) now
+agrees at **3 E + 65 I + 4 R + 3 P + 19 U = 94**.
+
+A. **The F-9 outcome — M047 reclassed E → U.** Appendix D.5 is
+   rewritten ("The Itemization Test and the Reclassification of
+   M047"): the adopted test stated prospectively; the directed
+   re-examination's determination (M047's filed basis states no
+   published proposal of the reading; the Parpola name is the
+   crosswalk's catalogue sourcing; the crosswalk's phoneme field
+   is the program's own curation, per-entry unattributed; the
+   basis truncates and cannot be completed by inference); no
+   internal candidate motivation remains, so M047 takes class U;
+   Arm E is M124, M329, M330; the reopen clause for production of
+   the untruncated basis is carried. The abstract, §5 and D.2
+   partitions and the §5 identifiability paragraph's closing
+   sentences are corrected to the three-E position.
+   (Record: `specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md`;
+   PRs #663, #668.)
+
+B. **Spec 098 Stage 2 executed.** Appendix D.9 (retitled "Stages
+   1 and 2") now carries the executed outcome: population 69 as
+   executed (the standings at the execution commit, before the
+   F-9 act; M047 a member as class E as its entry then stood);
+   48 UNDECIDABLE AT THIS POWER; 17 NOT IDENTIFIABLE by
+   construction; 4 PROCEED TO STAGE 3 (M267, M347, M375, M089);
+   0 DISCRIMINATED; margins and permutation-null percentiles not
+   computed by design (Stage 3 quantities); the seal stays
+   sealed; the population for any future stage is 68 after the
+   F-9 act; Stage 3 is not commissioned.
+   (Record: the Spec 098 Stage 2 outcome record,
+   `stage-2-outcome-2026-11-22.md`; PRs #664, #666, #667.)
+
+C. **The F-4 study package.** (Records: PRs #665, #669, #670.)
+   - *M267 dependency-aware retest* — a new passage in Appendix
+     D.7, and D.10's "no such retest has been run" corrected:
+     verdict GENITIVE_MARGINAL, not promoted; the slot-pattern
+     statistic excluded as confirmation per the dependency
+     statement (the markers' readings are not independently
+     justified); the uninterpreted recompute supports a medial
+     particle statement only; the DEDR 494 leg fails as filed
+     (entry 494 = Ta. il "house"; the claimed word is not a DEDR
+     headword); the from-raw permutation null not recomputed
+     (the pinned Holdat corpus is not held on the execution
+     venue; the gap is named; the withdrawn figures are not
+     revived). The tranche-2 NOT EXECUTABLE AS SPECIFIED framing
+     stands as that rerun's history; it is not erased.
+     (`m267-dependency-aware-retest-2026-11-22.md`.)
+   - *DEDR digital-edition pass* — Appendix D.4's M329 item
+     corrected: no tree-vs-print divergence; poṉ is entry
+     **4570** in print and tree alike (print 4524 = tree 4524,
+     bobbaḍe "rind, bark"); the filed 4524 citation was the
+     program's error; the "numbering divergence unresolved"
+     framing is removed. Appendix D.3's M044 symmetry clause is
+     closed on the same pass: print 1638 = tree 1638 (kucukucu),
+     the clause is NOT triggered, and the M044 strike stands
+     unreopened. (`dedr-digital-edition-pass-2026-11-22.md`.)
+   - *M048's corrected battery result* — a new passage in
+     Appendix D.7: score 2 (positional PASS, DEDR PASS, bigram
+     NOT_RUN — corpus not held on the venue), promotion
+     threshold MET; the class re-adjudication it triggers is a
+     separate act, has NOT been performed, and no outcome is
+     pre-stated. (`m048-corrected-battery-result-2026-11-22.md`.)
+   - *Meroitic items NOT carried:* the 662-count reproduction
+     (reproduces exactly) and freeze v3 are Meroitic-program
+     results; the Indus paper's text does not touch them, and no
+     Meroitic material was added to it.
+
+D. **Mechanics.** Printed word count re-measured to the fixed
+   point: **28,580** (placeholder mechanics as disclosed above;
+   expected 28,578 after the deposit DOI pin). Recompiled two
+   passes, zero errors, zero undefined references; **50 pages**.
+   Page 1 and the Appendix D opening page rendered and read.
+
 ## What was NOT changed
 
 - §§1–4, the §3 study reports, Appendices A–C, the bibliography,
@@ -249,8 +337,10 @@ errors, zero undefined references. 48 pages (v11 deposited build:
 - §3.32 remains absent; the Roif gate stands (§3.5's withheld-study
   paragraph unchanged).
 - No standing was moved by this version: the standings it reports
-  are the record's standings of 2026-11-22, and the F-9
-  re-examination's outcome is not pre-stated (D.5).
+  are the record's standings of 2026-11-22 as amended the same
+  day — the F-9 act (M047 → U) is reported in D.5 as executed,
+  and the M048 re-adjudication its battery result triggers is
+  reported as not performed, with no outcome pre-stated.
 
 ## Status
 
