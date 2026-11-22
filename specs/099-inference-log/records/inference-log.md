@@ -2,7 +2,7 @@
 
 Spec 099 Stage 1, filed 2026-11-21. Generated from `inference-log.json` by `tools/build_inference_log.py`; the JSON is the record of record and this rendering is never edited separately.
 
-Entries: 94. Items: 299 (213 primary (a), 61 other-reading / candidate-system (b), 25 ambiguous).
+Entries: 94. Items: 296 (210 primary (a), 61 other-reading / candidate-system (b), 25 ambiguous).
 
 Item types: **a** = primary evidence; **b** = another reading or a candidate-system construct used as evidence; **ambiguous** = the filed basis does not state the item's inputs. Status notes carry the landed annotations (withdrawn, FAILED, struck, not reproducible) with their sources.
 
@@ -12,10 +12,9 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 
 | Item | Kind | Type | Statement | Targets | Notes |
 |---|---|---|---|---|---|
-| M044-01 | dictionary_entry | a | DEDR 1638 recorded as this reading's dictionary reference | — | Status: DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings |
+| M044-01 | dictionary_entry | a | DEDR 1638 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 1638') and as this reading's dictionary reference; entered as one item (spec section 3.2) | — | Status: DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings |
 | M044-02 | comparative_lexical | a | external corroboration leg: Elamite 'kun' (MC-18) | — | — |
 | M044-03 | comparative_lexical | a | external corroboration leg: Sanskrit 'kona' (SL-04) | — | — |
-| M044-04 | dictionary_entry | a | external corroboration leg: DEDR 1638 | — | Status: DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings |
 
 - Note: the basis-as-recorded segment is empty as filed ('Basis as recorded: ;'); the Phase-276 segment carries the filed legs
 - Note: the audit's evidence lines count a CROSSWALK_CORPUS line for this reading, but no crosswalk step is stated in the basis text as filed
@@ -35,10 +34,9 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 
 | Item | Kind | Type | Statement | Targets | Notes |
 |---|---|---|---|---|---|
-| M124-01 | dictionary_entry | a | DEDR 1651 recorded as this reading's dictionary reference | — | Status: re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed) |
+| M124-01 | dictionary_entry | a | DEDR 1651 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 1651') and as this reading's dictionary reference; entered as one item (spec section 3.2) | — | Status: re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed) |
 | M124-02 | comparative_lexical | a | external corroboration leg: Elamite 'kun' (MC-18) | — | Status: leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only) |
 | M124-03 | comparative_lexical | a | external corroboration leg: Sanskrit 'kona' (SL-04) | — | Status: leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only) |
-| M124-04 | dictionary_entry | a | external corroboration leg: DEDR 1651 | — | Status: re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed) |
 
 ## M202 — can (class U, Q4 S)
 
@@ -58,10 +56,9 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 | Item | Kind | Type | Statement | Targets | Notes |
 |---|---|---|---|---|---|
 | M329-01 | positional_statistic | a | positional distribution: MEDIAL position, frequency 5, distributional assignment | — | — |
-| M329-02 | dictionary_entry | a | DEDR 4524 recorded as this reading's dictionary reference | — | Status: the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment) |
+| M329-02 | dictionary_entry | a | DEDR 4524 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 4524') and as this reading's dictionary reference; entered as one item (spec section 3.2) | — | Status: the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment) |
 | M329-03 | comparative_lexical | a | external corroboration leg: Elamite 'bur/pur' (MC-21) | — | — |
 | M329-04 | comparative_lexical | a | external corroboration leg: Sanskrit 'pura' (SL-14) | — | Status: FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources |
-| M329-05 | dictionary_entry | a | external corroboration leg: DEDR 4524 | — | Status: the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment) |
 
 ## M330 — can (class E, Q4 S)
 

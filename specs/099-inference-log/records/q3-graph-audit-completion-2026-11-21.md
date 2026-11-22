@@ -140,3 +140,43 @@ What survives removal, and what a dependency-aware retest must therefore hold fi
 ## Non-effects
 
 This audit reports; it moves nothing. No standing, class, anchor, or register entry is altered by this record, and no class change is implied that would need executing: the audit implies none. The adjudication's Q3 unit is closed by this filing; the standings-basis acts the adjudication already executed (premises struck, counts retained as unverified observations) are untouched.
+
+## Round 4 scope note (2026-11-21, Red Team Round 4 — RT4-01, RT4-08)
+
+Appended by the Round 4 adjudication; the record above is
+unedited. Two qualifications govern every future citation
+of this audit's headline.
+
+**The honest citation form for the Q3 result is:**
+*stripping every reading-on-reading premise changes no
+class under the audit's class rules (0 of 94 under both
+treatments) and weakens 44 of 94 bases (63 counting
+ambiguous premises); the E quarter of the no-change result
+is structural, since §4.2 makes E immovable, and M047's
+logged basis contains no external-support item.*
+
+On M047: class E's landed definition is register-level
+(external-support claims on file, unverified, NOT
+IDENTIFIABLE), and a claim is on file for M047 — its
+Parpola 1994 §10.1 leg was re-verified VERIFIED AS FILED
+(provenance only), with the limits stated in the
+re-verification record (the proposal is class-level for
+the fish-sign family; the step from the crosswalk's sign
+identity to that proposal is the program's own step). But
+M047's derivation, as itemized in the log, contains no
+external-support item: one superseded positional item and
+one crosswalk identity. Whether the register-level or the
+derivation-level reading of the definition governs is a
+definition question the landed rule does not settle; it is
+flagged for the owner (Round 4 flag F-9) with a
+recommendation, and **no standing is moved by this note**.
+M330 is the second exposure under the same question.
+
+On the census: the Inputs paragraph above states the log
+as first landed (299 items). The log has since been
+repaired under `specs/099-inference-log/records/inference-log-amendment-2026-11-21.md`
+(three DEDR double-citations merged per spec section 3.2)
+and counts 296 items; the audit was regenerated over the
+repaired log and every outcome in this record is unchanged
+(0 class changes under both treatments; weakened 44 / 63;
+acyclic), because every merged item is an (a) item.

@@ -142,3 +142,16 @@ the rebased tree: PASS and PASS, as above.
 
 No standing, class, or register entry is altered. The
 audit (Stage 2) runs from this log alone under TC-099-03.
+
+## Amendment pointer (2026-11-21, Red Team Round 4 — RT4-08)
+
+The edge census stated in this record (299 items: 213 (a) /
+61 (b) / 25 ambiguous) is the census of the log as first
+landed. The log has since been rebuilt under
+`records/inference-log-amendment-2026-11-21.md`: three
+readings (M044, M124, M329) each cited one DEDR entry as
+two items, against spec section 3.2, and the repaired log
+counts **296 items: 210 (a) / 61 (b) / 25 ambiguous** over
+the same 94 entries. The verification payloads above were
+re-run against the repaired log and pass; the payloads are
+recorded in the amendment record.

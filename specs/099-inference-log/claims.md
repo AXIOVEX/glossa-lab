@@ -17,6 +17,19 @@ relabel execution record: 5 E + 65 I + 4 R + 3 P + 17 U)
 appears exactly once in the inference log, with its sign,
 its reading as recorded, its executed class, and its
 source-diversity flag as that record states them.
+
+> **Amendment pointer (2026-11-21, Red Team Round 4 —
+> RT4-06):** the partition in this claim's text is the
+> standings as the relabel execution record stated them
+> before the M044 addendum adjudication of the same date
+> moved M044 from E to U; the standings of record are
+> 4 E + 65 I + 4 R + 3 P + 18 U = 94, and the log as landed
+> carries the amended standings. This pointer also governs
+> this claim's mirrors in `aee-claims.json` and
+> `records/adoption-aee-assessment.json`, whose texts are
+> the claim as filed and are not rewritten (the append-only
+> bundle rule): a consumer of either mirror must read
+> C099-1 under this pointer.
 *Falsifier:* a sign in the standings record absent from the
 log or present twice; a log entry whose reading, class, or
 flag differs from the standings record's row for that sign.
