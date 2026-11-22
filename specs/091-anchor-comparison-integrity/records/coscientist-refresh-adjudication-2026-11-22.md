@@ -1352,3 +1352,120 @@ recorded in §8, §9, §10, and this section.
 **AI disclosure:** this addendum was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+---
+
+## 12. Round 6 corrections — addendum, 2026-11-22
+
+This addendum is appended 2026-11-22 in the Red Team
+Round 6 correction round. It is an append-only,
+dated correction to this record: the original text
+of §0 to §11 is preserved unchanged, and this
+addendum changes no standing, no class, no verdict
+and no tally. It answers findings RT6-H2, RT6-M2,
+RT6-M3, RT6-M4 and RT6-L15.
+
+### RT6-H2 — the §0 hash pin for the Eteocypriot input was missing
+
+§10 records OD-12 as adopted "verbatim from the
+captured assessment (the Eteocypriot input pinned
+by hash in §0)". That parenthetical is wrong as
+written: §0 records a SHA-256 pin for the Indus
+input and for the Meroitic input, but it records
+no hash for the Eteocypriot input. The actual
+SHA-256 of the captured Eteocypriot assessment is:
+
+- **Eteocypriot:** `eteocypriot/RESPONSE.md` in the
+  2026-11-22 Co-scientist refresh capture, 9,784
+  bytes, SHA-256
+  `479dbcb3eb23a9157d5f0e1e7849f7b6efd412bdab96127f42973259b1609b49`.
+
+Verification note: this hash was computed
+2026-11-22 in the Round 6 correction round from
+the goal-side capture of the Eteocypriot session's
+`RESPONSE.md`, and spot-checked again in the
+correction clone before this addendum was written.
+With this addendum, the Eteocypriot input stands
+pinned by hash in this record, as §10 asserted but
+§0 did not in fact do.
+
+### RT6-M2 — the adopted OD-12 and OD-22 wordings, quoted in full
+
+§10 adopted the OD-12 Eteocypriot wording without
+quoting it, and §11 adopted the OD-22 Meroitic
+wording without quoting it. Both adopted wordings
+are quoted in full here, character for character
+from their source files.
+
+**OD-12 (Eteocypriot), adopted in §10.** Source:
+`eteocypriot/RESPONSE.md`, SHA-256
+`479dbcb3eb23a9157d5f0e1e7849f7b6efd412bdab96127f42973259b1609b49`
+(the pin supplied under RT6-H2 above). The adopted
+wording is the paragraph following "An honest
+public scientific description would be:" in that
+file:
+
+> In a pilot using a secondary-source transcription of ICS 196, our unanchored alignment procedure recovered one of two prespecified personal-name correspondences. The broader registered validation claim was not established: a required additional corpus was unavailable, and held-out generalisation was not tested. The work does not decipher Eteocypriot.
+
+**OD-22 (Meroitic), adopted in §11.** Sources:
+`meroitic/RESPONSE.md`, SHA-256
+`4edcebe4f2b1321cf1e1ebffd94cc46bea46f70752428805eab5e1385a0ebc6c`,
+and `meroitic-independent-assessment.md`, SHA-256
+`2edec1b75efe95bc021d419e807228608ece3c1005a52cf8fe274294ad2f7f2a`
+(the §0 pin). The adopted wording is the blockquote
+under the heading "Honest public wording, once the
+program's release conditions are satisfied", and it
+is identical in both Meroitic sources:
+
+> We report a partial reproduction of specified published corpus statistics, including exact reproduction of the published pipeline's 662-distinct-text count. Some other quantities remain discrepant, unavailable for testing from the deposit, or insufficiently specified. Our own calibration fixture was internally inconsistent and cannot be interpreted as calibration; an independent reimplementation recovered the headline pattern but not all cell-level results. In a separately frozen campaign, the affiliation test did not meet its preregistered criteria. Of six candidates evaluated on a 33-text holdout, one received a partial rating under our scoring rubric and five were unsupported; none was supported. The partial result is not an independently established new translation. Item-level expert confirmation of the submitted anchors remains outstanding. We do not claim to have deciphered Meroitic.
+
+### RT6-M3 — the Indus reassessment is now filed in this repository
+
+The Indus reassessment,
+`indus-refresh-reassessment-2026-11-22.md` (the Indus
+input pinned by hash in §0), is filed into this
+repository byte-identical, with no header or edit
+added, as
+`specs/091-anchor-comparison-integrity/records/coscientist-refresh-input-indus-reassessment-2026-11-22.md`.
+Its SHA-256 in the repository is
+`1687ed29c4aaab0e1a02f5ab4841573899bab95d9d18cc28939d13923f224f68`
+(20,125 bytes), matching the §0 pin.
+
+The §9 quote of the canonical Indus wording (OD-7)
+is therefore now verifiable in-repository against
+the §0 pin. It is stated plainly: the one blockquote
+sentence "Source checks have rejected some
+attributions, while other claims remain unverified
+or unreproducible from the tracked record" is
+verbatim from the filed source (its line 162, inside
+the blockquote carrying the canonical Indus
+wording), while unit I-24's paraphrase in §1 did
+not enumerate that sentence. No change is made to
+the adopted text of §9.
+
+### RT6-M4 — the OD-18 send record for the Rilly letter
+
+§11 records OD-18 as executed and states that the
+send "was executed separately, and its own record
+carries the Sent id", but no such send record stood
+in this repository. That record is now filed as
+`specs/097-meroitic-reproduction-benchmark/records/od18-rilly-send-record-2026-11-22.md`,
+which carries the send details and quotes the exact
+approved letter text in full. §11's assertion is
+pointed at that file.
+
+### RT6-L15 — the OD-11 naming and send record
+
+§10 deferred OD-11 until the owner named the
+independent checker, and §11's closing line left
+that deferral standing. The naming, the owner's
+approval of the invitation's exact text, and the
+send are now filed as
+`specs/091-anchor-comparison-integrity/records/od11-naming-and-send-record-2026-11-22.md`.
+The OD-11 check itself stands open pending the
+checker's reply; this addendum records the filing
+only and closes no part of the check.
+
+**AI disclosure:** this addendum was executed by an
+AI agent (Muse, via Muse) at the direction of
+Tristen Pierson, per constitution sec. VI.
