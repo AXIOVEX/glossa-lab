@@ -1,6 +1,6 @@
 # glossa-lab
 
-[![CI](https://github.com/BitConcepts/glossa-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/BitConcepts/glossa-lab/actions/workflows/ci.yml)
+[![CI](https://github.com/AXIOVEX/glossa-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/AXIOVEX/glossa-lab/actions/workflows/ci.yml)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20379070-blue)](https://doi.org/10.5281/zenodo.20379070)
 [![paper](https://img.shields.io/badge/paper-Academia.edu-blue)](https://www.academia.edu)
 [![code](https://img.shields.io/badge/code-MIT-green)](LICENSE)
@@ -13,7 +13,7 @@ Agentic computational linguistics research platform for statistical analysis, de
 
 > **Decipherment Status (re-based 2026-10-06 — see note below):** **94 strict SA-independent H+M readings** (90 HIGH + 4 MEDIUM) covering **73.68%** of Holdat IVS tokens (5,159/7,002) · Dravidian phonotactic violations: WITHDRAWN — the checker was defective (it discarded the very sounds it was meant to test for), so its zero count is not evidence; no corrected count has been run · grammar site-invariance: NOT established — the counts behind the old figure came from a statistical routine that has since been found defective, and no difference detected would not by itself prove equivalence · 44 further anchors (43 HIGH + 1 MEDIUM) flagged `pending_non_sa_validation` (SA-lineage provenance; excluded from the strict set) · Fish-sign isolation test: 0/113 isolated in the corpus and 0/27 isolated in the Gulf catalog (separate populations, reported separately — never pooled) · M267 reclassified as genitive particle · 3-slot positional grammar z=10.3 (0/2000 permutations) · Independent structural study: Nair 2026 (arXiv:2604.17828) — structural work on a different corpus; not a replication of these readings or this grammar
 
-> **Preprint (v9):** Pierson, T.K. (2026). *A Falsifiable Computational Decipherment Hypothesis for the Indus Valley Script: 161 Candidate Proto-Dravidian Anchors and a Three-Slot Positional Grammar.* Zenodo. DOI: [10.5281/zenodo.23668053](https://doi.org/10.5281/zenodo.23668053)
+> **Preprint (v11):** Pierson, T.K. (2026). *A Falsifiable Computational Decipherment Hypothesis for the Indus Valley Script: 161 Candidate Proto-Dravidian Anchors and a Three-Slot Positional Grammar.* Zenodo. DOI: [10.5281/zenodo.24376384](https://doi.org/10.5281/zenodo.24376384)
 >
 > **Superseded:** Preprint v8 (Zenodo DOI: [10.5281/zenodo.23604590](https://doi.org/10.5281/zenodo.23604590), deposited 2026-10-23) is retained as history; v9 (deposited 2026-10-26) is the deposit of record. Concept DOI: [10.5281/zenodo.20379070](https://doi.org/10.5281/zenodo.20379070) (unchanged).
 
@@ -99,7 +99,7 @@ Local control surface. Start/stop/restart backend, open UI, quick status.
 
 **94 strict SA-independent H+M candidate readings** (90 HIGH + 4 MEDIUM) covering 73.68% of the Holdat IVS corpus — a falsifiable computational decipherment hypothesis for the Indus Script (~2600–1900 BCE). Re-based 2026-10-06 (Phase-109; see the note at the top of this README): the full post-review anchor table holds 287 entries (166 HIGH + 5 MEDIUM + 3 LOW + 113 CANDIDATE).
 
-**Where the 94 stand now.** An independent desk audit of the filed summaries for these 94 readings was completed on November 21, 2026, and the programme's adjudication of it was filed the same day. Five readings carry external-support claims on file: published work or evidence from outside the programme is recorded as pointing the same way, the audit did not verify that support against the primary publications, and all five returned NOT IDENTIFIABLE in the programme's reported identifiability test. Sixty-five are internally motivated candidates: motivated by the programme's own material, with reading-level support for the specific sound and meaning not demonstrated and identifiability untested. Four require revalidation, three are reported as pending expert review, and seventeen rest on insufficient evidence for their proposed readings. The five and the sixty-five are never summed as supported; the programme's earlier labels for these classes (independently supported; supported on internal evidence only) are superseded by this paragraph wherever they appear in undated text in this repository.
+**Where the 94 stand now.** An independent desk audit of the filed summaries for these 94 readings was completed on November 21, 2026, and the programme's adjudication of it was filed the same day. Five readings carry external-support claims on file (decomposed on re-verification: 1 verified as filed, provenance only (M047); 2 partially verified, dictionary leg only (M124; M329, whose filed Sanskrit pura leg fails); 2 not verifiable from lawfully reachable material (M044, M330)): published work or evidence from outside the programme is recorded as pointing the same way, the audit did not verify that support against the primary publications, and all five returned NOT IDENTIFIABLE in the programme's reported identifiability test. Sixty-five are internally motivated candidates: motivated by the programme's own material, with reading-level support for the specific sound and meaning not demonstrated and identifiability untested. Four require revalidation, three are pending with no documented expert or referral behind them, and seventeen rest on insufficient evidence for their proposed readings. The five and the sixty-five are never summed as supported; the programme's earlier labels for these classes (independently supported; supported on internal evidence only) are superseded by this paragraph wherever they appear in undated text in this repository.
 
 | Metric | Value |
 |---|---|
@@ -113,7 +113,7 @@ Local control surface. Start/stop/restart backend, open UI, quick status.
 | Positional grammar | z=10.3; 0/2000 permutations exceeded observed |
 | Fish-sign isolation | 0/113 isolated (corpus); 0/27 isolated (Gulf catalog) — separate populations, reported separately |
 | Independent structural study | Nair 2026 (arXiv:2604.17828), on the ICIT corpus — independent structural work on a different corpus; it does not test these readings or this grammar and is not a replication of them |
-| Preprint DOI | [10.5281/zenodo.23668053](https://doi.org/10.5281/zenodo.23668053) (v9, deposit of record, deposited 2026-10-26). Superseded: v8 [10.5281/zenodo.23604590](https://doi.org/10.5281/zenodo.23604590) (2026-10-23); v4 [10.5281/zenodo.20414696](https://doi.org/10.5281/zenodo.20414696) |
+| Preprint DOI | [10.5281/zenodo.24376384](https://doi.org/10.5281/zenodo.24376384) (v11, deposit of record, deposited 2026-11-19). Superseded: v9 [10.5281/zenodo.23668053](https://doi.org/10.5281/zenodo.23668053) (2026-10-26); v8 [10.5281/zenodo.23604590](https://doi.org/10.5281/zenodo.23604590) (2026-10-23); v4 [10.5281/zenodo.20414696](https://doi.org/10.5281/zenodo.20414696) |
 
 > **Historical note (retired 161-anchor set — not current metrics).** Two Phase-170 figures computed on the retired 161-anchor set were previously listed in this table and are retained here as history only: seal coverage 69.8% (1,165/1,670 seals fully covered) and grammar accuracy 93.2% sign-level. They describe the retired set, not the current strict set.
 
@@ -313,10 +313,10 @@ The programme's provenance registry is indexed publicly on the Open Science Fram
 - **M267 reclassified**: genitive particle (iN/in), not fish sign
 - **Three-slot grammar** (CLASSIFIER–TITLE–SUFFIX): z=10.3, 0/2000 permutations
 - **Independent structural study**: Nair 2026 (arXiv:2604.17828) — structural work on a different corpus (ICIT); it does not test these readings or this grammar and is not a replication of them
-- **Preprint v9** is the citation of record (Zenodo DOI 10.5281/zenodo.23668053, deposited 2026-10-26), superseding v8
+- **Preprint v11** is the citation of record (Zenodo DOI 10.5281/zenodo.24376384, deposited 2026-11-19), superseding v9 and v8
 
 ---
 
 ## Status
 
-**Preprint v9 published (Zenodo DOI: 10.5281/zenodo.23668053; v8, DOI 10.5281/zenodo.23604590, superseded). Not peer-reviewed.** Backend and frontend operational at `http://localhost:8001`.
+**Preprint v11 published (Zenodo DOI: 10.5281/zenodo.24376384; v9, DOI 10.5281/zenodo.23668053, and v8, DOI 10.5281/zenodo.23604590, superseded). Not peer-reviewed.** Backend and frontend operational at `http://localhost:8001`.

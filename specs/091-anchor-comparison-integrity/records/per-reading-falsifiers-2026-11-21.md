@@ -162,3 +162,34 @@ its row rather than an invented falsifier.
 | M336 | iṉ/locative | This reading currently stands at insufficient evidence; its falsifier addresses its path back. Any future promotion is defeated if the defeating result already on file repeats on re-test — the basis it would have to stand on is its filed collocations with M342 (n=14), M099 (n=6); the corrected validation battery result filed for it (score 1 of the 2-point promotion threshold; legs: positional pass, dedr not_run, bigram fail) — concretely, if a re-run again scores below the 2-point promotion threshold, again detects no site/positional difference where the reading requires one, or the DEDR leg again cannot be run or verified. Until one of those results changes, the reading has no route back to supported. |
 | M342 | ay/ā | This reading currently stands at insufficient evidence; its falsifier addresses its path back. Any future promotion is defeated if the defeating result already on file repeats on re-test — the basis it would have to stand on is the corrected site-statistics check, which detected no difference; the corrected terminal-position rate of 12.0% (70 of 584 occurrences) in the standings companion — concretely, if a re-run again scores below the 2-point promotion threshold, again detects no site/positional difference where the reading requires one, or the DEDR leg again cannot be run or verified. Until one of those results changes, the reading has no route back to supported. |
 | M367 | am/neuter | This reading currently stands at insufficient evidence; its falsifier addresses its path back. Any future promotion is defeated if the defeating result already on file repeats on re-test — the basis it would have to stand on is its filed collocations with M176 (n=8), M099 (n=6) — concretely, if a re-run again scores below the 2-point promotion threshold, again detects no site/positional difference where the reading requires one, or the DEDR leg again cannot be run or verified. Until one of those results changes, the reading has no route back to supported. |
+
+## Annotation (2026-11-21, RT1-19) — executability of this annex's falsifiers
+
+Appended under Red Team Round 1, finding RT1-19 (APPLY WITH
+MODIFICATION). The finding's templating charge was partly
+refuted on re-reading in the adjudication: the six E rows as
+landed by PR #630 are reading-specific in their operative
+clauses (M044 names kun/kona + DEDR 1638; M047 the P47
+crosswalk; M124 DEDR 1651; M202 the Mahadevan mentions + the
+/su/ slot; M329 bur/pur + pura + DEDR 4524 + its MEDIAL
+assignment; M330 Parpola 1994 + the /su/ slot). What stands
+of the charge is recorded here:
+
+1. The shared tail is boilerplate and misfits the rows that
+   name no DEDR entry — M047, M202, and M330 invoke "the DEDR
+   entry named" where none is named.
+2. Executability, classified for every falsifier family in
+   this annex:
+   - **Publication-verification falsifiers: EXECUTABLE** —
+     and for the six E rows, already executed (PR #633).
+   - **DEDR-leg falsifiers: EXECUTABLE** against the restored
+     DEDR tree (the pass over all 49 citations is filed in
+     the register reconciliation of 2026-11-21).
+   - **Positional/bigram re-runs and motif recomputations:
+     NOT EXECUTABLE FROM HELD RECORDS** while the Holdat CSV
+     is unheld in working clones (see the Holdat custody
+     statement of 2026-11-21).
+3. M099: this annex landed 93 of 94 falsifiers; M099 carries
+   no draftable falsifier on a gloss-only basis, and its
+   value is recorded as not load-bearing (standings
+   supplement of 2026-11-21 §7).

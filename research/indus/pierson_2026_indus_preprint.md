@@ -17,6 +17,13 @@ header-includes:
   - \setlength{\emergencystretch}{3em}
 ---
 
+> **SUPERSESSION NOTE (2026-11-21, RT1-52).** This document carries the
+> retired "605 signs deciphered" framing. That framing is retired. The
+> program's current standings are the audited register of 287 anchors
+> with a strict core of 94 (5 E + 65 I + 4 R + 3 P + 17 U), and the
+> program's standing position is that the Indus script is not
+> deciphered. The historical text below this note is unedited.
+
 # A Complete Computational Decipherment Hypothesis for the Indus Script: 605 Proto-Dravidian Sign Readings Validated Across Two Independent Corpora
 
 **Tristen Kyle Pierson**\
