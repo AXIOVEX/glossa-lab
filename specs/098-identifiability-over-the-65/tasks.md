@@ -61,7 +61,7 @@
   held-out count); the context-model estimator details fixed
   in an execution freeze annex committed before the seal.
   Claims: C098-5. Acceptance: **record**.
-- [ ] **T104 — The seal.** Held-out cluster list generated
+- [x] **T104 — The seal.** Held-out cluster list generated
   under the frozen rule on tower-compute; seal record (count
   and SHA-256 only) committed; list held in custody outside
   the repository. Claims: C098-1. Acceptance: **test** (the
