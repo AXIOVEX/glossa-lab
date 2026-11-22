@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1032,
+  "claims_total": 1036,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1008,
+   "draft": 1012,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
-   "ledger_lines": 1063,
+   "ledger_sha256": "a047eb146baece9a1d007663339e29d929bc8ebd39d2fb4a2155fb0fb44a640d",
+   "ledger_lines": 1067,
    "ledger_date": "2026-11-22",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "de4d094f9515968f4edcf758add775c9ce77f487492637e39ed0b95f62234f3c",
+   "matrix_sha256": "8e370712a773206fd1d3f38b0de8febf3e749ab970f6c49532445ead73275058",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "05535a57b793e891ce8f07089382cb66d182cfb6901b6a5c6c33ca58f503c2c8",
-   "comparison_sha256": "51429f2570327104e2996ac6fd6ffdb15e59a2f1f28b8913da23366bf95a2ddf",
-   "settling_canonical_sha256": "f58d833009001c16cacbc5bd80001ec211fbf460bf07d80773e71f35bccccb80"
+   "assignment_sets_sha256": "04747e86c15f64b8da3a2bae528c0a570e261010a6bd36ea3d283c748e959512",
+   "comparison_sha256": "858bdb78693cc8e5409e1403540c1f36dee95ffeb9018fcb81ea97f79d81eec6",
+   "settling_canonical_sha256": "414b1b1e10b803369c2e4a79f0e1fc8d8a9004b773d688c6305c1a34c6714044"
   }
  },
  "elements": [
@@ -8322,6 +8322,38 @@
    "kind": "claim",
    "id": "100-motif-claims-rerun/C100-3",
    "statement": "Every number in the rerun outcome is a mechanical count over the deposited join and the tracked sign files, computed by the pipeline of record (tools/motif_rerun.py): the full 2x2 cells per claim, lift = a*N / ((a+b)(a+c)), odds ratio = ad/bc (reported as undefined where b or c is zero), computed independently over the phase100 and phase114 representations, and the outcome stands only where the two paths agree exactly, cell for cell. This does not establish: that mechanical reproducibility makes the underlying labels correct; label accuracy is the deposit's provenance question, not this claim's.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "101-eteocypriot-next-claim/C101-2",
+   "statement": "Every outcome record of this study states, on its face, that Perna 2019's chapter including its printed reading of ICS 194/195 was read in full on 2026-11-22 (OD-9) before any candidate was registered, and no outcome of this study is described anywhere in the program's records as a blind or held-out prediction. This does not establish: that a postdictive result is worthless; the claim governs the study's reporting of its own strength, not the result's existence.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "101-eteocypriot-next-claim/C101-3",
+   "statement": "Every derivation, stem table, or sign table used by any scoring run of this study is written in full in the study's freeze addendum before the run; where the E1 machinery is reused, the addendum reproduces the E1 driver's tables verbatim. This does not establish: that the tables are correct — only that they are completely stated, so a re-runner needs nothing the record does not contain.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "101-eteocypriot-next-claim/C101-4",
+   "statement": "The corpus state used for scoring is a new corpus state with a C095-3 identity record (per-inscription SHA-256 pins, provenance naming Perna 2019 as edition of record and the OpenEdition route, custody held_from_secondary_reproductions), and the Spec 096 corpus file hashes to its version-1.1.1 value (2954283d...) before and after this study's intake. This does not establish: that Perna's readings are correct — the identity record pins what was read, not what the stone says.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "101-eteocypriot-next-claim/C101-1",
+   "statement": "At least one recurring-ending candidate, registered from the ICS 196 development set alone before scoring (spec section 3.1, P-2), occurs in the ICS 194/195 text under Perna 2019's re-edition at its registered positions at or above its registered occurrence floor, in the postdictive form registered in spec section 3.3. This does not establish: that any candidate's proposed meaning is correct, or that the candidate predicted an unseen text — occurrence at postdictive strength is a distributional result over two texts, and meaning would require an identifiability stage and adjudication this spec does not register.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -27845,6 +27877,50 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "101-eteocypriot-next-claim/C101-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "101-eteocypriot-next-claim/C101-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "101-eteocypriot-next-claim/C101-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "101-eteocypriot-next-claim/C101-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "101-eteocypriot-next-claim/C101-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "101-eteocypriot-next-claim/C101-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "101-eteocypriot-next-claim/C101-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "101-eteocypriot-next-claim/C101-4",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -33167,6 +33243,26 @@
    "constrains": 0
   },
   "100-motif-claims-rerun/C100-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "101-eteocypriot-next-claim/C101-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "101-eteocypriot-next-claim/C101-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "101-eteocypriot-next-claim/C101-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "101-eteocypriot-next-claim/C101-1": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39362,6 +39458,30 @@
    },
    {
     "id": "100-motif-claims-rerun/C100-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "101-eteocypriot-next-claim/C101-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "101-eteocypriot-next-claim/C101-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "101-eteocypriot-next-claim/C101-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "101-eteocypriot-next-claim/C101-1",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -58887,6 +59007,50 @@
     ]
    },
    {
+    "row": "101-eteocypriot-next-claim/C101-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "101-eteocypriot-next-claim/C101-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "101-eteocypriot-next-claim/C101-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "101-eteocypriot-next-claim/C101-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "101-eteocypriot-next-claim/C101-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "101-eteocypriot-next-claim/C101-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "101-eteocypriot-next-claim/C101-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "101-eteocypriot-next-claim/C101-4",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -59054,8 +59218,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1032,
-   "rows_with_cells": 1018,
+   "rows_total": 1036,
+   "rows_with_cells": 1022,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -59413,30 +59577,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1555,
+   "cells_total": 1559,
    "cells_by_relation": {
-    "supports": 1548,
+    "supports": 1552,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1548,
+    "documents": 1552,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1023,
-    "total": 1032,
+    "covered": 1027,
+    "total": 1036,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1009,
-      "total": 1009
+      "covered": 1013,
+      "total": 1013
      }
     }
    },
@@ -64481,8 +64645,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1032,
-   "rows_with_cells": 1018,
+   "rows_total": 1036,
+   "rows_with_cells": 1022,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -64840,15 +65004,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1555,
+   "cells_total": 1559,
    "cells_by_relation": {
-    "supports": 1548,
+    "supports": 1552,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1548,
+    "documents": 1552,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -64917,7 +65081,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1008,
+    "draft": 1012,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -64927,26 +65091,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 992,
+    "created": 996,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1009,
+    "bundle": 1013,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1023,
-   "total": 1032,
+   "covered": 1027,
+   "total": 1036,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1009,
-     "total": 1009
+     "covered": 1013,
+     "total": 1013
     }
    },
    "gap_claims": [
@@ -64963,8 +65127,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1032,
-   "total": 1032
+   "without_state": 1036,
+   "total": 1036
   },
   "unresolved": {
    "sign_mentions": [
@@ -66450,7 +66614,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261122T165435Z-5611f9",
+      "record": "settling-20261122T173321Z-57cfda",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -66464,7 +66628,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261122T165435Z-c7bc9d",
+      "record": "settling-20261122T173321Z-05bab2",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -165762,6 +165926,346 @@
     },
     "sign_records": []
    }
+  },
+  "101-eteocypriot-next-claim/C101-2": {
+   "id": "101-eteocypriot-next-claim/C101-2",
+   "statement": "Every outcome record of this study states, on its face, that Perna 2019's chapter including its printed reading of ICS 194/195 was read in full on 2026-11-22 (OD-9) before any candidate was registered, and no outcome of this study is described anywhere in the program's records as a blind or held-out prediction. This does not establish: that a postdictive result is worthless; the claim governs the study's reporting of its own strength, not the result's existence.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "An outcome record of this study omitting the exposure statement, or any program record describing a result of this study as a blind prediction."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C101-2",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "101-eteocypriot-next-claim/C101-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "101-eteocypriot-next-claim/C101-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C101-2",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    },
+    "sign_records": []
+   }
+  },
+  "101-eteocypriot-next-claim/C101-3": {
+   "id": "101-eteocypriot-next-claim/C101-3",
+   "statement": "Every derivation, stem table, or sign table used by any scoring run of this study is written in full in the study's freeze addendum before the run; where the E1 machinery is reused, the addendum reproduces the E1 driver's tables verbatim. This does not establish: that the tables are correct — only that they are completely stated, so a re-runner needs nothing the record does not contain.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "A scoring run whose derivation or tables differ from the freeze addendum's, or a freeze addendum omitting any table a run used."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C101-3",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "101-eteocypriot-next-claim/C101-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "101-eteocypriot-next-claim/C101-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C101-3",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    },
+    "sign_records": []
+   }
+  },
+  "101-eteocypriot-next-claim/C101-4": {
+   "id": "101-eteocypriot-next-claim/C101-4",
+   "statement": "The corpus state used for scoring is a new corpus state with a C095-3 identity record (per-inscription SHA-256 pins, provenance naming Perna 2019 as edition of record and the OpenEdition route, custody held_from_secondary_reproductions), and the Spec 096 corpus file hashes to its version-1.1.1 value (2954283d...) before and after this study's intake. This does not establish: that Perna's readings are correct — the identity record pins what was read, not what the stone says.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "The Spec 096 corpus file differing from its version-1.1.1 hash after this study's intake; a scoring run over a Perna-side state lacking the identity record."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C101-4",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "101-eteocypriot-next-claim/C101-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "101-eteocypriot-next-claim/C101-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C101-4",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    },
+    "sign_records": []
+   }
+  },
+  "101-eteocypriot-next-claim/C101-1": {
+   "id": "101-eteocypriot-next-claim/C101-1",
+   "statement": "At least one recurring-ending candidate, registered from the ICS 196 development set alone before scoring (spec section 3.1, P-2), occurs in the ICS 194/195 text under Perna 2019's re-edition at its registered positions at or above its registered occurrence floor, in the postdictive form registered in spec section 3.3. This does not establish: that any candidate's proposed meaning is correct, or that the candidate predicted an unseen text — occurrence at postdictive strength is a distributional result over two texts, and meaning would require an identifiability stage and adjudication this spec does not register.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "Every registered candidate is below its registered floor or absent at scoring."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C101-1",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "101-eteocypriot-next-claim/C101-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "101-eteocypriot-next-claim/C101-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C101-1",
+     "document_id": null,
+     "path": "specs/101-eteocypriot-next-claim/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "27501e4b2857afa671b6ce1f7cd72cb6dbe38d7deda733bc8c176ba482119346",
+     "spec": "101-eteocypriot-next-claim"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -165769,7 +166273,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "05535a57b793e891ce8f07089382cb66d182cfb6901b6a5c6c33ca58f503c2c8",
+   "sha256": "04747e86c15f64b8da3a2bae528c0a570e261010a6bd36ea3d283c748e959512",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -165813,15 +166317,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261122T165435Z-5611f9",
+    "record": "settling-20261122T173321Z-57cfda",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
-      "lines": 1063
+      "sha256": "a047eb146baece9a1d007663339e29d929bc8ebd39d2fb4a2155fb0fb44a640d",
+      "lines": 1067
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -165872,15 +166376,15 @@
     }
    },
    {
-    "record": "settling-20261122T165435Z-c7bc9d",
+    "record": "settling-20261122T173321Z-05bab2",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
-      "lines": 1063
+      "sha256": "a047eb146baece9a1d007663339e29d929bc8ebd39d2fb4a2155fb0fb44a640d",
+      "lines": 1067
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -165935,7 +166439,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "51429f2570327104e2996ac6fd6ffdb15e59a2f1f28b8913da23366bf95a2ddf",
+   "sha256": "858bdb78693cc8e5409e1403540c1f36dee95ffeb9018fcb81ea97f79d81eec6",
    "result": {
     "claims_compared": [
      {
@@ -166183,7 +166687,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "f58d833009001c16cacbc5bd80001ec211fbf460bf07d80773e71f35bccccb80",
+   "sha256": "414b1b1e10b803369c2e4a79f0e1fc8d8a9004b773d688c6305c1a34c6714044",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -166518,8 +167022,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1032,
-   "claims_untouched_by_any_run": 1031,
+   "claims_total": 1036,
+   "claims_untouched_by_any_run": 1035,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,

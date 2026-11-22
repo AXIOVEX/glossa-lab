@@ -1,0 +1,198 @@
+{
+ "run": "eteocypriot-a2-baselines-and-negative-controls-part-b",
+ "date": "2026-11-22",
+ "commission": "OD-10 (adjudication unit E-8), owner act 2026-11-22 12:23 ET",
+ "corpus_executed_sha256": "5077285e8eac4b21785ca29cb151d47407f780998d85fa1eea27ef9d7e04f2dd",
+ "corpus_current_sha256": "2954283d6250803d25c98679174e2e534cb7a2c11e57b10711f9873198d23597",
+ "corpus_state": "corpus/corpus-androkles-intake-2026-11-22.json",
+ "corpus_state_sha256": "8ca9b23c2f455e1e2cd0dbfecebf844f3d904fe95c33a346b2edb38ded139e5a",
+ "corpus_state_ics196_analysis_fields_identical_to_executed": true,
+ "pool": {
+  "segments_total": 14,
+  "ics196_segments": 11,
+  "androkles_a_segments": [
+   "ro-ko-ra-?",
+   "a-to-ro-ke-le-we-se",
+   "e-ro-ko-ro"
+  ],
+  "androkles_a_segment_indices": [
+   12,
+   13,
+   14
+  ]
+ },
+ "replicates": 999,
+ "seed": 20261122,
+ "real_pairing": {
+  "names": [
+   {
+    "greek_word": "Ἀρίστωνα",
+    "derived": "a-ri-si-to-na",
+    "lccs_by_segment": [
+     1,
+     1,
+     0,
+     0,
+     1,
+     4,
+     1,
+     0,
+     1,
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    "A2_partner": 6,
+    "A2_lccs": 4,
+    "ground_truth_segment": 6,
+    "A2_recovered": true,
+    "A1_partner": 5,
+    "A1_recovered": false
+   },
+   {
+    "greek_word": "Ἀριστώνακτος",
+    "derived": "a-ri-si-to-na-ka-to-so",
+    "lccs_by_segment": [
+     1,
+     1,
+     0,
+     0,
+     1,
+     4,
+     2,
+     0,
+     1,
+     1,
+     1,
+     0,
+     1,
+     0
+    ],
+    "A2_partner": 6,
+    "A2_lccs": 4,
+    "ground_truth_segment": 7,
+    "A2_recovered": false,
+    "A1_partner": 6,
+    "A1_recovered": false
+   }
+  ],
+  "A2_recovered_count": 1,
+  "A1_recovered_count": 0,
+  "names_total": 2
+ },
+ "baselines": {
+  "B-LONG_longest_segment": {
+   "partner_for_every_name": 7,
+   "segment": "a-ra-to-wa-na-ka-so-ko-o-se",
+   "recovered_count": 1
+  },
+  "B-FIRST_segment_1": {
+   "partner_for_every_name": 1,
+   "recovered_count": 0
+  },
+  "B-RAND_uniform_random_partner": {
+   "per_name_recovery_probability": 0.07142857142857142,
+   "expected_recovered_count": 0.14285714285714285,
+   "prob_at_least_one_recovered": 0.1377551020408163,
+   "prob_both_recovered": 0.00510204081632653
+  }
+ },
+ "NC-1_sign_relabel": {
+  "recovered_count_distribution": {
+   "0": 899,
+   "1": 98,
+   "2": 2
+  },
+  "mean_recovered_count": 0.1021021021021021,
+  "fraction_recovered_ge_real": 0.1001001001001001,
+  "max_lccs": {
+   "Ἀρίστωνα": {
+    "null_mean": 1.2012012012012012,
+    "null_max": 3,
+    "fraction_null_ge_real": 0.0
+   },
+   "Ἀριστώνακτος": {
+    "null_mean": 1.3093093093093093,
+    "null_max": 3,
+    "fraction_null_ge_real": 0.0
+   }
+  }
+ },
+ "NC-2_name_scramble": {
+  "recovered_count_distribution": {
+   "0": 808,
+   "1": 183,
+   "2": 8
+  },
+  "mean_recovered_count": 0.1991991991991992,
+  "fraction_recovered_ge_real": 0.19119119119119118,
+  "max_lccs": {
+   "Ἀρίστωνα": {
+    "null_mean": 1.3933933933933933,
+    "null_max": 3,
+    "fraction_null_ge_real": 0.0
+   },
+   "Ἀριστώνακτος": {
+    "null_mean": 1.6086086086086087,
+    "null_max": 3,
+    "fraction_null_ge_real": 0.0
+   }
+  }
+ },
+ "NC-3_wrong_text_ics217": {
+  "segments": 16,
+  "names": [
+   {
+    "greek_word": "Ἀρίστωνα",
+    "derived": "a-ri-si-to-na",
+    "lccs_by_segment": [
+     1,
+     1,
+     1,
+     1,
+     0,
+     1,
+     1,
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     1,
+     2
+    ],
+    "best_partner": 16,
+    "best_lccs": 2
+   },
+   {
+    "greek_word": "Ἀριστώνακτος",
+    "derived": "a-ri-si-to-na-ka-to-so",
+    "lccs_by_segment": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0,
+     1,
+     1,
+     1,
+     0,
+     1,
+     0,
+     1,
+     2
+    ],
+    "best_partner": 16,
+    "best_lccs": 2
+   }
+  ],
+  "note": "No ground truth exists for this pairing; the LCCS profile calibrates what the frozen score returns against real syllabic text that is not the bilingual's counterpart."
+ }
+}
