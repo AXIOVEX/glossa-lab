@@ -14929,6 +14929,60 @@ success; Shell wrappers (ubuntu-latest) success; Shell
 wrappers (windows-latest) success — 10/10. The substance
 head as first pushed (ebb34e79) also returned 10/10 per
 job before the rebases.
+
+## 2026-11-22 — F-4 study package, Spec 091 items (M267 retest, DEDR pass, M048 battery)
+
+The F-4 study package (owner's commission in chat,
+2026-11-22) lands its three Spec 091 items. The M267
+dependency-aware retest, run under Spec 099's dependency
+statement: route (a) is closed (the AGENT markers stand at
+class U, the TITLE markers at I; no marker is independently
+justified), so the slot-pattern statistic is excluded as
+confirmation; the raw counts stand as filed (the 2x2 sums to
+400 and its marginals cross-check exactly against the filed
+neighbour lists); the uninterpreted recompute gives M267
+flanked in 314 of 400 tokens (Phase-64 partition) or 324
+(Phase-142 partition), a positional fact that does not
+discriminate the genitive; the permutation null was not
+recomputed (the pinned Holdat corpus is not held on the
+venue; the gap is named in the record); the DEDR 494 leg does
+not verify as filed (the digital-edition pass's evidence).
+Verdict in the Phase-74 battery's frozen vocabulary:
+GENITIVE_MARGINAL, not promoted — the battery's own 10% rate
+bar (filed rate 6.5%) could never have promoted in any case.
+The DEDR digital-edition pass (tree re-verified 15/15
+byte-identical at the restore pin; print consulted through
+DSAL, the dictionary's own digital edition) settles both
+open numbering questions: no tree-vs-print divergence at
+4524 (print and tree alike read bobbaḍe "rind, bark"; poṉ is
+entry 4570 in both, print p. 404 — the program's filed
+citation number was wrong), and M044's symmetry clause is
+not triggered (print 1638 = tree 1638, kucukucu "to
+whisper"); entry 494 is il "house" in both editions and iṉ
+is not a DEDR headword. M048's missing corrected battery
+result (RT2-08's referred arm), produced by battery v2's own
+code with validated inputs: positional PASS, DEDR PASS with
+detail exact_match_3 (the historical recorded detail,
+reproduced exactly), bigram NOT_RUN (corpus not held) —
+score 2, the battery's promotion threshold met; under T302's
+input configuration the executed legs score 1, the
+difference being solely the DEDR dataset's 2026-11-19
+restoration. No standing changes: the class re-adjudication
+RT2-08 attaches to M048's outcome, and any consequence of
+the DEDR 494 finding, are separate adjudications. The M048
+run record is entered in run-defs v3 form
+(study-20261122T075700Z-f40448) with its run-index entry.
+CI on the substance head bd50faa9: 10/10 per job — Backend
+tests (pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4), Frontend
+tests (Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all success.
+(The first substance head ffc0004f failed the ledger gate:
+the run record as first filed lacked the run-defs v3 header
+and index entry; conformed in bd50faa9, gate PASS locally and
+in CI.) Commission: F-4 STUDY PACKAGE (goal record).
+Execution venue: tower-compute.
 ## 2026-11-22 — Spec 098 Stage 2 executed (T201 + T202)
 
 Stage 2 of Spec 098 executed on the owner's commission of
