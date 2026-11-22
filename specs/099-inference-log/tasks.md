@@ -2,17 +2,17 @@
 
 ## Stage 0 — Adoption (this PR)
 
-- [ ] T001 — Package authored: spec.md, claims.md,
+- [x] T001 — Package authored: spec.md, claims.md,
       aee-claims.json, plan.md, tasks.md, test-cases.md,
       tools/inference_log.py (reference implementation),
       tests/test_inference_log.py.
-- [ ] T002 — Test cases executed on the fixtures
+- [x] T002 — Test cases executed on the fixtures
       (TC-099-01, TC-099-02, TC-099-03); payload verdicts
       recorded in records/tc-execution-2026-11-21.md.
-- [ ] T003 — AEE assessment of the claims bundle run and
+- [x] T003 — AEE assessment of the claims bundle run and
       filed (records/adoption-aee-assessment.json); absence
       recorded if the CLI cannot run.
-- [ ] T004 — Registration: claims bundle intaken into the
+- [x] T004 — Registration: claims bundle intaken into the
       canonical ledger; taxonomy entry added; settling chain
       executed in the standing order (verify-canonicals,
       T405 pair byte-equal, comparison re-filed, assignment
