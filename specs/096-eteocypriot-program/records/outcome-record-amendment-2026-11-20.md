@@ -1,5 +1,18 @@
 # Eteocypriot Program — Outcome Record Amendment
 
+> **Pointer to amendment 2 (2026-11-21, Red Team Round 3 —
+> RT1-05, RT3-12):** this amendment is itself amended by
+> `records/outcome-record-amendment-2-2026-11-21.md`, which
+> governs where the two differ. In particular: §1's grounding
+> of C096-1 in the A1/A2 labels as filed is superseded as a
+> citation form by amendment 2 §1 (A1 a pure index-offset
+> check, predetermined 0/2; A2 as executed unanchored), and
+> this amendment's §3 summary line ("The original verdict
+> stands as filed: C096-4 — SUPPORTED") is read only with
+> amendment 2 §3's narrowing and qualifier: **"C096-4
+> SUPPORTED — process claim, self-assessed, pending
+> named-human adjudication."**
+
 **Date:** 2026-11-20. **Program:** Spec 096 — Eteocypriot
 Program. **Amends:** the outcome record of 2026-11-20
 (`records/eteocypriot-outcome-record-2026-11-20.md`).

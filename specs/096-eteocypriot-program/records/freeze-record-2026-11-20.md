@@ -13,6 +13,13 @@
 > 5077285e… (this freeze's pin); Round 1 custody correction
 > 60125fcf…; Round 2 correction (corpus version 1.1.0)
 > 32b96f67….
+>
+> **Round 3 addition (2026-11-21 — RT3-08):** the seal
+> supersession above is amendment 2 **§7** ("Seal language
+> downgraded; F-E2 restated"), not §§1–2; the §§1–2 citation
+> governs the E1 forms only. Corpus succession continues:
+> Round 3 correction (corpus version 1.1.1, RT3-01/RT3-12)
+> 2954283d….
 
 **Date:** 2026-11-20. **Program:** Spec 096 — Eteocypriot
 Program, Stage 1 (corpus assembly and freeze). **Commission:**

@@ -58,7 +58,7 @@ outcome of this program is a translation claim.
   Androkles dedications as the development set together with
   the Greek syllabic control corpus, and every remaining
   primary-stratum inscription (ICS 194/195 under Perna 2019's
-  re-edition) as the sealed held-out set. *[Amendment pointer, 2026-11-21: the held-out set is held out by procedural exclusion under the delimitation of record; no seal was applied — amendment 2 §2 and the standing freeze rule govern.]* Golgoi is a separate
+  re-edition) as the sealed held-out set. *[Amendment pointer, 2026-11-21: the held-out set is held out by procedural exclusion under the delimitation of record; no seal was applied — amendment 2 §7 and the standing freeze rule govern.]* Golgoi is a separate
   stratum, never merged (sensitivity S2 only).
 - **Editions of record:** Masson's ICS; Perna 2019 for
   ICS 194/195; IG XV 1,1; Perna 2015 for the delimitation. The
@@ -94,7 +94,7 @@ outcome of this program is a translation claim.
   and those only as §2's adjudication route provides. The
   Indus program's claims and standings are untouched.
 - The held-out set stays sealed until the preregistration's
-  own procedure opens it; *[Amendment pointer, 2026-11-21: read with the seal downgrade in amendment 2 §2 — the exclusion is procedural, under the delimitation of record.]* a floor that cannot be instantiated
+  own procedure opens it; *[Amendment pointer, 2026-11-21: read with the seal downgrade in amendment 2 §7 — the exclusion is procedural, under the delimitation of record.]* a floor that cannot be instantiated
   closes the affected experiment as TOO THIN at freeze rather
   than silently weakening the test.
 

@@ -35,3 +35,16 @@ conditions on any E1 re-run, which stand in amendment 2 §4
 unchanged. Any E1 re-run registers the consonant-stem table
 explicitly; the dead-vowel default needs no registration,
 being already in freeze R3.
+
+## Round 3 note: the stem-table enumeration (RT3-19)
+
+The enumeration of the charged consonant-stem mappings
+above (β→p, γ→k, θ→t, ζ→s, φ→p, χ→k, ξ→k+s) is incomplete by
+one mapping. The driver's STEMS table
+(`records/eteocypriot-e1-driver.py`, lines 36–40) also
+contains **δ→t**, of the same voiceless-stop class as the
+listed θ→t and γ→k. The charged enumeration, completed, is:
+β→p, γ→k, δ→t, θ→t, ζ→s, φ→p, χ→k, ξ→k+s. This note
+completes the enumeration; the correction above (the
+dead-vowel withdrawal) is unaffected, and RT2-11's closure
+is not reopened.
