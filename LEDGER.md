@@ -14498,3 +14498,31 @@ section heading are corrected (RT1-53) and both README
 standings decompositions are brought current (RT1-02).
 Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 3, Meroitic corrections (Spec 097)
+
+The three records Round 2 corrected by new records alone now
+carry dated head correction pointers on the RT2-13 pattern, so
+no reader meets the superseded statements unmarked (RT3-04):
+the Stage 4.5 supplement points to its correction record (the
+withdrawn custody condition and gate, the invented trigger,
+the Rilly filing, the two nonexistent governed-file citations,
+the false stage bases); the custody supplement points to the
+custody erratum; the citation-discipline record points to its
+erratum. The citation erratum's own §2 freeze citation is
+corrected by an appended Round 3 note — the quoted B1 line is
+the anchor-inventory freeze v1's (line 32), not the benchmark
+freeze's, which contains no B1 (RT3-07). The citation record's
+§5 heading, broken across two lines in the form §4's was, is
+repaired in place (RT3-20). The Stage 4.5 correction record
+carries a Round 3 note restating Stage 4.2's verdict verbatim
+(UNDECIDABLE AT THIS POWER; R3 not displaced, and as nothing
+more) against §1's softer gloss (RT3-21). CI on the substance
+head 0c90ed10: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke tests,
+Freeze gate records check (C4), Frontend tests (Playwright),
+Indus public validation checks, Ledger/matrix/map equivalence
+gate, Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success. Adjudication:
+RED-TEAM-ROUND-3-ADJUDICATION.md (goal record). Execution
+venue: tower-compute.
