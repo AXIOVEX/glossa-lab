@@ -77,7 +77,7 @@
   Acceptance: **record + test** (no rival input contains a
   held-out cluster id — the TC-098-01 guard run over the
   actual development export).
-- [ ] **T202 — Prediction sheets.** One sheet per sign,
+- [x] **T202 — Prediction sheets.** One sheet per sign,
   reviewed for value-relevance before unsealing; rejected
   sheets and sheetless signs recorded NOT IDENTIFIABLE by
   construction. Claims: C098-4. Acceptance: **record** (the

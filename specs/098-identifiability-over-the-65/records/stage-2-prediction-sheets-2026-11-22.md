@@ -1,0 +1,445 @@
+# Spec 098 — Stage 2, T202: prediction sheets
+
+**Date:** 2026-11-22 · **Task:** T202 (acceptance: record) ·
+**Claim:** C098-4 · **Venue:** tower-compute, fresh clone ·
+**Freeze:** `records/stage-2-freeze-2026-11-22.md` §6 ·
+**Runner:** `tools/stage2_run.py` (sheets mode), rendering the
+authored determinations of
+`records/stage-2-sheet-determinations-2026-11-22.json`.
+
+One section per sign of the executed population of 69, in
+annex order. A sheet is ACCEPTED only where the frozen record
+states, for the candidate, a neighbour-identity or
+neighbour-class prediction (a filed collocation with a named
+sign, a filed slot pattern with named flanking signs, or a
+filed sign sequence) that the rivals as constructed do not
+state. A sheet resting on a motif association alone is not
+accepted: the corpus of record carries no motif field on any
+sequence-bearing record (field census in the T201 record) and
+the frozen estimator scores neighbour-pair contexts only.
+A sheet whose only differing observable is position or
+frequency is rejected under spec §3.5. Where no sheet can be
+constructed, the gap is named per sign; the sign is recorded
+NOT IDENTIFIABLE by construction (subject to the precedence
+of decision rule 1, applied in the outcome record).
+
+On an accepted sheet, the candidate's signature is the
+neighbour set its record states; every rival takes the
+unconditioned assignment (all of the sign's development
+occurrences), no rival's record stating a signature. The
+assignment rule and its fairness basis are the Stage 2
+freeze's §6.
+## M002 — candidate value as recorded: kuṉ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M002-01), a self-assertion (M002-02), and a DEDR citation (M002-03). Position and dictionary entries state no neighbour-identity or neighbour-class prediction.
+
+## M004 — candidate value as recorded: kēḷ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M004-01), a self-assertion (M004-02), and a corrected-validation battery result (M004-03). No item states a neighbour prediction; a battery score is not an observable.
+
+## M005 — candidate value as recorded: kōṉ
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. Filed collocation with a named sign: raw co-occurrence count with M342, n=4 (item M005-03, type a), with the collocation premise (item M005-04, type b). Signature: immediate neighbours include M342. The count was verified in rerun tranche 3 (PR #638). Caveat: n=4 is thin; the sheet records the prediction as filed, and thinness is what Stage 3's floor and bar are for. The remaining items (INITIAL position, self-assertion, DEDR 2199) state no neighbour prediction and are not relied on. The sign is below the floor in expectation, so its Stage 2 outcome is UNDECIDABLE on the grid arm; this sheet is filed for the record and would govern if the Stage 3 count test fires differently.
+
+## M006 — candidate value as recorded: puli
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M006-01: the sign is exclusive to tiger seals) and its lexical counterpart (M006-02). The only candidate-specific observable is a motif association, which is outside the frozen estimator's observable space and the corpus of record's fields (Stage 2 freeze section 6). This is the spec's own example pair (M006 puli / M080 vengai): the collision between the spec's motif example and the frozen estimator is recorded in the freeze, in the open. The motif claims are also among those found not reproducible from the records (PR #634).
+
+## M007 — candidate value as recorded: aaL
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis states dictionary entries (M007-01, M007-03) and a motif association (M007-02: the sign appears on 4 trade/zebu seals). The only candidate-specific observable is the motif association, outside the estimator's observable space (freeze section 6).
+
+## M009 — candidate value as recorded: āṇ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M009-01), a self-assertion (M009-02), and a DEDR citation (M009-03). No neighbour prediction is stated.
+
+## M010 — candidate value as recorded: paṭ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M010-01), a self-assertion (M010-02), and a commodity dictionary corroboration (M010-03). No neighbour prediction is stated.
+
+## M013 — candidate value as recorded: nakaram
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M013-01: the sign is exclusive to gharial seals), its lexical counterpart (M013-02), and a battery result (M013-03). The only candidate-specific observable is the motif association, outside the estimator's observable space (freeze section 6). The motif claims are also among those found not reproducible from the records (PR #634). The sign has zero development tokens in any case.
+
+## M014 — candidate value as recorded: tiru
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M014-01), a self-assertion (M014-02), and a battery result (M014-03). No neighbour prediction is stated.
+
+## M015 — candidate value as recorded: mā
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M015-01), a self-assertion (M015-02), and a DEDR citation (M015-03). No neighbour prediction is stated.
+
+## M016 — candidate value as recorded: kaḷiṟu
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M016-01: the sign is exclusive to elephant seals) and its lexical counterpart (M016-02). Motif-only; outside the estimator's observable space (freeze section 6). The motif claims are also among those found not reproducible from the records (PR #634).
+
+## M017 — candidate value as recorded: kai
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M017-01), a self-assertion (M017-02), and a battery result (M017-03). No neighbour prediction is stated.
+
+## M018 — candidate value as recorded: nēr
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M018-01), a self-assertion (M018-02), and a battery result (M018-03). No neighbour prediction is stated.
+
+## M020 — candidate value as recorded: kuṉ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M020-01), a self-assertion (M020-02), and a battery result (M020-03). No neighbour prediction is stated.
+
+## M023 — candidate value as recorded: vaḷ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M023-01), a self-assertion (M023-02), and a commodity dictionary corroboration (M023-03). No neighbour prediction is stated.
+
+## M025 — candidate value as recorded: cem
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M025-01), a self-assertion (M025-02), and a commodity dictionary corroboration (M025-03: PDr cempu = copper). No neighbour prediction is stated.
+
+## M026 — candidate value as recorded: mā
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M026-01), a self-assertion (M026-02), and a battery result (M026-03). No neighbour prediction is stated.
+
+## M027 — candidate value as recorded: māṟ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M027-01), a self-assertion (M027-02), and a battery result (M027-03). No neighbour prediction is stated.
+
+## M029 — candidate value as recorded: yānai
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M029-01) and a candidate-system consistency score (M029-02). Neither is a neighbour prediction; a consistency score is not an observable.
+
+## M030 — candidate value as recorded: kō
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. Filed collocation with a named sign: raw co-occurrence count with M342, n=4 (item M030-03, type a), with the collocation premise (item M030-04, type b). Signature: immediate neighbours include M342. The count was verified in rerun tranche 3 (PR #638). Caveat: n=4 is thin; the sheet records the prediction as filed. The remaining items (INITIAL position, self-assertion, battery result) state no neighbour prediction and are not relied on. The sign is below the floor in expectation, so its Stage 2 outcome is UNDECIDABLE on the grid arm; this sheet is filed for the record.
+
+## M032 — candidate value as recorded: koL
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a candidate-system consistency score (M032-01) and a DEDR reference (M032-02). Neither is a neighbour prediction; a consistency score is not an observable.
+
+## M034 — candidate value as recorded: tōḷ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M034-01), a self-assertion (M034-02), and a battery result (M034-03). No neighbour prediction is stated.
+
+## M037 — candidate value as recorded: kēḷ
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. Filed collocation with a named sign: raw co-occurrence count with M267, n=4 (item M037-03, type a), with the collocation premise (item M037-04, type b). Signature: immediate neighbours include M267. The count was verified in rerun tranche 3 (PR #638). Caveat: n=4 is thin; the sheet records the prediction as filed. The remaining items (INITIAL position, self-assertion, DEDR 2017) state no neighbour prediction and are not relied on. The sign is below the floor in expectation, so its Stage 2 outcome is UNDECIDABLE on the grid arm; this sheet is filed for the record.
+
+## M038 — candidate value as recorded: pōr
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M038-01), a self-assertion (M038-02), and a DEDR citation (M038-03). No neighbour prediction is stated.
+
+## M041 — candidate value as recorded: pēr
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M041-01), a self-assertion (M041-02), and a battery result (M041-03). No neighbour prediction is stated.
+
+## M045 — candidate value as recorded: yānai
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M045-01: the sign is exclusive to elephant seals) and its lexical counterpart (M045-02). Motif-only; outside the estimator's observable space (freeze section 6). The motif claims are also among those found not reproducible from the records (PR #634).
+
+## M049 — candidate value as recorded: pu
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M049-01), a DEDR reference (M049-02), and an iconographic rebus derivation (M049-03). A rebus derivation is a category (ii) iconographic observable, outside the estimator's observable space; no neighbour prediction is stated.
+
+## M050 — candidate value as recorded: pār
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M050-01), a self-assertion (M050-02), and a DEDR citation (M050-03). No neighbour prediction is stated.
+
+## M051 — candidate value as recorded: pū/puḷ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states an iconographic interpretation (M051-01: comb/flower sign) and a battery result (M051-02). The iconographic item is a category (ii) observable, outside the estimator's observable space; no neighbour prediction is stated.
+
+## M052 — candidate value as recorded: ta
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M052-01), a DEDR reference (M052-02), and an iconographic rebus derivation (M052-03). No neighbour prediction is stated.
+
+## M053 — candidate value as recorded: mi
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M053-01), a DEDR reference (M053-02), and an iconographic rebus derivation (M053-03). No neighbour prediction is stated.
+
+## M054 — candidate value as recorded: mi
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M054-01), a DEDR reference (M054-02), and an iconographic rebus derivation (M054-03). No neighbour prediction is stated.
+
+## M055 — candidate value as recorded: miN3
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M055-01), a DEDR reference (M055-02), and an iconographic rebus derivation (M055-03). No neighbour prediction is stated.
+
+## M057 — candidate value as recorded: māṭu
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M057-01: the sign is exclusive to zebu bull seals), its lexical counterpart (M057-02), and a battery result (M057-03). Motif-only as a candidate-specific observable; outside the estimator's observable space (freeze section 6).
+
+## M060 — candidate value as recorded: kāṇṭāmirukam
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M060-01: the sign is exclusive to rhinoceros seals), its lexical counterpart (M060-02), and a battery result (M060-03). Motif-only; outside the estimator's observable space (freeze section 6). The motif claims are also among those found not reproducible from the records (PR #634).
+
+## M061 — candidate value as recorded: ka
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M061-01), a DEDR reference (M061-02), and an iconographic rebus derivation (M061-03). No neighbour prediction is stated.
+
+## M062 — candidate value as recorded: erutu
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M062-01: the sign is exclusive to zebu bull seals) and its lexical counterpart (M062-02). Motif-only; outside the estimator's observable space (freeze section 6).
+
+## M063 — candidate value as recorded: mutalai
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M063-01: the sign appears on 3 of 18 seals with gharial motif) and a battery result (M063-02). Motif-only; outside the estimator's observable space (freeze section 6). The sign's filed motif claim also fails as specified on the program's own rerun (measured lift 4.35 against the claim's 5.0 threshold; rerun tranche 2, PR #638).
+
+## M065 — candidate value as recorded: kuTam
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis states a commodity dictionary corroboration (M065-01) and a motif association (M065-02: the sign appears on 49 trade/zebu seals). The only candidate-specific observable is the motif association, outside the estimator's observable space (freeze section 6).
+
+## M066 — candidate value as recorded: cōḻ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M066-01), a self-assertion (M066-02), and a DEDR citation (M066-03). No neighbour prediction is stated.
+
+## M067 — candidate value as recorded: kōṭṭāṉ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis states a DEDR citation (M067-01), a motif association (M067-02: the sign is exclusive to rhinoceros seals), and its lexical counterpart (M067-03). Motif-only as a candidate-specific observable; outside the estimator's observable space (freeze section 6).
+
+## M068 — candidate value as recorded: maṟi
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. Filed collocation with a named sign: raw co-occurrence count with M342, n=4 (item M068-02, type a), with the collocation premise (item M068-03, type b). Signature: immediate neighbours include M342. Caveats: the count is single-source only (rerun tranche 3, PR #638); n=4 is thin. The sign's motif items (M068-05, M068-06) are not relied on: the sheet rests on the collocation alone. The sign is below the floor in expectation, so its Stage 2 outcome is UNDECIDABLE on the grid arm; this sheet is filed for the record.
+
+## M069 — candidate value as recorded: nēr
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M069-01), a self-assertion (M069-02), and a DEDR citation (M069-03). No neighbour prediction is stated.
+
+## M070 — candidate value as recorded: vēl
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M070-01), a self-assertion (M070-02), and a DEDR citation (M070-03). No neighbour prediction is stated.
+
+## M073 — candidate value as recorded: kōṉ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M073-01: the sign is exclusive to zebu bull seals), its lexical counterpart (M073-02), and a battery result (M073-03). Motif-only; outside the estimator's observable space (freeze section 6).
+
+## M074 — candidate value as recorded: ker
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis states a commodity dictionary corroboration (M074-01) and a motif association (M074-02: the sign appears on 4 trade/zebu seals). The only candidate-specific observable is the motif association, outside the estimator's observable space (freeze section 6).
+
+## M075 — candidate value as recorded: māṟ
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. Filed collocation with a named sign: raw co-occurrence count with M267, n=4 (item M075-03, type a), with the collocation premise (item M075-04, type b). Signature: immediate neighbours include M267. Caveats: the count is single-source only (rerun tranche 3, PR #638); n=4 is thin. The remaining items (positional distribution, self-assertion, DEDR 4796) state no neighbour prediction and are not relied on. The sign is below the floor in expectation, so its Stage 2 outcome is UNDECIDABLE on the grid arm; this sheet is filed for the record.
+
+## M076 — candidate value as recorded: naN
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M076-01), a DEDR reference (M076-02), and an iconographic rebus derivation (M076-03). No neighbour prediction is stated.
+
+## M078 — candidate value as recorded: cēr
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states an INITIAL positional distribution (M078-01), a self-assertion (M078-02), and a DEDR citation (M078-03). No neighbour prediction is stated.
+
+## M080 — candidate value as recorded: vēṅkai
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis is a motif association (M080-01: the sign is exclusive to tiger seals), its lexical counterpart (M080-02), and a battery result (M080-03). Motif-only; outside the estimator's observable space (freeze section 6). This is the second member of the spec's own example pair (M006 puli / M080 vengai); the collision is recorded in the Stage 2 freeze, in the open.
+
+## M082 — candidate value as recorded: pa
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis states a commodity dictionary corroboration (M082-01), a motif association (M082-02: the sign appears on 3 trade/zebu seals), a DEDR reference (M082-03), and an iconographic rebus derivation (M082-04). The candidate-specific observables are a motif association and a rebus derivation, both outside the estimator's observable space; no neighbour prediction is stated.
+
+## M089 — candidate value as recorded: tu/tū
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. Filed collocations with named signs: M342 (raw count n=15; items M089-02, M089-03), M267 (n=6; items M089-04, M089-05), M176 (n=6; items M089-06, M089-07). Signature: immediate neighbours drawn from {M342, M267, M176}; the record does not split the set by side. Caveats: each premise is type (b) (interpreted_anchor) with its raw count type (a); the filed upgrade counts for this sign are internally inconsistent (the tranche records also file M342 at n=13 and M176 at n=12), so the sheet cites partner identities, not the contested counts. The TERMINAL positional profile (item M089-01) is position and is not relied on.
+
+## M099 — candidate value as recorded: kol/koḷ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis is a single iconographic interpretation item (M099-01: jar/vessel sign). A category (ii) iconographic observable, outside the estimator's observable space; no neighbour prediction is stated. The reading's own falsifier record flags it as too thin to carry a per-reading falsifier (PRs #627 to #630).
+
+## M128 — candidate value as recorded: kaṇ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states a MEDIAL positional distribution (M128-01) and a consistency score (M128-02). Position and score state no neighbour prediction.
+
+## M130 — candidate value as recorded: mui
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states a consistency score (M130-01) and a DEDR reference (M130-02). No neighbour prediction is stated.
+
+## M145 — candidate value as recorded: miṭ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states consistency scores (M145-01, M145-03) and a DEDR reference (M145-02). No neighbour prediction is stated.
+
+## M151 — candidate value as recorded: viḷ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states a MEDIAL positional distribution (M151-01) and a DEDR reference (M151-02). No neighbour prediction is stated.
+
+## M194 — candidate value as recorded: kaṭ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states consistency scores (M194-01, M194-03) and a DEDR reference (M194-02). No neighbour prediction is stated.
+
+## M220 — candidate value as recorded: al
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-2)
+
+The basis states a commodity dictionary corroboration (M220-01), a motif association (M220-02: the sign appears on 9 trade/zebu seals), and a DEDR reference (M220-03). The only candidate-specific observable is the motif association, outside the estimator's observable space (freeze section 6).
+
+## M267 — candidate value as recorded: iN/in (genitive)
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. The filed slot pattern [AGENT]-M267-[TITLE] (item M267-05) states, over bare sign identities, that M267's immediate left neighbours include M176 and M328 and its immediate right neighbours include M099 and M073. Signature: left neighbours {M176, M328}, right neighbours {M099, M073}. The pattern's raw counts stand on the record (26 observed against a null mean of 6; the Spec 099 M267 dependency statement). Caveats: the slot labels are themselves readings, which is the dependency statement's subject; the observable is used here strictly as a statement about sign identities. The withdrawn figures (4.3x, z = 8.038) are not relied on, and the Phase-64 score (item M267-04) is unusable until its inputs are stated. A dependency-aware retest of this pattern is a separate commission (the F-4 package, 2026-11-22).
+
+## M347 — candidate value as recorded: ka
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. The filed sequence patterns place this sign between named signs in 7 contexts (items M347-01, M347-02); the interpreted-anchor item (M347-03) names the flanking signs: M342, M293, M028, M367, M211, M099. Signature: immediate neighbours drawn from {M342, M293, M028, M367, M211, M099}; the record does not split the set by side. Caveat: the slot role (MEDIAL_BETWEEN_CONF) and the partners' roles are interpreted (type b); the identities come from the type (a) pattern items.
+
+## M351 — candidate value as recorded: vī
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-1)
+
+The basis states a DEDR reference (M351-01), two Munda comparanda items (M351-02, M351-03), and a MEDIAL positional statement (M351-04). Comparanda state sound correspondences, not neighbour predictions; position alone is rejected under spec section 3.5.
+
+## M374 — candidate value as recorded: kul
+
+Sheet determination: **NOT_CONSTRUCTED** (reason class NS-7)
+
+NOT CONSTRUCTED. The frozen default governs (T102): the sign is unattested in the corpus of record, resolves through no crosswalk entry, and its outcome is UNDECIDABLE AT THIS POWER by the freeze, unscored. One basis item (M374-03) names neighbouring signs, but the sign has no attestations to score and the T102 default is not revisited in Stage 2.
+
+## M375 — candidate value as recorded: taṇ
+
+Sheet determination: **ACCEPTED**
+
+ACCEPTED. The filed sequence pattern [M375]-M342-M176 occurs as a sign sequence (item M375-03), stating an immediate right neighbour: M342. Signature: right neighbour {M342}. Caveats: the pattern's interpretation as NAME_AY_AN (item M375-04) is type (b) and is not relied on; the observable is the sign sequence alone. The remaining items (iconographic reading, DEDR 3009, literary parallel, frequency) state no neighbour prediction.
+
+## M391 — candidate value as recorded: ka/kaṇ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-3)
+
+The basis states an iconographic interpretation (M391-01: numeral/stroke sign) and a battery result (M391-02). No neighbour prediction is stated. (The sign's strongest filed pattern is positional, SUFFIX_ONLY 74 of 187 per the PR #634 rerun, and position is rejected under spec section 3.5.)
+
+## M047 — candidate value as recorded: min/mīn
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-5)
+
+The entry's two items are a superseded positional assignment (M047-01) and a crosswalk identity (M047-02: M047 = P47 = 'fish (plain)'), whose own status note concedes the crosswalk identity is never a value. The one line on the record that discriminates this candidate from its rivals, the fish/star iconography, is a category (ii) iconographic observable, outside the frozen estimator's observable space. The T303 comparanda (Elamite 'in', Sanskrit 'mina') state sound similarities, not neighbour predictions. No sheet can be constructed.
+
+## M124 — candidate value as recorded: kuTam
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-6)
+
+The basis is a DEDR entry (M124-01) and two comparanda legs (Elamite 'kun', M124-02; Sanskrit 'kona', M124-03). Comparanda state sound similarities to the candidate value; no item states a neighbour-identity or neighbour-class prediction. This is the only Arm E sign at the floor in expectation, and its basis states no neighbour prediction.
+
+## M329 — candidate value as recorded: poṉ
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-6)
+
+The basis is a MEDIAL positional distribution (M329-01; position only), a DEDR entry (M329-02), and two comparanda legs (Elamite 'bur/pur', M329-03; Sanskrit 'pura', M329-04). No item states a neighbour prediction.
+
+## M330 — candidate value as recorded: can
+
+Sheet determination: **NOT_CONSTRUCTIBLE** (reason class NS-4)
+
+The basis is a published-proposal item (M330-01) and a slot-coverage item (M330-02): the reading is filed as providing partial coverage for the Shu-ilishu /su/ phonological slot. That is a positional coverage claim on an external artifact, not a neighbour-identity or neighbour-class prediction over this corpus, and it lies outside the frozen estimator's observable space.
+

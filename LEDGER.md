@@ -15052,3 +15052,62 @@ success — 10/10. This block completes the F-4 study
 package's ledger trail (PRs #665 and #669); the completion
 block for the small PR carrying this block is deferred to
 the next landing, per the standing pattern.
+## 2026-11-22 — Spec 098 Stage 2 executed (T201 + T202)
+
+Stage 2 of Spec 098 executed on the owner's commission of
+2026-11-22, on the executed population of 69 signs (Arm I
+65; Arm E four — M047, M124, M329, M330 — after the M202
+and M044 strikes; the F-9 act had not landed at the
+execution commit and no F-9 pull request was open). Three
+pull requests: PR #664, the Stage 2 freeze (merge
+41fad44d; CI 10/10 per job on its head), answering the
+Stage 2 design note on its face (the frozen bar stands:
+10-nat penalized margin AND above the permutation null's
+99th percentile, 2 nats per free choice) and fixing the
+eligibility method, the free-choice accounting, and the
+T201/T202 construction rules; PR #666, T201 rival
+construction (merge eac49195; CI 10/10 per job), R-A..R-E
+for all 69 signs plus the Arm E additions, with the
+TC-098-01 guard run over the actual development export in
+the same payload (split recomputed, 2,413 clusters / 517
+held out; seal hash verified against the committed seal
+without reading the custody file; 1,896 development rows
+passed; the Stage 1 grid reproduced exactly); PR #667,
+T202 prediction sheets and the Stage 2 outcome record
+(this entry's PR; CI on the substance head cf7eb8e0:
+10/10 per job — Backend tests (pytest), Cloud image smoke
+(Spec 083), Evidence Graph script smoke tests, Freeze
+gate records check (C4), Frontend tests (Playwright),
+Indus public validation checks, Ledger/matrix/map
+equivalence gate, Shell wrappers (macos-latest,
+ubuntu-latest, windows-latest) — all success, after one
+disclosed rerun of Backend tests (pytest) for the known
+Spec 095 T404 timing flake,
+tests/test_spec095_t404_remediation.py, the same
+disclosed handling as PRs #635, #641, #651, #655).
+
+Outcomes: 48 UNDECIDABLE AT THIS POWER (M374 by the T102
+frozen default; 47 on decision rule 1 in expectation,
+their binding count test at Stage 3); 17 NOT IDENTIFIABLE
+by construction (eligible in expectation, no accepted
+prediction sheet — spec §3.5); 4 proceed to Stage 3 with
+accepted sheets (M089, M267, M347, M375); 9 sheets
+accepted in all (five further collocation sheets filed
+for signs below the floor in expectation). Per-sign
+margins and null percentiles are recorded as not computed
+on every row: under the frozen estimator they are
+functions of held-out log-likelihoods, and the seal is
+released exactly once at Stage 3. The seal was not
+opened; no held-out content was examined; no actual
+held-out count is stated. The claims ledger is unchanged
+(Stage 2 intakes and amends no claims; the adjudication
+of C098-3/C098-4 is Stage 4 T401). Records:
+specs/098-identifiability-over-the-65/records/stage-2-freeze-2026-11-22.md,
+stage-2-rival-construction-2026-11-22.md,
+stage-2-rivals-2026-11-22.json,
+stage-2-prediction-sheets-2026-11-22.md,
+stage-2-outcome-2026-11-22.md and .json; runner
+tools/stage2_run.py (payload verdicts: T201 population=69
+seal_verify=True guard_pass=True grid_reproduced=True;
+outcome distribution 48/17/4). Execution venue:
+tower-compute.
