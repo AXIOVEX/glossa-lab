@@ -44,3 +44,12 @@ advance rather than discover it in the outcome record.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+**Correction pointer (2026-11-21, Red Team Round 2 — RT2-03):**
+this note's bar arithmetic is corrected by
+`records/stage-2-design-note-correction-2026-11-21.md`: the
+penalty is 2 nats per free choice (not a flat 12 nats in
+total), the permutation-null 99th-percentile conjunct is part
+of the frozen bar, and the floor figure is 21 of 70 **in
+expectation**. The population is 69 since the M044 act of the
+same date.
