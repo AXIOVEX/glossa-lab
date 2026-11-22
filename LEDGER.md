@@ -15156,3 +15156,19 @@ checks, Ledger/matrix/map equivalence gate, Shell
 wrappers (macos-latest, ubuntu-latest, windows-latest)
 — all success. Commission: the owner, in chat
 2026-11-22. Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, M048
+re-adjudication completion):** PR #671, merged at
+2f6fdada4a39d55de90f69ff580a83c4dd2641e8 (final head
+e51d7385c1cd88d680f0ce1f84304dc9b64180f4). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. The substance head as first pushed
+(7088b199eb50275614b8c4e4f42d5dde816ebed2) also returned
+10/10 per job on its own run.
