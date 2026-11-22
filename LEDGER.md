@@ -15036,6 +15036,22 @@ results stand untouched. The freeze record carries the
 framework-dependence statement at the point of citation.
 Commission: F-4 STUDY PACKAGE (goal record). Execution
 venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, F-4 Spec
+097):** PR #669, merged at
+4b542b506c114a139bcb56dc3e4b32c9c5eecdc6 (head 2376ff17).
+Per-job verdicts from the check runs on the PR head (run
+45004093972): Backend tests (pytest) success; Cloud image
+smoke (Spec 083) success; Evidence Graph script smoke tests
+success; Freeze gate records check (C4) success; Frontend
+tests (Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success; Shell
+wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. This block completes the F-4 study
+package's ledger trail (PRs #665 and #669); the completion
+block for the small PR carrying this block is deferred to
+the next landing, per the standing pattern.
 ## 2026-11-22 — Spec 098 Stage 2 executed (T201 + T202)
 
 Stage 2 of Spec 098 executed on the owner's commission of
