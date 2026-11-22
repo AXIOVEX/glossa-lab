@@ -405,6 +405,14 @@ def _(b):
                       "remains on the filed basis, and the reading "
                       "takes class U; this log's executed class "
                       "follows the amended standings")
+    b.note("Provenance (carried beside the class; F-9 act; "
+           "refresh adjudication I-9): Parpola 1994 \u00a710.1's "
+           "proposal for the fish-sign family stands verified as "
+           "filed as a prior proposal, and the re-verification "
+           "outcome is VERIFIED AS FILED (provenance only). The "
+           "class U rests on the filed basis under the "
+           "itemization test; the downgrade is documentary, not "
+           "evidential")
 
 
 @curate("M124")
@@ -434,15 +442,30 @@ def _(b):
                      "in E under the addendum: PARTIALLY VERIFIED, "
                      "the dictionary leg checks out as filed and "
                      "the remaining legs are not contradicted in "
-                     "their named sources")
+                     "their named sources. Annotation "
+                     "(2026-11-22, refresh adjudication I-3): the "
+                     "pura leg failed and contributes nothing to "
+                     "the basis; the class rests on the DEDR entry "
+                     "as repaired (I-4) and the Elamite leg as "
+                     "filed")
     for item in b.items:
         if item["kind"] == "dictionary_entry":
+            item["statement"] = item["statement"].replace(
+                "DEDR 4524", "DEDR 4570", 1).replace(
+                "('DEDR 4524')",
+                "('DEDR 4524' as filed; citation repaired to 4570 "
+                "on 2026-11-22)")
             item["status_note"] = (
-                "the DEDR leg is verified at the print entry cited; "
-                "the restored tree's entry 4524 is a different entry "
-                "and the numbering divergence is unresolved (register "
-                "reconciliation section (c); relabel execution "
-                "record, Round 2 amendment)")
+                "citation repaired 2026-11-22 (refresh "
+                "adjudication I-4): po\u1e49 is DEDR entry 4570 in "
+                "print (p. 404) and in the restored tree alike "
+                "(F-4 DEDR digital-edition pass, 2026-11-22); the "
+                "filed citation 4524 was a citation error, and the "
+                "earlier unresolved-numbering-divergence framing "
+                "(register reconciliation section (c); relabel "
+                "execution record, Round 2 amendment) is "
+                "superseded. The basis as filed is unrepaired and "
+                "still reads 4524")
 
 
 @curate("M202")

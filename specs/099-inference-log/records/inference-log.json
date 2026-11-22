@@ -77,7 +77,9 @@
      "status_note": "an identity at most, never a value: the identity rests on catalogue correspondence between the two sign lists, not on this reading (spec section 3.3); the basis as filed truncates mid-clause at this item. Re-verification outcome: VERIFIED AS FILED, provenance only (relabel execution record). F-9 act (2026-11-22): the owner adopted the itemization test; the directed re-examination entered no published_proposal item for this entry (the filed basis states no published proposal of the value; records/f9-itemization-adjudication-2026-11-22.md), no internal motivation for the reading remains on the filed basis, and the reading takes class U; this log's executed class follows the amended standings"
     }
    ],
-   "entry_notes": []
+   "entry_notes": [
+    "Provenance (carried beside the class; F-9 act; refresh adjudication I-9): Parpola 1994 §10.1's proposal for the fish-sign family stands verified as filed as a prior proposal, and the re-verification outcome is VERIFIED AS FILED (provenance only). The class U rests on the filed basis under the itemization test; the downgrade is documentary, not evidential"
+   ]
   },
   {
    "sign": "M124",
@@ -166,10 +168,10 @@
      "id": "M329-02",
      "kind": "dictionary_entry",
      "type": "a",
-     "statement": "DEDR 4524 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 4524') and as this reading's dictionary reference; entered as one item (spec section 3.2)",
+     "statement": "DEDR 4570 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 4524' as filed; citation repaired to 4570 on 2026-11-22) and as this reading's dictionary reference; entered as one item (spec section 3.2)",
      "basis_span": "Dictionary reference as recorded: 4524",
      "targets": [],
-     "status_note": "the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment)"
+     "status_note": "citation repaired 2026-11-22 (refresh adjudication I-4): poṉ is DEDR entry 4570 in print (p. 404) and in the restored tree alike (F-4 DEDR digital-edition pass, 2026-11-22); the filed citation 4524 was a citation error, and the earlier unresolved-numbering-divergence framing (register reconciliation section (c); relabel execution record, Round 2 amendment) is superseded. The basis as filed is unrepaired and still reads 4524"
     },
     {
      "id": "M329-03",
@@ -186,7 +188,7 @@
      "statement": "external corroboration leg: Sanskrit 'pura' (SL-14)",
      "basis_span": "Sanskrit 'pura' (SL-14)",
      "targets": [],
-     "status_note": "FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources"
+     "status_note": "FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources. Annotation (2026-11-22, refresh adjudication I-3): the pura leg failed and contributes nothing to the basis; the class rests on the DEDR entry as repaired (I-4) and the Elamite leg as filed"
     }
    ],
    "entry_notes": []
