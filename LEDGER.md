@@ -14372,8 +14372,8 @@ can and cannot mean on this evidence: the script's sign values
 have been known since Griffith (1907–1911); the language has no
 bilingual text and no descendants, and the expected outcome for
 most candidate readings is NOT IDENTIFIABLE, recorded as a
-finding. The benchmark's verdicts (Stages 1–3, outcome NOT
-REPRODUCED) stand as scoped and are not reopened.
+finding. The benchmark's verdicts (Stages 1–3, as restated
+2026-11-20: Leg A REPRODUCED IN PART / DEPOSIT INCOMPLETE; Leg B fixture internally inconsistent; Leg C pattern reproduced, fixed points not held) stand as scoped and are not reopened.
 
 Claims ledger: 1,035 → 1,040 lines; claims 1,004 → 1,009;
 canonical SHA-256 `106cda6e404f77fbb95fadc7e9e215b6dda24cdca137ef995d5dbea07063014f`.

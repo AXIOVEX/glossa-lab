@@ -189,7 +189,7 @@ The catalogue contains approximately 50 pre-curated corpora covering:
 - **Ancient scripts**: Sumerian, Akkadian, Ge'ez, Linear B, Old Persian, Sanskrit, Old Chinese
 - **Deciphered alphabets**: Greek, Latin, Hebrew, Arabic, Coptic, Syriac
 - **Modern typological comparators**: English, Spanish, Hindi, Russian, Japanese, Swahili, Finnish
-- **Undeciphered scripts**: Indus Valley, Linear A, Proto-Sinaitic, Meroitic, Rongorongo
+- **Undeciphered scripts**: Indus Valley, Linear A, Proto-Sinaitic, Rongorongo. (Meroitic is not listed here: its script is deciphered — Griffith, 1907–1911 — though its language is undeciphered; see Spec 097's design §1.)
 
 To import:
 

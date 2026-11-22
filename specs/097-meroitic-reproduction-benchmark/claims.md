@@ -153,7 +153,7 @@ Lipiński), and R3 the isolate/null rival, each with the
 registered tests and falsifiers of the campaign design
 (correspondence and formative regularity against permutation
 baselines for R1; the phonotactic restriction and vocabulary
-tests for R2; R3 supported exactly when both fail); comparative
+tests for R2; R3 recordable only as not displaced (wording amended 2026-11-21 to freeze v2 §5: the original sentence read ‘R3 supported exactly when both fail’; under the frozen decision rule a double failure of R1 and R2 is UNDECIDABLE AT THIS POWER with R3 not displaced)); comparative
 candidate generation draws only on the family an adjudicated
 verdict licenses.
 *Falsifier:* a candidate generated from a family's comparative
@@ -163,6 +163,8 @@ outputs.
 *Does not establish:* that a passed affiliation verdict proves
 any individual reading — it licenses a generation route, whose
 products still face identifiability and the blind test.
+
+**Amendment note (2026-11-21, RT1-31):** the R3 wording in this claim now matches freeze v2 §5, the latest registered statement; the campaign design §4 carries the same amendment. The claim's falsifier (a positive affiliation result under the registered tests displacing R3) is unchanged.
 
 **C097-10 — No reading is scored SUPPORTED without the
 identifiability protocol and the blind held-out test.** A

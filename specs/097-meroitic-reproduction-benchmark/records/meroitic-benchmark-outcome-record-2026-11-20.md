@@ -8,6 +8,8 @@ DOI 10.18653/v1/2025.alp-1.11). Criteria and falsifier as fixed
 in the founding scoping (Spec 095 Stage 5) and the execution
 freeze filed at Stage 1; neither was moved after computation.**
 
+**Citation note (2026-11-21, RT1-10):** the verdict recorded below is cited only in the restated form of `records/verdict-restatement-2026-11-20.md` — Leg A REPRODUCED IN PART / DEPOSIT INCOMPLETE; Leg B fixture internally inconsistent, not interpretable as calibration; Leg C pattern reproduced, fixed points not held — with the Leg A tallies as corrected by `records/verdict-tally-correction-2026-11-21.md`. This record's own verdict lines stand unedited as the executed record.
+
 ## Verdict
 
 **Overall outcome: NOT REPRODUCED**, under the program's fixed
