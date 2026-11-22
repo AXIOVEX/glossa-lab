@@ -8,7 +8,7 @@
   "annotations": "standings-supplement-2026-11-21.md; dependency-record-2026-11-21.md; coscientist-audit-94-adjudication-2026-11-21.md (status notes only)"
  },
  "edge_census": {
-  "a": 210,
+  "a": 213,
   "b": 61,
   "ambiguous": 25
  },
@@ -114,6 +114,15 @@
      "basis_span": "Sanskrit 'kona' (SL-04)",
      "targets": [],
      "status_note": "leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only)"
+    },
+    {
+     "id": "M124-04",
+     "kind": "published_proposal",
+     "type": "a",
+     "statement": "the reading is filed as sourced from the literature (Parpola_1994_via_phase51)",
+     "basis_span": "Source as recorded: Parpola_1994_via_phase51",
+     "targets": [],
+     "status_note": "the audit counted a LITERATURE evidence line for this reading, for which the log entered no item until this amendment. The outside-proposal leg is NOT VERIFIABLE: Parpola nowhere proposes a kuTam or waterpot reading for any sign; the strings kutam, kuṭam, kudam and waterpot occur zero times in the whole of Parpola 1994 and of Parpola 2010 (whole-book negative, subject to the OCR limit on the held 1994 scan) (re-verification remainder 2026-11-22, section 8)"
     }
    ],
    "entry_notes": []
@@ -143,10 +152,19 @@
      "targets": [],
      "reason": "the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system",
      "target_note": "the basis names the slot but no reading as its premise"
+    },
+    {
+     "id": "M202-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration as produced in full from the upstream filed record (reports/phase108_anchor_trails.json): dual external corroboration — Elamite 'an' (MC-07) + Sanskrit 'annam/anna' (SL-03)",
+     "basis_span": "Phase-276: dual external corroborati",
+     "targets": [],
+     "status_note": "the basis as filed truncates the segment; the full line stands produced from the upstream record the basis rows were extracted from, read first-hand in the re-verification remainder (2026-11-22, section 2); the basis as filed is not rewritten. The legs as checked in the remainder: Elamite 'an' (MC-07) RETIRED (section 6: no standalone Elamite lexeme an is attested in the reachable compilations and the code names no publication); Sanskrit 'annam/anna' (SL-03) checked and does not support (section 5: Monier-Williams anna, 'food or victuals, especially boiled rice', has no connection to the value 'can', to a sibilant, or to the /su/ slot)"
     }
    ],
    "entry_notes": [
-    "the Phase-276 segment is truncated in the basis as filed ('dual external corroborati'); its legs are not stated and no items are entered for it"
+    "the Phase-276 segment is truncated in the basis as filed ('dual external corroborati'); the full line stands produced from reports/phase108_anchor_trails.json and is entered as an item above (re-verification remainder 2026-11-22, sections 2, 5 and 6)"
    ]
   },
   {
@@ -188,7 +206,7 @@
      "statement": "external corroboration leg: Sanskrit 'pura' (SL-14)",
      "basis_span": "Sanskrit 'pura' (SL-14)",
      "targets": [],
-     "status_note": "FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources. Annotation (2026-11-22, refresh adjudication I-3): the pura leg failed and contributes nothing to the basis; the class rests on the DEDR entry as repaired (I-4) and the Elamite leg as filed"
+     "status_note": "FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources. Annotation (2026-11-22, refresh adjudication I-3): the pura leg failed and contributes nothing to the basis; the class rests on the DEDR entry as repaired (I-4) and the Elamite leg as filed. Correction (2026-11-22, OD-4 remainder completions): the Elamite leg has since been checked and does not support the reading (re-verification remainder, section 6: pur is attested 'fingernail' and 'circle'; bur is unattested in the reachable compilations), and the statement is corrected accordingly: M329's class E rests on the repaired DEDR 4570 item alone; the Elamite leg stands checked and does not support the reading; the pura leg failed. No class change"
     }
    ],
    "entry_notes": []
@@ -218,10 +236,19 @@
      "targets": [],
      "reason": "the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system",
      "target_note": "the basis names the slot but no reading as its premise"
+    },
+    {
+     "id": "M330-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration as produced in full from the upstream filed record (reports/phase108_anchor_trails.json): dual external corroboration — Elamite 'an' (MC-07) + Sanskrit 'annam/anna' (SL-03)",
+     "basis_span": "Phase-276: dual external corroboration — Elamit",
+     "targets": [],
+     "status_note": "the basis as filed truncates the segment; the full line stands produced from the upstream record the basis rows were extracted from, read first-hand in the re-verification remainder (2026-11-22, section 2); the basis as filed is not rewritten. The legs as checked in the remainder: Elamite 'an' (MC-07) RETIRED (section 6: no standalone Elamite lexeme an is attested in the reachable compilations and the code names no publication); Sanskrit 'annam/anna' (SL-03) checked and does not support (section 5: Monier-Williams anna, 'food or victuals, especially boiled rice', has no connection to the value 'can', to a sibilant, or to the /su/ slot). The legs neither carry nor strike this entry's class E, which rests on item M330-01 (remainder, section 5)"
     }
    ],
    "entry_notes": [
-    "the Phase-276 segment is truncated in the basis as filed ('dual external corroboration — Elamit'); its legs are not stated and no items are entered for it"
+    "the Phase-276 segment is truncated in the basis as filed ('dual external corroboration — Elamit'); the full line stands produced from reports/phase108_anchor_trails.json and is entered as an item above (re-verification remainder 2026-11-22, sections 2, 5 and 6)"
    ]
   },
   {

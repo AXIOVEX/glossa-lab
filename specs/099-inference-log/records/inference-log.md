@@ -2,7 +2,7 @@
 
 Spec 099 Stage 1, filed 2026-11-21. Generated from `inference-log.json` by `tools/build_inference_log.py`; the JSON is the record of record and this rendering is never edited separately.
 
-Entries: 94. Items: 296 (210 primary (a), 61 other-reading / candidate-system (b), 25 ambiguous).
+Entries: 94. Items: 299 (213 primary (a), 61 other-reading / candidate-system (b), 25 ambiguous).
 
 Item types: **a** = primary evidence; **b** = another reading or a candidate-system construct used as evidence; **ambiguous** = the filed basis does not state the item's inputs. Status notes carry the landed annotations (withdrawn, FAILED, struck, not reproducible) with their sources.
 
@@ -39,6 +39,7 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 | M124-01 | dictionary_entry | a | DEDR 1651 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 1651') and as this reading's dictionary reference; entered as one item (spec section 3.2) | — | Status: re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed) |
 | M124-02 | comparative_lexical | a | external corroboration leg: Elamite 'kun' (MC-18) | — | Status: leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only) |
 | M124-03 | comparative_lexical | a | external corroboration leg: Sanskrit 'kona' (SL-04) | — | Status: leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only) |
+| M124-04 | published_proposal | a | the reading is filed as sourced from the literature (Parpola_1994_via_phase51) | — | Status: the audit counted a LITERATURE evidence line for this reading, for which the log entered no item until this amendment. The outside-proposal leg is NOT VERIFIABLE: Parpola nowhere proposes a kuTam or waterpot reading for any sign; the strings kutam, kuṭam, kudam and waterpot occur zero times in the whole of Parpola 1994 and of Parpola 2010 (whole-book negative, subject to the OCR limit on the held 1994 scan) (re-verification remainder 2026-11-22, section 8) |
 
 ## M202 — can (class U, Q4 S)
 
@@ -48,8 +49,9 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 |---|---|---|---|---|---|
 | M202-01 | published_proposal | a | the reading is filed as found in the literature (4 mentions across sources: Mahadevan_2009_vestiges) | — | Status: CONTRADICTED on re-verification: Mahadevan 2009 (Vestiges) contains no 'can' reading; the claim was struck under the addendum rule and the reading reclassed U (relabel execution record, section 4) |
 | M202-02 | slot_label | b | the reading is filed as providing partial coverage for the Shu-ilishu /su/ phonological slot | — | Reason: the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system Target note: the basis names the slot but no reading as its premise |
+| M202-03 | comparative_lexical | a | external corroboration as produced in full from the upstream filed record (reports/phase108_anchor_trails.json): dual external corroboration — Elamite 'an' (MC-07) + Sanskrit 'annam/anna' (SL-03) | — | Status: the basis as filed truncates the segment; the full line stands produced from the upstream record the basis rows were extracted from, read first-hand in the re-verification remainder (2026-11-22, section 2); the basis as filed is not rewritten. The legs as checked in the remainder: Elamite 'an' (MC-07) RETIRED (section 6: no standalone Elamite lexeme an is attested in the reachable compilations and the code names no publication); Sanskrit 'annam/anna' (SL-03) checked and does not support (section 5: Monier-Williams anna, 'food or victuals, especially boiled rice', has no connection to the value 'can', to a sibilant, or to the /su/ slot) |
 
-- Note: the Phase-276 segment is truncated in the basis as filed ('dual external corroborati'); its legs are not stated and no items are entered for it
+- Note: the Phase-276 segment is truncated in the basis as filed ('dual external corroborati'); the full line stands produced from reports/phase108_anchor_trails.json and is entered as an item above (re-verification remainder 2026-11-22, sections 2, 5 and 6)
 
 ## M329 — poṉ (class E, Q4 M)
 
@@ -60,7 +62,7 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 | M329-01 | positional_statistic | a | positional distribution: MEDIAL position, frequency 5, distributional assignment | — | — |
 | M329-02 | dictionary_entry | a | DEDR 4570 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 4524' as filed; citation repaired to 4570 on 2026-11-22) and as this reading's dictionary reference; entered as one item (spec section 3.2) | — | Status: citation repaired 2026-11-22 (refresh adjudication I-4): poṉ is DEDR entry 4570 in print (p. 404) and in the restored tree alike (F-4 DEDR digital-edition pass, 2026-11-22); the filed citation 4524 was a citation error, and the earlier unresolved-numbering-divergence framing (register reconciliation section (c); relabel execution record, Round 2 amendment) is superseded. The basis as filed is unrepaired and still reads 4524 |
 | M329-03 | comparative_lexical | a | external corroboration leg: Elamite 'bur/pur' (MC-21) | — | — |
-| M329-04 | comparative_lexical | a | external corroboration leg: Sanskrit 'pura' (SL-14) | — | Status: FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources. Annotation (2026-11-22, refresh adjudication I-3): the pura leg failed and contributes nothing to the basis; the class rests on the DEDR entry as repaired (I-4) and the Elamite leg as filed |
+| M329-04 | comparative_lexical | a | external corroboration leg: Sanskrit 'pura' (SL-14) | — | Status: FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources. Annotation (2026-11-22, refresh adjudication I-3): the pura leg failed and contributes nothing to the basis; the class rests on the DEDR entry as repaired (I-4) and the Elamite leg as filed. Correction (2026-11-22, OD-4 remainder completions): the Elamite leg has since been checked and does not support the reading (re-verification remainder, section 6: pur is attested 'fingernail' and 'circle'; bur is unattested in the reachable compilations), and the statement is corrected accordingly: M329's class E rests on the repaired DEDR 4570 item alone; the Elamite leg stands checked and does not support the reading; the pura leg failed. No class change |
 
 ## M330 — can (class E, Q4 S)
 
@@ -70,8 +72,9 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 |---|---|---|---|---|---|
 | M330-01 | published_proposal | a | the reading is filed as found in the literature (4 mentions across sources: Parpola_1994) | — | Status: NOT VERIFIABLE from lawfully reachable material: the held Parpola 1994 text is an OCR scan, and a negative result from it is weaker than a contradiction from a clean text (relabel execution record) |
 | M330-02 | slot_label | b | the reading is filed as providing partial coverage for the Shu-ilishu /su/ phonological slot | — | Reason: the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system Target note: the basis names the slot but no reading as its premise |
+| M330-03 | comparative_lexical | a | external corroboration as produced in full from the upstream filed record (reports/phase108_anchor_trails.json): dual external corroboration — Elamite 'an' (MC-07) + Sanskrit 'annam/anna' (SL-03) | — | Status: the basis as filed truncates the segment; the full line stands produced from the upstream record the basis rows were extracted from, read first-hand in the re-verification remainder (2026-11-22, section 2); the basis as filed is not rewritten. The legs as checked in the remainder: Elamite 'an' (MC-07) RETIRED (section 6: no standalone Elamite lexeme an is attested in the reachable compilations and the code names no publication); Sanskrit 'annam/anna' (SL-03) checked and does not support (section 5: Monier-Williams anna, 'food or victuals, especially boiled rice', has no connection to the value 'can', to a sibilant, or to the /su/ slot). The legs neither carry nor strike this entry's class E, which rests on item M330-01 (remainder, section 5) |
 
-- Note: the Phase-276 segment is truncated in the basis as filed ('dual external corroboration — Elamit'); its legs are not stated and no items are entered for it
+- Note: the Phase-276 segment is truncated in the basis as filed ('dual external corroboration — Elamit'); the full line stands produced from reports/phase108_anchor_trails.json and is entered as an item above (re-verification remainder 2026-11-22, sections 2, 5 and 6)
 
 ## M002 — kuṉ (class I, Q4 S)
 
