@@ -53,3 +53,60 @@ registered candidate set.
 recomputation from the census of record, and every
 table the scoring run will use appears in the
 addendum in full.
+
+## Amendments — 2026-11-22 (Red Team Round 6) — BINDING
+
+The test-case texts above are preserved unchanged.
+The binding amendment record is
+`records/floor-derivation-and-outcome-registration-2026-11-22.md`
+("the floor record").
+
+**TC-101-02 — extended (RT6-M6).** In addition to
+the commit-order and input checks above, recompute
+every registered candidate's floor from the floor
+record's §1.3 formula and the registered inputs
+(each candidate's enumerated development occurrences
+and f_i, D = 11, K, and the freeze's M).
+*Additional pass condition:* every registered floor
+**value** equals its recomputation exactly; a floor
+that differs from the formula's value fails this
+test however regular its commit order is.
+
+**TC-101-04 — target fixed (RT6-L6).** The exposure
+statement this test searches for is the canonical
+string quoted character-for-character in the floor
+record's §5: "that Perna 2019's chapter including its printed reading of ICS 194/195 was read in full on 2026-11-22 (OD-9) before any candidate was registered"
+*Pass, as amended:* that exact string is present
+verbatim in the outcome record, and no
+blind-prediction description exists. A paraphrase of
+the exposure does not pass.
+
+**TC-101-05 — conformed (RT6-M6).** The recomputation
+this test names is the floor record's §1.3 formula
+applied to the T201-registered inputs and the
+intaken census's M (segment-final position count),
+with the freeze's registered E_i, q_i, and
+family-wise Q recomputed alongside the floors.
+*Pass, as amended:* every floor, expectation, tail
+probability, and Q in the addendum equals its
+recomputation, Q is below 0.05, and every table the
+scoring run will use appears in the addendum in
+full.
+
+**TC-101-06 — TOO THIN closure (C101-1; Stage 2;
+RT6-M5, new).** At the freeze, attempt to instantiate
+every registered candidate's predicted positions
+against the intaken census; include in the procedure
+a candidate whose predicted position kind is absent
+from the census (a position kind the census carries
+no instance of), so the closure path is exercised
+and not merely read. *Pass:* on encountering a
+candidate whose positions cannot be instantiated,
+the study closes TOO THIN at its freeze; no
+candidate is scored, on the weakened position set or
+any other; the closure record states the
+uninstantiable candidate and the census basis for
+its uninstantiability; and C101-1 stands NOT TESTED
+in every record of the study — reported neither as
+SUPPORTED nor as NOT SUPPORTED, and counted in no
+verdict tally.

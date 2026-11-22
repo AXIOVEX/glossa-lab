@@ -76,3 +76,29 @@ identity record.
 *Does not establish:* that Perna's readings are correct
 — the identity record pins what was read, not what the
 stone says.
+
+## Amendment pointers — 2026-11-22 (Red Team Round 6) — BINDING
+
+The claim texts above are preserved unchanged. The
+binding amendment record is
+`records/floor-derivation-and-outcome-registration-2026-11-22.md`.
+
+- **At C101-1 (RT6-H4, RT6-M5, RT6-M6).** The
+  "registered occurrence floor" C101-1 names is the
+  floor computed by the floor record's §1.3 rule
+  (smallest k ≥ 2 with Binomial(M, f_i / 11) upper
+  tail below 0.05 / K; never below 2), over a
+  candidate set capped at K ≤ 4 (floor record §2).
+  SUPPORTED requires a candidate at or above its
+  computed floor **and** the registered family-wise
+  chance probability Q below 0.05 (floor record
+  §1.4–§1.5). If the study closes TOO THIN at its
+  freeze, C101-1 stands NOT TESTED, neither SUPPORTED
+  nor NOT SUPPORTED (floor record §3). Floors move
+  only by that formula; any other change is a new
+  candidate registration (floor record §4).
+- **At C101-2 (RT6-L6).** The exposure statement
+  C101-2 requires is the canonical string quoted
+  character-for-character in the floor record's §5
+  (and in spec.md's appended §3.3 amendment): "that Perna 2019's chapter including its printed reading of ICS 194/195 was read in full on 2026-11-22 (OD-9) before any candidate was registered"
+  TC-101-04 is pointed at that quoted string.
