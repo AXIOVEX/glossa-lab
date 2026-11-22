@@ -34,6 +34,36 @@ supported, holds at strengths below the design's
 consistency boundary — the claim is a family-level
 discrimination at registered power, not a decipherment.
 
+**Amendment — 2026-11-22 (RT6-H5, RT6-L5; Red Team
+Round 6 correction round; the original falsifier
+above stands unamended and is superseded as stated
+here).**
+
+- **C102-1's operative falsifier (RT6-H5).** The
+  original falsifier's conjunctive form ("p ≥ 0.01
+  WITH an observed T at or below the freeze's
+  consistency boundary") left a case covered by no
+  verdict: p ≥ 0.01 with T above the boundary. The
+  operative falsifier is exactly: **Leg A
+  administered with both gates met and the test's
+  Holm-adjusted p at or above 0.01** — or any
+  administration of Leg A with a gate unmet, which
+  voids the administration rather than supporting
+  the claim. The consistency boundary is reported
+  as interpretation, not a conjunct of
+  falsification.
+- **C102-2's falsifier, written out in full
+  (RT6-L5).** In place of "as C102-1, for the R2
+  test" below, C102-2's operative falsifier is:
+  **Leg A administered with both gates met and the
+  R2 test's Holm-adjusted p at or above 0.01** — or
+  any administration of Leg A with a gate unmet,
+  which voids the administration rather than
+  supporting the claim. The R2 test's own
+  consistency boundary (spec §4, recomputed on the
+  frozen lists for the R2 test) is reported as
+  interpretation, not a conjunct of falsification.
+
 **C102-2 — The expanded-wordlist R2 test separates
 Afroasiatic affiliation from chance at its registered
 bar.** The same construction as C102-1, against the
@@ -109,3 +139,16 @@ text in a published output of this study.
 accurate — the Kovetsky corpus's transcription-quality
 caveat (OD-14 Element 2) carries over every result
 this study produces.
+
+**Amendment — 2026-11-22 (RT6-M9).** The authority
+this claim's falsifier checks for source S-1 is
+**Element 7 of the OD-14 chain**, filed as
+`specs/097-meroitic-reproduction-benchmark/records/od14-chain-supplement-s1-2026-11-22.md`
+(published scholarly sources, not yet held; separate
+owner-gated acquisition; the program's own
+compilation over published sources; no redistribution
+of the lexicon text; scoring/aggregate use only).
+The analogy to the gold lexicon's position in
+spec.md §3.1 as originally filed is superseded as
+S-1's basis (see the §3.1 amendment of the same
+date).

@@ -128,6 +128,46 @@ and no substitute source may be quietly introduced
 (the OD-14 §4.7 rebuild rule, applied here by
 analogy and stated as this spec's own rule).
 
+**Amendment — 2026-11-22 (RT6-M9, RT6-M10; Red Team
+Round 6 correction round; the text above stands
+unamended).** Two authority statements in §3.1 are
+corrected and pinned:
+
+- **S-1's basis is the OD-14 chain, not an analogy
+  (RT6-M9).** The S-1 row's phrase "in the gold
+  lexicon's position (Element 2's class)" and the
+  paragraph below the table resting S-1 on that
+  analogy are superseded as S-1's authority basis.
+  S-1's basis is **Element 7 of the OD-14 chain**,
+  filed as
+  `specs/097-meroitic-reproduction-benchmark/records/od14-chain-supplement-s1-2026-11-22.md`:
+  published scholarly sources (Rilly 2010; Rilly &
+  de Voogt 2012 wordlists), not yet held; digitisation
+  is a separate owner-gated acquisition act not
+  authorised by this registration; the compilation,
+  once made, is the program's own work over published
+  sources, with no redistribution of the lexicon text
+  and scoring/aggregate use only. That chain element
+  is what claim C102-5's falsifier checks.
+- **S-5's pin is stated in full (RT6-M10).** The
+  Otten material of S-5 is the Otten corpus at the
+  full pin of record in Spec 097's corpus completion
+  record
+  (`specs/097-meroitic-reproduction-benchmark/records/corpus-completion-record-2026-11-20.md`
+  §1): commit
+  `c9158f6865325877112b6b9ceef83b3c80a93c56`, and
+  "mero-corpus.txt distinct texts only" means the
+  **662 distinct texts** produced by the construction
+  of record in that same record §1 as reproduced in
+  `specs/097-meroitic-reproduction-benchmark/records/662-distinct-texts-reproduction-2026-11-22.md`:
+  the deposited name-augmented training file
+  (18,090 lines) collapsed under name-masking by the
+  filed pipeline to 662 distinct texts (659
+  name-masked skeletons of Otten-derived funerary
+  texts and 3 narrative texts added once each;
+  18,075 tokens). No truncated pin form is operative
+  anywhere in this spec.
+
 ### 3.2 Leg A — the decisive test
 
 - **Vocabulary.** Every Meroitic form in the
@@ -213,6 +253,16 @@ as NOT ADMINISTERED (custody gate) and Leg A's
 verdict stands alone. A refusal triggers OD-14 §4
 for the whole program and suspends this spec.
 
+**Amendment — 2026-11-22 (RT6-M10).** Before any
+Leg B computation, the Leg B freeze must re-verify
+the full Otten pin stated in §3.1 as amended
+(commit `c9158f6865325877112b6b9ceef83b3c80a93c56`)
+and the 662-distinct-text construction it names,
+exactly as §3.8 requires re-verification of ASJP
+`parameters.csv` under its pinned hash. A Leg B run
+whose freeze does not carry that re-verification, or
+whose pin does not verify, is void.
+
 ### 3.6 Split independence
 
 Where any stage of this study derives material from
@@ -228,6 +278,32 @@ side only. Genre stratification follows freeze v2
 in every corpus-derived table. The seal's nature is
 stated as freeze v2 §6 stated it: procedural and
 unverifiable by construction, on a public corpus.
+
+**Amendment — 2026-11-22 (RT6-H6): the split rule,
+stated computably.** The registered construction is
+exact. Let the salt be the study-specific salt bytes
+registered in the freeze, and the text a distinct
+text after exact-text deduplication. Then:
+
+- digest = SHA-256 over (salt bytes || 0x00 ||
+  UTF-8(text)) — the salt bytes, a single zero byte,
+  then the text encoded as UTF-8, concatenated in
+  that order;
+- value = the digest read as a big-endian integer;
+- assignment = value mod 10.
+
+**Residue 0 denotes the development side** — the
+derivation side: the side derivation work uses, per
+this section's own rule above ("Derivation work uses
+the development side only"). Residues 1–9 denote
+the held-out side (the sealed side, whose nature the
+paragraph above states). The salted construction and
+the residue-0 assignment together are what make this
+study's partition not Spec 097's. Worked examples
+with a fixed example salt are registered as test
+case TC-102-07 in test-cases.md, with the computation
+filed at
+`records/split-construction-execution-note-2026-11-22.md`.
 
 ### 3.7 Administration gates — the discriminating property
 
@@ -252,6 +328,15 @@ is not a verdict on affiliation and may not be cited
 as one. No gate may be lowered by amendment after
 the freeze; a design that needs lower gates is a new
 registration.
+
+**Amendment — 2026-11-22 (RT6-L4): the no-lowering
+rule, operative form.** The sentence above ("No gate
+may be lowered by amendment after the freeze") left
+the registration-to-freeze interval unaddressed. The
+operative rule is: **No gate may be lowered by
+amendment at any point after this registration; a
+design that needs lower gates is a new
+registration.** This amendment itself lowers no gate.
 
 ### 3.8 Complete tables (the OD-17 / F-A discipline)
 
@@ -332,6 +417,60 @@ contingency, claim C102-1's falsifier side); the
 design's purpose is that this outcome should not
 occur, and if it does the record must say why in
 numbers.
+
+**Amendment — 2026-11-22 (RT6-H5, RT6-M11; the text
+above stands unamended except as stated).**
+
+- **UNDECIDABLE is deleted (RT6-H5).** The sentence
+  above making "An UNDECIDABLE AT THIS POWER outcome"
+  available is **deleted** as an operative provision.
+  The adjudication vocabulary is closed, and §5's
+  vocabulary governs: SUPPORTED / NOT SUPPORTED at
+  its registered bar / NOT ADMINISTERED. The
+  contingency that sentence reached for is carried
+  where §4 already places it — in claim C102-1's
+  falsifier, as amended in claims.md in this same
+  round — and nowhere else. No outcome record of this
+  study may state UNDECIDABLE AT THIS POWER.
+- **G-2's operative simulation is pinned (RT6-M11).**
+  Gate G-2 (§3.7) is recomputable only under the
+  following, registered here in full, mirroring the
+  OD-15 §4 method
+  (`specs/097-meroitic-reproduction-benchmark/records/power-simulation-audit-2026-11-22.md`
+  §4) as the design-stage run executed it
+  (`tools/design_power_sim.py`;
+  `records/design-stage-counts-2026-11-22.md` §§4, 6):
+  (a) **Injection construction.** Synthetic
+  correspondences are injected into the frozen
+  comparator lists: for each scored concept,
+  independently, with probability θ a concept is
+  designated corresponding, and with probability d
+  the correspondence is made detectable, in which
+  case one comparator form is appended for that
+  concept, built from a Meroitic skeleton of that
+  concept (the design-stage form: the skeleton of a
+  Meroitic form of the concept, with a trailing "a"
+  appended) so the frozen correspondence rule scores
+  it; T is then recomputed over the injected lists.
+  (b) **Replicate count.** The G-2 operative
+  simulation runs **4,000 replicates per (θ, d)
+  cell** — the design-stage run's count, pinned here
+  so the operative simulation recomputes consistently
+  with §4. (c) **Bar construction.** The bar is the
+  **null's 99th percentile**: the permutation null of
+  T over the frozen lists, and a replicate counts as
+  a pass iff its injected T exceeds that bar.
+  (d) **Seed discipline.** A **single integer seed is
+  registered in the freeze before any scoring**, and
+  all simulation streams (permutation null and
+  injection) are derived deterministically from it.
+  The design-stage seeds are on record
+  (`records/design-stage-counts-2026-11-22.md` §6 and
+  `tools/design_power_sim.py`): permutation 777001,
+  injection 424242 (with the injection routine's
+  inner null drawn under seed 777002). Those are
+  design-stage seeds only; the operative seed is the
+  freeze's, under this discipline.
 
 ## 5. Adjudication vocabulary
 

@@ -59,3 +59,31 @@ the program's citing records for the study's verdict.
 vocabulary; R3 appears only as not displaced; a
 NOT ADMINISTERED closure is nowhere cited as
 evidence about affiliation.
+
+**TC-102-07 — Split construction recomputation
+(C102-1, C102-2; Stages 2–3; added by amendment
+2026-11-22, RT6-H6).** Recompute the §3.6 split
+assignment, as amended, for the fixed example texts
+below under the fixed example salt
+`spec102-split-example-salt-2026-11-22` (UTF-8 bytes;
+this example salt is a test fixture, not the study
+salt, which the freeze registers): digest =
+SHA-256(salt bytes || 0x00 || UTF-8(text)); value =
+the digest as a big-endian integer; assignment =
+value mod 10; residue 0 is the development side
+(the derivation side), residues 1–9 the held-out
+side.
+
+| Text | SHA-256 digest | Residue | Side |
+|---|---|---|---|
+| `ato` | `1f3924e248a2b980d52b2377dcb6a526e7d2953b04513ccfc2edf0ff15c74e2d` | 7 | held-out side |
+| `mk lb` | `dc3d011961afa4289598b90d308e39a8a5f34813f5f7d4af475d12c4321e3147` | 3 | held-out side |
+| `qore kdi ste` | `39832e505bdfc025077c1f7aafe47d76e40de22471f148b242beb69088e90bb8` | 0 | development side (derivation side) |
+| `REM 1003 Akinidad stela text` | `39716c8af11f898ffb36de94eb501ffe5953b03d2ed0970898f018d2bf034e83` | 9 | held-out side |
+| `bedewi ato mk` | `6aa442f449ca7fd04e478e36feef2ff2ae3020977107ccf9278276247b0adc54` | 0 | development side (derivation side) |
+
+*Pass:* every recomputed digest, residue, and side
+equals the table, and no text appears on both sides.
+The computation as executed at this amendment is
+filed at
+`records/split-construction-execution-note-2026-11-22.md`.
