@@ -14297,7 +14297,7 @@ active; the platform's claim surfaces and spec register reflect
 the program when the serving checkout is next updated to the
 merged main, and the corpus catalogue carries no Eteocypriot
 entry and no create route, both recorded in the adoption
-record. All execution ran on the mini-server under the owner's
+record. Clarified 2026-11-21 (RT1-40, RT1-24): project `eteocypriot_program` stands INACTIVE; `indus_decipherment` remains the sole active project. The Spec 096 verdicts are proposed verdicts, unadjudicated; ledger standings unchanged (approver: the owner, Tristen Pierson; adjudication outstanding since 2026-11-20 — see specs/096-eteocypriot-program/records/outcome-record-amendment-2-2026-11-21.md). The serving-checkout verification of the platform sentence above is STILL OPEN: the spec-studies route returns 401 without the platform token and the MCP tooling is down. All execution ran on the mini-server under the owner's
 standing execution-home rule.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse) at
