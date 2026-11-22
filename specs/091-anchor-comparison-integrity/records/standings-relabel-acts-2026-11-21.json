@@ -1,0 +1,850 @@
+{
+ "acts": [
+  {
+   "sign": "M044",
+   "reading": "ku",
+   "prior_class": "independently supported",
+   "adjudicated_class": "E",
+   "executed_class": "E",
+   "q4_source_flag": "M",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M047",
+   "reading": "min/mīn",
+   "prior_class": "independently supported",
+   "adjudicated_class": "E",
+   "executed_class": "E",
+   "q4_source_flag": "A",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M124",
+   "reading": "kuTam",
+   "prior_class": "independently supported",
+   "adjudicated_class": "E",
+   "executed_class": "E",
+   "q4_source_flag": "M",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M202",
+   "reading": "can",
+   "prior_class": "independently supported",
+   "adjudicated_class": "E",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": true
+  },
+  {
+   "sign": "M329",
+   "reading": "poṉ",
+   "prior_class": "independently supported",
+   "adjudicated_class": "E",
+   "executed_class": "E",
+   "q4_source_flag": "M",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M330",
+   "reading": "can",
+   "prior_class": "independently supported",
+   "adjudicated_class": "E",
+   "executed_class": "E",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M002",
+   "reading": "kuṉ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M004",
+   "reading": "kēḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M005",
+   "reading": "kōṉ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M006",
+   "reading": "puli",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M007",
+   "reading": "aaL",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M009",
+   "reading": "āṇ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M010",
+   "reading": "paṭ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M013",
+   "reading": "nakaram",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M014",
+   "reading": "tiru",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M015",
+   "reading": "mā",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M016",
+   "reading": "kaḷiṟu",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M017",
+   "reading": "kai",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M018",
+   "reading": "nēr",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M020",
+   "reading": "kuṉ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M023",
+   "reading": "vaḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M025",
+   "reading": "cem",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M026",
+   "reading": "mā",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M027",
+   "reading": "māṟ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M029",
+   "reading": "yānai",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M030",
+   "reading": "kō",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M032",
+   "reading": "koL",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M034",
+   "reading": "tōḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M037",
+   "reading": "kēḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M038",
+   "reading": "pōr",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M041",
+   "reading": "pēr",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M045",
+   "reading": "yānai",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M049",
+   "reading": "pu",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M050",
+   "reading": "pār",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M051",
+   "reading": "pū/puḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M052",
+   "reading": "ta",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M053",
+   "reading": "mi",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M054",
+   "reading": "mi",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M055",
+   "reading": "miN3",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M057",
+   "reading": "māṭu",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M060",
+   "reading": "kāṇṭāmirukam",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M061",
+   "reading": "ka",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M062",
+   "reading": "erutu",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M063",
+   "reading": "mutalai",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M065",
+   "reading": "kuTam",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M066",
+   "reading": "cōḻ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M067",
+   "reading": "kōṭṭāṉ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M068",
+   "reading": "maṟi",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M069",
+   "reading": "nēr",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M070",
+   "reading": "vēl",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M073",
+   "reading": "kōṉ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M074",
+   "reading": "ker",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M075",
+   "reading": "māṟ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M076",
+   "reading": "naN",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M078",
+   "reading": "cēr",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M080",
+   "reading": "vēṅkai",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M082",
+   "reading": "pa",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M089",
+   "reading": "tu/tū",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M099",
+   "reading": "kol/koḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M128",
+   "reading": "kaṇ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M130",
+   "reading": "mui",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M145",
+   "reading": "miṭ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M151",
+   "reading": "viḷ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M194",
+   "reading": "kaṭ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M220",
+   "reading": "al",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M267",
+   "reading": "iN/in (genitive of)",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M347",
+   "reading": "ka",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M351",
+   "reading": "vī",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "M",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M374",
+   "reading": "kul",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "M",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M375",
+   "reading": "taṇ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M391",
+   "reading": "ka/kaṇ",
+   "prior_class": "supported on internal evidence only",
+   "adjudicated_class": "I",
+   "executed_class": "I",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M087",
+   "reading": "veL",
+   "prior_class": "requires revalidation",
+   "adjudicated_class": "R",
+   "executed_class": "R",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M165",
+   "reading": "cul",
+   "prior_class": "requires revalidation",
+   "adjudicated_class": "R",
+   "executed_class": "R",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M264",
+   "reading": "peN",
+   "prior_class": "requires revalidation",
+   "adjudicated_class": "R",
+   "executed_class": "R",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M311",
+   "reading": "vaTamiin",
+   "prior_class": "requires revalidation",
+   "adjudicated_class": "R",
+   "executed_class": "R",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M222",
+   "reading": "min",
+   "prior_class": "expert-pending",
+   "adjudicated_class": "P",
+   "executed_class": "P",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M362",
+   "reading": "aṇi",
+   "prior_class": "expert-pending",
+   "adjudicated_class": "P",
+   "executed_class": "P",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M398",
+   "reading": "kuṟi",
+   "prior_class": "expert-pending",
+   "adjudicated_class": "P",
+   "executed_class": "P",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M012",
+   "reading": "oṉṟu/1",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M039",
+   "reading": "āṉai",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M042",
+   "reading": "vaN",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M046",
+   "reading": "kaL",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M048",
+   "reading": "mu/muṉ",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M059",
+   "reading": "ēḷ/eḷ",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M077",
+   "reading": "nal",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M108",
+   "reading": "kaL",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M162",
+   "reading": "il/iḷ",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M176",
+   "reading": "an/aṇ",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M233",
+   "reading": "ūr",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M305",
+   "reading": "ōṭu/comitative",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M328",
+   "reading": "ā/āl",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M336",
+   "reading": "iṉ/locative",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M342",
+   "reading": "ay/ā",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "S",
+   "addendum_applied": false
+  },
+  {
+   "sign": "M367",
+   "reading": "am/neuter",
+   "prior_class": "insufficient evidence",
+   "adjudicated_class": "U",
+   "executed_class": "U",
+   "q4_source_flag": "N",
+   "addendum_applied": false
+  }
+ ]
+}
