@@ -14811,3 +14811,37 @@ Shell wrappers (macos-latest, ubuntu-latest,
 windows-latest) — all success. Adjudication:
 RED-TEAM-ROUND-5-ADJUDICATION.md (goal record). Execution
 venue: tower-compute.
+## 2026-11-22 — Spec 096 adjudicated: the four Eteocypriot verdicts as proposed
+
+The adjudication outstanding since 2026-11-20 is
+discharged. The named approver, the program owner, Tristen
+Pierson, adjudicated the four Spec 096 verdicts as proposed
+on 2026-11-22, in the Glossa-Lab chat, the verdicts as
+amended through Red Team Rounds 1 to 4: C096-1 NOT
+SUPPORTED (A1 cited only as the pure index-offset check
+with predetermined 0/2; A2 as executed unanchored, 1 of 2;
+the Androkles conjunct TOO THIN at freeze); C096-2 TOO THIN
+and C096-3 NOT ENGAGED, each in amendment 2 §10's mandated
+form ("closed / unengaged at freeze on census grounds;
+falsifier never engaged"); C096-4 SUPPORTED narrowed, a
+self-assessed process claim whose qualifier's
+pending-adjudication element the act discharges (falsifier
+NOT FIRED in its letter, ENGAGED in its substance). The act
+is recorded at
+specs/096-eteocypriot-program/records/adjudication-record-2026-11-22.md,
+with head pointers on the outcome record and on amendment
+2. The amendment 2 §6 discipline ("proposed verdicts,
+unadjudicated; ledger standings unchanged") no longer
+applies as to the verdicts' status; ledger standings are
+unchanged — C096-1..C096-4 stand at draft / created, and no
+standing is moved by this landing. The platform project
+`eteocypriot_program` description could not be checked from
+the record (its create body is not filed in this repo; the
+platform read route stands as this ledger's open
+verification note states), and the adjudication record
+carries the supersession note for it. Execution venue:
+tower-compute.
+
+**AI disclosure:** executed by an AI agent (Muse, via
+Muse) at the direction of Tristen Pierson, per
+constitution sec. VI. The adjudication act is the owner's.
