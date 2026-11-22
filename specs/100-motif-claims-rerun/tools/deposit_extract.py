@@ -10,9 +10,18 @@ sign files use.
 
 The extractor refuses to run on any build whose SHA-256 is
 not the pin of record: the deposit must be produced from the
-corpus build the program pinned (SHA-256
-62d14d2b…, the build the T303 run used), verified at deposit
+corpus build the program pinned, verified at deposit
 time, or not at all. A refusal writes nothing.
+
+Pin of record (RT6-H3, 2026-11-22): the full 64-character
+pin is embedded in this tool as PIN_OF_RECORD. Its source
+is the program's records — the T303 build record carried in
+`reports/phase422_results.json` — NOT the deposit record,
+which is created after extraction and cites the pin.
+`--pin`, if supplied, must equal PIN_OF_RECORD or the tool
+refuses; with no `--pin` the tool uses PIN_OF_RECORD. A
+caller can no longer pin an arbitrary source by passing
+that source's own hash.
 
 This tool is part of the registered pipeline. It is NOT run
 by the registration package: the deposit is held under flag
@@ -34,6 +43,8 @@ import csv
 import hashlib
 import sys
 from pathlib import Path
+
+PIN_OF_RECORD = "62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e"
 
 def extract(source: Path) -> dict[str, str]:
     """Per-seal iconography from the source CSV.
@@ -62,16 +73,21 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--source", type=Path, required=True,
                         help="the Holdat corpus CSV, as held in custody")
-    parser.add_argument("--pin", required=True,
-                        help="the full SHA-256 the source must match")
+    parser.add_argument("--pin", default=None,
+                        help="optional; if supplied must equal the embedded PIN_OF_RECORD")
     parser.add_argument("--out", type=Path, required=True,
                         help="deposit CSV to write (cisi_id,iconography)")
     args = parser.parse_args(argv)
 
+    if args.pin is not None and args.pin.strip().lower() != PIN_OF_RECORD:
+        print(f"PIN MISMATCH: supplied --pin {args.pin.strip().lower()} is "
+              f"not the pin of record {PIN_OF_RECORD}. Refusing: a caller "
+              "cannot substitute its own pin. Nothing written.")
+        return 2
     digest = hashlib.sha256(args.source.read_bytes()).hexdigest()
-    if digest != args.pin.strip().lower():
+    if digest != PIN_OF_RECORD:
         print(f"PIN MISMATCH: source SHA-256 {digest} is not the pin of "
-              f"record {args.pin.strip().lower()}. Refusing: the deposit "
+              f"record {PIN_OF_RECORD}. Refusing: the deposit "
               "must be produced from the pinned build or not at all. "
               "Nothing written.")
         return 2

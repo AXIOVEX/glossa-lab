@@ -95,6 +95,14 @@ paths over two corpus representations with exact agreement:
   a+b = 18, a+c = 64, N = 1,670, lift = aN/((a+b)(a+c)) =
   4.35 to two places — the only filed lift value in the
   record, reproduced by TC-100-03.
+
+  *Correction note (2026-11-22, Red Team Round 6, RT6-M7;
+  original text above preserved):* the phrase "3 of 18
+  gharial-motif seals" in this section mislabels the
+  denominator: 18 is the sign total (a+b), and the
+  gharial-motif total (a+c) is 64. Corrected wording:
+  "3 of its 18 seals carry the gharial motif (gharial-motif
+  seals total 64)".
 - The competing-word structure stands as filed and is
   untouched: an association table tests motif association
   only, not which word is right (PR #634, section 3).
@@ -128,6 +136,21 @@ deposit act therefore begins by producing the pinned bytes
 in custody and verifying the pin; if the pinned bytes
 cannot be produced, the deposit cannot be made under this
 spec and that failure is itself recorded.
+
+  *Amendment (2026-11-22, Red Team Round 6, RT6-H3;
+  original text above preserved, the one sentence noted
+  below superseded):* the full pin of record is
+  `62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e` (64 hex characters). Its source is the program's
+  records, the T303 build record carried in
+  `reports/phase422_results.json`, and NOT the deposit
+  record, which is created after extraction and cites the
+  pin. The sentence above stating that the extractor
+  refuses a source whose SHA-256 "does not equal the pin
+  supplied from the deposit record" is superseded: the pin
+  is embedded as a constant in `tools/deposit_extract.py`;
+  a supplied `--pin` must equal that constant or the tool
+  refuses, and with no `--pin` the tool uses the constant
+  (TC-100-06 as amended).
 
 ### 3.2 The join
 
@@ -206,6 +229,19 @@ CLOSED) and no rerun result is computed for the record.
    with its deposit record (provenance, permission basis,
    coverage, the join-defect check of section 3.2) by pull
    request under the program's CI discipline.
+   The deposit record's permission basis takes the
+   labelled form defined here (RT6-C2 amendment,
+   2026-11-22): a line beginning `Permission basis:`
+   followed by a statement naming a granting Miller reply
+   as its basis, and the record must also state the
+   deposit CSV's SHA-256. `tools/motif_rerun.py` enforces
+   this mechanically in record mode: the basis line must
+   contain a granting term (for example "grants",
+   "granted", "granting", or "confirms permission") and
+   must contain no refusal term (for example "refus",
+   "deni", "silence", "silent", "no reply", "not
+   granted", or "withheld"); a line recording refusal or
+   silence does not satisfy the gate.
 2. **Rerun (Stage 2).** Run `tools/motif_rerun.py` in
    record mode against the landed deposit, on
    tower-compute, in a fresh clone. The run's own exit code

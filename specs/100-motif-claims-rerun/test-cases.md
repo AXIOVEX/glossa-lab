@@ -1,6 +1,6 @@
 # Spec 100 — Test Cases
 
-All six test cases are implemented in
+All nine test cases are implemented in
 `tests/test_motif_rerun.py` against the pipeline of record
 (`tools/motif_rerun.py`, `tools/deposit_extract.py`), run
 on synthetic fixtures only — no real iconography label is
@@ -19,7 +19,21 @@ with payload verdicts, in
    GATE CLOSED, and writes no outcome file.
 2. Record mode naming a deposit path that does not exist
    exits 3 the same way.
-*Pass condition:* both assertions hold; the test process
+3. (RT6-C2, added 2026-11-22) Record mode naming a
+   foreign deposit: an existing CSV at any path other
+   than the registered deposit path
+   `records/iconography-deposit-v1.csv`, with any
+   citation string, exits 3 GATE CLOSED and writes no
+   outcome.
+4. (RT6-C2) Record mode with the deposit at the
+   registered path but a bogus citation: a
+   `--deposit-record` naming no existing in-tree record
+   file, a record file that does not state the deposit
+   CSV's actual SHA-256, or a record file whose
+   `Permission basis:` line records refusal or silence
+   (or states no granting term), each exits 3 GATE
+   CLOSED and writes no outcome.
+*Pass condition:* all assertions hold; the test process
 exits 0.
 
 ## TC-100-02 — Fixture arithmetic and the strict threshold
@@ -96,8 +110,81 @@ iconography, site; two rows for one seal).
 *Assertions:*
 1. With a wrong pin the extractor exits 2 with PIN
    MISMATCH and writes no file.
-2. With the source's true SHA-256 as pin it exits 0 and
-   writes one row per seal, iconography lowercased and
+2. (RT6-H3, amended 2026-11-22; assertion 2 as originally
+   filed, in which the source's own SHA-256 as pin
+   unlocked extraction, is superseded because it made the
+   pin caller-supplied) A non-pinned source is refused
+   even with its own hash: passing the synthetic source's
+   true SHA-256 as `--pin` exits 2 with PIN MISMATCH and
+   writes no file, because the supplied pin is not the
+   embedded pin of record; and with no `--pin` the
+   extractor uses the embedded constant and likewise
+   refuses the non-pinned source (exit 2, nothing
+   written).
+3. The schema leg survives as a direct `extract()` unit
+   check: one row per seal, iconography lowercased and
    taken from the seal's first row.
+*Pass condition:* all assertions hold; the test process
+exits 0.
+
+## TC-100-07 — No standing change without a separate adjudication act
+
+*Exercises:* C100-4 (the rerun changes no standing by
+itself).
+*Fixture:* a simulated gate-opening record-mode run in a
+temporary tree (registered-path deposit with header only,
+deposit record stating its SHA-256 and a granting
+`Permission basis:` line; synthetic fixture only), plus
+the package's claims and spec files hashed before and
+after.
+*Assertions:*
+1. The run's outcome record contains no standing, ledger,
+   or register field and changes no standing value.
+2. The package's claims/spec files are byte-identical
+   before and after the run: an outcome record citing the
+   rerun changes no standing absent a separate
+   adjudication act, which is a landing check on any
+   future outcome PR as well as this test.
+*Pass condition:* all assertions hold; the test process
+exits 0.
+
+## TC-100-08 — Proof-mode banner and synthetic label set only
+
+*Exercises:* C100-7 (the proof computes nothing from real
+labels).
+*Fixture:* the real repository root, proof mode.
+*Assertions:*
+1. Proof mode exits 0, and both its stdout and its
+   written output carry the banner "PROOF - NOT A
+   RESULT".
+2. The synthetic labels the proof uses are drawn only
+   from the deterministic synthetic label set
+   (`synthetic-tiger`, `synthetic-gharial`,
+   `synthetic-elephant`, `synthetic-zebu`,
+   `synthetic-rhinoceros`, `synthetic-unicorn`,
+   `synthetic-none`); no real iconography string appears
+   as a proof label.
+*Pass condition:* all assertions hold; the test process
+exits 0.
+
+## TC-100-09 — The Miller-reply trigger states
+
+*Exercises:* C100-6 (grant, refusal, silence).
+*Fixture:* temporary trees as in TC-100-07, varying only
+the deposit record's `Permission basis:` line.
+*Assertions:*
+1. Grant: a basis line stating Miller's reply grants the
+   basis (granting term, no refusal term), with the
+   deposit at the registered path and its SHA-256 stated
+   in the record, opens the mechanical gate: record mode
+   proceeds (the deposit-then-rerun sequence of spec
+   section 5 becomes executable).
+2. Refusal: a basis line recording a refusal does not
+   satisfy the gate; record mode exits 3 GATE CLOSED.
+   (Study-level consequence, recorded not executed: the
+   study closes as GATE REFUSED, per spec section 4.)
+3. Silence: no basis line, or a basis line recording
+   silence / no reply, does not satisfy the gate; record
+   mode exits 3 GATE CLOSED and the gate stays closed.
 *Pass condition:* all assertions hold; the test process
 exits 0.

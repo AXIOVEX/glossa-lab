@@ -55,6 +55,22 @@ seals, lift 4.35; also 4 unicorn and 3 zebu-bull seals)
 are carried on the face of the outcome record beside its
 recomputed row, whatever the rerun finds.
 
+*Correction note (2026-11-22, Red Team Round 6, RT6-M7 and
+RT6-H3; original text preserved):* (1) The phrase "3 of
+18 gharial-motif seals" mislabels the denominator: 18 is
+the sign total (a+b), and the gharial-motif total (a+c)
+is 64. Corrected wording: "3 of its 18 seals carry the
+gharial motif (gharial-motif seals total 64)".
+(2) The full pin of record is `62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e` (64 hex
+characters). Its source is the program's records, the
+T303 build record carried in
+`reports/phase422_results.json`, NOT the deposit record
+(section 3 below describes the deposit format by
+reference to the pinned build; the deposit record is
+created after extraction and cites the pin). The pin
+is embedded as a constant in `tools/deposit_extract.py`
+as amended 2026-11-22.
+
 ## 3. The frozen definitions
 
 - **Join key:** `cisi_id`. A deposit row keyed outside
