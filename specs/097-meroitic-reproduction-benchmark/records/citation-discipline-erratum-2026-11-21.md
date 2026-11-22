@@ -27,3 +27,18 @@ The record's §6 attributes the gloss pair 'wos "Isis", sorey
 (wise) … asiri (soreyi)". The §6 substance — that the B1
 glosses are the freeze's own registered forms — stands; the
 quotation is from freeze v2, and citations follow this erratum.
+
+## 3. Correction to §2 (2026-11-21, Red Team Round 3 — RT3-07)
+
+Section 2 above cites the quoted B1 line to freeze v1 at
+`records/meroitic-benchmark-freeze-2026-11-20.md`. That file
+contains no B1 at all: its sections are the benchmark's
+A-count bases (verified by direct read, 2026-11-21). The
+quoted line — "wosi (wise) … asiri (soreyi)" — is freeze
+v1's B1 at `records/anchor-inventory-freeze-v1-2026-11-20.md`
+line 32, under "Class B — formula structure", the file the
+citation-discipline record's own §6 correctly names. The
+erratum's substance stands (the gloss pair is freeze v2's
+B1, `records/campaign-freeze-v2-2026-11-20.md` line 80);
+§2's citation is corrected to the anchor-inventory freeze,
+and citations follow this note.
