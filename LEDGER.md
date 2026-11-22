@@ -14421,3 +14421,23 @@ above (2026-11-20 entry) now carries the custody caveat in the
 same sentence (RT1-28). Adjudication:
 RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 2, Eteocypriot corrections (Spec 096)
+
+Amendment 2 §4 is corrected by a note
+(`specs/096-eteocypriot-program/records/outcome-record-amendment-2-correction-2026-11-21.md`):
+the dead-vowel-default sub-point is withdrawn (freeze §5 R3
+states the default a on its face); the consonant-stem-table
+point stands (RT2-11). The freeze record and the outcome record
+carry head pointers to amendment 2 and the custody correction;
+the outcome record's pointer carries the mandated C096-4
+citation line (RT2-13, RT1-07, RT1-08). corpus.json advances to
+version 1.1.0 (SHA-256 32b96f67…): the ICS 217 sense is now a
+marked program rendering pointing to Chadwick 1987 p. 56
+(RT2-12), and the held-out records' seal language is corrected
+to the procedural-exclusion form (RT1-26). A custody history
+note states the program's position on the removed SEG strings
+remaining in public git history at 173882a2 (RT2-12). spec.md
+carries dated amendment pointers at §§2–3 (RT2-24).
+Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.

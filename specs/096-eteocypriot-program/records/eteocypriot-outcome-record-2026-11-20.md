@@ -1,5 +1,19 @@
 # Eteocypriot Program — Outcome Record
 
+> **Correction pointer (2026-11-21, Red Team Round 2 — RT2-13,
+> RT1-07):** the E1 leg labels in this record (A1 "strict
+> segment-parallel", A2 "name-anchored free"), its seal
+> language, and its bare C096-4 "SUPPORTED" are superseded as
+> citation forms by `records/outcome-record-amendment-2-2026-11-21.md`
+> §§1–3 (A1 is a pure index-offset check with a predetermined
+> 0/2; A2 as executed was unanchored; the held-out set is held
+> out by procedural exclusion). The C096-4 verdict line,
+> wherever stated, carries its qualifier: **"C096-4 SUPPORTED —
+> process claim, self-assessed, pending named-human
+> adjudication"** — narrowed to the pilot's reporting of its
+> administrable leg and its closures; it does not cover the
+> correctness of the procedure administered.
+
 **Date:** 2026-11-20. **Program:** Spec 096 — Eteocypriot
 Program, Stages 2–3 (registered analysis; outcome and
 adjudication package). **Basis:** the freeze record
