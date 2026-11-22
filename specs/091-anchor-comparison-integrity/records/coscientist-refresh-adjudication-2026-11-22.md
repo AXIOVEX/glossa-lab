@@ -1254,3 +1254,101 @@ recorded below.
 **AI disclosure:** this addendum was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+## 11. Owner decisions — closing batch, 2026-11-22
+
+The owner took the remaining owner-decision items of
+§6 (OD-14 to OD-22) in the Glossa-Lab chat on
+2026-11-22. With this addendum, all 22 owner-decision
+units of this adjudication are decided, as the closing
+line below records. Items whose executions were still
+in flight when this addendum was written are recorded
+by their commission state, not by outcomes.
+
+- **OD-14 (M-7) — ADOPTED and EXECUTED, 13:12 ET.**
+  The Meroitic custody-authority clarification
+  programme and refusal protocol are adopted and
+  landed as a Spec 097 record (PR #689, merge
+  `3f3b28f5`). The current posture does not change:
+  computation and retention continue under the owner's
+  risk acceptance until a refusal or a clarification
+  lands, and the protocol's operative commitments now
+  stand written in advance.
+- **OD-15 (M-9) — COMMISSIONED, 13:18 ET, and
+  EXECUTED.** The power and simulation audit of the
+  Spec 097 affiliation test design is landed (PR #690,
+  merge `1173b975`). Headline: the two vocabulary
+  failures are asymmetric. The R2 failure excludes a
+  strong affiliation; the R1 failure remains fully
+  consistent with a moderate one. The UNDECIDABLE AT
+  THIS POWER verdict stands, with its meaning now
+  measured.
+- **OD-16 (M-12) — COMMISSIONED, 13:23 ET, and
+  EXECUTED.** The executable comparison of freeze v2
+  against freeze v3 is landed (PR #691, merge
+  `c402e816`): the two freezes are equivalent on every
+  verdict-bearing quantity, proven through the frozen
+  pipeline rather than asserted from the records.
+- **OD-17 (M-13) — COMMISSIONED, 13:27 ET, and
+  EXECUTED.** The dependency-level audit of the freeze
+  split is landed (PR #692, merge `969cc9b5`): split
+  independence is proven, and the Stage 4.2 verdict is
+  unchanged under every multiplicity correction. The
+  audit raised finding F-A, next item.
+- **F-A — correction AUTHORISED, 13:50 ET.** Freeze
+  v3 §3's per-concept table carries wrong gloss labels
+  for 9 of its 12 concepts, and its matching-concepts
+  sentence does not correspond to the executed record.
+  The owner authorised a dated correction to the
+  labels and the sentence, counts unchanged, the
+  original preserved in the amendment trail. The
+  correction lands separately.
+- **OD-18 (M-15) — preparation AUTHORISED, 13:33 ET,
+  and EXECUTED.** The expert-verification preparation
+  is landed (PR #693, merge `366b44fb`): a verified
+  channel to Professor Claude Rilly,
+  claude.rilly@cnrs.fr, is established from primary
+  institutional sources, and the bounded itemised
+  question set and drafts are prepared. The owner
+  approved the send of Draft A as written at 13:51 ET;
+  the send was executed separately, and its own record
+  carries the Sent id.
+- **OD-19 (M-16) — COMMISSIONED, 13:37 ET, and
+  EXECUTED.** The inspectable Meroitic reproduction
+  and adjudication packet is assembled and held in
+  custody on tower-compute (43 indexed items, every
+  item hash-verified; the manifest record only landed
+  in the repo, PR #694, merge `6a009779`). At assembly,
+  OD-16, OD-17, and OD-18 were indexed as pending; a
+  packet supplement is the recorded route for adding
+  them.
+- **OD-20 (M-17) — COMMISSIONED, 13:44 ET.** The
+  reassessment of soreyi against anchor-only and
+  genre/formula baselines is commissioned. Execution
+  was in flight when this addendum was written and
+  lands separately.
+- **OD-21 (M-18) — COMMISSIONED, 13:51 ET.** The
+  design of a genuinely fresh discriminating test for
+  Meroitic on new or independent material is
+  commissioned. Registration was in flight when this
+  addendum was written and lands separately.
+- **OD-22 (M-19) — ADOPTED, 13:53 ET.** The Meroitic
+  assessment's proposed public wording is adopted as
+  the program's canonical Meroitic wording, verbatim
+  from the captured assessment (meroitic/RESPONSE.md
+  and meroitic-independent-assessment.md, 2026-11-22
+  capture). The adoption is effective only when
+  release conditions are satisfied; it publishes
+  nothing, and the internal-use ruling stands until
+  then.
+
+**Closing line:** all 22 owner-decision units of this
+adjudication are now decided. OD-11 stands deferred
+by the owner's choice until he names the person; the
+check stands open, not skipped. Every other unit is
+adopted, commissioned, decided, or executed as
+recorded in §8, §9, §10, and this section.
+
+**AI disclosure:** this addendum was executed by an AI
+agent (Muse, via Muse) at the direction of Tristen
+Pierson, per constitution sec. VI.
