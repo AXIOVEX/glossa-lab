@@ -1,0 +1,782 @@
+{
+ "driver": "od16_freeze_compare.py",
+ "purpose": "OD-16 executable freeze v2 vs v3 comparison, Spec 097 Stage 4.2 vocabulary tests",
+ "input_hashes": {
+  "pipeline-v2.py (frozen code, campaign scratch)": "74b831da221f0708b2c5a9f7e9f1a7772175fe2097783f101d33588769e1642e",
+  "freeze-v2-vocabulary-2026-11-20.json": "ab1de889b6e8674512fa64c9bb9e7bf5f2efe15f609f681558ba7781f23178fc",
+  "freeze-v3-vocabulary-2026-11-22.json": "ee7056a461907f213a92a7aeb268c0e11ffb0c88d736c9799df647101e68bdd1",
+  "stage-4-2-results.json (executed, repo)": "9ea5cce7d8cbeea182d49a6253c096e899e8fc94b5a4fd1e2b9a6b376233eb1f",
+  "stage42-results.json (executed, scratch)": "9ea5cce7d8cbeea182d49a6253c096e899e8fc94b5a4fd1e2b9a6b376233eb1f",
+  "ASJP forms.csv": "4ee30b771a2cba59e7e904587f7f60dc3d823824a7b9aae9dd6f73a960139321",
+  "ASJP languages.csv": "647174df2eb812eff370355b02b6843d76bfb2b082147bc263e5ccd4cc628be5",
+  "ASJP parameters.csv": "2ed306c24552ea61e48ad6dc067859d8b70029abfc1d36668246214a5a1183ec"
+ },
+ "asjp_pins_match_freeze_v2_s4": true,
+ "executed_scratch_vocab_json_equals_repo_v2_companion": true,
+ "repo_results_json_equals_scratch_executed_results": true,
+ "structural_diff": {
+  "entries_v2": 182,
+  "entries_v3": 179,
+  "entries_only_in_v2": [
+   {
+    "form": "qes",
+    "gloss": "Kush",
+    "origin": "gold_lexicon_ccby",
+    "concept": null,
+    "confidence": "probable"
+   },
+   {
+    "form": "qesw",
+    "gloss": "Kush",
+    "origin": "gold_lexicon_ccby",
+    "concept": null,
+    "confidence": "probable"
+   },
+   {
+    "form": "qos",
+    "gloss": "Kush",
+    "origin": "gold_lexicon_ccby",
+    "concept": null,
+    "confidence": "probable"
+   }
+  ],
+  "entries_only_in_v3": [],
+  "common_entries": 179,
+  "field_diff_counts_among_common": {
+   "sources": 30
+  },
+  "non_sources_field_diffs": [],
+  "wikipedia_citations_in_sources_v2": 33,
+  "wikipedia_citations_in_sources_v3": 0
+ },
+ "scoring_input_projection": {
+  "concept_bearing_forms_v2": 26,
+  "concept_bearing_forms_v3": 26,
+  "projections_identical_as_multisets": true,
+  "forms_per_concept_v2": {
+   "12": 2,
+   "15": 3,
+   "16": 2,
+   "17": 2,
+   "21": 1,
+   "46": 1,
+   "55": 4,
+   "62": 2,
+   "70": 2,
+   "72": 4,
+   "75": 2,
+   "97": 1
+  },
+  "forms_per_concept_v3": {
+   "12": 2,
+   "15": 3,
+   "16": 2,
+   "17": 2,
+   "21": 1,
+   "46": 1,
+   "55": 4,
+   "62": 2,
+   "70": 2,
+   "72": 4,
+   "75": 2,
+   "97": 1
+  },
+  "rows": [
+   {
+    "norm": "abr",
+    "skeleton": "br",
+    "concept": 17
+   },
+   {
+    "norm": "ate",
+    "skeleton": "t",
+    "concept": 75
+   },
+   {
+    "norm": "ato",
+    "skeleton": "t",
+    "concept": 75
+   },
+   {
+    "norm": "br",
+    "skeleton": "br",
+    "concept": 17
+   },
+   {
+    "norm": "kadi",
+    "skeleton": "kd",
+    "concept": 16
+   },
+   {
+    "norm": "kdi",
+    "skeleton": "kd",
+    "concept": 16
+   },
+   {
+    "norm": "ked",
+    "skeleton": "kd",
+    "concept": 62
+   },
+   {
+    "norm": "kede",
+    "skeleton": "kd",
+    "concept": 62
+   },
+   {
+    "norm": "l",
+    "skeleton": "l",
+    "concept": 70
+   },
+   {
+    "norm": "l",
+    "skeleton": "l",
+    "concept": 70
+   },
+   {
+    "norm": "masx",
+    "skeleton": "msx",
+    "concept": 72
+   },
+   {
+    "norm": "mlo",
+    "skeleton": "ml",
+    "concept": 97
+   },
+   {
+    "norm": "mos",
+    "skeleton": "ms",
+    "concept": 72
+   },
+   {
+    "norm": "ms",
+    "skeleton": "ms",
+    "concept": 72
+   },
+   {
+    "norm": "ms",
+    "skeleton": "ms",
+    "concept": 72
+   },
+   {
+    "norm": "st",
+    "skeleton": "st",
+    "concept": 46
+   },
+   {
+    "norm": "sxi",
+    "skeleton": "sx",
+    "concept": 15
+   },
+   {
+    "norm": "sxi",
+    "skeleton": "sx",
+    "concept": 15
+   },
+   {
+    "norm": "sxi",
+    "skeleton": "sx",
+    "concept": 15
+   },
+   {
+    "norm": "tbe",
+    "skeleton": "tb",
+    "concept": 12
+   },
+   {
+    "norm": "tbo",
+    "skeleton": "tb",
+    "concept": 12
+   },
+   {
+    "norm": "wle",
+    "skeleton": "wl",
+    "concept": 21
+   },
+   {
+    "norm": "xr",
+    "skeleton": "xr",
+    "concept": 55
+   },
+   {
+    "norm": "xre",
+    "skeleton": "xr",
+    "concept": 55
+   },
+   {
+    "norm": "xre",
+    "skeleton": "xr",
+    "concept": 55
+   },
+   {
+    "norm": "xre",
+    "skeleton": "xr",
+    "concept": 55
+   }
+  ]
+ },
+ "comparator_inputs": {
+  "R1_NES_languages": [
+   "OLD_NUBIAN",
+   "NOBIIN",
+   "DONGOLESE_NUBIAN",
+   "KUNUZ_NUBIAN",
+   "MEIDOB_NUBIAN",
+   "NARA"
+  ],
+  "R2_AA_languages": [
+   "COPTIC",
+   "LATE_EGYPTIAN",
+   "MIDDLE_EGYPTIAN",
+   "AKKADIAN",
+   "BIBLICAL_HEBREW",
+   "AMHARIC",
+   "HAUSA"
+  ],
+  "R1_pool_forms_total": 374,
+  "R2_pool_forms_total": 496,
+  "R1_forms_per_scored_concept": {
+   "12": 8,
+   "15": 2,
+   "16": 2,
+   "17": 2,
+   "21": 6,
+   "46": 2,
+   "55": 2,
+   "62": 2,
+   "70": 3,
+   "72": 6,
+   "75": 8,
+   "97": 2
+  },
+  "R2_forms_per_scored_concept": {
+   "12": 7,
+   "15": 3,
+   "16": 2,
+   "17": 3,
+   "21": 8,
+   "46": 3,
+   "55": 2,
+   "62": 2,
+   "70": 3,
+   "72": 7,
+   "75": 8,
+   "97": 3
+  }
+ },
+ "runs": {
+  "v2": {
+   "R1_attested": {
+    "S": 4,
+    "per_concept": {
+     "12": false,
+     "15": false,
+     "16": false,
+     "17": false,
+     "21": true,
+     "46": true,
+     "55": false,
+     "62": false,
+     "70": false,
+     "72": true,
+     "75": true,
+     "97": false
+    },
+    "p_frozen_perm_p": 0.032596740325967405,
+    "p_replica": 0.032596740325967405,
+    "ge_count": 325,
+    "null_histogram_S_perm": {
+     "0": 1528,
+     "1": 3797,
+     "2": 3112,
+     "3": 1238,
+     "4": 282,
+     "5": 40,
+     "6": 3
+    },
+    "null_mean": 1.5081,
+    "null_sd": 1.0130816304720958,
+    "pass_bar_p<0.01_and_S>=5": false
+   },
+   "R2_afroasiatic": {
+    "S": 1,
+    "per_concept": {
+     "12": false,
+     "15": false,
+     "16": false,
+     "17": false,
+     "21": false,
+     "46": true,
+     "55": false,
+     "62": false,
+     "70": false,
+     "72": false,
+     "75": false,
+     "97": false
+    },
+    "p_frozen_perm_p": 0.824017598240176,
+    "p_replica": 0.824017598240176,
+    "ge_count": 8240,
+    "null_histogram_S_perm": {
+     "0": 1760,
+     "1": 4014,
+     "2": 2903,
+     "3": 1055,
+     "4": 234,
+     "5": 26,
+     "6": 8
+    },
+    "null_mean": 1.4099,
+    "null_sd": 0.9962339032576637,
+    "pass_bar_p<0.01_and_S>=5": false
+   },
+   "R1_matching_pairs": {
+    "12": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "21": [
+     {
+      "meroitic_form": "wle",
+      "meroitic_norm": "wle",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "wEl"
+     },
+     {
+      "meroitic_form": "wle",
+      "meroitic_norm": "wle",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "wel"
+     }
+    ],
+    "46": [
+     {
+      "meroitic_form": "st",
+      "meroitic_norm": "st",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "os"
+     }
+    ],
+    "55": [],
+    "62": [],
+    "70": [],
+    "72": [
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     }
+    ],
+    "75": [
+     {
+      "meroitic_form": "ate",
+      "meroitic_norm": "ate",
+      "comparator_language": "MEIDOB_NUBIAN",
+      "comparator_form": "3Ti"
+     },
+     {
+      "meroitic_form": "ate",
+      "meroitic_norm": "ate",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "etu"
+     },
+     {
+      "meroitic_form": "ato",
+      "meroitic_norm": "ato",
+      "comparator_language": "MEIDOB_NUBIAN",
+      "comparator_form": "3Ti"
+     },
+     {
+      "meroitic_form": "ato",
+      "meroitic_norm": "ato",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "etu"
+     }
+    ],
+    "97": []
+   },
+   "R2_matching_pairs": {
+    "12": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "21": [],
+    "46": [
+     {
+      "meroitic_form": "st",
+      "meroitic_norm": "st",
+      "comparator_language": "HAUSA",
+      "comparator_form": "sau"
+     }
+    ],
+    "55": [],
+    "62": [],
+    "70": [],
+    "72": [],
+    "75": [],
+    "97": []
+   }
+  },
+  "v3": {
+   "R1_attested": {
+    "S": 4,
+    "per_concept": {
+     "12": false,
+     "15": false,
+     "16": false,
+     "17": false,
+     "21": true,
+     "46": true,
+     "55": false,
+     "62": false,
+     "70": false,
+     "72": true,
+     "75": true,
+     "97": false
+    },
+    "p_frozen_perm_p": 0.032596740325967405,
+    "p_replica": 0.032596740325967405,
+    "ge_count": 325,
+    "null_histogram_S_perm": {
+     "0": 1528,
+     "1": 3797,
+     "2": 3112,
+     "3": 1238,
+     "4": 282,
+     "5": 40,
+     "6": 3
+    },
+    "null_mean": 1.5081,
+    "null_sd": 1.0130816304720958,
+    "pass_bar_p<0.01_and_S>=5": false
+   },
+   "R2_afroasiatic": {
+    "S": 1,
+    "per_concept": {
+     "12": false,
+     "15": false,
+     "16": false,
+     "17": false,
+     "21": false,
+     "46": true,
+     "55": false,
+     "62": false,
+     "70": false,
+     "72": false,
+     "75": false,
+     "97": false
+    },
+    "p_frozen_perm_p": 0.824017598240176,
+    "p_replica": 0.824017598240176,
+    "ge_count": 8240,
+    "null_histogram_S_perm": {
+     "0": 1760,
+     "1": 4014,
+     "2": 2903,
+     "3": 1055,
+     "4": 234,
+     "5": 26,
+     "6": 8
+    },
+    "null_mean": 1.4099,
+    "null_sd": 0.9962339032576637,
+    "pass_bar_p<0.01_and_S>=5": false
+   },
+   "R1_matching_pairs": {
+    "12": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "21": [
+     {
+      "meroitic_form": "wle",
+      "meroitic_norm": "wle",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "wEl"
+     },
+     {
+      "meroitic_form": "wle",
+      "meroitic_norm": "wle",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "wel"
+     }
+    ],
+    "46": [
+     {
+      "meroitic_form": "st",
+      "meroitic_norm": "st",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "os"
+     }
+    ],
+    "55": [],
+    "62": [],
+    "70": [],
+    "72": [
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "mash",
+      "meroitic_norm": "masx",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "mos",
+      "meroitic_norm": "mos",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "ms",
+      "meroitic_norm": "ms",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "DONGOLESE_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "KUNUZ_NUBIAN",
+      "comparator_form": "masil"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "NOBIIN",
+      "comparator_form": "maSa"
+     },
+     {
+      "meroitic_form": "mš",
+      "meroitic_norm": "ms",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "maSal"
+     }
+    ],
+    "75": [
+     {
+      "meroitic_form": "ate",
+      "meroitic_norm": "ate",
+      "comparator_language": "MEIDOB_NUBIAN",
+      "comparator_form": "3Ti"
+     },
+     {
+      "meroitic_form": "ate",
+      "meroitic_norm": "ate",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "etu"
+     },
+     {
+      "meroitic_form": "ato",
+      "meroitic_norm": "ato",
+      "comparator_language": "MEIDOB_NUBIAN",
+      "comparator_form": "3Ti"
+     },
+     {
+      "meroitic_form": "ato",
+      "meroitic_norm": "ato",
+      "comparator_language": "OLD_NUBIAN",
+      "comparator_form": "etu"
+     }
+    ],
+    "97": []
+   },
+   "R2_matching_pairs": {
+    "12": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "21": [],
+    "46": [
+     {
+      "meroitic_form": "st",
+      "meroitic_norm": "st",
+      "comparator_language": "HAUSA",
+      "comparator_form": "sau"
+     }
+    ],
+    "55": [],
+    "62": [],
+    "70": [],
+    "72": [],
+    "75": [],
+    "97": []
+   }
+  }
+ },
+ "validation_vs_executed_stage42": {
+  "v2_R1": {
+   "S_equal": true,
+   "p_equal_exact_float": true,
+   "per_concept_equal": true,
+   "pass_equal": true
+  },
+  "v2_R2": {
+   "S_equal": true,
+   "p_equal_exact_float": true,
+   "per_concept_equal": true,
+   "pass_equal": true
+  },
+  "v3_R1": {
+   "S_equal": true,
+   "p_equal_exact_float": true,
+   "per_concept_equal": true,
+   "pass_equal": true
+  },
+  "v3_R2": {
+   "S_equal": true,
+   "p_equal_exact_float": true,
+   "per_concept_equal": true,
+   "pass_equal": true
+  }
+ },
+ "v2_v3_runs_identical": true,
+ "v2_v3_matching_pairs_identical": true
+}
