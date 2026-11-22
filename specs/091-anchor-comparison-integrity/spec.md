@@ -304,3 +304,59 @@ D-091-1 remain separate owner acts whenever they occur. The spec ends
 with its closeout record (T601); a workstream left dependency-gated at
 closeout (W3's phonotactic arm, if the linguist leg has not landed) is
 named open there, with its register entry carrying the same state.
+
+---
+
+## Supersession note (2026-11-21, Red Team Round 2 — RT2-18)
+
+Three passages above state the retired standings in the
+present tense: the problem statement's "the independently
+supported mass is 6 (M044, M047, M124, M202, M329, M330)", the
+adoption context's "strict core 94 = 6 independently supported
+/ 46 internal-only / 37 requires-revalidation / 2 insufficient
+/ 3 expert-pending", and FR-091-06's "The independently
+supported count is 6". Those passages stand as the spec's
+history and are not edited. They are superseded by the WS2
+relabeling of 2026-11-21 (PR #637), its addendum rule, and the
+Round 2 M044 adjudication: the executed partition as amended
+is **4 E + 65 I + 4 R + 3 P + 18 U = 94**
+(`records/standings-relabel-execution-2026-11-21.md` as
+amended; `records/m044-addendum-adjudication-2026-11-21.md`).
+"Independently supported" is retired as a class name; class E
+is "external-support claims on file", and no class E reading
+is identifiable or established.
+
+---
+
+## F-9 note (2026-11-22)
+
+The partition stated in the supersession note above moved
+once more. On 2026-11-22 the owner adopted the itemization
+test (Red Team Round 4, flag F-9): class E requires the
+external-support claim to appear in the reading's
+inference-log entry as an external-support item. The
+directed re-examination of M047 found no itemizable
+published proposal in its filed basis, and M047 was
+reclassed from E to U on its remaining filed basis. The
+executed partition as amended is **3 E + 65 I + 4 R + 3 P +
+19 U = 94** (`records/f9-itemization-adjudication-2026-11-22.md`;
+the standings record as amended by its F-9 amendment).
+
+---
+
+## M048 re-adjudication note (2026-11-22)
+
+The partition stated in the F-9 note above moved once
+more. M048's corrected battery result was produced under
+the F-4 commission (score 2: positional PASS, DEDR PASS
+`exact_match_3`, bigram NOT_RUN) and met the corrected
+battery's 2-point promotion threshold; the
+re-adjudication that Red Team Round 2 finding RT2-08
+attached to that outcome, commissioned by the owner on
+2026-11-22, reclassed M048 from U to I on the parity
+with M089 stated in the standings supplement. The
+executed partition as amended is **3 E + 66 I + 4 R +
+3 P + 18 U = 94**
+(`records/m048-readjudication-2026-11-22.md`; the
+standings record as amended by its M048 re-adjudication
+amendment).

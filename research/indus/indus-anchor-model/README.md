@@ -1,3 +1,28 @@
+> **Superseded — please read this first.** The framing in the
+> package below is retired. It presents an early preprint built
+> around a cohort of 161 candidate readings, and that framing is
+> no longer the current account of this work.
+>
+> The current paper is version 11 (DOI: 10.5281/zenodo.24376384).
+> The current standings are the register of 287 readings and the
+> strict core of 94 readings within it: 3 carry external-support claims on file (decomposed on re-verification: 2 partially verified, dictionary leg only (M124; M329 — its DEDR leg is verified at DEDR entry 4570, the filed citation 4524 having been a citation error repaired on 2026-11-22, and its filed Sanskrit pura leg fails and contributes nothing); 1 not verifiable from lawfully reachable material (M330: not verified; OCR search negative)) (identifiability is stated per study and per sign; in the study executed on 2026-11-22 M124 returned NOT IDENTIFIABLE and M329 and M330 UNDECIDABLE AT THIS POWER), 66 are internally motivated candidates
+> (reading-level support not demonstrated; screened in the
+> study executed on 2026-11-22 over a historical population
+> of 69: 48 undecidable at this power, 17 not identifiable
+> by construction under the filed prediction model, 4
+> proceeding to sealed scoring, none discriminated; today's
+> 69 is a different set, the counts coinciding only), 4
+> requiring revalidation (a task status), 3 pending expert
+> review (expert review needed; no reviewer documented), and
+> 18 with insufficient evidence for their
+> proposed readings (M044, ku, among them since 2026-11-21: its filed DEDR leg was contradicted in the restored tree and its external-support claim was struck under the programme's addendum rule; and M047, min/mīn, since 2026-11-22: its Parpola proposal stands verified as filed as a prior proposal for the fish signs, but its filed basis holds no itemized external-support item under the itemization test adopted that day, and it was reclassed on its remaining basis; its verified prior-proposal provenance is preserved beside its class, the downgrade being documentary, not evidential). M048 entered the 66 on 2026-11-22 on a corrected-battery score of 2 (positional PASS; DEDR PASS, exact_match_3; bigram NOT_RUN), its two counted legs of different evidence types. M099, one of the 66, is insufficiently specified, its filed basis recording only the gloss and no falsifier recorded for it.
+>
+> The package below is retained unchanged as the historical
+> reproducibility record of the retired version. It is not a
+> statement of the current standings.
+>
+> ---
+>
 # A Falsifiable Computational Anchor Model for the Indus Script
 ## Preprint Release v1 — Reproducibility Package
 

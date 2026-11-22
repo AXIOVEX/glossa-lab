@@ -1,0 +1,131 @@
+# Spec 097 Corpus Custody — Supplement: Chronology and the Objection Undertaking
+
+> **Correction pointer (2026-11-21, Red Team Round 3 —
+> RT3-04):** this supplement's §2 extension of the objection
+> undertaking (the Stage 4.4 outcome record and its results
+> file as the undertaking's objects, as records depending on
+> "the acquired corpus"), and the custody filename cited in
+> its header below (a file that does not exist; the custody
+> record is `records/custody-record-2026-11-20.md`), are
+> superseded by `records/custody-erratum-2026-11-21.md`,
+> which governs where the two differ: the undertaking's
+> objects are the benchmark outcome record,
+> `records/leg-b-results.json`, `records/leg-c-summary.json`,
+> and citations of them, and the acquired corpus carries its
+> own separate, licensed basis.
+
+**Date: 2026-11-21. Filed under Red Team Round 1, finding
+RT1-28, adjudicated APPLY on 2026-11-21. The custody record
+(`records/corpus-custody-and-license-2026-11-20.md`) is NOT
+edited. This supplement corrects its chronology and extends
+its objection undertaking.**
+
+## 1. The chronology, corrected
+
+The custody record §5 states: "The permission question was
+raised before this verdict was recorded." The true sequence,
+from the PR record, is:
+
+- The verdict restatement (PR #615) precedes the custody
+  record — the one claim in §5 that holds.
+- The custody record itself was filed **after** the Leg C
+  verdict it accompanies was recorded; its own §1 concedes
+  the point for the campaign: custody "is recorded after the
+  fact for the benchmark's reuse."
+- The permission letter was sent **after** freeze v2 was
+  filed (PR #617), in PR #618, and Stages 4.2–4.4 followed
+  (PRs #619–#621) — all on 2026-11-20.
+
+The permission question was raised after the benchmark's
+verdict, after the campaign's freeze, and on the same day the
+campaign's stages ran. The §5 sentence is not cited from this
+record onward; this chronology replaces it. The standing
+sequence rule registered in the Stage 4.5 supplement of
+2026-11-21 §4 applies to this program from that record
+onward.
+
+## 2. The objection undertaking, extended
+
+The custody record §4 undertakes that on objection the
+program will withdraw the corpus from the working trees and
+stop derivative work. That undertaking is extended here to
+what §4 did not name:
+
+**On objection from the rights holders, the program will
+also withdraw, or annotate as withdrawn, the already-filed
+derivative records whose substance depends on the acquired
+corpus** — the Stage 4.4 outcome record and its results
+file, and any later record citing them — **in the same
+motion as the corpus withdrawal.** It is stated plainly that
+git history cannot be retracted: prior commits remain in the
+repository's history, and the undertaking governs the working
+record and all future citation, not the past. The corpus
+itself remains, as §2 requires, internal-only and never
+redistributed; the verdict-citation discipline of §2 (the
+custody caveat in the same sentence as any citation of the
+verdict) is unchanged and is carried onto the outcome
+record's headline by the same landing as this supplement.
+
+**AI disclosure:** executed by an AI agent (Muse, via Muse)
+at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Citation correction (2026-11-21, Red Team Round 4 — RT4-07)
+
+Appended by the Round 4 adjudication; the text above is
+unedited. This supplement's citations to the custody record
+do not resolve and are withdrawn:
+
+- §1 attributes to "the custody record §5" a quoted
+  sentence: "The permission question was raised before
+  this verdict was recorded." The custody record
+  (`records/custody-record-2026-11-20.md`) has §§1–3 only
+  and had §§1–3 only at its creation; the quoted sentence
+  appears in no record. The attribution and the quote are
+  withdrawn. What the custody record does state, in §3, is
+  the send of record: the permission request was sent on
+  2026-11-20, after the verdict restatement record landed
+  (PR #615) — the chronology §1 of this supplement
+  establishes from the PR record, which stands.
+- §2 attributes the objection undertaking to "the custody
+  record §4". There is no §4. The undertaking's substance
+  as the custody record states it is in §1 (if an objection
+  arrives, the custody ends and the affected records are
+  annotated) and §2 (the corpus is never committed, never
+  redistributed, and internal-only; every citation of the
+  benchmark verdict carries the custody caveat in the same
+  sentence until permission lands). Read §2 of this
+  supplement's extension against those sections, as
+  themselves corrected by `records/custody-erratum-2026-11-21.md`
+  (see this supplement's head pointer).
+
+The chronology correction's substance, verified against
+the PR record in earlier rounds, is not impugned by this
+correction; its citation apparatus was unverifiable as
+written, and is now withdrawn and restated.
+
+## Citation correction — second (2026-11-22, Red Team Round 5 — RT5-08)
+
+Appended by the Round 5 adjudication; the text above is
+unedited. One further citation in this supplement does not
+resolve and is withdrawn:
+
+- §1 states that the custody record's "own §1 concedes the
+  point for the campaign: custody 'is recorded after the
+  fact for the benchmark's reuse.'" The quoted phrase
+  appears nowhere in `records/custody-record-2026-11-20.md`
+  — its §1 contains no such sentence (the record has §§1–3
+  only) — and nowhere else in the repository except this
+  supplement. The attribution and the quote are withdrawn.
+  What §1 of the custody record states is the objection
+  ruling: if an objection arrives, the custody ends and the
+  affected records are annotated. It makes no after-the-fact
+  concession about the benchmark's reuse. The chronology
+  §1 of this supplement establishes rests on the PR record
+  (PRs #615–#621), which stands and does not depend on the
+  withdrawn quote.
+
+With this section, the Round 4 correction's framing —
+withdrawing this supplement's citations to the custody
+record that do not resolve — is completed: every citation
+of the custody record in this supplement has now been
+checked against the record's §§1–3.

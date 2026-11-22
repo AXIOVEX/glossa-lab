@@ -14262,3 +14262,1007 @@ after Spec 094's build stages in the adopted queue.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse) at
 the direction of Tristen Pierson, per constitution sec. VI.
+
+## 2026-11-20 - Spec 096 adopted: Eteocypriot program, claims intake discharged in the adoption PR
+
+Spec 096 (the Eteocypriot program) is adopted. The owner
+directed on 2026-11-20 that the Eteocypriot work stand as its
+own program, founded on the Spec 095 Stage 5 scoping record of
+2026-11-17, which stands unedited as provenance. The package
+carries claims C096-1..C096-4, re-expressing the
+preregistration draft's EC-D1..EC-D4 with the same falsifiers
+and bounds, under decisions D-096-1..D-096-5.
+
+C096-1..C096-4 were appended through the importer (4 appended,
+0 already canonical), the settling chain was refreshed in the
+standing order (verify-canonicals 6/6 before any pin moved; the
+T405 pair re-executed as settling-20261120T184448Z-337450 and
+settling-20261120T184451Z-658fe3 with result blocks byte-equal
+to the superseded generations; the superseded pair departed
+under the D-D rule, accounted by run-defs v3 departure acts),
+and the generated layers were regenerated in dependency order.
+The ledger stands at 1,029 lines (from 1,025), 998 program
+claims (from 994), SHA-256
+`09ca2407e2a7769e5fe73ded8402d22998ef8388ede777617fbfa678eb6f9a53`
+(from `b200827ce16d643f6567cfb9dac10524c89f592d653c2ae5c775697f87cd4100`).
+
+Every census pin in the test suites was re-set from the
+regenerated artifacts' actuals. The ledger gate on the final
+tree reads in both modes: full
+mode 29 PASS / 0 FAIL / 1 NOT-RUN; --regen 32 PASS / 0 FAIL /
+0 NOT-RUN. The program also stands in the live platform: the
+project `eteocypriot_program` was created through the project
+API and read back, the Indus project untouched and still
+active; the platform's claim surfaces and spec register reflect
+the program when the serving checkout is next updated to the
+merged main, and the corpus catalogue carries no Eteocypriot
+entry and no create route, both recorded in the adoption
+record. Clarified 2026-11-21 (RT1-40, RT1-24): project `eteocypriot_program` stands INACTIVE; `indus_decipherment` remains the sole active project. The Spec 096 verdicts are proposed verdicts, unadjudicated; ledger standings unchanged (approver: the owner, Tristen Pierson; adjudication outstanding since 2026-11-20 — see specs/096-eteocypriot-program/records/outcome-record-amendment-2-2026-11-21.md). The serving-checkout verification of the platform sentence above is STILL OPEN: the spec-studies route returns 401 without the platform token and the MCP tooling is down. All execution ran on the mini-server under the owner's
+standing execution-home rule.
+
+**AI disclosure:** executed by an AI agent (Muse, via Muse) at
+the direction of Tristen Pierson, per constitution sec. VI.
+
+## 2026-11-20 - Spec 097 adopted: Meroitic Reproduction Benchmark Program, claims intake discharged in the adoption PR
+
+Owner direction (2026-11-20, in chat): the Meroitic benchmark runs as its
+own separate program in Glossa-Lab, not as a deliverable inside Spec
+095's package. Spec 097 adopts the benchmark scoped by Spec 095 Stage 5
+(`specs/095-red-team-remediation/second-targets/meroitic-benchmark-scoping-2026-11-17.md`,
+summarized in its stage-5 scoping record §3) as a standalone program with
+its own claims, records, and verdicts: C097-1 the corpus census (Leg A),
+C097-2 the sign inventory and distribution (Leg B), C097-3 the
+embedding-alignment evaluation (Leg C), C097-4 the program falsifier
+(NOT REPRODUCED if Leg A fails on a majority of its counts with
+divergences tracing to the published corpus or the paper's stated
+methods), C097-5 the independence and licensing bound (the program's own
+implementation from the paper's stated methods; the authors' code read
+for the mapping scheme only, every reading recorded), and C097-6 the
+no-Indus-effect bound. The Spec 095 scoping document stays unedited as
+the founding provenance. AEE adoption assessment at intake: **iterate**
+(six claims validated; iteration drivers mirror the repo's standing
+adoption shape and are named in the package's adoption record). The
+program is also registered in the live Glossa-Lab platform as the
+project `meroitic_reproduction_benchmark` through the backend's own
+Projects API, read back verified, with the Indus project undisturbed
+(evidence in the package's adoption record).
+
+Numbering note (D-097-1): the package was first drafted as Spec 096; the
+parallel Eteocypriot program landed as Spec 096 first (PRs #604–#606),
+so this package was renumbered to the next free number and re-applied
+cleanly on top, per the shared-file discipline (fetch latest main,
+re-apply, never force-push, never drop the other program's entries). The
+first setup attempt (PR #607) was closed unmerged for the renumbering.
+
+Claims ledger: 1,029 → 1,035 lines; claims 998 → 1,004; canonical
+SHA-256 `72af0bc682e3387c44e3dd1f40fbdda5f249f4b21c87bba2967d71e678145ad5`.
+Settling refresh: verify-canonicals 6/6 on the grown ledger; T405 pair
+re-executed — incumbent `settling-20261120T200602Z-e65bed`, full-register
+`settling-20261120T200605Z-0feb5c`, result blocks byte-equal to the
+superseded Eteocypriot generation's; comparison re-filed; materialize-sets
+`settling-20261120T200703Z-193428` (sets unchanged: strict core 94,
+assignment register 286, H003 out); the superseded generation departed
+with per-record departure accounting (run-defs v2 §7.1); canonical pin
+refreshed with 13 re-derivations. Program map studies 97 → 98 (taxonomy
+domain "Sign inventory & corpus" / subdomain "Signary & corpus models").
+Ledger gate after the refresh: full mode 29 PASS / 0 FAIL / 1 NOT-RUN; --regen mode
+32 PASS / 0 FAIL / 0 NOT-RUN. Execution venue: the benchmark's computations ran on the
+mini-server; the registration machinery and verification runs for this
+landing ran on tower-compute after the owner's venue transition of
+2026-11-20 (Glossa-Lab studies execute on tower-compute; the mini-server
+keeps its serving role only).
+
+## 2026-11-20 - Spec 097 Stage 4 added: the Meroitic decipherment campaign, preregistered, campaign claims intaken
+
+On the owner's direction of 2026-11-20 (the program's aim is
+decipherment, not only reproduction of the 2025 study), Spec 097
+gains Stage 4, a decipherment campaign preregistered in
+`specs/097-meroitic-reproduction-benchmark/records/decipherment-campaign-design-2026-11-20.md`
+before any campaign execution: corpus completion against the REM
+totals with every gap named (C097-7); the anchor inventory frozen
+with five evidence classes (C097-8); the affiliation question
+adjudicated between registered rivals R1 Northern East Sudanic,
+R2 Afroasiatic, and R3 isolate/null, each with falsifiers and
+permutation-baseline tests (C097-9); candidate readings scored
+only after the identifiability protocol and the blind held-out
+test on sealed inscriptions (C097-10); and an expert-verification
+stage prepared as a design for the owner's approval, with no
+outreach (C097-11). The design states plainly what decipherment
+can and cannot mean on this evidence: the script's sign values
+have been known since Griffith (1907–1911); the language has no
+bilingual text and no descendants, and the expected outcome for
+most candidate readings is NOT IDENTIFIABLE, recorded as a
+finding. The benchmark's verdicts (Stages 1–3, as restated
+2026-11-20: Leg A REPRODUCED IN PART / DEPOSIT INCOMPLETE; Leg B fixture internally inconsistent; Leg C pattern reproduced, fixed points not held) stand as scoped and are not reopened; the corpus behind the benchmark is held under a custody record with no license from its compilers, and this verdict is stated subject to that custody position (custody record, 2026-11-20, §2).
+
+Claims ledger: 1,035 → 1,040 lines; claims 1,004 → 1,009;
+canonical SHA-256 `106cda6e404f77fbb95fadc7e9e215b6dda24cdca137ef995d5dbea07063014f`.
+The campaign claims are carried in the spec's new `claims.json`
+bundle (the adoption bundle `aee-claims.json` is unchanged: the
+ledger's source verification pins one hash per source file, and
+the two-file pattern is the repo's standing shape for staged
+intakes). AEE assessment of the campaign bundle: **iterate**
+(5 claims validated; record in the package's records).
+Settling refresh: verify-canonicals 6/6 on the grown ledger;
+T405 pair re-executed — incumbent
+`settling-20261120T213231Z-7d96a8`, full-register
+`settling-20261120T213235Z-f9e682`, result blocks byte-equal to
+the superseded generation's; comparison re-filed; materialize-sets
+`settling-20261120T213249Z-5a3a46` (sets unchanged: strict core
+94, assignment register 286, H003 out); the superseded generation
+departed with per-record departure accounting (run-defs v2 §7.1);
+canonical pin refreshed with 14 re-derivations. Ledger gate after
+the refresh: full mode 29 PASS / 0 FAIL / 1 NOT-RUN; --regen mode 32 PASS / 0 FAIL / 0 NOT-RUN.
+Execution venue: tower-compute (owner venue transition,
+2026-11-20).
+
+## 2026-11-21 — Red Team Round 2, Meroitic corrections (Spec 097)
+
+The Stage 4.5 supplement is corrected by a new record
+(`specs/097-meroitic-reproduction-benchmark/records/stage-4-5-supplement-correction-2026-11-21.md`):
+Stages 4.2 and 4.3 computed on the acquired corpus (335-text
+development partition; Stage 4.2 also on the 932 example
+phrases), Stage 4.4 on its held-out partition — the
+supplement's "unaffected / not the acquired corpus" statement
+is withdrawn (RT2-01); the tranche gate is restated to the
+Round 1 adjudication's governing statement exactly, the
+invented custody condition and registered trigger withdrawn,
+the repo gate cited to the send record and the Stage 4.4 record
+(RT2-05 / RT1-12); Rilly is filed as named-not-sent, not a
+non-respondent (RT2-06); the adjudicated waiting-period rule is
+registered (RT1-32). A custody erratum names the undertaking's
+objects (benchmark outcome record, leg-b-results.json,
+leg-c-summary.json) and states the acquired corpus's separate
+licensed basis (RT2-14). A citation-discipline erratum corrects
+A8's basis and the B1 gloss pair's freeze attribution
+(RT2-26). tasks.md cites the landed outcome records and the
+RT1-51 tag (RT2-25). The restated Meroitic verdict sentence
+above (2026-11-20 entry) now carries the custody caveat in the
+same sentence (RT1-28). Adjudication:
+RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09, extended to this entry on the same
+defect):** PR #647, merged at ac917db5d (head 92cbf4c36).
+Per-job verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success; Freeze
+gate records check (C4) success; Frontend tests (Playwright)
+success; Indus public validation checks success;
+Ledger/matrix/map equivalence gate success; Shell wrappers
+(macos-latest) success; Shell wrappers (ubuntu-latest)
+success; Shell wrappers (windows-latest) success — 10/10.
+
+## 2026-11-21 — Red Team Round 2, Eteocypriot corrections (Spec 096)
+
+Amendment 2 §4 is corrected by a note
+(`specs/096-eteocypriot-program/records/outcome-record-amendment-2-correction-2026-11-21.md`):
+the dead-vowel-default sub-point is withdrawn (freeze §5 R3
+states the default a on its face); the consonant-stem-table
+point stands (RT2-11). The freeze record and the outcome record
+carry head pointers to amendment 2 and the custody correction;
+the outcome record's pointer carries the mandated C096-4
+citation line (RT2-13, RT1-07, RT1-08). corpus.json advances to
+version 1.1.0 (SHA-256 32b96f67…): the ICS 217 sense is now a
+marked program rendering pointing to Chadwick 1987 p. 56
+(RT2-12), and the held-out records' seal language is corrected
+to the procedural-exclusion form (RT1-26). A custody history
+note states the program's position on the removed SEG strings
+remaining in public git history at 173882a2 (RT2-12). spec.md
+carries dated amendment pointers at §§2–3 (RT2-24).
+Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09, extended to this entry on the same
+defect):** PR #648, merged at 29e6febff (head 6453d2116).
+Per-job verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success; Freeze
+gate records check (C4) success; Frontend tests (Playwright)
+success; Indus public validation checks success;
+Ledger/matrix/map equivalence gate success; Shell wrappers
+(macos-latest) success; Shell wrappers (ubuntu-latest)
+success; Shell wrappers (windows-latest) success — 10/10.
+
+## 2026-11-21 — Red Team Round 2, Spec 098 corrections
+
+The Stage 2 design note is corrected by a new record
+(`specs/098-identifiability-over-the-65/records/stage-2-design-note-correction-2026-11-21.md`):
+the frozen bar is conjunctive — penalized margin at least 10
+nats over the best rival, the penalty at 2 nats per free choice
+charged to candidates and rivals alike, AND the margin above
+the permutation null's 99th percentile (B = 999, seed 9801);
+the floor figure is 21 of 70 in expectation; Stage 2 has not
+run and nothing downstream is contaminated (RT2-03). The
+execution freeze annex carries the population amendment
+(70 → 69) consequent on the M044 adjudication, and freeze v1
+carries the head population pointer (71 → 70 → 69) (RT1-17).
+Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09):** PR #650, merged at 7cdbfd866 (head
+283ed3859). Per-job verdicts from the check runs on the PR
+head: Backend tests (pytest) success; Cloud image smoke
+(Spec 083) success; Evidence Graph script smoke tests
+success; Freeze gate records check (C4) success; Frontend
+tests (Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success; Shell
+wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10.
+
+## 2026-11-21 — Red Team Round 1, Indus corrections (PR #645) — entry recorded retroactively (RT2-09)
+
+PR #645 merged 2026-11-21 at 603dbd9e with no LEDGER entry at
+the time; this entry records the landing. Payload: standings
+supplement (E decomposition on the record; M267 figures
+withdrawn as evidence; motif rows annotated; M063 motif claim
+FAILED; class P restated; numerical rates on the rows), Holdat
+custody statement, dependency record (no inference log exists;
+circularity open), invalidated-controls register, register
+reconciliation with the DEDR re-verification pass over all 49
+citations (3 exact attestations; M044's DEDR 1638 FAILS in the
+restored tree; M329/4524 tree-vs-print numbering flagged),
+Stage 4 status record, adjudication supplement, Spec 093
+closure-qualifier addendum, Spec 098 Stage 2 design note,
+ANCHOR_STATUS_AUDIT supersession note, README surfaces
+corrected. Recorded 2026-11-21 under Red Team Round 2,
+finding RT2-09. **CI verdicts (substantiated 2026-11-21,
+Red Team Round 3 — RT3-09):** per-job verdicts from the
+check runs on the PR head 2cfa95e9d: Backend tests (pytest)
+success; Cloud image smoke (Spec 083) success; Evidence
+Graph script smoke tests success; Freeze gate records check
+(C4) success; Frontend tests (Playwright) success; Indus
+public validation checks success; Ledger/matrix/map
+equivalence gate success; Shell wrappers (macos-latest)
+success; Shell wrappers (ubuntu-latest) success; Shell
+wrappers (windows-latest) success — 10/10. (This replaces
+the bare "10/10 per job" assertion as first recorded.)
+
+## 2026-11-21 — Red Team Round 2, Indus corrections (Specs 091/093 + top level)
+
+M044 (ku) is adjudicated under the WS2 addendum rule
+(`specs/091-anchor-comparison-integrity/records/m044-addendum-adjudication-2026-11-21.md`):
+its DEDR leg is contradicted in the restored tree, no leg
+stands verified as filed, no basis remains — claim struck,
+class U; the executed partition is now 4 E + 65 I + 4 R + 3 P
++ 18 U = 94 (RT2-02). The WS2 execution record, standings
+supplement, falsifiers annex and register reconciliation carry
+appended Round 2 amendments and annotations (M329 numbering
+divergence stated with its decomposition, RT2-07; M089
+unreliable-basis flag and the M048/M089 threshold statement,
+RT2-08; formula rates on the M012/M059/M391 rows, RT2-20; the
+DEDR 4796 pair dispositioned unresolved, RT2-19). Spec 091's
+spec.md carries a supersession note (RT2-18); the Spec 093 v3
+outcome record carries its closure qualifier (RT1-21); the
+Stage 4 status record files Kobayashi's second reply and the
+packet send (RT2-21). The top README's superseded line and
+section heading are corrected (RT1-53) and both README
+standings decompositions are brought current (RT1-02).
+Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
+**Merge and CI verdicts (recorded 2026-11-21, Red Team
+Round 3 — RT3-09):** PR #652, merged at 2d7180715 (head
+5eed2b29a). Per-job verdicts from the check runs on the PR
+head: Backend tests (pytest) success; Cloud image smoke
+(Spec 083) success; Evidence Graph script smoke tests
+success; Freeze gate records check (C4) success; Frontend
+tests (Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success; Shell
+wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10.
+
+## 2026-11-21 — Red Team Round 3, Meroitic corrections (Spec 097)
+
+The three records Round 2 corrected by new records alone now
+carry dated head correction pointers on the RT2-13 pattern, so
+no reader meets the superseded statements unmarked (RT3-04):
+the Stage 4.5 supplement points to its correction record (the
+withdrawn custody condition and gate, the invented trigger,
+the Rilly filing, the two nonexistent governed-file citations,
+the false stage bases); the custody supplement points to the
+custody erratum; the citation-discipline record points to its
+erratum. The citation erratum's own §2 freeze citation is
+corrected by an appended Round 3 note — the quoted B1 line is
+the anchor-inventory freeze v1's (line 32), not the benchmark
+freeze's, which contains no B1 (RT3-07). The citation record's
+§5 heading, broken across two lines in the form §4's was, is
+repaired in place (RT3-20). The Stage 4.5 correction record
+carries a Round 3 note restating Stage 4.2's verdict verbatim
+(UNDECIDABLE AT THIS POWER; R3 not displaced, and as nothing
+more) against §1's softer gloss (RT3-21). CI on the substance
+head 0c90ed10: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke tests,
+Freeze gate records check (C4), Frontend tests (Playwright),
+Indus public validation checks, Ledger/matrix/map equivalence
+gate, Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success. Adjudication:
+RED-TEAM-ROUND-3-ADJUDICATION.md (goal record). Execution
+venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 3, Eteocypriot corrections (Spec 096)
+
+The ICS 217 sense in corpus.json is corrected in substance
+(RT3-01): the "marked program rendering" filed by PR #648 was
+the removed translation with one word changed, and its
+pointer asserted Chadwick 1987 p. 56 as a translation of
+record, which no held record establishes — the record sources
+only Chadwick's transliteration (Wikipedia, CC BY-SA). The
+English string is removed; the sense is now a provenance
+statement (no translation held or reproduced; the excerpt is
+held as the sourced transliteration), and the Round 2 entry
+above is corrected accordingly. Corpus version advances to
+1.1.1 (SHA-256 2954283d…). The held-out records' `sealed:
+true` flags are corrected to false (RT3-12); tasks.md T202
+and amendment 1 gain pointers (RT3-12, RT1-05); claims.md
+gains a dated amendment pointer governing C096-1's A1/A2
+labels and its aee-claims.json mirror (RT1-05). The seal
+pointers misciting amendment 2 §2 for §7 are corrected —
+spec.md in place, the freeze and outcome head pointers by
+dated Round 3 additions, which also carry amendment 2 §10's
+mandated C096-2/C096-3 citation form onto the outcome
+record's face (RT3-08, RT1-43). The amendment-2 correction
+note's stem-table enumeration is completed (δ→t, RT3-19).
+CI on the substance head d00470419: 10/10 per job — Backend
+tests (pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4), Frontend
+tests (Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all success.
+Adjudication: RED-TEAM-ROUND-3-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 3, Indus corrections (Specs 091/098 + top level)
+
+The M044 adjudication record gains the one-paragraph
+amendment stating the M329 distinction on its own face —
+numbering alignment verified at entries 7, 340, 399, 1651;
+1638 inside the verified neighbourhood; 4524 demonstrably
+diverged — an amendment, not a re-adjudication; the outcome
+stands (RT3-03). The preprint supersession banners
+(pierson_2026_indus_preprint and seal_translation_report,
+.md and .tex) carry the standings clause in dated form
+instead of the stale 5 E / 17 U as current (RT3-05). The
+Round 2 entries for PR #647, #648, #650 and #652 gain their
+merge hashes and per-job CI verdicts from the check runs on
+their heads, and PR #645's bare assertion is substantiated
+the same way (RT3-09). The standings supplement gains a head
+correction pointer to the current partition (RT2-02
+residue); the falsifiers annex gains Round 3 row annotations
+(M329, M124 — RT3-13); the top README's Phase-109 note gains
+the dated v11 update clause (RT3-14); the Spec 098 Stage 2
+correction record gains M044's Stage 1 posture in full
+(RT3-15); the register reconciliation's §(c) tally is
+dispositioned over all 49 citations (RT3-16). CI on the
+substance head e8f50a9b6: 10/10 per job — Backend tests
+(pytest), Cloud image smoke (Spec 083), Evidence Graph script
+smoke tests, Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks, Ledger/matrix/
+map equivalence gate, Shell wrappers (macos-latest,
+ubuntu-latest, windows-latest) — all success. Adjudication:
+RED-TEAM-ROUND-3-ADJUDICATION.md (goal record). Execution
+venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 4, Indus corrections (Spec 099 + Spec 091)
+
+The Q3 completion record gains the Round 4 scope note in
+both its copies (Spec 091 filing and Spec 099 copy, appended
+identically; the copies remain byte-identical): the honest
+citation form for the Q3 result, the M047 analysis, and the
+class-E definition question flagged for the owner as F-9 —
+no standing moved (RT4-01). Spec 099's spec.md §2 and
+claims.md C099-1 gain dated amendment pointers to the
+current partition (4 E + 65 I + 4 R + 3 P + 18 U), and
+claims.md expressly governs the aee-claims.json and
+adoption-aee-assessment.json mirrors under the append-only
+bundle rule (RT4-06). The inference log is REBUILT: the
+builder's Phase-276 arm now merges a DEDR entry cited twice
+in one basis into one item per spec §3.2 (M044, M124,
+M329); census 299 → 296 items (210 (a) / 61 (b) /
+25 ambiguous); the Q3 audit is regenerated and its outcomes
+are unchanged (the audit JSON diff is exactly the two
+census fields); the amendment record is filed and the
+Stage 1 record gains its pointer (RT4-08). A Stage 2
+design note carries the prospective weakened-alongside-class
+reporting mandate (RT4-14, discharging RT3-17). CI on the
+substance head 5eb2faaf2: 10/10 per job — Backend tests
+(pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4),
+Frontend tests (Playwright), Indus public validation
+checks, Ledger/matrix/map equivalence gate, Shell wrappers
+
+**Merge and CI verdicts (recorded 2026-11-22, Red Team
+Round 5 — RT5-01):** PR #657, merged at
+17b9701b6c02b563dbdda5c19ce11379625c4448 (head
+6ecd8f83f3777eea6153964ef818766ce6920008). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (The per-job list in this entry as first
+recorded ends at "Shell wrappers"; this block completes
+it. The substance head 5eb2faaf29's check runs are
+likewise ten, all success.)
+
+## 2026-11-21 — Red Team Round 4, Eteocypriot corrections (Spec 096)
+
+claims.md's amendment pointer is extended to state
+expressly, for a consumer of the bundle alone, that C096-1's
+text in aee-claims.json is the claim as filed, that its
+"A2 name-anchored free alignment" label is superseded as a
+citation form by amendment 2 §1, and what the governing
+forms are; the JSON itself is not rewritten, under the
+append-only bundle rule (RT4-09, discharging the RT1-05
+residue). The amendment-2 correction note gains a Round 4
+clarification: its 8-mapping stem list is the charged
+non-obvious subset — STEMS has 16 entries and ξ→k+s is a
+special case in the driver's letters_of, not a STEMS entry
+(RT4-10). RT4-12 was adjudicated DO NOT APPLY (the accepted
+pointer pattern; no change). CI on the substance head
+f4e1cc4f5: 10/10 per job — Backend tests (pytest), Cloud
+
+**Merge and CI verdicts (recorded 2026-11-22, Red Team
+Round 5 — RT5-01):** PR #658, merged at
+e9f7248a8aba2bf2b899cbf79435228006b97dfe (head
+a1ad0895fd95ac8dad8992e0eb16899fd159ebc8). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (The per-job list in this entry as first
+recorded stops at the second job; this block completes
+it.)
+
+**Correction (2026-11-22, Red Team Round 5 — RT5-05):**
+the STEMS count stated in this entry is wrong. STEMS has
+15 entries, not 16 — counted first-hand by literal
+evaluation of the driver dict
+(`specs/096-eteocypriot-program/records/eteocypriot-e1-driver.py`,
+lines 36–40): β γ δ ζ θ κ λ μ ν π ρ σ τ φ χ. The
+clarification's 8 listed include ξ→k+s, which is not a
+STEMS entry (it is the `letters_of` special case), so the
+STEMS-resident subset of the 8 is 7, and 7 + 8 = 15. The
+clarification note itself is corrected by an appended
+correction in the same landing.
+
+## 2026-11-21 — Red Team Round 4, Meroitic corrections (Spec 097)
+
+The verdict restatement gains a dated head correction
+pointer on the RT2-13 pattern: its Leg A tally as stated
+("Positively contradicted: 2 counts, plus one Table 2
+size"; A9 as "the second positive contradiction") is
+withdrawn by the tally correction — Exact 4 / Contradicted
+1 (A9) / Untestable 3 / Basis-unstated 2 = 10, the Table 2
+size stated separately — and its Leg B citation form is
+superseded by the citation record §2 ("fixture internally
+inconsistent; the leg is not interpretable as
+calibration"); the original text is unedited (RT4-05,
+discharging RT3-04's fourth-face residue). The custody
+supplement and the Stage 4.5 supplement gain appended
+citation corrections withdrawing their citations to
+custody-record §§4–5 — the custody record has §§1–3 only —
+and the quoted §5 sentence, which appears in no record;
+the verified citations are restated to §§1–3 (objection
+ends custody, §1; custody terms, §2; the send of record,
+§3). The chronology substance, resting on the PR record,
+is not impugned (RT4-07). CI on the substance head
+e27d21c4e: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke tests,
+Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all
+success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
+(goal record). Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, Red Team
+Round 5 — RT5-01):** PR #659, merged at
+d95a45d45afec31350e87a7fb967767d3bcb51ac (head
+60eeb0a71bd9bb66ac9464be308be25e7cb446f8). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (This entry's per-job list as first
+recorded was complete; this block adds the PR number and
+merge hash it lacked.)
+
+## 2026-11-22 — Red Team Round 5 corrections (Specs 091/096/097 + LEDGER)
+
+The Round 4 entries for PRs #657, #658 and #659 gain
+appended merge-and-CI completion blocks — PR numbers,
+merge hashes, and full per-job verdict lists from the
+check runs on the PR heads — completing the two truncated
+lists (RT5-01, on the RT3-09 form; the originals are
+unedited). The #658 entry and the amendment-2 correction
+note gain STEMS count corrections: STEMS has 15 entries,
+not 16 (RT5-05). Spec 099's claims.md C099-1 pointer is
+extended to govern the generated map mirror
+(`glossa-indus/map/map-data.json`), which embeds the claim
+as filed and reproduces byte-for-byte under the
+generator's `--check` (RT5-02). The falsifiers annex head
+note gains a dated correction: its (5, 65, 4, 3, 17)
+counts are the relabel-execution partition; the counts of
+record are (4, 65, 4, 3, 18) (RT5-03). The custody
+supplement gains a second appended citation correction
+withdrawing the §1 "after the fact" quote, which appears
+in no record (RT5-08). RT5-04, RT5-06 and RT5-07 were
+adjudicated DO NOT APPLY (residual observations under the
+pointer pattern adjudicated at RT4-12). PR #660. CI on
+the substance head d2358832: 10/10 per job — Backend
+tests (pytest), Cloud image smoke (Spec 083), Evidence
+Graph script smoke tests, Freeze gate records check
+(C4), Frontend tests (Playwright), Indus public
+validation checks, Ledger/matrix/map equivalence gate,
+Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success. Adjudication:
+RED-TEAM-ROUND-5-ADJUDICATION.md (goal record). Execution
+venue: tower-compute.
+## 2026-11-22 — Spec 096: ICS 196 edition-verification ILL request placed (F-3)
+
+The closing act named by the ICS 196 custody correction of
+2026-11-21 is executed: an interlibrary-loan portion-copy
+request for Masson, Les inscriptions chypriotes syllabiques
+(2nd ed. 1983), pp. 206-209 (inscription no. 196, the Amathus
+bilingual), plus the plate reproducing the Sittig 1914
+photograph if the volume carries it, was sent 2026-11-22 to
+Natalie Smith, Oakland University ILL (the programs
+off-system route via Springfield Township Library), on the
+precedent terms (private non-commercial research, no
+redistribution, max USD 25 with patron confirmation above
+that, no deadline), and verified exactly once from the Sent
+record. Record:
+specs/096-eteocypriot-program/records/ics196-ill-request-2026-11-22.md.
+The custody status stands as corrected until the material
+arrives and the verification is recorded. Execution venue:
+tower-compute.
+
+## 2026-11-22 — Spec 096 adjudicated: the four Eteocypriot verdicts as proposed
+
+The adjudication outstanding since 2026-11-20 is
+discharged. The named approver, the program owner, Tristen
+Pierson, adjudicated the four Spec 096 verdicts as proposed
+on 2026-11-22, in the Glossa-Lab chat, the verdicts as
+amended through Red Team Rounds 1 to 4: C096-1 NOT
+SUPPORTED (A1 cited only as the pure index-offset check
+with predetermined 0/2; A2 as executed unanchored, 1 of 2;
+the Androkles conjunct TOO THIN at freeze); C096-2 TOO THIN
+and C096-3 NOT ENGAGED, each in amendment 2 §10's mandated
+form ("closed / unengaged at freeze on census grounds;
+falsifier never engaged"); C096-4 SUPPORTED narrowed, a
+self-assessed process claim whose qualifier's
+pending-adjudication element the act discharges (falsifier
+NOT FIRED in its letter, ENGAGED in its substance). The act
+is recorded at
+specs/096-eteocypriot-program/records/adjudication-record-2026-11-22.md,
+with head pointers on the outcome record and on amendment
+2. The amendment 2 §6 discipline ("proposed verdicts,
+unadjudicated; ledger standings unchanged") no longer
+applies as to the verdicts' status; ledger standings are
+unchanged — C096-1..C096-4 stand at draft / created, and no
+standing is moved by this landing. The platform project
+`eteocypriot_program` was checked the same day through the
+repaired MCP route (tower-compute home): its description,
+prompt context, question and standing position state no
+verdict and carry no proposed-and-unadjudicated framing,
+and no platform change is made. Execution venue:
+tower-compute. PR #662. CI on the substance head f7d7e452:
+10/10 per job — Backend tests (pytest), Cloud image smoke
+(Spec 083), Evidence Graph script smoke tests, Freeze gate
+records check (C4), Frontend tests (Playwright), Indus
+public validation checks, Ledger/matrix/map equivalence
+gate, Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success.
+
+**AI disclosure:** executed by an AI agent (Muse, via
+Muse) at the direction of Tristen Pierson, per
+constitution sec. VI. The adjudication act is the owner's.
+## 2026-11-22 — F-9 itemization act (Specs 091/099): M047 reclassed E to U
+
+The owner adopted the Red Team Round 4 adjudication's
+recommendation (flag F-9) on 2026-11-22: the itemization
+test applies prospectively to class E — the
+external-support claim must appear in the reading's
+inference-log entry as an external-support item. The
+directed re-examination found no itemizable published
+proposal in M047's filed basis on the M330-01 standard
+(its only Parpola clause names Parpola 1994a as a source
+of the catalogue crosswalk and truncates there; the
+verified §10.1 proposal is family-level and reaches the
+sign through the program's own identity step), so no
+published_proposal item is entered, and M047 is reclassed
+on its remaining filed basis to class U. The executed
+partition is 3 E + 65 I + 4 R + 3 P + 19 U = 94; M124,
+M329 and M330 are verified to carry itemized
+external-support items and stand in E. The rule is landed
+as the F-9 amendment to the standings record; the act
+record is
+specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md.
+Spec 099's log and Q3 audit were regenerated under a
+builder amendment arm: census unchanged (296 items),
+audit payload identical (0 class changes, weakened 44,
+cycles 0, open ends 38), the audit JSON diff exactly one
+field (M047's executed class); TC-099-01 and TC-099-02
+PASS, fixture suite 15 passed (amendment record in Spec
+099's records). Partition statements are updated on every
+living surface (standings supplement, both spec packages'
+pointers, the Q3 completion copies appended identically,
+the Stage 1 record, the Spec 098 Stage 2 design note,
+both repo READMEs). PR #663. CI on the substance head
+3915c3dd: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke
+tests, Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all
+success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
+§2 (goal record). Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, F-9
+execution completion):** PR #663, merged at
+e0e48a1306f4e80e33720a17abf873ad99b9bacf (final head
+149d8499294c06d5611bb2e3d7705276d6593ad5; the branch was
+rebased twice over parallel landings — PRs #662, #664,
+#666 — with the LEDGER conflicts resolved keeping all
+entries, and this entry's cited substance head updated to
+the rebased head 3915c3dd). Per-job verdicts from the
+check runs on the PR head: Backend tests (pytest)
+success; Cloud image smoke (Spec 083) success; Evidence
+Graph script smoke tests success; Freeze gate records
+check (C4) success; Frontend tests (Playwright) success;
+Indus public validation checks success; Ledger/matrix/map
+equivalence gate success; Shell wrappers (macos-latest)
+success; Shell wrappers (ubuntu-latest) success; Shell
+wrappers (windows-latest) success — 10/10. The substance
+head as first pushed (ebb34e79) also returned 10/10 per
+job before the rebases.
+
+## 2026-11-22 — F-4 study package, Spec 091 items (M267 retest, DEDR pass, M048 battery)
+
+The F-4 study package (owner's commission in chat,
+2026-11-22) lands its three Spec 091 items. The M267
+dependency-aware retest, run under Spec 099's dependency
+statement: route (a) is closed (the AGENT markers stand at
+class U, the TITLE markers at I; no marker is independently
+justified), so the slot-pattern statistic is excluded as
+confirmation; the raw counts stand as filed (the 2x2 sums to
+400 and its marginals cross-check exactly against the filed
+neighbour lists); the uninterpreted recompute gives M267
+flanked in 314 of 400 tokens (Phase-64 partition) or 324
+(Phase-142 partition), a positional fact that does not
+discriminate the genitive; the permutation null was not
+recomputed (the pinned Holdat corpus is not held on the
+venue; the gap is named in the record); the DEDR 494 leg does
+not verify as filed (the digital-edition pass's evidence).
+Verdict in the Phase-74 battery's frozen vocabulary:
+GENITIVE_MARGINAL, not promoted — the battery's own 10% rate
+bar (filed rate 6.5%) could never have promoted in any case.
+The DEDR digital-edition pass (tree re-verified 15/15
+byte-identical at the restore pin; print consulted through
+DSAL, the dictionary's own digital edition) settles both
+open numbering questions: no tree-vs-print divergence at
+4524 (print and tree alike read bobbaḍe "rind, bark"; poṉ is
+entry 4570 in both, print p. 404 — the program's filed
+citation number was wrong), and M044's symmetry clause is
+not triggered (print 1638 = tree 1638, kucukucu "to
+whisper"); entry 494 is il "house" in both editions and iṉ
+is not a DEDR headword. M048's missing corrected battery
+result (RT2-08's referred arm), produced by battery v2's own
+code with validated inputs: positional PASS, DEDR PASS with
+detail exact_match_3 (the historical recorded detail,
+reproduced exactly), bigram NOT_RUN (corpus not held) —
+score 2, the battery's promotion threshold met; under T302's
+input configuration the executed legs score 1, the
+difference being solely the DEDR dataset's 2026-11-19
+restoration. No standing changes: the class re-adjudication
+RT2-08 attaches to M048's outcome, and any consequence of
+the DEDR 494 finding, are separate adjudications. The M048
+run record is entered in run-defs v3 form
+(study-20261122T075700Z-f40448) with its run-index entry.
+CI on the substance head bd50faa9: 10/10 per job — Backend
+tests (pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4), Frontend
+tests (Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all success.
+(The first substance head ffc0004f failed the ledger gate:
+the run record as first filed lacked the run-defs v3 header
+and index entry; conformed in bd50faa9, gate PASS locally and
+in CI.) Commission: F-4 STUDY PACKAGE (goal record).
+Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, F-4 Spec
+091):** PR #665, merged at
+7206e9d2c75a34ac78b8622ada9cc9011ff9cbe5 (final head
+89a551a0). Per-job verdicts from the check runs on the final
+PR head (run 45003530270): Backend tests (pytest) success;
+Cloud image smoke (Spec 083) success; Evidence Graph script
+smoke tests success; Freeze gate records check (C4) success;
+Frontend tests (Playwright) success; Indus public validation
+checks success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (Two pushes of this branch produced no
+workflow run in a congested window — verified 0 check runs
+on the affected heads; the runs above are on the merge head
+after origin/main was merged in twice, resolving LEDGER tail
+conflicts against PRs #663 and #668, both entries preserved
+exactly once.)
+
+## 2026-11-22 — 
+ — F-4 study package, Spec 097 items (662 reproduction, freeze v3)
+
+The F-4 study package's two Spec 097 items land. The
+662-count reproduction (RT1-13's open arm): the corpus
+completion record's claim — the deposited mero-corpus.txt
+(18,090 lines, Otten pin c9158f68) collapses to 662 distinct
+texts under name-masking — is the MikeKovetsky/meroitic
+account's figure, and running that account's pipeline
+unmodified over the pinned file (SHA-256 verified on the
+venue) reproduces it exactly: private pool 178 and royal
+pool 11 as filed; 2,168 masked skeletons after dedup; 1,019
+after collapse; and 662 distinct texts with 18,075 tokens
+after clean_v2, the 662 texts' copy counts summing to
+exactly 18,090 (27.3 copies per text, the filed "about 27").
+Outcome: REPRODUCES EXACTLY; the record notes the 662 is the
+full pipeline's final figure, as the account's own report
+attributes it. Meroitic freeze v3 (RT1-47's F-4 arm): a new
+freeze for future work only, adopting freeze v2 sections 1–3
+and 5–8 unchanged (the 335/33 split over the 368-text
+acquired corpus stands) and replacing only the section 4
+vocabulary companion, applying section 3's own
+no-Wikipedia standard to the vocabulary's apparatus: 182 →
+179 forms, Wikipedia citations 33 → 0 (30 removed with forms
+retained on their scholarly apparatus, including scored
+concepts 16 and 75; 3 excluded and named — qes, qos, qesw,
+anchor A1's forms, already PROVISIONAL under v2 section 3).
+Concept coverage is identical across all 12 scored concepts,
+so Stage 4.2's S = 4 and every Stage 4 verdict compute
+identically under v3; freeze v2 and all landed Stage 4
+results stand untouched. The freeze record carries the
+framework-dependence statement at the point of citation.
+Commission: F-4 STUDY PACKAGE (goal record). Execution
+venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, F-4 Spec
+097):** PR #669, merged at
+4b542b506c114a139bcb56dc3e4b32c9c5eecdc6 (head 2376ff17).
+Per-job verdicts from the check runs on the PR head (run
+45004093972): Backend tests (pytest) success; Cloud image
+smoke (Spec 083) success; Evidence Graph script smoke tests
+success; Freeze gate records check (C4) success; Frontend
+tests (Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success; Shell
+wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. This block completes the F-4 study
+package's ledger trail (PRs #665 and #669); the completion
+block for the small PR carrying this block is deferred to
+the next landing, per the standing pattern.
+## 2026-11-22 — Spec 098 Stage 2 executed (T201 + T202)
+
+Stage 2 of Spec 098 executed on the owner's commission of
+2026-11-22, on the executed population of 69 signs (Arm I
+65; Arm E four — M047, M124, M329, M330 — after the M202
+and M044 strikes; the F-9 act had not landed at the
+execution commit and no F-9 pull request was open). Three
+pull requests: PR #664, the Stage 2 freeze (merge
+41fad44d; CI 10/10 per job on its head), answering the
+Stage 2 design note on its face (the frozen bar stands:
+10-nat penalized margin AND above the permutation null's
+99th percentile, 2 nats per free choice) and fixing the
+eligibility method, the free-choice accounting, and the
+T201/T202 construction rules; PR #666, T201 rival
+construction (merge eac49195; CI 10/10 per job), R-A..R-E
+for all 69 signs plus the Arm E additions, with the
+TC-098-01 guard run over the actual development export in
+the same payload (split recomputed, 2,413 clusters / 517
+held out; seal hash verified against the committed seal
+without reading the custody file; 1,896 development rows
+passed; the Stage 1 grid reproduced exactly); PR #667,
+T202 prediction sheets and the Stage 2 outcome record
+(this entry's PR; CI on the substance head cf7eb8e0:
+10/10 per job — Backend tests (pytest), Cloud image smoke
+(Spec 083), Evidence Graph script smoke tests, Freeze
+gate records check (C4), Frontend tests (Playwright),
+Indus public validation checks, Ledger/matrix/map
+equivalence gate, Shell wrappers (macos-latest,
+ubuntu-latest, windows-latest) — all success, after one
+disclosed rerun of Backend tests (pytest) for the known
+Spec 095 T404 timing flake,
+tests/test_spec095_t404_remediation.py, the same
+disclosed handling as PRs #635, #641, #651, #655).
+
+Outcomes: 48 UNDECIDABLE AT THIS POWER (M374 by the T102
+frozen default; 47 on decision rule 1 in expectation,
+their binding count test at Stage 3); 17 NOT IDENTIFIABLE
+by construction (eligible in expectation, no accepted
+prediction sheet — spec §3.5); 4 proceed to Stage 3 with
+accepted sheets (M089, M267, M347, M375); 9 sheets
+accepted in all (five further collocation sheets filed
+for signs below the floor in expectation). Per-sign
+margins and null percentiles are recorded as not computed
+on every row: under the frozen estimator they are
+functions of held-out log-likelihoods, and the seal is
+released exactly once at Stage 3. The seal was not
+opened; no held-out content was examined; no actual
+held-out count is stated. The claims ledger is unchanged
+(Stage 2 intakes and amends no claims; the adjudication
+of C098-3/C098-4 is Stage 4 T401). Records:
+specs/098-identifiability-over-the-65/records/stage-2-freeze-2026-11-22.md,
+stage-2-rival-construction-2026-11-22.md,
+stage-2-rivals-2026-11-22.json,
+stage-2-prediction-sheets-2026-11-22.md,
+stage-2-outcome-2026-11-22.md and .json; runner
+tools/stage2_run.py (payload verdicts: T201 population=69
+seal_verify=True guard_pass=True grid_reproduced=True;
+outcome distribution 48/17/4). Execution venue:
+tower-compute.
+
+## 2026-11-22 — M048 re-adjudication (Spec 091, RT2-08): M048 reclassed U to I
+
+The owner commissioned the re-adjudication on
+2026-11-22. RT2-08's adjudication stated the
+consequence in advance: M048 and M089 were judged by
+the corrected battery's 2-point promotion threshold;
+M089's class I rests on its filed corrected-battery
+result at that threshold; M048's class U rested on the
+absence of a qualifying filed result; if the result
+were produced and scored at the threshold, the class
+would have to be re-adjudicated. The F-4 commission
+produced the result (score 2: positional PASS, DEDR
+PASS exact_match_3, bigram NOT_RUN — the pinned corpus
+not held on the execution venue), and the
+re-adjudication executed here reclasses M048 to class
+I on the M089 parity: the battery counts passes and
+never counts a not_run, and both readings meet the
+threshold on executed legs. The executed partition is
+3 E + 66 I + 4 R + 3 P + 18 U = 94. The act record is
+specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md;
+the outcome is landed as the M048 re-adjudication
+amendment to the standings record. Spec 099's log and
+Q3 audit were regenerated under a builder amendment
+arm: census unchanged (296 items), audit payload
+identical (0 class changes, weakened 44, cycles 0,
+open ends 38), the audit JSON diff exactly one field
+(M048's executed class); TC-099-01 and TC-099-02 PASS,
+fixture suite 15 passed (amendment record in Spec 099's
+records). Partition statements are updated on every
+living surface (standings supplement, both spec
+packages' pointers, the Q3 completion copies appended
+identically, the Stage 1 record, the Spec 098 Stage 2
+design note, both repo READMEs). The Spec 098
+population for future stages is 69 (66 I + 3 E); the
+Stage 1 and Stage 2 executed records stand as history
+at the populations they state. PR #671. CI on the
+substance head 7088b199: 10/10 per job — Backend tests
+(pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4),
+Frontend tests (Playwright), Indus public validation
+checks, Ledger/matrix/map equivalence gate, Shell
+wrappers (macos-latest, ubuntu-latest, windows-latest)
+— all success. Commission: the owner, in chat
+2026-11-22. Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, M048
+re-adjudication completion):** PR #671, merged at
+2f6fdada4a39d55de90f69ff580a83c4dd2641e8 (final head
+e51d7385c1cd88d680f0ce1f84304dc9b64180f4). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. The substance head as first pushed
+(7088b199eb50275614b8c4e4f42d5dde816ebed2) also returned
+10/10 per job on its own run.
+
+## 2026-11-22 — Spec 098 Stage 3 executed (T301): the seal released once; M375 discriminated on pseudo-held-out
+
+Objective:
+  Execute Stage 3 of Spec 098 as commissioned by the owner's
+  OD-3 act (2026-11-22 11:19 ET), with the eligibility
+  reconciliation and the M267 and M089 prerequisite checks
+  recorded before the single seal release, under the frozen
+  design, nothing retuned.
+
+What was done:
+  1. Pre-release record
+     (specs/098-identifiability-over-the-65/records/stage-3-prerelease-2026-11-22.md,
+     committed before the release): the frozen population of
+     69 reconciled against the current standings (3 E + 66 I +
+     4 R + 3 P + 18 U); the four PROCEED signs confirmed
+     eligible; M047 retained as a member on its filed entry
+     per the Stage 2 freeze section 0 pre-ruling (the F-9
+     act's move to U stated on the record); M048 not a member
+     and not scored (no frozen grid row, rivals, sheet, or
+     accounting; the freeze bars creating them). M267 check:
+     method arm satisfied by construction (the scoring path
+     uses only the frozen estimator and the sheet signature
+     read as sign identities; the excluded slot-pattern
+     statistic is no input); dictionary-leg arm states the
+     F-4 standing unchanged (DEDR 494 leg not verifying as
+     filed; GENITIVE_MARGINAL, not promoted).
+     Development-side anatomy recorded: the filed pattern's
+     left flank is absent from the corpus of record (1 of 226
+     development occurrences; M267 inscription-initial in
+     179). M089 check: Stage 3 inputs are the sheet's partner
+     identities plus counts computed fresh from the pinned
+     corpus (development co-occurrences M342 3, M267 2,
+     M176 0; 5 assigned of 119); no filed count enters; the
+     filed inconsistency is bypassed, not resolved. Encoding
+     decisions recorded in full (signatures, the Stage 2
+     freeze section 6 rival rule, the permutation null, the
+     bootstrap, R-E, the scoring scope).
+  2. Executability verification (prepare run
+     study-20261122T162904Z-559728, payload exit 0): corpus
+     pin verified; the seal recomputed from the split rule
+     without reading custody; TC-098-01 guard passed; the
+     Stage 1 grid reproduced for all 69; free-choice
+     accounting cross-checked; all 9 candidate models built.
+  3. The release (run study-20261122T163036Z-d32312,
+     2026-11-22T16:30:36Z): the custody list read for the
+     first time; its seal hash recomputes to the committed
+     seal (1974d83a...), count 517, set equal to the
+     recomputed split; the release log cites the pre-release
+     commit ea621631. The seal is not re-struck and will not
+     be released a second time.
+  4. Scoring (run study-20261122T163043Z-c6e811, payload
+     exit 0; verify invocation exit 0: all 69 outcomes
+     recomputed from the archived raw output under the
+     reference decide() rule, no mismatches). Records:
+     records/stage-3-outcome-2026-11-22.md and .json
+     (SHA-256 a5943966...), tools/stage3_run.py; T301
+     ticked in tasks.md.
+
+Findings:
+  - Distribution over the 69: 46 UNDECIDABLE AT THIS POWER,
+    22 NOT IDENTIFIABLE, 1 DISCRIMINATED ON PSEUDO-HELD-OUT.
+    The count test displaced exactly two in-expectation
+    outcomes (M018: expected 3.25, actual 7; M054: expected
+    3.5, actual 5; both sheetless, finalized NOT IDENTIFIABLE
+    by construction).
+  - M375 (candidate value tan) DISCRIMINATED ON
+    PSEUDO-HELD-OUT: 11 held-out tokens, penalized margin
+    16.224 nats against the frozen 10-nat bar, permutation
+    null 99th percentile 10.325, bootstrap 95% interval
+    [14.75, 19.17]. The study's premise is not falsified
+    (spec section 4). Under claim C098-7 the outcome changes
+    no standing and supports no identification claim.
+  - M089 (penalized margin -7.384 nats), M267 (-109.458;
+    the filed slot pattern mispredicts on the corpus of
+    record), M347 (-0.788; raw margin 1.212 carried below
+    zero by the 2-nat flexibility penalty) are NOT
+    IDENTIFIABLE.
+  - R-E scored as one model: candidate system -2884.402,
+    permuted system -2772.078, system margin -112.323 nats,
+    dominated by M267; R-E conditions no per-sign outcome.
+  - Standing consequences: none (spec section 1, claim
+    C098-7). Claims adjudication on the outcome is Stage 4
+    (T401), not performed here.
+
+CI (completion block): Actions run 2026-11-22T16:35:16Z
+(run 45044674504) on head ea40c43d - all 10 jobs green on
+payload steps (Backend tests (pytest), Cloud image smoke
+(Spec 083), Evidence Graph script smoke tests, Freeze gate
+records check (C4), Frontend tests (Playwright), Indus
+public validation checks, Ledger/matrix/map equivalence
+gate, Shell wrappers (macos-latest), Shell wrappers
+(ubuntu-latest), Shell wrappers (windows-latest)); no
+failures, no reruns. PR #679.

@@ -1,0 +1,124 @@
+{
+ "claims": [
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The owner's OD-21 act of 2026-11-22 (a genuinely fresh discriminating test commissioned after the preceding checks) and the registered design in spec.md sections 3.2 and 3.7; the OD-15 power audit's measurement that the executed Stage 4.2 R1 failure excludes only theta above about 0.55 at perfect detection.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "Leg A administered with both gates met and the R1 test's Holm-adjusted p at or above 0.01 with an observed T at or below the freeze's consistency boundary for theta = 0.30 at d = 0.75; or any administration of Leg A with a gate unmet, which voids the administration."
+   ],
+   "id": "C102-1",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The expanded-wordlist R1 test separates Nubian/Nara affiliation from chance at its registered bar: on the vocabulary built from the digitised published wordlist (spec section 3.1, S-1), attestation-filtered against the acquired inscription corpus (S-2), the R1 family test's primary statistic T passes its registered bar (Holm-adjusted permutation p below 0.01 across the two-test family) when Leg A is administered under gates G-1 and G-2; if administered and failed, the failure excludes true correspondence shares above the freeze's computed consistency boundary. This does not establish: that any single Meroitic reading is correct, or that the affiliation, if supported, holds at strengths below the design's consistency boundary.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The registered design in spec.md sections 3.2 and 5, and freeze v2 section 5 of Spec 097 (the adjudication vocabulary this spec carries over).",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "Leg A administered with both gates met and the R2 test's Holm-adjusted p at or above 0.01 with an observed T at or below its freeze consistency boundary; or any administration of Leg A with a gate unmet."
+   ],
+   "id": "C102-2",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The expanded-wordlist R2 test separates Afroasiatic affiliation from chance at its registered bar, under the same construction as C102-1 against the R2 comparator set, reported with its own per-test concept set and denominators. This does not establish: that a failure of both family tests supports the isolate hypothesis; R3 is recordable only as not displaced (spec section 5).",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "Adjudication unit M-18 (a fresh discriminating test only after the checks; if fresh material is unavailable, state that limitation instead of recycling the consumed holdout) and spec.md sections 3.7 and 4.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A scoring run of Leg A whose freeze lacks either gate's computation, or whose gate figures do not recompute from the frozen lists; a NOT ADMINISTERED closure reported anywhere in the program's records as evidence about affiliation."
+   ],
+   "id": "C102-3",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The study is administered only at registered power, or closes NOT ADMINISTERED: Leg A executes only when gates G-1 (at least 40 scored concepts per family test, at least 20 of them outside the Stage 4.2 twelve) and G-2 (freeze-time simulation showing at least 80 percent power at theta = 0.30, d = 0.75 for the primary statistic) are both computed, filed, and met before any scoring; otherwise the study closes NOT ADMINISTERED with the failing gate and the counted shortfall on the record. This does not establish: that a NOT ADMINISTERED closure is a failure of the program; it is the design's registered refusal to produce an uninterpretable verdict, per unit M-18's instruction.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The OD-17 dependency audit's flag F-A (freeze v3 section 3 of Spec 097 attaches wrong gloss labels to 9 of 12 concept IDs) and spec.md section 3.8.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A scoring run whose mapping, denominators, or labels differ from the freeze's, or a freeze table whose labels the parameters.csv check rejects."
+   ],
+   "id": "C102-4",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "No scoring uses an unstated or mislabelled table: every mapping table, denominator, and rule used by any scoring run of this study is written in full in the study's freeze before the run, and every ASJP gloss label in the freeze is verified against ASJP parameters.csv under its pinned hash (spec section 3.8). This does not establish: that the tables are correct in substance; only that they are completely stated and label-verified, so a re-runner needs nothing the record does not contain.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The OD-14 custody clarification programme and refusal protocol (Spec 097 record, PR #689), sections 2 and 4, and spec.md sections 3.1 and 3.5.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A Leg A input whose authority state is unclarified in the OD-14 chain; a Leg B run filed without the clarification it cites; any Otten-derived text in a published output of this study."
+   ],
+   "id": "C102-5",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The decisive leg rests only on clarified material, and the Otten leg only on a clarification: Leg A computes only on sources whose authority the OD-14 chain records as clarified, or on the program's own compilation of published scholarship (spec section 3.1); Leg B executes only after a filed OD-14 clarification covering the use, publishes no Otten-derived text, and a refusal under OD-14 section 4 suspends this spec with the rest of the program. This does not establish: that the clarified sources are accurate; the Kovetsky corpus's transcription-quality caveat (OD-14 Element 2) carries over every result this study produces.",
+   "uncertainty": "insufficient_evidence"
+  }
+ ]
+}

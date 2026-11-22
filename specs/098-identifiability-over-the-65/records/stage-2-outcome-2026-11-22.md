@@ -1,0 +1,120 @@
+# Spec 098 — Stage 2 Outcome Record (T201 + T202)
+
+**Date:** 2026-11-22 · **Tasks:** T201, T202 · **Claims:**
+C098-3, C098-4 · **Venue:** tower-compute, fresh clone ·
+**Freeze:** `records/stage-2-freeze-2026-11-22.md` ·
+**Runner:** `tools/stage2_run.py` · **Data:**
+`records/stage-2-rivals-2026-11-22.json`,
+`records/stage-2-outcome-2026-11-22.json`.
+
+## Population, as executed
+
+69 signs — Arm I, the 65 of the population annex; Arm E,
+four (M047, M124, M329, M330) — confirmed from the current
+standings record (4 E + 65 I + 4 R + 3 P + 18 U = 94) at
+execution commit 6bcd95eb. The F-9 act had not landed at
+that commit and no F-9 pull request was open; M047 is a
+member as class E on its entry as filed (Stage 2 freeze §0).
+
+## What Stage 2 determined
+
+Under the frozen precedence (spec §4) as far as Stage 2 can
+state it: 48 signs stand at UNDECIDABLE AT THIS POWER (one
+by the T102 frozen default, M374; 47 on decision rule 1's
+grid arm, in expectation — their binding count test on
+actual held-out counts runs at Stage 3); 17 signs are NOT
+IDENTIFIABLE by construction (eligible in expectation, no
+accepted prediction sheet — spec §3.5); 4 signs proceed to
+Stage 3 with accepted prediction sheets (M089, M267, M347,
+M375). No sign is DISCRIMINATED ON PSEUDO-HELD-OUT: that
+outcome, and every per-sign margin and permutation-null
+percentile, is a Stage 3 quantity computed from held-out
+log-likelihoods under the single recorded release of the
+seal, and is recorded here as not computed — Stage 3 (the
+Stage 2 freeze's §7 states this in advance). The seal was
+not opened, read, or released in Stage 2; the custody file
+was not read by any Stage 2 process.
+
+## Per-sign record
+
+Margins and null percentiles are "not computed — Stage 3"
+for every sign and are carried in the data file
+(`records/stage-2-outcome-2026-11-22.json`) on every row.
+Threshold is the penalized-margin threshold in nats against
+a zero-free-choice rival (10 + 2 × free choices); MDM is
+that threshold divided by the expected held-out count, in
+nats per token (the Stage 1 grid's measure, at the
+candidate's own threshold).
+| Sign | Arm | Value | Free choices | Threshold (nats) | Dev tokens | Expected held-out | MDM (nats/token) | Eligibility | Sheet | Stage 2 outcome |
+|---|---|---|---|---|---|---|---|---|---|---|
+| M002 | I | kuṉ | 1 | 12.0 | 11 | 2.75 | 4.364 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M004 | I | kēḷ | 1 | 12.0 | 2 | 0.5 | 24.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M005 | I | kōṉ | 1 | 12.0 | 1 | 0.25 | 48.0 | BELOW FLOOR IN EXPECTATION | ACCEPTED | UNDECIDABLE AT THIS POWER |
+| M006 | I | puli | 0 | 10.0 | 4 | 1.0 | 10.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M007 | I | aaL | 0 | 10.0 | 3 | 0.75 | 13.333 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M009 | I | āṇ | 0 | 10.0 | 7 | 1.75 | 5.714 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M010 | I | paṭ | 0 | 10.0 | 4 | 1.0 | 10.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M013 | I | nakaram | 0 | 10.0 | 0 | 0.0 | None | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M014 | I | tiru | 0 | 10.0 | 12 | 3.0 | 3.333 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M015 | I | mā | 1 | 12.0 | 64 | 16.0 | 0.75 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M016 | I | kaḷiṟu | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M017 | I | kai | 0 | 10.0 | 66 | 16.5 | 0.606 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M018 | I | nēr | 1 | 12.0 | 13 | 3.25 | 3.692 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M020 | I | kuṉ | 1 | 12.0 | 0 | 0.0 | None | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M023 | I | vaḷ | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M025 | I | cem | 0 | 10.0 | 27 | 6.75 | 1.481 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M026 | I | mā | 1 | 12.0 | 0 | 0.0 | None | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M027 | I | māṟ | 1 | 12.0 | 2 | 0.5 | 24.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M029 | I | yānai | 1 | 12.0 | 2 | 0.5 | 24.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M030 | I | kō | 0 | 10.0 | 2 | 0.5 | 20.0 | BELOW FLOOR IN EXPECTATION | ACCEPTED | UNDECIDABLE AT THIS POWER |
+| M032 | I | koL | 0 | 10.0 | 8 | 2.0 | 5.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M034 | I | tōḷ | 0 | 10.0 | 2 | 0.5 | 20.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M037 | I | kēḷ | 1 | 12.0 | 1 | 0.25 | 48.0 | BELOW FLOOR IN EXPECTATION | ACCEPTED | UNDECIDABLE AT THIS POWER |
+| M038 | I | pōr | 0 | 10.0 | 5 | 1.25 | 8.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M041 | I | pēr | 0 | 10.0 | 9 | 2.25 | 4.444 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M045 | I | yānai | 1 | 12.0 | 2 | 0.5 | 24.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M049 | I | pu | 0 | 10.0 | 2 | 0.5 | 20.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M050 | I | pār | 0 | 10.0 | 30 | 7.5 | 1.333 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M051 | I | pū/puḷ | 1 | 12.0 | 58 | 14.5 | 0.828 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M052 | I | ta | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M053 | I | mi | 1 | 12.0 | 86 | 21.5 | 0.558 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M054 | I | mi | 1 | 12.0 | 14 | 3.5 | 3.429 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M055 | I | miN3 | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M057 | I | māṭu | 0 | 10.0 | 5 | 1.25 | 8.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M060 | I | kāṇṭāmirukam | 0 | 10.0 | 40 | 10.0 | 1.0 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M061 | I | ka | 1 | 12.0 | 0 | 0.0 | None | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M062 | I | erutu | 0 | 10.0 | 25 | 6.25 | 1.6 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M063 | I | mutalai | 0 | 10.0 | 2 | 0.5 | 20.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M065 | I | kuTam | 1 | 12.0 | 139 | 34.75 | 0.345 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M066 | I | cōḻ | 0 | 10.0 | 11 | 2.75 | 3.636 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M067 | I | kōṭṭāṉ | 0 | 10.0 | 158 | 39.5 | 0.253 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M068 | I | maṟi | 0 | 10.0 | 7 | 1.75 | 5.714 | BELOW FLOOR IN EXPECTATION | ACCEPTED | UNDECIDABLE AT THIS POWER |
+| M069 | I | nēr | 1 | 12.0 | 2 | 0.5 | 24.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M070 | I | vēl | 0 | 10.0 | 56 | 14.0 | 0.714 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M073 | I | kōṉ | 1 | 12.0 | 2 | 0.5 | 24.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M074 | I | ker | 0 | 10.0 | 2 | 0.5 | 20.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M075 | I | māṟ | 1 | 12.0 | 10 | 2.5 | 4.8 | BELOW FLOOR IN EXPECTATION | ACCEPTED | UNDECIDABLE AT THIS POWER |
+| M076 | I | naN | 0 | 10.0 | 12 | 3.0 | 3.333 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M078 | I | cēr | 0 | 10.0 | 4 | 1.0 | 10.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M080 | I | vēṅkai | 0 | 10.0 | 4 | 1.0 | 10.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M082 | I | pa | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M089 | I | tu/tū | 1 | 12.0 | 119 | 29.75 | 0.403 | ELIGIBLE IN EXPECTATION | ACCEPTED | PROCEEDS TO STAGE 3 |
+| M099 | I | kol/koḷ | 1 | 12.0 | 426 | 106.5 | 0.113 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M128 | I | kaṇ | 0 | 10.0 | 6 | 1.5 | 6.667 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M130 | I | mui | 0 | 10.0 | 37 | 9.25 | 1.081 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M145 | I | miṭ | 0 | 10.0 | 21 | 5.25 | 1.905 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M151 | I | viḷ | 0 | 10.0 | 0 | 0.0 | None | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M194 | I | kaṭ | 0 | 10.0 | 34 | 8.5 | 1.176 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M220 | I | al | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M267 | I | iN/in (genitive) | 1 | 12.0 | 226 | 56.5 | 0.212 | ELIGIBLE IN EXPECTATION | ACCEPTED | PROCEEDS TO STAGE 3 |
+| M347 | I | ka | 1 | 12.0 | 73 | 18.25 | 0.658 | ELIGIBLE IN EXPECTATION | ACCEPTED | PROCEEDS TO STAGE 3 |
+| M351 | I | vī | 0 | 10.0 | 1 | 0.25 | 40.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M374 | I | kul | 0 | 10.0 | 0 | 0.0 | None | FROZEN DEFAULT | NOT_CONSTRUCTED | UNDECIDABLE AT THIS POWER |
+| M375 | I | taṇ | 0 | 10.0 | 36 | 9.0 | 1.111 | ELIGIBLE IN EXPECTATION | ACCEPTED | PROCEEDS TO STAGE 3 |
+| M391 | I | ka/kaṇ | 1 | 12.0 | 136 | 34.0 | 0.353 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M047 | E | min/mīn | 2 | 14.0 | 11 | 2.75 | 5.091 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M124 | E | kuTam | 1 | 12.0 | 43 | 10.75 | 1.116 | ELIGIBLE IN EXPECTATION | NOT_CONSTRUCTIBLE | NOT IDENTIFIABLE |
+| M329 | E | poṉ | 1 | 12.0 | 4 | 1.0 | 12.0 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+| M330 | E | can | 0 | 10.0 | 6 | 1.5 | 6.667 | BELOW FLOOR IN EXPECTATION | NOT_CONSTRUCTIBLE | UNDECIDABLE AT THIS POWER |
+
+Family counts (multiplicity family = the 69 signs): NOT IDENTIFIABLE: 17; PROCEEDS TO STAGE 3: 4; UNDECIDABLE AT THIS POWER: 48.
