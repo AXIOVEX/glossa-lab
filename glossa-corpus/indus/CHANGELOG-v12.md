@@ -368,7 +368,9 @@ E. **The M048 re-adjudication — M048 reclassed U → I.**
 
 ## Status
 
-Deposit-ready draft. **Not deposited.** Deposit follows the
-standing order — the owner's approval of the actual text, then
-Zenodo first, then the other venues — and the pin procedure in
-`v12_version_note_DEPOSIT.md`.
+**Deposited 2026-11-22** as Zenodo version
+10.5281/zenodo.24441587 (concept DOI 10.5281/zenodo.20379070),
+after the owner's approval of the amended text and the M048
+gate. Freeze commit `a89e79a46a8b80797eb3bbf230acceeba57fee43`;
+pin commit `e73ef308e59df14d441df1ee2675b34f3de2ac41`; see
+`v12_version_note_DEPOSIT.md` for the deposit record.
