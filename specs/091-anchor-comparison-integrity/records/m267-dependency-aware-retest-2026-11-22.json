@@ -1,1 +1,80 @@
-{"commission":"F-4 study package (owner, 2026-11-22)","governing_record":"specs/091-anchor-comparison-integrity/records/q3-graph-audit-completion-2026-11-21.md (M267 dependency statement)","inputs_excluded":["slot-pattern statistic as confirmation (route (a) closed: no marker independently justified)","Phase-64 score=7.0 (ambiguous premise, inputs unstated)","Phase-74 enrichment 4.3x and z=8.038 (withdrawn)"],"markers_current_classes":{"AGENT_set":{"M059":"U","M176":"U","M305":"U","M328":"U","M336":"U"},"TITLE_set":{"M030":"I","M041":"I","M073":"I","M099":"I","M211":"outside the 94"}},"non_effects":"No standing change. Consequences of the DEDR 494 finding for the anchors file's M267 basis are for separate adjudication.","run_id":"f4-m267-retest-2026-11-22","surviving_inputs":{"dedr_494":{"filed_as":"DEDR 494 (iṉ locative) in the anchors M267 basis","finding":"entry 494 is Ta. il 'house, home, place, wife' in the restored tree and in print (DSAL, p. 48) alike; iṉ is not a DEDR headword. The leg does not verify as filed. Evidence: dedr-digital-edition-pass-2026-11-22.md section 5."},"freq":400,"freq_cross_verified_in":["outputs/phase74_m267_grammar_test.json","outputs/phase64_morphological_boundary.json","backend/reports/phase142_collocate_network.json","backend/reports/INDUS_FINAL_ANCHORS.json"],"pattern_counts_filed":{"agent_before_only":67,"agent_before_title_after":26,"marginal_checks":{"left_in_AGENT_total":93,"left_top_listed_M328_M059_M176":87,"right_M073_M030_M041_implied":0,"right_in_TITLE_total":105,"right_top_listed_M099_M211":105},"neither":228,"sum_check":400,"title_after_only":79},"permutation_null":{"note":"null mean 6 as filed (truncated permutation mean, spread never filed). Not recomputed: the pinned raw corpus is not held on the venue (corpora/downloads/external_repos/holdatllc_indus/indus_corpus 2.csv, pinned SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e). No new significance figure issued."},"uninterpreted_recompute":{"from_phase142_partition":{"after_only":17,"before_only":59,"both_neighbours_flanked":324,"neither":0},"from_phase64_partition":{"after_only":23,"before_only":63,"both_neighbours_flanked":314,"neither":0},"note":"the two filed slot computations differ in position conventions (314 vs 324 medial); the retest reports both rather than resolving the divergence"}},"venue":"tower-compute","verdict":{"frozen_vocabulary":"Phase-74 battery: GENITIVE_CONFIRMED iff p<0.05 AND observed_rate>0.10; GENITIVE_MARGINAL iff p<0.10; else UNCERTAIN_CONFIRMED","m267_promoted":false,"observed_rate":0.065,"promotion_bar_rate":0.1,"verdict":"GENITIVE_MARGINAL"}}
+{
+ "commission": "F-4 study package (owner, 2026-11-22)",
+ "governing_record": "specs/091-anchor-comparison-integrity/records/q3-graph-audit-completion-2026-11-21.md (M267 dependency statement)",
+ "inputs_excluded": [
+  "slot-pattern statistic as confirmation (route (a) closed: no marker independently justified)",
+  "Phase-64 score=7.0 (ambiguous premise, inputs unstated)",
+  "Phase-74 enrichment 4.3x and z=8.038 (withdrawn)"
+ ],
+ "markers_current_classes": {
+  "AGENT_set": {
+   "M059": "U",
+   "M176": "U",
+   "M305": "U",
+   "M328": "U",
+   "M336": "U"
+  },
+  "TITLE_set": {
+   "M030": "I",
+   "M041": "I",
+   "M073": "I",
+   "M099": "I",
+   "M211": "outside the 94"
+  }
+ },
+ "non_effects": "No standing change. Consequences of the DEDR 494 finding for the anchors file's M267 basis are for separate adjudication.",
+ "record_id": "f4-m267-retest-2026-11-22",
+ "surviving_inputs": {
+  "dedr_494": {
+   "filed_as": "DEDR 494 (iṉ locative) in the anchors M267 basis",
+   "finding": "entry 494 is Ta. il 'house, home, place, wife' in the restored tree and in print (DSAL, p. 48) alike; iṉ is not a DEDR headword. The leg does not verify as filed. Evidence: dedr-digital-edition-pass-2026-11-22.md section 5."
+  },
+  "freq": 400,
+  "freq_cross_verified_in": [
+   "outputs/phase74_m267_grammar_test.json",
+   "outputs/phase64_morphological_boundary.json",
+   "backend/reports/phase142_collocate_network.json",
+   "backend/reports/INDUS_FINAL_ANCHORS.json"
+  ],
+  "pattern_counts_filed": {
+   "agent_before_only": 67,
+   "agent_before_title_after": 26,
+   "marginal_checks": {
+    "left_in_AGENT_total": 93,
+    "left_top_listed_M328_M059_M176": 87,
+    "right_M073_M030_M041_implied": 0,
+    "right_in_TITLE_total": 105,
+    "right_top_listed_M099_M211": 105
+   },
+   "neither": 228,
+   "sum_check": 400,
+   "title_after_only": 79
+  },
+  "permutation_null": {
+   "note": "null mean 6 as filed (truncated permutation mean, spread never filed). Not recomputed: the pinned raw corpus is not held on the venue (corpora/downloads/external_repos/holdatllc_indus/indus_corpus 2.csv, pinned SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e). No new significance figure issued."
+  },
+  "uninterpreted_recompute": {
+   "from_phase142_partition": {
+    "after_only": 17,
+    "before_only": 59,
+    "both_neighbours_flanked": 324,
+    "neither": 0
+   },
+   "from_phase64_partition": {
+    "after_only": 23,
+    "before_only": 63,
+    "both_neighbours_flanked": 314,
+    "neither": 0
+   },
+   "note": "the two filed slot computations differ in position conventions (314 vs 324 medial); the retest reports both rather than resolving the divergence"
+  }
+ },
+ "venue": "tower-compute",
+ "verdict": {
+  "frozen_vocabulary": "Phase-74 battery: GENITIVE_CONFIRMED iff p<0.05 AND observed_rate>0.10; GENITIVE_MARGINAL iff p<0.10; else UNCERTAIN_CONFIRMED",
+  "m267_promoted": false,
+  "observed_rate": 0.065,
+  "promotion_bar_rate": 0.1,
+  "verdict": "GENITIVE_MARGINAL"
+ }
+}

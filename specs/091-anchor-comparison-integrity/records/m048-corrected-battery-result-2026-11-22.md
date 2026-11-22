@@ -71,7 +71,7 @@ validated:
 
 No act was filed into T302's acts file, which the battery's
 own rule keeps closed; this result is a standalone run record
-(`m048-battery-v2-run-2026-11-22.json`, beside this record).
+(`study-20261122T075700Z-f40448.json`, beside this record).
 
 ## 3. The result
 
