@@ -77,3 +77,33 @@
   prepared for the owner's approval act if the
   outcome carries anything to adjudicate. Claims:
   C101-1, C101-2. Test: TC-101-04.
+
+## Amendment pointers — 2026-11-22 (Red Team Round 6) — BINDING
+
+The task texts above are preserved unchanged. The
+binding amendment record is
+`records/floor-derivation-and-outcome-registration-2026-11-22.md`.
+
+- **At T201 (RT6-H4).** The candidate set registered
+  here is capped at **K ≤ 4** candidates — the count
+  of distinct recurring segment-final endings attested
+  at least twice in the ICS 196 development set,
+  derived in the floor record's §2 — and each
+  candidate's registration enumerates its development
+  occurrences and frequency f_i, the inputs the floor
+  formula consumes. A registration exceeding the cap
+  or naming a non-recurring ending is not a
+  registration of this study.
+- **At T202 (RT6-H4, RT6-M5, RT6-M6).** The floors
+  "instantiated against the intaken census" here are
+  computed, never chosen: T202 applies the floor
+  record's §1.3 formula mechanically to the
+  T201-registered inputs and the census's
+  segment-final position count M, and registers each
+  F_i with its E_i, q_i, and the family-wise Q
+  (§1.4). Any other change is a new candidate
+  registration re-running the precedence discipline
+  (floor record §4). If a candidate's positions
+  cannot be instantiated against the census, the
+  study closes TOO THIN at this freeze and C101-1
+  stands NOT TESTED (floor record §3; TC-101-06).

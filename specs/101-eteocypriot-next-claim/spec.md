@@ -221,3 +221,57 @@ scored on a weakened position set.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Amendment — 2026-11-22 (Red Team Round 6: RT6-H4, RT6-M5, RT6-M6, RT6-L6) — BINDING
+
+This appended section amends the registered text
+above; the original text is preserved and is read
+subject to this amendment. The binding text of the
+amendment is the record
+`records/floor-derivation-and-outcome-registration-2026-11-22.md`
+("the floor record"), which this section points to
+and summarizes without replacing.
+
+- **Floors (RT6-H4; amends §3.1 P-2 and §3.2).** A
+  candidate's occurrence floor is never chosen: it is
+  computed by the floor record's §1.3 rule — the
+  smallest integer k ≥ 2 whose upper-tail probability
+  under Binomial(M, f_i / 11) is below 0.05 / K, from
+  the candidate's registered development frequency
+  f_i, the intaken census's segment-final position
+  count M, and the registered candidate count K. No
+  floor may be below 2 occurrences. The candidate set
+  is capped at **K ≤ 4**, the count of distinct
+  recurring segment-final endings attested at least
+  twice in the ICS 196 development set, derived in
+  the floor record's §2 from the Spec 096 corpus of
+  record. C101-1's SUPPORTED requires both a candidate
+  at or above its computed floor **and** the freeze's
+  registered family-wise chance probability Q (the
+  floor record's §1.4 union bound) below 0.05.
+- **TOO THIN (RT6-M5; amends §3.2).** TOO THIN is a
+  study closure outcome, not a verdict (floor record
+  §3). A candidate whose positions cannot be
+  instantiated against the intaken census closes the
+  study TOO THIN at its freeze, and C101-1 then stands
+  **NOT TESTED** — neither SUPPORTED nor NOT
+  SUPPORTED. Section 3.2's "no third outcome" sentence
+  governs verdicts of a study that reaches scoring;
+  TOO THIN is a closure state before scoring, and the
+  two do not conflict.
+- **Instantiation (RT6-M6; amends §3.1 P-2/P-3).**
+  The freeze addendum (task T202) may only apply the
+  §1.3 formula mechanically to the T201-registered
+  inputs and the intaken census's M. Any other change
+  is a new candidate registration re-running the
+  precedence discipline in full (floor record §4).
+- **Exposure, verbatim (RT6-L6; amends §3.3).** The
+  canonical exposure string, quoted
+  character-for-character from `claims.md` C101-2 as
+  the floor record's §5 fixes it, is: "that Perna 2019's chapter including its printed reading of ICS 194/195 was read in full on 2026-11-22 (OD-9) before any candidate was registered"
+  Every outcome record carries this string verbatim,
+  and TC-101-04's search target is this quoted string.
+
+No stage of this study is executed or commissioned
+by this amendment, and no standing, verdict, or tally
+is changed by it.
