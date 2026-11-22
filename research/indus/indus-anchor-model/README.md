@@ -8,9 +8,20 @@
 > strict core of 94 readings within it: 3 carry external-support claims on file (decomposed on re-verification: 2 partially verified, dictionary leg only (M124; M329 — its DEDR leg is verified at DEDR entry 4570, the filed citation 4524 having been a citation error repaired on 2026-11-22, and its filed Sanskrit pura leg fails and contributes nothing); 1 not verifiable from lawfully reachable material (M330: not verified; OCR search negative)) (identifiability is stated per study and per sign; in the study executed on 2026-11-22 M124 returned NOT IDENTIFIABLE and M329 and M330 UNDECIDABLE AT THIS POWER), 66 are internally motivated candidates
 > (reading-level support not demonstrated; screened in the
 > study executed on 2026-11-22 over a historical population
-> of 69: 48 undecidable at this power, 17 not identifiable
-> by construction under the filed prediction model, 4
-> proceeding to sealed scoring, none discriminated; today's
+> of 69: at Stage 2, 48 undecidable at this power, 17 not
+> identifiable by construction under the filed prediction
+> model, 4 proceeding to sealed scoring, and none yet
+> discriminated. Stage 3 was then executed on 2026-11-22
+> over the frozen population of 69, with a final
+> distribution of 46 UNDECIDABLE AT THIS POWER, 22 NOT
+> IDENTIFIABLE, and 1 DISCRIMINATED ON PSEUDO-HELD-OUT:
+> M375 (taṇ) discriminated on pseudo-held-out data at
+> the design's ceiling, with a penalized margin of 16.224
+> nats against the 10-nat bar, a permutation null 99th
+> percentile of 10.325, a bootstrap 95% interval of
+> [14.75, 19.17], and 11 held-out tokens. That outcome is
+> the design's ceiling, not an identification, and it
+> changes no standing; today's
 > 69 is a different set, the counts coinciding only), 4
 > requiring revalidation (a task status), 3 pending expert
 > review (expert review needed; no reviewer documented), and
