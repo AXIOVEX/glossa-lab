@@ -72,3 +72,17 @@ scoring either way, so no Stage 1 result changes.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+---
+
+## Appended amendment (2026-11-21, Red Team Round 3 — RT3-15): M044's Stage 1 posture, in full
+
+Section 4 above states M044's posture as "zero
+canonical-field tokens" and omits its attestation. The full
+posture, as the execution freeze annex's population
+amendment and the M044 adjudication record state it: **M044
+is attested exactly once — one attested token — with zero
+canonical-field tokens**, below the 5-token floor either way
+(T102 record). Section 4's shorter form is incomplete where
+the annex's is exact; the full posture governs, and no
+result changes.

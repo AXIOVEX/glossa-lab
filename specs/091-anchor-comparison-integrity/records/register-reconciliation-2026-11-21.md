@@ -138,3 +138,43 @@ distinction between the two citations of the one entry, and
 the question is not decidable by form-matching. The pair
 stands **unresolved on the record**; both rows carry that
 status from 2026-11-21.
+
+---
+
+## Appended disposition (2026-11-21, Red Team Round 3 — RT3-16): the §(c) tally, recounted over its stated population
+
+Section (c) states that all **49** citations were checked —
+38 "Dictionary reference as recorded" entries and 11 in-basis
+DEDR mentions — but its arithmetic as written covers only
+the 38: 3 exact attestations + "of the **35** primary
+citations not attested exactly" (14 stem-relative + 21 none)
+= 38. The tally is dispositioned here over the full stated
+population, so the pass's arithmetic recounts:
+
+- The 3 + 35 breakdown enumerates the **38 primary
+  citations** exactly: 3 exact attestations (M124/1651,
+  M037/2017, M078/2814) and 35 not attested exactly (14 with
+  a stem relative in the cited entry, 21 with none).
+- Of the three confirmed mis-citations §(c) names, two are
+  primary citations and sit **inside** the 35: M007's DEDR
+  0340 (the tree's 340 is āppu, not the filed āḷ) and
+  M044's DEDR 1638. They are counted in the 35 as not
+  attested exactly and named separately because
+  form-matching positively identifies the filed gloss at a
+  different entry (M007) or positively excludes it (M044).
+- The third, the "akatti = agate, DEDR 7" line, is an
+  **in-basis mention** — it stands in the bases of M007,
+  M010 and M023 — and is one of the 11, outside the
+  38-primary tally.
+- The remaining 10 in-basis mentions received no individual
+  tally disposition in §(c) as written, and none is recorded
+  here by invention: they were checked by the same
+  form-matching and produced no exact attestation and no
+  confirmed mis-citation that §(c) names. Their status is
+  the residue status §(c) records — neither verified nor
+  refuted by form-matching.
+
+The pass's conclusions are unaffected; its population is
+now accounted for in full: 38 primary (3 exact, 35 not
+exact, 2 of the 35 positively mis-cited) + 11 in-basis
+(1 positively mis-cited, 10 residue) = 49.
