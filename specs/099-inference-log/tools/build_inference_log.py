@@ -293,6 +293,22 @@ def _phase276(b: EntryBuilder, elamite, sanskrit, dedr, status=None):
     b.add("comparative_lexical", "a",
           f"external corroboration leg: {sanskrit}", sanskrit,
           status_note=status)
+    # Spec section 3.2: a DEDR entry cited in the basis and
+    # again as the row's dictionary reference is ONE item
+    # citing both clauses. The template's dictionary-reference
+    # arm runs before this curation, so merge into that item
+    # when it already cites the same entry (Round 4, RT4-08).
+    num = dedr.split()[-1].lstrip("0") or "0"
+    for item in b.items:
+        if item["kind"] == "dictionary_entry" and re.search(
+                rf"DEDR 0*{num}\b", item["statement"]):
+            item["statement"] = (
+                f"DEDR {num} — one observation cited twice in "
+                f"the basis: as an external corroboration leg "
+                f"('{dedr}') and as this reading's dictionary "
+                f"reference; entered as one item (spec "
+                f"section 3.2)")
+            return
     b.add("dictionary_entry", "a",
           f"external corroboration leg: {dedr}", dedr)
 

@@ -8,7 +8,7 @@
   "annotations": "standings-supplement-2026-11-21.md; dependency-record-2026-11-21.md; coscientist-audit-94-adjudication-2026-11-21.md (status notes only)"
  },
  "edge_census": {
-  "a": 213,
+  "a": 210,
   "b": 61,
   "ambiguous": 25
  },
@@ -24,7 +24,7 @@
      "id": "M044-01",
      "kind": "dictionary_entry",
      "type": "a",
-     "statement": "DEDR 1638 recorded as this reading's dictionary reference",
+     "statement": "DEDR 1638 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 1638') and as this reading's dictionary reference; entered as one item (spec section 3.2)",
      "basis_span": "Dictionary reference as recorded: 1638",
      "targets": [],
      "status_note": "DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings"
@@ -44,15 +44,6 @@
      "statement": "external corroboration leg: Sanskrit 'kona' (SL-04)",
      "basis_span": "Sanskrit 'kona' (SL-04)",
      "targets": []
-    },
-    {
-     "id": "M044-04",
-     "kind": "dictionary_entry",
-     "type": "a",
-     "statement": "external corroboration leg: DEDR 1638",
-     "basis_span": "DEDR 1638",
-     "targets": [],
-     "status_note": "DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings"
     }
    ],
    "entry_notes": [
@@ -99,7 +90,7 @@
      "id": "M124-01",
      "kind": "dictionary_entry",
      "type": "a",
-     "statement": "DEDR 1651 recorded as this reading's dictionary reference",
+     "statement": "DEDR 1651 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 1651') and as this reading's dictionary reference; entered as one item (spec section 3.2)",
      "basis_span": "Dictionary reference as recorded: 1651",
      "targets": [],
      "status_note": "re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed)"
@@ -121,15 +112,6 @@
      "basis_span": "Sanskrit 'kona' (SL-04)",
      "targets": [],
      "status_note": "leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only)"
-    },
-    {
-     "id": "M124-04",
-     "kind": "dictionary_entry",
-     "type": "a",
-     "statement": "external corroboration leg: DEDR 1651",
-     "basis_span": "DEDR 1651",
-     "targets": [],
-     "status_note": "re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed)"
     }
    ],
    "entry_notes": []
@@ -184,7 +166,7 @@
      "id": "M329-02",
      "kind": "dictionary_entry",
      "type": "a",
-     "statement": "DEDR 4524 recorded as this reading's dictionary reference",
+     "statement": "DEDR 4524 — one observation cited twice in the basis: as an external corroboration leg ('DEDR 4524') and as this reading's dictionary reference; entered as one item (spec section 3.2)",
      "basis_span": "Dictionary reference as recorded: 4524",
      "targets": [],
      "status_note": "the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment)"
@@ -205,15 +187,6 @@
      "basis_span": "Sanskrit 'pura' (SL-14)",
      "targets": [],
      "status_note": "FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources"
-    },
-    {
-     "id": "M329-05",
-     "kind": "dictionary_entry",
-     "type": "a",
-     "statement": "external corroboration leg: DEDR 4524",
-     "basis_span": "DEDR 4524",
-     "targets": [],
-     "status_note": "the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment)"
     }
    ],
    "entry_notes": []

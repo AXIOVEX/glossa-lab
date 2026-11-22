@@ -93,6 +93,16 @@ Three deliverables, in dependency order:
   **5 E + 65 I + 4 R + 3 P + 17 U = 94**, with the M202
   addendum rule stated there in section 4. The log carries
   those classes; it does not re-derive them.
+
+  > **Amendment pointer (2026-11-21, Red Team Round 4 —
+  > RT4-06):** the partition above is the standings as
+  > measured at this package's adoption, before the M044
+  > addendum adjudication of the same date
+  > (`specs/091-anchor-comparison-integrity/records/m044-addendum-adjudication-2026-11-21.md`)
+  > moved M044 from E to U. The standings of record are
+  > **4 E + 65 I + 4 R + 3 P + 18 U = 94**. The log as
+  > landed carries the amended standings throughout; this
+  > grounding text is not rewritten.
 - The filed bases of record are the audit package appendix
   (`APPENDIX-94.md`, filed 2026-11-20 from the program's
   anchor-support audit and canonical anchor register, updated

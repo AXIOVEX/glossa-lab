@@ -14643,3 +14643,34 @@ map equivalence gate, Shell wrappers (macos-latest,
 ubuntu-latest, windows-latest) — all success. Adjudication:
 RED-TEAM-ROUND-3-ADJUDICATION.md (goal record). Execution
 venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 4, Indus corrections (Spec 099 + Spec 091)
+
+The Q3 completion record gains the Round 4 scope note in
+both its copies (Spec 091 filing and Spec 099 copy, appended
+identically; the copies remain byte-identical): the honest
+citation form for the Q3 result, the M047 analysis, and the
+class-E definition question flagged for the owner as F-9 —
+no standing moved (RT4-01). Spec 099's spec.md §2 and
+claims.md C099-1 gain dated amendment pointers to the
+current partition (4 E + 65 I + 4 R + 3 P + 18 U), and
+claims.md expressly governs the aee-claims.json and
+adoption-aee-assessment.json mirrors under the append-only
+bundle rule (RT4-06). The inference log is REBUILT: the
+builder's Phase-276 arm now merges a DEDR entry cited twice
+in one basis into one item per spec §3.2 (M044, M124,
+M329); census 299 → 296 items (210 (a) / 61 (b) /
+25 ambiguous); the Q3 audit is regenerated and its outcomes
+are unchanged (the audit JSON diff is exactly the two
+census fields); the amendment record is filed and the
+Stage 1 record gains its pointer (RT4-08). A Stage 2
+design note carries the prospective weakened-alongside-class
+reporting mandate (RT4-14, discharging RT3-17). CI on the
+substance head 5eb2faaf2: 10/10 per job — Backend tests
+(pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4),
+Frontend tests (Playwright), Indus public validation
+checks, Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all
+success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
+(goal record). Execution venue: tower-compute.
