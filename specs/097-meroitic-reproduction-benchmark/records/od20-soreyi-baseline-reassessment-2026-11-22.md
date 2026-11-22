@@ -152,6 +152,18 @@ machinery's contribution was the discovery route, not
 independent evidence. This is the adjudication's own cap
 rationale, now measured; it adds no new downgrade reason.
 
+
+**Correction note — 2026-11-22, Red Team Round 6
+correction (RT6-L8).** The first bullet of this §2 as
+filed joins two counts in one sentence and attaches
+the wrong rate to the first of them. Split, the
+record is: soreyi's wosi neighbour count is 120, an
+adjacency rate of 120/137 = 0.8759 per occurrence;
+soreyi's theonym-set adjacency count (neighbours in
+{wos, sorey, amni, wosi}) is 121, a rate of
+121/137 = 0.8832. Both underlying numbers stand; the
+joining sentence as filed does not.
+
 ## 3. Genre/formula baseline
 
 The null tested here: soreyi's held-out profile is what
@@ -258,3 +270,25 @@ is recomputed here under the same frozen hash rule. It
 registers no new claim and touches no other program's
 record. The seal caveat of freeze v2 §6 travels with the
 Stage 4.4 score as before.
+
+## Amendment 2026-11-22 — Round 6 correction (RT6-M13): custody and recomputability
+
+**Date of amendment: 2026-11-22. Authority: Red Team
+Round 6, finding RT6-M13.** The audit chain of which
+this record is part is not recomputable from this
+repository alone. The frozen pipeline
+(`pipeline-v2.py`), the ASJP CLDF files, the
+inscription corpus basis, and the example phrases are
+held in campaign custody on tower-compute. As this
+record's own head states them, the method ran the
+frozen Stage 4 pipeline "`pipeline-v2.py`, campaign
+scratch, SHA-256
+`74b831da221f0708b2c5a9f7e9f1a7772175fe2097783f101d33588769e1642e`"
+on "the acquired Kovetsky inscription corpus (CC BY
+4.0 data, `inscriptions.jsonl` SHA-256
+`1e91e3a0c52626482bc4015b597df862e7818602dab48a7e870240ab2e567bc4`)",
+the basis freeze v2 registers for Stages 4.2–4.4;
+none of those custody bases is in this repository.
+The OD-15 simulation driver in the same chain is
+likewise held in custody and is not in this
+repository. No verdict, tally, or standing changes.
