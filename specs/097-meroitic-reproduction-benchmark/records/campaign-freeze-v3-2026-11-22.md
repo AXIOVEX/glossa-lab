@@ -81,6 +81,19 @@ assigns their anchor.
 
 ## 3. Why no landed result moves
 
+> **Correction pointer — 2026-11-22, Red Team Round 6
+> correction (RT6-M12).** The gloss labels and the
+> matching-concepts sentence in this section as filed
+> below are wrong; they are corrected in the appended
+> F-A amendment at the end of this record. Read this
+> section only with that amendment: the corrected
+> labels are 12 two, 15 small, 16 woman, 17 man,
+> 21 dog, 46 foot, 55 eat, 62 kill, 70 give, 72 sun,
+> 75 water, 97 good, and Stage 4.2's four matching
+> concepts are (21, 46, 72, 75). Counts are unchanged.
+> Nothing else in this section is altered by this
+> pointer.
+
 Concept coverage is identical before and after (forms per
 scored concept, v2 = v3): 12 night 2, 15 dog 3, 16 woman 2,
 17 fire 2, 21 head 1, 46 bone 1, 55 louse 4, 62 belly 2,

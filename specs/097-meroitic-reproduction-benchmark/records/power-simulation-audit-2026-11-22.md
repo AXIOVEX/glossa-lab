@@ -215,3 +215,36 @@ recommendation attached: the two vocabulary failures are
 of unequal evidential weight (§5), which future citations
 of the Stage 4.2 outcome should preserve rather than
 summarise as a symmetric double failure.
+
+## Amendment 2026-11-22 — Round 6 correction (RT6-M13): custody and recomputability
+
+**Date of amendment: 2026-11-22. Authority: Red Team
+Round 6, finding RT6-M13.** The audit chain of which
+this record (OD-15) is part is not recomputable from
+this repository alone. The frozen pipeline
+(`pipeline-v2.py`), the ASJP CLDF files, the
+inscription corpus basis, and the example phrases are
+held in campaign custody on tower-compute. As this
+record's own §1 states them, `pipeline-v2.py` is
+"held in the campaign scratch on tower-compute", and
+"The ASJP input files in custody match freeze v2 §4's
+registered SHA-256 pins exactly". This record's
+simulation driver (the OD-15 simulation driver) is
+likewise held in custody and is not in this
+repository. No number, verdict, or standing changes.
+
+## Amendment 2026-11-22 — Round 6 correction (RT6-L7): the MDE gloss
+
+**Date of amendment: 2026-11-22. Authority: Red Team
+Round 6, finding RT6-L7.** Section 3's sentence
+"Minimum detectable effect at 80% power: θ ≈ 0.43
+(d = 1.0), θ ≈ 0.57 (d = 0.75), θ ≈ 0.85 (d = 0.5),
+for both comparator sets" matches R1's grid only. This
+record's own companion JSON
+(`power-simulation-audit-2026-11-22.json`,
+`binomial_frame_MDE_theta_power0.80`) files R2 at
+0.44 / 0.58 / 0.87. Both sets stand, stated in full:
+R1 0.43 / 0.57 / 0.85; R2 0.44 / 0.58 / 0.87 —
+equivalently the ranges 0.43–0.44 / 0.57–0.58 /
+0.85–0.87 across the two comparator sets. No
+conclusion changes.

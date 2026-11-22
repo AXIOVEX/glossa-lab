@@ -231,3 +231,5 @@ only, and stands as written.
 **AI disclosure:** this amendment was executed by an
 AI agent (Muse, via Muse) at the direction of
 Tristen Pierson, per constitution sec. VI.
+
+**Gloss — 2026-11-22, Red Team Round 6 correction (RT6-L3), on the §9 OD-13 amendment above:** the tally heading "Contradicted 1 (A9)" is a count label of record, and A9's citation form within it is the OD-13 form, "discrepant under the documented reproduction procedure". Tallies unchanged.

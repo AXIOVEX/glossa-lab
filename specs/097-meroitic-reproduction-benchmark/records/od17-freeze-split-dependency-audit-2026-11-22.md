@@ -314,6 +314,15 @@ under every correction computed. What the corrections add
 is the size of the margin: at family level the R1 signal
 sits at roughly p ≈ 0.065–0.098, not at the filed 0.0326.
 
+
+**Convention note — 2026-11-22, Red Team Round 6
+correction (RT6-L9).** This §4's tails are raw
+proportions of the same filed histograms (R1
+P(S ≥ 5) = 0.0043 raw), differing from the
++1-corrected p-values used elsewhere in the chain
+(0.0044) by ≤ 0.0001; OD-15's 0.0046 is from its
+separate 100,000-draw extension.
+
 ## 5. Flagged for adjudication
 
 **F-A (reporting defect, freeze v3 §3).** The per-concept
@@ -350,3 +359,24 @@ standard corrections is 0.0652 (two-test family) to 0.0978
 unchanged under all of them; one reporting defect in
 freeze v3 §3 flagged for adjudication as F-A.**
 
+
+## Amendment 2026-11-22 — Round 6 correction (RT6-M13): custody and recomputability
+
+**Date of amendment: 2026-11-22. Authority: Red Team
+Round 6, finding RT6-M13.** The audit chain of which
+this record is part is not recomputable from this
+repository alone. The frozen pipeline
+(`pipeline-v2.py`), the ASJP CLDF files, the
+inscription corpus basis, and the example phrases are
+held in campaign custody on tower-compute. As this
+record's own head states them, the audit executed
+"`pipeline-v2.py`, held in the campaign scratch" and
+ran "against the custody data on tower-compute" —
+the CC BY 4.0 inscription corpus, the CC BY /
+CC BY-SA vocabulary sources, and the CC BY 4.0 ASJP
+lists — and §1 registers the 932 distinct example
+phrases "(per-scholar files: Millet, Rilly,
+Kalabsha)"; none of those custody bases is in this
+repository. The OD-15 simulation driver in the same
+chain is likewise held in custody and is not in this
+repository. No number, verdict, or standing changes.

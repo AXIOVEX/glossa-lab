@@ -240,3 +240,24 @@ identical; the only diffs are 3 concept-less exclusions and
 p = 0.824017598240176) and identical full null distributions
 (10,000 draws, count for count); no verdict changed, nothing
 flagged for adjudication.**
+
+## Amendment 2026-11-22 — Round 6 correction (RT6-M13): custody and recomputability
+
+**Date of amendment: 2026-11-22. Authority: Red Team
+Round 6, finding RT6-M13.** The audit chain of which
+this record is part is not recomputable from this
+repository alone. The frozen pipeline
+(`pipeline-v2.py`), the ASJP CLDF files, the
+inscription corpus basis, and the example phrases are
+held in campaign custody on tower-compute. As this
+record's own head states it, the scoring path is
+"`pipeline-v2.py` (campaign scratch on tower-compute,
+SHA-256
+`74b831da221f0708b2c5a9f7e9f1a7772175fe2097783f101d33588769e1642e`)",
+the ASJP CLDF inputs match freeze v2 §4's pins
+exactly, and §5 computes the phonotactic leg "from
+the corpus partition and the example phrases" — none
+of those custody bases is in this repository. The
+OD-15 simulation driver in the same chain is likewise
+held in custody and is not in this repository. No
+number, verdict, or standing changes.
