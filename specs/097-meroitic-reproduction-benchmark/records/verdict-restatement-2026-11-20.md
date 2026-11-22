@@ -1,5 +1,24 @@
 # Meroitic Benchmark — Verdict Restatement (Spec 097)
 
+> **Correction pointer (2026-11-21, Red Team Round 4 —
+> RT4-05):** two statements in this restatement are
+> superseded. (1) The Leg A tally as stated below
+> ("Positively contradicted: 2 counts, plus one Table 2
+> size", and the falsifier paragraph's "A9 is the second
+> positive contradiction") is withdrawn by
+> `records/verdict-tally-correction-2026-11-21.md`: the
+> corrected tally is Exact 4 (A1, A6, A8, A10) /
+> Contradicted 1 (A9) / Untestable 3 (A3, A4, A7) /
+> Basis-unstated 2 (A2, A5) = 10, with the Table 2 size
+> (18 vs 22) stated separately, not as a contradicted
+> count. (2) The Leg B citation form below ("Cited as:
+> internal fixture calibration") is superseded by
+> `records/citation-discipline-record-2026-11-21.md` §2:
+> the mandated form is "fixture internally inconsistent;
+> the leg is not interpretable as calibration". The text
+> below is unedited; cite the verdict in the corrected
+> forms.
+
 **Date: 2026-11-20. This record restates the citation form of
 the Spec 097 benchmark verdict, following the whole-program
 red team of 2026-11-20 (findings F-02 and F-07). The original

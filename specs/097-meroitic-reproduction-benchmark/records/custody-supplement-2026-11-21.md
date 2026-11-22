@@ -68,3 +68,37 @@ record's headline by the same landing as this supplement.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Citation correction (2026-11-21, Red Team Round 4 — RT4-07)
+
+Appended by the Round 4 adjudication; the text above is
+unedited. This supplement's citations to the custody record
+do not resolve and are withdrawn:
+
+- §1 attributes to "the custody record §5" a quoted
+  sentence: "The permission question was raised before
+  this verdict was recorded." The custody record
+  (`records/custody-record-2026-11-20.md`) has §§1–3 only
+  and had §§1–3 only at its creation; the quoted sentence
+  appears in no record. The attribution and the quote are
+  withdrawn. What the custody record does state, in §3, is
+  the send of record: the permission request was sent on
+  2026-11-20, after the verdict restatement record landed
+  (PR #615) — the chronology §1 of this supplement
+  establishes from the PR record, which stands.
+- §2 attributes the objection undertaking to "the custody
+  record §4". There is no §4. The undertaking's substance
+  as the custody record states it is in §1 (if an objection
+  arrives, the custody ends and the affected records are
+  annotated) and §2 (the corpus is never committed, never
+  redistributed, and internal-only; every citation of the
+  benchmark verdict carries the custody caveat in the same
+  sentence until permission lands). Read §2 of this
+  supplement's extension against those sections, as
+  themselves corrected by `records/custody-erratum-2026-11-21.md`
+  (see this supplement's head pointer).
+
+The chronology correction's substance, verified against
+the PR record in earlier rounds, is not impugned by this
+correction; its citation apparatus was unverifiable as
+written, and is now withdrawn and restated.
