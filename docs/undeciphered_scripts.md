@@ -130,7 +130,7 @@ Based on the criteria: *corpus size ≥ 200 inscriptions* · *known or plausible
 |---|---|---|
 | **Active (Tier 5)** | Indus / Harappan | Large corpus (4,000+), Dravidian hypothesis strong, ICIT data held |
 | **Active (Tier 4)** | Linear A | SigLA corpus; Linear B correspondences give partial anchor |
-| **Next target** | Meroitic | Script deciphered (Griffith, 1907–1911; 23 signs, values known); language undeciphered — the honest ceiling of Spec 097's design §1; ~1,200 inscriptions; Nilo-Saharan / Cushitic LMs available |
+| **Next target** | Meroitic | Script deciphered (Griffith, 1907–1911; 23 signs, values known); language undeciphered, with roughly 100 words translatable with some certainty — the honest ceiling of Spec 097's design §1; ~1,200 inscriptions; Nilo-Saharan / Cushitic LMs available |
 | **Next target** | Linear Elamite | Partial decipherment (2022) gives anchor points; ~40 inscriptions |
 | **Future** | Cretan Hieroglyphic | ~300 objects; language unknown but Minoan = likely substrate |
 | **Future** | Rongorongo | ~25 objects; corpus tiny but Polynesian LM excellent |
