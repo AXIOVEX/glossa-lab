@@ -57,8 +57,7 @@ list). "Headline pattern reproduced" is a weaker criterion
 than the frozen one and is never quoted without the two
 sentences above.
 
-## 4. Stage 4.2 — the directional clause and the power
-## statement travel together (RT1-34)
+## 4. Stage 4.2 — the directional clause and the power statement travel together (RT1-34)
 
 The Stage 4.2 outcome record states: "The signal is in the
 direction R1 predicts and below the registered bar." S = 4/12

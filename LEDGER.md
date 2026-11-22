@@ -14373,7 +14373,7 @@ have been known since Griffith (1907–1911); the language has no
 bilingual text and no descendants, and the expected outcome for
 most candidate readings is NOT IDENTIFIABLE, recorded as a
 finding. The benchmark's verdicts (Stages 1–3, as restated
-2026-11-20: Leg A REPRODUCED IN PART / DEPOSIT INCOMPLETE; Leg B fixture internally inconsistent; Leg C pattern reproduced, fixed points not held) stand as scoped and are not reopened.
+2026-11-20: Leg A REPRODUCED IN PART / DEPOSIT INCOMPLETE; Leg B fixture internally inconsistent; Leg C pattern reproduced, fixed points not held) stand as scoped and are not reopened; the corpus behind the benchmark is held under a custody record with no license from its compilers, and this verdict is stated subject to that custody position (custody record, 2026-11-20, §2).
 
 Claims ledger: 1,035 → 1,040 lines; claims 1,004 → 1,009;
 canonical SHA-256 `106cda6e404f77fbb95fadc7e9e215b6dda24cdca137ef995d5dbea07063014f`.
@@ -14395,3 +14395,29 @@ canonical pin refreshed with 14 re-derivations. Ledger gate after
 the refresh: full mode 29 PASS / 0 FAIL / 1 NOT-RUN; --regen mode 32 PASS / 0 FAIL / 0 NOT-RUN.
 Execution venue: tower-compute (owner venue transition,
 2026-11-20).
+
+## 2026-11-21 — Red Team Round 2, Meroitic corrections (Spec 097)
+
+The Stage 4.5 supplement is corrected by a new record
+(`specs/097-meroitic-reproduction-benchmark/records/stage-4-5-supplement-correction-2026-11-21.md`):
+Stages 4.2 and 4.3 computed on the acquired corpus (335-text
+development partition; Stage 4.2 also on the 932 example
+phrases), Stage 4.4 on its held-out partition — the
+supplement's "unaffected / not the acquired corpus" statement
+is withdrawn (RT2-01); the tranche gate is restated to the
+Round 1 adjudication's governing statement exactly, the
+invented custody condition and registered trigger withdrawn,
+the repo gate cited to the send record and the Stage 4.4 record
+(RT2-05 / RT1-12); Rilly is filed as named-not-sent, not a
+non-respondent (RT2-06); the adjudicated waiting-period rule is
+registered (RT1-32). A custody erratum names the undertaking's
+objects (benchmark outcome record, leg-b-results.json,
+leg-c-summary.json) and states the acquired corpus's separate
+licensed basis (RT2-14). A citation-discipline erratum corrects
+A8's basis and the B1 gloss pair's freeze attribution
+(RT2-26). tasks.md cites the landed outcome records and the
+RT1-51 tag (RT2-25). The restated Meroitic verdict sentence
+above (2026-11-20 entry) now carries the custody caveat in the
+same sentence (RT1-28). Adjudication:
+RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
