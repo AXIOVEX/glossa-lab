@@ -113,3 +113,75 @@ text is preserved above. See
 records/slop-check-amendment-2026-11-22.md for the full
 Meroitic slop-check amendment, including the §4 concept-DOI
 imprecision note and the paper corrections prepared.
+
+## 8. Dated addendum, 2026-11-22 (slop-check v2 deposit)
+
+The paper corrections prepared in
+records/slop-check-amendment-2026-11-22.md (flags F1, F2, F3)
+were landed through the deposit chain on 2026-11-22:
+
+- **Step 1 metadata verification (closes the check's 403
+  gap):** Zenodo record 24449454's full metadata was read
+  first-hand through the authenticated deposit/records API.
+  Its description matches the deposited paper's abstract
+  (normalized exact match except the "≥" glyph, which the
+  Zenodo description renders without the symbol), version
+  label "v1", file meroitic-reproduction-benchmark-v1.pdf,
+  and both related identifiers
+  (https://github.com/AXIOVEX/glossa-lab, isSupplementedBy,
+  software; https://axiovexsystems.com/research/glossa-lab/,
+  isDocumentedBy) were confirmed. No material difference
+  from the release record, so the prepared correction set
+  stood unchanged.
+- **F1 (NUMBER, soreyi):** the Stage 4.4 sentence now reads
+  "its development occurrences are wosi-adjacent at a rate
+  of 0.8759 per occurrence (120 of 137); its theonym-set
+  adjacency rate is 0.8832 (121 of 137)."
+- **F2 (CITATION, Otten & Anastasopoulos venue):** the
+  bibliography venue now reads "Proceedings of the Second
+  Workshop on Ancient Language Processing (ALP) at NAACL
+  2025" (ACL Anthology 2025.alp-1.11 form); pages and DOI
+  unchanged.
+- **F3 (CITATION, minor internal, Griffith date range):**
+  the Introduction's "1909--1911" was conformed to
+  "1907--1911", the paper's own dominant form (abstract,
+  scope, and conclusion all read 1907–1911). Basis stated
+  plainly: no Spec 097 record pins a single range; the
+  correction conforms the introduction to the paper's
+  dominant form. No other date was changed.
+- **New version deposit:** record 24450095, DOI
+  10.5281/zenodo.24450095 (concept 10.5281/zenodo.24449061),
+  metadata version label "v2", file
+  meroitic-reproduction-benchmark-v2.pdf (MD5
+  95a1d5b41814ef4b3e97cb095365488b, 219,693 bytes), TeX
+  SHA-256
+  8cf0b56b236476a15d19334a7e0969c276a8ad46ae5798298d480b8a2e3f95de,
+  PDF SHA-256
+  a6c5511344de06d4a90154a5ba7d8ccffd397f515906413dadb33f52511ccd68.
+  The TeX diff against the v1 TeX is exactly the five
+  changes (F1, F2, F3, the "Preprint v1" → "Preprint v2"
+  version labels, and the DOI line to the new version DOI);
+  the abstract is untouched, so the Zenodo description
+  (the abstract) is unchanged and was carried over, as were
+  both related identifiers. Verified by fresh read-back
+  (record id, DOI, label, file name + MD5, identifiers,
+  description) and by DOI resolution. Built on
+  tower-compute (TeX Live 2026, 3 passes, all exit 0).
+- **Academia (work 181628423):** the public page was first
+  captured in full before any edit: exact title; an
+  Abstract section carrying the paper's abstract in full;
+  "Paper details" displaying DOI 10.5281/ZENODO.24449454;
+  the v1 PDF attached (meroitic_reproduction_benchmark_v1.pdf);
+  live links to https://github.com/AXIOVEX/glossa-lab and
+  https://axiovexsystems.com/research/glossa-lab/. The
+  signed-in header (account menu) was judged from the
+  rendered page. The work was then updated in place via
+  the tower desktop route: attachment replaced with the
+  byte-identical v2 PDF, DOI field set to
+  10.5281/zenodo.24450095, both links confirmed present in
+  the edit form; verified on the public page afterward
+  (new DOI displayed, meroitic_reproduction_benchmark_v2.pdf
+  attached, both links live).
+- **ResearchGate:** publication 418214318 still carries
+  the v1 PDF; its update to v2 is BROWSER-REQUIRED and
+  outstanding (not attempted in this run).
