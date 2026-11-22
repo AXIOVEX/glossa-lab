@@ -31,3 +31,17 @@ Headline of the grid, stated before unsealing:
 PAYLOAD VERDICT T103: grid_written=stage1-grid-2026-11-21.json population=70
 (runner exit 0; 21 of 70 signs meet the 5-token floor in expectation)
 ```
+
+## Amendment (2026-11-21, Red Team Round 2) — population 70 → 69
+
+By the M044 adjudication of 2026-11-21 (Spec 091,
+`records/m044-addendum-adjudication-2026-11-21.md`), M044's
+external-support claim was struck and M044 takes class U; it
+therefore leaves this study's population. The population is
+now **69 signs** (Arm E: M047, M124, M329, M330), and the
+multiplicity family for any Stage 2 reporting is 69. M044's
+Stage 1 grid row stands as history: it had one attested token
+and zero canonical-field tokens and faced UNDECIDABLE AT THIS
+POWER at scoring either way, so no Stage 1 result changes. The
+21-of-70 floor figure stands as executed, in expectation, over
+the population as it then was.

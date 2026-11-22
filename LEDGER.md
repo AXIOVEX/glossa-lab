@@ -14441,3 +14441,19 @@ remaining in public git history at 173882a2 (RT2-12). spec.md
 carries dated amendment pointers at §§2–3 (RT2-24).
 Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 2, Spec 098 corrections
+
+The Stage 2 design note is corrected by a new record
+(`specs/098-identifiability-over-the-65/records/stage-2-design-note-correction-2026-11-21.md`):
+the frozen bar is conjunctive — penalized margin at least 10
+nats over the best rival, the penalty at 2 nats per free choice
+charged to candidates and rivals alike, AND the margin above
+the permutation null's 99th percentile (B = 999, seed 9801);
+the floor figure is 21 of 70 in expectation; Stage 2 has not
+run and nothing downstream is contaminated (RT2-03). The
+execution freeze annex carries the population amendment
+(70 → 69) consequent on the M044 adjudication, and freeze v1
+carries the head population pointer (71 → 70 → 69) (RT1-17).
+Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
