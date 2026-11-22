@@ -14840,7 +14840,13 @@ the record (its create body is not filed in this repo; the
 platform read route stands as this ledger's open
 verification note states), and the adjudication record
 carries the supersession note for it. Execution venue:
-tower-compute.
+tower-compute. PR #662. CI on the substance head f7922c87:
+10/10 per job — Backend tests (pytest), Cloud image smoke
+(Spec 083), Evidence Graph script smoke tests, Freeze gate
+records check (C4), Frontend tests (Playwright), Indus
+public validation checks, Ledger/matrix/map equivalence
+gate, Shell wrappers (macos-latest, ubuntu-latest,
+windows-latest) — all success.
 
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
