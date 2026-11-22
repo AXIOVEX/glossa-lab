@@ -4,7 +4,7 @@
  "version": "1.0 (Stage 1, 2026-11-21)",
  "sources": {
   "bases": "coscientist-audit-94 package appendix (APPENDIX-94.md), the basis text as filed from the register",
-  "standings": "specs/091-anchor-comparison-integrity/records/standings-relabel-execution-2026-11-21.md (executed classes and Q4 flags), as amended by its Round 2 amendment (M044 to class U; records/m044-addendum-adjudication-2026-11-21.md)",
+  "standings": "specs/091-anchor-comparison-integrity/records/standings-relabel-execution-2026-11-21.md (executed classes and Q4 flags), as amended by its Round 2 amendment (M044 to class U; records/m044-addendum-adjudication-2026-11-21.md) and its F-9 amendment (M047 to class U; records/f9-itemization-adjudication-2026-11-22.md)",
   "annotations": "standings-supplement-2026-11-21.md; dependency-record-2026-11-21.md; coscientist-audit-94-adjudication-2026-11-21.md (status notes only)"
  },
  "edge_census": {
@@ -54,7 +54,7 @@
   {
    "sign": "M047",
    "reading": "min/mīn",
-   "executed_class": "E",
+   "executed_class": "U",
    "q4_flag": "A",
    "basis_as_filed": "Basis as recorded: FACT-CHECK CORRECTION 2026-05-11: Distributional assignment 'par' (LOW, Round 2) overridden by crosswalk evidence. M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan ; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, EXTERNAL_CORROBORATION); Tests filed: drawing, phonetic_value, meaning",
    "items": [
@@ -74,7 +74,7 @@
      "statement": "crosswalk identity: M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan)",
      "basis_span": "M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan",
      "targets": [],
-     "status_note": "an identity at most, never a value: the identity rests on catalogue correspondence between the two sign lists, not on this reading (spec section 3.3); the basis as filed truncates mid-clause at this item. Re-verification outcome: VERIFIED AS FILED, provenance only (relabel execution record)"
+     "status_note": "an identity at most, never a value: the identity rests on catalogue correspondence between the two sign lists, not on this reading (spec section 3.3); the basis as filed truncates mid-clause at this item. Re-verification outcome: VERIFIED AS FILED, provenance only (relabel execution record). F-9 act (2026-11-22): the owner adopted the itemization test; the directed re-examination entered no published_proposal item for this entry (the filed basis states no published proposal of the value; records/f9-itemization-adjudication-2026-11-22.md), no internal motivation for the reading remains on the filed basis, and the reading takes class U; this log's executed class follows the amended standings"
     }
    ],
    "entry_notes": []
