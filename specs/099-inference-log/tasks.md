@@ -23,19 +23,19 @@
 
 ## Stage 1 — The log
 
-- [ ] T101 — Builder assembles the 94 entries from the
+- [x] T101 — Builder assembles the 94 entries from the
       appendix rows, the standings record, and the
       falsifiers annex; extraction proposes items over the
       checkable families.
-- [ ] T102 — Every item typed by reading its basis clause;
+- [x] T102 — Every item typed by reading its basis clause;
       every (b) item verified against the filed basis text;
       ambiguous items recorded with reasons; status notes
       applied from the landed records (withdrawn, FAILED,
       struck).
-- [ ] T103 — TC-099-01 over all 94 rows (schema validation,
+- [x] T103 — TC-099-01 over all 94 rows (schema validation,
       full mode) and TC-099-02 over the real bases against
       the real log; payload verdicts recorded.
-- [ ] T104 — The log lands by PR: the JSON record and its
+- [x] T104 — The log lands by PR: the JSON record and its
       generated human-readable rendering; the edge census
       stated in the PR record.
 

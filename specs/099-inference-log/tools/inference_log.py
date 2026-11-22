@@ -219,7 +219,9 @@ def basis_elements(basis: str, own_sign: str) -> list[dict]:
         add("self_assertion", "pdr", "has specific PDR reading")
     for m in re.finditer(r"mentions across sources:\s*([^)]+)\)", basis):
         add("published_mentions", m.group(1).strip(), m.group(0))
-    if "crosswalk" in basis.lower():
+    if "mahadevan_parpola_crosswalk" in basis or (
+        "crosswalk evidence" in basis
+    ):
         add("crosswalk", "crosswalk", "crosswalk")
     return out
 
