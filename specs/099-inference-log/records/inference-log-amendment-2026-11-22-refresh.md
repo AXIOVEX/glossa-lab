@@ -72,3 +72,19 @@ unrepaired.
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.
+
+
+## Amendment: the M329 annotation corrected (2026-11-22)
+
+The annotation at change 2 above states that M329's
+class rests on the DEDR entry as repaired and the
+Elamite leg as filed. The re-verification remainder
+(PR #684, section 6) has since checked the Elamite leg
+and found it does not support the reading. The text
+above stands as filed; the correction is appended to
+the log's annotation itself and recorded in full at
+`records/inference-log-amendment-2026-11-22-remainder.md`:
+M329's class E rests on the repaired DEDR 4570 item
+alone; the Elamite leg stands checked and does not
+support the reading; the pura leg failed. No class
+change.

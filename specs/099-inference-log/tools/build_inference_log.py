@@ -430,6 +430,22 @@ def _(b):
             item["status_note"] = (
                 "re-verification: PARTIALLY VERIFIED (the DEDR legs "
                 "check out as filed)")
+    b.add("published_proposal", "a",
+          "the reading is filed as sourced from the literature "
+          "(Parpola_1994_via_phase51)",
+          "Source as recorded: Parpola_1994_via_phase51",
+          status_note="the audit counted a LITERATURE evidence "
+                      "line for this reading, for which the log "
+                      "entered no item until this amendment. The "
+                      "outside-proposal leg is NOT VERIFIABLE: "
+                      "Parpola nowhere proposes a kuTam or "
+                      "waterpot reading for any sign; the strings "
+                      "kutam, ku\u1e6dam, kudam and waterpot occur "
+                      "zero times in the whole of Parpola 1994 and "
+                      "of Parpola 2010 (whole-book negative, "
+                      "subject to the OCR limit on the held 1994 "
+                      "scan) (re-verification remainder "
+                      "2026-11-22, section 8)")
 
 
 @curate("M329")
@@ -447,7 +463,17 @@ def _(b):
                      "pura leg failed and contributes nothing to "
                      "the basis; the class rests on the DEDR entry "
                      "as repaired (I-4) and the Elamite leg as "
-                     "filed")
+                     "filed. Correction (2026-11-22, OD-4 remainder "
+                     "completions): the Elamite leg has since been "
+                     "checked and does not support the reading "
+                     "(re-verification remainder, section 6: pur is "
+                     "attested 'fingernail' and 'circle'; bur is "
+                     "unattested in the reachable compilations), "
+                     "and the statement is corrected accordingly: "
+                     "M329's class E rests on the repaired DEDR "
+                     "4570 item alone; the Elamite leg stands "
+                     "checked and does not support the reading; the "
+                     "pura leg failed. No class change")
     for item in b.items:
         if item["kind"] == "dictionary_entry":
             item["statement"] = item["statement"].replace(
@@ -477,9 +503,36 @@ def _(b):
                      "and the reading reclassed U (relabel "
                      "execution record, section 4)")
     _su_slot(b)
+    b.add("comparative_lexical", "a",
+          "external corroboration as produced in full from the "
+          "upstream filed record (reports/"
+          "phase108_anchor_trails.json): dual external "
+          "corroboration — Elamite 'an' (MC-07) + Sanskrit "
+          "'annam/anna' (SL-03)",
+          "Phase-276: dual external corroborati",
+          status_note="the basis as filed truncates the segment; "
+                      "the full line stands produced from the "
+                      "upstream record the basis rows were "
+                      "extracted from, read first-hand in the "
+                      "re-verification remainder (2026-11-22, "
+                      "section 2); the basis as filed is not "
+                      "rewritten. The legs as checked in the "
+                      "remainder: Elamite 'an' (MC-07) RETIRED "
+                      "(section 6: no standalone Elamite lexeme "
+                      "an is attested in the reachable "
+                      "compilations and the code names no "
+                      "publication); Sanskrit 'annam/anna' "
+                      "(SL-03) checked and does not support "
+                      "(section 5: Monier-Williams anna, 'food "
+                      "or victuals, especially boiled rice', has "
+                      "no connection to the value 'can', to a "
+                      "sibilant, or to the /su/ slot)")
     b.note("the Phase-276 segment is truncated in the basis as "
-           "filed ('dual external corroborati'); its legs are "
-           "not stated and no items are entered for it")
+           "filed ('dual external corroborati'); the full line "
+           "stands produced from reports/"
+           "phase108_anchor_trails.json and is entered as an "
+           "item above (re-verification remainder 2026-11-22, "
+           "sections 2, 5 and 6)")
 
 
 @curate("M330")
@@ -491,9 +544,39 @@ def _(b):
                      "weaker than a contradiction from a clean "
                      "text (relabel execution record)")
     _su_slot(b)
+    b.add("comparative_lexical", "a",
+          "external corroboration as produced in full from the "
+          "upstream filed record (reports/"
+          "phase108_anchor_trails.json): dual external "
+          "corroboration — Elamite 'an' (MC-07) + Sanskrit "
+          "'annam/anna' (SL-03)",
+          "Phase-276: dual external corroboration — Elamit",
+          status_note="the basis as filed truncates the segment; "
+                      "the full line stands produced from the "
+                      "upstream record the basis rows were "
+                      "extracted from, read first-hand in the "
+                      "re-verification remainder (2026-11-22, "
+                      "section 2); the basis as filed is not "
+                      "rewritten. The legs as checked in the "
+                      "remainder: Elamite 'an' (MC-07) RETIRED "
+                      "(section 6: no standalone Elamite lexeme "
+                      "an is attested in the reachable "
+                      "compilations and the code names no "
+                      "publication); Sanskrit 'annam/anna' "
+                      "(SL-03) checked and does not support "
+                      "(section 5: Monier-Williams anna, 'food "
+                      "or victuals, especially boiled rice', has "
+                      "no connection to the value 'can', to a "
+                      "sibilant, or to the /su/ slot). The legs "
+                      "neither carry nor strike this entry's "
+                      "class E, which rests on item M330-01 "
+                      "(remainder, section 5)")
     b.note("the Phase-276 segment is truncated in the basis as "
-           "filed ('dual external corroboration — Elamit'); its "
-           "legs are not stated and no items are entered for it")
+           "filed ('dual external corroboration — Elamit'); the "
+           "full line stands produced from reports/"
+           "phase108_anchor_trails.json and is entered as an "
+           "item above (re-verification remainder 2026-11-22, "
+           "sections 2, 5 and 6)")
 
 
 @curate("M165")
