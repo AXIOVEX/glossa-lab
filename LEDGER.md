@@ -14811,6 +14811,7 @@ Shell wrappers (macos-latest, ubuntu-latest,
 windows-latest) — all success. Adjudication:
 RED-TEAM-ROUND-5-ADJUDICATION.md (goal record). Execution
 venue: tower-compute.
+<<<<<<< HEAD
 ## 2026-11-22 — Spec 096 adjudicated: the four Eteocypriot verdicts as proposed
 
 The adjudication outstanding since 2026-11-20 is
@@ -14851,3 +14852,24 @@ windows-latest) — all success.
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI. The adjudication act is the owner's.
+=======
+
+## 2026-11-22 — Spec 096: ICS 196 edition-verification ILL request placed (F-3)
+
+The closing act named by the ICS 196 custody correction of
+2026-11-21 is executed: an interlibrary-loan portion-copy
+request for Masson, Les inscriptions chypriotes syllabiques
+(2nd ed. 1983), pp. 206-209 (inscription no. 196, the Amathus
+bilingual), plus the plate reproducing the Sittig 1914
+photograph if the volume carries it, was sent 2026-11-22 to
+Natalie Smith, Oakland University ILL (the programs
+off-system route via Springfield Township Library), on the
+precedent terms (private non-commercial research, no
+redistribution, max USD 25 with patron confirmation above
+that, no deadline), and verified exactly once from the Sent
+record. Record:
+specs/096-eteocypriot-program/records/ics196-ill-request-2026-11-22.md.
+The custody status stands as corrected until the material
+arrives and the verification is recorded. Execution venue:
+tower-compute.
+>>>>>>> origin/main
