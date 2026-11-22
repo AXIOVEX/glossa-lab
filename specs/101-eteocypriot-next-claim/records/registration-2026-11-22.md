@@ -111,7 +111,7 @@ above reads true end to end:
    24 → 25 (`test_program_map_conformance.py`); and the
    gate's own evidence pins, map edge census supports
    1,548 → 1,552 and program-map study nodes 101 → 102
-   (`test_spec086_ledger_gate.py`).
+   (`test_spec086_ledger_gate.py`); and the two frontend e2e census texts, 1,032 -> 1,036 claims (`frontend/e2e/system-graph.spec.ts`, `frontend/e2e/researcher-dashboard.spec.ts`), caught by the landing pull request's first CI run and fixed in the same landing.
 3. **Departure acts appended.** The three superseded
    settling records named in §2 departed the run store
    in this landing; their departure acts were appended
