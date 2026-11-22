@@ -1,0 +1,3648 @@
+{
+ "artifact": "inference-log",
+ "spec": "099-inference-log",
+ "version": "1.0 (Stage 1, 2026-11-21)",
+ "sources": {
+  "bases": "coscientist-audit-94 package appendix (APPENDIX-94.md), the basis text as filed from the register",
+  "standings": "specs/091-anchor-comparison-integrity/records/standings-relabel-execution-2026-11-21.md (executed classes and Q4 flags), as amended by its Round 2 amendment (M044 to class U; records/m044-addendum-adjudication-2026-11-21.md)",
+  "annotations": "standings-supplement-2026-11-21.md; dependency-record-2026-11-21.md; coscientist-audit-94-adjudication-2026-11-21.md (status notes only)"
+ },
+ "edge_census": {
+  "a": 213,
+  "b": 61,
+  "ambiguous": 25
+ },
+ "entries": [
+  {
+   "sign": "M044",
+   "reading": "ku",
+   "executed_class": "U",
+   "q4_flag": "M",
+   "basis_as_filed": "Basis as recorded: ; Phase-276: dual external corroboration — Elamite 'kun' (MC-18) + Sanskrit 'kona' (SL-04) + DEDR 1638; Source as recorded: Phase-83 gap sprint; Dictionary reference as recorded: 1638; Evidence lines the audit counted as independent: 3 (CROSSWALK_CORPUS, DEDR, EXTERNAL_CORROBORATION); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M044-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1638 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: 1638",
+     "targets": [],
+     "status_note": "DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings"
+    },
+    {
+     "id": "M044-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration leg: Elamite 'kun' (MC-18)",
+     "basis_span": "Elamite 'kun' (MC-18)",
+     "targets": []
+    },
+    {
+     "id": "M044-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration leg: Sanskrit 'kona' (SL-04)",
+     "basis_span": "Sanskrit 'kona' (SL-04)",
+     "targets": []
+    },
+    {
+     "id": "M044-04",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "external corroboration leg: DEDR 1638",
+     "basis_span": "DEDR 1638",
+     "targets": [],
+     "status_note": "DEDR 1638 FAILS in the restored tree (entry 1638 = kucukucu; register reconciliation 2026-11-21, PR #645 DEDR pass). Adjudicated under the addendum rule on 2026-11-21 (records/m044-addendum-adjudication-2026-11-21.md, Red Team Round 2 finding RT2-02): the DEDR leg is struck, no leg stands verified as filed, no basis remains, and the reading takes class U; this log's executed class follows the amended standings"
+    }
+   ],
+   "entry_notes": [
+    "the basis-as-recorded segment is empty as filed ('Basis as recorded: ;'); the Phase-276 segment carries the filed legs",
+    "the audit's evidence lines count a CROSSWALK_CORPUS line for this reading, but no crosswalk step is stated in the basis text as filed"
+   ]
+  },
+  {
+   "sign": "M047",
+   "reading": "min/mīn",
+   "executed_class": "E",
+   "q4_flag": "A",
+   "basis_as_filed": "Basis as recorded: FACT-CHECK CORRECTION 2026-05-11: Distributional assignment 'par' (LOW, Round 2) overridden by crosswalk evidence. M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan ; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, EXTERNAL_CORROBORATION); Tests filed: drawing, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M047-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "distributional assignment 'par' (LOW, Round 2), overridden within the filed basis by the crosswalk evidence",
+     "basis_span": "Distributional assignment 'par' (LOW, Round 2) overridden by crosswalk evidence.",
+     "targets": [],
+     "status_note": "superseded within the filed basis by the 2026-05-11 fact-check correction"
+    },
+    {
+     "id": "M047-02",
+     "kind": "crosswalk_identity",
+     "type": "a",
+     "statement": "crosswalk identity: M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan)",
+     "basis_span": "M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan",
+     "targets": [],
+     "status_note": "an identity at most, never a value: the identity rests on catalogue correspondence between the two sign lists, not on this reading (spec section 3.3); the basis as filed truncates mid-clause at this item. Re-verification outcome: VERIFIED AS FILED, provenance only (relabel execution record)"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M124",
+   "reading": "kuTam",
+   "executed_class": "E",
+   "q4_flag": "M",
+   "basis_as_filed": "Basis as recorded: ; Phase-276: dual external corroboration — Elamite 'kun' (MC-18) + Sanskrit 'kona' (SL-04) + DEDR 1651; Source as recorded: Parpola_1994_via_phase51; Dictionary reference as recorded: 1651; Gloss as recorded: pot / jar; Evidence lines the audit counted as independent: 4 (CROSSWALK_CORPUS, DEDR, EXTERNAL_CORROBORATION, LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M124-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1651 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: 1651",
+     "targets": [],
+     "status_note": "re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed)"
+    },
+    {
+     "id": "M124-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration leg: Elamite 'kun' (MC-18)",
+     "basis_span": "Elamite 'kun' (MC-18)",
+     "targets": [],
+     "status_note": "leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only)"
+    },
+    {
+     "id": "M124-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration leg: Sanskrit 'kona' (SL-04)",
+     "basis_span": "Sanskrit 'kona' (SL-04)",
+     "targets": [],
+     "status_note": "leg inherited from M044's Phase-276 package; the adjudication records that the reuse does not derive kuTam. Re-verification: PARTIALLY VERIFIED (DEDR legs only)"
+    },
+    {
+     "id": "M124-04",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "external corroboration leg: DEDR 1651",
+     "basis_span": "DEDR 1651",
+     "targets": [],
+     "status_note": "re-verification: PARTIALLY VERIFIED (the DEDR legs check out as filed)"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M202",
+   "reading": "can",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Phase-163 sibilant discovery: reading 'can' found in literature (4 mentions across sources: Mahadevan_2009_vestiges). Provides partial coverage for Shu-ilishu /su/ phonological slot.; Phase-276: dual external corroborati; Source as recorded: Phase-111; Evidence lines the audit counted as independent: 3 (CROSSWALK_CORPUS, EXTERNAL_CORROBORATION, LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M202-01",
+     "kind": "published_proposal",
+     "type": "a",
+     "statement": "the reading is filed as found in the literature (4 mentions across sources: Mahadevan_2009_vestiges)",
+     "basis_span": "reading 'can' found in literature (4 mentions across sources: Mahadevan_2009_vestiges)",
+     "targets": [],
+     "status_note": "CONTRADICTED on re-verification: Mahadevan 2009 (Vestiges) contains no 'can' reading; the claim was struck under the addendum rule and the reading reclassed U (relabel execution record, section 4)"
+    },
+    {
+     "id": "M202-02",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the reading is filed as providing partial coverage for the Shu-ilishu /su/ phonological slot",
+     "basis_span": "Provides partial coverage for Shu-ilishu /su/ phonological slot.",
+     "targets": [],
+     "reason": "the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system",
+     "target_note": "the basis names the slot but no reading as its premise"
+    }
+   ],
+   "entry_notes": [
+    "the Phase-276 segment is truncated in the basis as filed ('dual external corroborati'); its legs are not stated and no items are entered for it"
+   ]
+  },
+  {
+   "sign": "M329",
+   "reading": "poṉ",
+   "executed_class": "E",
+   "q4_flag": "M",
+   "basis_as_filed": "Basis as recorded: Round 5: MEDIAL position (freq=5), distributional assignment; Phase-276: dual external corroboration — Elamite 'bur/pur' (MC-21) + Sanskrit 'pura' (SL-14) + DEDR 4524; Dictionary reference as recorded: 4524; Gloss as recorded: gold, precious; personal name; Evidence lines the audit counted as independent: 4 (CROSSWALK_CORPUS, DEDR, EXTERNAL_CORROBORATION, GRAMMAR); Tests filed: distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M329-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: MEDIAL position, frequency 5, distributional assignment",
+     "basis_span": "Round 5: MEDIAL position (freq=5), distributional assignment",
+     "targets": []
+    },
+    {
+     "id": "M329-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4524 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: 4524",
+     "targets": [],
+     "status_note": "the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment)"
+    },
+    {
+     "id": "M329-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration leg: Elamite 'bur/pur' (MC-21)",
+     "basis_span": "Elamite 'bur/pur' (MC-21)",
+     "targets": []
+    },
+    {
+     "id": "M329-04",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "external corroboration leg: Sanskrit 'pura' (SL-14)",
+     "basis_span": "Sanskrit 'pura' (SL-14)",
+     "targets": [],
+     "status_note": "FAILS on its checkable part: Sanskrit pura means stronghold/city, not gold (re-verification record). The claim stands in E under the addendum: PARTIALLY VERIFIED, the dictionary leg checks out as filed and the remaining legs are not contradicted in their named sources"
+    },
+    {
+     "id": "M329-05",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "external corroboration leg: DEDR 4524",
+     "basis_span": "DEDR 4524",
+     "targets": [],
+     "status_note": "the DEDR leg is verified at the print entry cited; the restored tree's entry 4524 is a different entry and the numbering divergence is unresolved (register reconciliation section (c); relabel execution record, Round 2 amendment)"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M330",
+   "reading": "can",
+   "executed_class": "E",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Phase-163 sibilant discovery: reading 'can' found in literature (4 mentions across sources: Parpola_1994). Provides partial coverage for Shu-ilishu /su/ phonological slot.; Phase-276: dual external corroboration — Elamit; Source as recorded: Phase-111; Evidence lines the audit counted as independent: 3 (CROSSWALK_CORPUS, EXTERNAL_CORROBORATION, LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M330-01",
+     "kind": "published_proposal",
+     "type": "a",
+     "statement": "the reading is filed as found in the literature (4 mentions across sources: Parpola_1994)",
+     "basis_span": "reading 'can' found in literature (4 mentions across sources: Parpola_1994)",
+     "targets": [],
+     "status_note": "NOT VERIFIABLE from lawfully reachable material: the held Parpola 1994 text is an OCR scan, and a negative result from it is weaker than a contradiction from a clean text (relabel execution record)"
+    },
+    {
+     "id": "M330-02",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the reading is filed as providing partial coverage for the Shu-ilishu /su/ phonological slot",
+     "basis_span": "Provides partial coverage for Shu-ilishu /su/ phonological slot.",
+     "targets": [],
+     "reason": "the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system",
+     "target_note": "the basis names the slot but no reading as its premise"
+    }
+   ],
+   "entry_notes": [
+    "the Phase-276 segment is truncated in the basis as filed ('dual external corroboration — Elamit'); its legs are not stated and no items are entered for it"
+   ]
+  },
+  {
+   "sign": "M002",
+   "reading": "kuṉ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 1694 injected + existing evidence → HIGH; Dictionary reference as recorded: 1694; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M002-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 16, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16)",
+     "targets": []
+    },
+    {
+     "id": "M002-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M002-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1694 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 1694 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M004",
+   "reading": "kēḷ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M004-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M004-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M004-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M005",
+   "reading": "kōṉ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); HIGH-anchor collocate M342 (n=4); has specific PDR reading; Phase-272: DEDR 2199 injected + existing evidence → HIG; Dictionary reference as recorded: 2199; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M005-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 15, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15)",
+     "targets": []
+    },
+    {
+     "id": "M005-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M005-03",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=4",
+     "basis_span": "HIGH-anchor collocate M342 (n=4)",
+     "targets": []
+    },
+    {
+     "id": "M005-04",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "HIGH-anchor collocate M342 (n=4)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M005-05",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 2199 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 2199 injected + existing evidence → HIG",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M006",
+   "reading": "puli",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to tiger seals (lift > 5.0); PDR puli = tiger; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M006-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to tiger seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to tiger seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M006-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr puli = tiger (the motif's lexical counterpart)",
+     "basis_span": "PDR puli = tiger",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M007",
+   "reading": "aaL",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: ; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 4 trade/zebu seals; Source as recorded: Phase-89 systematic DEDR (ICON, HIGH); Dictionary reference as recorded: DEDR 0340; Gloss as recorded: person; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, DEDR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M007-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'akatti' = agate (DEDR 7)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 4 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M007-02",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign appears on 4 trade/zebu seals",
+     "basis_span": "appears on 4 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M007-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 340 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 0340",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the basis carries two dictionary references that do not agree: the Phase-255 corroboration cites DEDR 7 (PDr 'akatti' = agate, a commodity claim that does not state this reading's own gloss) and the dictionary-reference segment records DEDR 0340 (gloss as recorded: person). Both are entered as filed; the disagreement is recorded, not resolved"
+   ]
+  },
+  {
+   "sign": "M009",
+   "reading": "āṇ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 367 injected + existing evidence → HIGH; Dictionary reference as recorded: 367; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M009-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 16, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16)",
+     "targets": []
+    },
+    {
+     "id": "M009-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M009-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 367 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 367 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M010",
+   "reading": "paṭ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, GRAMMAR); Tests filed: distribution, meaning",
+   "items": [
+    {
+     "id": "M010-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M010-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M010-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'akatti' = agate (DEDR 7)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7)",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-255 segment truncates in the basis as filed at 'appears'; the seal-count clause is not completed and no motif item is entered for it"
+   ]
+  },
+  {
+   "sign": "M013",
+   "reading": "nakaram",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to gharial seals (lift > 5.0); PDR nakaram = crocodile/makara; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M013-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to gharial seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to gharial seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M013-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr nakaram = crocodile/makara (the motif's lexical counterpart)",
+     "basis_span": "PDR nakaram = crocodile/makara",
+     "targets": []
+    },
+    {
+     "id": "M013-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M014",
+   "reading": "tiru",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M014-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M014-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M014-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M015",
+   "reading": "mā",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading; Phase-272: DEDR 4796 injected + existing evidence → HIGH; Dictionary reference as recorded: 4796; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M015-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 15, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15)",
+     "targets": []
+    },
+    {
+     "id": "M015-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M015-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4796 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 4796 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M016",
+   "reading": "kaḷiṟu",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to elephant seals (lift > 5.0); PDR kaḷiṟu = male elephant; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M016-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to elephant seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to elephant seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M016-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr kaḷiṟu = male elephant (the motif's lexical counterpart)",
+     "basis_span": "PDR kaḷiṟu = male elephant",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M017",
+   "reading": "kai",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M017-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 18, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18)",
+     "targets": []
+    },
+    {
+     "id": "M017-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M017-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M018",
+   "reading": "nēr",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M018-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 18, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18)",
+     "targets": []
+    },
+    {
+     "id": "M018-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M018-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M020",
+   "reading": "kuṉ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M020-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 18, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18)",
+     "targets": []
+    },
+    {
+     "id": "M020-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M020-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M023",
+   "reading": "vaḷ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, GRAMMAR); Tests filed: distribution, meaning",
+   "items": [
+    {
+     "id": "M023-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 16, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16)",
+     "targets": []
+    },
+    {
+     "id": "M023-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M023-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'akatti' = agate (DEDR 7)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7)",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-255 segment truncates in the basis as filed at 'appears'; the seal-count clause is not completed and no motif item is entered for it"
+   ]
+  },
+  {
+   "sign": "M025",
+   "reading": "cem",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-255: commodity phoneme corroboration — matches PDr 'cempu'=copper (DEDR 2781), appe; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, GRAMMAR); Tests filed: distribution, meaning",
+   "items": [
+    {
+     "id": "M025-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M025-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M025-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'cempu' = copper (DEDR 2781)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'cempu'=copper (DEDR 2781)",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-255 segment truncates in the basis as filed at 'appe'; the seal-count clause is not completed and no motif item is entered for it"
+   ]
+  },
+  {
+   "sign": "M026",
+   "reading": "mā",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M026-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M026-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M026-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M027",
+   "reading": "māṟ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M027-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M027-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M027-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M029",
+   "reading": "yānai",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 3: INITIAL position (freq=11), distributional assignment [Phase-216: SA-cons=0.17 DEDR✓ source=Parpola 1994+]; Source as recorded: Parpola 1994+; Evidence lines the audit counted as independent: 2 (GRAMMAR, LITERATURE); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M029-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 11, distributional assignment",
+     "basis_span": "Round 3: INITIAL position (freq=11), distributional assignment",
+     "targets": []
+    },
+    {
+     "id": "M029-02",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.17",
+     "basis_span": "[Phase-216: SA-cons=0.17 DEDR✓ source=Parpola 1994+]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M030",
+   "reading": "kō",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); HIGH-anchor collocate M342 (n=4); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M030-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 18, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18)",
+     "targets": []
+    },
+    {
+     "id": "M030-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M030-03",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=4",
+     "basis_span": "HIGH-anchor collocate M342 (n=4)",
+     "targets": []
+    },
+    {
+     "id": "M030-04",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "HIGH-anchor collocate M342 (n=4)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M030-05",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M032",
+   "reading": "koL",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-89 systematic DEDR (ICON, MEDIUM); Dictionary reference as recorded: DEDR 2173; Gloss as recorded: take/hold; Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M032-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M032-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 2173 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 2173",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M034",
+   "reading": "tōḷ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M034-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M034-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M034-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M037",
+   "reading": "kēḷ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M267 (n=4); has specific PDR reading; Phase-272: DEDR 2017 injected + existing evidence → HIG; Dictionary reference as recorded: 2017; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M037-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 16, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16)",
+     "targets": []
+    },
+    {
+     "id": "M037-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M037-03",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M267: n=4",
+     "basis_span": "HIGH-anchor collocate M267 (n=4)",
+     "targets": []
+    },
+    {
+     "id": "M037-04",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M267 as a HIGH anchor",
+     "basis_span": "HIGH-anchor collocate M267 (n=4)",
+     "targets": [
+      "M267"
+     ],
+     "reason": "the premise is M267 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M037-05",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 2017 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 2017 injected + existing evidence → HIG",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M038",
+   "reading": "pōr",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 4605 injected + existing evidence → HIGH; Dictionary reference as recorded: 4605; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M038-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M038-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M038-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4605 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 4605 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M041",
+   "reading": "pēr",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M041-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M041-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M041-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M045",
+   "reading": "yānai",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to elephant seals (lift > 5.0); PDR yānai = elephant; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M045-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to elephant seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to elephant seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M045-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr yānai = elephant (the motif's lexical counterpart)",
+     "basis_span": "PDR yānai = elephant",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M049",
+   "reading": "pu",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-80 DEDR rebus (puL = DEDR 4349); Dictionary reference as recorded: DEDR 4349; Gloss as recorded: fish+mark -> puL (bird/mark on fish); Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M049-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M049-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4349 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 4349",
+     "targets": []
+    },
+    {
+     "id": "M049-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: fish+mark -> puL (bird/mark on fish)",
+     "basis_span": "Gloss as recorded: fish+mark -> puL (bird/mark on fish)",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M050",
+   "reading": "pār",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 4084 injected + existing evidence → HIGH; Dictionary reference as recorded: 4084; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M050-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M050-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M050-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4084 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 4084 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M051",
+   "reading": "pū/puḷ",
+   "executed_class": "I",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Comb/flower sign; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (ICONOGRAPHIC); Tests filed: drawing, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M051-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "comb/flower sign, read pu/pul",
+     "basis_span": "Comb/flower sign",
+     "targets": []
+    },
+    {
+     "id": "M051-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M052",
+   "reading": "ta",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-80 DEDR rebus (taNal = DEDR 3036); Dictionary reference as recorded: DEDR 3036; Gloss as recorded: fish+stroke -> taNal (mark on fish); Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M052-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M052-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 3036 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 3036",
+     "targets": []
+    },
+    {
+     "id": "M052-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: fish+stroke -> taNal (mark on fish)",
+     "basis_span": "Gloss as recorded: fish+stroke -> taNal (mark on fish)",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M053",
+   "reading": "mi",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-80 DEDR rebus (miiN = DEDR 4839)]; Source as recorded: Phase-80 DEDR rebus (miiN = DEDR 4839); Dictionary reference as recorded: DEDR 4839; Gloss as recorded: fish variant -> miiN (fish variant); Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M053-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.17",
+     "basis_span": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-80 DEDR rebus (miiN = DEDR 4839)]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M053-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4839 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 4839",
+     "targets": []
+    },
+    {
+     "id": "M053-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: fish variant -> miiN (fish variant)",
+     "basis_span": "Gloss as recorded: fish variant -> miiN (fish variant)",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M054",
+   "reading": "mi",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-80 DEDR rebus (miiNDu = DEDR 4855)]; Source as recorded: Phase-80 DEDR rebus (miiNDu = DEDR 4855); Dictionary reference as recorded: DEDR 4855; Gloss as recorded: fish+two -> miiNDu (fish again); Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M054-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.17",
+     "basis_span": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-80 DEDR rebus (miiNDu = DEDR 4855)]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M054-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4855 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 4855",
+     "targets": []
+    },
+    {
+     "id": "M054-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: fish+two -> miiNDu (fish again)",
+     "basis_span": "Gloss as recorded: fish+two -> miiNDu (fish again)",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M055",
+   "reading": "miN3",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-89 systematic DEDR (ICON, MEDIUM)]; Source as recorded: Phase-89 systematic DEDR (ICON, MEDIUM); Dictionary reference as recorded: DEDR 4826; Gloss as recorded: fish+3; Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M055-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.17",
+     "basis_span": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-89 systematic DEDR (ICON, MEDIUM)]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M055-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4826 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 4826",
+     "targets": []
+    },
+    {
+     "id": "M055-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: fish+3",
+     "basis_span": "Gloss as recorded: fish+3",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M057",
+   "reading": "māṭu",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to zebu bull seals (lift > 5.0); PDR māṭu = cattle; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M057-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to zebu bull seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to zebu bull seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M057-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr māṭu = cattle (the motif's lexical counterpart)",
+     "basis_span": "PDR māṭu = cattle",
+     "targets": []
+    },
+    {
+     "id": "M057-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M060",
+   "reading": "kāṇṭāmirukam",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to rhinoceros seals (lift > 5.0); PDR kāṇṭāmirukam = rhinoceros (horn-beast); Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M060-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to rhinoceros seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to rhinoceros seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M060-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr kāṇṭāmirukam = rhinoceros (horn-beast) (the motif's lexical counterpart)",
+     "basis_span": "PDR kāṇṭāmirukam = rhinoceros (horn-beast)",
+     "targets": []
+    },
+    {
+     "id": "M060-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M061",
+   "reading": "ka",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.25✓ DEDR✓]; Source as recorded: Phase-80 DEDR rebus (kaNan = DEDR 1166); Dictionary reference as recorded: DEDR 1166; Gloss as recorded: bull+sign -> kaNan (bull+marker); Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M061-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.25",
+     "basis_span": "[Phase-116 recal: SA-cons=0.25✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M061-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1166 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 1166",
+     "targets": []
+    },
+    {
+     "id": "M061-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: bull+sign -> kaNan (bull+marker)",
+     "basis_span": "Gloss as recorded: bull+sign -> kaNan (bull+marker)",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M062",
+   "reading": "erutu",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to zebu bull seals (lift > 5.0); PDR erutu = bull, ox; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M062-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to zebu bull seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to zebu bull seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M062-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr erutu = bull, ox (the motif's lexical counterpart)",
+     "basis_span": "PDR erutu = bull, ox",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M063",
+   "reading": "mutalai",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: FACT-CHECK CORRECTION 2026-05-11: Original V7 assignment was HIGH based on claimed 'lift > 5.0 on gharial seals'. Actual measured gharial lift = 4.35 (below threshold). M063 appears on 3/18 seals with gharial motif (vs. ; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M063-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "M063 appears on 3/18 seals with gharial motif; the measured gharial lift is 4.35",
+     "basis_span": "M063 appears on 3/18 seals with gharial motif (vs.",
+     "targets": [],
+     "status_note": "the original filed claim (lift > 5.0 on gharial seals, HIGH) FAILED as specified: measured lift 4.35 < 5.0 (standings supplement section 4; the 2026-05-11 fact-check correction in the basis)"
+    },
+    {
+     "id": "M063-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the basis truncates at '(vs. ;' — the comparison clause is not completed in the basis as filed"
+   ]
+  },
+  {
+   "sign": "M065",
+   "reading": "kuTam",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: ; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 49 trade/zebu seals; Source as recorded: Phase-50+Parpola; Gloss as recorded: jar/pot [kuTam]; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, LITERATURE); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M065-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'akatti' = agate (DEDR 7)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 49 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M065-02",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign appears on 49 trade/zebu seals",
+     "basis_span": "appears on 49 trade/zebu seals",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-255 corroboration names PDr 'akatti' = agate (DEDR 7), which is not this reading's gloss as recorded (jar/pot); the corroboration is entered as filed and the mismatch recorded, not resolved"
+   ]
+  },
+  {
+   "sign": "M066",
+   "reading": "cōḻ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 2905 injected + existing evidence → HIGH; Dictionary reference as recorded: 2905; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M066-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 16, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16)",
+     "targets": []
+    },
+    {
+     "id": "M066-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M066-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 2905 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 2905 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M067",
+   "reading": "kōṭṭāṉ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to rhinoceros seals (lift > 5.0); PDR kōṭṭāṉ = horned one; Phase-272: DEDR 2071 injected + existing evidence → HIGH; Dictionary reference as recorded: 2071; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M067-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 2071 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 2071 injected + existing evidence → HIGH",
+     "targets": []
+    },
+    {
+     "id": "M067-02",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to rhinoceros seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to rhinoceros seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M067-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr kōṭṭāṉ = horned one (the motif's lexical counterpart)",
+     "basis_span": "PDR kōṭṭāṉ = horned one",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M068",
+   "reading": "maṟi",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to rhinoceros seals (lift > 5.0); PDR maṟi = young animal/calf (generic); UPGRADED-V18: HIGH-anchor collocate M342 (n=4); has specific PDR reading; Phase-272: DEDR 4706 injected + existing evidence → HIGH; Dictionary reference as recorded: 4706; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M068-01",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M068-02",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=4",
+     "basis_span": "HIGH-anchor collocate M342 (n=4)",
+     "targets": []
+    },
+    {
+     "id": "M068-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "HIGH-anchor collocate M342 (n=4)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M068-04",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4706 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 4706 injected + existing evidence → HIGH",
+     "targets": []
+    },
+    {
+     "id": "M068-05",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to rhinoceros seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to rhinoceros seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M068-06",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr maṟi = young animal/calf (generic) (the motif's lexical counterpart)",
+     "basis_span": "PDR maṟi = young animal/calf (generic)",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M069",
+   "reading": "nēr",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 3774 injected + existing evidence → HIGH; Dictionary reference as recorded: 3774; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M069-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 16, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16)",
+     "targets": []
+    },
+    {
+     "id": "M069-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M069-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 3774 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 3774 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M070",
+   "reading": "vēl",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 5540 injected + existing evidence → HIGH; Dictionary reference as recorded: 5540; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M070-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M070-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M070-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 5540 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 5540 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M073",
+   "reading": "kōṉ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to zebu bull seals (lift > 5.0); PDR kōṉ = king (bull metaphor); Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M073-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to zebu bull seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to zebu bull seals (lift > 5.0)",
+     "targets": []
+    },
+    {
+     "id": "M073-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr kōṉ = king (bull metaphor) (the motif's lexical counterpart)",
+     "basis_span": "PDR kōṉ = king (bull metaphor)",
+     "targets": []
+    },
+    {
+     "id": "M073-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M074",
+   "reading": "ker",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: ; Phase-255: commodity phoneme corroboration — matches PDr 'eḷḷu'=sesame (DEDR 839), appears on 4 trade/zebu seals; Source as recorded: Phase-87 DEDR_REBUS_EXTENDED; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, DEDR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M074-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'eḷḷu' = sesame (DEDR 839)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'eḷḷu'=sesame (DEDR 839), appears on 4 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M074-02",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign appears on 4 trade/zebu seals",
+     "basis_span": "appears on 4 trade/zebu seals",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M075",
+   "reading": "māṟ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 2: INITIAL position (freq=14), distributional assignment; UPGRADED-V18: HIGH-anchor collocate M267 (n=4); has specific PDR reading; Phase-272: DEDR 4796 injected + existing evidence → HIGH; Dictionary reference as recorded: 4796; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M075-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 14, distributional assignment",
+     "basis_span": "Round 2: INITIAL position (freq=14), distributional assignment",
+     "targets": []
+    },
+    {
+     "id": "M075-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M075-03",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M267: n=4",
+     "basis_span": "HIGH-anchor collocate M267 (n=4)",
+     "targets": []
+    },
+    {
+     "id": "M075-04",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M267 as a HIGH anchor",
+     "basis_span": "HIGH-anchor collocate M267 (n=4)",
+     "targets": [
+      "M267"
+     ],
+     "reason": "the premise is M267 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M075-05",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4796 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 4796 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M076",
+   "reading": "naN",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-91 threshold-1.0 (score=1.00); Dictionary reference as recorded: DEDR 3537; Gloss as recorded: comb+3 strokes; Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M076-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M076-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 3537 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 3537",
+     "targets": []
+    },
+    {
+     "id": "M076-03",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: comb+3 strokes",
+     "basis_span": "Gloss as recorded: comb+3 strokes",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M078",
+   "reading": "cēr",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 2814 injected + existing evidence → HIGH; Dictionary reference as recorded: 2814; Evidence lines the audit counted as independent: 2 (DEDR, GRAMMAR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M078-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 17, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17)",
+     "targets": []
+    },
+    {
+     "id": "M078-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M078-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 2814 cited for this reading (Phase-272 injection)",
+     "basis_span": "Phase-272: DEDR 2814 injected + existing evidence → HIGH",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the Phase-272 segment's roll-up ('existing evidence → HIGH') is a derivation step of the candidate system, recorded here, not an item (spec section 3.3)"
+   ]
+  },
+  {
+   "sign": "M080",
+   "reading": "vēṅkai",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to tiger seals (lift > 5.0); PDR vēṅkai = tiger (poetic); Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M080-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to tiger seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to tiger seals (lift > 5.0)",
+     "targets": [],
+     "status_note": "motif evidence not reproducible from held records (standings supplement 2026-11-21, section 3)"
+    },
+    {
+     "id": "M080-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr vēṅkai = tiger (poetic) (the motif's lexical counterpart)",
+     "basis_span": "PDR vēṅkai = tiger (poetic)",
+     "targets": []
+    },
+    {
+     "id": "M080-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M082",
+   "reading": "pa",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: ; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 3 trade/zebu seals; Source as recorded: Phase-80 DEDR rebus (pal = DEDR 3966); Dictionary reference as recorded: DEDR 3966; Gloss as recorded: plant+stroke -> pal (plant with mark); Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, DEDR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M082-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'akatti' = agate (DEDR 7)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 3 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M082-02",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign appears on 3 trade/zebu seals",
+     "basis_span": "appears on 3 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M082-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 3966 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 3966",
+     "targets": []
+    },
+    {
+     "id": "M082-04",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "rebus derivation as filed: plant+stroke -> pal (plant with mark)",
+     "basis_span": "Gloss as recorded: plant+stroke -> pal (plant with mark)",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M089",
+   "reading": "tu/tū",
+   "executed_class": "I",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Positional analysis; UPGRADED: high frequency (171); consistent TERMINAL position (n=171); collocates with HIGH anchor M342 (n=15); collocates with HIGH anchor M267 (n=6); collocates with HIGH anchor M176 (n=6); collocat; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M089-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution as upgraded: UPGRADED: high frequency (171); consistent TERMINAL position (n=171)",
+     "basis_span": "UPGRADED: high frequency (171); consistent TERMINAL position (n=171)",
+     "targets": []
+    },
+    {
+     "id": "M089-02",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=15",
+     "basis_span": "collocates with HIGH anchor M342 (n=15)",
+     "targets": [],
+     "status_note": "counts unreliable: the Tranche 2 rerun record filed contradictory pairs for each collocate (falsifiers annex, Round 2 row annotations, 2026-11-21); the counts are entered as filed"
+    },
+    {
+     "id": "M089-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M342 (n=15)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item",
+     "status_note": "counts unreliable: the Tranche 2 rerun record filed contradictory pairs for each collocate (falsifiers annex, Round 2 row annotations, 2026-11-21); the counts are entered as filed"
+    },
+    {
+     "id": "M089-04",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M267: n=6",
+     "basis_span": "collocates with HIGH anchor M267 (n=6)",
+     "targets": [],
+     "status_note": "counts unreliable: the Tranche 2 rerun record filed contradictory pairs for each collocate (falsifiers annex, Round 2 row annotations, 2026-11-21); the counts are entered as filed"
+    },
+    {
+     "id": "M089-05",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M267 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M267 (n=6)",
+     "targets": [
+      "M267"
+     ],
+     "reason": "the premise is M267 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item",
+     "status_note": "counts unreliable: the Tranche 2 rerun record filed contradictory pairs for each collocate (falsifiers annex, Round 2 row annotations, 2026-11-21); the counts are entered as filed"
+    },
+    {
+     "id": "M089-06",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M176: n=6",
+     "basis_span": "collocates with HIGH anchor M176 (n=6)",
+     "targets": [],
+     "status_note": "counts unreliable: the Tranche 2 rerun record filed contradictory pairs for each collocate (falsifiers annex, Round 2 row annotations, 2026-11-21); the counts are entered as filed"
+    },
+    {
+     "id": "M089-07",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M176 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M176 (n=6)",
+     "targets": [
+      "M176"
+     ],
+     "reason": "the premise is M176 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item",
+     "status_note": "counts unreliable: the Tranche 2 rerun record filed contradictory pairs for each collocate (falsifiers annex, Round 2 row annotations, 2026-11-21); the counts are entered as filed"
+    },
+    {
+     "id": "M089-08",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the basis opens with the unelaborated label 'Positional analysis' and truncates at 'collocat;' after the third collocate; no further premise is stated and none is entered",
+    "the adjudication records this reading's upgrade counts as internally inconsistent (Q5 tranche record); the counts are entered as filed",
+    "Round 2 amendment (standings supplement): this reading's class rests on its filed corrected-battery result (score 2), not on the collocation counts"
+   ]
+  },
+  {
+   "sign": "M099",
+   "reading": "kol/koḷ",
+   "executed_class": "I",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Jar/vessel sign; Evidence lines the audit counted as independent: 2 (GRAMMAR, ICONOGRAPHIC); Tests filed: drawing, distribution, functional_role, meaning",
+   "items": [
+    {
+     "id": "M099-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "jar/vessel sign, read kol/kol",
+     "basis_span": "Jar/vessel sign",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the audit's evidence lines count a GRAMMAR line for this reading, but the basis as filed states no grammatical evidence beyond the iconographic identification; the falsifiers annex records this reading's basis as too thin to falsify"
+   ]
+  },
+  {
+   "sign": "M128",
+   "reading": "kaṇ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 3: MEDIAL position (freq=7), distributional assignment [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Parpola 1994+; Evidence lines the audit counted as independent: 2 (GRAMMAR, LITERATURE); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M128-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: MEDIAL position, frequency 7, distributional assignment",
+     "basis_span": "Round 3: MEDIAL position (freq=7), distributional assignment",
+     "targets": []
+    },
+    {
+     "id": "M128-02",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M130",
+   "reading": "mui",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-89 systematic DEDR (ICON, MEDIUM); Dictionary reference as recorded: DEDR 4951; Gloss as recorded: sprout/shoot; Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M130-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M130-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4951 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 4951",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M145",
+   "reading": "miṭ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-95 retroflex expansion (score=1.90]; Source as recorded: Phase-95 retroflex expansion (score=1.90); Dictionary reference as recorded: DEDR 4836; Gloss as recorded: fish+mark2; Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M145-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.17",
+     "basis_span": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-95 retroflex expansion (score=1.90]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M145-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 4836 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 4836",
+     "targets": []
+    },
+    {
+     "id": "M145-03",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "Phase-95 retroflex expansion score=1.90",
+     "basis_span": "Phase-95 retroflex expansion (score=1.90",
+     "targets": [],
+     "reason": "an internal expansion score whose inputs the filed basis does not state; recorded ambiguous under spec section 3.4"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M151",
+   "reading": "viḷ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 4: MEDIAL position (freq=5), distributional assignment; Dictionary reference as recorded: 5471; Gloss as recorded: to fall, bow/arrow, jungle; Evidence lines the audit counted as independent: 3 (DEDR, GRAMMAR); Tests filed: distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M151-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: MEDIAL position, frequency 5, distributional assignment",
+     "basis_span": "Round 4: MEDIAL position (freq=5), distributional assignment",
+     "targets": []
+    },
+    {
+     "id": "M151-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 5471 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: 5471",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M194",
+   "reading": "kaṭ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-95 retroflex expansion (score=1.90); Dictionary reference as recorded: DEDR 1161; Gloss as recorded: pass/cross; Evidence lines the audit counted as independent: 1 (DEDR); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M194-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M194-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1161 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 1161",
+     "targets": []
+    },
+    {
+     "id": "M194-03",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "Phase-95 retroflex expansion score=1.90",
+     "basis_span": "Phase-95 retroflex expansion (score=1.90",
+     "targets": [],
+     "reason": "an internal expansion score whose inputs the filed basis does not state; recorded ambiguous under spec section 3.4"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M220",
+   "reading": "al",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: ; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 9 trade/zebu seals; Source as recorded: Phase-89 systematic DEDR (PHON, MEDIUM); Dictionary reference as recorded: DEDR 0180; Gloss as recorded: not/without; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, DEDR); Tests filed: distribution, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M220-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "commodity phoneme corroboration: PDr 'akatti' = agate (DEDR 7)",
+     "basis_span": "Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 9 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M220-02",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign appears on 9 trade/zebu seals",
+     "basis_span": "appears on 9 trade/zebu seals",
+     "targets": []
+    },
+    {
+     "id": "M220-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 180 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 0180",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M267",
+   "reading": "iN/in (genitive of)",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: FACT-CHECK CORRECTION 2026-05-11: Original V6 assignment 'min/mīn' (HIGH) was wrong. M267 has freq=400 in the Holdat corpus and appears across ALL motif types (unicorn 127, zebu bull 72, elephant 37, rhinoceros 25, etc.); Source as recorded: Phase-74 grammar z=8.04 p<0.0001 + Phase-64 score=7.0; Dictionary reference as recorded: 494; Gloss as recorded: genitive particle [AGENT]-M267-[TITLE] 4.3x above null; Evidence lines the audit counted as independent: 4 (DEDR, GRAMMAR, LITERATURE); Tests filed: drawing, distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M267-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 494 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: 494",
+     "targets": []
+    },
+    {
+     "id": "M267-02",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "M267 has freq=400 in the Holdat corpus and appears across all motif types (unicorn 127, zebu bull 72, elephant 37, rhinoceros 25, etc.)",
+     "basis_span": "M267 has freq=400 in the Holdat corpus and appears across ALL motif types (unicorn 127, zebu bull 72, elephant 37, rhinoceros 25, etc.)",
+     "targets": [],
+     "status_note": "the Holdat corpus is unheld in every working clone and no written Miller permission is on file (custody statement 2026-11-21); the counts are as filed"
+    },
+    {
+     "id": "M267-03",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "Phase-74 grammar statistic for the genitive pattern: z=8.04, p<0.0001",
+     "basis_span": "Phase-74 grammar z=8.04 p<0.0001",
+     "targets": [],
+     "status_note": "figures withdrawn as evidence (standings supplement section 2, RT1-14): the 4.3x lift and z = 8.038 are withdrawn; the raw counts stand (26 observed vs null mean 6)"
+    },
+    {
+     "id": "M267-04",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "Phase-64 score=7.0 for this reading",
+     "basis_span": "Phase-64 score=7.0",
+     "targets": [],
+     "reason": "an internal candidate-system score whose inputs the filed basis does not state; recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M267-05",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the filed pattern [AGENT]-M267-[TITLE]: M267 read as the genitive between an AGENT slot and a TITLE slot (4.3x above null as filed)",
+     "basis_span": "[AGENT]-M267-[TITLE] 4.3x above null",
+     "targets": [
+      "M176",
+      "M328",
+      "M099",
+      "M073"
+     ],
+     "reason": "the AGENT and TITLE slots are constructs of the candidate system, and the pattern's markers are themselves readings: the AGENT markers of record include M176 and M328, the TITLE markers M099 and M073 (standings supplement section 2). The adjudication's words: conditional circularity — not independent confirmation unless the labels are independently justified",
+     "target_source": "standings-supplement-2026-11-21.md",
+     "status_note": "figures withdrawn as evidence (standings supplement section 2, RT1-14)"
+    }
+   ],
+   "entry_notes": [
+    "the 2026-05-11 fact-check correction records that the original V6 assignment 'min/min' (HIGH) for this sign was wrong; the correction is part of the filed basis",
+    "the dictionary-reference segment (494) is carried as a dictionary item by the template pass"
+   ]
+  },
+  {
+   "sign": "M347",
+   "reading": "ka",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Phase-117 grammar inference: slot=MEDIAL_BETWEEN_CONF, n_contexts=7, patterns=['M342-[M347]-M293', 'M028-[M347]-M367', 'M211-[M347]-M099']. Inferred from Dravidian grammar slot model (Phases 74-112). [Phase-120: grammar ; Source as recorded: Phase-117; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role",
+   "items": [
+    {
+     "id": "M347-01",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "grammar inference: this sign occupies the slot MEDIAL_BETWEEN_CONF in 7 contexts, under the Dravidian grammar slot model (Phases 74-112)",
+     "basis_span": "slot=MEDIAL_BETWEEN_CONF, n_contexts=7, patterns=['M342-[M347]-M293', 'M028-[M347]-M367', 'M211-[M347]-M099']",
+     "targets": [],
+     "reason": "the slot and the slot model are constructs of the candidate system; the inference is filed as 'inferred from Dravidian grammar slot model (Phases 74-112)'",
+     "target_note": "the slot is a model construct; the basis names no single reading as its premise"
+    },
+    {
+     "id": "M347-02",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "the filed sequence patterns place this sign between named signs in 7 contexts",
+     "basis_span": "slot=MEDIAL_BETWEEN_CONF, n_contexts=7, patterns=['M342-[M347]-M293', 'M028-[M347]-M367', 'M211-[M347]-M099']",
+     "targets": []
+    },
+    {
+     "id": "M347-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "the filed patterns read this sign between M342, M293, M028, M367, M211 and M099 in their interpreted roles",
+     "basis_span": "slot=MEDIAL_BETWEEN_CONF, n_contexts=7, patterns=['M342-[M347]-M293', 'M028-[M347]-M367', 'M211-[M347]-M099']",
+     "targets": [
+      "M342",
+      "M293",
+      "M028",
+      "M367",
+      "M211",
+      "M099"
+     ],
+     "reason": "the patterns are stated over the other signs in their interpreted roles in the slot model; three of the targets (M293, M028, M211) stand outside the strict core and carry no standings"
+    }
+   ],
+   "entry_notes": [
+    "the adjudication's Q3 item 6 struck interpreted-anchor premises M342, M328, M367, M099 from this reading's basis ('essentially all stated grammatical motivation lost'); the M328 premise is not named in the appendix basis as filed and is recorded here, not itemized, so the log does not state what the basis does not",
+    "the basis truncates at '[Phase-120: grammar ;' — the Phase-120 segment is not stated and no item is entered for it"
+   ]
+  },
+  {
+   "sign": "M351",
+   "reading": "vī",
+   "executed_class": "I",
+   "q4_flag": "M",
+   "basis_as_filed": "Basis as recorded: Phase-123 substrate match: Munda 'bi' (seed/sprout). DEDR 5388 vī = seed — attested Tamil/Telugu agricultural vocabulary. Phonological: Munda 'bi' → Dravidian 'vī' (voiced bilabial shift p/b→v). Positional: MEDIAL after ; Source as recorded: Phase-128 substrate upgrade; Dictionary reference as recorded: DEDR 5388 (vī = seed, Tamil/Telugu); Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, DEDR); Tests filed: distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M351-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 5388 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 5388",
+     "targets": []
+    },
+    {
+     "id": "M351-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "substrate match: Munda 'bi' (seed/sprout), Witzel tradition as filed",
+     "basis_span": "Phase-123 substrate match: Munda 'bi' (seed/sprout)",
+     "targets": []
+    },
+    {
+     "id": "M351-03",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "stated sound correspondence: Munda 'bi' -> Dravidian 'vi' (voiced bilabial shift p/b->v)",
+     "basis_span": "Phonological: Munda 'bi' → Dravidian 'vī' (voiced bilabial shift p/b→v)",
+     "targets": []
+    },
+    {
+     "id": "M351-04",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional statement: MEDIAL (the basis truncates after 'after')",
+     "basis_span": "Positional: MEDIAL after",
+     "targets": [],
+     "status_note": "the basis as filed truncates mid-clause at this item"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M374",
+   "reading": "kul",
+   "executed_class": "I",
+   "q4_flag": "M",
+   "basis_as_filed": "Basis as recorded: Phase-123 substrate match: Munda 'kul' (tiger/king-tiger, Witzel 1999). DEDR 1709 kulam = clan/lineage — attested Tamil noun. Positional: MEDIAL between authority signs (M328=āl/man, M073=kōṉ/king) and vessel/cargo signs; Source as recorded: Phase-128 substrate upgrade; Dictionary reference as recorded: DEDR 1709 (kulam = clan/lineage, Tamil); Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, DEDR); Tests filed: distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M374-01",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1709 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 1709",
+     "targets": []
+    },
+    {
+     "id": "M374-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "substrate match: Munda 'kul' (tiger/king-tiger, Witzel 1999)",
+     "basis_span": "Phase-123 substrate match: Munda 'kul' (tiger/king-tiger, Witzel 1999)",
+     "targets": []
+    },
+    {
+     "id": "M374-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "positional context: MEDIAL between authority signs (M328=al/man, M073=kon/king) and vessel/cargo signs",
+     "basis_span": "Positional: MEDIAL between authority signs (M328=āl/man, M073=kōṉ/king) and vessel/cargo signs",
+     "targets": [
+      "M328",
+      "M073"
+     ],
+     "reason": "the context is stated through the other signs under their readings (M328 as al/man, M073 as kon/king): an interpreted context, struck as such by the adjudication's Q3 item 7"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M375",
+   "reading": "taṇ",
+   "executed_class": "I",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Folded-arm sign ~ taṇ 'cool/refreshing' (DEDR 3009) or taṇṭu 'staff/rod'. Phase-103 NAME_AY_AN pattern: [M375]-M342-M176 (taṇ-ay-an = 'cool/noble man'). Sangam Akam poetry: taṇ- is a common personal name prefix. Freq=7; ; Source as recorded: Phase-105; Evidence lines the audit counted as independent: 3 (DEDR, GRAMMAR, ICONOGRAPHIC); Tests filed: drawing, distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M375-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "folded-arm sign, read tan 'cool/refreshing' (DEDR 3009) or tantu 'staff/rod'",
+     "basis_span": "Folded-arm sign ~ taṇ 'cool/refreshing' (DEDR 3009) or taṇṭu 'staff/rod'",
+     "targets": []
+    },
+    {
+     "id": "M375-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 3009 cited for tan",
+     "basis_span": "DEDR 3009",
+     "targets": []
+    },
+    {
+     "id": "M375-03",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "the filed sequence pattern [M375]-M342-M176 occurs as a sign sequence",
+     "basis_span": "[M375]-M342-M176",
+     "targets": []
+    },
+    {
+     "id": "M375-04",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "the NAME_AY_AN pattern read as tan-ay-an = 'cool/noble man'",
+     "basis_span": "Phase-103 NAME_AY_AN pattern: [M375]-M342-M176 (taṇ-ay-an = 'cool/noble man')",
+     "targets": [
+      "M342",
+      "M176"
+     ],
+     "reason": "the pattern's reading rests on M342's and M176's readings (ay, an); the adjudication's Q3 item 8 removed this translated pattern as a major argument"
+    },
+    {
+     "id": "M375-05",
+     "kind": "literary_parallel",
+     "type": "a",
+     "statement": "Sangam Akam poetry: tan- is a common personal name prefix",
+     "basis_span": "Sangam Akam poetry: taṇ- is a common personal name prefix",
+     "targets": []
+    },
+    {
+     "id": "M375-06",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "frequency 7 as filed",
+     "basis_span": "Freq=7",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M391",
+   "reading": "ka/kaṇ",
+   "executed_class": "I",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Numeral/stroke sign; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M391-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "numeral/stroke sign, read ka/kan",
+     "basis_span": "Numeral/stroke sign",
+     "targets": [],
+     "status_note": "numerical claim WEAKENED (standings supplement section 6: stroke-count pattern 2/187 for this sign, against SUFFIX_ONLY 74/187)"
+    },
+    {
+     "id": "M391-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 2 against a promotion threshold of 2 (positional pass, dedr not_run, bigram pass); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M087",
+   "reading": "veL",
+   "executed_class": "R",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Parpola_1994_via_phase51; Gloss as recorded: white / two strokes; Evidence lines the audit counted as independent: 1 (LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M087-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M087-02",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "gloss as recorded: white / two strokes",
+     "basis_span": "Gloss as recorded: white / two strokes",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the filed source attributes the reading to Parpola 1994 (via Phase-51); no DEDR entry number is filed for this sign"
+   ]
+  },
+  {
+   "sign": "M165",
+   "reading": "cul",
+   "executed_class": "R",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Phase-163 sibilant discovery: reading 'cul' found in literature (4 mentions across sources: Parpola_1994). Provides partial coverage for Shu-ilishu /su/ phonological slot. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-111]; Source as recorded: Phase-111; Evidence lines the audit counted as independent: 1 (LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M165-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.17",
+     "basis_span": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-111]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M165-02",
+     "kind": "published_proposal",
+     "type": "a",
+     "statement": "the reading is filed as found in the literature (4 mentions across sources: Parpola_1994)",
+     "basis_span": "reading 'cul' found in literature (4 mentions across sources: Parpola_1994)",
+     "targets": []
+    },
+    {
+     "id": "M165-03",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the reading is filed as providing partial coverage for the Shu-ilishu /su/ phonological slot",
+     "basis_span": "Provides partial coverage for Shu-ilishu /su/ phonological slot.",
+     "targets": [],
+     "reason": "the /su/ slot is a construct of the candidate system's phonological coverage argument; the coverage claim is evidence only inside that system",
+     "target_note": "the basis names the slot but no reading as its premise"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M264",
+   "reading": "peN",
+   "executed_class": "R",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Parpola_1994_via_phase51; Gloss as recorded: female / woman; Evidence lines the audit counted as independent: 1 (LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M264-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M264-02",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "gloss as recorded: female / woman",
+     "basis_span": "Gloss as recorded: female / woman",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the filed source attributes the reading to Parpola 1994 (via Phase-51); no DEDR entry number is filed for this sign"
+   ]
+  },
+  {
+   "sign": "M311",
+   "reading": "vaTamiin",
+   "executed_class": "R",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Parpola_1994_via_phase51; Gloss as recorded: north star; Evidence lines the audit counted as independent: 1 (LITERATURE); Tests filed: phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M311-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M311-02",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "gloss as recorded: north star",
+     "basis_span": "Gloss as recorded: north star",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the filed source attributes the reading to Parpola 1994 (via Phase-51); no DEDR entry number is filed for this sign"
+   ]
+  },
+  {
+   "sign": "M222",
+   "reading": "min",
+   "executed_class": "P",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb); Source as recorded: anchor_staging_archive:compound_semantic_coherence; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution SOURCE CONFLICT: the paper's public anchor table lists this sign's reading as 'kur', while the canonical anchor register and the audit record it as 'min'; the register's own annotation records 'kur' as a superseded earlier reading for this sign. The row follows the register/audit value.",
+   "items": [
+    {
+     "id": "M222-01",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the reading was promoted on evidence_type=compound_slot_coherence (anchor staging archive)",
+     "basis_span": "evidence_type=compound_slot_coherence",
+     "targets": [],
+     "reason": "slot coherence is a construct of the candidate system; the adjudication's Q3 item 10 removed interpreted-context credit for this reading pending provenance",
+     "target_note": "the basis names no individual reading as the coherence premise"
+    },
+    {
+     "id": "M222-02",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "staging score=1.00, status=verified as filed",
+     "basis_span": "score=1.00; status=verified",
+     "targets": [],
+     "reason": "an internal staging score whose inputs the filed basis does not state; recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M222-03",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR gloss as filed: shine / lightning (verb); no DEDR number is filed",
+     "basis_span": "DEDR: shine / lightning (verb)",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "SOURCE CONFLICT as filed: the paper's public anchor table lists this sign's reading as 'kur'; the canonical anchor register and the audit record 'min' (MEDIUM), with 'kur' a superseded earlier reading. The log follows the register/audit value, as the appendix row does",
+    "class P as executed is 'pending — no documented expert or referral' (standings supplement section 5)"
+   ]
+  },
+  {
+   "sign": "M362",
+   "reading": "aṇi",
+   "executed_class": "P",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Starburst / asterisk iconography ~ aṇi 'ornament/adorn' (DEDR 0145). Phase-103: appears in name-slot patterns between animal classifiers and titles. Sangam literature: aṇi- prefix in personal names (Aṇi-van, Aṇi-tan). Po; Source as recorded: Phase-105; Evidence lines the audit counted as independent: 3 (DEDR, GRAMMAR, ICONOGRAPHIC); Tests filed: drawing, distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M362-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "starburst / asterisk iconography, read ani 'ornament/adorn' (DEDR 0145)",
+     "basis_span": "Starburst / asterisk iconography ~ aṇi 'ornament/adorn' (DEDR 0145)",
+     "targets": []
+    },
+    {
+     "id": "M362-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 145 cited for ani",
+     "basis_span": "DEDR 0145",
+     "targets": []
+    },
+    {
+     "id": "M362-03",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the sign appears in name-slot patterns between animal classifiers and titles (Phase-103)",
+     "basis_span": "appears in name-slot patterns between animal classifiers and titles",
+     "targets": [],
+     "reason": "the name-slot pattern and its classifier/title roles are constructs of the candidate system; the adjudication's Q3 item 11 removed interpreted-context credit for this reading pending provenance",
+     "target_note": "the basis names the slot pattern but no individual reading as its premise"
+    },
+    {
+     "id": "M362-04",
+     "kind": "literary_parallel",
+     "type": "a",
+     "statement": "Sangam literature: ani- prefix in personal names (Ani-van, Ani-tan)",
+     "basis_span": "Sangam literature: aṇi- prefix in personal names (Aṇi-van, Aṇi-tan)",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the basis truncates at 'Po;' — the following segment is not stated and no item is entered for it"
+   ]
+  },
+  {
+   "sign": "M398",
+   "reading": "kuṟi",
+   "executed_class": "P",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Hook+ring iconography ~ kuṟi 'mark/sign' (DEDR 1769) or kuṟu 'small/short'. Phase-103: NAME_AY_AN + GENITIVE_NAME_SUFFIX patterns. Pattern [M267]-[M398]-[M342]: 'of-kuṟi-belonging' = genitive personal name. Score 1.2 (hi; Source as recorded: Phase-105; Evidence lines the audit counted as independent: 3 (DEDR, GRAMMAR, ICONOGRAPHIC); Tests filed: drawing, distribution, functional_role, phonetic_value, meaning",
+   "items": [
+    {
+     "id": "M398-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "hook+ring iconography, read kuri 'mark/sign' (DEDR 1769) or kuru 'small/short'",
+     "basis_span": "Hook+ring iconography ~ kuṟi 'mark/sign' (DEDR 1769) or kuṟu 'small/short'",
+     "targets": []
+    },
+    {
+     "id": "M398-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1769 cited for kuri",
+     "basis_span": "DEDR 1769",
+     "targets": []
+    },
+    {
+     "id": "M398-03",
+     "kind": "slot_label",
+     "type": "b",
+     "statement": "the sign is filed under the NAME_AY_AN + GENITIVE_NAME_SUFFIX patterns (Phase-103)",
+     "basis_span": "Phase-103: NAME_AY_AN + GENITIVE_NAME_SUFFIX patterns",
+     "targets": [],
+     "reason": "the named patterns are constructs of the candidate system's name grammar",
+     "target_note": "the pattern names are constructs; the concrete pattern instance is carried as its own item"
+    },
+    {
+     "id": "M398-04",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "the filed sequence pattern [M267]-[M398]-[M342] occurs as a sign sequence",
+     "basis_span": "Pattern [M267]-[M398]-[M342]",
+     "targets": []
+    },
+    {
+     "id": "M398-05",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "the pattern read as 'of-kuri-belonging' = genitive personal name",
+     "basis_span": "Pattern [M267]-[M398]-[M342]: 'of-kuṟi-belonging' = genitive personal name",
+     "targets": [
+      "M267",
+      "M342"
+     ],
+     "reason": "the reading of the pattern rests on M267's genitive reading and M342's suffix reading; struck as a premise by the adjudication's Q3 item 9"
+    },
+    {
+     "id": "M398-06",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "a score of 1.2 is filed for this reading (the basis truncates at '(hi')",
+     "basis_span": "Score 1.2 (hi",
+     "targets": [],
+     "reason": "an internal score whose definition and inputs the filed basis does not state, and whose statement is itself truncated; recorded ambiguous under spec section 3.4",
+     "status_note": "the basis as filed truncates mid-clause at this item"
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M012",
+   "reading": "oṉṟu/1",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: single stroke = numeral 1; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M012-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "single stroke, read as the numeral 1",
+     "basis_span": "single stroke = numeral 1",
+     "targets": [],
+     "status_note": "numerical claim WEAKENED (standings supplement section 6: stroke-count pattern 1/141 for this sign)"
+    },
+    {
+     "id": "M012-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M039",
+   "reading": "āṉai",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Exclusive to elephant seals (lift > 5.0); PDR āṉai = elephant (variant); Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (DEDR, ICONOGRAPHIC); Tests filed: drawing, distribution, phonetic_value, meaning Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M039-01",
+     "kind": "motif_association",
+     "type": "a",
+     "statement": "the sign is exclusive to elephant seals (filed lift > 5.0)",
+     "basis_span": "Exclusive to elephant seals (lift > 5.0)",
+     "targets": []
+    },
+    {
+     "id": "M039-02",
+     "kind": "comparative_lexical",
+     "type": "a",
+     "statement": "PDr āṉai = elephant (variant) (the motif's lexical counterpart)",
+     "basis_span": "PDR āṉai = elephant (variant)",
+     "targets": []
+    },
+    {
+     "id": "M039-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M042",
+   "reading": "vaN",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.62✓ DEDR✓]; Source as recorded: Phase-89 systematic DEDR (ICON, MEDIUM); Dictionary reference as recorded: DEDR 5231; Gloss as recorded: arch/bow; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution Later corrected site-statistics check: outcome insufficient data; moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M042-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.62",
+     "basis_span": "[Phase-116 recal: SA-cons=0.62✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M042-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 5231 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 5231",
+     "targets": []
+    },
+    {
+     "id": "M042-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected site-statistics check: outcome insufficient data; the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected site-statistics check: outcome insufficient data; moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M046",
+   "reading": "kaL",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-89 systematic DEDR (ICON, MEDIUM); Dictionary reference as recorded: DEDR 1286; Gloss as recorded: leg/stem; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution Later corrected site-statistics check: outcome insufficient data; moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M046-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M046-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1286 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 1286",
+     "targets": []
+    },
+    {
+     "id": "M046-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected site-statistics check: outcome insufficient data; the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected site-statistics check: outcome insufficient data; moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M048",
+   "reading": "mu/muṉ",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Positional analysis; UPGRADED: high frequency (157); consistent TERMINAL position (n=157); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M267 (n=7); collocates with HIGH anchor M176 (n=5); collocat; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role",
+   "items": [
+    {
+     "id": "M048-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution as upgraded: UPGRADED: high frequency (157); consistent TERMINAL position (n=157)",
+     "basis_span": "UPGRADED: high frequency (157); consistent TERMINAL position (n=157)",
+     "targets": []
+    },
+    {
+     "id": "M048-02",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=13",
+     "basis_span": "collocates with HIGH anchor M342 (n=13)",
+     "targets": []
+    },
+    {
+     "id": "M048-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M342 (n=13)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M048-04",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M267: n=7",
+     "basis_span": "collocates with HIGH anchor M267 (n=7)",
+     "targets": []
+    },
+    {
+     "id": "M048-05",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M267 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M267 (n=7)",
+     "targets": [
+      "M267"
+     ],
+     "reason": "the premise is M267 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M048-06",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M176: n=5",
+     "basis_span": "collocates with HIGH anchor M176 (n=5)",
+     "targets": []
+    },
+    {
+     "id": "M048-07",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M176 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M176 (n=5)",
+     "targets": [
+      "M176"
+     ],
+     "reason": "the premise is M176 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    }
+   ],
+   "entry_notes": [
+    "the basis truncates at 'collocat;' after the third collocate; no further premise is stated and none is entered",
+    "Round 2 amendment (standings supplement): no corrected battery result is filed for this sign; its class rests on the absence of a qualifying filed result"
+   ]
+  },
+  {
+   "sign": "M059",
+   "reading": "ēḷ/eḷ",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Numeral 7; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M059-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "the sign read as the numeral 7",
+     "basis_span": "Numeral 7",
+     "targets": [],
+     "status_note": "numerical claim WEAKENED (standings supplement section 6: stroke-count pattern 1/210 for this sign)"
+    },
+    {
+     "id": "M059-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M077",
+   "reading": "nal",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M077-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution: INITIAL position, frequency 18, distributional assignment; restated as consistent in the V18 upgrade",
+     "basis_span": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18)",
+     "targets": []
+    },
+    {
+     "id": "M077-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M077-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M108",
+   "reading": "kaL",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: [Phase-116 recal: SA-cons=0.12✓ DEDR✓]; Source as recorded: Phase-89 systematic DEDR (ICON, MEDIUM); Dictionary reference as recorded: DEDR 1286; Gloss as recorded: wheel/circle; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution Later corrected site-statistics check: outcome insufficient data; moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M108-01",
+     "kind": "consistency_score",
+     "type": "ambiguous",
+     "statement": "candidate-system consistency score: SA-cons=0.12",
+     "basis_span": "[Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+     "targets": [],
+     "reason": "the filed basis states the score but no definition of its inputs; whether it is computed over primary data or over interpreted material is not stated, so it is recorded ambiguous under spec section 3.4"
+    },
+    {
+     "id": "M108-02",
+     "kind": "dictionary_entry",
+     "type": "a",
+     "statement": "DEDR 1286 recorded as this reading's dictionary reference",
+     "basis_span": "Dictionary reference as recorded: DEDR 1286",
+     "targets": []
+    },
+    {
+     "id": "M108-03",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected site-statistics check: outcome insufficient data; the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected site-statistics check: outcome insufficient data; moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M162",
+   "reading": "il/iḷ",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: House/dwelling sign; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 2 (GRAMMAR, ICONOGRAPHIC); Tests filed: drawing, distribution, functional_role, meaning Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M162-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "house/dwelling sign, read il/il",
+     "basis_span": "House/dwelling sign",
+     "targets": []
+    },
+    {
+     "id": "M162-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M176",
+   "reading": "an/aṇ",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Masculine suffix; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected site-statistics check: outcome difference not detected; moved from requires revalidation to this class. The standings companion records a corrected terminal-position rate for this sign of 19.1% (68 of 356 occurrences), replacing an earlier published rate.",
+   "items": [
+    {
+     "id": "M176-01",
+     "kind": "internal_label",
+     "type": "b",
+     "statement": "the filed basis is the candidate system's own functional label for the sign: masculine suffix",
+     "basis_span": "Masculine suffix",
+     "targets": [],
+     "reason": "no corpus count, dictionary entry, or published proposal is filed for this sign; the basis is the system's suffix-inventory label restated",
+     "target_note": "the label names no other reading; it is the system's own assignment"
+    },
+    {
+     "id": "M176-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected site-statistics check: outcome difference not detected; the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected site-statistics check: outcome difference not detected; moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the standings companion records a corrected terminal-position rate for this sign of 19.1% (68 of 356 occurrences), replacing an earlier published rate (appendix row)"
+   ]
+  },
+  {
+   "sign": "M233",
+   "reading": "ūr",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Settlement/place marker; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M233-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "settlement/place marker, read ur (town/settlement)",
+     "basis_span": "Settlement/place marker",
+     "targets": []
+    },
+    {
+     "id": "M233-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M305",
+   "reading": "ōṭu/comitative",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: terminal pinch mark; UPGRADED: moderate frequency (83); consistent TERMINAL position (n=83); collocates with HIGH anchor M342 (n=10); collocates with HIGH anchor M176 (n=7); has specific PDR reading; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M305-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution as upgraded: UPGRADED: moderate frequency (83); consistent TERMINAL position (n=83)",
+     "basis_span": "UPGRADED: moderate frequency (83); consistent TERMINAL position (n=83)",
+     "targets": []
+    },
+    {
+     "id": "M305-02",
+     "kind": "self_assertion",
+     "type": "b",
+     "statement": "the basis asserts the sign 'has specific PDR reading'",
+     "basis_span": "has specific PDR reading",
+     "targets": [],
+     "reason": "the adjudication's words: an input, not corroboration — the candidate system's own assertion about its reading, filed as part of the basis",
+     "target_note": "the assertion names no other reading; it is the system's own claim about this reading"
+    },
+    {
+     "id": "M305-03",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=10",
+     "basis_span": "collocates with HIGH anchor M342 (n=10)",
+     "targets": []
+    },
+    {
+     "id": "M305-04",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M342 (n=10)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M305-05",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M176: n=7",
+     "basis_span": "collocates with HIGH anchor M176 (n=7)",
+     "targets": []
+    },
+    {
+     "id": "M305-06",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M176 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M176 (n=7)",
+     "targets": [
+      "M176"
+     ],
+     "reason": "the premise is M176 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M305-07",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M328",
+   "reading": "ā/āl",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: Man/person sign; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M328-01",
+     "kind": "iconographic_interpretation",
+     "type": "a",
+     "statement": "man/person sign, read a/al",
+     "basis_span": "Man/person sign",
+     "targets": []
+    },
+    {
+     "id": "M328-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram not_run); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M336",
+   "reading": "iṉ/locative",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: chevron terminal = locative case marker; UPGRADED: high frequency (161); consistent TERMINAL position (n=161); collocates with HIGH anchor M342 (n=14); collocates with HIGH anchor M099 (n=6); collocates with HIGH anchor ; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+   "items": [
+    {
+     "id": "M336-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution as upgraded: UPGRADED: high frequency (161); consistent TERMINAL position (n=161)",
+     "basis_span": "UPGRADED: high frequency (161); consistent TERMINAL position (n=161)",
+     "targets": []
+    },
+    {
+     "id": "M336-02",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M342: n=14",
+     "basis_span": "collocates with HIGH anchor M342 (n=14)",
+     "targets": []
+    },
+    {
+     "id": "M336-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M342 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M342 (n=14)",
+     "targets": [
+      "M342"
+     ],
+     "reason": "the premise is M342 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M336-04",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M099: n=6",
+     "basis_span": "collocates with HIGH anchor M099 (n=6)",
+     "targets": []
+    },
+    {
+     "id": "M336-05",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M099 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M099 (n=6)",
+     "targets": [
+      "M099"
+     ],
+     "reason": "the premise is M099 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M336-06",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "a third collocation premise is filed but its target is cut off in the basis as filed",
+     "basis_span": "collocates with HIGH anchor",
+     "targets": [],
+     "reason": "the basis truncates mid-clause at this premise; the premise is (b)-type but its target cannot be recovered from the filed text",
+     "target_note": "the basis as filed names no target; the clause is truncated"
+    },
+    {
+     "id": "M336-07",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected validation battery: score 1 against a promotion threshold of 2 (positional pass, dedr not_run, bigram fail); moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": []
+  },
+  {
+   "sign": "M342",
+   "reading": "ay/ā",
+   "executed_class": "U",
+   "q4_flag": "S",
+   "basis_as_filed": "Basis as recorded: Terminal marker, Dravidian case suffix; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role Later corrected site-statistics check: outcome difference not detected; moved from requires revalidation to this class. The standings companion records a corrected terminal-position rate for this sign of 12.0% (70 of 584 occurrences), replacing an earlier published rate.",
+   "items": [
+    {
+     "id": "M342-01",
+     "kind": "internal_label",
+     "type": "b",
+     "statement": "the filed basis is the candidate system's own functional label for the sign: terminal marker, Dravidian case suffix",
+     "basis_span": "Terminal marker, Dravidian case suffix",
+     "targets": [],
+     "reason": "no corpus count, dictionary entry, or published proposal is filed for this sign; the basis is the system's suffix-inventory label restated",
+     "target_note": "the label names no other reading; it is the system's own assignment"
+    },
+    {
+     "id": "M342-02",
+     "kind": "corrected_validation",
+     "type": "a",
+     "statement": "corrected site-statistics check: outcome difference not detected; the sign was moved from requires revalidation to its filed class on this result",
+     "basis_span": "Later corrected site-statistics check: outcome difference not detected; moved from requires revalidation to this class.",
+     "targets": []
+    }
+   ],
+   "entry_notes": [
+    "the standings companion records a corrected terminal-position rate for this sign of 12.0% (70 of 584 occurrences), replacing an earlier published rate (appendix row)",
+    "this sign is the most-depended-on premise in the 94: the dependency record names it as a premise for M005, M030, M068, M089, M347, M375, M398 and the already-U checks; those edges are carried on the depending readings' entries, not here"
+   ]
+  },
+  {
+   "sign": "M367",
+   "reading": "am/neuter",
+   "executed_class": "U",
+   "q4_flag": "N",
+   "basis_as_filed": "Basis as recorded: terminal diamond = neuter suffix; UPGRADED: high frequency (190); consistent TERMINAL position (n=190); collocates with HIGH anchor M176 (n=8); collocates with HIGH anchor M099 (n=6); collocates with HIGH anchor M267 (n=; Source as recorded: +Phase48_validated; Evidence lines the audit counted as independent: 1 (GRAMMAR); Tests filed: distribution, functional_role",
+   "items": [
+    {
+     "id": "M367-01",
+     "kind": "positional_statistic",
+     "type": "a",
+     "statement": "positional distribution as upgraded: UPGRADED: high frequency (190); consistent TERMINAL position (n=190)",
+     "basis_span": "UPGRADED: high frequency (190); consistent TERMINAL position (n=190)",
+     "targets": []
+    },
+    {
+     "id": "M367-02",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M176: n=8",
+     "basis_span": "collocates with HIGH anchor M176 (n=8)",
+     "targets": []
+    },
+    {
+     "id": "M367-03",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M176 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M176 (n=8)",
+     "targets": [
+      "M176"
+     ],
+     "reason": "the premise is M176 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M367-04",
+     "kind": "corpus_count",
+     "type": "a",
+     "statement": "raw co-occurrence count with M099: n=6",
+     "basis_span": "collocates with HIGH anchor M099 (n=6)",
+     "targets": []
+    },
+    {
+     "id": "M367-05",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M099 as a HIGH anchor",
+     "basis_span": "collocates with HIGH anchor M099 (n=6)",
+     "targets": [
+      "M099"
+     ],
+     "reason": "the premise is M099 under its interpreted reading and HIGH standing; the raw count is carried separately as an (a) item"
+    },
+    {
+     "id": "M367-06",
+     "kind": "interpreted_anchor",
+     "type": "b",
+     "statement": "collocation premise: this sign collocates with M267 as a HIGH anchor; the count is cut off in the basis as filed",
+     "basis_span": "collocates with HIGH anchor M267 (n=;",
+     "targets": [
+      "M267"
+     ],
+     "reason": "the premise is M267 under its interpreted reading and HIGH standing",
+     "status_note": "the filed count is truncated in the basis as filed"
+    }
+   ],
+   "entry_notes": []
+  }
+ ]
+}
