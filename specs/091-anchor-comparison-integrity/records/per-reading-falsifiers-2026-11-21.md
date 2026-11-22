@@ -1,5 +1,24 @@
 # Per-reading falsifiers — the 94 strict-core Indus readings (annex to the Spec 091 standings record)
 
+> **Appended note, November 21, 2026 (the annex above is not edited).**
+> The standings labels used in this annex were superseded later the
+> same day by the programme's adjudication of the independent desk
+> audit of the 94 and the relabeling executed under it. Where this
+> annex says "independently supported", read: external-support claims
+> on file, unverified, NOT IDENTIFIABLE. Where it says "internal
+> evidence only", "supported on internal evidence", or "internal-only",
+> read: internally motivated candidate, with reading-level support not
+> demonstrated and identifiability untested. Where it says
+> "expert-pending", read: reported as waiting on outside specialists.
+> The falsifier sentence in living programme surfaces is: per-reading
+> falsifiers are now filed for 93 of the 94 readings; the remaining
+> reading's filed basis was too thin to support a specific falsifier,
+> and that gap is stated on its record. The executed class counts are
+> (5, 65, 4, 3, 17): the relabeling addendum moved one reading (M202)
+> out of the external-support class into the insufficient class on the
+> same day, when the outside claim behind its earlier standing was
+> checked against its named source and contradicted.
+
 Filed 2026-11-21 under the owner's order of that day (Glossa-Lab chat,
 Workstream D). This annex closes the gap recorded during preparation of
 the Co-scientist audit package for the 94 strict readings: the filed

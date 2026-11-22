@@ -5,11 +5,13 @@
 >
 > The current paper is version 11 (DOI: 10.5281/zenodo.24376384).
 > The current standings are the register of 287 readings and the
-> strict core of 94 readings within it: 6 independently supported
-> (all six are recorded as NOT IDENTIFIABLE on the program's
-> identifiability test), 65 supported on internal evidence only,
-> 4 requiring revalidation, 3 pending expert review, and 16 with
-> insufficient evidence.
+> strict core of 94 readings within it: 5 carry external-support claims on file, unverified (all five are
+> recorded as NOT IDENTIFIABLE on the program's reported
+> identifiability test), 65 are internally motivated candidates
+> (reading-level support not demonstrated; identifiability
+> untested), 4 requiring revalidation, 3 are reported as pending
+> expert review, and 17 with insufficient evidence for their
+> proposed readings.
 >
 > The package below is retained unchanged as the historical
 > reproducibility record of the retired version. It is not a
