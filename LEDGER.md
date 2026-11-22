@@ -14672,6 +14672,23 @@ script smoke tests, Freeze gate records check (C4),
 Frontend tests (Playwright), Indus public validation
 checks, Ledger/matrix/map equivalence gate, Shell wrappers
 
+**Merge and CI verdicts (recorded 2026-11-22, Red Team
+Round 5 — RT5-01):** PR #657, merged at
+17b9701b6c02b563dbdda5c19ce11379625c4448 (head
+6ecd8f83f3777eea6153964ef818766ce6920008). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (The per-job list in this entry as first
+recorded ends at "Shell wrappers"; this block completes
+it. The substance head 5eb2faaf29's check runs are
+likewise ten, all success.)
+
 ## 2026-11-21 — Red Team Round 4, Eteocypriot corrections (Spec 096)
 
 claims.md's amendment pointer is extended to state
@@ -14688,6 +14705,34 @@ special case in the driver's letters_of, not a STEMS entry
 (RT4-10). RT4-12 was adjudicated DO NOT APPLY (the accepted
 pointer pattern; no change). CI on the substance head
 f4e1cc4f5: 10/10 per job — Backend tests (pytest), Cloud
+
+**Merge and CI verdicts (recorded 2026-11-22, Red Team
+Round 5 — RT5-01):** PR #658, merged at
+e9f7248a8aba2bf2b899cbf79435228006b97dfe (head
+a1ad0895fd95ac8dad8992e0eb16899fd159ebc8). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (The per-job list in this entry as first
+recorded stops at the second job; this block completes
+it.)
+
+**Correction (2026-11-22, Red Team Round 5 — RT5-05):**
+the STEMS count stated in this entry is wrong. STEMS has
+15 entries, not 16 — counted first-hand by literal
+evaluation of the driver dict
+(`specs/096-eteocypriot-program/records/eteocypriot-e1-driver.py`,
+lines 36–40): β γ δ ζ θ κ λ μ ν π ρ σ τ φ χ. The
+clarification's 8 listed include ξ→k+s, which is not a
+STEMS entry (it is the `letters_of` special case), so the
+STEMS-resident subset of the 8 is 7, and 7 + 8 = 15. The
+clarification note itself is corrected by an appended
+correction in the same landing.
 
 ## 2026-11-21 — Red Team Round 4, Meroitic corrections (Spec 097)
 
@@ -14718,3 +14763,19 @@ Ledger/matrix/map equivalence gate, Shell wrappers
 (macos-latest, ubuntu-latest, windows-latest) — all
 success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
 (goal record). Execution venue: tower-compute.
+
+**Merge and CI verdicts (recorded 2026-11-22, Red Team
+Round 5 — RT5-01):** PR #659, merged at
+d95a45d45afec31350e87a7fb967767d3bcb51ac (head
+60eeb0a71bd9bb66ac9464be308be25e7cb446f8). Per-job
+verdicts from the check runs on the PR head: Backend
+tests (pytest) success; Cloud image smoke (Spec 083)
+success; Evidence Graph script smoke tests success;
+Freeze gate records check (C4) success; Frontend tests
+(Playwright) success; Indus public validation checks
+success; Ledger/matrix/map equivalence gate success;
+Shell wrappers (macos-latest) success; Shell wrappers
+(ubuntu-latest) success; Shell wrappers (windows-latest)
+success — 10/10. (This entry's per-job list as first
+recorded was complete; this block adds the PR number and
+merge hash it lacked.)
