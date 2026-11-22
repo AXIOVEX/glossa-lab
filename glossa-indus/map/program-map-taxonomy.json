@@ -546,6 +546,11 @@
    "spec_dir": "101-eteocypriot-next-claim",
    "domain": "Program infrastructure",
    "subdomain": "Governance, lifecycle & generated layers"
+  },
+  {
+   "spec_dir": "102-meroitic-fresh-affiliation-test",
+   "domain": "Sign inventory & corpus",
+   "subdomain": "Signary & corpus models"
   }
  ],
  "extracted_documents": [

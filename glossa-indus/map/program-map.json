@@ -4,14 +4,14 @@
    "by_class": {
     "closed_other": 1,
     "negative": 6,
-    "open": 1027,
+    "open": 1032,
     "positive": 2
    },
    "by_population": {
-    "bundle": 1013,
+    "bundle": 1018,
     "extracted": 23
    },
-   "total": 1036
+   "total": 1041
   },
   "domains": {
    "Anchors & readings": {
@@ -87,19 +87,19 @@
     }
    },
    "Sign inventory & corpus": {
-    "claims": 136,
+    "claims": 141,
     "claims_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 136,
+     "open": 141,
      "positive": 0
     },
     "restricted_studies": 0,
-    "studies": 18,
+    "studies": 19,
     "studies_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 11,
+     "open": 12,
      "positive": 0,
      "unjudged": 7
     }
@@ -117,8 +117,8 @@
     "the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002",
     "without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001"
    ],
-   "present": 1027,
-   "total": 1036
+   "present": 1032,
+   "total": 1041
   },
   "judgment_call_studies": [],
   "multi_spec_claims": [
@@ -171,12 +171,12 @@
    "by_class": {
     "closed_other": 0,
     "negative": 0,
-    "open": 73,
+    "open": 74,
     "positive": 0,
     "unjudged": 28
    },
    "restricted": 1,
-   "total": 102
+   "total": 103
   },
   "unjudged_studies": [
    "001-glossa-lab-baseline",
@@ -14396,6 +14396,76 @@
    },
    {
     "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "102-meroitic-fresh-affiliation-test/C102-1",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "102-meroitic-fresh-affiliation-test",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "102-meroitic-fresh-affiliation-test/C102-2",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "102-meroitic-fresh-affiliation-test",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "102-meroitic-fresh-affiliation-test/C102-3",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "102-meroitic-fresh-affiliation-test",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "102-meroitic-fresh-affiliation-test/C102-4",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "102-meroitic-fresh-affiliation-test",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "102-meroitic-fresh-affiliation-test/C102-5",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "102-meroitic-fresh-affiliation-test",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
     "document": "ancient_writing_and_modern_technologies_51831ac9",
     "domain": "Claim families by study line",
     "falsifier_present": false,
@@ -16342,14 +16412,30 @@
     },
     "restricted": false,
     "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "domain": "Sign inventory & corpus",
+    "id": "102-meroitic-fresh-affiliation-test",
+    "judgment_call": false,
+    "kind": "study",
+    "member_counts": {
+     "closed_other": 0,
+     "negative": 0,
+     "open": 5,
+     "positive": 0,
+     "total": 5
+    },
+    "restricted": false,
+    "subdomain": "Signary & corpus models"
    }
   ]
  },
  "stamp": {
   "ledger_latest_entry_date": "2026-11-22",
-  "ledger_lines": 1067,
+  "ledger_lines": 1072,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "a047eb146baece9a1d007663339e29d929bc8ebd39d2fb4a2155fb0fb44a640d",
+  "ledger_sha256": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v1"
  },
