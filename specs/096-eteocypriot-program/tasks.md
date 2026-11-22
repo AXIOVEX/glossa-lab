@@ -50,6 +50,11 @@
 - [x] **T202 — E2/E3 as the freeze provides.** E2 only on its
   precondition and floor; E3 only for survivors; the held-out
   seal is broken only by the preregistration's own procedure.
+  *[Amendment pointer, 2026-11-21 (RT3-12): no seal was in
+  fact applied — the held-out set is held out by procedural
+  exclusion under the delimitation of record; the seal
+  language is downgraded by amendment 2 §7
+  (`records/outcome-record-amendment-2-2026-11-21.md`).]*
 
 ## Stage 3 — Outcome and adjudication package (D-096-3, D-096-5)
 

@@ -8,6 +8,17 @@ Stage 5 second-target scoping; the founding record, cited as
 provenance in spec.md). Nothing here re-opens any Spec 095
 claim or any Indus-program claim.
 
+> **Amendment pointer (2026-11-21, Red Team Rounds 2–3 —
+> RT2-24, RT1-05):** C096-1's A1/A2 labels as filed below
+> ("A1 strict segment-parallel; A2 name-anchored free
+> alignment") are superseded as citation forms by amendment
+> 2 §1 (`records/outcome-record-amendment-2-2026-11-21.md`):
+> A1 is a pure index-offset check with a predetermined 0/2,
+> and A2 as executed was unanchored free alignment. The claim
+> text stands as filed; citations of the E1 legs follow
+> amendment 2. The same pointer governs the claim's mirror in
+> `aee-claims.json`, whose text is the claim as filed.
+
 ## The claims
 
 **C096-1 — The alignment procedure is validated by known

@@ -13,6 +13,19 @@
 > adjudication"** — narrowed to the pilot's reporting of its
 > administrable leg and its closures; it does not cover the
 > correctness of the procedure administered.
+>
+> **Round 3 addition (2026-11-21 — RT3-08, RT1-43):** the
+> seal supersession above is amendment 2 **§7**, not §§1–3;
+> §§1–3 govern the E1 forms and C096-4. The §4 verdict
+> paragraphs for C096-2 and C096-3 carry amendment 2 §10's
+> mandated citation form, stated here on the record's face:
+> C096-2 (TOO THIN) and C096-3 (NOT ENGAGED) are **"closed /
+> unengaged at freeze on census grounds; falsifier never
+> engaged"** — neither claim was tested, and neither standing
+> is a result. The §4 paragraphs' own wording ("neither
+> supported nor falsified on evidence… recorded TOO THIN";
+> "not triggered; the claim's positive content is
+> untested") is the history that form cites.
 
 **Date:** 2026-11-20. **Program:** Spec 096 — Eteocypriot
 Program, Stages 2–3 (registered analysis; outcome and
