@@ -1211,3 +1211,46 @@ open.
 **AI disclosure:** this addendum was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+## 10. Owner decisions — third batch, 2026-11-22
+
+The owner took the next four owner-decision items of
+§6 in the Glossa-Lab chat on 2026-11-22. The acts
+are recorded here; the remaining items (OD-14 to
+OD-22) stand open, and OD-11 stands deferred as
+recorded below.
+
+- **OD-10 (E-8) — COMMISSIONED, 12:23 ET.** The A2
+  baseline and negative-control comparisons and the
+  specification of a realistic next Eteocypriot claim
+  are commissioned, with the Androkles transcription
+  intake folded in (the OD-9 acquisition). Execution
+  lands separately on the Spec 096 surfaces and in
+  the next-claim specification (Spec 101); this
+  addendum records the commission only.
+- **OD-11 (E-9) — DEFERRED, 12:32 ET.** Naming an
+  independent human to check Spec 096's reporting
+  completeness is deferred until the owner names the
+  person. The check stands open; it is not skipped.
+- **OD-12 (E-10) — ADOPTED, 12:58 ET.** The
+  Eteocypriot assessment's honest public description
+  is adopted as the program's canonical Eteocypriot
+  wording, verbatim from the captured assessment
+  (the Eteocypriot input pinned by hash in §0).
+  The adoption publishes nothing; the internal-use
+  ruling still bars publication until release
+  conditions are met.
+- **OD-13 (M-2) — DECIDED, 13:09 ET.** The
+  adjudicated Leg A citation of claim A9 is changed
+  from "positively contradicted" to "discrepant under
+  the documented reproduction procedure". The change
+  is executed as dated amendments to the Spec 097
+  citation-gloss addendum and to the tally correction
+  of 2026-11-21, each preserving the original form in
+  its amendment trail. The Leg A tallies do not
+  change: Exact 4 / Contradicted 1 (A9) / Untestable
+  3 / Basis-unstated 2. No verdict changes.
+
+**AI disclosure:** this addendum was executed by an AI
+agent (Muse, via Muse) at the direction of Tristen
+Pierson, per constitution sec. VI.
