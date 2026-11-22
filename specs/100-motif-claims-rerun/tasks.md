@@ -2,7 +2,7 @@
 
 ## Stage 0 — Registration
 
-- [ ] **T001 — Package lands, design frozen.** spec.md,
+- [x] **T001 — Package lands, design frozen.** spec.md,
   claims.md, aee-claims.json, plan.md, tasks.md,
   test-cases.md, tools/, tests/ and records/ committed as
   `specs/100-motif-claims-rerun/`; the design frozen in
@@ -14,13 +14,13 @@
   claim has a falsifier and a does-not-establish line).
   *This does not establish:* that the study has run —
   Stage 0 registers and freezes it.
-- [ ] **T002 — Test cases executed.** TC-100-01..
+- [x] **T002 — Test cases executed.** TC-100-01..
   TC-100-06 run on tower-compute against the pipeline of
   record; payload verdicts (the test process's own exit
   code and output) recorded in
   `records/tc-execution-2026-11-22.md`. Acceptance:
   **test**.
-- [ ] **T003 — Proof run in custody.** The pipeline's
+- [x] **T003 — Proof run in custody.** The pipeline's
   proof mode executed end to end on tower-compute over
   synthetic labels keyed to the real population (join,
   both paths, cells, lifts, odds ratios, verdicts), plus
@@ -29,13 +29,13 @@
   `records/tc-execution-2026-11-22.md`. No real label was
   read; no output of the proof is a result. Acceptance:
   **test**. Claims: C100-1, C100-7.
-- [ ] **T004 — Owner act recorded.** The owner's OD-5 act
+- [x] **T004 — Owner act recorded.** The owner's OD-5 act
   of 2026-11-22 11:36 ET (rerun authorised; deposit held
   until Miller's reply) and this package's assignment to
   adjudication unit I-21 are the adoption act of record,
   filed in `records/adoption-and-registration-2026-11-22.md`.
   Acceptance: **record**.
-- [ ] **T005 — Ledger intake and full registration.** The
+- [x] **T005 — Ledger intake and full registration.** The
   C100-1..C100-7 bundle intaken into the canonical ledger
   through `tools/ledger/import_bundle.py`; the taxonomy
   entry added (Anchors & readings / Validation batteries
