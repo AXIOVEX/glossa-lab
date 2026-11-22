@@ -19,14 +19,14 @@ Item types: **a** = primary evidence; **b** = another reading or a candidate-sys
 - Note: the basis-as-recorded segment is empty as filed ('Basis as recorded: ;'); the Phase-276 segment carries the filed legs
 - Note: the audit's evidence lines count a CROSSWALK_CORPUS line for this reading, but no crosswalk step is stated in the basis text as filed
 
-## M047 — min/mīn (class E, Q4 A)
+## M047 — min/mīn (class U, Q4 A)
 
 > Basis as recorded: FACT-CHECK CORRECTION 2026-05-11: Distributional assignment 'par' (LOW, Round 2) overridden by crosswalk evidence. M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan ; Evidence lines the audit counted as independent: 2 (CROSSWALK_CORPUS, EXTERNAL_CORROBORATION); Tests filed: drawing, phonetic_value, meaning
 
 | Item | Kind | Type | Statement | Targets | Notes |
 |---|---|---|---|---|---|
 | M047-01 | positional_statistic | a | distributional assignment 'par' (LOW, Round 2), overridden within the filed basis by the crosswalk evidence | — | Status: superseded within the filed basis by the 2026-05-11 fact-check correction |
-| M047-02 | crosswalk_identity | a | crosswalk identity: M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan) | — | Status: an identity at most, never a value: the identity rests on catalogue correspondence between the two sign lists, not on this reading (spec section 3.3); the basis as filed truncates mid-clause at this item. Re-verification outcome: VERIFIED AS FILED, provenance only (relabel execution record) |
+| M047-02 | crosswalk_identity | a | crosswalk identity: M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan) | — | Status: an identity at most, never a value: the identity rests on catalogue correspondence between the two sign lists, not on this reading (spec section 3.3); the basis as filed truncates mid-clause at this item. Re-verification outcome: VERIFIED AS FILED, provenance only (relabel execution record). F-9 act (2026-11-22): the owner adopted the itemization test; the directed re-examination entered no published_proposal item for this entry (the filed basis states no published proposal of the value; records/f9-itemization-adjudication-2026-11-22.md), no internal motivation for the reading remains on the filed basis, and the reading takes class U; this log's executed class follows the amended standings |
 
 ## M124 — kuTam (class E, Q4 M)
 

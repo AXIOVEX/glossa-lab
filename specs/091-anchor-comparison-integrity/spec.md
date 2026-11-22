@@ -325,3 +325,19 @@ amended; `records/m044-addendum-adjudication-2026-11-21.md`).
 "Independently supported" is retired as a class name; class E
 is "external-support claims on file", and no class E reading
 is identifiable or established.
+
+---
+
+## F-9 note (2026-11-22)
+
+The partition stated in the supersession note above moved
+once more. On 2026-11-22 the owner adopted the itemization
+test (Red Team Round 4, flag F-9): class E requires the
+external-support claim to appear in the reading's
+inference-log entry as an external-support item. The
+directed re-examination of M047 found no itemizable
+published proposal in its filed basis, and M047 was
+reclassed from E to U on its remaining filed basis. The
+executed partition as amended is **3 E + 65 I + 4 R + 3 P +
+19 U = 94** (`records/f9-itemization-adjudication-2026-11-22.md`;
+the standings record as amended by its F-9 amendment).

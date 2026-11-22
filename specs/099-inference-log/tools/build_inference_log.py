@@ -393,7 +393,18 @@ def _(b):
                       "reading (spec section 3.3); the basis as "
                       "filed truncates mid-clause at this item. "
                       "Re-verification outcome: VERIFIED AS FILED, "
-                      "provenance only (relabel execution record)")
+                      "provenance only (relabel execution record). "
+                      "F-9 act (2026-11-22): the owner adopted "
+                      "the itemization test; the directed "
+                      "re-examination entered no "
+                      "published_proposal item for this entry "
+                      "(the filed basis states no published "
+                      "proposal of the value; records/"
+                      "f9-itemization-adjudication-2026-11-22.md), "
+                      "no internal motivation for the reading "
+                      "remains on the filed basis, and the reading "
+                      "takes class U; this log's executed class "
+                      "follows the amended standings")
 
 
 @curate("M124")
@@ -1021,6 +1032,15 @@ def build(appendix_text: str, standings_text: str) -> dict:
         assert "M044 takes class U" in standings_text
         assert standings["M044"]["executed_class"] == "E"
         standings["M044"]["executed_class"] = "U"
+    # F-9 amendment to the standings record (2026-11-22): the
+    # owner adopted the itemization test, the directed
+    # re-examination entered no published_proposal item for
+    # M047, and M047 takes class U. Applied and asserted on
+    # the same form as the Round 2 arm above.
+    if "## F-9 amendment" in standings_text:
+        assert "M047 takes class U" in standings_text
+        assert standings["M047"]["executed_class"] == "E"
+        standings["M047"]["executed_class"] = "U"
     assert len(appendix) == 94, len(appendix)
     assert len(standings) == 94, len(standings)
     assert set(appendix) == set(standings), (
@@ -1068,7 +1088,10 @@ def build(appendix_text: str, standings_text: str) -> dict:
                          "2026-11-21.md (executed classes and Q4 "
                          "flags), as amended by its Round 2 "
                          "amendment (M044 to class U; records/"
-                         "m044-addendum-adjudication-2026-11-21.md)",
+                         "m044-addendum-adjudication-2026-11-21.md) "
+                         "and its F-9 amendment (M047 to class U; "
+                         "records/f9-itemization-adjudication-"
+                         "2026-11-22.md)",
             "annotations": "standings-supplement-2026-11-21.md; "
                            "dependency-record-2026-11-21.md; "
                            "coscientist-audit-94-adjudication-"
