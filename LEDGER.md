@@ -14526,3 +14526,35 @@ gate, Shell wrappers (macos-latest, ubuntu-latest,
 windows-latest) — all success. Adjudication:
 RED-TEAM-ROUND-3-ADJUDICATION.md (goal record). Execution
 venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 3, Eteocypriot corrections (Spec 096)
+
+The ICS 217 sense in corpus.json is corrected in substance
+(RT3-01): the "marked program rendering" filed by PR #648 was
+the removed translation with one word changed, and its
+pointer asserted Chadwick 1987 p. 56 as a translation of
+record, which no held record establishes — the record sources
+only Chadwick's transliteration (Wikipedia, CC BY-SA). The
+English string is removed; the sense is now a provenance
+statement (no translation held or reproduced; the excerpt is
+held as the sourced transliteration), and the Round 2 entry
+above is corrected accordingly. Corpus version advances to
+1.1.1 (SHA-256 2954283d…). The held-out records' `sealed:
+true` flags are corrected to false (RT3-12); tasks.md T202
+and amendment 1 gain pointers (RT3-12, RT1-05); claims.md
+gains a dated amendment pointer governing C096-1's A1/A2
+labels and its aee-claims.json mirror (RT1-05). The seal
+pointers misciting amendment 2 §2 for §7 are corrected —
+spec.md in place, the freeze and outcome head pointers by
+dated Round 3 additions, which also carry amendment 2 §10's
+mandated C096-2/C096-3 citation form onto the outcome
+record's face (RT3-08, RT1-43). The amendment-2 correction
+note's stem-table enumeration is completed (δ→t, RT3-19).
+CI on the substance head d00470419: 10/10 per job — Backend
+tests (pytest), Cloud image smoke (Spec 083), Evidence Graph
+script smoke tests, Freeze gate records check (C4), Frontend
+tests (Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all success.
+Adjudication: RED-TEAM-ROUND-3-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.
