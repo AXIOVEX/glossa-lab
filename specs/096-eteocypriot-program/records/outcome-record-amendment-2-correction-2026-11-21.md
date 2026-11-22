@@ -62,3 +62,22 @@ special case in the driver's `letters_of` function (the
 `ch == "ξ"` branch, which emits k then s). The δ→t repair
 of the Round 3 note stands; only its completeness wording
 is qualified by this clarification.
+
+## Round 5 correction: the STEMS count (RT5-05)
+
+The Round 4 clarification above states that STEMS "has 16
+entries". That count is wrong, and this appended section
+corrects it; the clarification's text is not rewritten.
+Counted first-hand by literal evaluation of the driver
+dict (`records/eteocypriot-e1-driver.py`, lines 36–40),
+STEMS has **15 entries**: β, γ, δ, ζ, θ, κ, λ, μ, ν, π,
+ρ, σ, τ, φ, χ. The clarification's arithmetic double-counts
+ξ: its "8 listed" (β→p, γ→k, δ→t, θ→t, ζ→s, φ→p, χ→k,
+ξ→k+s) include ξ→k+s, which the clarification's own next
+sentence correctly places outside STEMS as a `letters_of`
+special case — so the STEMS-resident subset of the 8 is 7,
+and 7 + 8 (κ→k, λ→l, μ→m, ν→n, π→p, ρ→r, σ→s, τ→t) = 15.
+The clarification's other arms stand: the 8 are the
+charged, non-obvious subset, and ξ→k+s is not a STEMS
+entry. No verdict, run or standing turns on the count; the
+driver is the executed code and is untouched.

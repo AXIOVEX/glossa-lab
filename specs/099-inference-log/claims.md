@@ -30,6 +30,18 @@ source-diversity flag as that record states them.
 > the claim as filed and are not rewritten (the append-only
 > bundle rule): a consumer of either mirror must read
 > C099-1 under this pointer.
+
+> **Mirror governance extended (2026-11-22, Red Team Round
+> 5 — RT5-02):** the amendment pointer above also governs
+> this claim's downstream generated mirror in
+> `glossa-indus/map/map-data.json`, which embeds C099-1's
+> statement verbatim, as filed, at two loci. That file is a
+> generated artifact — produced only by
+> `tools/ledger/generate_map.py` from the canonical ledger,
+> and its `--check` mode reproduces the committed file
+> byte-for-byte (verified at this correction) — and it
+> carries no governance text of its own. A consumer of the
+> map data must read C099-1 under the pointer above.
 *Falsifier:* a sign in the standings record absent from the
 log or present twice; a log entry whose reading, class, or
 flag differs from the standings record's row for that sign.

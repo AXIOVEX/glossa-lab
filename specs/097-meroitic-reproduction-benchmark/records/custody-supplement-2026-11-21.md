@@ -102,3 +102,30 @@ The chronology correction's substance, verified against
 the PR record in earlier rounds, is not impugned by this
 correction; its citation apparatus was unverifiable as
 written, and is now withdrawn and restated.
+
+## Citation correction — second (2026-11-22, Red Team Round 5 — RT5-08)
+
+Appended by the Round 5 adjudication; the text above is
+unedited. One further citation in this supplement does not
+resolve and is withdrawn:
+
+- §1 states that the custody record's "own §1 concedes the
+  point for the campaign: custody 'is recorded after the
+  fact for the benchmark's reuse.'" The quoted phrase
+  appears nowhere in `records/custody-record-2026-11-20.md`
+  — its §1 contains no such sentence (the record has §§1–3
+  only) — and nowhere else in the repository except this
+  supplement. The attribution and the quote are withdrawn.
+  What §1 of the custody record states is the objection
+  ruling: if an objection arrives, the custody ends and the
+  affected records are annotated. It makes no after-the-fact
+  concession about the benchmark's reuse. The chronology
+  §1 of this supplement establishes rests on the PR record
+  (PRs #615–#621), which stands and does not depend on the
+  withdrawn quote.
+
+With this section, the Round 4 correction's framing —
+withdrawing this supplement's citations to the custody
+record that do not resolve — is completed: every citation
+of the custody record in this supplement has now been
+checked against the record's §§1–3.
