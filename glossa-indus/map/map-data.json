@@ -66,7 +66,7 @@
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
    "assignment_sets_sha256": "793904cda66de130a3c74df5c2bc6efbb40805f6a25b59f5af905b3ab5c29615",
    "comparison_sha256": "62d072487b18819a12895aa67d3b6f8e58899b22d6f6fd7fe1f3d97b7524d262",
-   "settling_canonical_sha256": "414b1b1e10b803369c2e4a79f0e1fc8d8a9004b773d688c6305c1a34c6714044"
+   "settling_canonical_sha256": "de15a3fc50083b020a381fb477613272b2483b19ba151c7995c6aa8b2e50bbb7"
   }
  },
  "elements": [
@@ -167317,7 +167317,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "414b1b1e10b803369c2e4a79f0e1fc8d8a9004b773d688c6305c1a34c6714044",
+   "sha256": "de15a3fc50083b020a381fb477613272b2483b19ba151c7995c6aa8b2e50bbb7",
    "scenarios": [
     {
      "id": "null-over-subset",

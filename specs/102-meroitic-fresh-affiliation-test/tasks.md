@@ -33,7 +33,7 @@
   the custody holdings; the simulation's Stage 4.2
   validation figures reproduce the executed record's
   asymmetry).
-- [ ] **T004 — Ledger intake and full registration.**
+- [x] **T004 — Ledger intake and full registration.**
   The C102-1..C102-5 bundle intaken into the
   canonical ledger through
   `tools/ledger/import_bundle.py`; the taxonomy entry
