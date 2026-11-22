@@ -201,3 +201,34 @@ completed filing.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Amendment, 2026-11-22 — the reopen clause broadened (OD-1)
+
+**Authority: the owner's adoption in the Glossa-Lab chat
+on 2026-11-22 (11:21 ET) of item OD-1 of the Co-scientist
+refresh adjudication
+(`records/coscientist-refresh-adjudication-2026-11-22.md`,
+unit I-10). This amendment broadens the reopen clause
+above, prospectively only. It does not rewrite the act it
+amends, and it changes no current standing.**
+
+From this amendment forward, a reading struck under the
+itemization test may be reopened not only on production
+of the untruncated basis, but also by entering a verified
+prior proposal as a dated, source-linked basis amendment
+for that sign; verification means the proposal is read in
+its named source and shown to propose the reading for
+that sign, and a family-level or class-level proposal
+does not qualify for a sign-specific entry.
+
+Applied to this act: no entry is made for M047 under the
+broadened clause. The Parpola 1994 §10.1 proposal stands
+verified as filed as a prior proposal for the fish-sign
+family (the directed re-examination, item 4 above); it is
+class-level for the family and does not single out this
+catalogue sign, so it does not qualify as a sign-specific
+entry for M047. **M047 remains class U.**
+
+**AI disclosure:** this amendment was executed by an AI
+agent (Muse, via Muse) at the direction of Tristen
+Pierson, per constitution sec. VI.
