@@ -43,13 +43,13 @@
 
 ## Stage 1 — Step 0 (before anything is scored)
 
-- [ ] **T101 — Provenance audit and genuine-holdout subset.**
+- [x] **T101 — Provenance audit and genuine-holdout subset.**
   Every sequence-bearing source in the corpus of record
   checked against the candidate-generation inputs of record;
   the genuine-holdout subset established with its documentary
   basis, or its absence recorded. Claims: C098-6.
   Acceptance: **record**.
-- [ ] **T102 — M044/M374 gap resolution.** Their sequences
+- [x] **T102 — M044/M374 gap resolution.** Their sequences
   resolved from the diplomatic text codes under the frozen
   crosswalk, or both signs recorded as defaulting to
   UNDECIDABLE AT THIS POWER. Claims: C098-2. Acceptance:
