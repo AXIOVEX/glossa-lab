@@ -55,7 +55,7 @@
   UNDECIDABLE AT THIS POWER. Claims: C098-2. Acceptance:
   **record + test** (resolved sequences verify against the
   crosswalk of record).
-- [ ] **T103 — Power grid and execution freeze annex.** The
+- [x] **T103 — Power grid and execution freeze annex.** The
   per-sign power grid on development-side counts only
   (minimum detectable margin per sign at its expected
   held-out count); the context-model estimator details fixed
