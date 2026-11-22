@@ -70,7 +70,7 @@
 
 ## Stage 2 — Rivals and prediction sheets (development only)
 
-- [ ] **T201 — Rival construction.** R-A..R-E for all 71
+- [x] **T201 — Rival construction.** R-A..R-E for all 71
   signs, plus the Arm E cross-sign and comparandum rivals,
   constructed on development data only under WP8 fairness;
   tuning budgets recorded per sign. Claims: C098-3.

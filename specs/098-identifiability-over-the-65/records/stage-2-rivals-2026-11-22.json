@@ -1,0 +1,3913 @@
+{
+ "stage": "Spec 098 Stage 2, T201 (rival construction)",
+ "population": {
+  "count": 69,
+  "arm_I": [
+   "M002",
+   "M004",
+   "M005",
+   "M006",
+   "M007",
+   "M009",
+   "M010",
+   "M013",
+   "M014",
+   "M015",
+   "M016",
+   "M017",
+   "M018",
+   "M020",
+   "M023",
+   "M025",
+   "M026",
+   "M027",
+   "M029",
+   "M030",
+   "M032",
+   "M034",
+   "M037",
+   "M038",
+   "M041",
+   "M045",
+   "M049",
+   "M050",
+   "M051",
+   "M052",
+   "M053",
+   "M054",
+   "M055",
+   "M057",
+   "M060",
+   "M061",
+   "M062",
+   "M063",
+   "M065",
+   "M066",
+   "M067",
+   "M068",
+   "M069",
+   "M070",
+   "M073",
+   "M074",
+   "M075",
+   "M076",
+   "M078",
+   "M080",
+   "M082",
+   "M089",
+   "M099",
+   "M128",
+   "M130",
+   "M145",
+   "M151",
+   "M194",
+   "M220",
+   "M267",
+   "M347",
+   "M351",
+   "M374",
+   "M375",
+   "M391"
+  ],
+  "arm_E": [
+   "M047",
+   "M124",
+   "M329",
+   "M330"
+  ],
+  "dropped_from_annex_arm_E": {
+   "M202": "WS2 relabel execution 2026-11-21 (class E to U)",
+   "M044": "M044 addendum adjudication 2026-11-21 (class E to U)"
+  }
+ },
+ "corpus_field_census": {
+  "sequence_bearing": 3033,
+  "fields": {
+   "_citation": 3033,
+   "artifact_type": 3033,
+   "canonical_grapheme_ids": 3033,
+   "crosswalk_coverage": 3033,
+   "glossa_id": 3033,
+   "rights_status": 3033,
+   "sign_id_scheme": 3033,
+   "sign_instance_count": 3033,
+   "site_name": 966,
+   "source_system": 3033,
+   "text_code_diplomatic": 3033,
+   "text_code_diplomatic_normalized": 3033
+  },
+  "motif_or_iconography_fields": []
+ },
+ "split_and_guard": {
+  "clusters": 2413,
+  "dev_clusters": 1896,
+  "held_clusters_recomputed": 517,
+  "seal_recomputed_ok": true,
+  "guard_rows_passed": 1896,
+  "grid_reproduced": true
+ },
+ "per_sign_counts": {
+  "M002": {
+   "dev_tokens": 11,
+   "expected_heldout_tokens": 2.75,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M004": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M005": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M006": {
+   "dev_tokens": 4,
+   "expected_heldout_tokens": 1.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M007": {
+   "dev_tokens": 3,
+   "expected_heldout_tokens": 0.75,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M009": {
+   "dev_tokens": 7,
+   "expected_heldout_tokens": 1.75,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M010": {
+   "dev_tokens": 4,
+   "expected_heldout_tokens": 1.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M013": {
+   "dev_tokens": 0,
+   "expected_heldout_tokens": 0.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M014": {
+   "dev_tokens": 12,
+   "expected_heldout_tokens": 3.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M015": {
+   "dev_tokens": 64,
+   "expected_heldout_tokens": 16.0,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M016": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M017": {
+   "dev_tokens": 66,
+   "expected_heldout_tokens": 16.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M018": {
+   "dev_tokens": 13,
+   "expected_heldout_tokens": 3.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M020": {
+   "dev_tokens": 0,
+   "expected_heldout_tokens": 0.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M023": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M025": {
+   "dev_tokens": 27,
+   "expected_heldout_tokens": 6.75,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M026": {
+   "dev_tokens": 0,
+   "expected_heldout_tokens": 0.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M027": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M029": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M030": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M032": {
+   "dev_tokens": 8,
+   "expected_heldout_tokens": 2.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M034": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M037": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M038": {
+   "dev_tokens": 5,
+   "expected_heldout_tokens": 1.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M041": {
+   "dev_tokens": 9,
+   "expected_heldout_tokens": 2.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M045": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M049": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M050": {
+   "dev_tokens": 30,
+   "expected_heldout_tokens": 7.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M051": {
+   "dev_tokens": 58,
+   "expected_heldout_tokens": 14.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M052": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M053": {
+   "dev_tokens": 86,
+   "expected_heldout_tokens": 21.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M054": {
+   "dev_tokens": 14,
+   "expected_heldout_tokens": 3.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M055": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M057": {
+   "dev_tokens": 5,
+   "expected_heldout_tokens": 1.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M060": {
+   "dev_tokens": 40,
+   "expected_heldout_tokens": 10.0,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M061": {
+   "dev_tokens": 0,
+   "expected_heldout_tokens": 0.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M062": {
+   "dev_tokens": 25,
+   "expected_heldout_tokens": 6.25,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M063": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M065": {
+   "dev_tokens": 139,
+   "expected_heldout_tokens": 34.75,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M066": {
+   "dev_tokens": 11,
+   "expected_heldout_tokens": 2.75,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M067": {
+   "dev_tokens": 158,
+   "expected_heldout_tokens": 39.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M068": {
+   "dev_tokens": 7,
+   "expected_heldout_tokens": 1.75,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M069": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M070": {
+   "dev_tokens": 56,
+   "expected_heldout_tokens": 14.0,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M073": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M074": {
+   "dev_tokens": 2,
+   "expected_heldout_tokens": 0.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M075": {
+   "dev_tokens": 10,
+   "expected_heldout_tokens": 2.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M076": {
+   "dev_tokens": 12,
+   "expected_heldout_tokens": 3.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M078": {
+   "dev_tokens": 4,
+   "expected_heldout_tokens": 1.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M080": {
+   "dev_tokens": 4,
+   "expected_heldout_tokens": 1.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M082": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M089": {
+   "dev_tokens": 119,
+   "expected_heldout_tokens": 29.75,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M099": {
+   "dev_tokens": 426,
+   "expected_heldout_tokens": 106.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M128": {
+   "dev_tokens": 6,
+   "expected_heldout_tokens": 1.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M130": {
+   "dev_tokens": 37,
+   "expected_heldout_tokens": 9.25,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M145": {
+   "dev_tokens": 21,
+   "expected_heldout_tokens": 5.25,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M151": {
+   "dev_tokens": 0,
+   "expected_heldout_tokens": 0.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M194": {
+   "dev_tokens": 34,
+   "expected_heldout_tokens": 8.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M220": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M267": {
+   "dev_tokens": 226,
+   "expected_heldout_tokens": 56.5,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M347": {
+   "dev_tokens": 73,
+   "expected_heldout_tokens": 18.25,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M351": {
+   "dev_tokens": 1,
+   "expected_heldout_tokens": 0.25,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M374": {
+   "dev_tokens": 0,
+   "expected_heldout_tokens": 0.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M375": {
+   "dev_tokens": 36,
+   "expected_heldout_tokens": 9.0,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M391": {
+   "dev_tokens": 136,
+   "expected_heldout_tokens": 34.0,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M047": {
+   "dev_tokens": 11,
+   "expected_heldout_tokens": 2.75,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M124": {
+   "dev_tokens": 43,
+   "expected_heldout_tokens": 10.75,
+   "meets_floor_in_expectation": true,
+   "grid_row_reproduced": true
+  },
+  "M329": {
+   "dev_tokens": 4,
+   "expected_heldout_tokens": 1.0,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  },
+  "M330": {
+   "dev_tokens": 6,
+   "expected_heldout_tokens": 1.5,
+   "meets_floor_in_expectation": false,
+   "grid_row_reproduced": true
+  }
+ },
+ "free_choices": {
+  "M002": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M004": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M005": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M006": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M007": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M009": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M010": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M013": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M014": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M015": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M016": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M017": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M018": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M020": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M023": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M025": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M026": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M027": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M029": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M030": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M032": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M034": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M037": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M038": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M041": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M045": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M049": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M050": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M051": {
+   "variant_alternation": 1,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M052": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M053": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M054": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M055": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M057": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M060": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M061": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M062": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M063": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M065": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M066": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M067": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M068": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M069": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M070": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M073": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M074": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M075": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M076": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M078": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M080": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M082": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M089": {
+   "variant_alternation": 1,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M099": {
+   "variant_alternation": 1,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M128": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M130": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M145": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M151": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M194": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M220": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M267": {
+   "variant_alternation": 1,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M347": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M351": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M374": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M375": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  },
+  "M391": {
+   "variant_alternation": 1,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M047": {
+   "variant_alternation": 1,
+   "homophony_allowance": 0,
+   "gloss_alternation": 1,
+   "total": 2
+  },
+  "M124": {
+   "variant_alternation": 0,
+   "homophony_allowance": 1,
+   "gloss_alternation": 0,
+   "total": 1
+  },
+  "M329": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 1,
+   "total": 1
+  },
+  "M330": {
+   "variant_alternation": 0,
+   "homophony_allowance": 0,
+   "gloss_alternation": 0,
+   "total": 0
+  }
+ },
+ "shapes": {
+  "M002": {
+   "value_as_recorded": "kuṉ",
+   "normalized_first_alternant": "kun",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M004": {
+   "value_as_recorded": "kēḷ",
+   "normalized_first_alternant": "kel",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M005": {
+   "value_as_recorded": "kōṉ",
+   "normalized_first_alternant": "kon",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M006": {
+   "value_as_recorded": "puli",
+   "normalized_first_alternant": "puli",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M007": {
+   "value_as_recorded": "aaL",
+   "normalized_first_alternant": "al",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M009": {
+   "value_as_recorded": "āṇ",
+   "normalized_first_alternant": "an",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M010": {
+   "value_as_recorded": "paṭ",
+   "normalized_first_alternant": "pat",
+   "shape": [
+    1,
+    [
+     "stop"
+    ]
+   ]
+  },
+  "M013": {
+   "value_as_recorded": "nakaram",
+   "normalized_first_alternant": "nakaram",
+   "shape": [
+    3,
+    [
+     "open",
+     "open",
+     "nasal"
+    ]
+   ]
+  },
+  "M014": {
+   "value_as_recorded": "tiru",
+   "normalized_first_alternant": "tiru",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M015": {
+   "value_as_recorded": "mā",
+   "normalized_first_alternant": "ma",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M016": {
+   "value_as_recorded": "kaḷiṟu",
+   "normalized_first_alternant": "kaliru",
+   "shape": [
+    3,
+    [
+     "open",
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M017": {
+   "value_as_recorded": "kai",
+   "normalized_first_alternant": "kai",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M018": {
+   "value_as_recorded": "nēr",
+   "normalized_first_alternant": "ner",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M020": {
+   "value_as_recorded": "kuṉ",
+   "normalized_first_alternant": "kun",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M023": {
+   "value_as_recorded": "vaḷ",
+   "normalized_first_alternant": "val",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M025": {
+   "value_as_recorded": "cem",
+   "normalized_first_alternant": "cem",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M026": {
+   "value_as_recorded": "mā",
+   "normalized_first_alternant": "ma",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M027": {
+   "value_as_recorded": "māṟ",
+   "normalized_first_alternant": "mar",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M029": {
+   "value_as_recorded": "yānai",
+   "normalized_first_alternant": "yanai",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M030": {
+   "value_as_recorded": "kō",
+   "normalized_first_alternant": "ko",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M032": {
+   "value_as_recorded": "koL",
+   "normalized_first_alternant": "kol",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M034": {
+   "value_as_recorded": "tōḷ",
+   "normalized_first_alternant": "tol",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M037": {
+   "value_as_recorded": "kēḷ",
+   "normalized_first_alternant": "kel",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M038": {
+   "value_as_recorded": "pōr",
+   "normalized_first_alternant": "por",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M041": {
+   "value_as_recorded": "pēr",
+   "normalized_first_alternant": "per",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M045": {
+   "value_as_recorded": "yānai",
+   "normalized_first_alternant": "yanai",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M049": {
+   "value_as_recorded": "pu",
+   "normalized_first_alternant": "pu",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M050": {
+   "value_as_recorded": "pār",
+   "normalized_first_alternant": "par",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M051": {
+   "value_as_recorded": "pū/puḷ",
+   "normalized_first_alternant": "pu",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M052": {
+   "value_as_recorded": "ta",
+   "normalized_first_alternant": "ta",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M053": {
+   "value_as_recorded": "mi",
+   "normalized_first_alternant": "mi",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M054": {
+   "value_as_recorded": "mi",
+   "normalized_first_alternant": "mi",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M055": {
+   "value_as_recorded": "miN3",
+   "normalized_first_alternant": "minn",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M057": {
+   "value_as_recorded": "māṭu",
+   "normalized_first_alternant": "matu",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M060": {
+   "value_as_recorded": "kāṇṭāmirukam",
+   "normalized_first_alternant": "kantamirukam",
+   "shape": [
+    5,
+    [
+     "nasal",
+     "open",
+     "open",
+     "open",
+     "nasal"
+    ]
+   ]
+  },
+  "M061": {
+   "value_as_recorded": "ka",
+   "normalized_first_alternant": "ka",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M062": {
+   "value_as_recorded": "erutu",
+   "normalized_first_alternant": "erutu",
+   "shape": [
+    3,
+    [
+     "open",
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M063": {
+   "value_as_recorded": "mutalai",
+   "normalized_first_alternant": "mutalai",
+   "shape": [
+    3,
+    [
+     "open",
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M065": {
+   "value_as_recorded": "kuTam",
+   "normalized_first_alternant": "kutam",
+   "shape": [
+    2,
+    [
+     "open",
+     "nasal"
+    ]
+   ]
+  },
+  "M066": {
+   "value_as_recorded": "cōḻ",
+   "normalized_first_alternant": "col",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M067": {
+   "value_as_recorded": "kōṭṭāṉ",
+   "normalized_first_alternant": "kottan",
+   "shape": [
+    2,
+    [
+     "stop",
+     "nasal"
+    ]
+   ]
+  },
+  "M068": {
+   "value_as_recorded": "maṟi",
+   "normalized_first_alternant": "mari",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M069": {
+   "value_as_recorded": "nēr",
+   "normalized_first_alternant": "ner",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M070": {
+   "value_as_recorded": "vēl",
+   "normalized_first_alternant": "vel",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M073": {
+   "value_as_recorded": "kōṉ",
+   "normalized_first_alternant": "kon",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M074": {
+   "value_as_recorded": "ker",
+   "normalized_first_alternant": "ker",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M075": {
+   "value_as_recorded": "māṟ",
+   "normalized_first_alternant": "mar",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M076": {
+   "value_as_recorded": "naN",
+   "normalized_first_alternant": "nan",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M078": {
+   "value_as_recorded": "cēr",
+   "normalized_first_alternant": "cer",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M080": {
+   "value_as_recorded": "vēṅkai",
+   "normalized_first_alternant": "venkai",
+   "shape": [
+    2,
+    [
+     "nasal",
+     "open"
+    ]
+   ]
+  },
+  "M082": {
+   "value_as_recorded": "pa",
+   "normalized_first_alternant": "pa",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M089": {
+   "value_as_recorded": "tu/tū",
+   "normalized_first_alternant": "tu",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M099": {
+   "value_as_recorded": "kol/koḷ",
+   "normalized_first_alternant": "kol",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M128": {
+   "value_as_recorded": "kaṇ",
+   "normalized_first_alternant": "kan",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M130": {
+   "value_as_recorded": "mui",
+   "normalized_first_alternant": "mui",
+   "shape": [
+    2,
+    [
+     "open",
+     "open"
+    ]
+   ]
+  },
+  "M145": {
+   "value_as_recorded": "miṭ",
+   "normalized_first_alternant": "mit",
+   "shape": [
+    1,
+    [
+     "stop"
+    ]
+   ]
+  },
+  "M151": {
+   "value_as_recorded": "viḷ",
+   "normalized_first_alternant": "vil",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M194": {
+   "value_as_recorded": "kaṭ",
+   "normalized_first_alternant": "kat",
+   "shape": [
+    1,
+    [
+     "stop"
+    ]
+   ]
+  },
+  "M220": {
+   "value_as_recorded": "al",
+   "normalized_first_alternant": "al",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M267": {
+   "value_as_recorded": "iN/in (genitive)",
+   "normalized_first_alternant": "in",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M347": {
+   "value_as_recorded": "ka",
+   "normalized_first_alternant": "ka",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M351": {
+   "value_as_recorded": "vī",
+   "normalized_first_alternant": "vi",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M374": {
+   "value_as_recorded": "kul",
+   "normalized_first_alternant": "kul",
+   "shape": [
+    1,
+    [
+     "liquid"
+    ]
+   ]
+  },
+  "M375": {
+   "value_as_recorded": "taṇ",
+   "normalized_first_alternant": "tan",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M391": {
+   "value_as_recorded": "ka/kaṇ",
+   "normalized_first_alternant": "ka",
+   "shape": [
+    1,
+    [
+     "open"
+    ]
+   ]
+  },
+  "M047": {
+   "value_as_recorded": "min/mīn",
+   "normalized_first_alternant": "min",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M124": {
+   "value_as_recorded": "kuTam",
+   "normalized_first_alternant": "kutam",
+   "shape": [
+    2,
+    [
+     "open",
+     "nasal"
+    ]
+   ]
+  },
+  "M329": {
+   "value_as_recorded": "poṉ",
+   "normalized_first_alternant": "pon",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  },
+  "M330": {
+   "value_as_recorded": "can",
+   "normalized_first_alternant": "can",
+   "shape": [
+    1,
+    [
+     "nasal"
+    ]
+   ]
+  }
+ },
+ "rivals": {
+  "M002": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kōṉ",
+    "source": "annex value of M005",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "hill / mound",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M004": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "aaL",
+    "source": "annex value of M007",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M005": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M006": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "tiru",
+    "source": "annex value of M014",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "tiger / leopard",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M007": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M009": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "male / man",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M010": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "miṭ",
+    "source": "annex value of M145",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "ap",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "sing / fall",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M013": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "alavan",
+    "source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": null,
+    "not_constructible": true,
+    "reason": "no same-shape Sanskrit value in the frozen search space (sanskrit.py VOCABULARY)",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M014": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "puli",
+    "source": "annex value of M006",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M015": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kai",
+    "source": "annex value of M017",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M016": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "erutu",
+    "source": "annex value of M062",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "varuna",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M017": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M018": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "chest / heart",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M020": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kōṉ",
+    "source": "annex value of M005",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "hill / mound",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M023": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "strong",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M025": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "copper (red metal)",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M026": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kai",
+    "source": "annex value of M017",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M027": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "tree / wood",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M029": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "puli",
+    "source": "annex value of M006",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M030": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "king / chief",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M032": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "take / kill",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M034": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "ancient / old",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M037": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "aaL",
+    "source": "annex value of M007",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M038": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M041": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "big",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M045": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "puli",
+    "source": "annex value of M006",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M049": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M050": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "see / sing-out",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M051": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M052": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M053": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M054": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M055": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M057": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "puli",
+    "source": "annex value of M006",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M060": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": null,
+    "not_constructible": true,
+    "reason": "no same-shape Dravidian value in the frozen search space (annex values + dravidian.py VOCABULARY)",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": null,
+    "not_constructible": true,
+    "reason": "no same-shape Sanskrit value in the frozen search space (sanskrit.py VOCABULARY)",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M061": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M062": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kaḷiṟu",
+    "source": "annex value of M016",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "varuna",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "ox / bull",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M063": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kaḷiṟu",
+    "source": "annex value of M016",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "varuna",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M065": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "aen",
+    "source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "satam",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M066": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "say / tell (full form)",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M067": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "pakkam",
+    "source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "paksin",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M068": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "puli",
+    "source": "annex value of M006",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M069": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "chest / heart",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M070": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "silver (white metal)",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M073": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M074": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M075": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "tree / wood",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M076": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "good / virtue",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M078": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "reach / belong",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M080": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "amma",
+    "source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "simha",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "loving / dear",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M082": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M089": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M099": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "take / kill",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M128": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "see",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M130": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "puli",
+    "source": "annex value of M006",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "deva",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M145": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "paṭ",
+    "source": "annex value of M010",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "ap",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M151": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "bow / curve of brow",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M194": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "paṭ",
+    "source": "annex value of M010",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "ap",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "protection / refuge",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M220": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M267": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "genitive / of",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M347": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M351": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M374": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kēḷ",
+    "source": "annex value of M004",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "hotr",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M375": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "self / body",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M391": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "mā",
+    "source": "annex value of M015",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "rta",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record"
+  },
+  "M047": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "fish (rebus: star, celestial)",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record",
+   "R-X1 comparandum-as-value": {
+    "family": "R-X1 comparandum-as-value (Elamite)",
+    "value": "in",
+    "source": "MC-01, T303 record",
+    "free_choices": 0
+   },
+   "R-X2 comparandum-as-value": {
+    "family": "R-X2 comparandum-as-value (Sanskrit)",
+    "value": "mina",
+    "source": "SL-06, T303 record",
+    "free_choices": 0
+   }
+  },
+  "M124": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "aen",
+    "source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "satam",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "pot / jar",
+    "referent_gloss_source": "T303 application record",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record",
+   "R-X1 comparandum-as-value": {
+    "family": "R-X1 comparandum-as-value (Elamite; M044's comparanda package, the cross-sign arm named for this sign; Sanskrit comparandum 'kona', SL-04, recorded with it)",
+    "value": "kun",
+    "source": "MC-18, T303 record",
+    "free_choices": 0
+   }
+  },
+  "M329": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": "gold",
+    "referent_gloss_source": "dravidian.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record",
+   "R-X1 comparandum-as-value": {
+    "family": "R-X1 comparandum-as-value (Elamite; Sanskrit comparandum 'pura', SL-14, recorded with it)",
+    "value": "pur",
+    "source": "MC-21, T303 record",
+    "free_choices": 0
+   }
+  },
+  "M330": {
+   "R-A": {
+    "family": "R-A matched wrong Dravidian value (C2/C5)",
+    "value": "kuṉ",
+    "source": "annex value of M002",
+    "free_choices": 0
+   },
+   "R-B": {
+    "family": "R-B unrelated-family value (C5), Sanskrit",
+    "value": "svan",
+    "source": "sanskrit.py VOCABULARY",
+    "free_choices": 0
+   },
+   "R-C": {
+    "family": "R-C logogram rival (C1/C3)",
+    "construction": "logogram: the sign carries the candidate value's referent as a logogram, no phonetic value",
+    "referent_gloss": null,
+    "referent_gloss_source": null,
+    "free_choices": 0
+   },
+   "R-D": {
+    "family": "R-D structural-only model (C6-adjacent baseline)",
+    "construction": "no value assignment; the language-neutral order-1 neighbour-pair model over the sign's development contexts, unconditioned (the annex estimator with the unconditioned assignment)",
+    "free_choices": 0
+   },
+   "R-E": "model-level: see the global permutation in this record",
+   "R-X1 cross-sign": {
+    "family": "R-X1 cross-sign rival: M202's evidence package (Elamite 'an', MC-07; Sanskrit 'annam/anna', SL-03)",
+    "value": "can",
+    "source": "T303 record",
+    "free_choices": 0
+   },
+   "R-X2 comparandum-as-value": {
+    "family": "R-X2 comparandum-as-value (Elamite)",
+    "value": "an",
+    "source": "MC-07, T303 record",
+    "free_choices": 0
+   },
+   "R-X3 comparandum-as-value": {
+    "family": "R-X3 comparandum-as-value (Sanskrit)",
+    "value": "anna",
+    "source": "SL-03, T303 record",
+    "free_choices": 0
+   }
+  }
+ },
+ "global_permutation_R-E": {
+  "M002": {
+   "receives_value": "can",
+   "from_sign": "M330",
+   "fixed_point": false
+  },
+  "M005": {
+   "receives_value": "kuṉ",
+   "from_sign": "M002",
+   "fixed_point": false
+  },
+  "M009": {
+   "receives_value": "kōṉ",
+   "from_sign": "M005",
+   "fixed_point": false
+  },
+  "M020": {
+   "receives_value": "āṇ",
+   "from_sign": "M009",
+   "fixed_point": false
+  },
+  "M025": {
+   "receives_value": "kuṉ",
+   "from_sign": "M020",
+   "fixed_point": false
+  },
+  "M055": {
+   "receives_value": "cem",
+   "from_sign": "M025",
+   "fixed_point": false
+  },
+  "M073": {
+   "receives_value": "miN3",
+   "from_sign": "M055",
+   "fixed_point": false
+  },
+  "M076": {
+   "receives_value": "kōṉ",
+   "from_sign": "M073",
+   "fixed_point": false
+  },
+  "M128": {
+   "receives_value": "naN",
+   "from_sign": "M076",
+   "fixed_point": false
+  },
+  "M267": {
+   "receives_value": "kaṇ",
+   "from_sign": "M128",
+   "fixed_point": false
+  },
+  "M375": {
+   "receives_value": "iN/in (genitive)",
+   "from_sign": "M267",
+   "fixed_point": false
+  },
+  "M047": {
+   "receives_value": "taṇ",
+   "from_sign": "M375",
+   "fixed_point": false
+  },
+  "M329": {
+   "receives_value": "min/mīn",
+   "from_sign": "M047",
+   "fixed_point": false
+  },
+  "M330": {
+   "receives_value": "poṉ",
+   "from_sign": "M329",
+   "fixed_point": false
+  },
+  "M004": {
+   "receives_value": "kul",
+   "from_sign": "M374",
+   "fixed_point": false
+  },
+  "M007": {
+   "receives_value": "kēḷ",
+   "from_sign": "M004",
+   "fixed_point": false
+  },
+  "M018": {
+   "receives_value": "aaL",
+   "from_sign": "M007",
+   "fixed_point": false
+  },
+  "M023": {
+   "receives_value": "nēr",
+   "from_sign": "M018",
+   "fixed_point": false
+  },
+  "M027": {
+   "receives_value": "vaḷ",
+   "from_sign": "M023",
+   "fixed_point": false
+  },
+  "M032": {
+   "receives_value": "māṟ",
+   "from_sign": "M027",
+   "fixed_point": false
+  },
+  "M034": {
+   "receives_value": "koL",
+   "from_sign": "M032",
+   "fixed_point": false
+  },
+  "M037": {
+   "receives_value": "tōḷ",
+   "from_sign": "M034",
+   "fixed_point": false
+  },
+  "M038": {
+   "receives_value": "kēḷ",
+   "from_sign": "M037",
+   "fixed_point": false
+  },
+  "M041": {
+   "receives_value": "pōr",
+   "from_sign": "M038",
+   "fixed_point": false
+  },
+  "M050": {
+   "receives_value": "pēr",
+   "from_sign": "M041",
+   "fixed_point": false
+  },
+  "M066": {
+   "receives_value": "pār",
+   "from_sign": "M050",
+   "fixed_point": false
+  },
+  "M069": {
+   "receives_value": "cōḻ",
+   "from_sign": "M066",
+   "fixed_point": false
+  },
+  "M070": {
+   "receives_value": "nēr",
+   "from_sign": "M069",
+   "fixed_point": false
+  },
+  "M074": {
+   "receives_value": "vēl",
+   "from_sign": "M070",
+   "fixed_point": false
+  },
+  "M075": {
+   "receives_value": "ker",
+   "from_sign": "M074",
+   "fixed_point": false
+  },
+  "M078": {
+   "receives_value": "māṟ",
+   "from_sign": "M075",
+   "fixed_point": false
+  },
+  "M099": {
+   "receives_value": "cēr",
+   "from_sign": "M078",
+   "fixed_point": false
+  },
+  "M151": {
+   "receives_value": "kol/koḷ",
+   "from_sign": "M099",
+   "fixed_point": false
+  },
+  "M220": {
+   "receives_value": "viḷ",
+   "from_sign": "M151",
+   "fixed_point": false
+  },
+  "M374": {
+   "receives_value": "al",
+   "from_sign": "M220",
+   "fixed_point": false
+  },
+  "M006": {
+   "receives_value": "mui",
+   "from_sign": "M130",
+   "fixed_point": false
+  },
+  "M014": {
+   "receives_value": "puli",
+   "from_sign": "M006",
+   "fixed_point": false
+  },
+  "M029": {
+   "receives_value": "tiru",
+   "from_sign": "M014",
+   "fixed_point": false
+  },
+  "M045": {
+   "receives_value": "yānai",
+   "from_sign": "M029",
+   "fixed_point": false
+  },
+  "M057": {
+   "receives_value": "yānai",
+   "from_sign": "M045",
+   "fixed_point": false
+  },
+  "M068": {
+   "receives_value": "māṭu",
+   "from_sign": "M057",
+   "fixed_point": false
+  },
+  "M130": {
+   "receives_value": "maṟi",
+   "from_sign": "M068",
+   "fixed_point": false
+  },
+  "M010": {
+   "receives_value": "kaṭ",
+   "from_sign": "M194",
+   "fixed_point": false
+  },
+  "M145": {
+   "receives_value": "paṭ",
+   "from_sign": "M010",
+   "fixed_point": false
+  },
+  "M194": {
+   "receives_value": "miṭ",
+   "from_sign": "M145",
+   "fixed_point": false
+  },
+  "M013": {
+   "receives_value": "nakaram",
+   "from_sign": "M013",
+   "fixed_point": true
+  },
+  "M015": {
+   "receives_value": "ka/kaṇ",
+   "from_sign": "M391",
+   "fixed_point": false
+  },
+  "M017": {
+   "receives_value": "mā",
+   "from_sign": "M015",
+   "fixed_point": false
+  },
+  "M026": {
+   "receives_value": "kai",
+   "from_sign": "M017",
+   "fixed_point": false
+  },
+  "M030": {
+   "receives_value": "mā",
+   "from_sign": "M026",
+   "fixed_point": false
+  },
+  "M049": {
+   "receives_value": "kō",
+   "from_sign": "M030",
+   "fixed_point": false
+  },
+  "M051": {
+   "receives_value": "pu",
+   "from_sign": "M049",
+   "fixed_point": false
+  },
+  "M052": {
+   "receives_value": "pū/puḷ",
+   "from_sign": "M051",
+   "fixed_point": false
+  },
+  "M053": {
+   "receives_value": "ta",
+   "from_sign": "M052",
+   "fixed_point": false
+  },
+  "M054": {
+   "receives_value": "mi",
+   "from_sign": "M053",
+   "fixed_point": false
+  },
+  "M061": {
+   "receives_value": "mi",
+   "from_sign": "M054",
+   "fixed_point": false
+  },
+  "M082": {
+   "receives_value": "ka",
+   "from_sign": "M061",
+   "fixed_point": false
+  },
+  "M089": {
+   "receives_value": "pa",
+   "from_sign": "M082",
+   "fixed_point": false
+  },
+  "M347": {
+   "receives_value": "tu/tū",
+   "from_sign": "M089",
+   "fixed_point": false
+  },
+  "M351": {
+   "receives_value": "ka",
+   "from_sign": "M347",
+   "fixed_point": false
+  },
+  "M391": {
+   "receives_value": "vī",
+   "from_sign": "M351",
+   "fixed_point": false
+  },
+  "M016": {
+   "receives_value": "mutalai",
+   "from_sign": "M063",
+   "fixed_point": false
+  },
+  "M062": {
+   "receives_value": "kaḷiṟu",
+   "from_sign": "M016",
+   "fixed_point": false
+  },
+  "M063": {
+   "receives_value": "erutu",
+   "from_sign": "M062",
+   "fixed_point": false
+  },
+  "M060": {
+   "receives_value": "kāṇṭāmirukam",
+   "from_sign": "M060",
+   "fixed_point": true
+  },
+  "M065": {
+   "receives_value": "kuTam",
+   "from_sign": "M124",
+   "fixed_point": false
+  },
+  "M124": {
+   "receives_value": "kuTam",
+   "from_sign": "M065",
+   "fixed_point": false
+  },
+  "M067": {
+   "receives_value": "kōṭṭāṉ",
+   "from_sign": "M067",
+   "fixed_point": true
+  },
+  "M080": {
+   "receives_value": "vēṅkai",
+   "from_sign": "M080",
+   "fixed_point": true
+  }
+ }
+}
