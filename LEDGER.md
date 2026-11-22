@@ -14688,6 +14688,29 @@ special case in the driver's letters_of, not a STEMS entry
 (RT4-10). RT4-12 was adjudicated DO NOT APPLY (the accepted
 pointer pattern; no change). CI on the substance head
 f4e1cc4f5: 10/10 per job — Backend tests (pytest), Cloud
+
+## 2026-11-21 — Red Team Round 4, Meroitic corrections (Spec 097)
+
+The verdict restatement gains a dated head correction
+pointer on the RT2-13 pattern: its Leg A tally as stated
+("Positively contradicted: 2 counts, plus one Table 2
+size"; A9 as "the second positive contradiction") is
+withdrawn by the tally correction — Exact 4 / Contradicted
+1 (A9) / Untestable 3 / Basis-unstated 2 = 10, the Table 2
+size stated separately — and its Leg B citation form is
+superseded by the citation record §2 ("fixture internally
+inconsistent; the leg is not interpretable as
+calibration"); the original text is unedited (RT4-05,
+discharging RT3-04's fourth-face residue). The custody
+supplement and the Stage 4.5 supplement gain appended
+citation corrections withdrawing their citations to
+custody-record §§4–5 — the custody record has §§1–3 only —
+and the quoted §5 sentence, which appears in no record;
+the verified citations are restated to §§1–3 (objection
+ends custody, §1; custody terms, §2; the send of record,
+§3). The chronology substance, resting on the PR record,
+is not impugned (RT4-07). CI on the substance head
+e27d21c4e: 10/10 per job — Backend tests (pytest), Cloud
 image smoke (Spec 083), Evidence Graph script smoke tests,
 Freeze gate records check (C4), Frontend tests
 (Playwright), Indus public validation checks,
