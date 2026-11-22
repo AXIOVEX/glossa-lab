@@ -14854,11 +14854,11 @@ unadjudicated; ledger standings unchanged") no longer
 applies as to the verdicts' status; ledger standings are
 unchanged — C096-1..C096-4 stand at draft / created, and no
 standing is moved by this landing. The platform project
-`eteocypriot_program` description could not be checked from
-the record (its create body is not filed in this repo; the
-platform read route stands as this ledger's open
-verification note states), and the adjudication record
-carries the supersession note for it. Execution venue:
+`eteocypriot_program` was checked the same day through the
+repaired MCP route (tower-compute home): its description,
+prompt context, question and standing position state no
+verdict and carry no proposed-and-unadjudicated framing,
+and no platform change is made. Execution venue:
 tower-compute. PR #662. CI on the substance head f7922c87:
 10/10 per job — Backend tests (pytest), Cloud image smoke
 (Spec 083), Evidence Graph script smoke tests, Freeze gate

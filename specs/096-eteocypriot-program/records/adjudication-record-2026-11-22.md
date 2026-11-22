@@ -87,14 +87,14 @@ standing change remains a separate act of the approver's.
 ## 4. The platform project description
 
 The platform project `eteocypriot_program` (adoption record,
-2026-11-20) carries a description held on the live backend;
-its create body is not filed in this repository, and its
-text could not be checked from the record in this landing —
-the platform read route stands as the LEDGER's open
-verification note states it (the spec-studies route returns
-401 without the platform token; the MCP tooling is down).
-No platform change is made by this record. If the
-description states the verdicts as proposed and
-unadjudicated, that statement is superseded by this record
-and is to be corrected when the platform route is next
-exercised.
+2026-11-20) was checked for the framing on 2026-11-22,
+through the repaired MCP route (tower-compute home):
+`GET /api/v1/projects/eteocypriot_program` returned the
+record as created (HTTP 200). Its description, prompt
+context, question and standing position state no verdict
+and carry no proposed-and-unadjudicated framing — the
+description speaks of the program's stages and corpus only,
+and the standing position states that every reading stands
+exactly where the registered analysis leaves it. No
+platform change is made by this record, and none is needed
+on this surface.
