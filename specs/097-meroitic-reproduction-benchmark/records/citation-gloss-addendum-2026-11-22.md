@@ -193,3 +193,41 @@ CONFIRMED**.
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.
+
+## 9. Amendment — OD-13: the A9 citation form (2026-11-22)
+
+**Date of amendment: 2026-11-22. Authority: owner
+decision OD-13 (unit M-2), recorded at §10 of the
+governing adjudication record.** The owner changed
+the adjudicated citation of Leg A claim A9. From this
+amendment forward, A9 is cited as **discrepant under
+the documented reproduction procedure**: the published
+count (17,257 phrases post-augmentation) was never
+tested against the counted file, because the deposited
+file is the name-augmented training file (18,090
+non-blank lines), not the counted augmented file.
+
+**Original form, preserved (amendment trail).** The
+text above is not rewritten. It carries the superseded
+form in three places: the headnote ("The adjudicated
+citation forms stand, including Leg A's 'positively
+contradicted: 1 (A9)'"), the A9 row of the §3 table
+("Positively contradicted - the deposited file is the
+name-augmented training file, not the counted augmented file"), and the tallies paragraph
+("positively contradicted 1 (A9)"). Each is superseded
+as a citation form by this amendment; the numbers and
+the counting basis stated in the table are unchanged.
+
+**What does not change.** The Leg A tallies stand:
+Exact 4 (A1, A6, A8, A10) / Contradicted 1 (A9) /
+Untestable 3 (A3, A4, A7) / Basis-unstated 2 (A2, A5).
+The tally's one-count category is unchanged as a
+count; only A9's citation form changes. No verdict
+changes, and the Leg A verdict (REPRODUCED IN PART /
+DEPOSIT INCOMPLETE) is untouched. The Table 2 names
+statement (§2) is outside OD-13, which names A9
+only, and stands as written.
+
+**AI disclosure:** this amendment was executed by an
+AI agent (Muse, via Muse) at the direction of
+Tristen Pierson, per constitution sec. VI.

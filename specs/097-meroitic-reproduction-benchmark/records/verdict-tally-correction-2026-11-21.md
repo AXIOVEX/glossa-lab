@@ -63,3 +63,26 @@ record corrects only how the counts are tallied when cited.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Amendment — OD-13: the A9 citation form (2026-11-22)
+
+**Date of amendment: 2026-11-22. Authority: owner
+decision OD-13 (unit M-2), recorded at §10 of the
+Co-scientist refresh adjudication record of
+2026-11-22.** The tallies re-issued above cite A9
+under the heading "Positively contradicted: 1". From
+this amendment forward, A9 is cited as **discrepant
+under the documented reproduction procedure**; the
+original form stands in the text above, unrewritten,
+as the amendment trail. The counts do not change:
+Exact 4 / Contradicted 1 (A9) / Untestable 3 /
+Basis-unstated 2 = 10, and on the testable counts
+4 exact of 7. No number in the outcome record changes
+and no verdict changes. The Table 2 names sentence in
+this record ("also positively contradicted", stated
+separately from the ten counts) is outside OD-13,
+which names A9 only, and stands as written.
+
+**AI disclosure:** this amendment was executed by an
+AI agent (Muse, via Muse) at the direction of
+Tristen Pierson, per constitution sec. VI.
