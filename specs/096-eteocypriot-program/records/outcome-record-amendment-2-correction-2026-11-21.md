@@ -48,3 +48,17 @@ listed θ→t and γ→k. The charged enumeration, completed, is:
 completes the enumeration; the correction above (the
 dead-vowel withdrawal) is unaffected, and RT2-11's closure
 is not reopened.
+
+## Round 4 clarification: what the enumeration is (RT4-10)
+
+The Round 3 note above calls its 8-mapping list "the
+charged enumeration, completed". Stated precisely: the 8
+are the charged, non-obvious subset of the driver's STEMS
+table, not the whole table. STEMS
+(`records/eteocypriot-e1-driver.py`, lines 36–40) has 16
+entries: the 8 listed, plus κ→k, λ→l, μ→m, ν→n, π→p, ρ→r,
+σ→s, τ→t. And ξ→k+s is not a STEMS entry at all: it is a
+special case in the driver's `letters_of` function (the
+`ch == "ξ"` branch, which emits k then s). The δ→t repair
+of the Round 3 note stands; only its completeness wording
+is qualified by this clarification.

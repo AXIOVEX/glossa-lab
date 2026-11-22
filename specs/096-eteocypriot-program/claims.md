@@ -18,6 +18,17 @@ claim or any Indus-program claim.
 > text stands as filed; citations of the E1 legs follow
 > amendment 2. The same pointer governs the claim's mirror in
 > `aee-claims.json`, whose text is the claim as filed.
+>
+> **Extension of this pointer (2026-11-21, Red Team Round 4 —
+> RT4-09):** stated expressly for a consumer of the bundle
+> alone: C096-1's text in `aee-claims.json` still reads "A2
+> name-anchored free alignment"; that label is superseded as
+> a citation form by amendment 2 §1, under which A1 is a
+> pure index-offset check with a predetermined 0/2 and A2 as
+> executed was unanchored free alignment. The JSON is the
+> claim as filed and is not rewritten (the append-only
+> bundle rule); its `source_ref` points here, and this
+> pointer is its governance. Read the bundle under it.
 
 ## The claims
 
