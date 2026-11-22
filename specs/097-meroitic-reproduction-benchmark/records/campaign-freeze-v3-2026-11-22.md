@@ -122,3 +122,65 @@ companion's hash.
 forms retained, 3 Wikipedia-only forms excluded and named),
 concept coverage identical across all 12 scored concepts;
 freeze v2 and all Stage 4 results untouched.**
+
+## Amendment 2026-11-22 — F-A correction to section 3 (labels only, counts unchanged)
+
+**Authority:** flagged for adjudication as F-A by the OD-17
+freeze-split dependency audit (PR #692, record
+`od17-freeze-split-dependency-audit-2026-11-22.md` §5);
+correction authorised by the owner 2026-11-22 13:50 ET.
+This amendment corrects gloss labels and one sentence in
+section 3 above. The original text is preserved verbatim
+in this amendment; nothing above is rewritten.
+
+**The defect.** Section 3's per-concept table attaches
+glosses from a numbering other than the ASJP parameter
+numbering of record to 9 of its 12 concept IDs, and its
+matching-concepts sentence names concepts that do not
+correspond to the executed Stage 4.2 record.
+
+**Original text, as filed (preserved):** "Concept coverage
+is identical before and after (forms per scored concept,
+v2 = v3): 12 night 2, 15 dog 3, 16 woman 2, 17 fire 2,
+21 head 1, 46 bone 1, 55 louse 4, 62 belly 2, 70 heart 2,
+72 sun 4, 75 water 2, 97 egg 1." And: "Stage 4.2's
+formative count S and its four matching concepts
+(2, 15, 16, 75) are computed over forms and concepts the
+cleanup does not alter, so S = 4 and every other Stage 4
+verdict would be computed identically under the v3
+vocabulary."
+
+**Corrected labels** (ASJP numbering of record, per the
+registered concept map in the pipeline code that freeze v2
+section 4 designates, corroborated by the executed
+Stage 4.2 outcome record, which names "21 dog, 46 foot,
+72 sun, 75 water", and by the OD-17 audit §3.3): 12 **two**
+(not "night"), 15 **small** (not "dog"), 16 woman
+(unchanged), 17 **man** (not "fire"), 21 **dog** (not
+"head"), 46 **foot** (not "bone"), 55 **eat** (not
+"louse"), 62 **kill** (not "belly"), 70 **give** (not
+"heart"), 72 sun (unchanged), 75 water (unchanged),
+97 **good** (not "egg"). The corrected table reads:
+12 two 2, 15 small 3, 16 woman 2, 17 man 2, 21 dog 1,
+46 foot 1, 55 eat 4, 62 kill 2, 70 give 2, 72 sun 4,
+75 water 2, 97 good 1.
+
+**Corrected matching-concepts sentence:** Stage 4.2's
+four matching concepts are **(21, 46, 72, 75)**, as
+executed and as recorded in `stage-4-2-results.json`
+(per-concept pattern) and the Stage 4.2 outcome record.
+Concept 2 was never scored.
+
+**Counts do not change.** Every count in the amended
+table was verified against the executed record before
+this amendment landed: the per-concept counts
+(12: 2, 15: 3, 16: 2, 17: 2, 21: 1, 46: 1, 55: 4, 62: 2,
+70: 2, 72: 4, 75: 2, 97: 1; 26 concept-bearing forms)
+recount identically from `freeze-v2-vocabulary-2026-11-20.json`
+and `freeze-v3-vocabulary-2026-11-22.json`, and agree with
+the OD-16 comparison's scoring projection and the OD-17
+audit §3.3. No Stage 4 number, verdict, or standing is
+touched: Stage 4.2 ran under freeze v2, and freeze v3 is
+for future work only — which is why the correction
+matters: a future test frozen against v3 now inherits a
+correctly labelled table.
