@@ -1,0 +1,1494 @@
+{
+ "driver": "od20_soreyi_baselines.py",
+ "purpose": "OD-20 soreyi baseline reassessment, Spec 097 Stage 4.4",
+ "input_hashes": {
+  "pipeline-v2.py (frozen code, campaign scratch)": "74b831da221f0708b2c5a9f7e9f1a7772175fe2097783f101d33588769e1642e",
+  "inscriptions.jsonl (Kovetsky acquired corpus)": "1e91e3a0c52626482bc4015b597df862e7818602dab48a7e870240ab2e567bc4",
+  "stage-4-3-candidates.json (filed, repo)": "4f1e7812488b7760003194153758915680d6d9a25f34c86d7e16daf8b4a86167",
+  "stage-4-4-results.json (filed, repo)": "11369924c0ad5568ea32f7ad7b55c11052eaa18ec88cc2dea3e3e2459d490e8f"
+ },
+ "reproduction_stage43_exact": true,
+ "reproduction_stage44_candidates_exact": true,
+ "reproduction_stage44_controls_exact": true,
+ "reproduction_stage44_held_by_stratum": {
+  "royal_temple": 10,
+  "graffito": 2,
+  "funerary": 16,
+  "document": 5
+ },
+ "soreyi_filed_stage44": {
+  "form": "soreyi",
+  "candidate_reading": "cult or offering term (theonym-adjacent)",
+  "per_stratum": {
+   "royal_temple": {
+    "held_texts": 10,
+    "occurrences": 0,
+    "texts_with_form": 0
+   },
+   "graffito": {
+    "held_texts": 2,
+    "occurrences": 0,
+    "texts_with_form": 0
+   },
+   "funerary": {
+    "held_texts": 16,
+    "occurrences": 10,
+    "texts_with_form": 10
+   },
+   "document": {
+    "held_texts": 5,
+    "occurrences": 0,
+    "texts_with_form": 0
+   }
+  },
+  "heldout_funerary_share": 1.0,
+  "predicted_range": [
+   0.75,
+   1.0
+  ],
+  "heldout_result": "PASS",
+  "score": "PARTIALLY SUPPORTED (held-out leg passed; seal unverifiable by construction - see freeze v2 s.6)"
+ },
+ "anchor_only_baseline": {
+  "vocab_entries_theonym_family": [
+   {
+    "norm": "wos",
+    "form": "wos",
+    "gloss": "Isis",
+    "confidence": "certain",
+    "origin": "gold_lexicon_ccby"
+   },
+   {
+    "norm": "wosi",
+    "form": "wosi",
+    "gloss": "Isis",
+    "confidence": "certain",
+    "origin": "gold_lexicon_ccby"
+   },
+   {
+    "norm": "sorey",
+    "form": "sorey",
+    "gloss": "Osiris",
+    "confidence": "certain",
+    "origin": "gold_lexicon_ccby"
+   }
+  ],
+  "sorey": {
+   "dev": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 41
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 22
+     },
+     "funerary": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 223
+     },
+     "other": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 7
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 42
+     }
+    },
+    "total_occurrences": 0,
+    "total_texts_with": 0,
+    "funerary_share_of_occurrences": null
+   },
+   "held": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 0,
+    "total_texts_with": 0,
+    "funerary_share_of_occurrences": null
+   },
+   "dev_context": {
+    "occurrences": 0,
+    "texts_with": 0
+   },
+   "held_context": {
+    "occurrences": 0,
+    "texts_with": 0
+   }
+  },
+  "wos": {
+   "dev": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 2,
+      "texts_with": 1,
+      "texts": 41
+     },
+     "graffito": {
+      "occurrences": 9,
+      "texts_with": 7,
+      "texts": 22
+     },
+     "funerary": {
+      "occurrences": 6,
+      "texts_with": 6,
+      "texts": 223
+     },
+     "other": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 7
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 42
+     }
+    },
+    "total_occurrences": 17,
+    "total_texts_with": 14,
+    "funerary_share_of_occurrences": 0.35294117647058826
+   },
+   "held": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 3,
+      "texts_with": 1,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 3,
+    "total_texts_with": 1,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "dev_context": {
+    "occurrences": 17,
+    "texts_with": 14,
+    "position_shares": {
+     "initial": 0.3529,
+     "medial": 0.6471,
+     "final": 0.0
+    },
+    "adjacency_counts": {
+     "soreyi": 1
+    },
+    "adjacency_rate_per_occurrence": {
+     "soreyi": 0.0588
+    },
+    "top_neighbours": [
+     [
+      "pileqeteli",
+      3
+     ],
+     [
+      "tlo",
+      2
+     ],
+     [
+      "slo",
+      2
+     ],
+     [
+      "tklw",
+      1
+     ],
+     [
+      "atere",
+      1
+     ],
+     [
+      "tmot",
+      1
+     ],
+     [
+      "tewi",
+      1
+     ],
+     [
+      "qetnyinli",
+      1
+     ]
+    ]
+   },
+   "held_context": {
+    "occurrences": 3,
+    "texts_with": 1,
+    "position_shares": {
+     "initial": 0.0,
+     "medial": 1.0,
+     "final": 0.0
+    },
+    "adjacency_counts": {},
+    "adjacency_rate_per_occurrence": {},
+    "top_neighbours": [
+     [
+      "ytkidetowi",
+      2
+     ],
+     [
+      "kye",
+      1
+     ],
+     [
+      "pileqete",
+      1
+     ],
+     [
+      "atiyete",
+      1
+     ],
+     [
+      "tebwete",
+      1
+     ]
+    ]
+   }
+  },
+  "wosi": {
+   "dev": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 41
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 22
+     },
+     "funerary": {
+      "occurrences": 163,
+      "texts_with": 146,
+      "texts": 223
+     },
+     "other": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 7
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 42
+     }
+    },
+    "total_occurrences": 163,
+    "total_texts_with": 146,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "held": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 12,
+      "texts_with": 12,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 12,
+    "total_texts_with": 12,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "dev_context": {
+    "occurrences": 163,
+    "texts_with": 146,
+    "position_shares": {
+     "initial": 0.8405,
+     "medial": 0.1472,
+     "final": 0.0123
+    },
+    "adjacency_counts": {
+     "soreyi": 120
+    },
+    "adjacency_rate_per_occurrence": {
+     "soreyi": 0.7362
+    },
+    "top_neighbours": [
+     [
+      "soreyi",
+      120
+     ],
+     [
+      "asoreyi",
+      20
+     ],
+     [
+      "soriyi",
+      7
+     ],
+     [
+      "pxolkete",
+      4
+     ],
+     [
+      "sorei",
+      4
+     ],
+     [
+      "kdeyonqo",
+      2
+     ],
+     [
+      "sor",
+      2
+     ],
+     [
+      "xolkete",
+      2
+     ]
+    ]
+   },
+   "held_context": {
+    "occurrences": 12,
+    "texts_with": 12,
+    "position_shares": {
+     "initial": 1.0,
+     "medial": 0.0,
+     "final": 0.0
+    },
+    "adjacency_counts": {
+     "soreyi": 10
+    },
+    "adjacency_rate_per_occurrence": {
+     "soreyi": 0.8333
+    },
+    "top_neighbours": [
+     [
+      "soreyi",
+      10
+     ],
+     [
+      "asoreyi",
+      2
+     ]
+    ]
+   }
+  },
+  "soreyi": {
+   "dev": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 41
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 22
+     },
+     "funerary": {
+      "occurrences": 137,
+      "texts_with": 124,
+      "texts": 223
+     },
+     "other": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 7
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 42
+     }
+    },
+    "total_occurrences": 137,
+    "total_texts_with": 124,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "held": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 10,
+      "texts_with": 10,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 10,
+    "total_texts_with": 10,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "dev_context": {
+    "occurrences": 137,
+    "texts_with": 124,
+    "position_shares": {
+     "initial": 0.0073,
+     "medial": 0.9489,
+     "final": 0.0438
+    },
+    "adjacency_counts": {
+     "wos_family": 121,
+     "theonym_set": 121
+    },
+    "adjacency_rate_per_occurrence": {
+     "wos_family": 0.8832,
+     "theonym_set": 0.8832
+    },
+    "top_neighbours": [
+     [
+      "wosi",
+      120
+     ],
+     [
+      "wisi",
+      9
+     ],
+     [
+      "qo",
+      8
+     ],
+     [
+      "si",
+      8
+     ],
+     [
+      "ato",
+      3
+     ],
+     [
+      "mklxli",
+      2
+     ],
+     [
+      "skl",
+      2
+     ],
+     [
+      "xmlol",
+      2
+     ]
+    ]
+   },
+   "held_context": {
+    "occurrences": 10,
+    "texts_with": 10,
+    "position_shares": {
+     "initial": 0.0,
+     "medial": 1.0,
+     "final": 0.0
+    },
+    "adjacency_counts": {
+     "wos_family": 10,
+     "theonym_set": 10
+    },
+    "adjacency_rate_per_occurrence": {
+     "wos_family": 1.0,
+     "theonym_set": 1.0
+    },
+    "top_neighbours": [
+     [
+      "wosi",
+      10
+     ],
+     [
+      "pmeteqowi",
+      1
+     ],
+     [
+      "arere",
+      1
+     ],
+     [
+      "treyidtliqowi",
+      1
+     ],
+     [
+      "mlitxideqowi",
+      1
+     ],
+     [
+      "tqostelowi",
+      1
+     ],
+     [
+      "ant",
+      1
+     ],
+     [
+      "wimlol",
+      1
+     ]
+    ]
+   }
+  },
+  "asoreyi": {
+   "dev": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 41
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 22
+     },
+     "funerary": {
+      "occurrences": 23,
+      "texts_with": 19,
+      "texts": 223
+     },
+     "other": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 7
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 42
+     }
+    },
+    "total_occurrences": 23,
+    "total_texts_with": 19,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "held": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 2,
+      "texts_with": 2,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 2,
+    "total_texts_with": 2,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "dev_context": {
+    "occurrences": 23,
+    "texts_with": 19,
+    "position_shares": {
+     "initial": 0.0435,
+     "medial": 0.8696,
+     "final": 0.087
+    },
+    "adjacency_counts": {
+     "wos_family": 20,
+     "theonym_set": 20
+    },
+    "adjacency_rate_per_occurrence": {
+     "wos_family": 0.8696,
+     "theonym_set": 0.8696
+    },
+    "top_neighbours": [
+     [
+      "wosi",
+      20
+     ],
+     [
+      "qo",
+      2
+     ],
+     [
+      "tktidmniqo",
+      1
+     ],
+     [
+      "asi",
+      1
+     ],
+     [
+      "nweliqo",
+      1
+     ],
+     [
+      "attx",
+      1
+     ],
+     [
+      "yililiketelowi",
+      1
+     ],
+     [
+      "brxetlowi",
+      1
+     ]
+    ]
+   },
+   "held_context": {
+    "occurrences": 2,
+    "texts_with": 2,
+    "position_shares": {
+     "initial": 0.0,
+     "medial": 1.0,
+     "final": 0.0
+    },
+    "adjacency_counts": {
+     "wos_family": 2,
+     "theonym_set": 2
+    },
+    "adjacency_rate_per_occurrence": {
+     "wos_family": 1.0,
+     "theonym_set": 1.0
+    },
+    "top_neighbours": [
+     [
+      "wosi",
+      2
+     ],
+     [
+      "brxetlowi",
+      1
+     ],
+     [
+      "sidokenye",
+      1
+     ]
+    ]
+   }
+  },
+  "sorey_meets_soreyi_frozen_shape_on_heldout": false,
+  "variant_class_sorey_soreyi_asoreyi": {
+   "dev": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 41
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 22
+     },
+     "funerary": {
+      "occurrences": 160,
+      "texts_with": 143,
+      "texts": 223
+     },
+     "other": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 7
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 42
+     }
+    },
+    "total_occurrences": 160,
+    "total_texts_with": 143,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "held": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 12,
+      "texts_with": 12,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 12,
+    "total_texts_with": 12,
+    "funerary_share_of_occurrences": 1.0
+   }
+  },
+  "cooccurrence_sorey_soreyi": {
+   "dev_all": {
+    "both": 0,
+    "only_sorey": 0,
+    "only_soreyi": 124,
+    "neither": 211,
+    "texts": 335
+   },
+   "held_all": {
+    "both": 0,
+    "only_sorey": 0,
+    "only_soreyi": 10,
+    "neither": 23,
+    "texts": 33
+   },
+   "held_funerary": {
+    "both": 0,
+    "only_sorey": 0,
+    "only_soreyi": 10,
+    "neither": 6,
+    "texts": 16
+   },
+   "dev_funerary": {
+    "both": 0,
+    "only_sorey": 0,
+    "only_soreyi": 124,
+    "neither": 99,
+    "texts": 223
+   }
+  }
+ },
+ "genre_formula_baseline": {
+  "pool_all": {
+   "n": 32,
+   "passes": 5,
+   "pass_rate": 0.1562
+  },
+  "pool_dev_funerary_share_ge_0.80": {
+   "n": 32,
+   "passes": 5,
+   "pass_rate": 0.1562
+  },
+  "pool_dev_funerary_share_eq_1.0": {
+   "n": 27,
+   "passes": 3,
+   "pass_rate": 0.1111
+  },
+  "pool_dev_occ_ge_50": {
+   "n": 5,
+   "passes": 4,
+   "pass_rate": 0.8
+  },
+  "pool_dev_occ_ge_100": {
+   "n": 1,
+   "passes": 1,
+   "pass_rate": 1.0
+  },
+  "pool_rows_sorted_by_dev_occ": [
+   {
+    "form": "soreyi",
+    "dev_occ": 137,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 10,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "terikelowi",
+    "dev_occ": 98,
+    "dev_funerary_share": 0.9898,
+    "held_texts_with": 7,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "tedxelowi",
+    "dev_occ": 90,
+    "dev_funerary_share": 0.9778,
+    "held_texts_with": 9,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "xmlol",
+    "dev_occ": 77,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 4,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "yetmdelowi",
+    "dev_occ": 63,
+    "dev_funerary_share": 0.9365,
+    "held_texts_with": 2,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "tedxeli",
+    "dev_occ": 27,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "psxrkete",
+    "dev_occ": 27,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 2,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "yetmdelo",
+    "dev_occ": 24,
+    "dev_funerary_share": 0.9167,
+    "held_texts_with": 2,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "asoreyi",
+    "dev_occ": 23,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 2,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "xolkete",
+    "dev_occ": 23,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "tedxlowi",
+    "dev_occ": 22,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "psixte",
+    "dev_occ": 22,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 2,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "pxolkete",
+    "dev_occ": 20,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "psoxte",
+    "dev_occ": 19,
+    "dev_funerary_share": 0.9474,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "psixrkete",
+    "dev_occ": 18,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "psoxekete",
+    "dev_occ": 17,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "kditowi",
+    "dev_occ": 17,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "xolkte",
+    "dev_occ": 16,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "qowi",
+    "dev_occ": 15,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 3,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "psixrkte",
+    "dev_occ": 13,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "mlolo",
+    "dev_occ": 13,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "slxs",
+    "dev_occ": 13,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "mlomrs",
+    "dev_occ": 13,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "pestol",
+    "dev_occ": 13,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "psixekete",
+    "dev_occ": 12,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "mnps",
+    "dev_occ": 11,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "pisixte",
+    "dev_occ": 11,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "mstowi",
+    "dev_occ": 11,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "pestoleb",
+    "dev_occ": 10,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "wisi",
+    "dev_occ": 10,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "soni",
+    "dev_occ": 10,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "smlowi",
+    "dev_occ": 10,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   }
+  ],
+  "candidates_within_pool_frame": [
+   {
+    "form": "asoreyi",
+    "dev_occ": 23,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 2,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "xolkte",
+    "dev_occ": 16,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "xolkete",
+    "dev_occ": 23,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 1,
+    "held_funerary_share": 1.0,
+    "passes": false
+   },
+   {
+    "form": "pxolkete",
+    "dev_occ": 20,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   },
+   {
+    "form": "soreyi",
+    "dev_occ": 137,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 10,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "wisi",
+    "dev_occ": 10,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 0,
+    "held_funerary_share": null,
+    "passes": false
+   }
+  ],
+  "formula_recurrence": {
+   "dev_funerary_texts": 223,
+   "held_funerary_texts": 16,
+   "dev_funerary_with_wos": 6,
+   "held_funerary_with_wos": 1,
+   "dev_funerary_with_wosi": 146,
+   "held_funerary_with_wosi": 12,
+   "dev_funerary_with_sorey": 0,
+   "held_funerary_with_sorey": 0,
+   "dev_funerary_with_soreyi": 124,
+   "held_funerary_with_soreyi": 10
+  },
+  "pool_passers": [
+   {
+    "form": "soreyi",
+    "dev_occ": 137,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 10,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "terikelowi",
+    "dev_occ": 98,
+    "dev_funerary_share": 0.9898,
+    "held_texts_with": 7,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "tedxelowi",
+    "dev_occ": 90,
+    "dev_funerary_share": 0.9778,
+    "held_texts_with": 9,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "xmlol",
+    "dev_occ": 77,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 4,
+    "held_funerary_share": 1.0,
+    "passes": true
+   },
+   {
+    "form": "qowi",
+    "dev_occ": 15,
+    "dev_funerary_share": 1.0,
+    "held_texts_with": 3,
+    "held_funerary_share": 1.0,
+    "passes": true
+   }
+  ],
+  "soreyi_given_wosi_held_funerary": {
+   "wosi_and_soreyi": 10,
+   "wosi_only": 2,
+   "soreyi_only": 0,
+   "neither": 4,
+   "p_soreyi_given_wosi": 0.8333,
+   "p_soreyi_given_no_wosi": 0.0
+  },
+  "soreyi_given_wosi_dev_funerary": {
+   "wosi_and_soreyi": 109,
+   "wosi_only": 37,
+   "soreyi_only": 15,
+   "neither": 62,
+   "p_soreyi_given_wosi": 0.7466,
+   "p_soreyi_given_no_wosi": 0.1948
+  },
+  "invocation_bigram_dev_funerary": {
+   "texts_with_wosi_soreyi_adjacent_in_order": 107,
+   "texts_with_soreyi_wosi_adjacent_in_order": 2,
+   "texts": 223
+  },
+  "invocation_bigram_held_funerary": {
+   "texts_with_wosi_soreyi_adjacent_in_order": 10,
+   "texts_with_soreyi_wosi_adjacent_in_order": 0,
+   "texts": 16
+  },
+  "expected_held_funerary_texts_wosi": {
+   "dev_funerary_text_presence_rate": 0.6547,
+   "expected_in_16_held_funerary": 10.48,
+   "observed_held_funerary_texts": 12
+  },
+  "soreyi_given_wos_held_funerary": {
+   "wos_and_soreyi": 0,
+   "wos_only": 1,
+   "soreyi_only": 10,
+   "neither": 5,
+   "p_soreyi_given_wos": 0.0,
+   "p_soreyi_given_no_wos": 0.6667
+  },
+  "soreyi_given_wos_dev_funerary": {
+   "wos_and_soreyi": 1,
+   "wos_only": 5,
+   "soreyi_only": 123,
+   "neither": 94,
+   "p_soreyi_given_wos": 0.1667,
+   "p_soreyi_given_no_wos": 0.5668
+  },
+  "expected_held_funerary_texts_soreyi": {
+   "dev_funerary_text_presence_rate": 0.5561,
+   "expected_in_16_held_funerary": 8.9,
+   "observed_held_funerary_texts": 10
+  },
+  "expected_held_funerary_texts_sorey": {
+   "dev_funerary_text_presence_rate": 0.0,
+   "expected_in_16_held_funerary": 0.0,
+   "observed_held_funerary_texts": 0
+  },
+  "expected_held_funerary_texts_wos": {
+   "dev_funerary_text_presence_rate": 0.0269,
+   "expected_in_16_held_funerary": 0.43,
+   "observed_held_funerary_texts": 1
+  },
+  "anchored_controls_heldout_profiles": {
+   "ato": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 11,
+      "texts_with": 11,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 11,
+    "total_texts_with": 11,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "mk": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 1,
+      "texts_with": 1,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 1,
+    "total_texts_with": 1,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "kdi": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 1,
+      "texts_with": 1,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 1,
+    "total_texts_with": 1,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "ste": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 1,
+      "texts_with": 1,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 1,
+    "total_texts_with": 1,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "qore": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 1,
+      "texts_with": 1,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 2,
+      "texts_with": 2,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 3,
+    "total_texts_with": 3,
+    "funerary_share_of_occurrences": 0.6666666666666666
+   },
+   "tedxe": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 0,
+    "total_texts_with": 0,
+    "funerary_share_of_occurrences": null
+   },
+   "terike": {
+    "per_stratum": {
+     "royal_temple": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 10
+     },
+     "graffito": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 2
+     },
+     "funerary": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 16
+     },
+     "document": {
+      "occurrences": 0,
+      "texts_with": 0,
+      "texts": 5
+     }
+    },
+    "total_occurrences": 0,
+    "total_texts_with": 0,
+    "funerary_share_of_occurrences": null
+   }
+  },
+  "anchored_controls_dev_profiles": {
+   "ato": {
+    "total_occurrences": 160,
+    "funerary_share_of_occurrences": 0.95
+   },
+   "mk": {
+    "total_occurrences": 2,
+    "funerary_share_of_occurrences": 0.0
+   },
+   "kdi": {
+    "total_occurrences": 5,
+    "funerary_share_of_occurrences": 0.8
+   },
+   "ste": {
+    "total_occurrences": 1,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "qore": {
+    "total_occurrences": 6,
+    "funerary_share_of_occurrences": 0.3333333333333333
+   },
+   "tedxe": {
+    "total_occurrences": 1,
+    "funerary_share_of_occurrences": 1.0
+   },
+   "terike": {
+    "total_occurrences": 2,
+    "funerary_share_of_occurrences": 1.0
+   }
+  }
+ }
+}
