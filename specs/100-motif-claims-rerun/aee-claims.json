@@ -1,0 +1,172 @@
+{
+ "claims": [
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The owner's OD-5 act of 2026-11-22 (rerun authorised, deposit held until Miller's reply) and the gate statement in records/preregistration-2026-11-22.md section 4.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A rerun outcome record, table, or figure dated before the deposit record's landing; a record-mode pipeline run exiting 0 without a deposit file present; a deposit record that does not state provenance and permission basis."
+   ],
+   "id": "C100-1",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "Nothing is computed for the record before the deposit: the rerun executes only over a per-seal iconography deposit that is itself a tracked record in this repository, stating its provenance and permission basis on its face; while the deposit is held under flag F-1, the pipeline of record refuses record-mode execution, and no rerun table, lift, or odds ratio for any of the 13 claims exists as a program result. This does not establish: that the gate's closure says anything about whether the claims are true; it governs only when they may be tested.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The motif/numerical record of 2026-11-21 (PR #634), sections 2 and 3, which fixes the filed claims, the population, and the thresholds this spec replays.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A rerun table computed on a different population, threshold, or motif assignment; a revised-threshold figure presented as the rerun's verdict; the M063 row omitting its filed 4.35."
+   ],
+   "id": "C100-2",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The rerun replays the 13 animal-motif claims exactly as filed: the 1,670-seal population of the tracked corpus files, the filed motif for each sign (backend/reports/INDUS_FINAL_ANCHORS.json: \"Exclusive to <animal> seals (lift > 5.0)\"), the filed threshold lift > 5.0, and the frozen motif-match and lift definitions of spec section 3; no revised threshold, revised motif assignment, or exploratory test is part of the rerun of record, and M063's filed corrected figures (3 of 18 gharial-motif seals, lift 4.35 against the 5.0 threshold) remain visible as a failed specification whatever the rerun finds. This does not establish: that a reproduced association would pick the right word among competing readings for the same animal; the tables test association only.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "PR #634's two-path replication of the sign marginals (exact agreement over the same two representations) and the test cases of record, TC-100-02/03/04.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A cell, lift, or odds ratio not derivable from the deposit plus the tracked files by the registered formulas; a path disagreement carried into the outcome without being the reported result."
+   ],
+   "id": "C100-3",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "Every number in the rerun outcome is a mechanical count over the deposited join and the tracked sign files, computed by the pipeline of record (tools/motif_rerun.py): the full 2x2 cells per claim, lift = a*N / ((a+b)(a+c)), odds ratio = ad/bc (reported as undefined where b or c is zero), computed independently over the phase100 and phase114 representations, and the outcome stands only where the two paths agree exactly, cell for cell. This does not establish: that mechanical reproducibility makes the underlying labels correct; label accuracy is the deposit's provenance question, not this claim's.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The standing discipline of the motif/numerical record (PR #634: \"evidence only; this record changes no standing\") and of the adjudication that commissioned this study (I-21).",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A standing, ledger, or register change citing this spec's outcome without its own subsequent act."
+   ],
+   "id": "C100-4",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The rerun reports motif association only: it establishes no phonetic reading, supports no anchor, and changes no standing, ledger entry, or register value by itself; any consequence for a reading's class goes through a separate adjudication act citing this study's outcome record. This does not establish: anything about the 13 readings' phonetic values, in either direction.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "Adjudication unit I-21 (\"deposit the per-seal labels for the 1,670-seal population with provenance, missing-label handling and the seal-ID join\") and test case TC-100-05.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "An imputed label in the deposit or the computation; an outcome table whose cells sum to 1,670 while the deposit covers fewer seals, without the restated denominator on its face."
+   ],
+   "id": "C100-5",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "Missing-label handling is frozen before the deposit exists: a population seal with no row in the deposit is missing, is excluded from every cell, and the outcome restates its denominator as the labeled population; a deposit row with an empty iconography string is a recorded no-motif label and counts as motif-absent; no label is imputed, inferred, or carried from any other source. This does not establish: that missingness is random; the outcome reports the labeled population it actually covers.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "Flag F-1 as carried in the program record since 2026-11-21 and the owner's OD-5 act of 2026-11-22, which holds the deposit until the reply.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "Execution on Holdat-derived labels before a granting reply is on record, or after a refusal; a GATE REFUSED closure recorded while a granting reply stands unexecuted without its own act."
+   ],
+   "id": "C100-6",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The deposit's trigger of record is William Miller Sr's reply to the program's 2026-11-20 permission letter (Gmail 1a1fb36478ee78e4), as reported by the indus-reply-watch under flag F-1: a reply granting the statistics-and-deposit basis opens the gate; a refusal closes this study as GATE REFUSED with no execution on Holdat-derived labels; silence leaves the gate closed. Any substitute basis (a fresh iconography coding under a measurement basis meeting its own gates) is a new study, not an execution of this one. This does not establish: that Miller's reply, either way, judges the corpus's scholarly quality; it governs permission only.",
+   "uncertainty": "insufficient_evidence"
+  },
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "Test cases TC-100-01..TC-100-06 and the proof run recorded in records/tc-execution-2026-11-22.md, all executed on tower-compute at registration.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "A proof output containing any claim's statistics computed from real iconography labels; a pipeline behaviour in the rerun that the test cases do not exercise."
+   ],
+   "id": "C100-7",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The pipeline of record is the committed implementation in this package's tools/, proven before the deposit exists by the test cases of record executed on tower-compute (records/tc-execution-2026-11-22.md) and by an end-to-end proof run over synthetic labels keyed to the real population; the proof computes no claim's cells, lift, or odds ratio from real labels, and its outputs are marked PROOF - NOT A RESULT wherever they persist. This does not establish: that a proven pipeline makes the future rerun's outcome correct; it makes it mechanical.",
+   "uncertainty": "insufficient_evidence"
+  }
+ ]
+}

@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1025,
+  "claims_total": 1032,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1001,
+   "draft": 1008,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
-   "ledger_lines": 1056,
-   "ledger_date": "2026-11-21",
+   "ledger_sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
+   "ledger_lines": 1063,
+   "ledger_date": "2026-11-22",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "124651709c42dc7ef2cca35934f43cf5d0d429c8e9565175248b9afcbb024366",
+   "matrix_sha256": "de4d094f9515968f4edcf758add775c9ce77f487492637e39ed0b95f62234f3c",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "3f2d97d7f4581e90756d463274dddd4206e519e801412a6185c821437c746274",
-   "comparison_sha256": "cb56c50a38a5fc4e412ddbf2bc49073fced85afe796360c0f5fee3a0560954c6",
-   "settling_canonical_sha256": "6cd5555961406fe70f04d1ec9c9fc916bca06a9ff56ac02c10386f4e72820801"
+   "assignment_sets_sha256": "05535a57b793e891ce8f07089382cb66d182cfb6901b6a5c6c33ca58f503c2c8",
+   "comparison_sha256": "51429f2570327104e2996ac6fd6ffdb15e59a2f1f28b8913da23366bf95a2ddf",
+   "settling_canonical_sha256": "f58d833009001c16cacbc5bd80001ec211fbf460bf07d80773e71f35bccccb80"
   }
  },
  "elements": [
@@ -8266,6 +8266,62 @@
    "kind": "claim",
    "id": "099-inference-log/C099-2",
    "statement": "The log is complete against the filed bases, and contains nothing they do not state: every evidence element stated in a reading's filed basis (the appendix row as filed from the register, cross-checked against the frozen register snapshot and the falsifiers annex's evidence line) appears in that reading's log entry as an item citing the verbatim basis clause it was extracted from; and no log item cites a clause its entry's filed basis does not contain. This does not establish: that the filed bases are complete derivations; where a basis is truncated or thin, the log records the truncation or thinness, it does not repair it.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-4",
+   "statement": "The rerun reports motif association only: it establishes no phonetic reading, supports no anchor, and changes no standing, ledger entry, or register value by itself; any consequence for a reading's class goes through a separate adjudication act citing this study's outcome record. This does not establish: anything about the 13 readings' phonetic values, in either direction.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-7",
+   "statement": "The pipeline of record is the committed implementation in this package's tools/, proven before the deposit exists by the test cases of record executed on tower-compute (records/tc-execution-2026-11-22.md) and by an end-to-end proof run over synthetic labels keyed to the real population; the proof computes no claim's cells, lift, or odds ratio from real labels, and its outputs are marked PROOF - NOT A RESULT wherever they persist. This does not establish: that a proven pipeline makes the future rerun's outcome correct; it makes it mechanical.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-2",
+   "statement": "The rerun replays the 13 animal-motif claims exactly as filed: the 1,670-seal population of the tracked corpus files, the filed motif for each sign (backend/reports/INDUS_FINAL_ANCHORS.json: \"Exclusive to <animal> seals (lift > 5.0)\"), the filed threshold lift > 5.0, and the frozen motif-match and lift definitions of spec section 3; no revised threshold, revised motif assignment, or exploratory test is part of the rerun of record, and M063's filed corrected figures (3 of 18 gharial-motif seals, lift 4.35 against the 5.0 threshold) remain visible as a failed specification whatever the rerun finds. This does not establish: that a reproduced association would pick the right word among competing readings for the same animal; the tables test association only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-6",
+   "statement": "The deposit's trigger of record is William Miller Sr's reply to the program's 2026-11-20 permission letter (Gmail 1a1fb36478ee78e4), as reported by the indus-reply-watch under flag F-1: a reply granting the statistics-and-deposit basis opens the gate; a refusal closes this study as GATE REFUSED with no execution on Holdat-derived labels; silence leaves the gate closed. Any substitute basis (a fresh iconography coding under a measurement basis meeting its own gates) is a new study, not an execution of this one. This does not establish: that Miller's reply, either way, judges the corpus's scholarly quality; it governs permission only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-1",
+   "statement": "Nothing is computed for the record before the deposit: the rerun executes only over a per-seal iconography deposit that is itself a tracked record in this repository, stating its provenance and permission basis on its face; while the deposit is held under flag F-1, the pipeline of record refuses record-mode execution, and no rerun table, lift, or odds ratio for any of the 13 claims exists as a program result. This does not establish: that the gate's closure says anything about whether the claims are true; it governs only when they may be tested.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-5",
+   "statement": "Missing-label handling is frozen before the deposit exists: a population seal with no row in the deposit is missing, is excluded from every cell, and the outcome restates its denominator as the labeled population; a deposit row with an empty iconography string is a recorded no-motif label and counts as motif-absent; no label is imputed, inferred, or carried from any other source. This does not establish: that missingness is random; the outcome reports the labeled population it actually covers.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "100-motif-claims-rerun/C100-3",
+   "statement": "Every number in the rerun outcome is a mechanical count over the deposited join and the tracked sign files, computed by the pipeline of record (tools/motif_rerun.py): the full 2x2 cells per claim, lift = a*N / ((a+b)(a+c)), odds ratio = ad/bc (reported as undefined where b or c is zero), computed independently over the phase100 and phase114 representations, and the outcome stands only where the two paths agree exactly, cell for cell. This does not establish: that mechanical reproducibility makes the underlying labels correct; label accuracy is the deposit's provenance question, not this claim's.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -27712,6 +27768,83 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-4",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-5",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-5",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-6",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-6",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "100-motif-claims-rerun/C100-7",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "100-motif-claims-rerun/C100-7",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -32999,6 +33132,41 @@
    "constrains": 0
   },
   "099-inference-log/C099-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-7": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-6": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-5": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "100-motif-claims-rerun/C100-3": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39152,6 +39320,48 @@
    },
    {
     "id": "099-inference-log/C099-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-7",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-6",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-5",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "100-motif-claims-rerun/C100-3",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -58600,6 +58810,83 @@
     ]
    },
    {
+    "row": "100-motif-claims-rerun/C100-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "100-motif-claims-rerun/C100-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "100-motif-claims-rerun/C100-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "100-motif-claims-rerun/C100-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-4",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "100-motif-claims-rerun/C100-5",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-5",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "100-motif-claims-rerun/C100-6",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-6",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "100-motif-claims-rerun/C100-7",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "100-motif-claims-rerun/C100-7",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -58767,8 +59054,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1025,
-   "rows_with_cells": 1011,
+   "rows_total": 1032,
+   "rows_with_cells": 1018,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -59126,30 +59413,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1548,
+   "cells_total": 1555,
    "cells_by_relation": {
-    "supports": 1541,
+    "supports": 1548,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1541,
+    "documents": 1548,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1016,
-    "total": 1025,
+    "covered": 1023,
+    "total": 1032,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1002,
-      "total": 1002
+      "covered": 1009,
+      "total": 1009
      }
     }
    },
@@ -64194,8 +64481,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1025,
-   "rows_with_cells": 1011,
+   "rows_total": 1032,
+   "rows_with_cells": 1018,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -64553,15 +64840,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1548,
+   "cells_total": 1555,
    "cells_by_relation": {
-    "supports": 1541,
+    "supports": 1548,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1541,
+    "documents": 1548,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -64630,7 +64917,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1001,
+    "draft": 1008,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -64640,26 +64927,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 985,
+    "created": 992,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1002,
+    "bundle": 1009,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1016,
-   "total": 1025,
+   "covered": 1023,
+   "total": 1032,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1002,
-     "total": 1002
+     "covered": 1009,
+     "total": 1009
     }
    },
    "gap_claims": [
@@ -64676,8 +64963,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1025,
-   "total": 1025
+   "without_state": 1032,
+   "total": 1032
   },
   "unresolved": {
    "sign_mentions": [
@@ -66163,7 +66450,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261122T033634Z-974b13",
+      "record": "settling-20261122T165435Z-5611f9",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -66177,7 +66464,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261122T033700Z-bdc7da",
+      "record": "settling-20261122T165435Z-c7bc9d",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -164880,6 +165167,601 @@
     },
     "sign_records": []
    }
+  },
+  "100-motif-claims-rerun/C100-4": {
+   "id": "100-motif-claims-rerun/C100-4",
+   "statement": "The rerun reports motif association only: it establishes no phonetic reading, supports no anchor, and changes no standing, ledger entry, or register value by itself; any consequence for a reading's class goes through a separate adjudication act citing this study's outcome record. This does not establish: anything about the 13 readings' phonetic values, in either direction.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "A standing, ledger, or register change citing this spec's outcome without its own subsequent act."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-4",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-4",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
+  },
+  "100-motif-claims-rerun/C100-7": {
+   "id": "100-motif-claims-rerun/C100-7",
+   "statement": "The pipeline of record is the committed implementation in this package's tools/, proven before the deposit exists by the test cases of record executed on tower-compute (records/tc-execution-2026-11-22.md) and by an end-to-end proof run over synthetic labels keyed to the real population; the proof computes no claim's cells, lift, or odds ratio from real labels, and its outputs are marked PROOF - NOT A RESULT wherever they persist. This does not establish: that a proven pipeline makes the future rerun's outcome correct; it makes it mechanical.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "A proof output containing any claim's statistics computed from real iconography labels; a pipeline behaviour in the rerun that the test cases do not exercise."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-7",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-7",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-7",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-7",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
+  },
+  "100-motif-claims-rerun/C100-2": {
+   "id": "100-motif-claims-rerun/C100-2",
+   "statement": "The rerun replays the 13 animal-motif claims exactly as filed: the 1,670-seal population of the tracked corpus files, the filed motif for each sign (backend/reports/INDUS_FINAL_ANCHORS.json: \"Exclusive to <animal> seals (lift > 5.0)\"), the filed threshold lift > 5.0, and the frozen motif-match and lift definitions of spec section 3; no revised threshold, revised motif assignment, or exploratory test is part of the rerun of record, and M063's filed corrected figures (3 of 18 gharial-motif seals, lift 4.35 against the 5.0 threshold) remain visible as a failed specification whatever the rerun finds. This does not establish: that a reproduced association would pick the right word among competing readings for the same animal; the tables test association only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "A rerun table computed on a different population, threshold, or motif assignment; a revised-threshold figure presented as the rerun's verdict; the M063 row omitting its filed 4.35."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-2",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-2",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
+  },
+  "100-motif-claims-rerun/C100-6": {
+   "id": "100-motif-claims-rerun/C100-6",
+   "statement": "The deposit's trigger of record is William Miller Sr's reply to the program's 2026-11-20 permission letter (Gmail 1a1fb36478ee78e4), as reported by the indus-reply-watch under flag F-1: a reply granting the statistics-and-deposit basis opens the gate; a refusal closes this study as GATE REFUSED with no execution on Holdat-derived labels; silence leaves the gate closed. Any substitute basis (a fresh iconography coding under a measurement basis meeting its own gates) is a new study, not an execution of this one. This does not establish: that Miller's reply, either way, judges the corpus's scholarly quality; it governs permission only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "Execution on Holdat-derived labels before a granting reply is on record, or after a refusal; a GATE REFUSED closure recorded while a granting reply stands unexecuted without its own act."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-6",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-6",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-6",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-6",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
+  },
+  "100-motif-claims-rerun/C100-1": {
+   "id": "100-motif-claims-rerun/C100-1",
+   "statement": "Nothing is computed for the record before the deposit: the rerun executes only over a per-seal iconography deposit that is itself a tracked record in this repository, stating its provenance and permission basis on its face; while the deposit is held under flag F-1, the pipeline of record refuses record-mode execution, and no rerun table, lift, or odds ratio for any of the 13 claims exists as a program result. This does not establish: that the gate's closure says anything about whether the claims are true; it governs only when they may be tested.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "A rerun outcome record, table, or figure dated before the deposit record's landing; a record-mode pipeline run exiting 0 without a deposit file present; a deposit record that does not state provenance and permission basis."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-1",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-1",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
+  },
+  "100-motif-claims-rerun/C100-5": {
+   "id": "100-motif-claims-rerun/C100-5",
+   "statement": "Missing-label handling is frozen before the deposit exists: a population seal with no row in the deposit is missing, is excluded from every cell, and the outcome restates its denominator as the labeled population; a deposit row with an empty iconography string is a recorded no-motif label and counts as motif-absent; no label is imputed, inferred, or carried from any other source. This does not establish: that missingness is random; the outcome reports the labeled population it actually covers.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "An imputed label in the deposit or the computation; an outcome table whose cells sum to 1,670 while the deposit covers fewer seals, without the restated denominator on its face."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-5",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-5",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-5",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-5",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
+  },
+  "100-motif-claims-rerun/C100-3": {
+   "id": "100-motif-claims-rerun/C100-3",
+   "statement": "Every number in the rerun outcome is a mechanical count over the deposited join and the tracked sign files, computed by the pipeline of record (tools/motif_rerun.py): the full 2x2 cells per claim, lift = a*N / ((a+b)(a+c)), odds ratio = ad/bc (reported as undefined where b or c is zero), computed independently over the phase100 and phase114 representations, and the outcome stands only where the two paths agree exactly, cell for cell. This does not establish: that mechanical reproducibility makes the underlying labels correct; label accuracy is the deposit's provenance question, not this claim's.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-22",
+   "falsifier": [
+    "A cell, lift, or odds ratio not derivable from the deposit plus the tracked files by the registered formulas; a path disagreement carried into the outcome without being the reported result."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C100-3",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "100-motif-claims-rerun/C100-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "100-motif-claims-rerun/C100-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C100-3",
+     "document_id": null,
+     "path": "specs/100-motif-claims-rerun/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "597038c196c86ec8d9aa3ebf810df5710ec671b71f76a4fcc3ac8e83a3115ae1",
+     "spec": "100-motif-claims-rerun"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -164887,7 +165769,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "3f2d97d7f4581e90756d463274dddd4206e519e801412a6185c821437c746274",
+   "sha256": "05535a57b793e891ce8f07089382cb66d182cfb6901b6a5c6c33ca58f503c2c8",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -164931,15 +165813,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261122T033634Z-974b13",
-    "scenario": "t405-incumbent-over-full-frame",
+    "record": "settling-20261122T165435Z-5611f9",
+    "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
-      "lines": 1056
+      "sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
+      "lines": 1063
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -164990,15 +165872,15 @@
     }
    },
    {
-    "record": "settling-20261122T033700Z-bdc7da",
-    "scenario": "t405-full-register-over-full-frame",
+    "record": "settling-20261122T165435Z-c7bc9d",
+    "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
-      "lines": 1056
+      "sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
+      "lines": 1063
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -165053,7 +165935,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "cb56c50a38a5fc4e412ddbf2bc49073fced85afe796360c0f5fee3a0560954c6",
+   "sha256": "51429f2570327104e2996ac6fd6ffdb15e59a2f1f28b8913da23366bf95a2ddf",
    "result": {
     "claims_compared": [
      {
@@ -165301,7 +166183,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "6cd5555961406fe70f04d1ec9c9fc916bca06a9ff56ac02c10386f4e72820801",
+   "sha256": "f58d833009001c16cacbc5bd80001ec211fbf460bf07d80773e71f35bccccb80",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -165636,8 +166518,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1025,
-   "claims_untouched_by_any_run": 1024,
+   "claims_total": 1032,
+   "claims_untouched_by_any_run": 1031,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,

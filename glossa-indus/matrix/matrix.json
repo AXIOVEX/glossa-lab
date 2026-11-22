@@ -3,9 +3,9 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "4c956265ea64e6a7e3df458e88e4370d23feb81697b0cc27afc60499f399cbe7",
-  "ledger_lines": 1056,
-  "ledger_date": "2026-11-21",
+  "ledger_sha256": "94174d7cac64875caf3ac23d671304fbfa8261ecb8b89b710d63a1effb49aab6",
+  "ledger_lines": 1063,
+  "ledger_date": "2026-11-22",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
  },
@@ -6156,6 +6156,48 @@
   },
   {
    "id": "099-inference-log/C099-2",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-4",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-7",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-2",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-6",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-1",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-5",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "100-motif-claims-rerun/C100-3",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
@@ -25604,6 +25646,83 @@
    ]
   },
   {
+   "row": "100-motif-claims-rerun/C100-1",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-1",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "100-motif-claims-rerun/C100-2",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-2",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "100-motif-claims-rerun/C100-3",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-3",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "100-motif-claims-rerun/C100-4",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-4",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "100-motif-claims-rerun/C100-5",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-5",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "100-motif-claims-rerun/C100-6",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-6",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "100-motif-claims-rerun/C100-7",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "100-motif-claims-rerun/C100-7",
+    "spec.md"
+   ]
+  },
+  {
    "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "column": "055",
    "column_class": "studies",
@@ -25771,8 +25890,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1025,
-  "rows_with_cells": 1011,
+  "rows_total": 1032,
+  "rows_with_cells": 1018,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -26130,30 +26249,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1548,
+  "cells_total": 1555,
   "cells_by_relation": {
-   "supports": 1541,
+   "supports": 1548,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1541,
+   "documents": 1548,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1016,
-   "total": 1025,
+   "covered": 1023,
+   "total": 1032,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1002,
-     "total": 1002
+     "covered": 1009,
+     "total": 1009
     }
    }
   },

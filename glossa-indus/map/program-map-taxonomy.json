@@ -536,6 +536,11 @@
    "spec_dir": "099-inference-log",
    "domain": "Anchors & readings",
    "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+  },
+  {
+   "spec_dir": "100-motif-claims-rerun",
+   "domain": "Anchors & readings",
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
   }
  ],
  "extracted_documents": [
