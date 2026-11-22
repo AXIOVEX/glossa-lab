@@ -85,7 +85,7 @@
 
 ## Stage 3 — Scoring (the seal opened once)
 
-- [ ] **T301 — The scoring run.** The held-out list released
+- [x] **T301 — The scoring run.** The held-out list released
   once and the release recorded; per-sign margins, penalties,
   and the frozen permutation null computed; the complete run
   index archived with raw outputs before verdicts.

@@ -15172,3 +15172,87 @@ Shell wrappers (macos-latest) success; Shell wrappers
 success — 10/10. The substance head as first pushed
 (7088b199eb50275614b8c4e4f42d5dde816ebed2) also returned
 10/10 per job on its own run.
+
+## 2026-11-22 — Spec 098 Stage 3 executed (T301): the seal released once; M375 discriminated on pseudo-held-out
+
+Objective:
+  Execute Stage 3 of Spec 098 as commissioned by the owner's
+  OD-3 act (2026-11-22 11:19 ET), with the eligibility
+  reconciliation and the M267 and M089 prerequisite checks
+  recorded before the single seal release, under the frozen
+  design, nothing retuned.
+
+What was done:
+  1. Pre-release record
+     (specs/098-identifiability-over-the-65/records/stage-3-prerelease-2026-11-22.md,
+     committed before the release): the frozen population of
+     69 reconciled against the current standings (3 E + 66 I +
+     4 R + 3 P + 18 U); the four PROCEED signs confirmed
+     eligible; M047 retained as a member on its filed entry
+     per the Stage 2 freeze section 0 pre-ruling (the F-9
+     act's move to U stated on the record); M048 not a member
+     and not scored (no frozen grid row, rivals, sheet, or
+     accounting; the freeze bars creating them). M267 check:
+     method arm satisfied by construction (the scoring path
+     uses only the frozen estimator and the sheet signature
+     read as sign identities; the excluded slot-pattern
+     statistic is no input); dictionary-leg arm states the
+     F-4 standing unchanged (DEDR 494 leg not verifying as
+     filed; GENITIVE_MARGINAL, not promoted).
+     Development-side anatomy recorded: the filed pattern's
+     left flank is absent from the corpus of record (1 of 226
+     development occurrences; M267 inscription-initial in
+     179). M089 check: Stage 3 inputs are the sheet's partner
+     identities plus counts computed fresh from the pinned
+     corpus (development co-occurrences M342 3, M267 2,
+     M176 0; 5 assigned of 119); no filed count enters; the
+     filed inconsistency is bypassed, not resolved. Encoding
+     decisions recorded in full (signatures, the Stage 2
+     freeze section 6 rival rule, the permutation null, the
+     bootstrap, R-E, the scoring scope).
+  2. Executability verification (prepare run
+     study-20261122T162904Z-559728, payload exit 0): corpus
+     pin verified; the seal recomputed from the split rule
+     without reading custody; TC-098-01 guard passed; the
+     Stage 1 grid reproduced for all 69; free-choice
+     accounting cross-checked; all 9 candidate models built.
+  3. The release (run study-20261122T163036Z-d32312,
+     2026-11-22T16:30:36Z): the custody list read for the
+     first time; its seal hash recomputes to the committed
+     seal (1974d83a...), count 517, set equal to the
+     recomputed split; the release log cites the pre-release
+     commit ea621631. The seal is not re-struck and will not
+     be released a second time.
+  4. Scoring (run study-20261122T163043Z-c6e811, payload
+     exit 0; verify invocation exit 0: all 69 outcomes
+     recomputed from the archived raw output under the
+     reference decide() rule, no mismatches). Records:
+     records/stage-3-outcome-2026-11-22.md and .json
+     (SHA-256 a5943966...), tools/stage3_run.py; T301
+     ticked in tasks.md.
+
+Findings:
+  - Distribution over the 69: 46 UNDECIDABLE AT THIS POWER,
+    22 NOT IDENTIFIABLE, 1 DISCRIMINATED ON PSEUDO-HELD-OUT.
+    The count test displaced exactly two in-expectation
+    outcomes (M018: expected 3.25, actual 7; M054: expected
+    3.5, actual 5; both sheetless, finalized NOT IDENTIFIABLE
+    by construction).
+  - M375 (candidate value tan) DISCRIMINATED ON
+    PSEUDO-HELD-OUT: 11 held-out tokens, penalized margin
+    16.224 nats against the frozen 10-nat bar, permutation
+    null 99th percentile 10.325, bootstrap 95% interval
+    [14.75, 19.17]. The study's premise is not falsified
+    (spec section 4). Under claim C098-7 the outcome changes
+    no standing and supports no identification claim.
+  - M089 (penalized margin -7.384 nats), M267 (-109.458;
+    the filed slot pattern mispredicts on the corpus of
+    record), M347 (-0.788; raw margin 1.212 carried below
+    zero by the 2-nat flexibility penalty) are NOT
+    IDENTIFIABLE.
+  - R-E scored as one model: candidate system -2884.402,
+    permuted system -2772.078, system margin -112.323 nats,
+    dominated by M267; R-E conditions no per-sign outcome.
+  - Standing consequences: none (spec section 1, claim
+    C098-7). Claims adjudication on the outcome is Stage 4
+    (T401), not performed here.
