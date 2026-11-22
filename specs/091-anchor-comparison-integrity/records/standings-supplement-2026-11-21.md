@@ -123,3 +123,32 @@ in this program may rest on it.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+---
+
+## Round 2 amendment (2026-11-21)
+
+- **Partition.** The head partition is amended by the M044 act:
+  **4 E + 65 I + 4 R + 3 P + 18 U = 94**.
+- **M044.** §1's row ("M044 — not verifiable") is superseded.
+  M044's claim was struck under the addendum rule
+  (`records/m044-addendum-adjudication-2026-11-21.md`): its DEDR
+  leg fails in the restored tree, no leg stands verified as
+  filed, no basis remains. M044 stands in class U.
+- **M329.** §1's row carries, in the same breath as "partially
+  verified": the DEDR leg is verified at the print entry cited;
+  the restored tree's entry 4524 is a different entry and the
+  numbering divergence is unresolved.
+- **M048 / M089 (RT2-08).** The asymmetry between these rows is
+  stated here, where the classes are stated. Both were judged
+  by the corrected battery's 2-point promotion threshold. M089
+  (class I) holds a filed corrected-battery result at that
+  threshold (score 2: positional pass, DEDR not run, bigram
+  pass); its class rests on that result, not on the collocation
+  counts in its falsifier row, which are unreliable (see the
+  annex annotation of this date). M048 (class U) holds **no
+  corrected battery result at all**; its class rests on the
+  absence of a qualifying filed result. Producing M048's
+  corrected battery result is referred to the study-scale
+  commission family (owner Flag F-4); if it is run and scores
+  at the threshold, M048's class must be re-adjudicated.

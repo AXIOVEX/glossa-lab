@@ -133,3 +133,26 @@ The adjudication's 12 Q3 items are executed as standings-basis acts: the interpr
 ## 6. Non-effects
 
 No reading's value changed. No claims-ledger entry changed. The per-reading falsifiers annex is not edited by this act (its retired labels are addressed by an appended note under the repo wording package). The frozen corpus audit snapshot is untouched. No standing outside the 94 is affected.
+
+---
+
+## Round 2 amendment (2026-11-21)
+
+Three sentences above are governed by later records. (1) §4's
+"M044 stays E (NOT VERIFIABLE from lawfully reachable material)"
+is superseded: M044 was adjudicated under this record's
+addendum rule on 2026-11-21
+(`records/m044-addendum-adjudication-2026-11-21.md`) — its DEDR
+leg is contradicted in the restored tree, no leg stands
+verified as filed, no basis remains — and M044 takes class U.
+(2) §4's M329 sentence ("the dictionary leg checks out as
+filed") is read with the numbering divergence: the DEDR leg is
+verified at the print entry cited; the restored tree's entry
+4524 is a different entry and the divergence is unresolved
+(register reconciliation §(c); Red Team Round 2 adjudication,
+RT2-07). (3) §5's identifiability sentence is read with the
+amended partition: the six readings tested under the protocol
+all returned NOT IDENTIFIABLE; four of them stand in class E
+and two — M202 and now M044 — stand in class U, their external
+claims struck. The executed partition as amended is **4 E +
+65 I + 4 R + 3 P + 18 U = 94**.

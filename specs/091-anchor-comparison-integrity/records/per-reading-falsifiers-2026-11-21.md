@@ -193,3 +193,29 @@ of the charge is recorded here:
    no draftable falsifier on a gloss-only basis, and its
    value is recorded as not load-bearing (standings
    supplement of 2026-11-21 §7).
+
+---
+
+## Round 2 row annotations (2026-11-21)
+
+- **M044 (ku).** Its falsifier has fired on the DEDR leg: the
+  named entry (DEDR 1638) does not carry the filed gloss for
+  'ku' in the restored tree. The standing is struck and the
+  reading stands in class U
+  (`records/m044-addendum-adjudication-2026-11-21.md`).
+- **M089.** The collocation counts this row presents as its
+  standing basis are unreliable: the Tranche 2 rerun record
+  filed contradictory pairs for each (M342: n = 15 and n = 13;
+  M267: n = 6 and n = 10; M176: n = 6 and n = 12). The row's
+  class rests on its filed corrected-battery result (score 2),
+  not on these counts; every chain through M089 inherits this
+  flag (dependency record).
+- **M012.** Formula rate on the record (standings supplement
+  §6): NUMERAL_FORMULA pattern 1/141; a Phase-54 prediction
+  from this reading also failed (30.5% against 35.9%).
+- **M059.** Formula rate: 1/210.
+- **M391.** Formula rate: 2/187; its SUFFIX_ONLY pattern stands
+  at 74/187.
+- **M048.** No corrected battery result is filed for this sign;
+  see the standings supplement's Round 2 amendment for the
+  threshold statement applied to M048 and M089.

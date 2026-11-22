@@ -202,3 +202,15 @@ say anything about any reading — independence is about
 projections, and §5's vocabulary is the whole of what
 this task may conclude. (T202's line, carried
 verbatim.)
+
+---
+
+## Closure-qualifier note (2026-11-21, Red Team Round 2 — RT1-21)
+
+The closure lines above (the head verdict and the closure
+table) are read with the qualifier the Round 1
+closure-qualifier addendum filed against the freeze v3 record,
+now carried to this outcome record itself: **Population: 179
+joined pairs, all Mohenjo-daro; single stratum; no cross-site
+inference.** The NOT RECOVERED / INDEPENDENT IN PART outcomes
+are outcomes on that population only.

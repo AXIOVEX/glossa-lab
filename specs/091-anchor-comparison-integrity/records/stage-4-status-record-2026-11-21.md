@@ -40,3 +40,19 @@ are "pending — no documented expert or referral."
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+---
+
+## Supplement (2026-11-21, Red Team Round 2 — RT2-21): Kobayashi's second reply and the packet
+
+Professor Kobayashi replied a second time on 2026-11-21 at
+21:30 ET (Gmail 1a2011712909df73), after this record was filed.
+In substance: he might have to decline depending on the time
+required; he is being hospitalized and does not have much
+time; but he invites the packet — "please feel free to send
+the packet to me". The reply is not an acceptance and not a
+decline. Disposition: the 9-entry blind-coding packet and the
+no-pressure cover note were sent the same evening, 2026-11-21
+22:30 ET, on the owner's tap (Sent id 1a2014e02116b1b0). His
+decision, if it comes, is entirely on his own time; nothing is
+assumed, and no follow-up pressure is to be applied.
