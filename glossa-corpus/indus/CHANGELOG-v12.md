@@ -255,9 +255,11 @@ build: 40 pages).
 
 The owner approved v12 for deposit on 2026-11-22 "as long as we
 have all things resolved prior to deposit". Four items resolved
-after the build; this amendment carries their outcomes. Every
+after the build; this amendment carries their outcomes, and a
+fifth (item E, the M048 re-adjudication) resolved after the
+amendment was drafted and is carried before deposit. Every
 partition surface in the paper (abstract, §5, Appendix D.2) now
-agrees at **3 E + 65 I + 4 R + 3 P + 19 U = 94**.
+agrees at **3 E + 66 I + 4 R + 3 P + 18 U = 94**.
 
 A. **The F-9 outcome — M047 reclassed E → U.** Appendix D.5 is
    rewritten ("The Itemization Test and the Reclassification of
@@ -283,8 +285,10 @@ B. **Spec 098 Stage 2 executed.** Appendix D.9 (retitled "Stages
    construction; 4 PROCEED TO STAGE 3 (M267, M347, M375, M089);
    0 DISCRIMINATED; margins and permutation-null percentiles not
    computed by design (Stage 3 quantities); the seal stays
-   sealed; the population for any future stage is 68 after the
-   F-9 act; Stage 3 is not commissioned.
+   sealed; the population for any future stage is 69 after the
+   F-9 act and the M048 re-adjudication (item E below), the
+   count matching Stage 2's executed population by coincidence
+   of count only; Stage 3 is not commissioned.
    (Record: the Spec 098 Stage 2 outcome record,
    `stage-2-outcome-2026-11-22.md`; PRs #664, #666, #667.)
 
@@ -316,18 +320,38 @@ C. **The F-4 study package.** (Records: PRs #665, #669, #670.)
      Appendix D.7: score 2 (positional PASS, DEDR PASS, bigram
      NOT_RUN — corpus not held on the venue), promotion
      threshold MET; the class re-adjudication it triggers is a
-     separate act, has NOT been performed, and no outcome is
-     pre-stated. (`m048-corrected-battery-result-2026-11-22.md`.)
+     separate act, performed the same day and carried as
+     item E below. (`m048-corrected-battery-result-2026-11-22.md`.)
    - *Meroitic items NOT carried:* the 662-count reproduction
      (reproduces exactly) and freeze v3 are Meroitic-program
      results; the Indus paper's text does not touch them, and no
      Meroitic material was added to it.
 
 D. **Mechanics.** Printed word count re-measured to the fixed
-   point: **28,580** (placeholder mechanics as disclosed above;
-   expected 28,578 after the deposit DOI pin). Recompiled two
+   point: **28,765** (placeholder mechanics as disclosed above;
+   expected 28,763 after the deposit DOI pin). Recompiled two
    passes, zero errors, zero undefined references; **50 pages**.
    Page 1 and the Appendix D opening page rendered and read.
+
+E. **The M048 re-adjudication — M048 reclassed U → I.**
+   (Executed 2026-11-22 on the owner's commission, after item C
+   was carried; the deposit was gated on this act.) The
+   re-adjudication the corrected battery result triggered under
+   RT2-08 was performed: M048's class U had rested on the
+   absence of a qualifying filed corrected-battery result, and
+   that ground no longer holds; on the parity the register set
+   up with M089 (class I on a filed score of 2), M048 takes
+   class I. Appendix D.7's M048 passage now states the act, its
+   ground, and its reopen clause; D.2 records the move; the
+   standings of record become **3 E + 66 I + 4 R + 3 P + 18 U =
+   94** on every current partition surface (abstract, §5, D.2);
+   D.9's future-stage population is corrected to 69 (66 I +
+   3 E). Appendix D.5's executed-partition sentence stands as
+   the F-9 act's own outcome, exactly as that act's record
+   states it. The act does not establish the reading mu/muṉ,
+   executes no further leg, corrects no counts, and does not
+   speak to M367.
+   (Record: `specs/091-anchor-comparison-integrity/records/m048-readjudication-2026-11-22.md`.)
 
 ## What was NOT changed
 
@@ -339,8 +363,8 @@ D. **Mechanics.** Printed word count re-measured to the fixed
 - No standing was moved by this version: the standings it reports
   are the record's standings of 2026-11-22 as amended the same
   day — the F-9 act (M047 → U) is reported in D.5 as executed,
-  and the M048 re-adjudication its battery result triggers is
-  reported as not performed, with no outcome pre-stated.
+  and the M048 re-adjudication (M048 → I) is reported in D.7 as
+  executed.
 
 ## Status
 

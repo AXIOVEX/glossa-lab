@@ -40,20 +40,24 @@ nothing else. The living source again matches the deposited line.
 **Identity of the v12 review build (as amended, 2026-11-22).**
 
 - Source: SHA-256
-  `13f4f23047c45c18f49ab3041c752d6a1d6dbf159906a4e626b04c332355dd17`.
-  (As first built:
+  `117e64e1e58f5057f68ca5de4ed0dc40146a32ddac125efc80a8ac67af9164d7`
+  (after the M048 amendment, below). (As amended earlier the
+  same day: `13f4f23047c45c18f49ab3041c752d6a1d6dbf159906a4e626b04c332355dd17`;
+  as first built:
   `e2084881f1492365692c92c21b7ec1ed6a6005f9331cc21fef72bc69df4e48e2`.)
 - PDF: SHA-256
-  `b4a965dcef44f5529c0ab4c1b447d59db6780f19aa3dc50945dc23bd6db19758`.
-  (As first built:
+  `21bf7c0516bbed5f056ea656e6a54232be2f8f9a6ab38e2437b834a014f8e180`
+  (after the M048 amendment). (As amended earlier the same day:
+  `b4a965dcef44f5529c0ab4c1b447d59db6780f19aa3dc50945dc23bd6db19758`;
+  as first built:
   `f4e62eb814d2dc6be462c6a600d0dd1d9bd00f642b62b33c37dc4eb97785628e`.)
 - Build: **50 pages** (48 as first built); LuaLaTeX (TeX Live
   2026), two passes, zero errors, zero undefined references or
   citations.
-- Word count: **28,580** (method: `pdftotext | wc -w`), the
+- Word count: **28,765** (method: `pdftotext | wc -w`), the
   printed figure in the paper's end matter, measured on the
-  amended review build rebuilt to the fixed point (27,337 as
-  first built).
+  amended review build rebuilt to the fixed point (28,580 as
+  amended earlier the same day; 27,337 as first built).
 - **Placeholder rendering, disclosed.** §6 of the source carries
   the version-DOI placeholder `%%VERSION_DOI%%`, per the pin
   procedure. The review build was compiled from a build copy in
@@ -61,7 +65,7 @@ nothing else. The living source again matches the deposited line.
   source itself is untouched by the build. At deposit the pin
   substitutes the assigned DOI (one token for the rendered three),
   the word count is re-measured on the rebuilt PDF (expected
-  28,578), and the printed figure is corrected to the measured
+  28,763), and the printed figure is corrected to the measured
   figure before upload — the same remaining-steps procedure the
   v11 note records. §6 defers the freeze-commit string to this
   note, which records it at deposit.
@@ -78,9 +82,13 @@ DISCRIMINATED; seal unopened); and the F-4 package (the M267
 dependency-aware retest, GENITIVE_MARGINAL, not promoted; the
 DEDR digital-edition pass — M329's entry corrected to 4570, no
 tree-vs-print divergence, M044's symmetry clause not triggered;
-M048's corrected battery result, score 2, threshold met, its
-class re-adjudication not performed). The deposit pin procedure
-still has not run.
+M048's corrected battery result, score 2, threshold met; and,
+after that text was written, the M048 re-adjudication itself,
+executed 2026-11-22 on the owner's commission under RT2-08 —
+M048 reclassed U → I, the partition becoming 3 E + 66 I + 4 R +
+3 P + 18 U = 94, carried in Appendix D.7, D.2, D.9, §5 and the
+abstract before deposit). The deposit pin procedure still has
+not run.
 
 ## How this text was reached
 
@@ -92,7 +100,7 @@ summary (the full itemization, with record references, is
 - §5's standings language is brought current: the October 2026
   classes are stated as that audit's, the November 2026
   relabeling (E/I/R/P/U; "supported" retired) and the current
-  partition 3 E + 65 I + 4 R + 3 P + 19 U = 94 are stated (as
+  partition 3 E + 66 I + 4 R + 3 P + 18 U = 94 are stated (as
   amended 2026-11-22; 4 E + 65 I + 4 R + 3 P + 18 U as first
   built), and the identifiability paragraph records the two
   strikes and the M047 reclassification.
@@ -104,8 +112,9 @@ summary (the full itemization, with record references, is
   (as amended 2026-11-22; as first built, the re-examination's
   outcome was not pre-stated);
   the motif and numerical verdicts; the dependency-aware reruns
-  and the M267 dependency-aware retest; the per-reading
-  falsifiers; Spec 098 Stages 1 and 2; Spec 099 and the
+  and the M267 dependency-aware retest; the M048 corrected
+  battery result and its executed re-adjudication; the
+  per-reading falsifiers; Spec 098 Stages 1 and 2; Spec 099 and the
   Q3 graph audit in its honest citation form; the Stage 4 expert
   engagement state; and the exposure section the program's red
   team specified for this version (finding F-15, carried as a
