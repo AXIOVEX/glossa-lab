@@ -121,3 +121,20 @@ by is stated and applied to both.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+---
+
+## Appended disposition (2026-11-21, Red Team Round 2 — RT2-19): the DEDR 4796 pair
+
+RT1-35(b) named a second parallel pair alongside §(b)'s DEDR
+1286 pair: M015 (mā) and M075 (māṟ) both cite DEDR 4796, with
+the distinction between the two citations recorded "not
+supplied" as filed. The pair was dropped by omission from this
+reconciliation and from the Round 1 adjudication, not by
+decision. Disposition, on the record: the DEDR pass above
+covered all 49 citations by form-matching and recorded no
+entry-specific result for 4796; no filed source supplies the
+distinction between the two citations of the one entry, and
+the question is not decidable by form-matching. The pair
+stands **unresolved on the record**; both rows carry that
+status from 2026-11-21.

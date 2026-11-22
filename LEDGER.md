@@ -14457,3 +14457,44 @@ execution freeze annex carries the population amendment
 carries the head population pointer (71 → 70 → 69) (RT1-17).
 Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
 Execution venue: tower-compute.
+
+## 2026-11-21 — Red Team Round 1, Indus corrections (PR #645) — entry recorded retroactively (RT2-09)
+
+PR #645 merged 2026-11-21 at 603dbd9e with no LEDGER entry at
+the time; this entry records the landing. Payload: standings
+supplement (E decomposition on the record; M267 figures
+withdrawn as evidence; motif rows annotated; M063 motif claim
+FAILED; class P restated; numerical rates on the rows), Holdat
+custody statement, dependency record (no inference log exists;
+circularity open), invalidated-controls register, register
+reconciliation with the DEDR re-verification pass over all 49
+citations (3 exact attestations; M044's DEDR 1638 FAILS in the
+restored tree; M329/4524 tree-vs-print numbering flagged),
+Stage 4 status record, adjudication supplement, Spec 093
+closure-qualifier addendum, Spec 098 Stage 2 design note,
+ANCHOR_STATUS_AUDIT supersession note, README surfaces
+corrected. CI: 10/10 per job at merge. Recorded 2026-11-21
+under Red Team Round 2, finding RT2-09.
+
+## 2026-11-21 — Red Team Round 2, Indus corrections (Specs 091/093 + top level)
+
+M044 (ku) is adjudicated under the WS2 addendum rule
+(`specs/091-anchor-comparison-integrity/records/m044-addendum-adjudication-2026-11-21.md`):
+its DEDR leg is contradicted in the restored tree, no leg
+stands verified as filed, no basis remains — claim struck,
+class U; the executed partition is now 4 E + 65 I + 4 R + 3 P
++ 18 U = 94 (RT2-02). The WS2 execution record, standings
+supplement, falsifiers annex and register reconciliation carry
+appended Round 2 amendments and annotations (M329 numbering
+divergence stated with its decomposition, RT2-07; M089
+unreliable-basis flag and the M048/M089 threshold statement,
+RT2-08; formula rates on the M012/M059/M391 rows, RT2-20; the
+DEDR 4796 pair dispositioned unresolved, RT2-19). Spec 091's
+spec.md carries a supersession note (RT2-18); the Spec 093 v3
+outcome record carries its closure qualifier (RT1-21); the
+Stage 4 status record files Kobayashi's second reply and the
+packet send (RT2-21). The top README's superseded line and
+section heading are corrected (RT1-53) and both README
+standings decompositions are brought current (RT1-02).
+Adjudication: RED-TEAM-ROUND-2-ADJUDICATION.md (goal record).
+Execution venue: tower-compute.

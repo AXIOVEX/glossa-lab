@@ -304,3 +304,24 @@ D-091-1 remain separate owner acts whenever they occur. The spec ends
 with its closeout record (T601); a workstream left dependency-gated at
 closeout (W3's phonotactic arm, if the linguist leg has not landed) is
 named open there, with its register entry carrying the same state.
+
+---
+
+## Supersession note (2026-11-21, Red Team Round 2 — RT2-18)
+
+Three passages above state the retired standings in the
+present tense: the problem statement's "the independently
+supported mass is 6 (M044, M047, M124, M202, M329, M330)", the
+adoption context's "strict core 94 = 6 independently supported
+/ 46 internal-only / 37 requires-revalidation / 2 insufficient
+/ 3 expert-pending", and FR-091-06's "The independently
+supported count is 6". Those passages stand as the spec's
+history and are not edited. They are superseded by the WS2
+relabeling of 2026-11-21 (PR #637), its addendum rule, and the
+Round 2 M044 adjudication: the executed partition as amended
+is **4 E + 65 I + 4 R + 3 P + 18 U = 94**
+(`records/standings-relabel-execution-2026-11-21.md` as
+amended; `records/m044-addendum-adjudication-2026-11-21.md`).
+"Independently supported" is retired as a class name; class E
+is "external-support claims on file", and no class E reading
+is identifiable or established.
