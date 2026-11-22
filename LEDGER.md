@@ -14671,6 +14671,27 @@ substance head 5eb2faaf2: 10/10 per job — Backend tests
 script smoke tests, Freeze gate records check (C4),
 Frontend tests (Playwright), Indus public validation
 checks, Ledger/matrix/map equivalence gate, Shell wrappers
+
+## 2026-11-21 — Red Team Round 4, Eteocypriot corrections (Spec 096)
+
+claims.md's amendment pointer is extended to state
+expressly, for a consumer of the bundle alone, that C096-1's
+text in aee-claims.json is the claim as filed, that its
+"A2 name-anchored free alignment" label is superseded as a
+citation form by amendment 2 §1, and what the governing
+forms are; the JSON itself is not rewritten, under the
+append-only bundle rule (RT4-09, discharging the RT1-05
+residue). The amendment-2 correction note gains a Round 4
+clarification: its 8-mapping stem list is the charged
+non-obvious subset — STEMS has 16 entries and ξ→k+s is a
+special case in the driver's letters_of, not a STEMS entry
+(RT4-10). RT4-12 was adjudicated DO NOT APPLY (the accepted
+pointer pattern; no change). CI on the substance head
+f4e1cc4f5: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke tests,
+Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
 (macos-latest, ubuntu-latest, windows-latest) — all
 success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
 (goal record). Execution venue: tower-compute.
