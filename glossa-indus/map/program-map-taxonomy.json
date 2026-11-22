@@ -541,6 +541,11 @@
    "spec_dir": "100-motif-claims-rerun",
    "domain": "Anchors & readings",
    "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+  },
+  {
+   "spec_dir": "101-eteocypriot-next-claim",
+   "domain": "Program infrastructure",
+   "subdomain": "Governance, lifecycle & generated layers"
   }
  ],
  "extracted_documents": [
