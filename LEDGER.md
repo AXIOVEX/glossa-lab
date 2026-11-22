@@ -14870,3 +14870,43 @@ windows-latest) — all success.
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI. The adjudication act is the owner's.
+## 2026-11-22 — F-9 itemization act (Specs 091/099): M047 reclassed E to U
+
+The owner adopted the Red Team Round 4 adjudication's
+recommendation (flag F-9) on 2026-11-22: the itemization
+test applies prospectively to class E — the
+external-support claim must appear in the reading's
+inference-log entry as an external-support item. The
+directed re-examination found no itemizable published
+proposal in M047's filed basis on the M330-01 standard
+(its only Parpola clause names Parpola 1994a as a source
+of the catalogue crosswalk and truncates there; the
+verified §10.1 proposal is family-level and reaches the
+sign through the program's own identity step), so no
+published_proposal item is entered, and M047 is reclassed
+on its remaining filed basis to class U. The executed
+partition is 3 E + 65 I + 4 R + 3 P + 19 U = 94; M124,
+M329 and M330 are verified to carry itemized
+external-support items and stand in E. The rule is landed
+as the F-9 amendment to the standings record; the act
+record is
+specs/091-anchor-comparison-integrity/records/f9-itemization-adjudication-2026-11-22.md.
+Spec 099's log and Q3 audit were regenerated under a
+builder amendment arm: census unchanged (296 items),
+audit payload identical (0 class changes, weakened 44,
+cycles 0, open ends 38), the audit JSON diff exactly one
+field (M047's executed class); TC-099-01 and TC-099-02
+PASS, fixture suite 15 passed (amendment record in Spec
+099's records). Partition statements are updated on every
+living surface (standings supplement, both spec packages'
+pointers, the Q3 completion copies appended identically,
+the Stage 1 record, the Spec 098 Stage 2 design note,
+both repo READMEs). PR #663. CI on the substance head
+3915c3dd: 10/10 per job — Backend tests (pytest), Cloud
+image smoke (Spec 083), Evidence Graph script smoke
+tests, Freeze gate records check (C4), Frontend tests
+(Playwright), Indus public validation checks,
+Ledger/matrix/map equivalence gate, Shell wrappers
+(macos-latest, ubuntu-latest, windows-latest) — all
+success. Adjudication: RED-TEAM-ROUND-4-ADJUDICATION.md
+§2 (goal record). Execution venue: tower-compute.

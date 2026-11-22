@@ -156,3 +156,45 @@ all returned NOT IDENTIFIABLE; four of them stand in class E
 and two — M202 and now M044 — stand in class U, their external
 claims struck. The executed partition as amended is **4 E +
 65 I + 4 R + 3 P + 18 U = 94**.
+
+---
+
+## F-9 amendment (2026-11-22)
+
+**The itemization test, adopted.** On 2026-11-22 the owner
+adopted the recommendation of the Red Team Round 4
+adjudication (flag F-9): prospectively, class E requires
+the external-support claim to appear in the reading's
+inference-log entry as an external-support item (a
+published proposal, dictionary entry, or comparative leg
+entered as such under Spec 099 §3.3), so that the class
+and the derivation cannot silently diverge. The
+register-level definition in §1 is unchanged as a
+description of the class; this amendment adds the
+itemization requirement to hold it. A reading leaving E
+under this test is reclassed on its remaining filed basis
+under §4's form (I if a filed internal candidate
+motivation remains, U if none). The test is stated in full
+in `records/f9-itemization-adjudication-2026-11-22.md`,
+which also executes it.
+
+**Application to M047.** The directed re-examination found
+that M047's filed basis states no published proposal of
+the value: its only Parpola clause names Parpola 1994a as
+a source of the catalogue crosswalk and truncates there,
+and the verified §10.1 proposal (family-level; the
+identity step the program's own) is not stated in the
+basis as an attestation of this reading. No
+published_proposal item is entered (Spec 099 amendment
+record of 2026-11-22). M047's remaining filed basis (a
+superseded assignment of a different value; a sign
+identity) holds no internal candidate motivation for mīn.
+**M047 takes class U.** The executed partition as amended
+is **3 E + 65 I + 4 R + 3 P + 19 U = 94**; Arm E is M124,
+M329, M330, each verified to carry itemized
+external-support items (M124 and M329 dictionary and
+comparative legs; M330 a published-proposal item). §4's
+sentence "M047 stays E (VERIFIED AS FILED, provenance
+only)" is superseded by this amendment: the verification
+outcome stands as provenance, and the class moves under
+the itemization test, not under the strike rule.
