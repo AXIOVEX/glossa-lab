@@ -189,3 +189,69 @@ tally in any program changed.
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.
+
+## 6. Placement — CODECHECK, owner's pick, register issue filed (2026-11-23)
+
+**Owner's pick:** CODECHECK (Candidate 1, §4), decided
+by the owner, Tristen Pierson, on 2026-11-23 at
+~08:51 ET in the Glossa-Lab chat ("Commission CODECHECK
+for the replay"). The placement below is that decision
+executed. It supersedes the closing state in §5
+(candidates awaiting the owner's word).
+
+**The process as it stands:** under CODECHECK's
+community workflow, an author with a published preprint
+proposes a check by opening an issue on the CODECHECK
+register (`codecheckers/register`) using the "new
+community CODECHECK" template; a CODECHECK editor
+triages the proposal and a volunteer community
+codechecker is assigned; the codechecker re-executes
+the workflow and, on completion, issues a public
+certificate of reproducible computation (Zenodo DOI).
+No fee, no account creation, and no terms beyond
+GitHub's ordinary ones were involved at any step.
+
+**What was submitted, and where:** register issue
+**codecheckers/register#249** —
+https://github.com/codecheckers/register/issues/249 —
+title "Pierson | 2026-034" (the certificate identifier
+derived as the next after 2026-033, the highest in the
+register's `register.csv` at filing; the template
+states the editor double-checks it). Filed 2026-11-23
+under the owner's GitHub account (tbitcs). The issue
+body carries the submission itself: the four claim
+groups (R-A to R-D), the input list with its pins and
+where the codechecker acquires each input, the
+comparison rules in summary, and — up front, before
+the workflow description — the custody and licensing
+disclosure in the hand-off's own terms: the Otten
+corpus carries no licence, the program transfers no
+corpus material and no corpus-derived text, and the
+codechecker acquires that input directly from the
+authors' public repository at pin `c9158f68…`,
+verified against the step-0 pin manifest. No corpus
+bytes, no Otten-derived text, and no OD-19 packet
+bundle were sent or attached; the program sent an
+index and a protocol, exactly as §3 scopes. One
+mechanical note: the filing account is not a member
+of the codecheckers organisation, so GitHub would not
+let it apply the template's labels (`community`,
+`needs codechecker`) or its default assignee
+(`nuest`); that was flagged in a comment on the issue
+for the editor rather than left silent.
+
+**State:** the issue stands OPEN at filing —
+registered, awaiting editor triage and codechecker
+assignment. CODECHECK is volunteer-run and its own
+page states that proposals can take a while to be
+answered; the timing is not the program's to set. The
+replay itself has not run, so ledger row C-M-23
+remains **accepted** (commission placed, execution
+not complete). Codechecker questions land on the
+register issue, where the author answers them; the
+outcome, whatever it is, is filed and adjudicated on
+this record under the protocol.
+
+**AI disclosure:** executed by an AI agent (Muse,
+via Muse) at the direction of Tristen Pierson,
+per constitution sec. VI.

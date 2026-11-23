@@ -159,7 +159,7 @@ units landed at L-3 (PR #675, merge `ec07f7c1`).
 | B-E-6 | Rank 1: independent audit and rerun of the frozen A2 implementation before interpreting the one-name recovery (OD-8) | done | OWNER DECISION OD-8, COMMISSIONED 2026-11-22 11:41 ET; executed PR #681 (merge `a0c1b4cf`): the frozen driver reproduces the filed run record byte-for-byte and an independent reimplementation agrees on every verdict-bearing quantity; finding F-2 (fresh-checkout reproducibility) flagged for adjudication |
 | B-E-7 | Pursue the missing editions: the Androkles syllabic sides and Perna 2019, keeping acquired material outside the old freeze (OD-9) | done | OWNER DECISION OD-9, COMMISSIONED 2026-11-22 11:42 ET; executed PR #682 (merge `9684d542`): both items openly and lawfully available (Persée, DOI 10.3406/bch.1982.1914; OpenEdition, DOI 10.4000/books.efa.3031); no ILL placed, no fee |
 | B-E-8 | Ranks 3–4: A2 baselines and negative controls, then specify a realistic next Eteocypriot claim (OD-10) | done | OWNER DECISION OD-10, COMMISSIONED 2026-11-22 12:23 ET; executed PR #687 (merge `a16bd0b9`): Androkles intake executed (Dedication A, 15 signs in 3 segments; B prints no sign-level transcription), controls landed (sequence score 4 never reached under either null), Spec 101 registered, not executed |
-| B-E-9 | Rank 5: an independent human should check Spec 096's reporting completeness against the records (OD-11) | open | OWNER DECISION OD-11: deferred 2026-11-22 12:32 ET until the owner named the person; Alex de Voogt named 2026-11-22 14:49 ET and the invitation sent 2026-11-22 15:31 ET (Gmail Sent id `1a204f4784995c21`; `records/od11-naming-and-send-record-2026-11-22.md` in Spec 091's folder). The check stands DECLINED: de Voogt declined on 2026-11-22 19:11 ET (Gmail id `1a205bea5211a9a2`), and the program's thank-you was sent the same evening (Gmail Sent id `1a205ce4d81490e0`). No record set was sent to him. The check is unperformed and its replacement-checker choice returns to the owner |
+| B-E-9 | Rank 5: an independent human should check Spec 096's reporting completeness against the records (OD-11) | accepted | OWNER DECISION OD-11: deferred 2026-11-22 12:32 ET until the owner named the person; Alex de Voogt named 2026-11-22 14:49 ET and the invitation sent 2026-11-22 15:31 ET (Gmail Sent id `1a204f4784995c21`; `records/od11-naming-and-send-record-2026-11-22.md` in Spec 091's folder). The check stands DECLINED: de Voogt declined on 2026-11-22 19:11 ET (Gmail id `1a205bea5211a9a2`), and the program's thank-you was sent the same evening (Gmail Sent id `1a205ce4d81490e0`). No record set was sent to him. The check is unperformed and its replacement-checker choice returns to the owner. DECIDED 2026-11-23 (owner): the replacement route is a fresh external epigrapher (Kobayashi not used); candidates recorded in Spec 096's `records/od-11-replacement-checker-decision-2026-11-23.md`; the row stands accepted pending the owner's pick of the person; the check remains unperformed |
 | B-E-10 | Adopt the assessment's honest public description as the canonical Eteocypriot wording (OD-12) | done | OWNER DECISION OD-12, ADOPTED 2026-11-22 12:58 ET (PR #680, merge `28cabd4b`); adoption publishes nothing |
 
 ### Round C — release round, delivered assessments (2026-11-23)
@@ -278,11 +278,11 @@ actual text; nothing is deposited on this round alone.
 |---|---|---|---|---|---|
 | Indus, Round A | 15 | 12 | 3 | 0 | 0 | 0 |
 | Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
+| Eteocypriot, Round B | 10 | 8 | 1 | 0 | 0 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round C | 20 | 2 | 10 | 0 | 1 | 7 |
 | Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
-| **Total** | **114** | **61** | **30** | **0** | **2** | **21** |
+| **Total** | **114** | **61** | **31** | **0** | **1** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
@@ -294,7 +294,14 @@ OD-5 execution gated on Miller's reply; OD-21 registered, not
 executed; OD-22 adopted, effective on release conditions),
 and 1 stands open: OD-11, whose named checker declined on
 2026-11-22, so the check is unperformed and the
-replacement-checker choice returns to the owner. No unit's
+replacement-checker choice returns to the owner.
+(Amended 2026-11-23: the owner decided OD-11's route
+that day, a fresh external epigrapher, with candidates
+recorded in Spec 096's
+`records/od-11-replacement-checker-decision-2026-11-23.md`;
+the row now stands accepted pending the owner's pick of
+the person, and the Round B accepted count rises to 5.
+The check remains unperformed.) No unit's
 disposition could not be established from the record; the
 accepted and open rows name the specific act or reply each
 still awaits.
@@ -319,8 +326,12 @@ of the refresh adjudication record), and OD-C-1 was
 decided by the owner on 2026-11-23 (row C-E-2, done;
 the amendment adopted, §14 addendum to the refresh
 adjudication record), bringing the totals to 2 open,
-61 done and 30 accepted. Round C's first pass, which
-produced no
+61 done and 30 accepted; the owner then decided
+OD-11's route the same day, a fresh external
+epigrapher (row B-E-9, accepted), bringing the totals
+to 1 open, 61 done and 31 accepted, the sole remaining
+open row being OD-C-2 (row C-E-17). Round C's first
+pass, which produced no
 recommendations because the briefs had not entered the
 sessions, is recorded at PR #712 and is superseded as the
 round's outcome by the delivered-assessment adjudication,
