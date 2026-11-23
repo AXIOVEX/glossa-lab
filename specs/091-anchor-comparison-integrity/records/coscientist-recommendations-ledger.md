@@ -61,12 +61,23 @@ is left open and says so.
   `hidden_files/coscientist-release-2026-11-22/` (per-program
   `OUTPUT.md` capture notes with the complete session
   records at `SESSION-RAW.json`, hashes in the adjudication
-  record). Capture finding: both sessions contain only the
-  file-intake turn — the briefs' text never entered either
-  session, and the Co-scientist's only output is an intake
-  acknowledgment. Zero recommendations were issued, so
-  Round C has no rows. Adjudication:
-  `records/coscientist-release-round-c-adjudication-2026-11-23.md`.
+  record). Capture finding at the first pass: both sessions
+  contained only the file-intake turn — the briefs' text
+  never entered either session, and the Co-scientist's only
+  output was an intake acknowledgment; zero recommendations
+  were issued at that pass. First-pass adjudication:
+  `records/coscientist-release-round-c-adjudication-2026-11-23.md`
+  (PR #712). The briefs were then delivered into both
+  sessions on 2026-11-23 and full assessments were produced
+  (Eteocypriot `OUTPUT-ROUND-C.md`, SHA-256 `e98996a1…`;
+  Meroitic `OUTPUT-ROUND-C.md`, SHA-256 `937559cc…`, in the
+  same goal folders). Adjudication of the delivered
+  assessments:
+  `records/coscientist-release-round-c-assessment-adjudication-2026-11-23.md`:
+  46 units — Eteocypriot C-E-1 to C-E-20, Meroitic C-M-1 to
+  C-M-26; dispositions 9 APPLY / 14 APPLY WITH MODIFICATION /
+  18 DO NOT APPLY / 5 OWNER DECISION (OD-C-1 to OD-C-5).
+  Rows C-E-* and C-M-* below carry the unit numbers.
   Indus's release-round equivalent is Round B's Indus
   session, already captured and adjudicated above.
 
@@ -151,13 +162,40 @@ units landed at L-3 (PR #675, merge `ec07f7c1`).
 | B-E-9 | Rank 5: an independent human should check Spec 096's reporting completeness against the records (OD-11) | open | OWNER DECISION OD-11: deferred 2026-11-22 12:32 ET until the owner named the person; Alex de Voogt named 2026-11-22 14:49 ET and the invitation sent 2026-11-22 15:31 ET (Gmail Sent id `1a204f4784995c21`; `records/od11-naming-and-send-record-2026-11-22.md` in Spec 091's folder). The check stands DECLINED: de Voogt declined on 2026-11-22 19:11 ET (Gmail id `1a205bea5211a9a2`), and the program's thank-you was sent the same evening (Gmail Sent id `1a205ce4d81490e0`). No record set was sent to him. The check is unperformed and its replacement-checker choice returns to the owner |
 | B-E-10 | Adopt the assessment's honest public description as the canonical Eteocypriot wording (OD-12) | done | OWNER DECISION OD-12, ADOPTED 2026-11-22 12:58 ET (PR #680, merge `28cabd4b`); adoption publishes nothing |
 
-### Round C — release round (2026-11-22)
+### Round C — release round, delivered assessments (2026-11-23)
 
-No rows. The session's output was captured 2026-11-23 and
-contains no recommendations: the brief's text never entered
-the session, and the Co-scientist's only output is an intake
-acknowledgment. Adjudication:
-`records/coscientist-release-round-c-adjudication-2026-11-23.md`.
+Source: `eteocypriot/OUTPUT-ROUND-C.md` (Round C capture,
+SHA-256 `e98996a1…`); adjudication
+`records/coscientist-release-round-c-assessment-adjudication-2026-11-23.md`.
+The first pass of this round produced no recommendations
+(the brief's text had not entered the session; PR #712
+record); the rows below are the delivered assessment's
+units. Paper-text items (E-P1 to E-P7 in the adjudication's
+§4) stand accepted pending the owner's approval of the
+actual text; nothing is deposited on this round alone.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| C-E-1 | §6's "falsifier is met" sentence: add the failure-to-validate vs falsification-of-the-registered-procedure distinction (NOT SUPPORTED stands) | accepted | APPLY WITH MODIFICATION; sustained against v2 §5.1/§5.2 (the verdict already rests on A2 and the floors); paper package item E-P1 |
+| C-E-2 | Amend the OD-12 canonical wording: state the executable leg's missed criterion and the A2 deviation, not only the unavailable corpus (OD-C-1) | open | OWNER DECISION OD-C-1, presented in the adjudication's §5; the omission is verified on the wording's face (quoted in v2's Scope section) |
+| C-E-3 | The process verdict is a retrospective narrowing; owner adjudication authorises but does not independently validate | rejected | DO NOT APPLY: no change; v2 already cites C096-4 only in narrowed, self-assessed form |
+| C-E-4 | Repair §5.2's temporal inconsistency: "At the original run, no chance or control battery existed", cross-referencing §4.2 | accepted | APPLY; sustained on the v2 text (§5.2 present tense against §4.2's 2026-11-22 battery); paper package item E-P2 |
+| C-E-5 | Carry the preregistration qualification (repository-filed, no external timestamp, execution departed) on summary surfaces | accepted | APPLY WITH MODIFICATION; the qualification stands at §2 but not in the abstract or title; paper package item E-P3 |
+| C-E-6 | Weight framing: byte-identical rerun supports faithful repetition only, not transcription fidelity, assumption appropriateness, or registration compliance | rejected | DO NOT APPLY: no change; v2 §5.4 already scopes the reproduction to the executed bytes with F-2 flagged in the same section |
+| C-E-7 | State which implementation features the independent reimplementation exercised (the freeze omits the driver's consonant table) | accepted | APPLY WITH MODIFICATION; resolved on the record by the OD-8 audit §2 / finding F-4 (the two names' derivations are fixed by R1–R3 plus letter identity; no charged mapping exercised); paper package item E-P4 |
+| C-E-8 | Do not weaken the hash guard or reset the pin; cite the reproduction as historical-input reproduction with the reconstruction route named | accepted | APPLY WITH MODIFICATION; the citation form is adopted in the adjudication (freeze commit `173882a2`, verified hash chain); paper package item E-P5 |
+| C-E-9 | Keep "specificity" conditional on the two exploratory nulls; cite the controls only in the bounded statement | done | APPLY; the governing gloss is filed in the adjudication (specific against NC-1/NC-2 as specified in the controls record); the abstract's unqualified form is paper package item E-P6 |
+| C-E-10 | The controls do not establish name discrimination (both names score 4 on the same segment; the pair is a name and its patronymic, not independent trials) | rejected | DO NOT APPLY: no change; v2 states both halves itself (§4.1, §5.2), and the controls record files the tie expressly |
+| C-E-11 | Give the nulls' specification in the paper (what was randomised and preserved, tie scoring, per-replicate maximisation); note NC-2 does not preserve the shared-prefix structure | accepted | APPLY WITH MODIFICATION; the specification stands in the controls record but §4.2 compresses it to names and percentages; paper package item E-P7; the shared-prefix caution is filed in the adjudication |
+| C-E-12 | Dedication A permits sign-level comparison, but a usable known-answer test needs legibility, an independently fixable correspondence, and robustness to the editors' uncertainty grades | rejected | DO NOT APPLY: no change; already the registered position (Spec 101 §3.3 declines the Androkles form; the intake record carries the certainty grades) |
+| C-E-13 | Perna's re-edition enables occurrence analyses, but acquisition alone establishes no legibility floor; that requires its own census | rejected | DO NOT APPLY: no change; already registered (Spec 101 P-1 intake census; §3.2 TOO THIN closure) |
+| C-E-14 | The next study is postdictive; code restriction to ICS 196 cannot erase prior exposure; recurrence alone establishes no morphology or meaning | rejected | DO NOT APPLY: no change; already Spec 101 §3.3 (exposure as governing limit, postdictive strength registered, C101-2 exposure statement) |
+| C-E-15 | Rank 1: a feasibility decision for the alignment line — which independently identifiable correspondences remain, exposure state, whether enough independent items exist to beat simple baselines; a stop decision if none | accepted | APPLY; new work, no such record exists (Spec 101 is an occurrence study); accepted as the alignment line's next record, no study commissioned |
+| C-E-16 | Rank 2: specify correct-versus-confusable-name discrimination for any future E1-form test; controls must reproduce the full selection process and preserve name dependencies; register before any confirmatory result | accepted | APPLY; filed in the adjudication as an amendment to v2 §5.2's binding conditions on any future re-run |
+| C-E-17 | Rank 3 (adjudication half): adjudicate finding F-2 — whether C096-4's narrowed scope sentence is amended to state the executed-bytes condition (OD-C-2) | open | OWNER DECISION OD-C-2; v2 §5.4 itself reserves the question to the approver |
+| C-E-18 | Rank 4: make Spec 101 uncertainty-aware and selection-transparent before execution (candidate list, variants, positional rules, denominators, damaged/restored treatment; exposure recorded; postdictive label retained) | accepted | APPLY WITH MODIFICATION; candidate set, positions, floors, tables, and the exposure statement are already registered (P-2, P-3, C101-2); the surviving gap — damaged/restored treatment at counting — is to be fixed in Spec 101's freeze addendum before execution |
+| C-E-19 | Rank 5: an independent epigraphic check of the consequential inputs (ICS 196 against the pending edition material; a different reader for the Androkles A intake) (OD-C-3) | open | OWNER DECISION OD-C-3, confined to the Androkles second reader; the ICS 196 half is already in motion through the interlibrary route (`ics196-ill-request-2026-11-22.md`) and is not new |
+| C-E-20 | Overall verdict and proposed replacement public summary (moderate weight as a corrected account; low as method validation; none as decipherment) | rejected | DO NOT APPLY: no separate act; its actionable content is C-E-2 / OD-C-1; the canonical wording remains OD-12's until the owner amends it |
 
 ## Meroitic rows
 
@@ -190,16 +228,49 @@ WITH MODIFICATION units landed at L-4 (PR #676, merge
 | B-M-18 | Rank 6: register a genuinely fresh discriminating affiliation test only after the preceding checks (OD-21) | accepted | OWNER DECISION OD-21, COMMISSIONED 2026-11-22 13:51 ET; Spec 102 registered, not executed (PR #698, merge `ac6e2ddf`); its S-1 acquisition is owner-gated and was not authorised by the registration |
 | B-M-19 | Adopt the assessment's proposed public wording as canonical, effective only when release conditions are satisfied (OD-22) | accepted | OWNER DECISION OD-22, ADOPTED 2026-11-22 13:53 ET, recorded in the closing addendum (PR #697, merge `bb890fda`); adoption publishes nothing and the internal-use ruling stood at adoption |
 
-### Round C — release round (2026-11-22)
+### Round C — release round, delivered assessments (2026-11-23)
 
-No rows. The session's output was captured 2026-11-23 and
-contains no recommendations: the brief's text never entered
-the session, and the Co-scientist's only output is an intake
-acknowledgment. The slop-check flags on the brief as
+Source: `meroitic/OUTPUT-ROUND-C.md` (Round C capture,
+SHA-256 `937559cc…`); adjudication
+`records/coscientist-release-round-c-assessment-adjudication-2026-11-23.md`.
+The first pass of this round produced no recommendations
+(the brief's text had not entered the session; PR #712
+record), and the slop-check flags on the brief as first
 submitted (F5, superseded version DOI; F6, the power
-parameter *d* mislabelled) attach to no recommendation
-this round and stand as filed (PR #707). Adjudication:
-`records/coscientist-release-round-c-adjudication-2026-11-23.md`.
+parameter *d* mislabelled) were corrected in the brief as
+delivered. The rows below are the delivered assessment's
+units. Paper-text items (M-P1 to M-P7 in the adjudication's
+§4) stand accepted pending the owner's approval of the
+actual text; nothing is deposited on this round alone.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| C-M-1 | "Discrepant under the documented reproduction procedure" is the appropriate strength for the A9 count | rejected | DO NOT APPLY: no change; the unit confirms the OD-13 form as carried in v2 §3.1 |
+| C-M-2 | The ten-count breakdown is not a reproducibility percentage; keep A1's specified-interpretation basis beside the four-exact headline | rejected | DO NOT APPLY: no change; v2 §3.1 already states A1's distinct-headword basis (195 data rows, 175 with translations) and the other exact items' bases; no percentage is stated anywhere |
+| C-M-3 | §3.3's "fully independent" Arm 2 overstates: it uses the authors' Egyptian embeddings; call it independently implemented with independently trained Meroitic-side embeddings | accepted | APPLY; sustained on the v2 sentence itself; paper package item M-P1 |
+| C-M-4 | "Independent" splits: exact-text deduplication establishes string non-overlap only, not inscription, formula-family, or provenance independence | rejected | DO NOT APPLY: not sustained against the paper (v2 makes no such claim); the dependency question was audited for the affiliation leg (OD-17) and the partial result's formula dependence measured (OD-20) |
+| C-M-5 | Carry the preregistration qualifications (repository-only timestamp; post-hoc screen thresholds) with the first campaign description | accepted | APPLY WITH MODIFICATION; both disclosures stand in the body (§1; the candidate stage) but not in the abstract; paper package item M-P2 |
+| C-M-6 | "Validates a retrieval route" overstates: recovery of a known anchor variant demonstrates retrievability, with no demonstrated improvement over the genre/formula baseline | accepted | APPLY WITH MODIFICATION; sustained against the abstract and §5 against the paper's own OD-20 result (the pass fully accounted for by genre and formula); paper package item M-P3; the OD-22 wording is unaffected |
+| C-M-7 | Narrow the abstract's Afroasiatic exclusion to the model-conditional form (detector, sampled concepts, assumed detection rates); the 4/12 interval is for a binomial match probability under its assumptions, not for a cognate proportion | accepted | APPLY WITH MODIFICATION; the body already states the exclusion in θ terms at stated detection rates (OD-15); paper package item M-P4; UNDECIDABLE AT THIS POWER untouched |
+| C-M-8 | Custody is a disclosed research-risk decision, not an established legal entitlement; risk acceptance is not permission and determines no lawfulness either way | rejected | DO NOT APPLY: no change; the custody record's own position, already adjudicated at B-M-5 on the same ground |
+| C-M-9 | Refusal protocol: give the released paper and its dissemination copies (Zenodo versions, Academia listing, supplementary material, public summaries) explicit treatment, with a linked-notice and repository-notification route where a version cannot be removed | accepted | APPLY WITH MODIFICATION; sustained in its narrow part — OD-14 §4.4/§4.5 cover derived artifacts, citations, and published aggregates but do not name the dissemination copies or a repository notice route; a protocol supplement is the accepted act |
+| C-M-10 | Refusal scope must be dependency-governed: identify outputs resting on the Otten holding (including derived example phrases) individually; neither wholesale withdrawal nor wholesale exemption | rejected | DO NOT APPLY: no change; already the protocol's form (§4.7 names the affected analyses individually; §4.9 limits scope; the example-phrases dependency is traced in OD-17 §1) |
+| C-M-11 | "Deleted after review" needs an accountable timetable and a rule for legally required preservation | rejected | DO NOT APPLY: not sustained in its main part (§4.8 sets the seven-day timetable; §4.6 preserves a non-infringing audit record where permitted); the preservation carve-out folds into the C-M-9 supplement |
+| C-M-12 | Voluntary withdrawal on objection is the program's undertaking, not proof of a rights holder's control over every aggregate fact; keep the distinction explicit | rejected | DO NOT APPLY: no change; already the protocol's framing (§4 trigger; §5 relation statement) |
+| C-M-13 | The power asymmetry changes the interpretation of the two failures, not the classification verdict | rejected | DO NOT APPLY: no change; confirmation of the OD-15 outcome (B-M-9); UNDECIDABLE AT THIS POWER stands |
+| C-M-14 | Spec 102: forty concepts is not itself a power guarantee; calibrate the statistic under detection heterogeneity, missingness, and the registered correction before execution | accepted | APPLY WITH MODIFICATION; G-1/G-2 and the no-lowering rule are already registered; the surviving gap (heterogeneous detection rates and missingness in the G-2 simulation) is accepted as a freeze-stage adequacy item, gates unchanged |
+| C-M-15 | PARTIALLY SUPPORTED: preserve the historical scoring outcome; cite it only in the bounded form (known-anchor variant recovered; no demonstrated semantic gain beyond the genre/formula baseline), never free-standing in program summaries | done | APPLY WITH MODIFICATION; the citation gloss is filed in the adjudication; the OD-22 canonical wording already complies; the paper-side residue rides C-M-6 / M-P3; no verdict rewritten |
+| C-M-16 | §5's out-of-genre survival test is not a justified falsifier of the Osiris-variant interpretation (a correct theonym reading may be genre-restricted); an out-of-genre test needs a separately justified occurrence prediction | accepted | APPLY WITH MODIFICATION; sustained on the paper's own reassessment (soreyi's distribution is carried entirely by the wosi invocation); paper package item M-P5, plus the design rule filed in the adjudication; no such test is registered and no standing is affected |
+| C-M-17 | ANSWERED-BY-REDIRECT / NOT CONFIRMED is the correct standing for the anchor tranche; no adverse inference from the awaited reply | rejected | DO NOT APPLY: no change; confirmation of the standing as filed (Stage 4.5 records; v2) |
+| C-M-18 | "The field's practitioners cannot answer certainty questions in that form" overgeneralises from one respondent's redirect and parse objection | accepted | APPLY; sustained on the v2 Stage 4.5 passage; paper package item M-P6 |
+| C-M-19 | "Rilly's answer would settle the anchors' standing" grants one reply excessive authority; a reply could materially revise the assessment, on the evidence it gives | accepted | APPLY; sustained on the v2 closing section, verbatim; paper package item M-P7 |
+| C-M-20 | Adopt the five-step protocol for a Rilly challenge to an anchor (classify the challenge; suspend dependent claims; trace dependencies; recompute under a documented amendment preserving originals; report effects on target/control outcomes) | accepted | APPLY; new record — the OD-18 preparation covers the channel and question set but no challenge response; the protocol is specified in full in the adjudication and is to be filed as a supplement to the OD-18 preparation record |
+| C-M-21 | Rank 1: establish the corpus's effective evidential units — reconcile the 652 / 396 / 368 counts, then examine cross-split dependencies by inscription identity, near-duplicate text, and formula family | accepted | APPLY WITH MODIFICATION; the reconciliation is already an open item of the paper's own record; the dependency half extends OD-17 to the Stage 4.4 held-out basis |
+| C-M-22 | Rank 2: calibrate semantic discrimination on licensed material (masked known-meaning recovery against plausible rivals, beyond genre/formula baselines, prior exposure accounted) | accepted | APPLY; sustained as a design direction (Leg B's fixture cannot be interpreted as calibration; soreyi shows retrievability, not discrimination); no study commissioned |
+| C-M-23 | Rank 3: obtain an external replay of the published benchmark claims from an immutable package, by an independent reproducer with its own lawful access (OD-C-4) | open | OWNER DECISION OD-C-4; the OD-19 packet route exists, but engaging an external reproducer is the owner's act (the OD-11 pattern) |
+| C-M-24 | Rank 4: targeted reporting and refusal-execution amendments (narrow the Q1–Q5 claims; specify the released paper's treatment on refusal) | rejected | DO NOT APPLY: no separate act; the aggregate of C-M-3, C-M-5, C-M-6, C-M-7, C-M-9, C-M-18, C-M-19, executed through them |
+| C-M-25 | Rank 5: execute Spec 102 only after its gates pass; prerequisites are not reasons to relax the freeze | rejected | DO NOT APPLY: no change; already Spec 102's registered discipline (G-1/G-2, NOT ADMINISTERED closure, the no-lowering rule); confirms B-M-18 |
+| C-M-26 | Overall verdict and proposed replacement public summary (moderate claim-specific weight on the benchmark; little on the campaign as affiliation evidence; none as a new reading) (OD-C-5) | open | OWNER DECISION OD-C-5: whether the proposed summary supersedes the OD-22 canonical wording in whole or part, or OD-22 is retained; the material differences are stated in the adjudication |
 
 ## Counts
 
@@ -209,9 +280,9 @@ this round and stand as filed (PR #707). Adjudication:
 | Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round C | 0 | 0 | 0 | 0 | 0 | 0 |
-| Meroitic, Round C | 0 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **68** | **57** | **7** | **0** | **1** | **3** |
+| Eteocypriot, Round C | 20 | 1 | 9 | 0 | 3 | 7 |
+| Meroitic, Round C | 26 | 1 | 12 | 0 | 2 | 11 |
+| **Total** | **114** | **59** | **28** | **0** | **6** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
@@ -226,9 +297,24 @@ and 1 stands open: OD-11, whose named checker declined on
 replacement-checker choice returns to the owner. No unit's
 disposition could not be established from the record; the
 accepted and open rows name the specific act or reply each
-still awaits. Round C adds no rows: its two sessions
-produced no recommendations (see the Round C adjudication
-record).
+still awaits.
+
+Round C cross-check against the delivered-assessment
+adjudication record (46 units: 9 APPLY / 14 APPLY WITH
+MODIFICATION / 18 DO NOT APPLY / 5 OWNER DECISION): the
+23 APPLY-family units stand at 2 done (the two citation
+glosses whose act is the adjudication record itself,
+C-E-9 and C-M-15) and 21 accepted (paper-text items
+awaiting the owner's approval of the actual text, record
+supplements, freeze-stage adequacy items, and future work,
+each named in its row); the 18 DO NOT APPLY units are the
+18 rejected rows; the 5 OWNER DECISION units (OD-C-1 to
+OD-C-5) stand open with the 1 Round B open row, for 6 open
+in total. Round C's first pass, which produced no
+recommendations because the briefs had not entered the
+sessions, is recorded at PR #712 and is superseded as the
+round's outcome by the delivered-assessment adjudication,
+not erased by it.
 
 ## Briefing rule (closing note)
 
