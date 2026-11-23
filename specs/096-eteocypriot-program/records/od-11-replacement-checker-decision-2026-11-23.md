@@ -135,3 +135,24 @@ reproduction report, and the later intake and controls
 records, together with the preprint in its current
 version) is what gets sent. The check itself stands
 unperformed; no other candidate has been contacted.
+
+## The send (2026-11-23)
+
+The owner approved the letter's exact text on
+2026-11-23 ~09:42 ET. The invitation was sent the same
+morning: 2026-11-23 09:43:24 ET (14:43:24 UTC), from
+tristen.pierson@gmail.com to
+markus.egetmeyer@sorbonne-universite.fr, subject "An
+independent completeness check on an Eteocypriot pilot
+study's record", Gmail sent id 1a208dc99ec95578, no
+enclosures. The body was read back from the Sent record
+and verified identical to the approved text
+(user_edited: false; the only difference is Gmail's
+CRLF transport encoding). A pre-send duplicate check of
+the Sent folder found no earlier send of this subject
+to this address; exactly one send was made. Egetmeyer
+was added to the hourly reply watch the same morning
+(watermark 2026-11-23 09:43 ET, the sent id baselined;
+any reply is reported in full; silence is recorded as
+silence, never as assent). The check itself stands
+unperformed until he agrees and completes it.
