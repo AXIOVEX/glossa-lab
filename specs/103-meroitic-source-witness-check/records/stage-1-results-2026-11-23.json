@@ -1,0 +1,1386 @@
+{
+ "step1": {
+  "basis": {
+   "index_rows": 652,
+   "distinct_texts": 368,
+   "dev_texts": 335,
+   "held_texts": 33,
+   "held_strata": {
+    "royal_temple": 10,
+    "graffito": 2,
+    "funerary": 16,
+    "document": 5
+   },
+   "dev_strata": {
+    "royal_temple": 41,
+    "graffito": 22,
+    "funerary": 223,
+    "other": 7,
+    "document": 42
+   }
+  },
+  "forms": {
+   "soreyi": {
+    "frozen_match": true,
+    "recomputed_share": 1.0,
+    "frozen_share": 1.0
+   },
+   "asoreyi": {
+    "frozen_match": true,
+    "recomputed_share": 1.0,
+    "frozen_share": 1.0
+   },
+   "xolkete": {
+    "frozen_match": true,
+    "recomputed_share": 1.0,
+    "frozen_share": 1.0
+   },
+   "pxolkete": {
+    "frozen_match": true,
+    "recomputed_share": 0.0,
+    "frozen_share": null
+   },
+   "xolkte": {
+    "frozen_match": true,
+    "recomputed_share": 1.0,
+    "frozen_share": 1.0
+   },
+   "wisi": {
+    "frozen_match": true,
+    "recomputed_share": 0.0,
+    "frozen_share": null
+   }
+  },
+  "anchors_match": true,
+  "held_strata_match": true,
+  "witness_coverage": [
+   {
+    "rem": "REM 0003",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0013",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0014",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0021",
+    "stratum": "graffito",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0024",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0052",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0056",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0058",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0066",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0091c",
+    "stratum": "graffito",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0092",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0135",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0221",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0226",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0232",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0240",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0250",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0256",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0281",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0312",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0407",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0408",
+    "stratum": "royal_temple",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0527",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0529",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "REM 0545",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": true,
+    "any_witness": true
+   },
+   {
+    "rem": "B.O. 1",
+    "stratum": "document",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "F.O. 17",
+    "stratum": "document",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "F.O. 29",
+    "stratum": "document",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "F.O. 39",
+    "stratum": "document",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "F.O. 7",
+    "stratum": "document",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "Meroe 40",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "Sh. 16",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   },
+   {
+    "rem": "Sh. 9",
+    "stratum": "funerary",
+    "alt_readings": 0,
+    "expansion": false,
+    "any_witness": false
+   }
+  ],
+  "held_texts_without_any_witness": [
+   "B.O. 1",
+   "F.O. 17",
+   "F.O. 29",
+   "F.O. 39",
+   "F.O. 7",
+   "Meroe 40",
+   "Sh. 16",
+   "Sh. 9"
+  ]
+ },
+ "forms": {
+  "soreyi": {
+   "frozen": {
+    "texts_with_form": 10,
+    "funerary_texts_with_form": 10,
+    "share": 1.0,
+    "result": true,
+    "legs": {
+     "texts_leg": true,
+     "share_leg": true
+    }
+   },
+   "counted_loci": [
+    {
+     "rem": "REM 0135",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_mi2b.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0226",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0232",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0250",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0256",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0281",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0527",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_faras.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "REM 0529",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_faras.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "Sh. 16",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "WITNESS UNAVAILABLE",
+     "witness_verdicts": {}
+    }
+   ],
+   "near_form_census": [
+    {
+     "rem": "REM 0056",
+     "stratum": "royal_temple",
+     "token": "reyi",
+     "kind": "containment",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_mi1b.jsonl": "partial_or_containment"
+     }
+    },
+    {
+     "rem": "REM 0240",
+     "stratum": "funerary",
+     "token": "asoreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "Sh. 9",
+     "stratum": "funerary",
+     "token": "asoreyi",
+     "kind": "edit_distance_1",
+     "classification": "WITNESS UNAVAILABLE",
+     "witness_verdicts": {}
+    }
+   ],
+   "sub_threshold_fragments": [
+    {
+     "rem": "REM 0021",
+     "stratum": "graffito",
+     "token": "y",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "o",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "yi",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "r",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "r",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0407",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "i",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "y",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "B.O. 1",
+     "stratum": "document",
+     "token": "r",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Meroe 40",
+     "stratum": "funerary",
+     "token": "e",
+     "kind": "containment_fragment_lt3"
+    }
+   ],
+   "corrected": {
+    "texts_with_form": 10,
+    "share": 1.0,
+    "legs": {
+     "texts_leg": true,
+     "share_leg": true
+    }
+   },
+   "boundary_crossed": false,
+   "outcome": "CLAIM STANDS"
+  },
+  "asoreyi": {
+   "frozen": {
+    "texts_with_form": 2,
+    "funerary_texts_with_form": 2,
+    "share": 1.0,
+    "result": false,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": true
+    }
+   },
+   "counted_loci": [
+    {
+     "rem": "REM 0240",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    },
+    {
+     "rem": "Sh. 9",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "WITNESS UNAVAILABLE",
+     "witness_verdicts": {}
+    }
+   ],
+   "near_form_census": [
+    {
+     "rem": "REM 0056",
+     "stratum": "royal_temple",
+     "token": "reyi",
+     "kind": "containment",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_mi1b.jsonl": "partial_or_containment"
+     }
+    },
+    {
+     "rem": "REM 0135",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_mi2b.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0226",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0232",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0250",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0256",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0281",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0527",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_faras.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0529",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_faras.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "Sh. 16",
+     "stratum": "funerary",
+     "token": "soreyi",
+     "kind": "edit_distance_1",
+     "classification": "WITNESS UNAVAILABLE",
+     "witness_verdicts": {}
+    }
+   ],
+   "sub_threshold_fragments": [
+    {
+     "rem": "REM 0021",
+     "stratum": "graffito",
+     "token": "y",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "o",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "yi",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "a",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "r",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "r",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "a",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0407",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "i",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "as",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "y",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "B.O. 1",
+     "stratum": "document",
+     "token": "r",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "B.O. 1",
+     "stratum": "document",
+     "token": "a",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Meroe 40",
+     "stratum": "funerary",
+     "token": "e",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Sh. 16",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    }
+   ],
+   "corrected": {
+    "texts_with_form": 2,
+    "share": 1.0,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": true
+    }
+   },
+   "boundary_crossed": false,
+   "outcome": "NOT CHECKED - INCOMPLETE COVERAGE"
+  },
+  "xolkete": {
+   "frozen": {
+    "texts_with_form": 1,
+    "funerary_texts_with_form": 1,
+    "share": 1.0,
+    "result": false,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": true
+    }
+   },
+   "counted_loci": [
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "occurrences": 1,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    }
+   ],
+   "near_form_census": [
+    {
+     "rem": "REM 0240",
+     "stratum": "funerary",
+     "token": "psxolkete",
+     "kind": "containment",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "partial_or_containment"
+     }
+    },
+    {
+     "rem": "REM 0250",
+     "stratum": "funerary",
+     "token": "xolkte",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    }
+   ],
+   "sub_threshold_fragments": [
+    {
+     "rem": "REM 0013",
+     "stratum": "royal_temple",
+     "token": "x",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0013",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0014",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "o",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "ke",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0281",
+     "stratum": "funerary",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "t",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0545",
+     "stratum": "funerary",
+     "token": "t",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0545",
+     "stratum": "funerary",
+     "token": "te",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "F.O. 39",
+     "stratum": "document",
+     "token": "xo",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Meroe 40",
+     "stratum": "funerary",
+     "token": "e",
+     "kind": "containment_fragment_lt3"
+    }
+   ],
+   "corrected": {
+    "texts_with_form": 1,
+    "share": 1.0,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": true
+    }
+   },
+   "boundary_crossed": false,
+   "outcome": "CLAIM STANDS"
+  },
+  "pxolkete": {
+   "frozen": {
+    "texts_with_form": 0,
+    "funerary_texts_with_form": 0,
+    "share": 0.0,
+    "result": false,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": false
+    }
+   },
+   "counted_loci": [],
+   "near_form_census": [
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "kete",
+     "kind": "containment",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "xolkete",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0240",
+     "stratum": "funerary",
+     "token": "psxolkete",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    }
+   ],
+   "sub_threshold_fragments": [
+    {
+     "rem": "REM 0013",
+     "stratum": "royal_temple",
+     "token": "x",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0013",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0014",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "o",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "ke",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0232",
+     "stratum": "funerary",
+     "token": "p",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0281",
+     "stratum": "funerary",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "t",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0545",
+     "stratum": "funerary",
+     "token": "t",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0545",
+     "stratum": "funerary",
+     "token": "te",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "F.O. 39",
+     "stratum": "document",
+     "token": "xo",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Meroe 40",
+     "stratum": "funerary",
+     "token": "e",
+     "kind": "containment_fragment_lt3"
+    }
+   ],
+   "corrected": {
+    "texts_with_form": 0,
+    "share": 0.0,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": false
+    }
+   },
+   "boundary_crossed": false,
+   "outcome": "CLAIM STANDS"
+  },
+  "xolkte": {
+   "frozen": {
+    "texts_with_form": 1,
+    "funerary_texts_with_form": 1,
+    "share": 1.0,
+    "result": false,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": true
+    }
+   },
+   "counted_loci": [
+    {
+     "rem": "REM 0250",
+     "stratum": "funerary",
+     "occurrences": 2,
+     "classification": "FAITHFUL",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_form"
+     }
+    }
+   ],
+   "near_form_census": [
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "kte",
+     "kind": "containment",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_mi2a.jsonl": "partial_or_containment"
+     }
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "xolkete",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    }
+   ],
+   "sub_threshold_fragments": [
+    {
+     "rem": "REM 0013",
+     "stratum": "royal_temple",
+     "token": "x",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0013",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0014",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0052",
+     "stratum": "royal_temple",
+     "token": "o",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0281",
+     "stratum": "funerary",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "t",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "l",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0545",
+     "stratum": "funerary",
+     "token": "t",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0545",
+     "stratum": "funerary",
+     "token": "te",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "F.O. 39",
+     "stratum": "document",
+     "token": "xo",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Meroe 40",
+     "stratum": "funerary",
+     "token": "e",
+     "kind": "containment_fragment_lt3"
+    }
+   ],
+   "corrected": {
+    "texts_with_form": 1,
+    "share": 1.0,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": true
+    }
+   },
+   "boundary_crossed": false,
+   "outcome": "CLAIM STANDS"
+  },
+  "wisi": {
+   "frozen": {
+    "texts_with_form": 0,
+    "funerary_texts_with_form": 0,
+    "share": 0.0,
+    "result": false,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": false
+    }
+   },
+   "counted_loci": [],
+   "near_form_census": [
+    {
+     "rem": "REM 0135",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_mi2b.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0226",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0232",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0240",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0250",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0256",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0281",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_karanog.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0527",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_faras.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "REM 0529",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "FAITHFUL (source carries the distinct near form)",
+     "witness_verdicts": {
+      "expansion:griffith_faras.jsonl": "attests_variant"
+     }
+    },
+    {
+     "rem": "Sh. 16",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "WITNESS UNAVAILABLE",
+     "witness_verdicts": {}
+    },
+    {
+     "rem": "Sh. 9",
+     "stratum": "funerary",
+     "token": "wosi",
+     "kind": "edit_distance_1",
+     "classification": "WITNESS UNAVAILABLE",
+     "witness_verdicts": {}
+    }
+   ],
+   "sub_threshold_fragments": [
+    {
+     "rem": "REM 0003",
+     "stratum": "royal_temple",
+     "token": "wi",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0091c",
+     "stratum": "graffito",
+     "token": "si",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0092",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0221",
+     "stratum": "funerary",
+     "token": "wi",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0312",
+     "stratum": "royal_temple",
+     "token": "wi",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0407",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "REM 0408",
+     "stratum": "royal_temple",
+     "token": "i",
+     "kind": "containment_fragment_lt3"
+    },
+    {
+     "rem": "Sh. 16",
+     "stratum": "funerary",
+     "token": "s",
+     "kind": "containment_fragment_lt3"
+    }
+   ],
+   "corrected": {
+    "texts_with_form": 0,
+    "share": 0.0,
+    "legs": {
+     "texts_leg": false,
+     "share_leg": false
+    }
+   },
+   "boundary_crossed": false,
+   "outcome": "CLAIM STANDS"
+  }
+ }
+}
