@@ -276,6 +276,21 @@ M-P9 — all await the owner's approval of the actual text);
 the OD-D-1 target choice; the OD-D-2 commission; any
 calibration extension; any study execution.
 
+## 6. Addendum — OD-D-1 decided (2026-11-23)
+
+The owner decided OD-D-1 on 2026-11-23 (~17:05 ET):
+Spec 101 keeps its registered upper-tail rule, and its
+target is declared to be enrichment above the
+development-frequency reference model, with NOT
+SUPPORTED expressly not a recurrence finding. No
+prospective amendment or successor registration is
+directed. The decision and its consequence are recorded
+in full in the Spec 101 target-to-decision note
+(`specs/101-eteocypriot-next-claim/records/round-d-target-decision-note-2026-11-23.md`,
+§Decision). Ledger row D-E-1 stands done on this
+decision. Spec 101 remains unexecuted; OD-D-2 is
+unaffected and still open.
+
 **AI disclosure:** this adjudication was compiled by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI. It compiles and answers
