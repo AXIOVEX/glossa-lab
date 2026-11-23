@@ -70,12 +70,38 @@ acceptable). It awaits the owner's approval of the exact
 text. Nothing is sent under this commission until that
 approval is given.
 
+## The send (2026-11-23)
+
+The owner approved the draft's exact text and the send in
+the Glossa-Lab chat on 2026-11-23 ~08:42 ET, naming the
+action and the destination. The letter was sent the same
+morning, exactly once: from tristen.pierson@gmail.com to
+pms45@cam.ac.uk, subject "A second-reader check on a
+short Eteocypriot intake (15 signs)", at 2026-11-23
+08:45:41 ET (America/Detroit). Gmail sent message id
+1a208a7c1359beeb (thread id the same). The packet was
+attached as PACKET-androkles-a-second-reader-check.pdf, a
+4-page PDF rendered from the packet markdown, its text
+verified against the packet before sending. After the
+send, the Sent record was read back and the body verified
+verbatim against the approved draft, with the recipient,
+subject, and attachment confirmed. The draft file's
+status header now reads SENT with the send facts.
+
+Standing note: a reply from Professor Steele is watched
+for under the program's correspondence watch, and her
+silence, if she does not reply, is recorded as silence,
+never as assent, exactly as the letter states.
+
 ## State after this record
 
 OD-C-3 stands DECIDED and COMMISSIONED. The ledger row
 C-E-19 moves from open to accepted, its remaining act
 being the owner's approval of the draft's exact text,
-then the send, then the reply. The ICS 196 half of unit
+then the send, then the reply. (Addendum 2026-11-23:
+the approval was given and the letter sent the same day;
+see "The send" above. The remaining act is the reply.)
+The ICS 196 half of unit
 C-E-19 is unchanged: already in motion through the
 interlibrary route and not part of this commission. No
 verdict, claim, standing, or corpus state is changed by
