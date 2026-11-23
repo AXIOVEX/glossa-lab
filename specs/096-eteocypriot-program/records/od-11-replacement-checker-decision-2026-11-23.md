@@ -118,3 +118,20 @@ owner's approval of the exact text, on the pattern of
 the de Voogt invitation. The check itself stands
 unperformed. Ledger row B-E-9 stands accepted on this
 decision, pending the pick.
+
+## The pick (2026-11-23)
+
+The owner picked **Markus Egetmeyer** (candidate 1) on
+2026-11-23 ~09:14 ET in the Glossa-Lab chat. The
+invitation letter has been drafted fresh for him, on
+the de Voogt pattern and in the owner's voice, and is
+filed at goal record
+`hidden_files/od11-egetmeyer-letter-2026-11-23/DRAFT-to-egetmeyer.md`.
+It stands DRAFT, not sent, awaiting the owner's
+approval of the exact text. On his agreement, the
+complete Spec 096 record set (the study specification
+and freeze, the run and adjudication records, the
+reproduction report, and the later intake and controls
+records, together with the preprint in its current
+version) is what gets sent. The check itself stands
+unperformed; no other candidate has been contacted.
