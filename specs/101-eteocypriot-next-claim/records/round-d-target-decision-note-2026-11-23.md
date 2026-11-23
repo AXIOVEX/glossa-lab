@@ -49,6 +49,26 @@ these floors.
    selection transparency), which stands as accepted on
    its own terms.
 
+## Decision — OD-D-1 (2026-11-23)
+
+Decided by the owner on 2026-11-23 (~17:05 ET): option
+(a). Spec 101 keeps its registered upper-tail rule,
+unchanged, and its target is **declared to be enrichment
+above the development-frequency reference model**, with
+NOT SUPPORTED expressly **not** a recurrence finding. No
+prospective amendment and no successor registration is
+directed.
+
+Consequence: when Spec 101 is executed, it reports
+against the enrichment target. The §1 question's
+recurrence framing is answered only in that declared
+sense — the study speaks to occurrence above the
+development frequency, and no recurrence claim, positive
+or negative, is among what its verdicts establish. This
+decision satisfies the precondition in point 3 above;
+it does not itself commission execution, and Spec 101
+remains unexecuted.
+
 **AI disclosure:** compiled by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.

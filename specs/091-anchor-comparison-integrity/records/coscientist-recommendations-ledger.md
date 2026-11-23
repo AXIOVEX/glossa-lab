@@ -219,7 +219,7 @@ actual text; nothing is deposited on this round alone.
 
 ### Round D — sweep (2026-11-23)
 
-| D-E-1 | Resolve recurrence versus enrichment as Spec 101's target before execution (the registered floor rule tests occurrence above the development frequency, not recurrence at it) | accepted | APPLY WITH MODIFICATION; the distinction verified by independent recomputation at adjudication (floors 14 / 18, tails 0.008559 / 0.012130 at M = 40, K = 4); target-to-decision note filed at `specs/101-eteocypriot-next-claim/records/round-d-target-decision-note-2026-11-23.md`; the registered rule is unchanged and the target choice is OWNER DECISION OD-D-1; Spec 101 not executed before it |
+| D-E-1 | Resolve recurrence versus enrichment as Spec 101's target before execution (the registered floor rule tests occurrence above the development frequency, not recurrence at it) | done | APPLY WITH MODIFICATION; the distinction verified by independent recomputation at adjudication (floors 14 / 18, tails 0.008559 / 0.012130 at M = 40, K = 4); target-to-decision note filed at `specs/101-eteocypriot-next-claim/records/round-d-target-decision-note-2026-11-23.md`; the registered rule is unchanged and the target choice is OWNER DECISION OD-D-1; Spec 101 not executed before it; OWNER DECISION OD-D-1 DECIDED by the owner 2026-11-23 (~17:05 ET): the registered upper-tail rule is kept unchanged and the target is DECLARED to be enrichment above the development-frequency reference model, with NOT SUPPORTED expressly not a recurrence finding; no prospective amendment or successor registration directed; decision recorded at §Decision of the target-to-decision note and §6 addendum of `records/coscientist-sweep-adjudication-2026-11-23.md`; Spec 101 remains unexecuted |
 | D-E-2 | Record Perna's explicit ICS 196 reading proposal (patronymic segment ko -> we, final sign questioned, Perna §§29-30) and separate edition fidelity from reading adjudication | accepted | APPLY WITH MODIFICATION; source-conflict note filed at `specs/096-eteocypriot-program/records/perna-ics196-source-conflict-note-2026-11-23.md`; frozen corpus bytes and ground truth unchanged; the proposed paper sentence is a paper-text item awaiting the owner's approval of the actual text |
 
 ## Meroitic rows
@@ -313,15 +313,18 @@ actual text; nothing is deposited on this round alone.
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round C | 20 | 3 | 10 | 0 | 0 | 7 |
 | Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
-| Eteocypriot, Round D | 2 | 0 | 2 | 0 | 0 | 0 |
+| Eteocypriot, Round D | 2 | 1 | 1 | 0 | 0 | 0 |
 | Meroitic, Round D | 3 | 0 | 2 | 0 | 1 | 0 |
-| **Total** | **119** | **62** | **35** | **0** | **1** | **21** |
+| **Total** | **119** | **63** | **34** | **0** | **1** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
-DECISION): the 4 APPLY-family units stand accepted (each
-awaits a named act: OD-D-1's target choice, the paper-text
-approvals, or the remedy choice recorded in its row); the
+DECISION): of the 4 APPLY-family units, D-E-1 stands done
+(OD-D-1 decided by the owner 2026-11-23: registered rule
+kept, target declared enrichment; recorded at §Decision
+of the Spec 101 target-to-decision note) and the other 3
+stand accepted (each awaits a named act: the paper-text
+approvals or the remedy choice recorded in its row); the
 1 OWNER DECISION unit (D-M-3, OD-D-2) stands open. The
 Indus session advanced no recommendation and adds no row.
 
