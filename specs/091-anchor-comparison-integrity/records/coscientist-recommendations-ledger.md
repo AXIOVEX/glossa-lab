@@ -177,7 +177,7 @@ actual text; nothing is deposited on this round alone.
 | ID | Recommendation (one line) | Status | Evidence / reason |
 |---|---|---|---|
 | C-E-1 | §6's "falsifier is met" sentence: add the failure-to-validate vs falsification-of-the-registered-procedure distinction (NOT SUPPORTED stands) | accepted | APPLY WITH MODIFICATION; sustained against v2 §5.1/§5.2 (the verdict already rests on A2 and the floors); paper package item E-P1 |
-| C-E-2 | Amend the OD-12 canonical wording: state the executable leg's missed criterion and the A2 deviation, not only the unavailable corpus (OD-C-1) | open | OWNER DECISION OD-C-1, presented in the adjudication's §5; the omission is verified on the wording's face (quoted in v2's Scope section) |
+| C-E-2 | Amend the OD-12 canonical wording: state the executable leg's missed criterion and the A2 deviation, not only the unavailable corpus (OD-C-1) | done | OWNER DECISION OD-C-1, decided by the owner 2026-11-23 (AMEND): the amended canonical wording is adopted in the §12 addendum (2026-11-23) to the refresh adjudication record, with the OD-12 wording preserved there as superseded; effective on the v3 release surfaces |
 | C-E-3 | The process verdict is a retrospective narrowing; owner adjudication authorises but does not independently validate | rejected | DO NOT APPLY: no change; v2 already cites C096-4 only in narrowed, self-assessed form |
 | C-E-4 | Repair §5.2's temporal inconsistency: "At the original run, no chance or control battery existed", cross-referencing §4.2 | accepted | APPLY; sustained on the v2 text (§5.2 present tense against §4.2's 2026-11-22 battery); paper package item E-P2 |
 | C-E-5 | Carry the preregistration qualification (repository-filed, no external timestamp, execution departed) on summary surfaces | accepted | APPLY WITH MODIFICATION; the qualification stands at §2 but not in the abstract or title; paper package item E-P3 |
@@ -280,9 +280,9 @@ actual text; nothing is deposited on this round alone.
 | Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round C | 20 | 1 | 9 | 0 | 3 | 7 |
+| Eteocypriot, Round C | 20 | 2 | 9 | 0 | 2 | 7 |
 | Meroitic, Round C | 26 | 1 | 12 | 0 | 2 | 11 |
-| **Total** | **114** | **59** | **28** | **0** | **6** | **21** |
+| **Total** | **114** | **60** | **28** | **0** | **5** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
@@ -308,8 +308,11 @@ C-E-9 and C-M-15) and 21 accepted (paper-text items
 awaiting the owner's approval of the actual text, record
 supplements, freeze-stage adequacy items, and future work,
 each named in its row); the 18 DO NOT APPLY units are the
-18 rejected rows; the 5 OWNER DECISION units (OD-C-1 to
-OD-C-5) stand open with the 1 Round B open row, for 6 open
+18 rejected rows; of the 5 OWNER DECISION units (OD-C-1
+to OD-C-5), OD-C-1 was decided by the owner on 2026-11-23
+and stands done (the amendment adopted; §12 addendum to
+the refresh adjudication record), and OD-C-2 to OD-C-5
+stand open with the 1 Round B open row, for 5 open
 in total. Round C's first pass, which produced no
 recommendations because the briefs had not entered the
 sessions, is recorded at PR #712 and is superseded as the
