@@ -194,7 +194,7 @@ actual text; nothing is deposited on this round alone.
 | C-E-16 | Rank 2: specify correct-versus-confusable-name discrimination for any future E1-form test; controls must reproduce the full selection process and preserve name dependencies; register before any confirmatory result | accepted | APPLY; filed in the adjudication as an amendment to v2 §5.2's binding conditions on any future re-run |
 | C-E-17 | Rank 3 (adjudication half): adjudicate finding F-2 — whether C096-4's narrowed scope sentence is amended to state the executed-bytes condition (OD-C-2) | open | OWNER DECISION OD-C-2; v2 §5.4 itself reserves the question to the approver |
 | C-E-18 | Rank 4: make Spec 101 uncertainty-aware and selection-transparent before execution (candidate list, variants, positional rules, denominators, damaged/restored treatment; exposure recorded; postdictive label retained) | accepted | APPLY WITH MODIFICATION; candidate set, positions, floors, tables, and the exposure statement are already registered (P-2, P-3, C101-2); the surviving gap — damaged/restored treatment at counting — is to be fixed in Spec 101's freeze addendum before execution |
-| C-E-19 | Rank 5: an independent epigraphic check of the consequential inputs (ICS 196 against the pending edition material; a different reader for the Androkles A intake) (OD-C-3) | open | OWNER DECISION OD-C-3, confined to the Androkles second reader; the ICS 196 half is already in motion through the interlibrary route (`ics196-ill-request-2026-11-22.md`) and is not new |
+| C-E-19 | Rank 5: an independent epigraphic check of the consequential inputs (ICS 196 against the pending edition material; a different reader for the Androkles A intake) (OD-C-3) | accepted | OWNER DECISION OD-C-3 DECIDED and COMMISSIONED by the owner 2026-11-23: the Androkles second reader is Professor Philippa Steele (Cambridge, Faculty of Classics; public contact verified from her faculty profile); packet assembled and letter drafted, both filed at the goal hidden_files/od-c3-second-reader-2026-11-23/, the letter awaiting the owner approval of its exact text before any send (`specs/096-eteocypriot-program/records/od-c3-second-reader-commission-2026-11-23.md`); the ICS 196 half is already in motion through the interlibrary route (`ics196-ill-request-2026-11-22.md`) and is not new |
 | C-E-20 | Overall verdict and proposed replacement public summary (moderate weight as a corrected account; low as method validation; none as decipherment) | rejected | DO NOT APPLY: no separate act; its actionable content is C-E-2 / OD-C-1; the canonical wording remains OD-12's until the owner amends it |
 
 ## Meroitic rows
@@ -280,9 +280,9 @@ actual text; nothing is deposited on this round alone.
 | Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round C | 20 | 1 | 9 | 0 | 3 | 7 |
+| Eteocypriot, Round C | 20 | 1 | 10 | 0 | 2 | 7 |
 | Meroitic, Round C | 26 | 1 | 12 | 0 | 2 | 11 |
-| **Total** | **114** | **59** | **28** | **0** | **6** | **21** |
+| **Total** | **114** | **59** | **29** | **0** | **5** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
@@ -309,8 +309,10 @@ awaiting the owner's approval of the actual text, record
 supplements, freeze-stage adequacy items, and future work,
 each named in its row); the 18 DO NOT APPLY units are the
 18 rejected rows; the 5 OWNER DECISION units (OD-C-1 to
-OD-C-5) stand open with the 1 Round B open row, for 6 open
-in total. Round C's first pass, which produced no
+OD-C-5) stood open with the 1 Round B open row, for 6 open
+in total at this record landing; OD-C-3 was then decided
+and commissioned by the owner on 2026-11-23 (row C-E-19,
+accepted), bringing the totals to 5 open and 29 accepted. Round C's first pass, which produced no
 recommendations because the briefs had not entered the
 sessions, is recorded at PR #712 and is superseded as the
 round's outcome by the delivered-assessment adjudication,
