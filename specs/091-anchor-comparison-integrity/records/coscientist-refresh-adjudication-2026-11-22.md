@@ -1536,3 +1536,58 @@ v3 release; none is edited by this addendum.
 **AI disclosure:** this addendum was executed by
 an AI agent (Muse, via Muse) at the direction
 of Tristen Pierson, per constitution sec. VI.
+
+## 14. Addendum 2026-11-23 — OD-C-1 decided: the OD-12 canonical wording is amended
+
+The Round C adjudication
+(`coscientist-release-round-c-assessment-adjudication-2026-11-23.md`,
+§5, unit C-E-2) presented OD-C-1 to the owner: amend the
+OD-12 canonical Eteocypriot wording to state, in addition
+to the unavailable-corpus ground, that the executable leg
+recovered one of two correspondences against its
+two-correspondence criterion and was executed under a
+deviation from the registered A2. The owner decided
+OD-C-1 in the Glossa-Lab chat on 2026-11-23 (~08:26 ET):
+**AMEND**.
+Numbering note: this addendum was drafted as §12
+and renumbered to §14 on landing, because §12 of
+this record is the Round 6 corrections addendum
+and §13 (OD-C-5) landed first from a parallel
+dispatch. Its content is unchanged.
+
+The amendment route was chosen over the
+alternative (the assessment's full replacement summary at
+C-E-20, quoted in the Round C adjudication's source
+capture and not adopted).
+
+**The OD-12 wording as adopted in §10 (preserved here;
+superseded by the amendment below):**
+
+> In a pilot using a secondary-source transcription of ICS 196, our unanchored alignment procedure recovered one of two prespecified personal-name correspondences. The broader registered validation claim was not established: a required additional corpus was unavailable, and held-out generalisation was not tested. The work does not decipher Eteocypriot.
+
+**The amended canonical Eteocypriot wording (adopted
+2026-11-23):**
+
+> In a pilot using a secondary-source transcription of ICS 196, our unanchored alignment procedure recovered one of two prespecified personal-name correspondences. The broader registered validation claim was not established: a required additional corpus was unavailable, the executable leg recovered one of two correspondences against its two-correspondence criterion and was executed under a deviation from the registered A2, and held-out generalisation was not tested. The work does not decipher Eteocypriot.
+
+Construction note: the Round C adjudication's §5
+specified this amendment in substance, not as a verbatim
+full text. The amended wording above applies §5's
+specification to the OD-12 text with no other change:
+every clause of the adopted wording is preserved, and
+the single added clause states exactly the two facts §5
+names (the missed two-correspondence criterion and the
+deviation from the registered A2).
+
+Effect: the amended wording is the program's canonical
+Eteocypriot wording from 2026-11-23 and takes effect on
+the v3 release surfaces. This addendum changes no public
+surface by itself. The deposited v2 paper quotes the
+superseded wording in its Scope section and stands as
+deposited; the superseded wording is preserved above so
+the change is auditable. No standing, verdict, or tally
+changes.
+
+**AI disclosure:** this addendum was executed by an AI
+agent (Muse, via Muse) at the direction of Tristen
+Pierson, per constitution sec. VI.
