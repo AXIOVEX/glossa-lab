@@ -81,6 +81,26 @@ is left open and says so.
   Indus's release-round equivalent is Round B's Indus
   session, already captured and adjudicated above.
 
+- **Round D — Sweep, 2026-11-23.** Three new Academia
+  Co-scientist sessions, one per program, fired 2026-11-23
+  through the tower-compute desktop browser route (Indus
+  `192b25f3-cb7b-46b4-acfa-1c1eea4e41fb`, Eteocypriot
+  `1828e4db-cc7b-434a-891a-12aca9ad1b8a`, Meroitic
+  `11cac4f7-f109-4fac-bbb5-c670eb33b291`), each briefed
+  with the checked-off ledger state. Outputs captured the
+  same day at the goal's
+  `hidden_files/coscientist-sweep-2026-11-23/` (per-program
+  `OUTPUT.md` / `SESSION-RAW.json` / `CAPTURE-NOTE.md`,
+  hashes in the adjudication record). Adjudication:
+  `records/coscientist-sweep-adjudication-2026-11-23.md`:
+  5 units — Eteocypriot D-E-1 to D-E-2, Meroitic D-M-1 to
+  D-M-3; dispositions 1 APPLY / 3 APPLY WITH MODIFICATION /
+  1 OWNER DECISION (OD-D-1, OD-D-2). The Indus session
+  advanced no recommendation (its null result is accepted
+  as the round's Indus outcome; no row is added, as the
+  ledger logs recommendations). Rows D-E-* and D-M-*
+  below carry the adjudication's unit numbers.
+
 ## Indus rows
 
 ### Round A — audit of the 94 (2026-11-21)
@@ -197,6 +217,11 @@ actual text; nothing is deposited on this round alone.
 | C-E-19 | Rank 5: an independent epigraphic check of the consequential inputs (ICS 196 against the pending edition material; a different reader for the Androkles A intake) (OD-C-3) | accepted | OWNER DECISION OD-C-3 DECIDED and COMMISSIONED by the owner 2026-11-23: the Androkles second reader is Professor Philippa Steele (Cambridge, Faculty of Classics; public contact verified from her faculty profile); packet assembled and letter drafted, both filed at the goal hidden_files/od-c3-second-reader-2026-11-23/, the letter awaiting the owner approval of its exact text before any send (`specs/096-eteocypriot-program/records/od-c3-second-reader-commission-2026-11-23.md`); the ICS 196 half is already in motion through the interlibrary route (`ics196-ill-request-2026-11-22.md`) and is not new |
 | C-E-20 | Overall verdict and proposed replacement public summary (moderate weight as a corrected account; low as method validation; none as decipherment) | rejected | DO NOT APPLY: no separate act; its actionable content is C-E-2 / OD-C-1; the canonical wording remains OD-12's until the owner amends it |
 
+### Round D — sweep (2026-11-23)
+
+| D-E-1 | Resolve recurrence versus enrichment as Spec 101's target before execution (the registered floor rule tests occurrence above the development frequency, not recurrence at it) | accepted | APPLY WITH MODIFICATION; the distinction verified by independent recomputation at adjudication (floors 14 / 18, tails 0.008559 / 0.012130 at M = 40, K = 4); target-to-decision note filed at `specs/101-eteocypriot-next-claim/records/round-d-target-decision-note-2026-11-23.md`; the registered rule is unchanged and the target choice is OWNER DECISION OD-D-1; Spec 101 not executed before it |
+| D-E-2 | Record Perna's explicit ICS 196 reading proposal (patronymic segment ko -> we, final sign questioned, Perna §§29-30) and separate edition fidelity from reading adjudication | accepted | APPLY WITH MODIFICATION; source-conflict note filed at `specs/096-eteocypriot-program/records/perna-ics196-source-conflict-note-2026-11-23.md`; frozen corpus bytes and ground truth unchanged; the proposed paper sentence is a paper-text item awaiting the owner's approval of the actual text |
+
 ## Meroitic rows
 
 ### Round B — refresh (2026-11-22), units M-1 to M-19
@@ -272,6 +297,12 @@ actual text; nothing is deposited on this round alone.
 | C-M-25 | Rank 5: execute Spec 102 only after its gates pass; prerequisites are not reasons to relax the freeze | rejected | DO NOT APPLY: no change; already Spec 102's registered discipline (G-1/G-2, NOT ADMINISTERED closure, the no-lowering rule); confirms B-M-18 |
 | C-M-26 | Overall verdict and proposed replacement public summary (moderate claim-specific weight on the benchmark; little on the campaign as affiliation evidence; none as a new reading) (OD-C-5) | done | OWNER DECISION OD-C-5 DECIDED 2026-11-23: the proposed summary ADOPTED IN WHOLE as the canonical Meroitic public wording; OD-22 superseded, its text preserved at the refresh adjudication record §12 (RT6-M2); adoption recorded at §13 of `records/coscientist-refresh-adjudication-2026-11-22.md`; effective on release conditions, as OD-22 was |
 
+### Round D — sweep (2026-11-23)
+
+| D-M-1 | Resolve the binomial/permutation-law mismatch before treating the power audit's MDEs and exclusion bounds as calibrated properties of the frozen test (partial reopening of B-M-9, justification sentence only) | accepted | APPLY WITH MODIFICATION; the mismatch recomputed independently at adjudication from the deposited audit JSON and reproduced exactly (binomial/histogram tail ratios 2.50 / 2.96); annotation appended to `specs/097-meroitic-reproduction-benchmark/records/power-simulation-audit-2026-11-22.md` withdrawing the "permutation null confirms" claim; frozen p-values, verdict, and tally unaffected; paper sentence filed as item M-P8, awaiting the owner's approval of the actual text; a calibration extension is not commissioned |
+| D-M-2 | Correct §1's "validated material" assurance (benchmark reproduction does not validate the campaign corpus or its transcription fidelity) | accepted | APPLY; sustained on the v2 §1 text; filed as paper item M-P9 with the assessment's replacement passage as its specified text, awaiting the owner's approval of the actual text |
+| D-M-3 | Check decision-bearing transcription and tokenization against source witnesses at the sparse Stage 4.4 candidate boundaries | open | OWNER DECISION OD-D-2: a new registered diagnostic; commissioning is the owner's; no work started |
+
 ## Counts
 
 | Section | Rows | done | accepted | adjudicating | open | rejected |
@@ -282,7 +313,17 @@ actual text; nothing is deposited on this round alone.
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round C | 20 | 3 | 10 | 0 | 0 | 7 |
 | Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
-| **Total** | **114** | **62** | **31** | **0** | **0** | **21** |
+| Eteocypriot, Round D | 2 | 0 | 2 | 0 | 0 | 0 |
+| Meroitic, Round D | 3 | 0 | 2 | 0 | 1 | 0 |
+| **Total** | **119** | **62** | **35** | **0** | **1** | **21** |
+
+Round D cross-check against the sweep adjudication record
+(5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
+DECISION): the 4 APPLY-family units stand accepted (each
+awaits a named act: OD-D-1's target choice, the paper-text
+approvals, or the remedy choice recorded in its row); the
+1 OWNER DECISION unit (D-M-3, OD-D-2) stands open. The
+Indus session advanced no recommendation and adds no row.
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /

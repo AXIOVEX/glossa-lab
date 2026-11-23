@@ -259,3 +259,28 @@ each is the smallest hundredth greater than or equal
 to the analytic value, not a round-to-nearest value,
 so their last digits are not rounding errors. No
 number or conclusion changes.
+
+
+## Round D annotation (2026-11-23) — the calibration justification sentence is withdrawn
+
+Appended under the Round D adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-23.md`,
+unit D-M-1, APPLY WITH MODIFICATION; ledger row B-M-9
+reopened narrowly, this sentence only). Section 3 of this
+audit describes S as binomial(12, q) "to the accuracy the
+permutation null confirms." That justification does not
+hold at the decision tail, on this audit's own deposited
+histograms (`power-simulation-audit-2026-11-22.json`,
+100,000-draw nulls), recomputed independently twice (the
+Round D assessment and the adjudication): the histograms
+are underdispersed relative to the same-mean binomial
+(R1 variance 1.03803 vs 1.31674; R2 0.94663 vs 1.23466),
+and binomial P(S >= 5) is 0.011466 / 0.008360 against
+histogram fractions 0.00458 / 0.00282 (ratios 2.50 /
+2.96). The MDEs and consistency bounds in this record
+stand as calculations under the homogeneous-binomial
+model; the claim that the permutation null confirms that
+model's law is withdrawn. The frozen permutation
+p-values and the Stage 4.2 verdict do not pass through
+the binomial law and are unaffected. No number in this
+record is altered by this note.
