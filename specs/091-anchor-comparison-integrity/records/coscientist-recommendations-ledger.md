@@ -267,7 +267,7 @@ actual text; nothing is deposited on this round alone.
 | C-M-20 | Adopt the five-step protocol for a Rilly challenge to an anchor (classify the challenge; suspend dependent claims; trace dependencies; recompute under a documented amendment preserving originals; report effects on target/control outcomes) | accepted | APPLY; new record — the OD-18 preparation covers the channel and question set but no challenge response; the protocol is specified in full in the adjudication and is to be filed as a supplement to the OD-18 preparation record |
 | C-M-21 | Rank 1: establish the corpus's effective evidential units — reconcile the 652 / 396 / 368 counts, then examine cross-split dependencies by inscription identity, near-duplicate text, and formula family | accepted | APPLY WITH MODIFICATION; the reconciliation is already an open item of the paper's own record; the dependency half extends OD-17 to the Stage 4.4 held-out basis |
 | C-M-22 | Rank 2: calibrate semantic discrimination on licensed material (masked known-meaning recovery against plausible rivals, beyond genre/formula baselines, prior exposure accounted) | accepted | APPLY; sustained as a design direction (Leg B's fixture cannot be interpreted as calibration; soreyi shows retrievability, not discrimination); no study commissioned |
-| C-M-23 | Rank 3: obtain an external replay of the published benchmark claims from an immutable package, by an independent reproducer with its own lawful access (OD-C-4) | open | OWNER DECISION OD-C-4; the OD-19 packet route exists, but engaging an external reproducer is the owner's act (the OD-11 pattern) |
+| C-M-23 | Rank 3: obtain an external replay of the published benchmark claims from an immutable package, by an independent reproducer with its own lawful access (OD-C-4) | accepted | OWNER DECISION OD-C-4: DECIDED AND COMMISSIONED by the owner 2026-11-23; replay hand-off prepared (goal `hidden_files/od-c4-replay-handoff-2026-11-23/`; repo record `specs/097-meroitic-reproduction-benchmark/records/od-c4-external-replay-commission-2026-11-23.md`); custody scoping: the program transfers no Otten material, the replayer assembles the package from public sources at verified pins; candidates proposed (CODECHECK; de Voogt; ReScience C), awaiting the owner's word on whom; nothing sent |
 | C-M-24 | Rank 4: targeted reporting and refusal-execution amendments (narrow the Q1–Q5 claims; specify the released paper's treatment on refusal) | rejected | DO NOT APPLY: no separate act; the aggregate of C-M-3, C-M-5, C-M-6, C-M-7, C-M-9, C-M-18, C-M-19, executed through them |
 | C-M-25 | Rank 5: execute Spec 102 only after its gates pass; prerequisites are not reasons to relax the freeze | rejected | DO NOT APPLY: no change; already Spec 102's registered discipline (G-1/G-2, NOT ADMINISTERED closure, the no-lowering rule); confirms B-M-18 |
 | C-M-26 | Overall verdict and proposed replacement public summary (moderate claim-specific weight on the benchmark; little on the campaign as affiliation evidence; none as a new reading) (OD-C-5) | open | OWNER DECISION OD-C-5: whether the proposed summary supersedes the OD-22 canonical wording in whole or part, or OD-22 is retained; the material differences are stated in the adjudication |
@@ -281,8 +281,8 @@ actual text; nothing is deposited on this round alone.
 | Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round C | 20 | 1 | 10 | 0 | 2 | 7 |
-| Meroitic, Round C | 26 | 1 | 12 | 0 | 2 | 11 |
-| **Total** | **114** | **59** | **29** | **0** | **5** | **21** |
+| Meroitic, Round C | 26 | 1 | 13 | 0 | 1 | 11 |
+| **Total** | **114** | **59** | **30** | **0** | **4** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
