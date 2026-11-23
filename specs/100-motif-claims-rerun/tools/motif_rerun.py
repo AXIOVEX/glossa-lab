@@ -46,8 +46,11 @@ Modes:
   actual deposit file; (d) that record file carries a line
   beginning `Permission basis:` that states a granting
   Miller reply as its basis: the line must contain a
-  granting term and no refusal term (see
-  `gate_record_check`). Any other CSV, any other path, or
+  granting term, no refusal term, and no negation
+  (RT7-L1, 2026-11-23: a negated line such as "Miller
+  grants nothing in this reply" is refused even though
+  it contains a granting term; see `gate_record_check`).
+  Any other CSV, any other path, or
   any bare citation string does not open the gate. This is
   claim C100-1's mechanism, not a courtesy.
 - `proof`: synthetic labels only, generated deterministically
@@ -114,7 +117,9 @@ REGISTERED_DEPOSIT_REL = Path(
 # section 5, deposit-landing step, as amended 2026-11-22):
 # the line must contain a granting term and must contain
 # no refusal term. A line recording refusal or silence
-# therefore never satisfies the gate.
+# therefore never satisfies the gate. Amended 2026-11-23
+# (RT7-L1): the line must also bear no negation (see
+# NEGATION_RE below).
 GRANTING_TERMS = (
     "grants", "granted", "granting", "grant of permission",
     "confirms permission", "permission confirmed",
@@ -125,6 +130,17 @@ REFUSAL_TERMS = (
     "not granted", "does not grant", "no permission",
     "withheld", "without permission",
 )
+
+# RT7-L1 hardening (2026-11-23): check (d) is keyword
+# matching, and a negated sentence ("Miller grants
+# nothing in this reply.") contains a granting term and
+# no refusal term, so it opened the gate (Round 7,
+# case E, confirmed at the payload). A basis line
+# bearing any negation is therefore refused outright,
+# even when it also contains a granting term. The gate
+# fails closed: an unqualified grant line carries no
+# negation.
+NEGATION_RE = re.compile(r"\b(nothing|not|no|never|none|nobody)\b|n't\b")
 
 
 def gate_record_check(root: Path, deposit: Path | None,
@@ -172,6 +188,8 @@ def gate_record_check(root: Path, deposit: Path | None,
     basis = basis_lines[0].lower()
     if any(term in basis for term in REFUSAL_TERMS):
         return "'Permission basis:' line records refusal or silence, not a grant"
+    if NEGATION_RE.search(basis):
+        return "'Permission basis:' line bears a negation, not an unqualified grant"
     if not any(term in basis for term in GRANTING_TERMS):
         return "'Permission basis:' line states no granting Miller reply"
     return None

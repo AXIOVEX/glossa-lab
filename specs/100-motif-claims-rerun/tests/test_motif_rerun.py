@@ -1,4 +1,4 @@
-"""Spec 100 — test cases TC-100-01..TC-100-09.
+"""Spec 100 — test cases TC-100-01..TC-100-10.
 
 Implemented against the pipeline of record
 (`tools/motif_rerun.py`, `tools/deposit_extract.py`).
@@ -336,3 +336,27 @@ def test_tc100_09_miller_reply_trigger_states(tmp_path):
     rec.write_text(f"# fixture\nSHA-256: {digest}\n", encoding="utf-8")
     proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
     assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout
+
+
+def test_tc100_10_negated_grant_refused(tmp_path):
+    """RT7-L1: a negation-bearing basis line is refused even
+    when it contains a granting term (Round 7 case E:
+    "Miller grants nothing in this reply." opened the gate
+    before this hardening). The gate must refuse, exit 3,
+    GATE CLOSED, and write no outcome."""
+    out = tmp_path / "outcome.json"
+    # Round 7 case E, verbatim
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path / "neg1")
+    _write_record(rec, digest,
+                  "Permission basis: Miller grants nothing in this reply.")
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout
+    assert not out.exists()
+    # granted-to-no-one variant
+    root, dep, rec_rel, rec, digest = _simulated_tree(tmp_path / "neg2")
+    _write_record(rec, digest,
+                  "Permission basis: permission is granted to no one "
+                  "pending review.")
+    proc = _record_run(root, deposit=dep, record=rec_rel, out=out)
+    assert proc.returncode == 3 and "GATE CLOSED" in proc.stdout
+    assert not out.exists()

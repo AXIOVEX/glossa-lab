@@ -248,3 +248,14 @@ R1 0.43 / 0.57 / 0.85; R2 0.44 / 0.58 / 0.87 —
 equivalently the ranges 0.43–0.44 / 0.57–0.58 /
 0.85–0.87 across the two comparator sets. No
 conclusion changes.
+
+## Amendment 2026-11-23 — Round 7 note (RT7-L2): the MDE convention
+
+**Date of amendment: 2026-11-23. Authority: Red Team
+Round 7, finding RT7-L2.** The MDE values filed in
+this record and its companion JSON (R1 0.43 / 0.57 /
+0.85; R2 0.44 / 0.58 / 0.87) are grid-ceiling values:
+each is the smallest hundredth greater than or equal
+to the analytic value, not a round-to-nearest value,
+so their last digits are not rounding errors. No
+number or conclusion changes.
