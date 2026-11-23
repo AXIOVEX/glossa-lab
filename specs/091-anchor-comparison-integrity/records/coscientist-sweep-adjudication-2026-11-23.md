@@ -291,6 +291,23 @@ in full in the Spec 101 target-to-decision note
 decision. Spec 101 remains unexecuted; OD-D-2 is
 unaffected and still open.
 
+## 7. Addendum — OD-D-2 commissioned (2026-11-23)
+
+The owner commissioned OD-D-2 on 2026-11-23 (~17:14 ET):
+the source-witness check proposed in unit D-M-3 is
+registered as Spec 103
+(`specs/103-meroitic-source-witness-check/`) and is
+executed under the same act, in two landings
+(registration first, execution second). The registration
+carries the session's stated claim and its kill check,
+the fixed split membership, and the no-pooling rule for
+the xolkte-family variants (Spec 103 spec.md §2;
+claims C103-1..C103-4). The diagnostic interprets the
+provenance of the sparse Stage 4.4 failures; by its
+registration it moves no standing, verdict, or tally by
+itself. Ledger row D-M-3 stands accepted on this
+commission and moves to done when the execution lands.
+
 **AI disclosure:** this adjudication was compiled by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI. It compiles and answers

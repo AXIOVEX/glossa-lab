@@ -3,9 +3,9 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
-  "ledger_lines": 1072,
-  "ledger_date": "2026-11-22",
+  "ledger_sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
+  "ledger_lines": 1076,
+  "ledger_date": "2026-11-23",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
  },
@@ -6252,6 +6252,30 @@
   },
   {
    "id": "102-meroitic-fresh-affiliation-test/C102-2",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "103-meroitic-source-witness-check/C103-3",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "103-meroitic-source-witness-check/C103-1",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "103-meroitic-source-witness-check/C103-4",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "103-meroitic-source-witness-check/C103-2",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
@@ -25876,6 +25900,50 @@
    ]
   },
   {
+   "row": "103-meroitic-source-witness-check/C103-1",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-1",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "103-meroitic-source-witness-check/C103-2",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-2",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "103-meroitic-source-witness-check/C103-3",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-3",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "103-meroitic-source-witness-check/C103-4",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-4",
+    "spec.md"
+   ]
+  },
+  {
    "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "column": "055",
    "column_class": "studies",
@@ -26043,8 +26111,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1041,
-  "rows_with_cells": 1027,
+  "rows_total": 1045,
+  "rows_with_cells": 1031,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -26402,30 +26470,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1564,
+  "cells_total": 1568,
   "cells_by_relation": {
-   "supports": 1557,
+   "supports": 1561,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1557,
+   "documents": 1561,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1032,
-   "total": 1041,
+   "covered": 1036,
+   "total": 1045,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1018,
-     "total": 1018
+     "covered": 1022,
+     "total": 1022
     }
    }
   },

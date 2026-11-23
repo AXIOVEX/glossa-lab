@@ -296,14 +296,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-23",
+   "act": "Spec 103 adoption intake (branch spec-103-source-witness-check; record: specs/103-meroitic-source-witness-check/records/registration-2026-11-23.md). Spec 103 (the Meroitic source-witness check: a diagnostic comparing the frozen Stage 4.4 extraction's decision-bearing loci and tokenization rules against the acquired build's source witnesses) was registered under the owner's OD-D-2 act of 2026-11-23 (the Co-scientist Round D sweep adjudication's unit D-M-3: commission the source-witness check, registration and execution in one act); this entry registers its claims intake. The study's execution is commissioned by the same act and lands as its own record; no claim in it carries a result at this entry.",
+   "reason": "The claims ledger grew by one append-only intake: the 4 claims of Spec 103 (103-meroitic-source-witness-check/C103-1..4) were appended through tools/ledger/import_bundle.py on 2026-11-23. The canonicals' provenance pin names the ledger build they were derived over; the pin is refreshed to the grown build under the standing rule that a pin move is recorded as a re-derivation here, with the superseded settling generation's departure accounted in the run index. The semantics (glossa-settle-1) are unchanged; no rule in SETTLING-SEMANTICS.md moved, so no new semantics version is registered.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
+    "lines": 1072
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
+    "lines": 1076
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
-   "lines": 1072
+   "sha256_canonical": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
+   "lines": 1076
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
