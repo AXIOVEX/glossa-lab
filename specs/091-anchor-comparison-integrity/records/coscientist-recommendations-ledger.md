@@ -177,7 +177,7 @@ actual text; nothing is deposited on this round alone.
 | ID | Recommendation (one line) | Status | Evidence / reason |
 |---|---|---|---|
 | C-E-1 | §6's "falsifier is met" sentence: add the failure-to-validate vs falsification-of-the-registered-procedure distinction (NOT SUPPORTED stands) | accepted | APPLY WITH MODIFICATION; sustained against v2 §5.1/§5.2 (the verdict already rests on A2 and the floors); paper package item E-P1 |
-| C-E-2 | Amend the OD-12 canonical wording: state the executable leg's missed criterion and the A2 deviation, not only the unavailable corpus (OD-C-1) | done | OWNER DECISION OD-C-1, decided by the owner 2026-11-23 (AMEND): the amended canonical wording is adopted in the §12 addendum (2026-11-23) to the refresh adjudication record, with the OD-12 wording preserved there as superseded; effective on the v3 release surfaces |
+| C-E-2 | Amend the OD-12 canonical wording: state the executable leg's missed criterion and the A2 deviation, not only the unavailable corpus (OD-C-1) | done | OWNER DECISION OD-C-1, decided by the owner 2026-11-23 (AMEND): the amended canonical wording is adopted in the §14 addendum (2026-11-23) to the refresh adjudication record, with the OD-12 wording preserved there as superseded; effective on the v3 release surfaces |
 | C-E-3 | The process verdict is a retrospective narrowing; owner adjudication authorises but does not independently validate | rejected | DO NOT APPLY: no change; v2 already cites C096-4 only in narrowed, self-assessed form |
 | C-E-4 | Repair §5.2's temporal inconsistency: "At the original run, no chance or control battery existed", cross-referencing §4.2 | accepted | APPLY; sustained on the v2 text (§5.2 present tense against §4.2's 2026-11-22 battery); paper package item E-P2 |
 | C-E-5 | Carry the preregistration qualification (repository-filed, no external timestamp, execution departed) on summary surfaces | accepted | APPLY WITH MODIFICATION; the qualification stands at §2 but not in the abstract or title; paper package item E-P3 |
@@ -270,7 +270,7 @@ actual text; nothing is deposited on this round alone.
 | C-M-23 | Rank 3: obtain an external replay of the published benchmark claims from an immutable package, by an independent reproducer with its own lawful access (OD-C-4) | accepted | OWNER DECISION OD-C-4: DECIDED AND COMMISSIONED by the owner 2026-11-23; replay hand-off prepared (goal `hidden_files/od-c4-replay-handoff-2026-11-23/`; repo record `specs/097-meroitic-reproduction-benchmark/records/od-c4-external-replay-commission-2026-11-23.md`); custody scoping: the program transfers no Otten material, the replayer assembles the package from public sources at verified pins; candidates proposed (CODECHECK; de Voogt; ReScience C), awaiting the owner's word on whom; nothing sent |
 | C-M-24 | Rank 4: targeted reporting and refusal-execution amendments (narrow the Q1–Q5 claims; specify the released paper's treatment on refusal) | rejected | DO NOT APPLY: no separate act; the aggregate of C-M-3, C-M-5, C-M-6, C-M-7, C-M-9, C-M-18, C-M-19, executed through them |
 | C-M-25 | Rank 5: execute Spec 102 only after its gates pass; prerequisites are not reasons to relax the freeze | rejected | DO NOT APPLY: no change; already Spec 102's registered discipline (G-1/G-2, NOT ADMINISTERED closure, the no-lowering rule); confirms B-M-18 |
-| C-M-26 | Overall verdict and proposed replacement public summary (moderate claim-specific weight on the benchmark; little on the campaign as affiliation evidence; none as a new reading) (OD-C-5) | open | OWNER DECISION OD-C-5: whether the proposed summary supersedes the OD-22 canonical wording in whole or part, or OD-22 is retained; the material differences are stated in the adjudication |
+| C-M-26 | Overall verdict and proposed replacement public summary (moderate claim-specific weight on the benchmark; little on the campaign as affiliation evidence; none as a new reading) (OD-C-5) | done | OWNER DECISION OD-C-5 DECIDED 2026-11-23: the proposed summary ADOPTED IN WHOLE as the canonical Meroitic public wording; OD-22 superseded, its text preserved at the refresh adjudication record §12 (RT6-M2); adoption recorded at §13 of `records/coscientist-refresh-adjudication-2026-11-22.md`; effective on release conditions, as OD-22 was |
 
 ## Counts
 
@@ -281,8 +281,8 @@ actual text; nothing is deposited on this round alone.
 | Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round C | 20 | 2 | 10 | 0 | 1 | 7 |
-| Meroitic, Round C | 26 | 1 | 13 | 0 | 1 | 11 |
-| **Total** | **114** | **60** | **30** | **0** | **3** | **21** |
+| Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
+| **Total** | **114** | **61** | **30** | **0** | **2** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
@@ -312,14 +312,15 @@ each named in its row); the 18 DO NOT APPLY units are the
 OD-C-5) stood open with the 1 Round B open row, for 6 open
 in total at this record landing; OD-C-3 was then decided
 and commissioned by the owner on 2026-11-23 (row C-E-19,
-accepted), and OD-C-1 was decided by the owner on
-2026-11-23 (row C-E-2, done; the amendment adopted, §12
-addendum to the refresh adjudication record), bringing
-the totals to 4 open, 60 done and 29 accepted; OD-C-4
-was then decided and commissioned by the owner on
-2026-11-23 (row C-M-23, accepted), bringing the totals
-to 3 open, 60 done and 30 accepted. Round C's first
-pass, which produced no
+accepted), OD-C-4 was decided and commissioned the
+same day (row C-M-23, accepted), OD-C-5 was decided
+the same day (adopted in whole; row C-M-26, done; §13
+of the refresh adjudication record), and OD-C-1 was
+decided by the owner on 2026-11-23 (row C-E-2, done;
+the amendment adopted, §14 addendum to the refresh
+adjudication record), bringing the totals to 2 open,
+61 done and 30 accepted. Round C's first pass, which
+produced no
 recommendations because the briefs had not entered the
 sessions, is recorded at PR #712 and is superseded as the
 round's outcome by the delivered-assessment adjudication,

@@ -1470,7 +1470,74 @@ only and closes no part of the check.
 AI agent (Muse, via Muse) at the direction of
 Tristen Pierson, per constitution sec. VI.
 
-## 12. Addendum 2026-11-23 — OD-C-1 decided: the OD-12 canonical wording is amended
+---
+
+## 13. OD-C-5 — addendum, 2026-11-23
+
+This addendum is appended 2026-11-23. It is an
+append-only, dated record of an owner decision:
+§0 to §12 are preserved unchanged, and this
+addendum changes no standing, no class, no verdict
+and no tally. It supersedes one adopted public
+wording, as recorded below.
+
+### OD-C-5 — the Round C Meroitic summary adopted; OD-22 superseded
+
+§11 of this record adopted the Round B Meroitic
+assessment's proposed public wording as the
+program's canonical Meroitic wording (OD-22,
+quoted in full at §12, RT6-M2). The Round C
+adjudication
+(`records/coscientist-release-round-c-assessment-adjudication-2026-11-23.md`,
+unit C-M-26) presented the Round C assessment's
+proposed replacement summary to the owner as
+OD-C-5, the choice stated as adopt-in-whole,
+adopt-in-part, or retain OD-22.
+
+**Decision (owner, Glossa-Lab chat, 2026-11-23
+~08:30 ET): ADOPTED IN WHOLE.** The Round C
+summary is the program's canonical Meroitic
+public wording from this decision. It is quoted
+in full here, character for character from its
+source: the Round C Meroitic assessment, under
+its closing heading "An honest public summary
+would be:", as captured in the goal's
+`hidden_files/coscientist-release-2026-11-22/meroitic/OUTPUT-ROUND-C.md`
+(the assessment text as captured carries SHA-256
+`937559ccb3592cb948c99d1a6df0656861d064f281484235d09b60db3ee9a592`).
+The Round C adjudication record quotes only the
+summary's two material differences from OD-22,
+not the full text; the full text is therefore
+taken from the assessment itself, as stated here.
+
+> We report a partial reproduction of specified published Meroitic corpus statistics, including the published pipeline’s 662-text count, using material held without a licence under disclosed owner risk acceptance, with permission requested and unresolved. Other quantities were discrepant, unavailable, or insufficiently specified. A separate campaign did not meet its registered affiliation criteria. It recovered a known theonym variant without demonstrated semantic gain beyond genre/formula baselines; none of its candidates established a new reading. Fresh item-level expert confirmation remains outstanding. We do not claim to have deciphered Meroitic.
+
+The material differences from OD-22, as stated
+in the Round C adjudication: the summary states
+the custody position inside the summary ("using
+material held without a licence under disclosed
+owner risk acceptance, with permission requested
+and unresolved"), and it phrases the partial
+result as "recovered a known theonym variant
+without demonstrated semantic gain beyond
+genre/formula baselines".
+
+**OD-22's wording is superseded, not deleted.**
+Its full text stands preserved at §12 (RT6-M2)
+above and remains the wording of record for the
+period it governed. Like OD-22 before it, the
+adopted summary is effective only when the
+program's release conditions are satisfied; this
+addendum publishes nothing, and the internal-use
+ruling stands until then. Live public surfaces
+still carrying the OD-22 wording update with the
+v3 release; none is edited by this addendum.
+
+**AI disclosure:** this addendum was executed by
+an AI agent (Muse, via Muse) at the direction
+of Tristen Pierson, per constitution sec. VI.
+
+## 14. Addendum 2026-11-23 — OD-C-1 decided: the OD-12 canonical wording is amended
 
 The Round C adjudication
 (`coscientist-release-round-c-assessment-adjudication-2026-11-23.md`,
@@ -1481,7 +1548,14 @@ recovered one of two correspondences against its
 two-correspondence criterion and was executed under a
 deviation from the registered A2. The owner decided
 OD-C-1 in the Glossa-Lab chat on 2026-11-23 (~08:26 ET):
-**AMEND**. The amendment route was chosen over the
+**AMEND**.
+Numbering note: this addendum was drafted as §12
+and renumbered to §14 on landing, because §12 of
+this record is the Round 6 corrections addendum
+and §13 (OD-C-5) landed first from a parallel
+dispatch. Its content is unchanged.
+
+The amendment route was chosen over the
 alternative (the assessment's full replacement summary at
 C-E-20, quoted in the Round C adjudication's source
 capture and not adopted).
