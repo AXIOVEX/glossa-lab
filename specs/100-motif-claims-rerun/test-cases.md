@@ -1,6 +1,6 @@
 # Spec 100 — Test Cases
 
-All nine test cases are implemented in
+All ten test cases are implemented in
 `tests/test_motif_rerun.py` against the pipeline of record
 (`tools/motif_rerun.py`, `tools/deposit_extract.py`), run
 on synthetic fixtures only — no real iconography label is
@@ -186,5 +186,22 @@ the deposit record's `Permission basis:` line.
 3. Silence: no basis line, or a basis line recording
    silence / no reply, does not satisfy the gate; record
    mode exits 3 GATE CLOSED and the gate stays closed.
+*Pass condition:* all assertions hold; the test process
+exits 0.
+
+## TC-100-10 — The negated-grant basis line is refused
+
+*Exercises:* C100-6, as hardened by RT7-L1 (2026-11-23).
+*Fixture:* temporary trees as in TC-100-07, varying only
+the deposit record's `Permission basis:` line.
+*Assertions:*
+1. A basis line bearing a negation is refused even when
+   it contains a granting term: "Permission basis:
+   Miller grants nothing in this reply." (Red Team
+   Round 7, case E, which opened the gate before this
+   hardening) exits 3 GATE CLOSED and writes no outcome.
+2. The granted-to-no-one variant, "Permission basis:
+   permission is granted to no one pending review.",
+   likewise exits 3 GATE CLOSED and writes no outcome.
 *Pass condition:* all assertions hold; the test process
 exits 0.

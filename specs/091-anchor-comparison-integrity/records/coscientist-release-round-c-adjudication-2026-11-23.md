@@ -131,6 +131,46 @@ capture.
   (see that row for the send and decline record); the
   replacement-checker choice returns to the owner.
 
+## 6. Corrections 2026-11-23 — Red Team Round 7
+
+**Date of corrections: 2026-11-23. Authority: Red Team
+Round 7. No standing, verdict, or tally changes.**
+
+- **RT7-M1 (the Meroitic DOI chain in §3, flag F5).**
+  Wherever F5 is stated, the chain reads in full, under
+  concept DOI 10.5281/zenodo.24449061: the brief cites
+  version DOI 10.5281/zenodo.24449062 (first deposit,
+  superseded the same day), which was superseded by the
+  conforming version 10.5281/zenodo.24449454 (labelled
+  "v1"), which v2 (record 24450095) in turn supersedes,
+  as documented in the Spec 097 release record and
+  PR #710. The brief's DOI was therefore superseded
+  twice, and the version its attached PDF corresponds
+  to in the current chain is 24449454.
+- **RT7-L4 (§1's "remain so").** §1's statement that
+  both sessions "went idle and remain so" is a
+  capture-time statement: it is evidenced at capture
+  time (2026-11-23 07:23 EST) only, and is not a claim
+  about the sessions' state after capture.
+- **RT7-L5 (session-id linkage).** The session ids
+  stated in §0 are the linkage of record for the filed
+  captures: the `SESSION-RAW.json` files carry no
+  session-id field of their own (their keys are only
+  messages / messages_has_more /
+  messages_next_before_id / artifacts / turn_status /
+  interrupted / last_turn_refused / title / locked), so
+  the linkage rests on §0's capture note, whose ids
+  match the task-supplied ids and the Spec 097 release
+  record §4 session URL.
+- **RT7-L6 (the Eteocypriot brief's DOI defect,
+  numbered).** The Eteocypriot brief's identical-class
+  defect is flagged symmetrically with the Meroitic
+  brief's F5, as **F7**: the Eteocypriot brief as
+  submitted cites the v1 deposit DOI
+  10.5281/zenodo.24449060, superseded by v2 (record
+  24449913). Like F5 and F6, F7 stands as filed and
+  governs any reissue of the brief.
+
 **AI disclosure:** this record was compiled by an AI agent
 (Muse, via Muse) at the direction of Tristen Pierson,
 per constitution sec. VI. It reports a capture and its
