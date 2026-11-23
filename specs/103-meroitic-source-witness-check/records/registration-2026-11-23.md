@@ -191,3 +191,26 @@ the coordination VM or on the mini-server.
 **AI disclosure:** executed by an AI agent (Muse,
 via Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.
+
+## Completion pass (2026-11-23, same landing)
+
+- **Departure acts appended.** The three superseded
+  settling records named in §3 departed the run store
+  in this landing; their departure acts were appended
+  to the run index through `run_records.append_act`
+  in this completion commit, naming the registration
+  commit `3dea279b9a64eb31bd96cf1846872fd60241c448`
+  as `superseded_by_commit` and each record's blob
+  hash from the pre-landing tree, as §3 anticipated.
+- **Final-tree verification.** The ledger gate on
+  the final tree, both modes, run standalone:
+  **default 29 PASS / 0 FAIL / 1 NOT-RUN (RESULT:
+  PASS)** and **--regen 32 PASS / 0 FAIL / 0 NOT-RUN
+  (RESULT: PASS)**. (The single NOT-RUN in default
+  mode is the V7 lossless-regeneration check, which
+  runs under --regen.) The five affected backend
+  suites were run on the final tree: **114 tests,
+  all passed**. One further census pin the intake
+  moves was caught by these runs and updated in
+  this completion commit: program-map study nodes
+  103 → 104 (test_spec086_ledger_gate.py).
