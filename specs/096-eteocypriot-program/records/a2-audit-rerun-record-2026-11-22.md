@@ -273,3 +273,14 @@ adjudication; this record changes no verdict and no standing.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+---
+
+> **Addendum (2026-11-23, append-only):** finding F-2 of §5
+> has been adjudicated by the owner (OD-C-2): the narrowed
+> scope sentence of C096-4 IS amended to state the
+> executed-bytes condition. The disposition, with the
+> original sentence preserved and the amended sentence of
+> record, is filed at
+> `records/f2-adjudication-record-2026-11-23.md`. F-2
+> stands closed. This addendum edits no filed text above.

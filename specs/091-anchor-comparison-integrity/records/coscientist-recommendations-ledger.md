@@ -192,7 +192,7 @@ actual text; nothing is deposited on this round alone.
 | C-E-14 | The next study is postdictive; code restriction to ICS 196 cannot erase prior exposure; recurrence alone establishes no morphology or meaning | rejected | DO NOT APPLY: no change; already Spec 101 §3.3 (exposure as governing limit, postdictive strength registered, C101-2 exposure statement) |
 | C-E-15 | Rank 1: a feasibility decision for the alignment line — which independently identifiable correspondences remain, exposure state, whether enough independent items exist to beat simple baselines; a stop decision if none | accepted | APPLY; new work, no such record exists (Spec 101 is an occurrence study); accepted as the alignment line's next record, no study commissioned |
 | C-E-16 | Rank 2: specify correct-versus-confusable-name discrimination for any future E1-form test; controls must reproduce the full selection process and preserve name dependencies; register before any confirmatory result | accepted | APPLY; filed in the adjudication as an amendment to v2 §5.2's binding conditions on any future re-run |
-| C-E-17 | Rank 3 (adjudication half): adjudicate finding F-2 — whether C096-4's narrowed scope sentence is amended to state the executed-bytes condition (OD-C-2) | open | OWNER DECISION OD-C-2; v2 §5.4 itself reserves the question to the approver |
+| C-E-17 | Rank 3 (adjudication half): adjudicate finding F-2 — whether C096-4's narrowed scope sentence is amended to state the executed-bytes condition (OD-C-2) | done | OWNER-ADJUDICATED 2026-11-23 (OD-C-2): the owner amended the scope sentence; F-2 closed in `specs/096-eteocypriot-program/records/f2-adjudication-record-2026-11-23.md` |
 | C-E-18 | Rank 4: make Spec 101 uncertainty-aware and selection-transparent before execution (candidate list, variants, positional rules, denominators, damaged/restored treatment; exposure recorded; postdictive label retained) | accepted | APPLY WITH MODIFICATION; candidate set, positions, floors, tables, and the exposure statement are already registered (P-2, P-3, C101-2); the surviving gap — damaged/restored treatment at counting — is to be fixed in Spec 101's freeze addendum before execution |
 | C-E-19 | Rank 5: an independent epigraphic check of the consequential inputs (ICS 196 against the pending edition material; a different reader for the Androkles A intake) (OD-C-3) | accepted | OWNER DECISION OD-C-3 DECIDED and COMMISSIONED by the owner 2026-11-23: the Androkles second reader is Professor Philippa Steele (Cambridge, Faculty of Classics; public contact verified from her faculty profile); packet assembled and letter drafted, both filed at the goal hidden_files/od-c3-second-reader-2026-11-23/, the letter awaiting the owner approval of its exact text before any send (`specs/096-eteocypriot-program/records/od-c3-second-reader-commission-2026-11-23.md`); the ICS 196 half is already in motion through the interlibrary route (`ics196-ill-request-2026-11-22.md`) and is not new |
 | C-E-20 | Overall verdict and proposed replacement public summary (moderate weight as a corrected account; low as method validation; none as decipherment) | rejected | DO NOT APPLY: no separate act; its actionable content is C-E-2 / OD-C-1; the canonical wording remains OD-12's until the owner amends it |
@@ -280,9 +280,9 @@ actual text; nothing is deposited on this round alone.
 | Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
 | Eteocypriot, Round B | 10 | 8 | 1 | 0 | 0 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round C | 20 | 2 | 10 | 0 | 1 | 7 |
+| Eteocypriot, Round C | 20 | 3 | 10 | 0 | 0 | 7 |
 | Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
-| **Total** | **114** | **61** | **31** | **0** | **1** | **21** |
+| **Total** | **114** | **62** | **31** | **0** | **0** | **21** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
@@ -330,7 +330,10 @@ adjudication record), bringing the totals to 2 open,
 OD-11's route the same day, a fresh external
 epigrapher (row B-E-9, accepted), bringing the totals
 to 1 open, 61 done and 31 accepted, the sole remaining
-open row being OD-C-2 (row C-E-17). Round C's first
+open row being OD-C-2 (row C-E-17), which the owner
+then adjudicated the same day (F-2 closed; see the
+Spec 096 F-2 adjudication record), bringing the
+totals to 0 open, 62 done and 31 accepted. Round C's first
 pass, which produced no
 recommendations because the briefs had not entered the
 sessions, is recorded at PR #712 and is superseded as the
