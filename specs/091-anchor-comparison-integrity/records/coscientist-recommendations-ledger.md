@@ -56,10 +56,19 @@ is left open and says so.
 - **Round C — Release round, 2026-11-22.** Submissions made
   with the two preprint releases: Eteocypriot
   `34ae4c8f-bdb4-40ec-9989-2e24cd0697e1`, Meroitic
-  `fed03c92-dea7-4238-ab3b-40f6073cafc0`. Outputs not yet
-  captured; no rows yet. Indus's release-round equivalent
-  is Round B's Indus session, already captured and
-  adjudicated above.
+  `fed03c92-dea7-4238-ab3b-40f6073cafc0`. Outputs captured
+  2026-11-23 at the goal's
+  `hidden_files/coscientist-release-2026-11-22/` (per-program
+  `OUTPUT.md` capture notes with the complete session
+  records at `SESSION-RAW.json`, hashes in the adjudication
+  record). Capture finding: both sessions contain only the
+  file-intake turn — the briefs' text never entered either
+  session, and the Co-scientist's only output is an intake
+  acknowledgment. Zero recommendations were issued, so
+  Round C has no rows. Adjudication:
+  `records/coscientist-release-round-c-adjudication-2026-11-23.md`.
+  Indus's release-round equivalent is Round B's Indus
+  session, already captured and adjudicated above.
 
 ## Indus rows
 
@@ -139,8 +148,16 @@ units landed at L-3 (PR #675, merge `ec07f7c1`).
 | B-E-6 | Rank 1: independent audit and rerun of the frozen A2 implementation before interpreting the one-name recovery (OD-8) | done | OWNER DECISION OD-8, COMMISSIONED 2026-11-22 11:41 ET; executed PR #681 (merge `a0c1b4cf`): the frozen driver reproduces the filed run record byte-for-byte and an independent reimplementation agrees on every verdict-bearing quantity; finding F-2 (fresh-checkout reproducibility) flagged for adjudication |
 | B-E-7 | Pursue the missing editions: the Androkles syllabic sides and Perna 2019, keeping acquired material outside the old freeze (OD-9) | done | OWNER DECISION OD-9, COMMISSIONED 2026-11-22 11:42 ET; executed PR #682 (merge `9684d542`): both items openly and lawfully available (Persée, DOI 10.3406/bch.1982.1914; OpenEdition, DOI 10.4000/books.efa.3031); no ILL placed, no fee |
 | B-E-8 | Ranks 3–4: A2 baselines and negative controls, then specify a realistic next Eteocypriot claim (OD-10) | done | OWNER DECISION OD-10, COMMISSIONED 2026-11-22 12:23 ET; executed PR #687 (merge `a16bd0b9`): Androkles intake executed (Dedication A, 15 signs in 3 segments; B prints no sign-level transcription), controls landed (sequence score 4 never reached under either null), Spec 101 registered, not executed |
-| B-E-9 | Rank 5: an independent human should check Spec 096's reporting completeness against the records (OD-11) | accepted | OWNER DECISION OD-11: deferred 2026-11-22 12:32 ET until the owner named the person; Alex de Voogt named 2026-11-22 14:49 ET and the invitation sent 2026-11-22 15:31 ET (Gmail Sent id `1a204f4784995c21`; `records/od11-naming-and-send-record-2026-11-22.md` in Spec 091's folder); the check itself stands open pending his reply |
+| B-E-9 | Rank 5: an independent human should check Spec 096's reporting completeness against the records (OD-11) | open | OWNER DECISION OD-11: deferred 2026-11-22 12:32 ET until the owner named the person; Alex de Voogt named 2026-11-22 14:49 ET and the invitation sent 2026-11-22 15:31 ET (Gmail Sent id `1a204f4784995c21`; `records/od11-naming-and-send-record-2026-11-22.md` in Spec 091's folder). The check stands DECLINED: de Voogt declined on 2026-11-22 19:11 ET (Gmail id `1a205bea5211a9a2`), and the program's thank-you was sent the same evening (Gmail Sent id `1a205ce4d81490e0`). No record set was sent to him. The check is unperformed and its replacement-checker choice returns to the owner |
 | B-E-10 | Adopt the assessment's honest public description as the canonical Eteocypriot wording (OD-12) | done | OWNER DECISION OD-12, ADOPTED 2026-11-22 12:58 ET (PR #680, merge `28cabd4b`); adoption publishes nothing |
+
+### Round C — release round (2026-11-22)
+
+No rows. The session's output was captured 2026-11-23 and
+contains no recommendations: the brief's text never entered
+the session, and the Co-scientist's only output is an intake
+acknowledgment. Adjudication:
+`records/coscientist-release-round-c-adjudication-2026-11-23.md`.
 
 ## Meroitic rows
 
@@ -173,28 +190,45 @@ WITH MODIFICATION units landed at L-4 (PR #676, merge
 | B-M-18 | Rank 6: register a genuinely fresh discriminating affiliation test only after the preceding checks (OD-21) | accepted | OWNER DECISION OD-21, COMMISSIONED 2026-11-22 13:51 ET; Spec 102 registered, not executed (PR #698, merge `ac6e2ddf`); its S-1 acquisition is owner-gated and was not authorised by the registration |
 | B-M-19 | Adopt the assessment's proposed public wording as canonical, effective only when release conditions are satisfied (OD-22) | accepted | OWNER DECISION OD-22, ADOPTED 2026-11-22 13:53 ET, recorded in the closing addendum (PR #697, merge `bb890fda`); adoption publishes nothing and the internal-use ruling stood at adoption |
 
+### Round C — release round (2026-11-22)
+
+No rows. The session's output was captured 2026-11-23 and
+contains no recommendations: the brief's text never entered
+the session, and the Co-scientist's only output is an intake
+acknowledgment. The slop-check flags on the brief as
+submitted (F5, superseded version DOI; F6, the power
+parameter *d* mislabelled) attach to no recommendation
+this round and stand as filed (PR #707). Adjudication:
+`records/coscientist-release-round-c-adjudication-2026-11-23.md`.
+
 ## Counts
 
 | Section | Rows | done | accepted | adjudicating | open | rejected |
 |---|---|---|---|---|---|
 | Indus, Round A | 15 | 12 | 3 | 0 | 0 | 0 |
 | Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round B | 10 | 8 | 1 | 0 | 0 | 1 |
+| Eteocypriot, Round B | 10 | 8 | 0 | 0 | 1 | 1 |
 | Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
-| **Total** | **68** | **57** | **8** | **0** | **0** | **3** |
+| Eteocypriot, Round C | 0 | 0 | 0 | 0 | 0 | 0 |
+| Meroitic, Round C | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Total** | **68** | **57** | **7** | **0** | **1** | **3** |
 
 Round B cross-check against the adjudication record's §7
 counts (53 units: 20 APPLY / 8 APPLY WITH MODIFICATION /
 3 DO NOT APPLY / 22 OWNER DECISION): the 28 APPLY-family
 units are all done at L-1 to L-4; the 3 DO NOT APPLY units
 are the 3 rejected rows; of the 22 OWNER DECISION units, 17
-are done and 5 stand accepted (OD-2 a standing direction;
-OD-5 execution gated on Miller's reply; OD-11 the named
-check awaiting de Voogt's reply; OD-21 registered, not
-executed; OD-22 adopted, effective on release conditions).
-No unit's disposition could not be established from the
-record, so no row is left open on that ground; the accepted
-rows name the specific act or reply each still awaits.
+are done, 4 stand accepted (OD-2 a standing direction;
+OD-5 execution gated on Miller's reply; OD-21 registered, not
+executed; OD-22 adopted, effective on release conditions),
+and 1 stands open: OD-11, whose named checker declined on
+2026-11-22, so the check is unperformed and the
+replacement-checker choice returns to the owner. No unit's
+disposition could not be established from the record; the
+accepted and open rows name the specific act or reply each
+still awaits. Round C adds no rows: its two sessions
+produced no recommendations (see the Round C adjudication
+record).
 
 ## Briefing rule (closing note)
 
