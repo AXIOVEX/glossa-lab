@@ -301,7 +301,7 @@ actual text; nothing is deposited on this round alone.
 
 | D-M-1 | Resolve the binomial/permutation-law mismatch before treating the power audit's MDEs and exclusion bounds as calibrated properties of the frozen test (partial reopening of B-M-9, justification sentence only) | accepted | APPLY WITH MODIFICATION; the mismatch recomputed independently at adjudication from the deposited audit JSON and reproduced exactly (binomial/histogram tail ratios 2.50 / 2.96); annotation appended to `specs/097-meroitic-reproduction-benchmark/records/power-simulation-audit-2026-11-22.md` withdrawing the "permutation null confirms" claim; frozen p-values, verdict, and tally unaffected; paper sentence filed as item M-P8, awaiting the owner's approval of the actual text; a calibration extension is not commissioned |
 | D-M-2 | Correct §1's "validated material" assurance (benchmark reproduction does not validate the campaign corpus or its transcription fidelity) | accepted | APPLY; sustained on the v2 §1 text; filed as paper item M-P9 with the assessment's replacement passage as its specified text, awaiting the owner's approval of the actual text |
-| D-M-3 | Check decision-bearing transcription and tokenization against source witnesses at the sparse Stage 4.4 candidate boundaries | open | OWNER DECISION OD-D-2: a new registered diagnostic; commissioning is the owner's; no work started |
+| D-M-3 | Check decision-bearing transcription and tokenization against source witnesses at the sparse Stage 4.4 candidate boundaries | accepted | OWNER DECISION OD-D-2 DECIDED by the owner 2026-11-23 (~17:14 ET): the source-witness check is COMMISSIONED, registration and execution in one act; registered as Spec 103 (`specs/103-meroitic-source-witness-check/`), carrying the session's stated claim and kill check, the fixed split membership, and the no-pooling rule for the xolkte family; the execution lands as its own record under the same commission and this row moves to done when it does |
 
 ## Counts
 
@@ -314,8 +314,8 @@ actual text; nothing is deposited on this round alone.
 | Eteocypriot, Round C | 20 | 3 | 10 | 0 | 0 | 7 |
 | Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
 | Eteocypriot, Round D | 2 | 1 | 1 | 0 | 0 | 0 |
-| Meroitic, Round D | 3 | 0 | 2 | 0 | 1 | 0 |
-| **Total** | **119** | **63** | **34** | **0** | **1** | **21** |
+| Meroitic, Round D | 3 | 0 | 3 | 0 | 0 | 0 |
+| **Total** | **119** | **63** | **35** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -325,7 +325,10 @@ kept, target declared enrichment; recorded at §Decision
 of the Spec 101 target-to-decision note) and the other 3
 stand accepted (each awaits a named act: the paper-text
 approvals or the remedy choice recorded in its row); the
-1 OWNER DECISION unit (D-M-3, OD-D-2) stands open. The
+1 OWNER DECISION unit (D-M-3, OD-D-2) stands accepted
+on the owner's commission of 2026-11-23 (OD-D-2 decided:
+registered as Spec 103, execution under the same
+commission). The
 Indus session advanced no recommendation and adds no row.
 
 Round B cross-check against the adjudication record's §7

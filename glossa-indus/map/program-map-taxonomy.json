@@ -551,6 +551,11 @@
    "spec_dir": "102-meroitic-fresh-affiliation-test",
    "domain": "Sign inventory & corpus",
    "subdomain": "Signary & corpus models"
+  },
+  {
+   "spec_dir": "103-meroitic-source-witness-check",
+   "domain": "Sign inventory & corpus",
+   "subdomain": "Signary & corpus models"
   }
  ],
  "extracted_documents": [

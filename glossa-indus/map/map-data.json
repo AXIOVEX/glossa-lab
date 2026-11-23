@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1041,
+  "claims_total": 1045,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1017,
+   "draft": 1021,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
-   "ledger_lines": 1072,
-   "ledger_date": "2026-11-22",
+   "ledger_sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
+   "ledger_lines": 1076,
+   "ledger_date": "2026-11-23",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "9d2e48d5d4900e656b1d1f38959e4dc489b2edb01133a7d62cdf91417a6e3309",
+   "matrix_sha256": "441a7532c486671983c65ded2c366c0c09e283c086927e4e52e57b344bb215fa",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "793904cda66de130a3c74df5c2bc6efbb40805f6a25b59f5af905b3ab5c29615",
-   "comparison_sha256": "62d072487b18819a12895aa67d3b6f8e58899b22d6f6fd7fe1f3d97b7524d262",
-   "settling_canonical_sha256": "de15a3fc50083b020a381fb477613272b2483b19ba151c7995c6aa8b2e50bbb7"
+   "assignment_sets_sha256": "e7a179848cd48b56c9e9f777863876026eacff8fda1edeb88fb8f9bc88df1a12",
+   "comparison_sha256": "73b795ddecf14af0dd92d050fbb00d70490cbaeefdef8463054ccf27812c2621",
+   "settling_canonical_sha256": "7528bb1e9ca00c345bb9a5f16b503f9073270e5ca8114b90a0d0781214fbbd20"
   }
  },
  "elements": [
@@ -8394,6 +8394,38 @@
    "kind": "claim",
    "id": "102-meroitic-fresh-affiliation-test/C102-2",
    "statement": "The expanded-wordlist R2 test separates Afroasiatic affiliation from chance at its registered bar, under the same construction as C102-1 against the R2 comparator set, reported with its own per-test concept set and denominators. This does not establish: that a failure of both family tests supports the isolate hypothesis; R3 is recordable only as not displaced (spec section 5).",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "103-meroitic-source-witness-check/C103-3",
+   "statement": "No pooling, and no score-driven correction: the xolkte-family forms (xolkete, pxolkete, xolkte) are checked and reported as distinct forms; no variant is pooled into another form's count and no spelling variant is counted toward a candidate form; a correction enters the adjudication only where the witness comparison demonstrates a discrepancy, and every correction is filed with its witness evidence. This does not establish: that the family's forms are unrelated; only that this diagnostic does not let their relationship move a count.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "103-meroitic-source-witness-check/C103-1",
+   "statement": "The frozen extraction preserves the source distinctions and text-presence counts needed for these candidate decisions: for the six Stage 4.4 candidate forms (soreyi, asoreyi, xolkete, pxolkete, xolkte, wisi), the frozen extraction's text-presence counts on the held-out partition equal the counts the registered witness protocol (spec section 3) derives from the acquired build's source witnesses at every decision-bearing locus, and no adjudicated correction changes either leg of any form's frozen prediction (presence in at least 3 held-out texts; held-out funerary share within [0.75, 1.0]). This does not establish: that the acquired build's transcriptions are true to Griffith's printed editions (not machine-readable here; corpus completion record section 4, gap 5), or that any candidate reading is correct.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "103-meroitic-source-witness-check/C103-4",
+   "statement": "The diagnostic moves no standing by itself: whatever the check finds, Spec 097's frozen Stage 4.4 outcome (1 PARTIALLY SUPPORTED, 5 UNSUPPORTED on held-out), its verdicts, and its tallies stand unchanged on their own records; a demonstrated boundary-crossing discrepancy licenses only a separately registered corrected-input sensitivity result, and a CLAIM STANDS outcome licenses only the interpretation statement of spec section 5. This does not establish: that the frozen outcome is correct in substance; only that the historical outcome and any corrected-input sensitivity remain separate, separately dated results.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "103-meroitic-source-witness-check/C103-2",
+   "statement": "The split membership is fixed throughout the diagnostic: the execution recomputes the basis and partition from the pinned build by freeze v2 section 1's rule and verifies the frozen counts; every witness correction is applied to token counts within that frozen partition, and no corrected text is rehashed and no text changes side. This does not establish: that the frozen split was well chosen; only that this diagnostic holds it fixed, so its result answers the extraction question and not a re-split question.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -28016,6 +28048,50 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "103-meroitic-source-witness-check/C103-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "103-meroitic-source-witness-check/C103-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "103-meroitic-source-witness-check/C103-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "103-meroitic-source-witness-check/C103-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "103-meroitic-source-witness-check/C103-4",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -33383,6 +33459,26 @@
    "constrains": 0
   },
   "102-meroitic-fresh-affiliation-test/C102-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "103-meroitic-source-witness-check/C103-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "103-meroitic-source-witness-check/C103-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "103-meroitic-source-witness-check/C103-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "103-meroitic-source-witness-check/C103-2": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39632,6 +39728,30 @@
    },
    {
     "id": "102-meroitic-fresh-affiliation-test/C102-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "103-meroitic-source-witness-check/C103-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "103-meroitic-source-witness-check/C103-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "103-meroitic-source-witness-check/C103-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "103-meroitic-source-witness-check/C103-2",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -59256,6 +59376,50 @@
     ]
    },
    {
+    "row": "103-meroitic-source-witness-check/C103-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "103-meroitic-source-witness-check/C103-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "103-meroitic-source-witness-check/C103-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "103-meroitic-source-witness-check/C103-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "103-meroitic-source-witness-check/C103-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "103-meroitic-source-witness-check/C103-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "103-meroitic-source-witness-check/C103-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "103-meroitic-source-witness-check/C103-4",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -59423,8 +59587,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1041,
-   "rows_with_cells": 1027,
+   "rows_total": 1045,
+   "rows_with_cells": 1031,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -59782,30 +59946,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1564,
+   "cells_total": 1568,
    "cells_by_relation": {
-    "supports": 1557,
+    "supports": 1561,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1557,
+    "documents": 1561,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1032,
-    "total": 1041,
+    "covered": 1036,
+    "total": 1045,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1018,
-      "total": 1018
+      "covered": 1022,
+      "total": 1022
      }
     }
    },
@@ -64850,8 +65014,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1041,
-   "rows_with_cells": 1027,
+   "rows_total": 1045,
+   "rows_with_cells": 1031,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -65209,15 +65373,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1564,
+   "cells_total": 1568,
    "cells_by_relation": {
-    "supports": 1557,
+    "supports": 1561,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1557,
+    "documents": 1561,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -65286,7 +65450,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1017,
+    "draft": 1021,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -65296,26 +65460,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 1001,
+    "created": 1005,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1018,
+    "bundle": 1022,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1032,
-   "total": 1041,
+   "covered": 1036,
+   "total": 1045,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1018,
-     "total": 1018
+     "covered": 1022,
+     "total": 1022
     }
    },
    "gap_claims": [
@@ -65332,8 +65496,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1041,
-   "total": 1041
+   "without_state": 1045,
+   "total": 1045
   },
   "unresolved": {
    "sign_mentions": [
@@ -66819,7 +66983,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261122T190229Z-7ae82f",
+      "record": "settling-20261123T222738Z-c1c0ef",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -66833,7 +66997,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261122T190229Z-658afe",
+      "record": "settling-20261123T222739Z-741a2f",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -166896,6 +167060,346 @@
     },
     "sign_records": []
    }
+  },
+  "103-meroitic-source-witness-check/C103-3": {
+   "id": "103-meroitic-source-witness-check/C103-3",
+   "statement": "No pooling, and no score-driven correction: the xolkte-family forms (xolkete, pxolkete, xolkte) are checked and reported as distinct forms; no variant is pooled into another form's count and no spelling variant is counted toward a candidate form; a correction enters the adjudication only where the witness comparison demonstrates a discrepancy, and every correction is filed with its witness evidence. This does not establish: that the family's forms are unrelated; only that this diagnostic does not let their relationship move a count.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-23",
+   "falsifier": [
+    "Any pooled xolkte-family count anywhere in the outcome record; any correction in the outcome record without a filed witness divergence behind it; any token counted toward a candidate form on the ground that it is a spelling variant of it."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C103-3",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "103-meroitic-source-witness-check/C103-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "103-meroitic-source-witness-check/C103-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C103-3",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    },
+    "sign_records": []
+   }
+  },
+  "103-meroitic-source-witness-check/C103-1": {
+   "id": "103-meroitic-source-witness-check/C103-1",
+   "statement": "The frozen extraction preserves the source distinctions and text-presence counts needed for these candidate decisions: for the six Stage 4.4 candidate forms (soreyi, asoreyi, xolkete, pxolkete, xolkte, wisi), the frozen extraction's text-presence counts on the held-out partition equal the counts the registered witness protocol (spec section 3) derives from the acquired build's source witnesses at every decision-bearing locus, and no adjudicated correction changes either leg of any form's frozen prediction (presence in at least 3 held-out texts; held-out funerary share within [0.75, 1.0]). This does not establish: that the acquired build's transcriptions are true to Griffith's printed editions (not machine-readable here; corpus completion record section 4, gap 5), or that any candidate reading is correct.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-23",
+   "falsifier": [
+    "A demonstrated source/extraction discrepancy that crosses a registered decision boundary kills the claim for the affected candidate; if adjudicated source corrections leave every relevant threshold outcome unchanged, the input-error explanation of the failures is retired within the checked scope; if witnesses or search coverage are insufficient, the outcome for the affected candidate is NOT CHECKED / INCOMPLETE COVERAGE, not verified absence."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C103-1",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "103-meroitic-source-witness-check/C103-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "103-meroitic-source-witness-check/C103-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C103-1",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    },
+    "sign_records": []
+   }
+  },
+  "103-meroitic-source-witness-check/C103-4": {
+   "id": "103-meroitic-source-witness-check/C103-4",
+   "statement": "The diagnostic moves no standing by itself: whatever the check finds, Spec 097's frozen Stage 4.4 outcome (1 PARTIALLY SUPPORTED, 5 UNSUPPORTED on held-out), its verdicts, and its tallies stand unchanged on their own records; a demonstrated boundary-crossing discrepancy licenses only a separately registered corrected-input sensitivity result, and a CLAIM STANDS outcome licenses only the interpretation statement of spec section 5. This does not establish: that the frozen outcome is correct in substance; only that the historical outcome and any corrected-input sensitivity remain separate, separately dated results.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-23",
+   "falsifier": [
+    "Any record of this study stating a changed Stage 4.4 score, verdict, or tally; any citing record treating this diagnostic's outcome as a re-score of Stage 4.4."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C103-4",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "103-meroitic-source-witness-check/C103-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "103-meroitic-source-witness-check/C103-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C103-4",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    },
+    "sign_records": []
+   }
+  },
+  "103-meroitic-source-witness-check/C103-2": {
+   "id": "103-meroitic-source-witness-check/C103-2",
+   "statement": "The split membership is fixed throughout the diagnostic: the execution recomputes the basis and partition from the pinned build by freeze v2 section 1's rule and verifies the frozen counts; every witness correction is applied to token counts within that frozen partition, and no corrected text is rehashed and no text changes side. This does not establish: that the frozen split was well chosen; only that this diagnostic holds it fixed, so its result answers the extraction question and not a re-split question.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-23",
+   "falsifier": [
+    "A recomputed partition differing from freeze v2 section 2's counts in any cell; an execution step that assigns a text to a side by any rule other than the frozen rule applied to the frozen (uncorrected) text; a corrected text whose hash is recomputed for split purposes."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C103-2",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "103-meroitic-source-witness-check/C103-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "103-meroitic-source-witness-check/C103-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C103-2",
+     "document_id": null,
+     "path": "specs/103-meroitic-source-witness-check/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "4e3d947a148ff9a3aa7294a2e0471a86022b588c30738fec5824353a5edbf1d9",
+     "spec": "103-meroitic-source-witness-check"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -166903,7 +167407,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "793904cda66de130a3c74df5c2bc6efbb40805f6a25b59f5af905b3ab5c29615",
+   "sha256": "e7a179848cd48b56c9e9f777863876026eacff8fda1edeb88fb8f9bc88df1a12",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -166947,15 +167451,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261122T190229Z-7ae82f",
+    "record": "settling-20261123T222738Z-c1c0ef",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
-      "lines": 1072
+      "sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
+      "lines": 1076
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -167006,15 +167510,15 @@
     }
    },
    {
-    "record": "settling-20261122T190229Z-658afe",
+    "record": "settling-20261123T222739Z-741a2f",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "d04a481054269ff17c58f6fdb5189b6726fa6eb074d312193f55fb36e3833660",
-      "lines": 1072
+      "sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
+      "lines": 1076
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -167069,7 +167573,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "62d072487b18819a12895aa67d3b6f8e58899b22d6f6fd7fe1f3d97b7524d262",
+   "sha256": "73b795ddecf14af0dd92d050fbb00d70490cbaeefdef8463054ccf27812c2621",
    "result": {
     "claims_compared": [
      {
@@ -167317,7 +167821,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "de15a3fc50083b020a381fb477613272b2483b19ba151c7995c6aa8b2e50bbb7",
+   "sha256": "7528bb1e9ca00c345bb9a5f16b503f9073270e5ca8114b90a0d0781214fbbd20",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -167652,8 +168156,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1041,
-   "claims_untouched_by_any_run": 1040,
+   "claims_total": 1045,
+   "claims_untouched_by_any_run": 1044,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,
