@@ -1,0 +1,204 @@
+{
+  "run_id": "study-20261124T094545Z-1e08ae",
+  "spec": "091-anchor-comparison-integrity",
+  "stage": "stage-5-t501-w1-recomputation",
+  "coder": "Masato Kobayashi",
+  "precondition_failures": {},
+  "coded_entries": {
+    "M047": {
+      "sign": "M047",
+      "input": "coded",
+      "staged_classification": "project_derived",
+      "recomputed_classification": "independently_sourced",
+      "rule_fired": 4,
+      "eligible": true,
+      "coded_value": "mīn",
+      "alternatives_as_filed": [],
+      "locator_cited_value": "mīn",
+      "coded_vs_cited_raw_identical": true,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": "min/mīn",
+      "coded_vs_anchor_raw_identical": false,
+      "coded_vs_anchor_normalized_identical": true
+    },
+    "M087": {
+      "sign": "M087",
+      "input": "coded",
+      "staged_classification": "project_derived",
+      "recomputed_classification": "used_during_candidate_construction",
+      "rule_fired": 3,
+      "eligible": false,
+      "coded_value": "veḷ",
+      "alternatives_as_filed": [
+        "vēḷ",
+        "vēḷi"
+      ],
+      "locator_cited_value": "veḷ",
+      "coded_vs_cited_raw_identical": true,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": "veL",
+      "coded_vs_anchor_raw_identical": false,
+      "coded_vs_anchor_normalized_identical": true
+    },
+    "M088": {
+      "sign": "M088",
+      "input": "coded",
+      "staged_classification": "ineligible",
+      "recomputed_classification": "ineligible",
+      "rule_fired": 1,
+      "eligible": false,
+      "coded_value": "mu-",
+      "alternatives_as_filed": [
+        "mu-m-"
+      ],
+      "locator_cited_value": "mu(m)",
+      "coded_vs_cited_raw_identical": false,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": null,
+      "coded_vs_anchor_raw_identical": null,
+      "coded_vs_anchor_normalized_identical": null
+    },
+    "M091": {
+      "sign": "M091",
+      "input": "coded",
+      "staged_classification": "ineligible",
+      "recomputed_classification": "ineligible",
+      "rule_fired": 1,
+      "eligible": false,
+      "coded_value": "aṟu",
+      "alternatives_as_filed": [
+        "caṟu"
+      ],
+      "locator_cited_value": "aru",
+      "coded_vs_cited_raw_identical": false,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": null,
+      "coded_vs_anchor_raw_identical": null,
+      "coded_vs_anchor_normalized_identical": null
+    },
+    "M092": {
+      "sign": "M092",
+      "input": "coded",
+      "staged_classification": "ineligible",
+      "recomputed_classification": "ineligible",
+      "rule_fired": 1,
+      "eligible": false,
+      "coded_value": "eḻu",
+      "alternatives_as_filed": [],
+      "locator_cited_value": "elu",
+      "coded_vs_cited_raw_identical": false,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": null,
+      "coded_vs_anchor_raw_identical": null,
+      "coded_vs_anchor_normalized_identical": null
+    },
+    "M175": {
+      "sign": "M175",
+      "input": "coded",
+      "staged_classification": "used_during_candidate_construction",
+      "recomputed_classification": "used_during_candidate_construction",
+      "rule_fired": 3,
+      "eligible": false,
+      "coded_value": "katir",
+      "alternatives_as_filed": [],
+      "locator_cited_value": "katir",
+      "coded_vs_cited_raw_identical": true,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": "katir",
+      "coded_vs_anchor_raw_identical": true,
+      "coded_vs_anchor_normalized_identical": true
+    },
+    "M261": {
+      "sign": "M261",
+      "input": "coded",
+      "staged_classification": "used_during_candidate_construction",
+      "recomputed_classification": "used_during_candidate_construction",
+      "rule_fired": 3,
+      "eligible": false,
+      "coded_value": "muruku",
+      "alternatives_as_filed": [],
+      "locator_cited_value": "muruku",
+      "coded_vs_cited_raw_identical": true,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": "muruku",
+      "coded_vs_anchor_raw_identical": true,
+      "coded_vs_anchor_normalized_identical": true
+    },
+    "M281": {
+      "sign": "M281",
+      "input": "coded",
+      "staged_classification": "used_during_candidate_construction",
+      "recomputed_classification": "used_during_candidate_construction",
+      "rule_fired": 3,
+      "eligible": false,
+      "coded_value": "piḷḷay",
+      "alternatives_as_filed": [],
+      "locator_cited_value": "piḷḷai",
+      "coded_vs_cited_raw_identical": false,
+      "coded_vs_cited_normalized_identical": false,
+      "anchor_reading_as_recorded": "piLLai",
+      "coded_vs_anchor_raw_identical": false,
+      "coded_vs_anchor_normalized_identical": false
+    },
+    "M311": {
+      "sign": "M311",
+      "input": "coded",
+      "staged_classification": "used_during_candidate_construction",
+      "recomputed_classification": "used_during_candidate_construction",
+      "rule_fired": 3,
+      "eligible": false,
+      "coded_value": "vaṭa",
+      "alternatives_as_filed": [],
+      "locator_cited_value": "vaṭa",
+      "coded_vs_cited_raw_identical": true,
+      "coded_vs_cited_normalized_identical": true,
+      "anchor_reading_as_recorded": "vaTamiin",
+      "coded_vs_anchor_raw_identical": false,
+      "coded_vs_anchor_normalized_identical": false
+    }
+  },
+  "changed_entries": {
+    "M047": {
+      "sign": "M047",
+      "input": "coded",
+      "staged_classification": "project_derived",
+      "recomputed_classification": "independently_sourced",
+      "rule_fired": 4,
+      "eligible": true
+    },
+    "M087": {
+      "sign": "M087",
+      "input": "coded",
+      "staged_classification": "project_derived",
+      "recomputed_classification": "used_during_candidate_construction",
+      "rule_fired": 3,
+      "eligible": false
+    }
+  },
+  "eligible_set": [
+    "M047"
+  ],
+  "census_staged": {
+    "independently_sourced": 0,
+    "used_during_candidate_construction": 6,
+    "project_derived": 116,
+    "unverified": 7,
+    "ineligible": 55
+  },
+  "census_recomputed": {
+    "independently_sourced": 1,
+    "used_during_candidate_construction": 7,
+    "project_derived": 114,
+    "unverified": 7,
+    "ineligible": 55
+  },
+  "uncoded_reproduction": {
+    "checked": 175,
+    "mismatches": []
+  },
+  "examined_census": {
+    "entries_total": 184,
+    "phonetic_located": 9,
+    "phonetic_coded_this_run": 9
+  }
+}

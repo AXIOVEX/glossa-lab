@@ -1,0 +1,191 @@
+{
+  "artifact": "mahadevan_parpola_crosswalk_v2_coding_kobayashi",
+  "version": "v1",
+  "generated_by": "Spec 091 Stage 4 (T401) coding record, filed 2026-11-24 with the T501 W1 recomputation record (specs/091-anchor-comparison-integrity/records/t501-w1-recomputation-record-2026-11-24.md)",
+  "coder": {
+    "name": "Masato Kobayashi",
+    "affiliation": "Professor of Linguistics, Graduate School of Humanities and Sociology, University of Tokyo",
+    "contact": "masatok@l.u-tokyo.ac.jp",
+    "lineage_exclusion": "The coder did not derive the project readings and is not a member of the derivation lineage (records/t401-coder-engagement-record-2026-11-20.md section 2; blinding-protocol-v1.md section 7)."
+  },
+  "blinding_protocol": "specs/091-anchor-comparison-integrity/blinding-protocol-v1.md (v1, 2026-11-17)",
+  "engagement": {
+    "letter_subject": "Request: blind coding of 9 Indus sign reading entries",
+    "gmail_thread": "1a1fb478074a3ca3",
+    "assignment": "The 9 located phonetic entries of the locator record (T202 + supplementary pass): source passages and the sign list only; no program readings and no classifications (blinding protocol v1, full blind)."
+  },
+  "filing": {
+    "received": "2026-11-23 19:56 ET",
+    "gmail_message_id": "1a20b0e76b2d2ddd",
+    "attachment": "kobayashi-blind-coding-packet.md",
+    "attachment_bytes": 10078,
+    "attachment_sha256": "ed0e0af3ab4e578772ad4174060891fdb258ccd6f7c280973ac1001c9117242b",
+    "response_sheet_date_as_filed": "24/Nov/2026",
+    "covering_note_as_filed": "Dear Tristen, I am submitting the coding herewith. Please let me know if I didn't get it right. Best, Masato",
+    "completeness": "All 9 assigned entries carry a coded value; no entry is filed as not attested (\"the source does not support a reading\")."
+  },
+  "deviations": [],
+  "semantic_field_note": "semantic_reading is null for every entry: the locator record carries a not-found outcome for the semantic field of all 184 entries, and the engagement assigned the located phonetic fields only (eligibility-defs-v1.md sections 2 and 5: no separate semantic classification arises).",
+  "entries": [
+    {
+      "sign": "M047",
+      "mahadevan_id": "M047",
+      "parpola_id": "P047",
+      "phonetic_reading": {
+        "coded_value": "mīn",
+        "alternatives_as_filed": [],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§10.4, pp. 194–195 (the 'number' + 'fish' sequences and the doubled plain 'fish' sign), and Epilogue fig. 15.2 no. 1, p. 275",
+          "sign_scheme": "the plain 'fish' sign, identified pictorially in the work; tied to this entry by the phoneme compilation's iconic record for Parpola no. 47 ('plain fish') and the crosswalk"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M087",
+      "mahadevan_id": "M087",
+      "parpola_id": "P087",
+      "phonetic_reading": {
+        "coded_value": "veḷ",
+        "alternatives_as_filed": [
+          "vēḷ",
+          "vēḷi"
+        ],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§13.2, pp. 230–231, and Epilogue fig. 15.2 nos. 14–15, p. 276",
+          "sign_scheme": "the sign of 'two long vertical strokes' (the 'intermediate space' of fig. 15.2), identified pictorially in the work; tied to this entry by the phoneme compilation's iconic record for Parpola no. 87"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M088",
+      "mahadevan_id": "M088",
+      "parpola_id": "P088",
+      "phonetic_reading": {
+        "coded_value": "mu-",
+        "alternatives_as_filed": [
+          "mu-m-"
+        ],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§10.4, p. 194 (the '3' + 'fish' sequence), and Epilogue fig. 15.2 no. 3, p. 275",
+          "sign_scheme": "the numeral sign '3' (three vertical strokes), identified in the work as the first member of the '3' + 'fish' sequence; tied to this entry by the phoneme compilation's iconic record for Parpola no. 88 ('3 vertical strokes')"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M091",
+      "mahadevan_id": "M091",
+      "parpola_id": "P091",
+      "phonetic_reading": {
+        "coded_value": "aṟu",
+        "alternatives_as_filed": [
+          "caṟu"
+        ],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§10.4, p. 194, and Epilogue fig. 15.2 no. 4, p. 275",
+          "sign_scheme": "the numeral sign '6' (six strokes), identified in the work as the first member of the '6' + 'fish' sequence; tied to this entry by the phoneme compilation's record for Parpola no. 91"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M092",
+      "mahadevan_id": "M092",
+      "parpola_id": "P092",
+      "phonetic_reading": {
+        "coded_value": "eḻu",
+        "alternatives_as_filed": [],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§10.4, p. 195, and Epilogue fig. 15.2 no. 5, p. 275",
+          "sign_scheme": "the numeral sign '7' (seven strokes), identified in the work as the first member of the '7' + 'fish' sequence; tied to this entry by the phoneme compilation's record for Parpola no. 92"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M175",
+      "mahadevan_id": "M175",
+      "parpola_id": "175",
+      "phonetic_reading": {
+        "coded_value": "katir",
+        "alternatives_as_filed": [],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 2010, A Dravidian solution to the Indus script problem (World Classical Tamil Conference lecture)",
+          "pinpoint": "p. 24 (the interpretation of the first sign of seal M-241, introduced as 'not included in my 1994 book')",
+          "sign_scheme": "the sign depicting the spinner's spindle, identified pictorially in the work; tied to this entry by the crosswalk provenance's recorded depiction for M175 ('spinner's spindle')"
+        },
+        "source_revision": "Parpola 2010, A Dravidian solution to the Indus script problem (World Classical Tamil Conference lecture), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M261",
+      "mahadevan_id": "M261",
+      "parpola_id": "261",
+      "phonetic_reading": {
+        "coded_value": "muruku",
+        "alternatives_as_filed": [],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§13.1, p. 229, and Epilogue fig. 15.2 no. 11, p. 276",
+          "sign_scheme": "the sign of 'two intersecting circles', identified pictorially in the work; tied to this entry by the crosswalk provenance's recorded depiction for M261 ('two intersecting circles')"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M281",
+      "mahadevan_id": "M281",
+      "parpola_id": "281",
+      "phonetic_reading": {
+        "coded_value": "piḷḷay",
+        "alternatives_as_filed": [],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§13.1, pp. 229–230, and Epilogue fig. 15.2 no. 13, p. 276",
+          "sign_scheme": "the sign depicting the five-striped palm squirrel, identified pictorially in the work (§7.2, fig. 7.1, as cited in §13.1); tied to this entry by the crosswalk provenance's recorded depiction for M281 ('five-striped palm squirrel')"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    },
+    {
+      "sign": "M311",
+      "mahadevan_id": "M311",
+      "parpola_id": "311",
+      "phonetic_reading": {
+        "coded_value": "vaṭa",
+        "alternatives_as_filed": [],
+        "not_attested": false,
+        "coded_from_locator": {
+          "work": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press)",
+          "pinpoint": "§14.1, p. 240, and Epilogue fig. 15.2 no. 16, p. 276",
+          "sign_scheme": "the 'fig tree' sign (the three-branched fig tree; allographs at fig. 13.15), identified pictorially in the work; tied to this entry by the crosswalk provenance's recorded depiction for M311 ('fig tree (three-branched)')"
+        },
+        "source_revision": "Parpola 1994, Deciphering the Indus Script (Cambridge University Press), as named in the blind packet; the coder's edition line on the response sheet was left blank"
+      },
+      "semantic_reading": null
+    }
+  ]
+}

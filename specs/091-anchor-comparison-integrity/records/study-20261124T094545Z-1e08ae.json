@@ -1,0 +1,47 @@
+{
+  "run": {
+    "run_id": "study-20261124T094545Z-1e08ae",
+    "surface": "study",
+    "tool": "spec091_stage5_recomputation.py --execute",
+    "tool_version": "stage-5 recomputation v1 (Spec 091, T501 W1 leg)",
+    "started": "2026-11-24T09:45:45Z",
+    "finished": "2026-11-24T09:45:45Z",
+    "key": {
+      "surface": "study",
+      "command": "spec091_stage5_recomputation.py --execute",
+      "tool_version": "stage-5 recomputation v1 (Spec 091, T501 W1 leg)",
+      "environment_class": "tower-compute/linux",
+      "code_version": "3a911aae52f91850249c4eb530628ac2138f4ebc",
+      "seed": "no-seed",
+      "input_pins": {
+        "spec": "091-anchor-comparison-integrity",
+        "stage": "stage-5-t501-w1-recomputation",
+        "eligibility_defs": "specs/091-anchor-comparison-integrity/eligibility-defs-v1.md",
+        "blinding_protocol": "specs/091-anchor-comparison-integrity/blinding-protocol-v1.md",
+        "frozen_artifacts": {
+          "provenance_sha256": "b7543523f8ae87e637244db07c9a07e1266b78db582cf07591fc094d0b2043e4",
+          "locators_sha256": "0074f2cc36a13943c758969430d0fdc8e3a7d0f2c5250e1594c02601534f3ef0",
+          "locators_supplement_sha256": "610eeff1f9d8c64449cf040c6012e22b17c3506152076a4270bd836ff009c50c"
+        },
+        "coding_record_sha256": "d542bcae5a035e229549f22982c716a6fa3222725acd54025ddd8b6d549be242",
+        "coding_packet_sha256": "ed0e0af3ab4e578772ad4174060891fdb258ccd6f7c280973ac1001c9117242b",
+        "recomputation_script_sha256": "54be0d015558283da75a87cc2c38797d6b8ee5b93a9d5bc1e0474d80e007b275"
+      }
+    },
+    "determinism_class": "deterministic"
+  },
+  "result": {
+    "artifact": "specs/091-anchor-comparison-integrity/records/t501-w1-recomputation-results-2026-11-24.json",
+    "artifact_sha256": "9f17c8355174237643b2701667400486e04e3a2660b21cb95bd8b3bc114627b8",
+    "eligible_set": [
+      "M047"
+    ],
+    "census": {
+      "independently_sourced": 1,
+      "used_during_candidate_construction": 7,
+      "project_derived": 114,
+      "unverified": 7,
+      "ineligible": 55
+    }
+  }
+}
