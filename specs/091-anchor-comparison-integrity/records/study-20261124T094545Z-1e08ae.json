@@ -28,7 +28,7 @@
         "recomputation_script_sha256": "54be0d015558283da75a87cc2c38797d6b8ee5b93a9d5bc1e0474d80e007b275"
       }
     },
-    "determinism_class": "deterministic pure function of the pinned inputs (eligibility-defs v1 section 5)"
+    "determinism_class": "deterministic"
   },
   "result": {
     "artifact": "specs/091-anchor-comparison-integrity/records/t501-w1-recomputation-results-2026-11-24.json",
