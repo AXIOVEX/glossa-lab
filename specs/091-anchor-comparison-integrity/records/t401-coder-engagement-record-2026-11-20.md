@@ -138,3 +138,28 @@ letter thanks him, confirms all 9 codings arrived complete,
 and promises a further letter with the comparison outcome;
 that outcome letter is owed once the T501 comparison is
 performed.
+
+## Supplement (2026-11-24): the T501 comparison performed
+
+The comparison at T501 named in the supplement above has
+been performed for Kobayashi's coding: run
+`study-20261124T094545Z-1e08ae`, record
+`records/t501-w1-recomputation-record-2026-11-24.md`. The
+recomputation consumed the coding record
+(`backend/glossa_lab/data/mahadevan_parpola_crosswalk_v2_coding_kobayashi.json`)
+under eligibility-defs v1 §5 and produced the program's
+first eligible comparison: the eligible set is {M047}
+(M047's comparison re-based on the primary source's own
+attestation, class independently_sourced). M087's class
+moved from project_derived to
+used_during_candidate_construction on the same re-basing
+(rule 3; its eligibility is unchanged), and the other 7
+coded entries' classes are as staged. §3 above is updated
+by this supplement to that extent: C091-2's open condition
+is met for Kobayashi's coding (the claim's formal per-claim
+disposition remains Stage 6's act, T602). Kolichala's
+coding remains outstanding. The outcome letter promised
+to Professor Kobayashi in the owner's thank-you of
+2026-11-24 is now owed; a draft is filed with the
+program's records outside this repo and is not sent by
+this act.
