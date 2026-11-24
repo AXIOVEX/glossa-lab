@@ -97,3 +97,44 @@ whole programs." The recommendation this act executes, its bases
 competence-screen finding, F-06), and this execution are recorded
 in the delegated-decisions package of 2026-11-20 (Item 1),
 maintained with the program's records outside this repo.
+
+## Supplement (2026-11-24): Kobayashi's coding received
+
+Professor Kobayashi submitted his completed blind coding on
+2026-11-23 at 19:56 ET (Gmail 1a20b0e76b2d2ddd, in the
+engagement thread 1a1fb478074a3ca3): codings for all 9
+entries, no entry marked "the source does not support a
+reading", in the attached packet
+kobayashi-blind-coding-packet.md (10,078 bytes, SHA-256
+ed0e0af3ab4e578772ad4174060891fdb258ccd6f7c280973ac1001c9117242b).
+His covering note in full: "Dear Tristen, I am submitting
+the coding herewith. Please let me know if I didn't get it
+right. Best, Masato". §3 above is updated by this supplement
+to that extent: a coding has now been received from one of
+the two engaged coders. The comparison at T501 has not been
+performed, and C091-2 remains open; Kolichala's coding
+remains outstanding.
+
+## The send (2026-11-24)
+
+The owner approved the thank-you's exact text in the
+Glossa-Lab chat on 2026-11-24 at 03:56 ET, naming the action
+and the destination. The reply was sent the same morning,
+exactly once: from tristen.pierson@gmail.com to
+masatok@l.u-tokyo.ac.jp, subject "Re: Request: blind coding
+of 9 Indus sign reading entries", in the engagement thread
+(1a1fb478074a3ca3), in reply to his submission above, at
+2026-11-24 03:57:39 ET (08:57:39 UTC). Gmail sent message
+id 1a20cc6681965583. No enclosures. A pre-send duplicate
+check of the thread and of Sent mail found no thank-you
+sent after his submission; exactly one send was made. After
+the send, the Sent record was read back and the body
+verified byte-identical to the approved text (560
+characters; the only transport difference is Gmail's CRLF
+line endings). The approved text is filed at the goal's
+hidden_files/kobayashi-thankyou-2026-11-24/DRAFT-to-kobayashi.md,
+its status header reading SENT with the send facts. The
+letter thanks him, confirms all 9 codings arrived complete,
+and promises a further letter with the comparison outcome;
+that outcome letter is owed once the T501 comparison is
+performed.
