@@ -255,8 +255,7 @@ def main():
                     "recomputation_script_sha256": sha256(pathlib.Path(__file__)),
                 },
             },
-            "determinism_class": "deterministic pure function of the pinned inputs "
-                                 "(eligibility-defs v1 section 5)",
+            "determinism_class": "deterministic",
         },
         "result": {
             "artifact": "specs/091-anchor-comparison-integrity/records/"
