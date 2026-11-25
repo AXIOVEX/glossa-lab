@@ -173,3 +173,27 @@ and computes nothing.
 **AI disclosure:** executed by an AI agent (Muse,
 via Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.
+
+## Completion pass (2026-11-25, same landing)
+
+- **Departure acts appended.** The three superseded
+  settling records named in §3 departed the run store
+  in this landing; their departure acts were appended
+  to the run index through `run_records.append_act`
+  in this completion commit, naming the registration
+  commit `42d61527006fa0efb7302c96825bc96ed5e5b504`
+  as `superseded_by_commit` and each record's blob
+  hash from the pre-landing tree, as §3 anticipated.
+  The run-index completion pass (build_legacy_index.py)
+  entered the legacy event for re_derivations[20] and
+  named the departed records post-spec skips (folded
+  census 85 entries).
+- **Final-tree verification.** The ledger gate on
+  the final tree, both modes, run standalone:
+  **default 29 PASS / 0 FAIL / 1 NOT-RUN (RESULT:
+  PASS)** and **--regen 32 PASS / 0 FAIL / 0 NOT-RUN
+  (RESULT: PASS)**. (The single NOT-RUN in default
+  mode is the V7 lossless-regeneration check, which
+  runs under --regen.) The five affected backend
+  suites were run on the final tree: **114 tests,
+  all passed**.
