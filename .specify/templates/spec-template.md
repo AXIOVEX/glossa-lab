@@ -129,3 +129,13 @@
 - [Assumption about scope boundaries, e.g., "Mobile support is out of scope for v1"]
 - [Assumption about data/environment, e.g., "Existing authentication system will be reused"]
 - [Dependency on existing system/service, e.g., "Requires access to the existing user profile API"]
+
+## History Ledger *(mandatory)*
+
+Every study opens its history ledger at registration, in the registration
+landing itself: `records/history-ledger.md`, first entry recording the
+commission (what was ordered, by whom, when, and the record it rests on).
+Entries are added as the work happens, dated and in order, each naming the
+event or decision, its maker, what changed and why, and the record it
+rests on. The closing entry states how the study ended. See
+`docs/governance/history-ledger-convention-2026-11-25.md`.
