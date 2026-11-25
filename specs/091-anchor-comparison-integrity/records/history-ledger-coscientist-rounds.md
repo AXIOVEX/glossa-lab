@@ -84,3 +84,21 @@ provides; the GAP entry itself stands as written.
 Rests on: `records/coscientist-sweep-adjudication-2026-11-25.md`
 and the captures at the goal's
 `hidden_files/coscientist-sweep-2026-11-25/`.
+### 2026-11-25 - Round E releases (v4)
+
+The Round E paper items discharged the same day under the
+standing loop: Eteocypriot v4 (Zenodo record 24545017, DOI
+10.5281/zenodo.24545017) and Meroitic v4 (record 24545036,
+DOI 10.5281/zenodo.24545036), each carrying exactly one
+quotation correction; Academia works 181628208 and 181628423
+updated in place and verified live; ResearchGate updates
+trail under the shared daily budget (2026-11-26 is fully
+committed to the Riemann retry and the two v3 updates).
+Ledger rows E-E-3 and E-M-2 moved to done: 125 rows —
+72 done, 32 accepted, 0 open, 21 rejected. The loop's
+one-hour wait runs from ~18:03 ET; Round F falls due after
+~19:03 ET on 2026-11-25.
+
+Rests on: `records/coscientist-sweep-adjudication-2026-11-25.md`
+§7 and the v4 addenda in the Spec 096 and Spec 097 release
+records.

@@ -145,3 +145,9 @@ The program study is in flight. Its paper line reached v3 on 2026-11-25 (release
 GAP: the package holds no commission-and-grounding record; the commissioning act itself is not in the filed records. The earliest record is the adoption record of 2026-11-20.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-25 - v4 release (Round E item E-E-3)
+
+Round E found the v3 paper's Scope-section quotation still carrying the pre-amendment form of the canonical public description. The v4 release corrects exactly that quotation (Zenodo record 24545017, DOI 10.5281/zenodo.24545017; Academia work 181628208 updated and verified live; ResearchGate trailing under the shared daily budget). No verdict, standing, or claim changed.
+
+Rests on: `records/release-record-2026-11-22.md` (v4 addendum, 2026-11-25) and `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md` §§2.3, 7.

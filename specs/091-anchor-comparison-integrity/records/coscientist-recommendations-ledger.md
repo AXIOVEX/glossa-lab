@@ -226,7 +226,7 @@ actual text; nothing is deposited on this round alone.
 
 | E-E-1 | Correct the Spec 104 pin-deviation record: the historical freeze pin is valid, TC-104-02's conjuncts recorded separately, the continuation recorded as a stop-rule departure, and the F-104-1 pin-refresh instruction withdrawn | done | APPLY WITH MODIFICATION; sustained on the filed record at adjudication (plan stop rule and TC-104-02 read verbatim; no pre-execution waiver exists in the Spec 104 package or its history ledger; the original blob recovered from commit 173882a2 rehashes to the pin, agreeing with F-104-1's own evidence chain); dated adjudication note appended to `specs/104-quantum-alignment-benchmark/records/stage-1-outcome-record-2026-11-25.md` withdrawing the refresh instruction and recording TC-104-02 in two conjuncts (pin FAILED, matrix PASSED); no numerical result affected; adjudication at `records/coscientist-sweep-adjudication-2026-11-25.md` §2.1 |
 | E-E-2 | Record the Spec 104 benchmark's assignment structure: the synthetic optima attain the row-maxima bound (search-free certificates), and every feasible assignment is a strict one-bit local maximum under the registered penalty and proposals | done | APPLY; verified by independent recomputation at adjudication on tower-compute (witnesses re-verified against the regenerated matrices; largest single-bit flip deltas reproduced exactly: -38 / -75 / -159 / -259 / -371 / -565; 200 random feasible points on the 12x48 instance with no nonnegative flip); analytical supplement appended to the Spec 104 outcome record; no new timing campaign; adjudication §2.2 |
-| E-E-3 | Complete C-E-2's propagation: the deposited v3 paper's Scope-section quotation still carries the pre-amendment (OD-12) form of the canonical description | accepted | APPLY WITH MODIFICATION; sustained against the v3 release source (the OD-C-1 clause is absent from the p. 9 quotation and no superseded label is present; the amendment reached the repository records and the Zenodo v3 description only); C-E-2 annotated accordingly; the act is the Eteocypriot v4 paper substituting the amended quotation, dated as amended 2026-11-23, under the loop's standing publish instruction; done when the v4 deposit verifies; adjudication §2.3 |
+| E-E-3 | Complete C-E-2's propagation: the deposited v3 paper's Scope-section quotation still carries the pre-amendment (OD-12) form of the canonical description | done | APPLY WITH MODIFICATION; sustained against the v3 release source (the OD-C-1 clause is absent from the p. 9 quotation and no superseded label is present; the amendment reached the repository records and the Zenodo v3 description only); C-E-2 annotated accordingly; the act is the Eteocypriot v4 paper substituting the amended quotation, dated as amended 2026-11-23, under the loop's standing publish instruction; done when the v4 deposit verifies; adjudication §2.3; DONE 2026-11-25: the v4 paper carries the amended quotation in its Scope section (Zenodo record 24545017, DOI 10.5281/zenodo.24545017); Academia work 181628208 updated and verified live the same day; ResearchGate trails under the shared daily budget; see the v4 addendum in `specs/096-eteocypriot-program/records/release-record-2026-11-22.md` |
 
 ## Meroitic rows
 
@@ -312,7 +312,7 @@ actual text; nothing is deposited on this round alone.
 ### Round E — sweep (2026-11-25)
 
 | E-M-1 | The Spec 103 checker does not implement spec §3.4 as written (any-witness FAITHFUL; uncertainty erasure in expansion preprocessing) — narrow reopening of D-M-3, checker conformance only | accepted | APPLY WITH MODIFICATION; sustained on reproduction at adjudication against the filed script (SHA-256 661f0afc...): witnesses {soreyi, ato} classify FAITHFUL with verdicts {attests_form, absent}, and `[soreyi?]` tokenizes to an unqualified exact match; the filed aggregate's 14 counted loci carry no mixed witness-verdict set, and the uncertainty-erasure impact on historical classifications is indeterminate from the filed aggregate; D-M-3's CLAIM STANDS outcome and six-form table preserved; conformance annotation appended to `specs/103-meroitic-source-witness-check/records/stage-1-outcome-record-2026-11-23.md`; the remaining act is the conformance addendum (aggregation fix, uncertainty retention, regression tests, affected-case audit and replay on already-held witnesses; no new acquisition, no split change); adjudication §3.1 |
-| E-M-2 | Complete C-M-26's propagation: the deposited v3 paper's closing canonical block (p. 12) still quotes the superseded OD-22 summary as the canonical wording | accepted | APPLY; sustained against the v3 release source (the block quotes OD-22 under a present-tense canonical introduction; the OD-C-5 text reached the Zenodo v3 description only; no historical designation in the paper); C-M-26 annotated accordingly; the act is the Meroitic v4 paper replacing the block with the OD-C-5 text credited as adopted 2026-11-23, under the loop's standing publish instruction; done when the v4 deposit verifies; adjudication §3.2 |
+| E-M-2 | Complete C-M-26's propagation: the deposited v3 paper's closing canonical block (p. 12) still quotes the superseded OD-22 summary as the canonical wording | done | APPLY; sustained against the v3 release source (the block quotes OD-22 under a present-tense canonical introduction; the OD-C-5 text reached the Zenodo v3 description only; no historical designation in the paper); C-M-26 annotated accordingly; the act is the Meroitic v4 paper replacing the block with the OD-C-5 text credited as adopted 2026-11-23, under the loop's standing publish instruction; done when the v4 deposit verifies; adjudication §3.2; DONE 2026-11-25: the v4 paper's closing canonical block prints the OD-C-5 summary (Zenodo record 24545036, DOI 10.5281/zenodo.24545036); Academia work 181628423 updated and verified live the same day; ResearchGate trails under the shared daily budget; see the v4 addendum in `specs/097-meroitic-reproduction-benchmark/records/release-record-2026-11-22.md` |
 | E-M-3 | Make Spec 106's §7/§8 ensemble status aggregation mutually exclusive before the first scored instance (all-UNDERIVABLE, all-UNTRANSLATABLE, and zero-survivor cases) | done | APPLY; sustained on the framework text (no precedence or aggregation rule exists in the framework or templates); dated clarification appended at framework §8.1 registering the aggregation table (no survivors -> no status, exhaustion is not refutation; all-UNTRANSLATABLE -> coverage failure; REFUTED-IN-ENSEMBLE requires a surviving instance deriving the negation; all-UNDERIVABLE -> UNDERIVABLE); no instance has run, so no result is affected; adjudication §3.3 |
 
 ## Counts
@@ -327,9 +327,9 @@ actual text; nothing is deposited on this round alone.
 | Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
 | Eteocypriot, Round D | 2 | 2 | 0 | 0 | 0 | 0 |
 | Meroitic, Round D | 3 | 3 | 0 | 0 | 0 | 0 |
-| Eteocypriot, Round E | 3 | 2 | 1 | 0 | 0 | 0 |
-| Meroitic, Round E | 3 | 1 | 2 | 0 | 0 | 0 |
-| **Total** | **125** | **70** | **34** | **0** | **0** | **21** |
+| Eteocypriot, Round E | 3 | 3 | 0 | 0 | 0 | 0 |
+| Meroitic, Round E | 3 | 2 | 1 | 0 | 0 | 0 |
+| **Total** | **125** | **72** | **32** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -423,6 +423,15 @@ checker conformance only, carried at E-M-1; following
 the B-M-9 / D-M-1 precedent, D-M-3's own row stands done
 with its outcome preserved. Totals after Round E:
 125 rows — 70 done, 34 accepted, 0 open, 21 rejected.
+
+V4 addendum (2026-11-25): the two paper acts discharged
+the same day — Eteocypriot v4 (Zenodo record 24545017,
+DOI 10.5281/zenodo.24545017) and Meroitic v4 (record
+24545036, DOI 10.5281/zenodo.24545036), Academia works
+181628208 and 181628423 updated and verified live;
+rows E-E-3 and E-M-2 stand done. Totals: 125 rows —
+72 done, 32 accepted, 0 open, 21 rejected. E-M-1
+remains accepted on the conformance addendum.
 
 ## Briefing rule (closing note)
 

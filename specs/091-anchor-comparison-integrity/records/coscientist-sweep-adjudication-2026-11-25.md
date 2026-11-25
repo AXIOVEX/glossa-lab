@@ -478,3 +478,51 @@ addendum's execution.
 **AI disclosure:** this adjudication was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+## 7. Addendum — the v4 releases (2026-11-25)
+
+The two paper items discharged the same day, under the
+loop's standing publish instruction (venue order: Zenodo,
+then Academia, ResearchGate last under the shared daily
+budget).
+
+- **Eteocypriot v4** (unit E-E-3): Zenodo record 24545017,
+  DOI 10.5281/zenodo.24545017 (concept
+  10.5281/zenodo.24449059), file
+  `eteocypriot-alignment-v4.pdf`, 10 pages, PDF SHA-256
+  `f3f6a343d2f9646ea0a5c6bbf9ff8e93434eb1e77159251c49c6522044fcaa71`.
+  The single change from v3 is the Scope-section quotation,
+  which now carries the amended (2026-11-23) form of the
+  canonical description. Academia work 181628208 updated
+  in place (v4 attachment, DOI field, listing text set to
+  the Zenodo v4 description) and verified on the live page
+  the same day. Release record: v4 addendum in
+  `specs/096-eteocypriot-program/records/release-record-2026-11-22.md`.
+- **Meroitic v4** (unit E-M-2): Zenodo record 24545036,
+  DOI 10.5281/zenodo.24545036 (concept
+  10.5281/zenodo.24449061), file
+  `meroitic-reproduction-benchmark-v4.pdf`, 13 pages, PDF
+  SHA-256
+  `1203431526ba7eea9828e86941bea96e14f7e0b455c577df6755f041ee30aa81`.
+  The single change from v3 is the closing canonical
+  block, which now prints the OD-C-5 summary adopted
+  2026-11-23. Academia work 181628423 updated in place and
+  verified on the live page the same day. Release record:
+  v4 addendum in
+  `specs/097-meroitic-reproduction-benchmark/records/release-record-2026-11-22.md`.
+- **ResearchGate trails:** publications 418211795 and
+  418214318 are scheduled to receive their v3 updates on
+  2026-11-26 under the shared account-wide budget (that
+  day's three changes are fully committed: the Riemann
+  retry and the two v3 updates). The v4 updates therefore
+  trail to a later day under the same budget and are
+  recorded here as trailing, not forced. Zenodo is the
+  record of record.
+- **Ledger:** rows E-E-3 and E-M-2 stand done on this
+  evidence. Totals after this addendum: **125 rows — 72
+  done, 32 accepted, 0 open, 21 rejected.** Row E-M-1
+  remains accepted on the Spec 103 conformance addendum.
+- **Loop wait:** the 1 hour post-publication wait runs
+  from the Zenodo publications of 2026-11-25 (~23:03Z /
+  18:03 ET). **Round F falls due after ~19:03 ET on
+  2026-11-25.**

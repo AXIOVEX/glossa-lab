@@ -254,3 +254,52 @@ above: no verdict, standing, tally, score, or claim changed.
   after the wait belongs to the parent chat.
 - **Ledger:** recommendations-ledger rows D-M-1 and D-M-2 are
   moved to done on this evidence.
+
+## Addendum 2026-11-25 (v4 loop-iteration deposit)
+
+Under the owner's standing loop order and the Round E
+adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md`,
+unit E-M-2), the v4 iteration corrects the one quotation
+Round E found stale. BOOKKEEPING ONLY, as above: no verdict,
+standing, tally, score, or claim changed.
+
+- **Paper change (one item):** the closing canonical-wording
+  block now prints the summary adopted on 2026-11-23
+  (OD-C-5); the v3 paper printed the superseded 2026-11-22
+  summary (OD-22) in that block. The block's introduction
+  now credits the 2026-11-23 adoption and the supersession.
+  No other text changes.
+- **Zenodo:** record 24545036, DOI 10.5281/zenodo.24545036
+  (concept DOI 10.5281/zenodo.24449061), file
+  `meroitic-reproduction-benchmark-v4.pdf`, 13 pages, PDF
+  SHA-256
+  `1203431526ba7eea9828e86941bea96e14f7e0b455c577df6755f041ee30aa81`,
+  MD5 `65abc68d89784bd6b208acc542b3d5c1`. The record
+  description is the v3 description plus a version note
+  stating the single correction. Related identifiers
+  carried over. The printed DOI is the v4 version DOI and
+  the in-text label reads "Preprint v4". Verified from the
+  published record after publish (2026-11-25 ~23:04Z).
+  Final TeX SHA-256
+  `c7a009480e62a1214b6e2369ca00bd3e076e119472106aba517e6c7c895f68bf`.
+- **Academia:** work 181628423 updated in place through the
+  tower-compute automation profile: v4 attachment replacing
+  the v3 file, DOI field set to 10.5281/zenodo.24545036,
+  listing text set to the Zenodo v4 description. Verified
+  on the live page 2026-11-25 (new DOI displayed; v4 file
+  name shown; the version note present in the listing
+  text).
+- **ResearchGate:** publication 418214318 carries v2 at
+  this filing and is already scheduled to receive v3 on
+  2026-11-26 under the shared daily budget (that day's
+  three changes are fully committed: the Riemann retry and
+  the two v3 updates). The v4 update trails to a later day
+  under the same budget; Zenodo is the record of record.
+- **Loop wait:** the 1 hour post-publication wait runs
+  from the Zenodo publication of 2026-11-25 (~23:04Z,
+  18:04 ET). Round F falls due after ~19:04 ET.
+- **Ledger:** recommendations-ledger row E-M-2 is moved to
+  done on this evidence; row C-M-26's Round E annotation
+  stands as the pointer to the propagation leg this
+  release closes.
