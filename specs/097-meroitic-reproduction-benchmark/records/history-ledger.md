@@ -239,3 +239,9 @@ Rests on: `records/od-c4-external-replay-commission-2026-11-23.md`
 The benchmark and campaign stages on file close with the release record of 2026-11-22 and the OD-C-4 external replay commission of 2026-11-23, which stands open on CODECHECK's triage. Expert verification under Stage 4.5 stands open on the correspondents' replies, as the Stage 4.5 supplement records.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-25 - v4 release (Round E item E-M-2)
+
+Round E found the v3 paper's closing canonical block still quoting the superseded OD-22 summary as the canonical wording. The v4 release corrects exactly that block to the OD-C-5 summary adopted 2026-11-23 (Zenodo record 24545036, DOI 10.5281/zenodo.24545036; Academia work 181628423 updated and verified live; ResearchGate trailing under the shared daily budget). No verdict, standing, or tally changed.
+
+Rests on: `records/release-record-2026-11-22.md` (v4 addendum, 2026-11-25) and `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md` §§3.2, 7.
