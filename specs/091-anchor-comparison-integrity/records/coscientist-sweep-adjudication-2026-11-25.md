@@ -526,3 +526,57 @@ budget).
   from the Zenodo publications of 2026-11-25 (~23:03Z /
   18:03 ET). **Round F falls due after ~19:03 ET on
   2026-11-25.**
+
+## 8. Addendum — the Spec 103 conformance addendum executed (2026-11-25)
+
+Unit E-M-1's follow-on act is discharged the same day.
+The conformance addendum was registered before any
+revised execution ran
+(`specs/103-meroitic-source-witness-check/records/conformance-addendum-registration-2026-11-25.md`,
+stating the adjudicated treatment where the frozen
+tokenization and §3.4's definitions conflict), then
+executed on tower-compute against the pinned build
+(outcome record:
+`specs/103-meroitic-source-witness-check/records/conformance-addendum-outcome-2026-11-25.md`;
+machine results: `conformance-addendum-results-2026-11-25.json`
+in the same records folder).
+
+- **Repairs.** The corrected checker
+  (`records/conformance-addendum-script.py`; the filed
+  Stage 1 script is not edited) aggregates witnesses so
+  disagreement is explicit — FAITHFUL only on unanimous
+  unqualified attestation, an attestation coexisting
+  with an absence is DISCREPANCY — and retains
+  uncertainty markup as a per-token flag through
+  classification, an attestation resting only on flagged
+  tokens being an uncertain attestation.
+- **Regression tests.** 10 tests, all PASS
+  (`records/conformance-addendum-tests.py`): both
+  counterexamples classify as filed under the control
+  implementation and as §3.4 requires under the
+  corrected one; the preserved behaviours are asserted
+  for both.
+- **Replay.** Step 1 reproduces the filed basis and
+  counts exactly; the control implementation reproduces
+  the filed classifications and verdicts at all 47 loci
+  (14 counted, 33 near) with 0 mismatches; the corrected
+  classifications are identical at every locus.
+- **Bounds.** Deviation 1: 0 of the 14 counted loci
+  carry a mixed filed witness-verdict set — the
+  any-witness pass masked no actual disagreement.
+  Deviation 2: markup incidence across all 25 held-out
+  witnesses is 0 — its historical impact, indeterminate
+  from the filed aggregate at adjudication, is bounded
+  at zero within the held witnesses.
+- **Outcome.** The unchanged Step 4 machinery on the
+  corrected classifications returns the filed six-form
+  table exactly (CLAIM STANDS for soreyi, xolkete,
+  pxolkete, xolkte, wisi; asoreyi NOT CHECKED —
+  INCOMPLETE COVERAGE). D-M-3's outcome is preserved on
+  replay evidence.
+- **Ledger:** row E-M-1 stands done on this evidence.
+  Totals after this addendum, recounted from the data
+  rows at its landing (which follows the Round F
+  landing, PR #744): **126 rows — 74 done, 31 accepted,
+  0 open, 21 rejected.** No OWNER DECISION arises; no
+  standing, verdict, or tally moved.
