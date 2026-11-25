@@ -23,3 +23,9 @@ Rests on: `records/stage-1-outcome-record-2026-11-25.md`
 Registered and executed on 2026-11-25; the Stage 1 outcome record closes the study (classical arm complete; quantum arm NOT EXECUTED - ROUTE DEAD, as that record states).
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-25 - Round E adjudication note and analytical supplement
+
+Round E of the Co-scientist loop (Eteocypriot session) raised two findings on this study, both sustained at adjudication and landed as dated appends to the outcome record: E-E-1 (the F-104-1 pin framing corrected — the historical freeze pin stands and its refresh instruction is withdrawn; TC-104-02 recorded in two conjuncts; the continuation past the failed pin recorded as a departure from the registered stop rule) and E-E-2 (analytical supplement: the synthetic optima attain the row-maxima bound with search-free certificates, and every feasible assignment is a strict one-bit local maximum under the registered penalty and proposals). No numerical result changed.
+
+Rests on: `records/stage-1-outcome-record-2026-11-25.md` (adjudication note and analytical supplement, 2026-11-25) and `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md` §§2.1–2.2.

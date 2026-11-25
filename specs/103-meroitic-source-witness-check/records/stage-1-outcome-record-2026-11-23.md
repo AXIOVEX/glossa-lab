@@ -194,3 +194,65 @@ own record, and the historical tally is preserved.
 **AI disclosure:** executed by an AI agent (Muse,
 via Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.
+
+## Conformance annotation — Round E, 2026-11-25 (the executed checker deviates from §3.4 in two places)
+
+Appended 2026-11-25 under the Round E adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md`,
+unit E-M-1), which reopens ledger row D-M-3 in the narrow
+scope of checker conformance only. The outcome recorded
+above — no discrepancy at any witness-covered locus, CLAIM
+STANDS for the five witnessed forms, asoreyi NOT CHECKED —
+is preserved and is not reopened by this annotation.
+
+The executed checker (this record's Stage 1 execution
+script, SHA-256
+`661f0afc1e5e993c9536be5f42fb4f5ac9e86ea5bac1de80f7c31afc8017531a`)
+deviates from spec §3.4 as written, in two places. Both
+were demonstrated on synthetic witnesses against the filed
+functions, isolated without editing their logic, and
+reproduced independently at adjudication on tower-compute:
+
+1. **Any-witness FAITHFUL.** `classify_counted_locus()`
+   returns FAITHFUL as soon as any witness verdict is
+   `attests_form`. Section 3.4 defines FAITHFUL as "every
+   available witness agrees with the ingested text at the
+   locus", and DISCREPANCY to include a witness showing a
+   different token at the locus. Counterexample: extraction
+   token `soreyi`, witnesses {`soreyi`, `ato`} — the filed
+   code returns FAITHFUL with witness verdicts
+   {attests_form, absent}.
+2. **Uncertainty erasure in preprocessing.**
+   `expansion_tokens()` replaces `[`, `]`, `?`, `!` and
+   other markup with separators before classification, so
+   a qualified witness token becomes an unqualified exact
+   match with no uncertainty flag retained. Section 3.4's
+   UNCERTAIN covers the witness that "is itself damaged or
+   ambiguous at the locus (lacuna dots, bracketed or
+   partial signs)". Counterexample: expansion record
+   `[soreyi?]` tokenizes to `["soreyi"]`, which attests the
+   form as an exact match.
+
+Scope bounds, as established at adjudication: the filed
+aggregate results contain no counted locus with a mixed
+witness-verdict set (the 14 counted loci were scanned), so
+deviation 1 is not shown to have masked any actual
+disagreement in the executed payload. Whether deviation 2
+affected any historical classification is indeterminate
+from the filed aggregate, which does not preserve raw
+uncertainty markup; near-form loci are carried there as
+census counts, not per-locus verdicts.
+
+Follow-on act, recorded at adjudication and executed as a
+conformance addendum to this study: correct the witness
+aggregation so disagreement is explicit (no any-witness
+pass); retain uncertainty markers through classification;
+add both counterexamples as regression tests; audit the
+already-held witnesses for uncertainty-bearing candidate
+loci and replay only affected classifications under the
+corrected implementation. No new witness acquisition, no
+split change. Where the frozen tokenization and §3.4's
+classification definitions conflict, the addendum states
+the adjudicated treatment before any revised execution;
+the filed execution and this outcome record are not
+rewritten.
