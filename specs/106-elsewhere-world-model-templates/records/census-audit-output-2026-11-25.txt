@@ -1,0 +1,5 @@
+indus: 88 axioms  F=4 K=74 H=10  sha256(ax-lines)=eb0e1d6218fadf8eed06c78eeb92979163ebb37b1206eb3d151c9c0d23b501e6
+eteocypriot: 71 axioms  F=3 K=58 H=10  sha256(ax-lines)=fca1cc8a238631b0c6df8b2901daa5e84dc4cb2387dcdad560285c6e95beec4f
+meroitic: 76 axioms  F=4 K=62 H=10  sha256(ax-lines)=eeadf46e336fa80d09bcffa2538d3cf4c32c8756fdb6150c817ff0b19cdb4cf4
+
+AUDIT PASS: TC-106-02, TC-106-03, TC-106-04, TC-106-05 all pass.

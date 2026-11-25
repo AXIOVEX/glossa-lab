@@ -16,8 +16,8 @@
    "Site & chronology data"
   ],
   "Anchors & readings": [
-   "Anchor provenance, Phases 52–110",
-   "Validation batteries for the SA-lineage anchors, Phases 111–119",
+   "Anchor provenance, Phases 52\u2013110",
+   "Validation batteries for the SA-lineage anchors, Phases 111\u2013119",
    "Single-anchor adjudications"
   ],
   "Claim families by study line": [
@@ -55,22 +55,22 @@
   {
    "spec_dir": "004-indus-executable-package",
    "domain": "Anchors & readings",
-   "subdomain": "Anchor provenance, Phases 52–110"
+   "subdomain": "Anchor provenance, Phases 52\u2013110"
   },
   {
    "spec_dir": "005-phase52-v2",
    "domain": "Anchors & readings",
-   "subdomain": "Anchor provenance, Phases 52–110"
+   "subdomain": "Anchor provenance, Phases 52\u2013110"
   },
   {
    "spec_dir": "006-anchor-provenance-audit",
    "domain": "Anchors & readings",
-   "subdomain": "Anchor provenance, Phases 52–110"
+   "subdomain": "Anchor provenance, Phases 52\u2013110"
   },
   {
    "spec_dir": "007-phase109-follow-through",
    "domain": "Anchors & readings",
-   "subdomain": "Anchor provenance, Phases 52–110"
+   "subdomain": "Anchor provenance, Phases 52\u2013110"
   },
   {
    "spec_dir": "008-m222-adjudication",
@@ -80,22 +80,22 @@
   {
    "spec_dir": "009-phase111-blind-affiliation",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "010-phase112-blind-affiliation",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "011-phase113-nonsa44-validation",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "012-phase113-blind-affiliation",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "013-tn-graffiti-crosswalk",
@@ -105,7 +105,7 @@
   {
    "spec_dir": "014-phase115-nonsa44-validation-v2",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "015-phase116-corpus-harmonization",
@@ -115,17 +115,17 @@
   {
    "spec_dir": "016-phase117-within-compilation-validation",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "017-phase118-within-compilation-validation-v2",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "018-phase119-pred2026-readiness",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "019-phase125-cross-compilation-positional",
@@ -530,17 +530,17 @@
   {
    "spec_dir": "098-identifiability-over-the-65",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "099-inference-log",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "100-motif-claims-rerun",
    "domain": "Anchors & readings",
-   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
+   "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111\u2013119"
   },
   {
    "spec_dir": "101-eteocypriot-next-claim",
@@ -559,6 +559,11 @@
   },
   {
    "spec_dir": "104-quantum-alignment-benchmark",
+   "domain": "Program infrastructure",
+   "subdomain": "Governance, lifecycle & generated layers"
+  },
+  {
+   "spec_dir": "106-elsewhere-world-model-templates",
    "domain": "Program infrastructure",
    "subdomain": "Governance, lifecycle & generated layers"
   }
