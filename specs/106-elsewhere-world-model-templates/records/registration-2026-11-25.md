@@ -180,3 +180,17 @@ nothing against program data.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Completion pass (2026-11-25, same landing)
+
+- **Departure acts appended.** The three superseded settling
+  records named in §3 departed the run store in this landing;
+  their departure acts were appended to the run index through
+  `run_records.append_act` in this completion commit, naming
+  the registration commit
+  `30224293548478963adc1dbfda7e29fbd80bf48c` as
+  `superseded_by_commit` and each record's blob hash from the
+  pre-landing tree, as §3 anticipated. The run-index
+  completion pass (build_legacy_index.py) entered the legacy
+  event for re_derivations[21] and named the departed records
+  post-spec skips (folded census 89 entries).
