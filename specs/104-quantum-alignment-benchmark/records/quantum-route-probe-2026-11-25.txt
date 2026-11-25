@@ -1,0 +1,28 @@
+Spec 104 — TC-104-06 execution-time IBM Quantum route probe
+Run: 2026-11-25 (execution day), from the Muse VM, via the registered
+connector route (~/workspace/custom-connectors/custom.ibm-quantum/
+bin/ibm_quantum_probe2.py; Authorization: Bearer placement through the
+registered surrogate, Service-CRN header for the program's Open plan
+instance). Response bodies transcribed verbatim from the probe run's
+output (the sandbox blocks redirecting that process's stdout to disk;
+two runs on the day returned identical statuses and error codes).
+
+---
+/api/v1/backends HTTP_ERROR 401
+{"errors":[{"code":1219,"message":"Error authenticating user.","solution":"Your IBM Quantum API token might be incorrect, expired, or revoked.\nLog in to IBM Quantum Platform website and navigate to your account settings to generate a new API token.\nUse IBMProvider.save_account(`APIKEY`, overwrite=True) to save the new API key, overwriting any outdated or incorrect credentials.","more_info":"https://cloud.ibm.com/apidocs/quantum-computing#error-handling"}],"trace":"08d6374d-3acb-4fb5-9d7b-582bd30344da"}
+---
+/api/v1/accounts/014f444c351f4ecbb720d173b3778b85 HTTP_ERROR 401
+{"errors":[{"code":1219,"message":"Error authenticating user.","solution":"Your IBM Quantum API token might be incorrect, expired, or revoked.\nLog in to IBM Quantum Platform website and navigate to your account settings to generate a new API token.\nUse IBMProvider.save_account(`APIKEY`, overwrite=True) to save the new API key, overwriting any outdated or incorrect credentials.","more_info":"https://cloud.ibm.com/apidocs/quantum-computing#error-handling"}],"trace":"300c0c76-1654-4769-88e3-9ffd08c522a3"}
+---
+/api/v1/instances HTTP_ERROR 404
+{"message":"Cannot GET /api/v1/instances","error":"Not Found","statusCode":404}
+---
+
+Reading: the registered connection cannot perform IBM's IAM token
+exchange (the connector's hosts list carries quantum.cloud.ibm.com
+only and the placement is fixed as a bearer header; the exchange
+requires the API key form-encoded at iam.cloud.ibm.com), so the API
+key presented directly as a bearer token is refused with 401/1219.
+No backend list, no job submission, and no simulator session is
+reachable through the registered route. Quantum arm outcome:
+NOT EXECUTED — ROUTE DEAD (spec.md sections 6 and 8; TC-104-06).
