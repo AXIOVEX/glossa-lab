@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1049,
+  "claims_total": 1054,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1025,
+   "draft": 1030,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
-   "ledger_lines": 1080,
+   "ledger_sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
+   "ledger_lines": 1085,
    "ledger_date": "2026-11-25",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "fdae015788ba382ebf93162a773297652fe60d09e8b4bdc80d099eac466bc709",
+   "matrix_sha256": "8f44c32ffc04795bdabd38d922bdced16ab33f7c727708ca43b4eca2453c2ed4",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "583fa5762002e883f5e9aebb4cb7601d3f53f02a60d8f462356cedc878567b02",
-   "comparison_sha256": "f0f709cfa0029329105e877d22dd1a9729f1862ca17c61acd5a6791a80fc4ce5",
-   "settling_canonical_sha256": "e8d9737477cb2d81b3c8f909310e0a6d390eddac98423859267ba6d4a5fc2581"
+   "assignment_sets_sha256": "97e2bf3c9799866dbe3d9cc27b01a33850b1b0b292961032d83d8eb5eff0318b",
+   "comparison_sha256": "b9e3ef6f73196765e86f09a63cbc931bfe13b0b27ddd075027f01f71dd72b96d",
+   "settling_canonical_sha256": "2d53e8b61476e853b19b06704603974e5c6154e4019c33643f1b165621ded52f"
   }
  },
  "elements": [
@@ -8458,6 +8458,46 @@
    "kind": "claim",
    "id": "104-quantum-alignment-benchmark/C104-2",
    "statement": "The classical arms' filed results are the registered procedures' actual outputs on tower-compute: the exact arm's certified optima and times, and the simulated-annealing arm's per-restart best values, optimum-reaching counts, and times, under the parameters and seeds registered in spec section 4, on the real instance and on the synthetic instances the registered generator of spec section 5 produces. This does not establish: any solver's performance on any other instance, formulation, parameter set, or machine.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "105-elsewhere-sandbox/C105-4",
+   "statement": "The sandboxes are separate and the reserves stay sealed: no datum, intermediate, or result from one sandbox is used in another, the three derivations sharing the registered procedure only; the Indus reserve (334 artifacts by the rule of spec section 3.1) is sealed by its filed hash at build and is read by no derivation until the G-IND gate stage unseals it under its own registration; Spec 096's sealed held-out inscriptions are read by no part of this study. This does not establish: that the separation is sufficient for the gates' independence — the gates' own registrations must still show their checkers worked from outside material only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "105-elsewhere-sandbox/C105-2",
+   "statement": "The sandbox datasets are faithful strips of the pinned sources: each dataset's streams reproduce exactly the recorded token streams its strip rule selects (spec section 3) — for Indus, the letters values of the pinned Holdat file (SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e) grouped by form and ordered by seal_id and position; for Eteocypriot, the recorded lines, segments, and marks of ICS 196 and Androkles Dedication A in Spec 096's two corpus files at their current recorded bytes; for Meroitic, the text fields of the stream-carrying rows of the pinned Kovetsky build's inscriptions.jsonl — in every case with all linguistic annotation removed and nothing else removed, and with sealed or stream-less material absent by the registered rules. This does not establish: that any recording is a correct or complete representation of any artifact in the world — the sandbox takes recordings as given and asserts nothing about them beyond their content.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "105-elsewhere-sandbox/C105-1",
+   "statement": "The floor is exactly the census of spec section 2: the only primitives any stage of this study uses are distinction, sequence, co-presence, recurrence, and boundary over the recorded token streams, with the recordings themselves as the one admitted input assumption; every other candidate primitive is demoted in the census with its reason, and no demoted or refused item (counting, frequency, 'word', phonetic or sign value, any scholarly sign list, language family, lexicon, grammar, translation, gloss, imported segmentation, iconographic or contextual meaning, mark similarity, cross-corpus mark identity) is used as an input anywhere in the study. This does not establish: that the floor is sufficient to derive anything — sufficiency is what the ladder and the gates test, rung by rung, and a NOT-GOOD gate is the registered way this study fails.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "105-elsewhere-sandbox/C105-3",
+   "statement": "The Stage 1 inventories are derivations, not imports: each sandbox's L1 inventory filed at Stage 1 is exactly the set of equivalence classes of marks (sameness as recorded, spec section 2 P-1) over that sandbox's derivation set, produced by a derivation that reads the sandbox dataset and nothing else, and reproduced exactly by a second, independently written implementation of the same registered rungs (L0-L1). This does not establish: that the derived inventory is the script's sign inventory — it is the inventory of the recorded streams under distinction alone, filed beside the working sign lists and never merged into them (C105-5).",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "105-elsewhere-sandbox/C105-5",
+   "statement": "The sandbox moves no standing and claims no decipherment: nothing this study files changes any anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs; nothing derived inside a sandbox is stated, labelled, or citable as a decipherment, a reading, or evidence for or against any reading; sandbox outputs are labelled sandbox-internal until a boundary gate returns GOOD, and a GOOD gate licenses only the specific comparison it checked. This does not establish: that the derived systems are wrong — only that this study's outputs carry no standing outside the sandbox until the gates say what they say.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -28168,6 +28208,61 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "105-elsewhere-sandbox/C105-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "105-elsewhere-sandbox/C105-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "105-elsewhere-sandbox/C105-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "105-elsewhere-sandbox/C105-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "105-elsewhere-sandbox/C105-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "105-elsewhere-sandbox/C105-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "105-elsewhere-sandbox/C105-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "105-elsewhere-sandbox/C105-4",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "105-elsewhere-sandbox/C105-5",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "105-elsewhere-sandbox/C105-5",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -33575,6 +33670,31 @@
    "constrains": 0
   },
   "104-quantum-alignment-benchmark/C104-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "105-elsewhere-sandbox/C105-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "105-elsewhere-sandbox/C105-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "105-elsewhere-sandbox/C105-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "105-elsewhere-sandbox/C105-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "105-elsewhere-sandbox/C105-5": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39872,6 +39992,36 @@
    },
    {
     "id": "104-quantum-alignment-benchmark/C104-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "105-elsewhere-sandbox/C105-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "105-elsewhere-sandbox/C105-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "105-elsewhere-sandbox/C105-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "105-elsewhere-sandbox/C105-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "105-elsewhere-sandbox/C105-5",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -59584,6 +59734,61 @@
     ]
    },
    {
+    "row": "105-elsewhere-sandbox/C105-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "105-elsewhere-sandbox/C105-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "105-elsewhere-sandbox/C105-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "105-elsewhere-sandbox/C105-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "105-elsewhere-sandbox/C105-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "105-elsewhere-sandbox/C105-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "105-elsewhere-sandbox/C105-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "105-elsewhere-sandbox/C105-4",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "105-elsewhere-sandbox/C105-5",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "105-elsewhere-sandbox/C105-5",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -59751,8 +59956,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1049,
-   "rows_with_cells": 1035,
+   "rows_total": 1054,
+   "rows_with_cells": 1040,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -60110,30 +60315,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1572,
+   "cells_total": 1577,
    "cells_by_relation": {
-    "supports": 1565,
+    "supports": 1570,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1565,
+    "documents": 1570,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1040,
-    "total": 1049,
+    "covered": 1045,
+    "total": 1054,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1026,
-      "total": 1026
+      "covered": 1031,
+      "total": 1031
      }
     }
    },
@@ -65178,8 +65383,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1049,
-   "rows_with_cells": 1035,
+   "rows_total": 1054,
+   "rows_with_cells": 1040,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -65537,15 +65742,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1572,
+   "cells_total": 1577,
    "cells_by_relation": {
-    "supports": 1565,
+    "supports": 1570,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1565,
+    "documents": 1570,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -65614,7 +65819,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1025,
+    "draft": 1030,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -65624,26 +65829,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 1009,
+    "created": 1014,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1026,
+    "bundle": 1031,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1040,
-   "total": 1049,
+   "covered": 1045,
+   "total": 1054,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1026,
-     "total": 1026
+     "covered": 1031,
+     "total": 1031
     }
    },
    "gap_claims": [
@@ -65660,8 +65865,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1049,
-   "total": 1049
+   "without_state": 1054,
+   "total": 1054
   },
   "unresolved": {
    "sign_mentions": [
@@ -67147,7 +67352,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261125T143521Z-6c100f",
+      "record": "settling-20261125T173918Z-6d9675",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -67161,7 +67366,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261125T143521Z-0b89c3",
+      "record": "settling-20261125T173923Z-50d87d",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -167904,6 +168109,431 @@
     },
     "sign_records": []
    }
+  },
+  "105-elsewhere-sandbox/C105-4": {
+   "id": "105-elsewhere-sandbox/C105-4",
+   "statement": "The sandboxes are separate and the reserves stay sealed: no datum, intermediate, or result from one sandbox is used in another, the three derivations sharing the registered procedure only; the Indus reserve (334 artifacts by the rule of spec section 3.1) is sealed by its filed hash at build and is read by no derivation until the G-IND gate stage unseals it under its own registration; Spec 096's sealed held-out inscriptions are read by no part of this study. This does not establish: that the separation is sufficient for the gates' independence — the gates' own registrations must still show their checkers worked from outside material only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any Stage 1 record importing another sandbox's output; any derivation input containing a reserve artifact (checked by artifact-index disjointness, TC-105-06); the reserve dataset's hash at any audit differing from the hash filed at build; any access to Spec 096's held-out content in the study's scripts or records."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C105-4",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "105-elsewhere-sandbox/C105-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "105-elsewhere-sandbox/C105-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C105-4",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    },
+    "sign_records": []
+   }
+  },
+  "105-elsewhere-sandbox/C105-2": {
+   "id": "105-elsewhere-sandbox/C105-2",
+   "statement": "The sandbox datasets are faithful strips of the pinned sources: each dataset's streams reproduce exactly the recorded token streams its strip rule selects (spec section 3) — for Indus, the letters values of the pinned Holdat file (SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e) grouped by form and ordered by seal_id and position; for Eteocypriot, the recorded lines, segments, and marks of ICS 196 and Androkles Dedication A in Spec 096's two corpus files at their current recorded bytes; for Meroitic, the text fields of the stream-carrying rows of the pinned Kovetsky build's inscriptions.jsonl — in every case with all linguistic annotation removed and nothing else removed, and with sealed or stream-less material absent by the registered rules. This does not establish: that any recording is a correct or complete representation of any artifact in the world — the sandbox takes recordings as given and asserts nothing about them beyond their content.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any token in any dataset differing from its source as recorded (mark, order, grouping, or line structure); any recorded token selected by the strip rule missing from its dataset; any annotation field or value surviving in a dataset (TC-105-04); any sealed Spec 096 held-out content or stream-less Meroitic row present in a dataset."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C105-2",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "105-elsewhere-sandbox/C105-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "105-elsewhere-sandbox/C105-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C105-2",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    },
+    "sign_records": []
+   }
+  },
+  "105-elsewhere-sandbox/C105-1": {
+   "id": "105-elsewhere-sandbox/C105-1",
+   "statement": "The floor is exactly the census of spec section 2: the only primitives any stage of this study uses are distinction, sequence, co-presence, recurrence, and boundary over the recorded token streams, with the recordings themselves as the one admitted input assumption; every other candidate primitive is demoted in the census with its reason, and no demoted or refused item (counting, frequency, 'word', phonetic or sign value, any scholarly sign list, language family, lexicon, grammar, translation, gloss, imported segmentation, iconographic or contextual meaning, mark similarity, cross-corpus mark identity) is used as an input anywhere in the study. This does not establish: that the floor is sufficient to derive anything — sufficiency is what the ladder and the gates test, rung by rung, and a NOT-GOOD gate is the registered way this study fails.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any build, derivation, or gate record of this study demonstrably using a non-admitted input: a sign or phonetic value, a gloss or translation, a segmentation or normalization not in the recording, an outside inventory, or material from another sandbox or from outside the three pinned sources."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C105-1",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "105-elsewhere-sandbox/C105-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "105-elsewhere-sandbox/C105-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C105-1",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    },
+    "sign_records": []
+   }
+  },
+  "105-elsewhere-sandbox/C105-3": {
+   "id": "105-elsewhere-sandbox/C105-3",
+   "statement": "The Stage 1 inventories are derivations, not imports: each sandbox's L1 inventory filed at Stage 1 is exactly the set of equivalence classes of marks (sameness as recorded, spec section 2 P-1) over that sandbox's derivation set, produced by a derivation that reads the sandbox dataset and nothing else, and reproduced exactly by a second, independently written implementation of the same registered rungs (L0-L1). This does not establish: that the derived inventory is the script's sign inventory — it is the inventory of the recorded streams under distinction alone, filed beside the working sign lists and never merged into them (C105-5).",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "The two implementations' inventories differing for any sandbox; any filed inventory containing a mark absent from its derivation set, or missing a mark present in it; the derivation reading any input other than its sandbox's dataset (the reserve included)."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C105-3",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "105-elsewhere-sandbox/C105-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "105-elsewhere-sandbox/C105-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C105-3",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    },
+    "sign_records": []
+   }
+  },
+  "105-elsewhere-sandbox/C105-5": {
+   "id": "105-elsewhere-sandbox/C105-5",
+   "statement": "The sandbox moves no standing and claims no decipherment: nothing this study files changes any anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs; nothing derived inside a sandbox is stated, labelled, or citable as a decipherment, a reading, or evidence for or against any reading; sandbox outputs are labelled sandbox-internal until a boundary gate returns GOOD, and a GOOD gate licenses only the specific comparison it checked. This does not establish: that the derived systems are wrong — only that this study's outputs carry no standing outside the sandbox until the gates say what they say.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any record of this study stating a changed standing, verdict, or tally; any derived inventory merged into, or cited as, a working sign list; any citing record treating a sandbox output as a decipherment claim or as evidence in another study's adjudication beyond a gate's registered GOOD on its own comparison."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C105-5",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "105-elsewhere-sandbox/C105-5",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "105-elsewhere-sandbox/C105-5",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C105-5",
+     "document_id": null,
+     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
+     "spec": "105-elsewhere-sandbox"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -167911,7 +168541,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "583fa5762002e883f5e9aebb4cb7601d3f53f02a60d8f462356cedc878567b02",
+   "sha256": "97e2bf3c9799866dbe3d9cc27b01a33850b1b0b292961032d83d8eb5eff0318b",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -167955,15 +168585,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261125T143521Z-6c100f",
+    "record": "settling-20261125T173918Z-6d9675",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
-      "lines": 1080
+      "sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
+      "lines": 1085
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -168014,15 +168644,15 @@
     }
    },
    {
-    "record": "settling-20261125T143521Z-0b89c3",
+    "record": "settling-20261125T173923Z-50d87d",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
-      "lines": 1080
+      "sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
+      "lines": 1085
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -168077,7 +168707,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "f0f709cfa0029329105e877d22dd1a9729f1862ca17c61acd5a6791a80fc4ce5",
+   "sha256": "b9e3ef6f73196765e86f09a63cbc931bfe13b0b27ddd075027f01f71dd72b96d",
    "result": {
     "claims_compared": [
      {
@@ -168325,7 +168955,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "e8d9737477cb2d81b3c8f909310e0a6d390eddac98423859267ba6d4a5fc2581",
+   "sha256": "2d53e8b61476e853b19b06704603974e5c6154e4019c33643f1b165621ded52f",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -168660,8 +169290,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1049,
-   "claims_untouched_by_any_run": 1048,
+   "claims_total": 1054,
+   "claims_untouched_by_any_run": 1053,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,

@@ -1,0 +1,29 @@
+# Registration record — Spec 105 (the ELSEWHERE sandbox), 2026-11-25
+
+## 1. The act
+
+Owner's order, Glossa-Lab chat, 2026-11-25: "use ELSEWHERE and define the only primitives as things we know without a doubt and derive our own mathematical and language meaning systems. Assume nothing about the real world, we do this in our ELSEWHERE sandbox for all 3 languages." This record registers Spec 105 (105-elsewhere-sandbox): the ELSEWHERE decipherment sandbox study — three sealed sandboxes (Indus, Eteocypriot, Meroitic), each built by stripping its corpus to marks, order, artifact grouping, and line structure, a derivation ladder (L0–L6) that derives counting, order structure, substitution classes, and a structural meaning system from a declared floor of five doubt-free primitives, and three boundary gates (G-ETE, G-MER, G-IND) at which the outside world answers only GOOD / NOT-GOOD. The spec was registered BEFORE any execution, per the owner's standing spec-kit discipline. This landing is the registration only: the study's Stage 1 execution (the three dataset builds and the L0–L1 derivations) is commissioned by the same act and lands as its own record. No claim in this spec carries a result at this entry, and nothing in the study moves any anchor standing, claim verdict, or tally in any program (claim C105-5). No recommendations-ledger row is opened for this study: the commission is the owner's direct order, not a Co-scientist recommendation (decision D-105-3).
+
+## 2. AEE assessment of record
+
+run_aee.py assess --phase after_plan (aee 1.5.3, run through the PATH shim the tower glossa-ci venv's stale console-script shebangs require): outcome iterate; all 5 claims draft-capped below the 0.70 threshold. The assessment of record is filed at specs/105-elsewhere-sandbox/records/aee-assessment-2026-11-25.json. "Iterate" is the expected outcome for a registration whose claims are by construction not yet evidenced; the claims stand as registered with their falsifiers, to be tested by the study's own test cases and gates.
+
+## 3. Claims intake
+
+The five claims C105-1..C105-5 were appended to glossa-indus/ledger/claims.jsonl through tools/ledger/import_bundle.py on 2026-11-25 (5 appended, 0 already canonical, 5 propositions). The ledger grew 1,080 → 1,085 lines; its canonical SHA-256 moved 0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3 → 01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b. The claims census moved 1,049 → 1,054 (bundle population 1,026 → 1,031; falsifier coverage 1,040 → 1,045 of 1,054).
+
+## 4. Taxonomy
+
+One study entry was appended to glossa-indus/map/program-map-taxonomy.json: 105-elsewhere-sandbox under the domain "Sign inventory & corpus", subdomain "Signary & corpus models" (decision D-105-2 — the study's objects are the three corpora and their derived inventories; the census of that domain's studies moves 20 → 21). The studies census moved 105 → 106.
+
+## 5. Settling layer: verification before the pin move, re-execution, pin refresh
+
+Per the standing order (verify first, pin second), tools/ledger/run_settling.py verify-canonicals was run over the grown build BEFORE any pin moved: 6/6 registered canonicals reproduce. The T405 pair was then re-executed over the grown build at the registered 286-sign scope: incumbent settling-20261125T173918Z-6d9675 and full-register settling-20261125T173923Z-50d87d; both result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records. The stored dual-run comparison (specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json) was re-filed from the new pair; its diff against the superseded filing is the ledger pin only. materialize-sets was re-run (producing run settling-20261125T173941Z-85c20a): the incumbent set carries 94 assignments, the full-register set 286, H003 out of frame — unchanged. The settling canonicals' provenance pin in glossa-indus/ledger/settling-canonical.json was refreshed to the grown build (1,085 lines, canonical SHA-256 01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b) and the re-derivation was recorded as re_derivations[21] in that file. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (the anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's).
+
+## 6. Generated layers and census pins
+
+The generated layers were regenerated over the grown build: the matrix (1,054 claims; 1,577 cells — supports 1,570, opposes 7, constrains 0), the map data, and the program map (106 study nodes; the "Sign inventory & corpus" domain carries 21 studies and 150 claims). The census pins that name these figures were updated in backend/tests/test_program_map_conformance.py, backend/tests/test_spec086_ledger_gate.py, backend/tests/test_spec086_map.py, backend/tests/test_spec095_stage4_instantiation.py, and backend/tests/test_spec095_t403_dashboard.py (including the T405 run-of-record re-pin to settling-20261125T173918Z-6d9675), and in frontend/e2e/system-graph.spec.ts and frontend/e2e/researcher-dashboard.spec.ts.
+
+## 7. Departure of the superseded settling generation
+
+The superseded T405 generation of the Spec 104 registration refresh (settling-20261125T143521Z-6c100f, settling-20261125T143521Z-0b89c3, settling-20261125T143602Z-d9ba61) departs the run store in this landing, under the same discipline as the generations before it: the record files are removed in the registration commit, and the departure accounting (run_records.append_act departure acts naming this landing's registration commit and each record's blob hash from the pre-landing tree, with the build_legacy_index.py completion pass entering re_derivations[21]) follows in the completion commit of this same landing.

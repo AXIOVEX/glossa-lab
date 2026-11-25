@@ -4,14 +4,14 @@
    "by_class": {
     "closed_other": 1,
     "negative": 6,
-    "open": 1040,
+    "open": 1045,
     "positive": 2
    },
    "by_population": {
-    "bundle": 1026,
+    "bundle": 1031,
     "extracted": 23
    },
-   "total": 1049
+   "total": 1054
   },
   "domains": {
    "Anchors & readings": {
@@ -87,19 +87,19 @@
     }
    },
    "Sign inventory & corpus": {
-    "claims": 145,
+    "claims": 150,
     "claims_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 145,
+     "open": 150,
      "positive": 0
     },
     "restricted_studies": 0,
-    "studies": 20,
+    "studies": 21,
     "studies_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 13,
+     "open": 14,
      "positive": 0,
      "unjudged": 7
     }
@@ -117,8 +117,8 @@
     "the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002",
     "without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001"
    ],
-   "present": 1040,
-   "total": 1049
+   "present": 1045,
+   "total": 1054
   },
   "judgment_call_studies": [],
   "multi_spec_claims": [
@@ -171,12 +171,12 @@
    "by_class": {
     "closed_other": 0,
     "negative": 0,
-    "open": 76,
+    "open": 77,
     "positive": 0,
     "unjudged": 28
    },
    "restricted": 1,
-   "total": 105
+   "total": 106
   },
   "unjudged_studies": [
    "001-glossa-lab-baseline",
@@ -14578,6 +14578,76 @@
    },
    {
     "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "105-elsewhere-sandbox/C105-1",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "105-elsewhere-sandbox",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "105-elsewhere-sandbox/C105-2",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "105-elsewhere-sandbox",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "105-elsewhere-sandbox/C105-3",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "105-elsewhere-sandbox",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "105-elsewhere-sandbox/C105-4",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "105-elsewhere-sandbox",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Sign inventory & corpus",
+    "falsifier_present": true,
+    "id": "105-elsewhere-sandbox/C105-5",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "105-elsewhere-sandbox",
+    "subdomain": "Signary & corpus models"
+   },
+   {
+    "class": "open",
     "document": "ancient_writing_and_modern_technologies_51831ac9",
     "domain": "Claim families by study line",
     "falsifier_present": false,
@@ -16572,14 +16642,30 @@
     },
     "restricted": false,
     "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "domain": "Sign inventory & corpus",
+    "id": "105-elsewhere-sandbox",
+    "judgment_call": false,
+    "kind": "study",
+    "member_counts": {
+     "closed_other": 0,
+     "negative": 0,
+     "open": 5,
+     "positive": 0,
+     "total": 5
+    },
+    "restricted": false,
+    "subdomain": "Signary & corpus models"
    }
   ]
  },
  "stamp": {
   "ledger_latest_entry_date": "2026-11-25",
-  "ledger_lines": 1080,
+  "ledger_lines": 1085,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
+  "ledger_sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v1"
  },

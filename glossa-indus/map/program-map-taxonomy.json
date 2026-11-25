@@ -561,6 +561,11 @@
    "spec_dir": "104-quantum-alignment-benchmark",
    "domain": "Program infrastructure",
    "subdomain": "Governance, lifecycle & generated layers"
+  },
+  {
+   "spec_dir": "105-elsewhere-sandbox",
+   "domain": "Sign inventory & corpus",
+   "subdomain": "Signary & corpus models"
   }
  ],
  "extracted_documents": [
