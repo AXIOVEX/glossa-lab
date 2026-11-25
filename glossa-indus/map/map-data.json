@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1049,
+  "claims_total": 1055,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1025,
+   "draft": 1031,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
-   "ledger_lines": 1080,
+   "ledger_sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+   "ledger_lines": 1086,
    "ledger_date": "2026-11-25",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "fdae015788ba382ebf93162a773297652fe60d09e8b4bdc80d099eac466bc709",
+   "matrix_sha256": "db396df651a1b01807b7a1507af64ae766f1193679f23cd32c1a1b8653516e67",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "583fa5762002e883f5e9aebb4cb7601d3f53f02a60d8f462356cedc878567b02",
-   "comparison_sha256": "f0f709cfa0029329105e877d22dd1a9729f1862ca17c61acd5a6791a80fc4ce5",
-   "settling_canonical_sha256": "e8d9737477cb2d81b3c8f909310e0a6d390eddac98423859267ba6d4a5fc2581"
+   "assignment_sets_sha256": "0476cd8d6bade7135a30cd29222d258813763428272d993b2220170cea0e7aa7",
+   "comparison_sha256": "7350afb0c415f3382619a4fdcc08db8c3488151e4e2fa73b7d1f08854be1fa99",
+   "settling_canonical_sha256": "30dd7550c6283c54939f43127b86770f5723b5b91f5acba61528d130d14a6fc0"
   }
  },
  "elements": [
@@ -8458,6 +8458,54 @@
    "kind": "claim",
    "id": "104-quantum-alignment-benchmark/C104-2",
    "statement": "The classical arms' filed results are the registered procedures' actual outputs on tower-compute: the exact arm's certified optima and times, and the simulated-annealing arm's per-restart best values, optimum-reaching counts, and times, under the parameters and seeds registered in spec section 4, on the real instance and on the synthetic instances the registered generator of spec section 5 produces. This does not establish: any solver's performance on any other instance, formulation, parameter set, or machine.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-3",
+   "statement": "The three baseline templates share one schema: the same eight domains in the same order, the same axiom line grammar, and a Domain 1 that is a pointer to Spec 105 rather than duplicated content, so one ensemble technique built for one program runs on all three. This does not establish: that eight domains are the right domains for any other program; the framework leaves domain choice to the adopting program.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-1",
+   "statement": "The framework specification filed as framework.md is complete against its commission: it defines every moving part (baseline template, axiom with kind label, instance, seed, claim, translation, derivation, evidence set, checker, verdict, ensemble, iteration, retirement, solution), states the seeding protocol as an exact seed-record contents list, states the iteration protocol (what may and may not change between iterations, how variations are chosen, how verdicts accumulate), and reserves the word solution for a claim that survives across all surviving instances of its ensemble and passes the adopting program's ordinary boundary gates, with an exact status label for every lesser state. This does not establish: that the framework is a good method or that any program should adopt it; completeness is a property of the text, not of its worth.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-2",
+   "statement": "Every axiom line in the three baseline templates (templates/indus-baseline.md, templates/eteocypriot-baseline.md, templates/meroitic-baseline.md) carries exactly one kind label, (F), (K), or (H), and either a named source or the UNSOURCED flag, and every line whose sourcing is the UNSOURCED flag is an (H). This does not establish: that any axiom is true; the audit checks labeling and sourcing form, not content.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-5",
+   "statement": "Each baseline template carries a seed record in the framework's provenance format (framework section 4) stating study identity, template identity and version, the axiom census as seeded with counts by domain and kind and a SHA-256 over the axiom lines as filed, the claim queue as opened, the evidence set and registered contact points, and date and authorizing order; and the stated counts and hash recompute exactly from the filed template (TC-106-05). This does not establish: that any instance exists; the seed records open the templates' lineages only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-4",
+   "statement": "The three censuses were built from sources actually opened, program records first: each axiom's named source is a source its builder opened in this study's research pass (in full, or at search-result depth where the axiom itself says so), and content whose source could not be opened is cited only as summarised in an opened source, dropped, or carried as (H) UNSOURCED. This does not establish: that the cited sources are right; revisable lines are labeled (K) for exactly that reason.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-6",
+   "statement": "This study spawns no instance, tests no claim, and moves no standing: the landing's changes are confined to this spec's package, its own claims' ledger intake artifacts, the taxonomy entry, and the regenerated layers and census pins of the registration cascade, and no record of any program's standings, verdicts, or tallies is altered in content. This does not establish: that the templates' hypotheses are false or idle; they are declared and seeded, awaiting a Stage 1 commission.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -28168,6 +28216,72 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-4",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-5",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-5",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-6",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-6",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -33575,6 +33689,36 @@
    "constrains": 0
   },
   "104-quantum-alignment-benchmark/C104-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-5": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-6": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39872,6 +40016,42 @@
    },
    {
     "id": "104-quantum-alignment-benchmark/C104-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-5",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-6",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -59584,6 +59764,72 @@
     ]
    },
    {
+    "row": "106-elsewhere-world-model-templates/C106-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "106-elsewhere-world-model-templates/C106-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "106-elsewhere-world-model-templates/C106-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "106-elsewhere-world-model-templates/C106-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-4",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "106-elsewhere-world-model-templates/C106-5",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-5",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "106-elsewhere-world-model-templates/C106-6",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-6",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -59751,8 +59997,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1049,
-   "rows_with_cells": 1035,
+   "rows_total": 1055,
+   "rows_with_cells": 1041,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -60110,30 +60356,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1572,
+   "cells_total": 1578,
    "cells_by_relation": {
-    "supports": 1565,
+    "supports": 1571,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1565,
+    "documents": 1571,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1040,
-    "total": 1049,
+    "covered": 1046,
+    "total": 1055,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1026,
-      "total": 1026
+      "covered": 1032,
+      "total": 1032
      }
     }
    },
@@ -65178,8 +65424,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1049,
-   "rows_with_cells": 1035,
+   "rows_total": 1055,
+   "rows_with_cells": 1041,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -65537,15 +65783,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1572,
+   "cells_total": 1578,
    "cells_by_relation": {
-    "supports": 1565,
+    "supports": 1571,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1565,
+    "documents": 1571,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -65614,7 +65860,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1025,
+    "draft": 1031,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -65624,26 +65870,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 1009,
+    "created": 1015,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1026,
+    "bundle": 1032,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1040,
-   "total": 1049,
+   "covered": 1046,
+   "total": 1055,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1026,
-     "total": 1026
+     "covered": 1032,
+     "total": 1032
     }
    },
    "gap_claims": [
@@ -65660,8 +65906,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1049,
-   "total": 1049
+   "without_state": 1055,
+   "total": 1055
   },
   "unresolved": {
    "sign_mentions": [
@@ -67147,7 +67393,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261125T143521Z-6c100f",
+      "record": "settling-20261125T174854Z-15a33b",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -67161,7 +67407,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261125T143521Z-0b89c3",
+      "record": "settling-20261125T174854Z-99f82a",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -167904,6 +168150,516 @@
     },
     "sign_records": []
    }
+  },
+  "106-elsewhere-world-model-templates/C106-3": {
+   "id": "106-elsewhere-world-model-templates/C106-3",
+   "statement": "The three baseline templates share one schema: the same eight domains in the same order, the same axiom line grammar, and a Domain 1 that is a pointer to Spec 105 rather than duplicated content, so one ensemble technique built for one program runs on all three. This does not establish: that eight domains are the right domains for any other program; the framework leaves domain choice to the adopting program.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "A domain present in one template and absent or reordered in another; an axiom line grammar difference between templates; Spec 105 floor content duplicated into a template's Domain 1 (TC-106-03)."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-3",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-3",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
+  },
+  "106-elsewhere-world-model-templates/C106-1": {
+   "id": "106-elsewhere-world-model-templates/C106-1",
+   "statement": "The framework specification filed as framework.md is complete against its commission: it defines every moving part (baseline template, axiom with kind label, instance, seed, claim, translation, derivation, evidence set, checker, verdict, ensemble, iteration, retirement, solution), states the seeding protocol as an exact seed-record contents list, states the iteration protocol (what may and may not change between iterations, how variations are chosen, how verdicts accumulate), and reserves the word solution for a claim that survives across all surviving instances of its ensemble and passes the adopting program's ordinary boundary gates, with an exact status label for every lesser state. This does not establish: that the framework is a good method or that any program should adopt it; completeness is a property of the text, not of its worth.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any named moving part without a definition in framework.md; a seed record field the protocol does not list; a use of the word solution in the package for anything below the section 8 criterion; a lesser state with no label in the section 8 vocabulary."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-1",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-1",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
+  },
+  "106-elsewhere-world-model-templates/C106-2": {
+   "id": "106-elsewhere-world-model-templates/C106-2",
+   "statement": "Every axiom line in the three baseline templates (templates/indus-baseline.md, templates/eteocypriot-baseline.md, templates/meroitic-baseline.md) carries exactly one kind label, (F), (K), or (H), and either a named source or the UNSOURCED flag, and every line whose sourcing is the UNSOURCED flag is an (H). This does not establish: that any axiom is true; the audit checks labeling and sourcing form, not content.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "One axiom line failing any of those checks under the filed audit (records/census-audit.py, TC-106-02)."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-2",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-2",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
+  },
+  "106-elsewhere-world-model-templates/C106-5": {
+   "id": "106-elsewhere-world-model-templates/C106-5",
+   "statement": "Each baseline template carries a seed record in the framework's provenance format (framework section 4) stating study identity, template identity and version, the axiom census as seeded with counts by domain and kind and a SHA-256 over the axiom lines as filed, the claim queue as opened, the evidence set and registered contact points, and date and authorizing order; and the stated counts and hash recompute exactly from the filed template (TC-106-05). This does not establish: that any instance exists; the seed records open the templates' lineages only.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "A missing section 4 field in any seed record; a stated count or hash that does not recompute from the filed template."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-5",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-5",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-5",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-5",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
+  },
+  "106-elsewhere-world-model-templates/C106-4": {
+   "id": "106-elsewhere-world-model-templates/C106-4",
+   "statement": "The three censuses were built from sources actually opened, program records first: each axiom's named source is a source its builder opened in this study's research pass (in full, or at search-result depth where the axiom itself says so), and content whose source could not be opened is cited only as summarised in an opened source, dropped, or carried as (H) UNSOURCED. This does not establish: that the cited sources are right; revisable lines are labeled (K) for exactly that reason.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "A census axiom citing a source that does not support its statement; a source represented as opened in full that the research record shows only at search-result depth, without the axiom saying so; an axiom resting on Rilly 2010 or Rilly and de Voogt 2012 stated as if read directly."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-4",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-4",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
+  },
+  "106-elsewhere-world-model-templates/C106-6": {
+   "id": "106-elsewhere-world-model-templates/C106-6",
+   "statement": "This study spawns no instance, tests no claim, and moves no standing: the landing's changes are confined to this spec's package, its own claims' ledger intake artifacts, the taxonomy entry, and the regenerated layers and census pins of the registration cascade, and no record of any program's standings, verdicts, or tallies is altered in content. This does not establish: that the templates' hypotheses are false or idle; they are declared and seeded, awaiting a Stage 1 commission.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "An instance, derivation, or claim verdict anywhere in this study's records; a landing diff touching a standing, verdict, or tally record of the Indus, Eteocypriot, or Meroitic programs (TC-106-06)."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-6",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-6",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-6",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-6",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -167911,7 +168667,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "583fa5762002e883f5e9aebb4cb7601d3f53f02a60d8f462356cedc878567b02",
+   "sha256": "0476cd8d6bade7135a30cd29222d258813763428272d993b2220170cea0e7aa7",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -167955,15 +168711,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261125T143521Z-6c100f",
+    "record": "settling-20261125T174854Z-15a33b",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
-      "lines": 1080
+      "sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+      "lines": 1086
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -168014,15 +168770,15 @@
     }
    },
    {
-    "record": "settling-20261125T143521Z-0b89c3",
+    "record": "settling-20261125T174854Z-99f82a",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
-      "lines": 1080
+      "sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+      "lines": 1086
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -168077,7 +168833,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "f0f709cfa0029329105e877d22dd1a9729f1862ca17c61acd5a6791a80fc4ce5",
+   "sha256": "7350afb0c415f3382619a4fdcc08db8c3488151e4e2fa73b7d1f08854be1fa99",
    "result": {
     "claims_compared": [
      {
@@ -168325,7 +169081,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "e8d9737477cb2d81b3c8f909310e0a6d390eddac98423859267ba6d4a5fc2581",
+   "sha256": "30dd7550c6283c54939f43127b86770f5723b5b91f5acba61528d130d14a6fc0",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -168660,8 +169416,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1049,
-   "claims_untouched_by_any_run": 1048,
+   "claims_total": 1055,
+   "claims_untouched_by_any_run": 1054,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,
