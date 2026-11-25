@@ -102,3 +102,26 @@ one-hour wait runs from ~18:03 ET; Round F falls due after
 Rests on: `records/coscientist-sweep-adjudication-2026-11-25.md`
 §7 and the v4 addenda in the Spec 096 and Spec 097 release
 records.
+### 2026-11-25 - Round F sweep
+
+The Round F sweep (the Round D sessions, continued through
+Round E; briefs fired 2026-11-25 ~18:46–18:48 ET through the
+tower-compute automation Brave route) returned an Indus null
+(third consecutive, recorded as brief-level), an Eteocypriot
+null on direct inspection (the session read the
+checksum-matching deposited v4, verified the Round E closures
+in the pinned repository, and independently reconstructed the
+Spec 105 Eteocypriot dataset and reproduced its L2 table),
+and one Meroitic unit: F-M-1, a narrow reopening flag on
+E-M-3's §8.1 aggregation table for the mixed
+translation-coverage case, sustained APPLY and discharged by
+a dated clarification at framework §8.2 filed with the
+adjudication. No standing, verdict, or tally moved, and no
+paper item arose: nothing was published this round, so no
+post-publication wait runs and Round G falls due immediately.
+Ledger after the round: 126 rows — 73 done, 32 accepted,
+0 open, 21 rejected.
+
+Rests on: `records/coscientist-sweep-adjudication-2026-11-25-round-f.md`
+and the captures at the goal's
+`hidden_files/coscientist-sweep-2026-11-25-round-f/`.
