@@ -23,3 +23,9 @@ Rests on: `records/stage-1-outcome-record-2026-11-23.md`
 Registered and executed in one commission in two landings on 2026-11-23; the Stage 1 outcome record closes the study (no DISCREPANCY and no UNCERTAIN classification at any witness-covered locus; one form, asoreyi, NOT CHECKED for incomplete witness coverage, as that record states).
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-25 - Round E conformance annotation (narrow reopening)
+
+Round E of the Co-scientist loop (Meroitic session, unit E-M-1) found the executed checker deviates from spec §3.4 in two places (any-witness FAITHFUL; uncertainty erasure in expansion preprocessing), both reproduced at adjudication against the filed script. A conformance annotation was appended to the outcome record; ledger row D-M-3 stands reopened in the narrow scope of checker conformance only (carried as row E-M-1), with this study's outcome (CLAIM STANDS for the five witnessed forms; asoreyi NOT CHECKED) preserved. The conformance addendum (checker repair, regression tests, affected-case audit and replay on already-held witnesses) is recorded as the follow-on act.
+
+Rests on: `records/stage-1-outcome-record-2026-11-23.md` (conformance annotation, 2026-11-25) and `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md` §3.1.

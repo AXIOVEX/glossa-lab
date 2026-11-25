@@ -61,3 +61,26 @@ The rounds continue under the standing loop order. The next round (Round E) fell
 GAP: no Round E capture or adjudication record is on file at backfill; this ledger records the round as due, not as run.
 
 Rests on: the entries above, as filed.
+### 2026-11-25 - Round E sweep
+
+The Round E sweep (the Round D sessions, continued; briefs
+fired 2026-11-25 ~17:31–17:36 ET through the tower-compute
+automation Brave route, after the one-hour post-publication
+wait on the v3 releases expired) returned an Indus null
+(second consecutive, recorded as brief-level), three
+Eteocypriot units (E-E-1 to E-E-3) and three Meroitic units
+(E-M-1 to E-M-3). All six units are record, checker,
+framework, or paper-propagation findings; no standing,
+verdict, or tally moved. Dispositions: 3 APPLY, 3 APPLY
+WITH MODIFICATION, no owner decision required. The round's
+paper items (E-E-3, E-M-2) substitute already-adopted
+canonical wording (OD-C-1, OD-C-5) into the deposited v3
+papers' own pages and proceed to v4 releases under the
+standing loop; ledger row D-M-3 was reopened in the narrow
+scope of checker conformance only. This entry answers the
+backfill's GAP entry above by appending, as the convention
+provides; the GAP entry itself stands as written.
+
+Rests on: `records/coscientist-sweep-adjudication-2026-11-25.md`
+and the captures at the goal's
+`hidden_files/coscientist-sweep-2026-11-25/`.

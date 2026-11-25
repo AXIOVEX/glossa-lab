@@ -159,3 +159,109 @@ to schedule. TC-104-02 is therefore recorded as
   dead; the claim's comparison was never run and no
   quantum result is asserted in either direction.
 - C104-4 (no standing moves): held.
+
+## Adjudication note — Round E, 2026-11-25 (F-104-1 corrected; TC-104-02 recorded in two conjuncts)
+
+Appended 2026-11-25 under the Round E adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md`,
+unit E-E-1). The filed text above stands; this note governs
+its reading.
+
+1. **The historical freeze pin stands.** The Spec 096
+   freeze pin `5077285e…` correctly identifies the corpus
+   bytes as frozen at Spec 096 Stage 1 (commit `173882a2`);
+   the blob was recovered from that commit during Round E
+   and rehashes to the pin. The pin names the executed
+   bytes, as the Eteocypriot v3 paper's §5.4 states ("the
+   freeze pin was deliberately not re-set, because the pin
+   names the executed bytes"). Finding F-104-1's
+   disposition sentence — that refreshing the pin and the
+   frozen driver constant is a Spec 096 housekeeping act —
+   is **withdrawn**. No refresh is owed, here or in Spec
+   096's records. The mismatch this study found is a
+   current-input mismatch (the corpus file as it stands
+   today hashes to `2954283d…` after metadata-only red-team
+   corrections), not an error in the historical pin. A
+   future benchmark that consumes a corpus registers a pin
+   for the bytes it consumes; it does not re-point a
+   historical freeze pin.
+2. **TC-104-02 is recorded in two conjuncts.** Pin
+   conjunct: **FAILED** (the consumed file does not hash
+   to the Spec 096 freeze pin). Matrix conjunct: **PASSED**
+   (the recomputed matrix equals the filed E1 run record's
+   `lccs_by_segment` cell for cell, and the derived
+   spellings equal the run record's). The table entry
+   "PASS WITH DEVIATION F-104-1" is superseded by this
+   two-conjunct recording.
+3. **The continuation was a departure from the registered
+   stop rule.** The plan's Stage 1 stop rule names the
+   corpus pin's failure as a stop event, and TC-104-02's
+   pass condition is conjunctive. No pre-execution waiver,
+   amendment, or registered "content gate" exists in this
+   package or its history ledger; the phrase "the
+   registered content gate" in F-104-1's disposition names
+   no registered text. The execution proceeded on the
+   matrix conjunct alone, and that continuation is recorded
+   here as a departure from the registered stop rule,
+   disclosed rather than absorbed into a pass label. It is
+   not retroactively ratified by this note.
+4. **No numerical result is affected.** The consumed bytes
+   are proven identical in every driver-read field to the
+   E1 run's bytes (the matrix conjunct above, and the
+   field-level diff recorded in the Eteocypriot program's
+   records), so the certified optimum, the scaling
+   measurements, and the Spec 096 verdicts are untouched.
+
+## Analytical supplement — Round E, 2026-11-25 (the assignment structure of the benchmark)
+
+Appended 2026-11-25 under the Round E adjudication (unit
+E-E-2). The measurements in the outcome record stand as
+measurements of the registered implementation; this
+supplement governs their interpretation.
+
+The benchmark's constrained problem is a rectangular
+max-weight assignment: choose at most one segment per word
+and at most one word per segment, maximizing the summed
+score. A universal upper bound is the sum of the row
+maxima, U. The six synthetic optima all attain U, so each
+carries a search-free optimality certificate — a feasible
+assignment whose every selected cell is its row's maximum:
+
+| instance | U | certified optimum | attains U |
+|---|---|---|---|
+| real-ics196 (2×11) | 8 | 6 | no |
+| synthetic-1 (3×14) | 10 | 10 | yes |
+| synthetic-2 (4×18) | 14 | 14 | yes |
+| synthetic-3 (6×24) | 24 | 24 | yes |
+| synthetic-4 (8×32) | 32 | 32 | yes |
+| synthetic-5 (10×40) | 40 | 40 | yes |
+| synthetic-6 (12×48) | 48 | 48 | yes |
+
+The witnesses were re-verified at adjudication against the
+matrices regenerated from the filed generator (distinct
+columns; selected scores equal to the row maxima; totals
+equal to U and to the filed ILP values). The real instance
+does not attain its bound, which is why it alone required
+the exhaustive and ILP certification it received.
+
+Under the registered penalty P = 1 + Σs and single-bit
+proposals, every feasible assignment is a strict one-bit
+local maximum. From any feasible point, the three possible
+single-bit changes alter F by: removing a selected bit,
+−s − P; adding a bit in an unused column, s − P; adding a
+bit in an occupied column, s − 2P. All three are negative
+for nonnegative scores, since P exceeds every score and
+twice every score. Numerically, the largest single-bit
+flip deltas at the returned optima are −22 (real) and
+−38 / −75 / −159 / −259 / −371 / −565 (synthetic 1–6), and
+200 random feasible points on the 12×48 instance show no
+nonnegative single-bit flip. SA progress from a feasible
+point therefore always requires a coordinated multi-bit
+escape or a passage through infeasible points; the
+measured decline of fixed-budget SA with size is a
+property of this encoding and proposal set acting on these
+instances, not evidence that the underlying assignment
+problem hardens, and not a scaling result about assignment
+problems generally. This supplement does not apportion the
+observed SA gap between barrier-escape difficulty and the
+fixed proposal budget; no causal fraction is claimed.

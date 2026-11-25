@@ -262,6 +262,50 @@ standings, verdicts, and tallies in the adopting program are
 untouched by ensemble results until condition 3 is met through
 that program's own route.
 
+### 8.1 Aggregation precedence (clarification, Round E adjudication, 2026-11-25)
+
+Section 7's three readings and the status vocabulary above
+do not by themselves make the ensemble statuses mutually
+exclusive: an ensemble in which no surviving instance
+derives a claim satisfies §7's "dead" wording whether the
+survivors returned UNDERIVABLE, UNTRANSLATABLE, or an
+explicit negation. This clarification, appended 2026-11-25
+under the Round E adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md`,
+unit E-M-3) and registered before any scored instance has
+run, governs the reading of §§7–8. For one claim, tally the
+surviving instances' outcomes first, then apply exactly one
+row:
+
+- **No surviving instance** → no ensemble status is
+  returned. The ensemble is recorded as model exhaustion;
+  exhaustion is not refutation, and the claim remains
+  UNTESTED.
+- **Every surviving instance UNTRANSLATABLE** → a coverage
+  failure, recorded as such in the iteration log. No status
+  is returned.
+- **At least one survivor, and every translatable survivor
+  derives the claim** → ROBUST-IN-ENSEMBLE (the SOLUTION
+  gates of §8 then apply as written).
+- **At least one survivor derives the claim and at least
+  one does not, and a named axiom or combination
+  discriminates the split exactly** → AXIOM-TRACKING,
+  naming that axiom set.
+- **No survivor derives the claim, and at least one
+  survivor derives its negation** → REFUTED-IN-ENSEMBLE.
+  Section 7's "dead" is read through this row: a claim is
+  dead only when a surviving instance kills it, never
+  merely because no instance derived it.
+- **No survivor derives the claim or its negation** (the
+  translatable survivors are UNDERIVABLE), **or a mixed
+  split that no named axiom set discriminates exactly** →
+  UNDERIVABLE, with the split tallied in the iteration log.
+
+A positive or negative ensemble status therefore always
+requires at least one surviving instance and derivation
+coverage of the claim or its negation. The original text
+of §§7–8 stands; this subsection governs its reading.
+
 ## 9. The provenance standard: the seed-and-iteration log
 
 Every ELSEWHERE study keeps a **seed-and-iteration log** as a
