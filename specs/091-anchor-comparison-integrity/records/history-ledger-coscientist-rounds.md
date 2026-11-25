@@ -1,0 +1,63 @@
+# History ledger - The Co-scientist rounds (program study)
+
+Study: the Academia Co-scientist review rounds over the Glossa-Lab programs (Indus, Eteocypriot, Meroitic), run as a program-level study whose records live in the Spec 091 package and in the program record.
+
+**BACKFILLED 2026-11-25** from the filed records named in each entry, under the owner's order of 2026-11-25 that every study carry a history ledger. Entries are in chronological order. Each entry states the event or decision as the cited record states it and names the record it rests on. Where the filed record does not say how something started or why a decision was made, the gap is marked GAP rather than filled. This ledger narrates the study; it changes no result, verdict, or standing.
+
+## Entries
+
+### 2026-11-19 - The gate, and the first review
+
+The owner imposed a standing gate: before any more studies were run, the work went through Academia's Co-scientist, and no new study was commissioned until that review had happened. The review ran the same day over the Indus paper v11 and the standings record; the companion was corrected on the review's three findings and released; the owner reported the Co-scientist's verdict as good and lifted the gate the same day.
+
+Rests on: the program record (goal workspace PROGRAM-STATE, entry of 2026-11-19, "NEW STANDING GATE"). The review's own capture is held in the goal workspace (hidden_files/coscientist-2026-11-19/), not in this package.
+
+### 2026-11-20 - The audit of the 94 commissioned
+
+Under the owner's delegation of 2026-11-20 ("for all things waiting on me, do to your best recommendations after a research paper check and news check and red team attack"), the Co-scientist's offered follow-up, an audit of the 94 strict-core readings, was commissioned. Preparing its materials found that no per-reading falsifier was on file for any of the 94, a gap the program then closed on its own record (per-reading falsifiers, 2026-11-21).
+
+Rests on: the program record (goal workspace PROGRAM-STATE, delegated-package entry of 2026-11-20) and `records/per-reading-falsifiers-2026-11-21.md`.
+
+### 2026-11-21 - Audit adjudication landed
+
+The audit's recommendations were adjudicated in full: 121 units dispositioned (118 APPLY, 2 APPLY WITH MODIFICATION, 1 adjudicated but blocked on an absent log, later completed as Spec 099). The adjudicated relabels were executed the same day, moving the strict-core standings to their candid register form.
+
+Rests on: `records/coscientist-audit-94-adjudication-2026-11-21.md` and `records/standings-relabel-execution-2026-11-21.md`.
+
+### 2026-11-22 - Refresh round, and the recommendations ledger opened
+
+The refresh round's 53 units were adjudicated (20 APPLY, 8 APPLY WITH MODIFICATION, 3 DO NOT APPLY, 22 carried to owner decisions OD-1 to OD-22, all decided by the owner that day). The Co-scientist recommendations ledger was opened as the rounds' running record, one row per recommendation with its disposition.
+
+Rests on: `records/coscientist-refresh-adjudication-2026-11-22.md` and `records/coscientist-recommendations-ledger.md`.
+
+### 2026-11-23 - Round C
+
+Round C's 46 units were adjudicated (9 APPLY, 14 APPLY WITH MODIFICATION, 18 DO NOT APPLY, 5 carried to owner decisions OD-C-1 to OD-C-5, all decided and recorded the same day). Its paper-affecting items produced the v3 candidates for the Eteocypriot and Meroitic papers.
+
+Rests on: `records/coscientist-release-round-c-adjudication-2026-11-23.md` and `records/coscientist-release-round-c-assessment-adjudication-2026-11-23.md`.
+
+### 2026-11-23 - Round D sweep
+
+The Round D sweep returned no Indus units (a null result, accepted and recorded as brief-level), two Eteocypriot units and three Meroitic units. Two owner decisions followed the same day: OD-D-1 (Spec 101's target declared to be enrichment) and OD-D-2 (the Meroitic source-witness check commissioned, executed as Spec 103).
+
+Rests on: `records/coscientist-sweep-adjudication-2026-11-23.md`.
+
+### 2026-11-24 - The loop redefined to publish
+
+The owner expanded the loop's definition for all Academia Co-scientist loops: after the paper is updated from all feedback, the loop publishes the new deposited version, with a one-hour wait after each publication before the next round. Program-specific holds the owner set on a paper still gate that paper.
+
+Rests on: the program record (goal workspace PROGRAM-STATE and the standing rule as recorded 2026-11-24).
+
+### 2026-11-25 - The v3 iteration
+
+Under the standing non-stop loop order, the v3 iteration of the Eteocypriot and Meroitic papers was executed and published (Zenodo first, then Academia, ResearchGate trailing under its account-wide budget), and the recommendations-ledger rows it discharged (D-E-2, D-M-1, D-M-2) were marked done, bringing the ledger to 119 rows: 67 done, 31 accepted, 0 open, 21 rejected.
+
+Rests on: the release records in the Spec 096 and Spec 097 packages (v3 addenda) and `records/coscientist-recommendations-ledger.md`.
+
+### State at backfill (2026-11-25)
+
+The rounds continue under the standing loop order. The next round (Round E) fell due one hour after the v3 publications of 2026-11-25.
+
+GAP: no Round E capture or adjudication record is on file at backfill; this ledger records the round as due, not as run.
+
+Rests on: the entries above, as filed.
