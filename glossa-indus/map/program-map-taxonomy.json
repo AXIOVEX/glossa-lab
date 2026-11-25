@@ -556,6 +556,11 @@
    "spec_dir": "103-meroitic-source-witness-check",
    "domain": "Sign inventory & corpus",
    "subdomain": "Signary & corpus models"
+  },
+  {
+   "spec_dir": "104-quantum-alignment-benchmark",
+   "domain": "Program infrastructure",
+   "subdomain": "Governance, lifecycle & generated layers"
   }
  ],
  "extracted_documents": [

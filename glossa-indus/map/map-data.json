@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1045,
+  "claims_total": 1049,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1021,
+   "draft": 1025,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
-   "ledger_lines": 1076,
-   "ledger_date": "2026-11-23",
+   "ledger_sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
+   "ledger_lines": 1080,
+   "ledger_date": "2026-11-25",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "441a7532c486671983c65ded2c366c0c09e283c086927e4e52e57b344bb215fa",
+   "matrix_sha256": "fdae015788ba382ebf93162a773297652fe60d09e8b4bdc80d099eac466bc709",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "e7a179848cd48b56c9e9f777863876026eacff8fda1edeb88fb8f9bc88df1a12",
-   "comparison_sha256": "73b795ddecf14af0dd92d050fbb00d70490cbaeefdef8463054ccf27812c2621",
-   "settling_canonical_sha256": "7528bb1e9ca00c345bb9a5f16b503f9073270e5ca8114b90a0d0781214fbbd20"
+   "assignment_sets_sha256": "583fa5762002e883f5e9aebb4cb7601d3f53f02a60d8f462356cedc878567b02",
+   "comparison_sha256": "f0f709cfa0029329105e877d22dd1a9729f1862ca17c61acd5a6791a80fc4ce5",
+   "settling_canonical_sha256": "e8d9737477cb2d81b3c8f909310e0a6d390eddac98423859267ba6d4a5fc2581"
   }
  },
  "elements": [
@@ -8426,6 +8426,38 @@
    "kind": "claim",
    "id": "103-meroitic-source-witness-check/C103-2",
    "statement": "The split membership is fixed throughout the diagnostic: the execution recomputes the basis and partition from the pinned build by freeze v2 section 1's rule and verifies the frozen counts; every witness correction is applied to token counts within that frozen partition, and no corrected text is rehashed and no text changes side. This does not establish: that the frozen split was well chosen; only that this diagnostic holds it fixed, so its result answers the extraction question and not a re-split question.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "104-quantum-alignment-benchmark/C104-4",
+   "statement": "This study moves no standing of any kind: no anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs changes by anything this study files, and its verdicts concern solvers only. This does not establish: that the alignment formulation is the right model of the Amathus bilingual — it is the Spec 096 pilot's own scoring reused as an optimization instance, nothing more.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "104-quantum-alignment-benchmark/C104-3",
+   "statement": "The quantum arm's reported outcome is exactly what the program's IBM Quantum connector route returns: if the route authenticates and jobs complete, the best-found values filed are those of the completed job records, with simulator runs labelled SIMULATOR; if the route refuses authentication at execution as it did at the registration probe of 2026-11-25 (HTTP 401, error code 1219), the arm's outcome is NOT EXECUTED — ROUTE DEAD and no quantum number is reported for any size. This does not establish: anything about quantum hardware or QAOA capability in general — only about this program's access route and, if jobs ever run under this registration, about these instances.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "104-quantum-alignment-benchmark/C104-1",
+   "statement": "The benchmark's instance and formulation are faithful to the Spec 096 pilot's scoring: the score matrix recomputed from the freeze-pinned corpus (SHA-256 5077285e8eac4b21785ca29cb151d47407f780998d85fa1eea27ef9d7e04f2dd) by the E1 driver's own derivation equals the filed E1 run record's matrix exactly, and the QUBO of spec section 3 (penalty P = 1 + the sum of all scores) attains its maximum exactly at the best feasible one-to-one assignment of that scoring, certified independently by exhaustive enumeration and by an exact ILP solve to zero MIP gap. This does not establish: that the pilot's correspondences, or any reading of any Eteocypriot text, are correct — the corpus ground truth is never an input to the instance, the formulation, or any solver.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "104-quantum-alignment-benchmark/C104-2",
+   "statement": "The classical arms' filed results are the registered procedures' actual outputs on tower-compute: the exact arm's certified optima and times, and the simulated-annealing arm's per-restart best values, optimum-reaching counts, and times, under the parameters and seeds registered in spec section 4, on the real instance and on the synthetic instances the registered generator of spec section 5 produces. This does not establish: any solver's performance on any other instance, formulation, parameter set, or machine.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -28092,6 +28124,50 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "104-quantum-alignment-benchmark/C104-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "104-quantum-alignment-benchmark/C104-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "104-quantum-alignment-benchmark/C104-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "104-quantum-alignment-benchmark/C104-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "104-quantum-alignment-benchmark/C104-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "104-quantum-alignment-benchmark/C104-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "104-quantum-alignment-benchmark/C104-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "104-quantum-alignment-benchmark/C104-4",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -33479,6 +33555,26 @@
    "constrains": 0
   },
   "103-meroitic-source-witness-check/C103-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "104-quantum-alignment-benchmark/C104-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "104-quantum-alignment-benchmark/C104-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "104-quantum-alignment-benchmark/C104-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "104-quantum-alignment-benchmark/C104-2": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39752,6 +39848,30 @@
    },
    {
     "id": "103-meroitic-source-witness-check/C103-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "104-quantum-alignment-benchmark/C104-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "104-quantum-alignment-benchmark/C104-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "104-quantum-alignment-benchmark/C104-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "104-quantum-alignment-benchmark/C104-2",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -59420,6 +59540,50 @@
     ]
    },
    {
+    "row": "104-quantum-alignment-benchmark/C104-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "104-quantum-alignment-benchmark/C104-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "104-quantum-alignment-benchmark/C104-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "104-quantum-alignment-benchmark/C104-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "104-quantum-alignment-benchmark/C104-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "104-quantum-alignment-benchmark/C104-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "104-quantum-alignment-benchmark/C104-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "104-quantum-alignment-benchmark/C104-4",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -59587,8 +59751,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1045,
-   "rows_with_cells": 1031,
+   "rows_total": 1049,
+   "rows_with_cells": 1035,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -59946,30 +60110,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1568,
+   "cells_total": 1572,
    "cells_by_relation": {
-    "supports": 1561,
+    "supports": 1565,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1561,
+    "documents": 1565,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1036,
-    "total": 1045,
+    "covered": 1040,
+    "total": 1049,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1022,
-      "total": 1022
+      "covered": 1026,
+      "total": 1026
      }
     }
    },
@@ -65014,8 +65178,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1045,
-   "rows_with_cells": 1031,
+   "rows_total": 1049,
+   "rows_with_cells": 1035,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -65373,15 +65537,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1568,
+   "cells_total": 1572,
    "cells_by_relation": {
-    "supports": 1561,
+    "supports": 1565,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1561,
+    "documents": 1565,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -65450,7 +65614,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1021,
+    "draft": 1025,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -65460,26 +65624,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 1005,
+    "created": 1009,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1022,
+    "bundle": 1026,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1036,
-   "total": 1045,
+   "covered": 1040,
+   "total": 1049,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1022,
-     "total": 1022
+     "covered": 1026,
+     "total": 1026
     }
    },
    "gap_claims": [
@@ -65496,8 +65660,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1045,
-   "total": 1045
+   "without_state": 1049,
+   "total": 1049
   },
   "unresolved": {
    "sign_mentions": [
@@ -66983,7 +67147,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261123T222738Z-c1c0ef",
+      "record": "settling-20261125T143521Z-6c100f",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -66997,7 +67161,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261123T222739Z-741a2f",
+      "record": "settling-20261125T143521Z-0b89c3",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -167400,6 +167564,346 @@
     },
     "sign_records": []
    }
+  },
+  "104-quantum-alignment-benchmark/C104-4": {
+   "id": "104-quantum-alignment-benchmark/C104-4",
+   "statement": "This study moves no standing of any kind: no anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs changes by anything this study files, and its verdicts concern solvers only. This does not establish: that the alignment formulation is the right model of the Amathus bilingual — it is the Spec 096 pilot's own scoring reused as an optimization instance, nothing more.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any record of this study stating a changed standing, verdict, or tally; any citing record treating this benchmark's outcomes as evidence for or against any decipherment claim, including the ICS 196 correspondences."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C104-4",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "104-quantum-alignment-benchmark/C104-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "104-quantum-alignment-benchmark/C104-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C104-4",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    },
+    "sign_records": []
+   }
+  },
+  "104-quantum-alignment-benchmark/C104-3": {
+   "id": "104-quantum-alignment-benchmark/C104-3",
+   "statement": "The quantum arm's reported outcome is exactly what the program's IBM Quantum connector route returns: if the route authenticates and jobs complete, the best-found values filed are those of the completed job records, with simulator runs labelled SIMULATOR; if the route refuses authentication at execution as it did at the registration probe of 2026-11-25 (HTTP 401, error code 1219), the arm's outcome is NOT EXECUTED — ROUTE DEAD and no quantum number is reported for any size. This does not establish: anything about quantum hardware or QAOA capability in general — only about this program's access route and, if jobs ever run under this registration, about these instances.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any quantum result in this study's records not traceable to a completed job record on the connector route; any simulator result labelled or readable as hardware; any quantum number reported for a size while the arm's outcome stands NOT EXECUTED."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C104-3",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "104-quantum-alignment-benchmark/C104-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "104-quantum-alignment-benchmark/C104-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C104-3",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    },
+    "sign_records": []
+   }
+  },
+  "104-quantum-alignment-benchmark/C104-1": {
+   "id": "104-quantum-alignment-benchmark/C104-1",
+   "statement": "The benchmark's instance and formulation are faithful to the Spec 096 pilot's scoring: the score matrix recomputed from the freeze-pinned corpus (SHA-256 5077285e8eac4b21785ca29cb151d47407f780998d85fa1eea27ef9d7e04f2dd) by the E1 driver's own derivation equals the filed E1 run record's matrix exactly, and the QUBO of spec section 3 (penalty P = 1 + the sum of all scores) attains its maximum exactly at the best feasible one-to-one assignment of that scoring, certified independently by exhaustive enumeration and by an exact ILP solve to zero MIP gap. This does not establish: that the pilot's correspondences, or any reading of any Eteocypriot text, are correct — the corpus ground truth is never an input to the instance, the formulation, or any solver.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "Any of: the recomputed matrix differing from the filed run record in any cell; the exhaustive QUBO optimum differing from the ILP optimum in value; a QUBO maximizer that is infeasible (a name without exactly one segment, or a segment carrying two names); an infeasible point of the real instance with objective value at or above 0."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C104-1",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "104-quantum-alignment-benchmark/C104-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "104-quantum-alignment-benchmark/C104-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C104-1",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    },
+    "sign_records": []
+   }
+  },
+  "104-quantum-alignment-benchmark/C104-2": {
+   "id": "104-quantum-alignment-benchmark/C104-2",
+   "statement": "The classical arms' filed results are the registered procedures' actual outputs on tower-compute: the exact arm's certified optima and times, and the simulated-annealing arm's per-restart best values, optimum-reaching counts, and times, under the parameters and seeds registered in spec section 4, on the real instance and on the synthetic instances the registered generator of spec section 5 produces. This does not establish: any solver's performance on any other instance, formulation, parameter set, or machine.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "A rerun of the filed execution script, under the registered parameters and seeds on the same instance data, producing a different certified optimum at any size, or different simulated-annealing best values (timings excepted, which are reported as measured and expected to vary)."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C104-2",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "104-quantum-alignment-benchmark/C104-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "104-quantum-alignment-benchmark/C104-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C104-2",
+     "document_id": null,
+     "path": "specs/104-quantum-alignment-benchmark/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "bec4f02730d9f17f0342e63bb9fb4d8dcfdc3149a6566f3199e3458de504fb25",
+     "spec": "104-quantum-alignment-benchmark"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -167407,7 +167911,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "e7a179848cd48b56c9e9f777863876026eacff8fda1edeb88fb8f9bc88df1a12",
+   "sha256": "583fa5762002e883f5e9aebb4cb7601d3f53f02a60d8f462356cedc878567b02",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -167451,15 +167955,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261123T222738Z-c1c0ef",
+    "record": "settling-20261125T143521Z-6c100f",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
-      "lines": 1076
+      "sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
+      "lines": 1080
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -167510,15 +168014,15 @@
     }
    },
    {
-    "record": "settling-20261123T222739Z-741a2f",
+    "record": "settling-20261125T143521Z-0b89c3",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "14c925e8750701976c7befb106f033e74f949379134820b3a25772a40584d576",
-      "lines": 1076
+      "sha256": "0a086ecd91e816584346e6f400fc050e9c80e687b510764b14856c5f1043ffc3",
+      "lines": 1080
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -167573,7 +168077,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "73b795ddecf14af0dd92d050fbb00d70490cbaeefdef8463054ccf27812c2621",
+   "sha256": "f0f709cfa0029329105e877d22dd1a9729f1862ca17c61acd5a6791a80fc4ce5",
    "result": {
     "claims_compared": [
      {
@@ -167821,7 +168325,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "7528bb1e9ca00c345bb9a5f16b503f9073270e5ca8114b90a0d0781214fbbd20",
+   "sha256": "e8d9737477cb2d81b3c8f909310e0a6d390eddac98423859267ba6d4a5fc2581",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -168156,8 +168660,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1045,
-   "claims_untouched_by_any_run": 1044,
+   "claims_total": 1049,
+   "claims_untouched_by_any_run": 1048,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,
