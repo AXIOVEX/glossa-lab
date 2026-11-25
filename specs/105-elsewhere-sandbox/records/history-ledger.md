@@ -38,6 +38,14 @@ The owner's resume order ("get back to the work here for all 3 languages and the
 
 **Rests on:** `records/stage-2-registration-2026-11-25.md` §1.
 
+### 2026-11-25 — ITERATION (Stage 2 executed: L2, counting and frequency)
+
+**Kind:** ITERATION. **Actor:** the study's Stage 2 worker, under the commission above.
+
+Stage 2 was registered by its own record (committed before any derivation ran) and executed the same day. The registration landing also opened this ledger and the study's ELSEWHERE seed-and-iteration log, their pre-Stage-2 content backfilled from the filed records and marked (decision D-105-11). L2 ran in all three sandboxes under two independent implementations agreeing exactly (TC-105-08 PASS), with the derived totals reproducing Stage 1's filed censuses and inventories (Indus 5,611 tokens over 372 marks; Eteocypriot 69 over 35; Meroitic 29,843 over 32). The Indus unigram baseline for G-IND was built from the derivation set alone and filed; the reserve was hashed and never read (TC-105-09 PASS), and remains sealed. All three sandboxes returned COMPLETED. The custody datasets had been relocated the same day under the owner's home-root governance (to `~/.syncyard/worktrees/glossa/glossa-custody/spec105/`); their hashes were re-verified unchanged before use, so the relocation changed no input.
+
+**Rests on:** `records/stage-2-registration-2026-11-25.md`; `records/stage-2-outcome-2026-11-25.md`; `records/stage-2-output-2026-11-25.json`; `records/stage-2-indus-unigram-baseline-2026-11-25.json`.
+
 ## State
 
-In flight. At the last entry above, Stage 2 stands registered and unexecuted; its outcome entry follows in this ledger when the stage runs.
+In flight. Stage 2 completed 2026-11-25; the study stands open at L2. L3 and above and all gates remain uncommissioned, each requiring its own registration under spec.md §8.

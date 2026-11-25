@@ -1,0 +1,4198 @@
+{
+ "stage": 2,
+ "rung": "L2",
+ "custody": "/home/tpierson/.syncyard/worktrees/glossa/glossa-custody/spec105",
+ "sandboxes": {
+  "indus": {
+   "sandbox": "indus",
+   "status": "COMPLETED",
+   "dataset": "indus-derivation.json",
+   "dataset_sha256": "84476daa3a1d9ded33ee7c3eeaffb29fac0290ecf3507873206d4d60ac8b948b",
+   "totals": {
+    "artifacts": 1336,
+    "lines": 1336,
+    "groups": 1336,
+    "tokens": 5611
+   },
+   "implementations_agree": true,
+   "shape": {
+    "inventory_size": 372,
+    "singleton_marks": 83,
+    "recurring_marks": 289,
+    "top_shares": [
+     {
+      "marks_taken": 1,
+      "tokens": 472,
+      "share": "472/5611"
+     },
+     {
+      "marks_taken": 5,
+      "tokens": 1602,
+      "share": "1602/5611"
+     },
+     {
+      "marks_taken": 10,
+      "tokens": 2470,
+      "share": "2470/5611"
+     }
+    ]
+   },
+   "table": [
+    {
+     "mark": "M342",
+     "count": 472,
+     "frequency": "472/5611"
+    },
+    {
+     "mark": "M267",
+     "count": 317,
+     "frequency": "317/5611"
+    },
+    {
+     "mark": "M099",
+     "count": 316,
+     "frequency": "316/5611"
+    },
+    {
+     "mark": "M176",
+     "count": 285,
+     "frequency": "285/5611"
+    },
+    {
+     "mark": "M211",
+     "count": 212,
+     "frequency": "212/5611"
+    },
+    {
+     "mark": "M293",
+     "count": 192,
+     "frequency": "192/5611"
+    },
+    {
+     "mark": "M328",
+     "count": 180,
+     "frequency": "180/5611"
+    },
+    {
+     "mark": "M059",
+     "count": 174,
+     "frequency": "174/5611"
+    },
+    {
+     "mark": "M162",
+     "count": 164,
+     "frequency": "164/5611"
+    },
+    {
+     "mark": "M367",
+     "count": 158,
+     "frequency": "158/5611"
+    },
+    {
+     "mark": "M391",
+     "count": 155,
+     "frequency": "5/181"
+    },
+    {
+     "mark": "M336",
+     "count": 137,
+     "frequency": "137/5611"
+    },
+    {
+     "mark": "M233",
+     "count": 136,
+     "frequency": "136/5611"
+    },
+    {
+     "mark": "M089",
+     "count": 135,
+     "frequency": "135/5611"
+    },
+    {
+     "mark": "M051",
+     "count": 134,
+     "frequency": "134/5611"
+    },
+    {
+     "mark": "M065",
+     "count": 128,
+     "frequency": "128/5611"
+    },
+    {
+     "mark": "M048",
+     "count": 126,
+     "frequency": "126/5611"
+    },
+    {
+     "mark": "M012",
+     "count": 117,
+     "frequency": "117/5611"
+    },
+    {
+     "mark": "M125",
+     "count": 109,
+     "frequency": "109/5611"
+    },
+    {
+     "mark": "M087",
+     "count": 100,
+     "frequency": "100/5611"
+    },
+    {
+     "mark": "M305",
+     "count": 66,
+     "frequency": "66/5611"
+    },
+    {
+     "mark": "M249",
+     "count": 63,
+     "frequency": "63/5611"
+    },
+    {
+     "mark": "M220",
+     "count": 53,
+     "frequency": "53/5611"
+    },
+    {
+     "mark": "M016",
+     "count": 22,
+     "frequency": "22/5611"
+    },
+    {
+     "mark": "M062",
+     "count": 22,
+     "frequency": "22/5611"
+    },
+    {
+     "mark": "M013",
+     "count": 21,
+     "frequency": "21/5611"
+    },
+    {
+     "mark": "M079",
+     "count": 21,
+     "frequency": "21/5611"
+    },
+    {
+     "mark": "M045",
+     "count": 20,
+     "frequency": "20/5611"
+    },
+    {
+     "mark": "M073",
+     "count": 19,
+     "frequency": "19/5611"
+    },
+    {
+     "mark": "M022",
+     "count": 18,
+     "frequency": "18/5611"
+    },
+    {
+     "mark": "M003",
+     "count": 17,
+     "frequency": "17/5611"
+    },
+    {
+     "mark": "M020",
+     "count": 17,
+     "frequency": "17/5611"
+    },
+    {
+     "mark": "M056",
+     "count": 17,
+     "frequency": "17/5611"
+    },
+    {
+     "mark": "M060",
+     "count": 16,
+     "frequency": "16/5611"
+    },
+    {
+     "mark": "M061",
+     "count": 16,
+     "frequency": "16/5611"
+    },
+    {
+     "mark": "M063",
+     "count": 16,
+     "frequency": "16/5611"
+    },
+    {
+     "mark": "M070",
+     "count": 16,
+     "frequency": "16/5611"
+    },
+    {
+     "mark": "M080",
+     "count": 16,
+     "frequency": "16/5611"
+    },
+    {
+     "mark": "M010",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M014",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M018",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M019",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M030",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M052",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M071",
+     "count": 15,
+     "frequency": "15/5611"
+    },
+    {
+     "mark": "M005",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M017",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M021",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M027",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M034",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M035",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M038",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M039",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M044",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M050",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M053",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M058",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M066",
+     "count": 14,
+     "frequency": "14/5611"
+    },
+    {
+     "mark": "M004",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M008",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M009",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M011",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M026",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M031",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M041",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M057",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M068",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M075",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M077",
+     "count": 13,
+     "frequency": "13/5611"
+    },
+    {
+     "mark": "M001",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M002",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M006",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M024",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M025",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M047",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M069",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M078",
+     "count": 12,
+     "frequency": "12/5611"
+    },
+    {
+     "mark": "M023",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M033",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M036",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M037",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M046",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M049",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M067",
+     "count": 11,
+     "frequency": "11/5611"
+    },
+    {
+     "mark": "M015",
+     "count": 10,
+     "frequency": "10/5611"
+    },
+    {
+     "mark": "M042",
+     "count": 10,
+     "frequency": "10/5611"
+    },
+    {
+     "mark": "M043",
+     "count": 10,
+     "frequency": "10/5611"
+    },
+    {
+     "mark": "M029",
+     "count": 9,
+     "frequency": "9/5611"
+    },
+    {
+     "mark": "M054",
+     "count": 9,
+     "frequency": "9/5611"
+    },
+    {
+     "mark": "M055",
+     "count": 9,
+     "frequency": "9/5611"
+    },
+    {
+     "mark": "M072",
+     "count": 9,
+     "frequency": "9/5611"
+    },
+    {
+     "mark": "M081",
+     "count": 9,
+     "frequency": "9/5611"
+    },
+    {
+     "mark": "M007",
+     "count": 8,
+     "frequency": "8/5611"
+    },
+    {
+     "mark": "M028",
+     "count": 8,
+     "frequency": "8/5611"
+    },
+    {
+     "mark": "M040",
+     "count": 8,
+     "frequency": "8/5611"
+    },
+    {
+     "mark": "M064",
+     "count": 8,
+     "frequency": "8/5611"
+    },
+    {
+     "mark": "M032",
+     "count": 7,
+     "frequency": "7/5611"
+    },
+    {
+     "mark": "M074",
+     "count": 7,
+     "frequency": "7/5611"
+    },
+    {
+     "mark": "M076",
+     "count": 7,
+     "frequency": "7/5611"
+    },
+    {
+     "mark": "M149",
+     "count": 7,
+     "frequency": "7/5611"
+    },
+    {
+     "mark": "M169",
+     "count": 7,
+     "frequency": "7/5611"
+    },
+    {
+     "mark": "M185",
+     "count": 7,
+     "frequency": "7/5611"
+    },
+    {
+     "mark": "M082",
+     "count": 6,
+     "frequency": "6/5611"
+    },
+    {
+     "mark": "M252",
+     "count": 6,
+     "frequency": "6/5611"
+    },
+    {
+     "mark": "M347",
+     "count": 6,
+     "frequency": "6/5611"
+    },
+    {
+     "mark": "M351",
+     "count": 6,
+     "frequency": "6/5611"
+    },
+    {
+     "mark": "M374",
+     "count": 6,
+     "frequency": "6/5611"
+    },
+    {
+     "mark": "M383",
+     "count": 6,
+     "frequency": "6/5611"
+    },
+    {
+     "mark": "M102",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M103",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M108",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M128",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M143",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M163",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M168",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M178",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M190",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M198",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M222",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M237",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M254",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M262",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M329",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M332",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M355",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M401",
+     "count": 5,
+     "frequency": "5/5611"
+    },
+    {
+     "mark": "M129",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M137",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M138",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M142",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M151",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M155",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M177",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M187",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M194",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M199",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M218",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M231",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M239",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M250",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M255",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M270",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M294",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M295",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M304",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M309",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M313",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M321",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M346",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M350",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M357",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M365",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M370",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M375",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M386",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M402",
+     "count": 4,
+     "frequency": "4/5611"
+    },
+    {
+     "mark": "M104",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M107",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M109",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M117",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M120",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M121",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M127",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M141",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M145",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M146",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M153",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M170",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M171",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M181",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M186",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M188",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M195",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M202",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M207",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M208",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M209",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M217",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M219",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M223",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M227",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M228",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M229",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M235",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M243",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M246",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M247",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M251",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M265",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M272",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M278",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M280",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M281",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M288",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M290",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M291",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M296",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M307",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M312",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M324",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M325",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M326",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M331",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M338",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M339",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M341",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M345",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M348",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M349",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M356",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M373",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M381",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M382",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M387",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M406",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M412",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M413",
+     "count": 3,
+     "frequency": "3/5611"
+    },
+    {
+     "mark": "M100",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M101",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M105",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M106",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M110",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M111",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M116",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M123",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M130",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M134",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M135",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M148",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M154",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M165",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M172",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M179",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M183",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M184",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M192",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M193",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M197",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M204",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M210",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M214",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M215",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M216",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M224",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M226",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M241",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M245",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M256",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M257",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M258",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M259",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M264",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M274",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M276",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M282",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M283",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M284",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M285",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M286",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M292",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M301",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M302",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M303",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M308",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M316",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M318",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M334",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M344",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M354",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M359",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M362",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M363",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M369",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M371",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M379",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M380",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M385",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M388",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M389",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M390",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M392",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M395",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M396",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M399",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M405",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M408",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M410",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M415",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M416",
+     "count": 2,
+     "frequency": "2/5611"
+    },
+    {
+     "mark": "M112",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M113",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M114",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M115",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M118",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M119",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M122",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M124",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M126",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M131",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M132",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M133",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M136",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M139",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M140",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M144",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M150",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M156",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M157",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M158",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M159",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M160",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M161",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M164",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M166",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M167",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M174",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M175",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M180",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M182",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M200",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M201",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M203",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M206",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M212",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M221",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M232",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M236",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M238",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M240",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M242",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M244",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M248",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M260",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M263",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M268",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M269",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M271",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M273",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M279",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M287",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M289",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M298",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M299",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M300",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M314",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M319",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M320",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M322",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M323",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M330",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M333",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M335",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M337",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M340",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M353",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M360",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M361",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M364",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M368",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M376",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M377",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M378",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M393",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M394",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M397",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M398",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M400",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M403",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M404",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M407",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M409",
+     "count": 1,
+     "frequency": "1/5611"
+    },
+    {
+     "mark": "M414",
+     "count": 1,
+     "frequency": "1/5611"
+    }
+   ],
+   "baseline": {
+    "model": "unigram",
+    "rung": "L2",
+    "source_dataset": "indus-derivation.json",
+    "source_dataset_sha256": "84476daa3a1d9ded33ee7c3eeaffb29fac0290ecf3507873206d4d60ac8b948b",
+    "tokens_total": 5611,
+    "inventory_size": 372,
+    "probability_rule": "P(m) = count(m) / tokens_total over the derivation inventory; marks outside the derivation inventory carry no filed mass (the G-IND gate stage registers its unseen-mark rule and margin before unsealing, spec.md section 7)",
+    "sealed_reserve_sha256": "bfbe79cb2d2d7c131fb0e2c7cc8004995d36af6c3e4cc5b1cdb5bb5ed29930ff",
+    "parameters": [
+     {
+      "mark": "M342",
+      "count": 472,
+      "frequency": "472/5611"
+     },
+     {
+      "mark": "M267",
+      "count": 317,
+      "frequency": "317/5611"
+     },
+     {
+      "mark": "M099",
+      "count": 316,
+      "frequency": "316/5611"
+     },
+     {
+      "mark": "M176",
+      "count": 285,
+      "frequency": "285/5611"
+     },
+     {
+      "mark": "M211",
+      "count": 212,
+      "frequency": "212/5611"
+     },
+     {
+      "mark": "M293",
+      "count": 192,
+      "frequency": "192/5611"
+     },
+     {
+      "mark": "M328",
+      "count": 180,
+      "frequency": "180/5611"
+     },
+     {
+      "mark": "M059",
+      "count": 174,
+      "frequency": "174/5611"
+     },
+     {
+      "mark": "M162",
+      "count": 164,
+      "frequency": "164/5611"
+     },
+     {
+      "mark": "M367",
+      "count": 158,
+      "frequency": "158/5611"
+     },
+     {
+      "mark": "M391",
+      "count": 155,
+      "frequency": "5/181"
+     },
+     {
+      "mark": "M336",
+      "count": 137,
+      "frequency": "137/5611"
+     },
+     {
+      "mark": "M233",
+      "count": 136,
+      "frequency": "136/5611"
+     },
+     {
+      "mark": "M089",
+      "count": 135,
+      "frequency": "135/5611"
+     },
+     {
+      "mark": "M051",
+      "count": 134,
+      "frequency": "134/5611"
+     },
+     {
+      "mark": "M065",
+      "count": 128,
+      "frequency": "128/5611"
+     },
+     {
+      "mark": "M048",
+      "count": 126,
+      "frequency": "126/5611"
+     },
+     {
+      "mark": "M012",
+      "count": 117,
+      "frequency": "117/5611"
+     },
+     {
+      "mark": "M125",
+      "count": 109,
+      "frequency": "109/5611"
+     },
+     {
+      "mark": "M087",
+      "count": 100,
+      "frequency": "100/5611"
+     },
+     {
+      "mark": "M305",
+      "count": 66,
+      "frequency": "66/5611"
+     },
+     {
+      "mark": "M249",
+      "count": 63,
+      "frequency": "63/5611"
+     },
+     {
+      "mark": "M220",
+      "count": 53,
+      "frequency": "53/5611"
+     },
+     {
+      "mark": "M016",
+      "count": 22,
+      "frequency": "22/5611"
+     },
+     {
+      "mark": "M062",
+      "count": 22,
+      "frequency": "22/5611"
+     },
+     {
+      "mark": "M013",
+      "count": 21,
+      "frequency": "21/5611"
+     },
+     {
+      "mark": "M079",
+      "count": 21,
+      "frequency": "21/5611"
+     },
+     {
+      "mark": "M045",
+      "count": 20,
+      "frequency": "20/5611"
+     },
+     {
+      "mark": "M073",
+      "count": 19,
+      "frequency": "19/5611"
+     },
+     {
+      "mark": "M022",
+      "count": 18,
+      "frequency": "18/5611"
+     },
+     {
+      "mark": "M003",
+      "count": 17,
+      "frequency": "17/5611"
+     },
+     {
+      "mark": "M020",
+      "count": 17,
+      "frequency": "17/5611"
+     },
+     {
+      "mark": "M056",
+      "count": 17,
+      "frequency": "17/5611"
+     },
+     {
+      "mark": "M060",
+      "count": 16,
+      "frequency": "16/5611"
+     },
+     {
+      "mark": "M061",
+      "count": 16,
+      "frequency": "16/5611"
+     },
+     {
+      "mark": "M063",
+      "count": 16,
+      "frequency": "16/5611"
+     },
+     {
+      "mark": "M070",
+      "count": 16,
+      "frequency": "16/5611"
+     },
+     {
+      "mark": "M080",
+      "count": 16,
+      "frequency": "16/5611"
+     },
+     {
+      "mark": "M010",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M014",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M018",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M019",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M030",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M052",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M071",
+      "count": 15,
+      "frequency": "15/5611"
+     },
+     {
+      "mark": "M005",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M017",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M021",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M027",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M034",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M035",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M038",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M039",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M044",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M050",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M053",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M058",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M066",
+      "count": 14,
+      "frequency": "14/5611"
+     },
+     {
+      "mark": "M004",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M008",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M009",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M011",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M026",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M031",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M041",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M057",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M068",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M075",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M077",
+      "count": 13,
+      "frequency": "13/5611"
+     },
+     {
+      "mark": "M001",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M002",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M006",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M024",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M025",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M047",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M069",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M078",
+      "count": 12,
+      "frequency": "12/5611"
+     },
+     {
+      "mark": "M023",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M033",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M036",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M037",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M046",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M049",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M067",
+      "count": 11,
+      "frequency": "11/5611"
+     },
+     {
+      "mark": "M015",
+      "count": 10,
+      "frequency": "10/5611"
+     },
+     {
+      "mark": "M042",
+      "count": 10,
+      "frequency": "10/5611"
+     },
+     {
+      "mark": "M043",
+      "count": 10,
+      "frequency": "10/5611"
+     },
+     {
+      "mark": "M029",
+      "count": 9,
+      "frequency": "9/5611"
+     },
+     {
+      "mark": "M054",
+      "count": 9,
+      "frequency": "9/5611"
+     },
+     {
+      "mark": "M055",
+      "count": 9,
+      "frequency": "9/5611"
+     },
+     {
+      "mark": "M072",
+      "count": 9,
+      "frequency": "9/5611"
+     },
+     {
+      "mark": "M081",
+      "count": 9,
+      "frequency": "9/5611"
+     },
+     {
+      "mark": "M007",
+      "count": 8,
+      "frequency": "8/5611"
+     },
+     {
+      "mark": "M028",
+      "count": 8,
+      "frequency": "8/5611"
+     },
+     {
+      "mark": "M040",
+      "count": 8,
+      "frequency": "8/5611"
+     },
+     {
+      "mark": "M064",
+      "count": 8,
+      "frequency": "8/5611"
+     },
+     {
+      "mark": "M032",
+      "count": 7,
+      "frequency": "7/5611"
+     },
+     {
+      "mark": "M074",
+      "count": 7,
+      "frequency": "7/5611"
+     },
+     {
+      "mark": "M076",
+      "count": 7,
+      "frequency": "7/5611"
+     },
+     {
+      "mark": "M149",
+      "count": 7,
+      "frequency": "7/5611"
+     },
+     {
+      "mark": "M169",
+      "count": 7,
+      "frequency": "7/5611"
+     },
+     {
+      "mark": "M185",
+      "count": 7,
+      "frequency": "7/5611"
+     },
+     {
+      "mark": "M082",
+      "count": 6,
+      "frequency": "6/5611"
+     },
+     {
+      "mark": "M252",
+      "count": 6,
+      "frequency": "6/5611"
+     },
+     {
+      "mark": "M347",
+      "count": 6,
+      "frequency": "6/5611"
+     },
+     {
+      "mark": "M351",
+      "count": 6,
+      "frequency": "6/5611"
+     },
+     {
+      "mark": "M374",
+      "count": 6,
+      "frequency": "6/5611"
+     },
+     {
+      "mark": "M383",
+      "count": 6,
+      "frequency": "6/5611"
+     },
+     {
+      "mark": "M102",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M103",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M108",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M128",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M143",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M163",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M168",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M178",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M190",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M198",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M222",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M237",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M254",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M262",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M329",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M332",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M355",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M401",
+      "count": 5,
+      "frequency": "5/5611"
+     },
+     {
+      "mark": "M129",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M137",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M138",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M142",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M151",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M155",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M177",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M187",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M194",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M199",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M218",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M231",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M239",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M250",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M255",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M270",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M294",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M295",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M304",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M309",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M313",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M321",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M346",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M350",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M357",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M365",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M370",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M375",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M386",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M402",
+      "count": 4,
+      "frequency": "4/5611"
+     },
+     {
+      "mark": "M104",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M107",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M109",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M117",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M120",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M121",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M127",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M141",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M145",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M146",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M153",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M170",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M171",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M181",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M186",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M188",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M195",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M202",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M207",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M208",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M209",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M217",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M219",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M223",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M227",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M228",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M229",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M235",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M243",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M246",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M247",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M251",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M265",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M272",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M278",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M280",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M281",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M288",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M290",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M291",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M296",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M307",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M312",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M324",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M325",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M326",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M331",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M338",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M339",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M341",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M345",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M348",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M349",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M356",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M373",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M381",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M382",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M387",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M406",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M412",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M413",
+      "count": 3,
+      "frequency": "3/5611"
+     },
+     {
+      "mark": "M100",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M101",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M105",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M106",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M110",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M111",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M116",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M123",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M130",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M134",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M135",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M148",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M154",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M165",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M172",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M179",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M183",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M184",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M192",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M193",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M197",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M204",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M210",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M214",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M215",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M216",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M224",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M226",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M241",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M245",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M256",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M257",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M258",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M259",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M264",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M274",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M276",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M282",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M283",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M284",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M285",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M286",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M292",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M301",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M302",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M303",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M308",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M316",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M318",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M334",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M344",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M354",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M359",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M362",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M363",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M369",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M371",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M379",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M380",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M385",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M388",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M389",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M390",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M392",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M395",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M396",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M399",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M405",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M408",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M410",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M415",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M416",
+      "count": 2,
+      "frequency": "2/5611"
+     },
+     {
+      "mark": "M112",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M113",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M114",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M115",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M118",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M119",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M122",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M124",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M126",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M131",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M132",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M133",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M136",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M139",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M140",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M144",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M150",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M156",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M157",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M158",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M159",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M160",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M161",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M164",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M166",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M167",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M174",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M175",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M180",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M182",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M200",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M201",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M203",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M206",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M212",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M221",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M232",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M236",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M238",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M240",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M242",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M244",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M248",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M260",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M263",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M268",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M269",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M271",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M273",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M279",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M287",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M289",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M298",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M299",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M300",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M314",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M319",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M320",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M322",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M323",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M330",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M333",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M335",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M337",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M340",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M353",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M360",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M361",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M364",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M368",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M376",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M377",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M378",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M393",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M394",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M397",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M398",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M400",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M403",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M404",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M407",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M409",
+      "count": 1,
+      "frequency": "1/5611"
+     },
+     {
+      "mark": "M414",
+      "count": 1,
+      "frequency": "1/5611"
+     }
+    ]
+   }
+  },
+  "eteocypriot": {
+   "sandbox": "eteocypriot",
+   "status": "COMPLETED",
+   "dataset": "eteocypriot.json",
+   "dataset_sha256": "2799d1034e8af50a110e7df69d6f79ab931cbc13db480ebbc8d4dfcf589421fe",
+   "totals": {
+    "artifacts": 2,
+    "lines": 3,
+    "groups": 14,
+    "tokens": 69
+   },
+   "implementations_agree": true,
+   "shape": {
+    "inventory_size": 35,
+    "singleton_marks": 18,
+    "recurring_marks": 17,
+    "top_shares": [
+     {
+      "marks_taken": 1,
+      "tokens": 5,
+      "share": "5/69"
+     },
+     {
+      "marks_taken": 5,
+      "tokens": 21,
+      "share": "7/23"
+     },
+     {
+      "marks_taken": 10,
+      "tokens": 36,
+      "share": "12/23"
+     }
+    ]
+   },
+   "table": [
+    {
+     "mark": "a",
+     "count": 5,
+     "frequency": "5/69"
+    },
+    {
+     "mark": "na",
+     "count": 4,
+     "frequency": "4/69"
+    },
+    {
+     "mark": "ro",
+     "count": 4,
+     "frequency": "4/69"
+    },
+    {
+     "mark": "se",
+     "count": 4,
+     "frequency": "4/69"
+    },
+    {
+     "mark": "to",
+     "count": 4,
+     "frequency": "4/69"
+    },
+    {
+     "mark": "?",
+     "count": 3,
+     "frequency": "1/23"
+    },
+    {
+     "mark": "i",
+     "count": 3,
+     "frequency": "1/23"
+    },
+    {
+     "mark": "ka",
+     "count": 3,
+     "frequency": "1/23"
+    },
+    {
+     "mark": "ke",
+     "count": 3,
+     "frequency": "1/23"
+    },
+    {
+     "mark": "ko",
+     "count": 3,
+     "frequency": "1/23"
+    },
+    {
+     "mark": "ra",
+     "count": 3,
+     "frequency": "1/23"
+    },
+    {
+     "mark": "e",
+     "count": 2,
+     "frequency": "2/69"
+    },
+    {
+     "mark": "la",
+     "count": 2,
+     "frequency": "2/69"
+    },
+    {
+     "mark": "lo",
+     "count": 2,
+     "frequency": "2/69"
+    },
+    {
+     "mark": "ri",
+     "count": 2,
+     "frequency": "2/69"
+    },
+    {
+     "mark": "so",
+     "count": 2,
+     "frequency": "2/69"
+    },
+    {
+     "mark": "ti",
+     "count": 2,
+     "frequency": "2/69"
+    },
+    {
+     "mark": "[sa]",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "ku",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "le",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "li",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "ma",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "mi",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "mu",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "no",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "o",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "po",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "re",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "sa",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "si",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "ta",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "tu",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "u",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "wa",
+     "count": 1,
+     "frequency": "1/69"
+    },
+    {
+     "mark": "we",
+     "count": 1,
+     "frequency": "1/69"
+    }
+   ]
+  },
+  "meroitic": {
+   "sandbox": "meroitic",
+   "status": "COMPLETED",
+   "dataset": "meroitic.json",
+   "dataset_sha256": "a8f551e5cc5264decbc2c01d7ee924740245ce8cbeca6b4b7f776e88a3920fb7",
+   "totals": {
+    "artifacts": 376,
+    "lines": 376,
+    "groups": 5195,
+    "tokens": 29843
+   },
+   "implementations_agree": true,
+   "shape": {
+    "inventory_size": 32,
+    "singleton_marks": 0,
+    "recurring_marks": 32,
+    "top_shares": [
+     {
+      "marks_taken": 1,
+      "tokens": 4484,
+      "share": "4484/29843"
+     },
+     {
+      "marks_taken": 5,
+      "tokens": 15229,
+      "share": "15229/29843"
+     },
+     {
+      "marks_taken": 10,
+      "tokens": 21657,
+      "share": "21657/29843"
+     }
+    ]
+   },
+   "table": [
+    {
+     "mark": "e",
+     "count": 4484,
+     "frequency": "4484/29843"
+    },
+    {
+     "mark": "o",
+     "count": 2942,
+     "frequency": "2942/29843"
+    },
+    {
+     "mark": "i",
+     "count": 2880,
+     "frequency": "2880/29843"
+    },
+    {
+     "mark": "t",
+     "count": 2735,
+     "frequency": "2735/29843"
+    },
+    {
+     "mark": "l",
+     "count": 2188,
+     "frequency": "2188/29843"
+    },
+    {
+     "mark": "m",
+     "count": 1453,
+     "frequency": "1453/29843"
+    },
+    {
+     "mark": "w",
+     "count": 1373,
+     "frequency": "1373/29843"
+    },
+    {
+     "mark": "S",
+     "count": 1276,
+     "frequency": "116/2713"
+    },
+    {
+     "mark": "r",
+     "count": 1216,
+     "frequency": "1216/29843"
+    },
+    {
+     "mark": "k",
+     "count": 1110,
+     "frequency": "1110/29843"
+    },
+    {
+     "mark": ".",
+     "count": 1109,
+     "frequency": "1109/29843"
+    },
+    {
+     "mark": "y",
+     "count": 869,
+     "frequency": "79/2713"
+    },
+    {
+     "mark": "d",
+     "count": 856,
+     "frequency": "856/29843"
+    },
+    {
+     "mark": "x",
+     "count": 823,
+     "frequency": "823/29843"
+    },
+    {
+     "mark": "X",
+     "count": 764,
+     "frequency": "764/29843"
+    },
+    {
+     "mark": "p",
+     "count": 748,
+     "frequency": "68/2713"
+    },
+    {
+     "mark": "a",
+     "count": 737,
+     "frequency": "67/2713"
+    },
+    {
+     "mark": "q",
+     "count": 549,
+     "frequency": "549/29843"
+    },
+    {
+     "mark": "n",
+     "count": 465,
+     "frequency": "465/29843"
+    },
+    {
+     "mark": "b",
+     "count": 457,
+     "frequency": "457/29843"
+    },
+    {
+     "mark": "s",
+     "count": 453,
+     "frequency": "453/29843"
+    },
+    {
+     "mark": "N",
+     "count": 206,
+     "frequency": "206/29843"
+    },
+    {
+     "mark": "1",
+     "count": 44,
+     "frequency": "4/2713"
+    },
+    {
+     "mark": "2",
+     "count": 26,
+     "frequency": "26/29843"
+    },
+    {
+     "mark": "3",
+     "count": 20,
+     "frequency": "20/29843"
+    },
+    {
+     "mark": "4",
+     "count": 13,
+     "frequency": "13/29843"
+    },
+    {
+     "mark": "5",
+     "count": 12,
+     "frequency": "12/29843"
+    },
+    {
+     "mark": "6",
+     "count": 10,
+     "frequency": "10/29843"
+    },
+    {
+     "mark": "0",
+     "count": 7,
+     "frequency": "7/29843"
+    },
+    {
+     "mark": "9",
+     "count": 7,
+     "frequency": "7/29843"
+    },
+    {
+     "mark": "7",
+     "count": 6,
+     "frequency": "6/29843"
+    },
+    {
+     "mark": "8",
+     "count": 5,
+     "frequency": "5/29843"
+    }
+   ]
+  }
+ },
+ "checks": [
+  {
+   "tc": "TC-105-09",
+   "result": "PASS",
+   "reserve_sha256": "bfbe79cb2d2d7c131fb0e2c7cc8004995d36af6c3e4cc5b1cdb5bb5ed29930ff",
+   "note": "the reserve dataset was opened only by the hashing function; no Stage 2 derivation read it"
+  },
+  {
+   "tc": "TC-105-08",
+   "result": "PASS",
+   "note": "both L2 implementations agree exactly, and the Stage 1 censuses and inventory sizes reproduce, in: indus, eteocypriot, meroitic"
+  }
+ ]
+}
