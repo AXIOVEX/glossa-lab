@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
-  "ledger_lines": 1085,
+  "ledger_sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+  "ledger_lines": 1086,
   "ledger_date": "2026-11-25",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
@@ -6305,31 +6305,37 @@
    "stage": "created"
   },
   {
-   "id": "105-elsewhere-sandbox/C105-4",
+   "id": "106-elsewhere-world-model-templates/C106-3",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
   },
   {
-   "id": "105-elsewhere-sandbox/C105-2",
+   "id": "106-elsewhere-world-model-templates/C106-1",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
   },
   {
-   "id": "105-elsewhere-sandbox/C105-1",
+   "id": "106-elsewhere-world-model-templates/C106-2",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
   },
   {
-   "id": "105-elsewhere-sandbox/C105-3",
+   "id": "106-elsewhere-world-model-templates/C106-5",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
   },
   {
-   "id": "105-elsewhere-sandbox/C105-5",
+   "id": "106-elsewhere-world-model-templates/C106-4",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "106-elsewhere-world-model-templates/C106-6",
    "population": "bundle",
    "status": "draft",
    "stage": "created"
@@ -26042,57 +26048,68 @@
    ]
   },
   {
-   "row": "105-elsewhere-sandbox/C105-1",
+   "row": "106-elsewhere-world-model-templates/C106-1",
    "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "105-elsewhere-sandbox/C105-1",
+    "106-elsewhere-world-model-templates/C106-1",
     "spec.md"
    ]
   },
   {
-   "row": "105-elsewhere-sandbox/C105-2",
+   "row": "106-elsewhere-world-model-templates/C106-2",
    "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "105-elsewhere-sandbox/C105-2",
+    "106-elsewhere-world-model-templates/C106-2",
     "spec.md"
    ]
   },
   {
-   "row": "105-elsewhere-sandbox/C105-3",
+   "row": "106-elsewhere-world-model-templates/C106-3",
    "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "105-elsewhere-sandbox/C105-3",
+    "106-elsewhere-world-model-templates/C106-3",
     "spec.md"
    ]
   },
   {
-   "row": "105-elsewhere-sandbox/C105-4",
+   "row": "106-elsewhere-world-model-templates/C106-4",
    "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "105-elsewhere-sandbox/C105-4",
+    "106-elsewhere-world-model-templates/C106-4",
     "spec.md"
    ]
   },
   {
-   "row": "105-elsewhere-sandbox/C105-5",
+   "row": "106-elsewhere-world-model-templates/C106-5",
    "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "105-elsewhere-sandbox/C105-5",
+    "106-elsewhere-world-model-templates/C106-5",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "106-elsewhere-world-model-templates/C106-6",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-6",
     "spec.md"
    ]
   },
@@ -26264,8 +26281,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1054,
-  "rows_with_cells": 1040,
+  "rows_total": 1055,
+  "rows_with_cells": 1041,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -26623,30 +26640,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1577,
+  "cells_total": 1578,
   "cells_by_relation": {
-   "supports": 1570,
+   "supports": 1571,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1570,
+   "documents": 1571,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1045,
-   "total": 1054,
+   "covered": 1046,
+   "total": 1055,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1031,
-     "total": 1031
+     "covered": 1032,
+     "total": 1032
     }
    }
   },

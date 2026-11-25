@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1054,
+  "claims_total": 1055,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1030,
+   "draft": 1031,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
-   "ledger_lines": 1085,
+   "ledger_sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+   "ledger_lines": 1086,
    "ledger_date": "2026-11-25",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "8f44c32ffc04795bdabd38d922bdced16ab33f7c727708ca43b4eca2453c2ed4",
+   "matrix_sha256": "db396df651a1b01807b7a1507af64ae766f1193679f23cd32c1a1b8653516e67",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "97e2bf3c9799866dbe3d9cc27b01a33850b1b0b292961032d83d8eb5eff0318b",
-   "comparison_sha256": "b9e3ef6f73196765e86f09a63cbc931bfe13b0b27ddd075027f01f71dd72b96d",
-   "settling_canonical_sha256": "2d53e8b61476e853b19b06704603974e5c6154e4019c33643f1b165621ded52f"
+   "assignment_sets_sha256": "0476cd8d6bade7135a30cd29222d258813763428272d993b2220170cea0e7aa7",
+   "comparison_sha256": "7350afb0c415f3382619a4fdcc08db8c3488151e4e2fa73b7d1f08854be1fa99",
+   "settling_canonical_sha256": "30dd7550c6283c54939f43127b86770f5723b5b91f5acba61528d130d14a6fc0"
   }
  },
  "elements": [
@@ -8464,40 +8464,48 @@
   },
   {
    "kind": "claim",
-   "id": "105-elsewhere-sandbox/C105-4",
-   "statement": "The sandboxes are separate and the reserves stay sealed: no datum, intermediate, or result from one sandbox is used in another, the three derivations sharing the registered procedure only; the Indus reserve (334 artifacts by the rule of spec section 3.1) is sealed by its filed hash at build and is read by no derivation until the G-IND gate stage unseals it under its own registration; Spec 096's sealed held-out inscriptions are read by no part of this study. This does not establish: that the separation is sufficient for the gates' independence — the gates' own registrations must still show their checkers worked from outside material only.",
+   "id": "106-elsewhere-world-model-templates/C106-3",
+   "statement": "The three baseline templates share one schema: the same eight domains in the same order, the same axiom line grammar, and a Domain 1 that is a pointer to Spec 105 rather than duplicated content, so one ensemble technique built for one program runs on all three. This does not establish: that eight domains are the right domains for any other program; the framework leaves domain choice to the adopting program.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
   },
   {
    "kind": "claim",
-   "id": "105-elsewhere-sandbox/C105-2",
-   "statement": "The sandbox datasets are faithful strips of the pinned sources: each dataset's streams reproduce exactly the recorded token streams its strip rule selects (spec section 3) — for Indus, the letters values of the pinned Holdat file (SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e) grouped by form and ordered by seal_id and position; for Eteocypriot, the recorded lines, segments, and marks of ICS 196 and Androkles Dedication A in Spec 096's two corpus files at their current recorded bytes; for Meroitic, the text fields of the stream-carrying rows of the pinned Kovetsky build's inscriptions.jsonl — in every case with all linguistic annotation removed and nothing else removed, and with sealed or stream-less material absent by the registered rules. This does not establish: that any recording is a correct or complete representation of any artifact in the world — the sandbox takes recordings as given and asserts nothing about them beyond their content.",
+   "id": "106-elsewhere-world-model-templates/C106-1",
+   "statement": "The framework specification filed as framework.md is complete against its commission: it defines every moving part (baseline template, axiom with kind label, instance, seed, claim, translation, derivation, evidence set, checker, verdict, ensemble, iteration, retirement, solution), states the seeding protocol as an exact seed-record contents list, states the iteration protocol (what may and may not change between iterations, how variations are chosen, how verdicts accumulate), and reserves the word solution for a claim that survives across all surviving instances of its ensemble and passes the adopting program's ordinary boundary gates, with an exact status label for every lesser state. This does not establish: that the framework is a good method or that any program should adopt it; completeness is a property of the text, not of its worth.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
   },
   {
    "kind": "claim",
-   "id": "105-elsewhere-sandbox/C105-1",
-   "statement": "The floor is exactly the census of spec section 2: the only primitives any stage of this study uses are distinction, sequence, co-presence, recurrence, and boundary over the recorded token streams, with the recordings themselves as the one admitted input assumption; every other candidate primitive is demoted in the census with its reason, and no demoted or refused item (counting, frequency, 'word', phonetic or sign value, any scholarly sign list, language family, lexicon, grammar, translation, gloss, imported segmentation, iconographic or contextual meaning, mark similarity, cross-corpus mark identity) is used as an input anywhere in the study. This does not establish: that the floor is sufficient to derive anything — sufficiency is what the ladder and the gates test, rung by rung, and a NOT-GOOD gate is the registered way this study fails.",
+   "id": "106-elsewhere-world-model-templates/C106-2",
+   "statement": "Every axiom line in the three baseline templates (templates/indus-baseline.md, templates/eteocypriot-baseline.md, templates/meroitic-baseline.md) carries exactly one kind label, (F), (K), or (H), and either a named source or the UNSOURCED flag, and every line whose sourcing is the UNSOURCED flag is an (H). This does not establish: that any axiom is true; the audit checks labeling and sourcing form, not content.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
   },
   {
    "kind": "claim",
-   "id": "105-elsewhere-sandbox/C105-3",
-   "statement": "The Stage 1 inventories are derivations, not imports: each sandbox's L1 inventory filed at Stage 1 is exactly the set of equivalence classes of marks (sameness as recorded, spec section 2 P-1) over that sandbox's derivation set, produced by a derivation that reads the sandbox dataset and nothing else, and reproduced exactly by a second, independently written implementation of the same registered rungs (L0-L1). This does not establish: that the derived inventory is the script's sign inventory — it is the inventory of the recorded streams under distinction alone, filed beside the working sign lists and never merged into them (C105-5).",
+   "id": "106-elsewhere-world-model-templates/C106-5",
+   "statement": "Each baseline template carries a seed record in the framework's provenance format (framework section 4) stating study identity, template identity and version, the axiom census as seeded with counts by domain and kind and a SHA-256 over the axiom lines as filed, the claim queue as opened, the evidence set and registered contact points, and date and authorizing order; and the stated counts and hash recompute exactly from the filed template (TC-106-05). This does not establish: that any instance exists; the seed records open the templates' lineages only.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
   },
   {
    "kind": "claim",
-   "id": "105-elsewhere-sandbox/C105-5",
-   "statement": "The sandbox moves no standing and claims no decipherment: nothing this study files changes any anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs; nothing derived inside a sandbox is stated, labelled, or citable as a decipherment, a reading, or evidence for or against any reading; sandbox outputs are labelled sandbox-internal until a boundary gate returns GOOD, and a GOOD gate licenses only the specific comparison it checked. This does not establish: that the derived systems are wrong — only that this study's outputs carry no standing outside the sandbox until the gates say what they say.",
+   "id": "106-elsewhere-world-model-templates/C106-4",
+   "statement": "The three censuses were built from sources actually opened, program records first: each axiom's named source is a source its builder opened in this study's research pass (in full, or at search-result depth where the axiom itself says so), and content whose source could not be opened is cited only as summarised in an opened source, dropped, or carried as (H) UNSOURCED. This does not establish: that the cited sources are right; revisable lines are labeled (K) for exactly that reason.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "106-elsewhere-world-model-templates/C106-6",
+   "statement": "This study spawns no instance, tests no claim, and moves no standing: the landing's changes are confined to this spec's package, its own claims' ledger intake artifacts, the taxonomy entry, and the regenerated layers and census pins of the registration cascade, and no record of any program's standings, verdicts, or tallies is altered in content. This does not establish: that the templates' hypotheses are false or idle; they are declared and seeded, awaiting a Stage 1 commission.",
    "status": "draft",
    "stage": "created",
    "population": "bundle"
@@ -28209,56 +28217,67 @@
   },
   {
    "from": "spec.md",
-   "to": "105-elsewhere-sandbox/C105-1",
+   "to": "106-elsewhere-world-model-templates/C106-1",
    "rel": "supports",
    "rule": "R2",
    "column_class": "documents",
    "citations": [
-    "105-elsewhere-sandbox/C105-1",
+    "106-elsewhere-world-model-templates/C106-1",
     "spec.md"
    ]
   },
   {
    "from": "spec.md",
-   "to": "105-elsewhere-sandbox/C105-2",
+   "to": "106-elsewhere-world-model-templates/C106-2",
    "rel": "supports",
    "rule": "R2",
    "column_class": "documents",
    "citations": [
-    "105-elsewhere-sandbox/C105-2",
+    "106-elsewhere-world-model-templates/C106-2",
     "spec.md"
    ]
   },
   {
    "from": "spec.md",
-   "to": "105-elsewhere-sandbox/C105-3",
+   "to": "106-elsewhere-world-model-templates/C106-3",
    "rel": "supports",
    "rule": "R2",
    "column_class": "documents",
    "citations": [
-    "105-elsewhere-sandbox/C105-3",
+    "106-elsewhere-world-model-templates/C106-3",
     "spec.md"
    ]
   },
   {
    "from": "spec.md",
-   "to": "105-elsewhere-sandbox/C105-4",
+   "to": "106-elsewhere-world-model-templates/C106-4",
    "rel": "supports",
    "rule": "R2",
    "column_class": "documents",
    "citations": [
-    "105-elsewhere-sandbox/C105-4",
+    "106-elsewhere-world-model-templates/C106-4",
     "spec.md"
    ]
   },
   {
    "from": "spec.md",
-   "to": "105-elsewhere-sandbox/C105-5",
+   "to": "106-elsewhere-world-model-templates/C106-5",
    "rel": "supports",
    "rule": "R2",
    "column_class": "documents",
    "citations": [
-    "105-elsewhere-sandbox/C105-5",
+    "106-elsewhere-world-model-templates/C106-5",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "106-elsewhere-world-model-templates/C106-6",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "106-elsewhere-world-model-templates/C106-6",
     "spec.md"
    ]
   },
@@ -33674,27 +33693,32 @@
    "opposes": 0,
    "constrains": 0
   },
-  "105-elsewhere-sandbox/C105-4": {
+  "106-elsewhere-world-model-templates/C106-3": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
   },
-  "105-elsewhere-sandbox/C105-2": {
+  "106-elsewhere-world-model-templates/C106-1": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
   },
-  "105-elsewhere-sandbox/C105-1": {
+  "106-elsewhere-world-model-templates/C106-2": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
   },
-  "105-elsewhere-sandbox/C105-3": {
+  "106-elsewhere-world-model-templates/C106-5": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
   },
-  "105-elsewhere-sandbox/C105-5": {
+  "106-elsewhere-world-model-templates/C106-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "106-elsewhere-world-model-templates/C106-6": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -39997,31 +40021,37 @@
     "stage": "created"
    },
    {
-    "id": "105-elsewhere-sandbox/C105-4",
+    "id": "106-elsewhere-world-model-templates/C106-3",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
    },
    {
-    "id": "105-elsewhere-sandbox/C105-2",
+    "id": "106-elsewhere-world-model-templates/C106-1",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
    },
    {
-    "id": "105-elsewhere-sandbox/C105-1",
+    "id": "106-elsewhere-world-model-templates/C106-2",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
    },
    {
-    "id": "105-elsewhere-sandbox/C105-3",
+    "id": "106-elsewhere-world-model-templates/C106-5",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
    },
    {
-    "id": "105-elsewhere-sandbox/C105-5",
+    "id": "106-elsewhere-world-model-templates/C106-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "106-elsewhere-world-model-templates/C106-6",
     "population": "bundle",
     "status": "draft",
     "stage": "created"
@@ -59734,57 +59764,68 @@
     ]
    },
    {
-    "row": "105-elsewhere-sandbox/C105-1",
+    "row": "106-elsewhere-world-model-templates/C106-1",
     "column": "spec.md",
     "column_class": "documents",
     "relation": "supports",
     "rule": "R2",
     "citations": [
-     "105-elsewhere-sandbox/C105-1",
+     "106-elsewhere-world-model-templates/C106-1",
      "spec.md"
     ]
    },
    {
-    "row": "105-elsewhere-sandbox/C105-2",
+    "row": "106-elsewhere-world-model-templates/C106-2",
     "column": "spec.md",
     "column_class": "documents",
     "relation": "supports",
     "rule": "R2",
     "citations": [
-     "105-elsewhere-sandbox/C105-2",
+     "106-elsewhere-world-model-templates/C106-2",
      "spec.md"
     ]
    },
    {
-    "row": "105-elsewhere-sandbox/C105-3",
+    "row": "106-elsewhere-world-model-templates/C106-3",
     "column": "spec.md",
     "column_class": "documents",
     "relation": "supports",
     "rule": "R2",
     "citations": [
-     "105-elsewhere-sandbox/C105-3",
+     "106-elsewhere-world-model-templates/C106-3",
      "spec.md"
     ]
    },
    {
-    "row": "105-elsewhere-sandbox/C105-4",
+    "row": "106-elsewhere-world-model-templates/C106-4",
     "column": "spec.md",
     "column_class": "documents",
     "relation": "supports",
     "rule": "R2",
     "citations": [
-     "105-elsewhere-sandbox/C105-4",
+     "106-elsewhere-world-model-templates/C106-4",
      "spec.md"
     ]
    },
    {
-    "row": "105-elsewhere-sandbox/C105-5",
+    "row": "106-elsewhere-world-model-templates/C106-5",
     "column": "spec.md",
     "column_class": "documents",
     "relation": "supports",
     "rule": "R2",
     "citations": [
-     "105-elsewhere-sandbox/C105-5",
+     "106-elsewhere-world-model-templates/C106-5",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "106-elsewhere-world-model-templates/C106-6",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "106-elsewhere-world-model-templates/C106-6",
      "spec.md"
     ]
    },
@@ -59956,8 +59997,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1054,
-   "rows_with_cells": 1040,
+   "rows_total": 1055,
+   "rows_with_cells": 1041,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -60315,30 +60356,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1577,
+   "cells_total": 1578,
    "cells_by_relation": {
-    "supports": 1570,
+    "supports": 1571,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1570,
+    "documents": 1571,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1045,
-    "total": 1054,
+    "covered": 1046,
+    "total": 1055,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1031,
-      "total": 1031
+      "covered": 1032,
+      "total": 1032
      }
     }
    },
@@ -65383,8 +65424,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1054,
-   "rows_with_cells": 1040,
+   "rows_total": 1055,
+   "rows_with_cells": 1041,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -65742,15 +65783,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1577,
+   "cells_total": 1578,
    "cells_by_relation": {
-    "supports": 1570,
+    "supports": 1571,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1570,
+    "documents": 1571,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -65819,7 +65860,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1030,
+    "draft": 1031,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -65829,26 +65870,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 1014,
+    "created": 1015,
     "explained": 8
    },
    "no_stage_recorded": 29,
    "by_population": {
-    "bundle": 1031,
+    "bundle": 1032,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1045,
-   "total": 1054,
+   "covered": 1046,
+   "total": 1055,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1031,
-     "total": 1031
+     "covered": 1032,
+     "total": 1032
     }
    },
    "gap_claims": [
@@ -65865,8 +65906,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1054,
-   "total": 1054
+   "without_state": 1055,
+   "total": 1055
   },
   "unresolved": {
    "sign_mentions": [
@@ -67352,7 +67393,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261125T173918Z-6d9675",
+      "record": "settling-20261125T174854Z-15a33b",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -67366,7 +67407,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261125T173923Z-50d87d",
+      "record": "settling-20261125T174854Z-99f82a",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -168110,9 +168151,9 @@
     "sign_records": []
    }
   },
-  "105-elsewhere-sandbox/C105-4": {
-   "id": "105-elsewhere-sandbox/C105-4",
-   "statement": "The sandboxes are separate and the reserves stay sealed: no datum, intermediate, or result from one sandbox is used in another, the three derivations sharing the registered procedure only; the Indus reserve (334 artifacts by the rule of spec section 3.1) is sealed by its filed hash at build and is read by no derivation until the G-IND gate stage unseals it under its own registration; Spec 096's sealed held-out inscriptions are read by no part of this study. This does not establish: that the separation is sufficient for the gates' independence — the gates' own registrations must still show their checkers worked from outside material only.",
+  "106-elsewhere-world-model-templates/C106-3": {
+   "id": "106-elsewhere-world-model-templates/C106-3",
+   "statement": "The three baseline templates share one schema: the same eight domains in the same order, the same axiom line grammar, and a Domain 1 that is a pointer to Spec 105 rather than duplicated content, so one ensemble technique built for one program runs on all three. This does not establish: that eight domains are the right domains for any other program; the framework leaves domain choice to the adopting program.",
    "status": "draft",
    "stage": "created",
    "population": "bundle",
@@ -168121,7 +168162,7 @@
    "as_of": null,
    "date": "2026-11-25",
    "falsifier": [
-    "Any Stage 1 record importing another sandbox's output; any derivation input containing a reserve artifact (checked by artifact-index disjointness, TC-105-06); the reserve dataset's hash at any audit differing from the hash filed at build; any access to Spec 096's held-out content in the study's scripts or records."
+    "A domain present in one template and absent or reordered in another; an axiom line grammar difference between templates; Spec 105 floor content duplicated into a template's Domain 1 (TC-106-03)."
    ],
    "falsifier_counts": {
     "present": 1,
@@ -168135,24 +168176,24 @@
    "sign_refs": [],
    "sources": [
     {
-     "claim_id": "C105-4",
+     "claim_id": "C106-3",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     }
    ],
    "matrix_row": {
     "cells": [
      {
-      "row": "105-elsewhere-sandbox/C105-4",
+      "row": "106-elsewhere-world-model-templates/C106-3",
       "column": "spec.md",
       "column_class": "documents",
       "relation": "supports",
       "rule": "R2",
       "citations": [
-       "105-elsewhere-sandbox/C105-4",
+       "106-elsewhere-world-model-templates/C106-3",
        "spec.md"
       ]
      }
@@ -168185,19 +168226,19 @@
      }
     },
     "source_document": {
-     "claim_id": "C105-4",
+     "claim_id": "C106-3",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     },
     "sign_records": []
    }
   },
-  "105-elsewhere-sandbox/C105-2": {
-   "id": "105-elsewhere-sandbox/C105-2",
-   "statement": "The sandbox datasets are faithful strips of the pinned sources: each dataset's streams reproduce exactly the recorded token streams its strip rule selects (spec section 3) — for Indus, the letters values of the pinned Holdat file (SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e) grouped by form and ordered by seal_id and position; for Eteocypriot, the recorded lines, segments, and marks of ICS 196 and Androkles Dedication A in Spec 096's two corpus files at their current recorded bytes; for Meroitic, the text fields of the stream-carrying rows of the pinned Kovetsky build's inscriptions.jsonl — in every case with all linguistic annotation removed and nothing else removed, and with sealed or stream-less material absent by the registered rules. This does not establish: that any recording is a correct or complete representation of any artifact in the world — the sandbox takes recordings as given and asserts nothing about them beyond their content.",
+  "106-elsewhere-world-model-templates/C106-1": {
+   "id": "106-elsewhere-world-model-templates/C106-1",
+   "statement": "The framework specification filed as framework.md is complete against its commission: it defines every moving part (baseline template, axiom with kind label, instance, seed, claim, translation, derivation, evidence set, checker, verdict, ensemble, iteration, retirement, solution), states the seeding protocol as an exact seed-record contents list, states the iteration protocol (what may and may not change between iterations, how variations are chosen, how verdicts accumulate), and reserves the word solution for a claim that survives across all surviving instances of its ensemble and passes the adopting program's ordinary boundary gates, with an exact status label for every lesser state. This does not establish: that the framework is a good method or that any program should adopt it; completeness is a property of the text, not of its worth.",
    "status": "draft",
    "stage": "created",
    "population": "bundle",
@@ -168206,7 +168247,7 @@
    "as_of": null,
    "date": "2026-11-25",
    "falsifier": [
-    "Any token in any dataset differing from its source as recorded (mark, order, grouping, or line structure); any recorded token selected by the strip rule missing from its dataset; any annotation field or value surviving in a dataset (TC-105-04); any sealed Spec 096 held-out content or stream-less Meroitic row present in a dataset."
+    "Any named moving part without a definition in framework.md; a seed record field the protocol does not list; a use of the word solution in the package for anything below the section 8 criterion; a lesser state with no label in the section 8 vocabulary."
    ],
    "falsifier_counts": {
     "present": 1,
@@ -168220,24 +168261,24 @@
    "sign_refs": [],
    "sources": [
     {
-     "claim_id": "C105-2",
+     "claim_id": "C106-1",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     }
    ],
    "matrix_row": {
     "cells": [
      {
-      "row": "105-elsewhere-sandbox/C105-2",
+      "row": "106-elsewhere-world-model-templates/C106-1",
       "column": "spec.md",
       "column_class": "documents",
       "relation": "supports",
       "rule": "R2",
       "citations": [
-       "105-elsewhere-sandbox/C105-2",
+       "106-elsewhere-world-model-templates/C106-1",
        "spec.md"
       ]
      }
@@ -168270,19 +168311,19 @@
      }
     },
     "source_document": {
-     "claim_id": "C105-2",
+     "claim_id": "C106-1",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     },
     "sign_records": []
    }
   },
-  "105-elsewhere-sandbox/C105-1": {
-   "id": "105-elsewhere-sandbox/C105-1",
-   "statement": "The floor is exactly the census of spec section 2: the only primitives any stage of this study uses are distinction, sequence, co-presence, recurrence, and boundary over the recorded token streams, with the recordings themselves as the one admitted input assumption; every other candidate primitive is demoted in the census with its reason, and no demoted or refused item (counting, frequency, 'word', phonetic or sign value, any scholarly sign list, language family, lexicon, grammar, translation, gloss, imported segmentation, iconographic or contextual meaning, mark similarity, cross-corpus mark identity) is used as an input anywhere in the study. This does not establish: that the floor is sufficient to derive anything — sufficiency is what the ladder and the gates test, rung by rung, and a NOT-GOOD gate is the registered way this study fails.",
+  "106-elsewhere-world-model-templates/C106-2": {
+   "id": "106-elsewhere-world-model-templates/C106-2",
+   "statement": "Every axiom line in the three baseline templates (templates/indus-baseline.md, templates/eteocypriot-baseline.md, templates/meroitic-baseline.md) carries exactly one kind label, (F), (K), or (H), and either a named source or the UNSOURCED flag, and every line whose sourcing is the UNSOURCED flag is an (H). This does not establish: that any axiom is true; the audit checks labeling and sourcing form, not content.",
    "status": "draft",
    "stage": "created",
    "population": "bundle",
@@ -168291,7 +168332,7 @@
    "as_of": null,
    "date": "2026-11-25",
    "falsifier": [
-    "Any build, derivation, or gate record of this study demonstrably using a non-admitted input: a sign or phonetic value, a gloss or translation, a segmentation or normalization not in the recording, an outside inventory, or material from another sandbox or from outside the three pinned sources."
+    "One axiom line failing any of those checks under the filed audit (records/census-audit.py, TC-106-02)."
    ],
    "falsifier_counts": {
     "present": 1,
@@ -168305,24 +168346,24 @@
    "sign_refs": [],
    "sources": [
     {
-     "claim_id": "C105-1",
+     "claim_id": "C106-2",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     }
    ],
    "matrix_row": {
     "cells": [
      {
-      "row": "105-elsewhere-sandbox/C105-1",
+      "row": "106-elsewhere-world-model-templates/C106-2",
       "column": "spec.md",
       "column_class": "documents",
       "relation": "supports",
       "rule": "R2",
       "citations": [
-       "105-elsewhere-sandbox/C105-1",
+       "106-elsewhere-world-model-templates/C106-2",
        "spec.md"
       ]
      }
@@ -168355,19 +168396,19 @@
      }
     },
     "source_document": {
-     "claim_id": "C105-1",
+     "claim_id": "C106-2",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     },
     "sign_records": []
    }
   },
-  "105-elsewhere-sandbox/C105-3": {
-   "id": "105-elsewhere-sandbox/C105-3",
-   "statement": "The Stage 1 inventories are derivations, not imports: each sandbox's L1 inventory filed at Stage 1 is exactly the set of equivalence classes of marks (sameness as recorded, spec section 2 P-1) over that sandbox's derivation set, produced by a derivation that reads the sandbox dataset and nothing else, and reproduced exactly by a second, independently written implementation of the same registered rungs (L0-L1). This does not establish: that the derived inventory is the script's sign inventory — it is the inventory of the recorded streams under distinction alone, filed beside the working sign lists and never merged into them (C105-5).",
+  "106-elsewhere-world-model-templates/C106-5": {
+   "id": "106-elsewhere-world-model-templates/C106-5",
+   "statement": "Each baseline template carries a seed record in the framework's provenance format (framework section 4) stating study identity, template identity and version, the axiom census as seeded with counts by domain and kind and a SHA-256 over the axiom lines as filed, the claim queue as opened, the evidence set and registered contact points, and date and authorizing order; and the stated counts and hash recompute exactly from the filed template (TC-106-05). This does not establish: that any instance exists; the seed records open the templates' lineages only.",
    "status": "draft",
    "stage": "created",
    "population": "bundle",
@@ -168376,7 +168417,7 @@
    "as_of": null,
    "date": "2026-11-25",
    "falsifier": [
-    "The two implementations' inventories differing for any sandbox; any filed inventory containing a mark absent from its derivation set, or missing a mark present in it; the derivation reading any input other than its sandbox's dataset (the reserve included)."
+    "A missing section 4 field in any seed record; a stated count or hash that does not recompute from the filed template."
    ],
    "falsifier_counts": {
     "present": 1,
@@ -168390,24 +168431,24 @@
    "sign_refs": [],
    "sources": [
     {
-     "claim_id": "C105-3",
+     "claim_id": "C106-5",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     }
    ],
    "matrix_row": {
     "cells": [
      {
-      "row": "105-elsewhere-sandbox/C105-3",
+      "row": "106-elsewhere-world-model-templates/C106-5",
       "column": "spec.md",
       "column_class": "documents",
       "relation": "supports",
       "rule": "R2",
       "citations": [
-       "105-elsewhere-sandbox/C105-3",
+       "106-elsewhere-world-model-templates/C106-5",
        "spec.md"
       ]
      }
@@ -168440,19 +168481,19 @@
      }
     },
     "source_document": {
-     "claim_id": "C105-3",
+     "claim_id": "C106-5",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     },
     "sign_records": []
    }
   },
-  "105-elsewhere-sandbox/C105-5": {
-   "id": "105-elsewhere-sandbox/C105-5",
-   "statement": "The sandbox moves no standing and claims no decipherment: nothing this study files changes any anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs; nothing derived inside a sandbox is stated, labelled, or citable as a decipherment, a reading, or evidence for or against any reading; sandbox outputs are labelled sandbox-internal until a boundary gate returns GOOD, and a GOOD gate licenses only the specific comparison it checked. This does not establish: that the derived systems are wrong — only that this study's outputs carry no standing outside the sandbox until the gates say what they say.",
+  "106-elsewhere-world-model-templates/C106-4": {
+   "id": "106-elsewhere-world-model-templates/C106-4",
+   "statement": "The three censuses were built from sources actually opened, program records first: each axiom's named source is a source its builder opened in this study's research pass (in full, or at search-result depth where the axiom itself says so), and content whose source could not be opened is cited only as summarised in an opened source, dropped, or carried as (H) UNSOURCED. This does not establish: that the cited sources are right; revisable lines are labeled (K) for exactly that reason.",
    "status": "draft",
    "stage": "created",
    "population": "bundle",
@@ -168461,7 +168502,7 @@
    "as_of": null,
    "date": "2026-11-25",
    "falsifier": [
-    "Any record of this study stating a changed standing, verdict, or tally; any derived inventory merged into, or cited as, a working sign list; any citing record treating a sandbox output as a decipherment claim or as evidence in another study's adjudication beyond a gate's registered GOOD on its own comparison."
+    "A census axiom citing a source that does not support its statement; a source represented as opened in full that the research record shows only at search-result depth, without the axiom saying so; an axiom resting on Rilly 2010 or Rilly and de Voogt 2012 stated as if read directly."
    ],
    "falsifier_counts": {
     "present": 1,
@@ -168475,24 +168516,24 @@
    "sign_refs": [],
    "sources": [
     {
-     "claim_id": "C105-5",
+     "claim_id": "C106-4",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     }
    ],
    "matrix_row": {
     "cells": [
      {
-      "row": "105-elsewhere-sandbox/C105-5",
+      "row": "106-elsewhere-world-model-templates/C106-4",
       "column": "spec.md",
       "column_class": "documents",
       "relation": "supports",
       "rule": "R2",
       "citations": [
-       "105-elsewhere-sandbox/C105-5",
+       "106-elsewhere-world-model-templates/C106-4",
        "spec.md"
       ]
      }
@@ -168525,12 +168566,97 @@
      }
     },
     "source_document": {
-     "claim_id": "C105-5",
+     "claim_id": "C106-4",
      "document_id": null,
-     "path": "specs/105-elsewhere-sandbox/aee-claims.json",
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
      "role": "source_of_record",
-     "sha256": "c2bfafaa6f2e3df021a7198cee28e464e89321dff485f012f3e2a1727ee619c0",
-     "spec": "105-elsewhere-sandbox"
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    },
+    "sign_records": []
+   }
+  },
+  "106-elsewhere-world-model-templates/C106-6": {
+   "id": "106-elsewhere-world-model-templates/C106-6",
+   "statement": "This study spawns no instance, tests no claim, and moves no standing: the landing's changes are confined to this spec's package, its own claims' ledger intake artifacts, the taxonomy entry, and the regenerated layers and census pins of the registration cascade, and no record of any program's standings, verdicts, or tallies is altered in content. This does not establish: that the templates' hypotheses are false or idle; they are declared and seeded, awaiting a Stage 1 commission.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-25",
+   "falsifier": [
+    "An instance, derivation, or claim verdict anywhere in this study's records; a landing diff touching a standing, verdict, or tally record of the Indus, Eteocypriot, or Meroitic programs (TC-106-06)."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C106-6",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "106-elsewhere-world-model-templates/C106-6",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "106-elsewhere-world-model-templates/C106-6",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C106-6",
+     "document_id": null,
+     "path": "specs/106-elsewhere-world-model-templates/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "ea672fff76b05551400e37e0142b8b13b3694eb05985adda6bc5410b823b8c69",
+     "spec": "106-elsewhere-world-model-templates"
     },
     "sign_records": []
    }
@@ -168541,7 +168667,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "97e2bf3c9799866dbe3d9cc27b01a33850b1b0b292961032d83d8eb5eff0318b",
+   "sha256": "0476cd8d6bade7135a30cd29222d258813763428272d993b2220170cea0e7aa7",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -168585,15 +168711,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261125T173918Z-6d9675",
+    "record": "settling-20261125T174854Z-15a33b",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
-      "lines": 1085
+      "sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+      "lines": 1086
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -168644,15 +168770,15 @@
     }
    },
    {
-    "record": "settling-20261125T173923Z-50d87d",
+    "record": "settling-20261125T174854Z-99f82a",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "01efa5ace93e227588a7f8d65db7d6fbc3e43bbbf0ca587e910fc73a786f1c6b",
-      "lines": 1085
+      "sha256": "00d9b5e9ecdc54bf5f5e5f7ce755ae91504202d1be52eb8a63ec3c0c242b8822",
+      "lines": 1086
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -168707,7 +168833,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "b9e3ef6f73196765e86f09a63cbc931bfe13b0b27ddd075027f01f71dd72b96d",
+   "sha256": "7350afb0c415f3382619a4fdcc08db8c3488151e4e2fa73b7d1f08854be1fa99",
    "result": {
     "claims_compared": [
      {
@@ -168955,7 +169081,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "2d53e8b61476e853b19b06704603974e5c6154e4019c33643f1b165621ded52f",
+   "sha256": "30dd7550c6283c54939f43127b86770f5723b5b91f5acba61528d130d14a6fc0",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -169290,8 +169416,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1054,
-   "claims_untouched_by_any_run": 1053,
+   "claims_total": 1055,
+   "claims_untouched_by_any_run": 1054,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,
