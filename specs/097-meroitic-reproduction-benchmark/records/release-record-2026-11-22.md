@@ -185,3 +185,72 @@ were landed through the deposit chain on 2026-11-22:
 - **ResearchGate:** publication 418214318 still carries
   the v1 PDF; its update to v2 is BROWSER-REQUIRED and
   outstanding (not attempted in this run).
+
+## Addendum 2026-11-25 (v3 loop-iteration deposit)
+
+Under the owner's standing loop order of 2026-11-23, the expanded
+loop definition of 2026-11-24 (publish each iteration's update,
+then a 1 hour wait before the next round), and the owner's direct
+order of 2026-11-25, the v3 iteration folded the Round D paper
+items into the v3 candidate and released it. BOOKKEEPING ONLY, as
+above: no verdict, standing, tally, score, or claim changed.
+
+- **Paper changes (two items), verbatim from the Round D OUTPUT
+  capture as adjudicated:** (1) M-P9 (from D-M-2, APPLY): the §1
+  passage that cited the separately acquired inscription corpus
+  as assurance for the campaign's own transcriptions is replaced
+  with the assessment's replacement passage, which states that
+  the reproduction validates the benchmark's own pipeline on the
+  benchmark's own material only, and that the corpus the
+  decipherment campaign runs on was acquired, extracted and
+  normalised separately, so the reproduction result must not be
+  read as an assurance the reproduction does not support.
+  (2) M-P8 (from D-M-1, APPLY WITH MODIFICATION): two sentences
+  added in §4.4 immediately after the Power audit paragraph,
+  recording that the audit's minimum detectable effects and
+  exclusion bounds were computed under the binomial law while the
+  frozen test's statistic follows the permutation law, that the
+  deposited audit's own histograms put the binomial tail areas at
+  2.50 and 2.96 times the permutation tail areas at the two
+  audited loci, and that B-M-9 stands reopened on its
+  justification sentence only. The extracted-text diff against
+  the v3 candidate shows exactly these items plus pagination
+  reflow. Page count unchanged at 13.
+- **Slop check:** run over the final v3 text before deposit;
+  passed (the registered strings "UNDECIDABLE AT THIS POWER" and
+  "PARTIALLY SUPPORTED" intact; the tail ratios in the new item
+  verified against the adjudication record).
+- **Zenodo v3:** new version of record 24450095: record 24533707,
+  DOI 10.5281/zenodo.24533707, concept DOI
+  10.5281/zenodo.24449061, version label "v3", publication date
+  2026-11-25, deposited file
+  meroitic-reproduction-benchmark-v3.pdf (MD5
+  5eeefb0a9eef5b08088e77d0dedfe68f, matching the local build;
+  SHA-256
+  9c5df93d0761eac16ccd8bce637bc7316ee3c1fef3a0f980f170d85859313a5c).
+  Description: the v3 abstract followed by the OD-C-5 adopted
+  Round C summary (refresh adjudication record §13). Related
+  identifiers carried over (AXIOVEX/glossa-lab repository,
+  isSupplementedBy, software; axiovexsystems.com/research/glossa-lab/,
+  isDocumentedBy). The printed DOI is the v3 version DOI and the
+  in-text label reads "Preprint v3". Verified from the published
+  record after publish (record created stamp
+  2026-11-25T13:43:53Z). Final TeX SHA-256
+  a214d428a7ea11e56215d0d8868da15b44b7a693a18fe77698bd5983579f8d70.
+- **Academia:** work 181628423 updated in place through the
+  tower-compute automation profile: v3 attachment replacing the
+  v2 file, DOI field set to 10.5281/zenodo.24533707, listing text
+  set to the Zenodo v3 description. Verified on the live page
+  2026-11-25 (new DOI displayed; the OD-C-5 summary present; the
+  replaced §1 assurance absent).
+- **ResearchGate:** publication 418214318 still carries v2 at
+  this filing. The v3 update runs through the owner's cloud
+  browser session and trails under the owner's ruling of
+  2026-11-25 (Zenodo is the record of record; the account-wide
+  budget of about 3 publication changes per day governs, and the
+  Riemann program has a retry scheduled 2026-11-26 ~09:44 ET).
+- **Loop wait:** the 1 hour post-publication wait runs from the
+  Zenodo publication of 2026-11-25 (~13:44Z). Round E dispatch
+  after the wait belongs to the parent chat.
+- **Ledger:** recommendations-ledger rows D-M-1 and D-M-2 are
+  moved to done on this evidence.

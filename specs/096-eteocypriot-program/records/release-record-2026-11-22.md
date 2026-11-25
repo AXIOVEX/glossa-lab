@@ -141,3 +141,63 @@ corrections; they are now landed as a new deposit version.
 - **ResearchGate publication 418211795 still carries v1.** Its
   update to v2 is browser-required and outstanding; it is not
   attempted by this addendum.
+
+## Addendum 2026-11-25 (v3 loop-iteration deposit)
+
+Under the owner's standing loop order of 2026-11-23, the expanded
+loop definition of 2026-11-24 (publish each iteration's update,
+then a 1 hour wait before the next round), and the owner's direct
+order of 2026-11-25, the v3 iteration folded the Round D paper
+item into the v3 candidate and released it. BOOKKEEPING ONLY, as
+above: no verdict, standing, tally, score, or claim changed.
+
+- **Paper change (one item):** D-E-2's sentence, verbatim from the
+  Round D OUTPUT capture as adjudicated APPLY WITH MODIFICATION,
+  added as a new paragraph at the end of §3.3: "A further reading
+  proposal in the same Perna chapter also proposes, for the
+  patronymic segment of the ICS 196 dedication (Perna §§29–30), a
+  revised reading of the sign transliterated ko in the program's
+  sources, read we in Perna's revision, giving the patronymic as
+  a-ra-to-wa-na-ka-so-we-o-se where the earlier editions give the
+  ko form; the proposal is absent from every program record
+  consulted, and is recorded here as an unadjudicated reading
+  proposal against the frozen corpus reading, not as a correction
+  to it." The extracted-text diff against the v3 candidate shows
+  exactly this item plus pagination reflow. Page count unchanged
+  at 10. The title stands exactly as in v2.
+- **Slop check:** run over the final v3 text before deposit;
+  passed (verdict and standing strings intact; the numbers in the
+  new item verified against the adjudication record).
+- **Zenodo v3:** new version of record 24449913: record 24533693,
+  DOI 10.5281/zenodo.24533693, concept DOI
+  10.5281/zenodo.24449059, version label "v3", publication date
+  2026-11-25, deposited file eteocypriot-alignment-v3.pdf (MD5
+  72040d7dd95607450f31e3744f1e42d2, matching the local build;
+  SHA-256
+  9f86e0e9291e5e6e2e58f1b6b799be9b4d011a3445c5d0242e377d4f5425c64f).
+  Description: the v3 abstract followed by the OD-C-1 amended
+  position wording (refresh adjudication record §14). Related
+  identifiers carried over (AXIOVEX/glossa-lab repository,
+  isSupplementedBy, software; axiovexsystems.com/research/glossa-lab/,
+  isDocumentedBy). The printed DOI is the v3 version DOI and the
+  in-text label reads "Preprint v3". Verified from the published
+  record after publish (record created stamp
+  2026-11-25T13:43:01Z). Final TeX SHA-256
+  2b586d605503a7f1920e70f30a4e5ef3019c57bcbfbe4a16f529cf1094a60eba.
+- **Academia:** work 181628208 updated in place through the
+  tower-compute automation profile: v3 attachment replacing the
+  v2 file, DOI field set to 10.5281/zenodo.24533693, listing text
+  set to the Zenodo v3 description. Verified on the live page
+  2026-11-25 (new DOI displayed; v3 abstract and the OD-C-1
+  wording present; the v2 sentence absent).
+- **ResearchGate:** publication 418211795 still carries v2 at
+  this filing. The v3 update runs through the owner's cloud
+  browser session and trails under the owner's ruling of
+  2026-11-25 (Zenodo is the record of record; the account-wide
+  budget of about 3 publication changes per day governs, and the
+  Riemann program has a retry scheduled 2026-11-26 ~09:44 ET).
+- **Loop wait:** the 1 hour post-publication wait runs from the
+  Zenodo publication of 2026-11-25 (~13:44Z). Round E dispatch
+  after the wait belongs to the parent chat.
+- **Ledger:** recommendations-ledger row D-E-2 is moved to done
+  on this evidence.
