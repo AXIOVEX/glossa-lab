@@ -1,0 +1,1334 @@
+{
+  "schema_version": "1.0",
+  "evaluator": {
+    "id": "aee",
+    "version": "1.0.0",
+    "name": "Applied Epistemic Engineering",
+    "url": "https://github.com/electrohire/spec-kit-aee"
+  },
+  "phase": "after_plan",
+  "outcome": "iterate",
+  "summary": "Assessed 5 claim(s); found 23 failure mode(s); 5 claim(s) below the 0.70 confidence threshold. Shared evidence: 1 supporting source(s) shared across 5 of 5 claim(s); the same evidence set supports multiple claims (FR-2.8, reporting only, no outcome effect in this phase). Draft cap: 5 draft claim(s) capped at gather_evidence/iterate (FR-2.3). Stage cap: 5 claim(s) below stage 'explained'; the outcome cannot be 'pass' (Spec 004 R1.4). Not understood: 10 residual unknown(s) are recorded on this ass",
+  "findings": [
+    {
+      "id": "AEE-C105-1-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The primitives census of spec.md section 2 (the five admitted primitives, the one admitted input assumption, and the demotion list with its reasons), and the registered build and derivation procedures of sections 3-5, which name every input any stage may read."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C105-1-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The primitives census of spec.md section 2 (the five admitted primitives, the one admitted input assumption, and the demotion list with its reasons), and the registered build and derivation procedures of sections 3-5, which name every input any stage may read."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C105-1-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-2, C105-3, C105-4, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The primitives census of spec.md section 2 (the five admitted primitives, the one admitted input assumption, and the demotion list with its reasons), and the registered build and derivation procedures of sections 3-5, which name every input any stage may read."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C105-1-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The primitives census of spec.md section 2 (the five admitted primitives, the one admitted input assumption, and the demotion list with its reasons), and the registered build and derivation procedures of sections 3-5, which name every input any stage may read."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C105-2-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The three pinned sources of spec.md section 3 (the Holdat file at the Spec 100 pin; Spec 096's corpus.json and corpus-androkles-intake-2026-11-22.json at their current recorded hashes; the Kovetsky build at pin 145af0836c071e7c9796d37d4b36add00d347c8a) and the strip-fidelity and stripping-verification test cases TC-105-02..TC-105-04."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C105-2-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The three pinned sources of spec.md section 3 (the Holdat file at the Spec 100 pin; Spec 096's corpus.json and corpus-androkles-intake-2026-11-22.json at their current recorded hashes; the Kovetsky build at pin 145af0836c071e7c9796d37d4b36add00d347c8a) and the strip-fidelity and stripping-verification test cases TC-105-02..TC-105-04."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C105-2-COUNTEREXAMPLE-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Absolute language is used without a bounded domain",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The three pinned sources of spec.md section 3 (the Holdat file at the Spec 100 pin; Spec 096's corpus.json and corpus-androkles-intake-2026-11-22.json at their current recorded hashes; the Kovetsky build at pin 145af0836c071e7c9796d37d4b36add00d347c8a) and the strip-fidelity and stripping-verification test cases TC-105-02..TC-105-04."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Counterexample challenge"
+    },
+    {
+      "id": "AEE-C105-2-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-3, C105-4, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The three pinned sources of spec.md section 3 (the Holdat file at the Spec 100 pin; Spec 096's corpus.json and corpus-androkles-intake-2026-11-22.json at their current recorded hashes; the Kovetsky build at pin 145af0836c071e7c9796d37d4b36add00d347c8a) and the strip-fidelity and stripping-verification test cases TC-105-02..TC-105-04."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C105-2-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The three pinned sources of spec.md section 3 (the Holdat file at the Spec 100 pin; Spec 096's corpus.json and corpus-androkles-intake-2026-11-22.json at their current recorded hashes; the Kovetsky build at pin 145af0836c071e7c9796d37d4b36add00d347c8a) and the strip-fidelity and stripping-verification test cases TC-105-02..TC-105-04."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C105-3-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The derivation ladder of spec.md section 5 (L0 distinction and persistence; L1 equivalence and inventory), the dataset schema of section 3, and test case TC-105-05 (derivation purity and agreement under two independent implementations)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C105-3-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The derivation ladder of spec.md section 5 (L0 distinction and persistence; L1 equivalence and inventory), the dataset schema of section 3, and test case TC-105-05 (derivation purity and agreement under two independent implementations)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C105-3-COUNTEREXAMPLE-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Absolute language is used without a bounded domain",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The derivation ladder of spec.md section 5 (L0 distinction and persistence; L1 equivalence and inventory), the dataset schema of section 3, and test case TC-105-05 (derivation purity and agreement under two independent implementations)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Counterexample challenge"
+    },
+    {
+      "id": "AEE-C105-3-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-2, C105-4, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The derivation ladder of spec.md section 5 (L0 distinction and persistence; L1 equivalence and inventory), the dataset schema of section 3, and test case TC-105-05 (derivation purity and agreement under two independent implementations)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C105-3-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The derivation ladder of spec.md section 5 (L0 distinction and persistence; L1 equivalence and inventory), the dataset schema of section 3, and test case TC-105-05 (derivation purity and agreement under two independent implementations)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C105-4-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The partition and exclusion rules of spec.md section 3 (the Indus reserve rule, the Eteocypriot exclusions under Spec 096's standing seal, the Meroitic no-partition decision D-105-7) and test case TC-105-06 (reserve seal and partition discipline)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C105-4-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The partition and exclusion rules of spec.md section 3 (the Indus reserve rule, the Eteocypriot exclusions under Spec 096's standing seal, the Meroitic no-partition decision D-105-7) and test case TC-105-06 (reserve seal and partition discipline)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C105-4-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-2, C105-3, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The partition and exclusion rules of spec.md section 3 (the Indus reserve rule, the Eteocypriot exclusions under Spec 096's standing seal, the Meroitic no-partition decision D-105-7) and test case TC-105-06 (reserve seal and partition discipline)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C105-4-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The partition and exclusion rules of spec.md section 3 (the Indus reserve rule, the Eteocypriot exclusions under Spec 096's standing seal, the Meroitic no-partition decision D-105-7) and test case TC-105-06 (reserve seal and partition discipline)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C105-5-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The study's registered scope (spec.md sections 1, 7, 8): three sealed sandboxes, a derivation ladder whose meaning rung (L5) is structural role only, and boundary gates whose GOOD licenses only the comparison checked; and test case TC-105-07 (standing discipline read over the execution landing's diff)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C105-5-PRECISION-CHALLENGE",
+      "severity": "medium",
+      "kind": "ambiguous_requirement",
+      "subject": "spec.md",
+      "description": "Claim contains an undefined or non-measurable term",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The study's registered scope (spec.md sections 1, 7, 8): three sealed sandboxes, a derivation ladder whose meaning rung (L5) is structural role only, and boundary gates whose GOOD licenses only the comparison checked; and test case TC-105-07 (standing discipline read over the execution landing's diff)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "clarify",
+      "rationale": "Precision challenge"
+    },
+    {
+      "id": "AEE-C105-5-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The study's registered scope (spec.md sections 1, 7, 8): three sealed sandboxes, a derivation ladder whose meaning rung (L5) is structural role only, and boundary gates whose GOOD licenses only the comparison checked; and test case TC-105-07 (standing discipline read over the execution landing's diff)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C105-5-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-2, C105-3, C105-4 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The study's registered scope (spec.md sections 1, 7, 8): three sealed sandboxes, a derivation ladder whose meaning rung (L5) is structural role only, and boundary gates whose GOOD licenses only the comparison checked; and test case TC-105-07 (standing discipline read over the execution landing's diff)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C105-5-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The study's registered scope (spec.md sections 1, 7, 8): three sealed sandboxes, a derivation ladder whose meaning rung (L5) is structural role only, and boundary gates whose GOOD licenses only the comparison checked; and test case TC-105-07 (standing discipline read over the execution landing's diff)."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    }
+  ],
+  "next_action": {
+    "kind": "iterate",
+    "target_phase": "plan",
+    "message": "Revise the current phase to address 23 finding(s)."
+  },
+  "metadata": {
+    "timestamp": "2026-11-25T18:13:32.059606Z",
+    "artifacts_evaluated": [
+      "specs/105-elsewhere-sandbox/aee-claims.json"
+    ],
+    "model": null,
+    "deterministic": true,
+    "engine_version": "1.5.3",
+    "aee_methodology_version": "2.0",
+    "lanes": {
+      "lane_1": {
+        "label": "machine verification",
+        "outcome": "iterate",
+        "threshold": 0.7,
+        "claims_at_or_above_threshold": 0,
+        "claims_below_threshold": 5
+      },
+      "lane_2": {
+        "label": "human acceptance",
+        "stage_counts": {
+          "created": 5,
+          "checked": 0,
+          "explained": 0,
+          "accepted": 0,
+          "digested": 0
+        },
+        "claims_below_explained": 5,
+        "exposition_covered_claims": 0,
+        "exposition_missing_claims": 5,
+        "verified_unexplained_claims": 0,
+        "stage_capped_claims": 0,
+        "attribution_contested_claims": 0
+      }
+    },
+    "not_understood": [
+      "C105-1: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C105-1: propagated score 0.089 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C105-2: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C105-2: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C105-3: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C105-3: propagated score 0.089 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C105-4: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C105-4: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C105-5: open challenges this assessment does not resolve: ambiguous_requirement, assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C105-5: propagated score 0.089 is below the 0.70 threshold - the claim is not established by its evidence as recorded."
+    ],
+    "reported_statuses": {
+      "C105-1": "draft",
+      "C105-2": "draft",
+      "C105-3": "draft",
+      "C105-4": "draft",
+      "C105-5": "draft"
+    }
+  },
+  "state": {
+    "aee": {
+      "project": "spec105-elsewhere",
+      "claims": [
+        {
+          "id": "C105-1",
+          "text": "The floor is exactly the census of spec section 2: the only primitives any stage of this study uses are distinction, sequence, co-presence, recurrence, and boundary over the recorded token streams, with the recordings themselves as the one admitted input assumption; every other candidate primitive is demoted in the census with its reason, and no demoted or refused item (counting, frequency, 'word', phonetic or sign value, any scholarly sign list, language family, lexicon, grammar, translation, gloss, imported segmentation, iconographic or contextual meaning, mark similarity, cross-corpus mark identity) is used as an input anywhere in the study. This does not establish: that the floor is sufficient to derive anything \u2014 sufficiency is what the ladder and the gates test, rung by rung, and a NOT-GOOD gate is the registered way this study fails.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The primitives census of spec.md section 2 (the five admitted primitives, the one admitted input assumption, and the demotion list with its reasons), and the registered build and derivation procedures of sections 3-5, which name every input any stage may read.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any build, derivation, or gate record of this study demonstrably using a non-admitted input: a sign or phonetic value, a gloss or translation, a segmentation or normalization not in the recording, an outside inventory, or material from another sandbox or from outside the three pinned sources."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.08875000000000002,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C105-1-BOUNDARY-CHALLENGE",
+              "claim_id": "C105-1",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-1-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C105-1",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-1-INDEPENDENCE-UNMODELED",
+              "claim_id": "C105-1",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-2, C105-3, C105-4, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-1-DRAFT-CAP",
+              "claim_id": "C105-1",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C105-2",
+          "text": "The sandbox datasets are faithful strips of the pinned sources: each dataset's streams reproduce exactly the recorded token streams its strip rule selects (spec section 3) \u2014 for Indus, the letters values of the pinned Holdat file (SHA-256 62d14d2bebf7c2c80d98a2958e75ec52bff3f240ff3f5e85d1f7f40cbe28218e) grouped by form and ordered by seal_id and position; for Eteocypriot, the recorded lines, segments, and marks of ICS 196 and Androkles Dedication A in Spec 096's two corpus files at their current recorded bytes; for Meroitic, the text fields of the stream-carrying rows of the pinned Kovetsky build's inscriptions.jsonl \u2014 in every case with all linguistic annotation removed and nothing else removed, and with sealed or stream-less material absent by the registered rules. This does not establish: that any recording is a correct or complete representation of any artifact in the world \u2014 the sandbox takes recordings as given and asserts nothing about them beyond their content.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The three pinned sources of spec.md section 3 (the Holdat file at the Spec 100 pin; Spec 096's corpus.json and corpus-androkles-intake-2026-11-22.json at their current recorded hashes; the Kovetsky build at pin 145af0836c071e7c9796d37d4b36add00d347c8a) and the strip-fidelity and stripping-verification test cases TC-105-02..TC-105-04.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any token in any dataset differing from its source as recorded (mark, order, grouping, or line structure); any recorded token selected by the strip rule missing from its dataset; any annotation field or value surviving in a dataset (TC-105-04); any sealed Spec 096 held-out content or stream-less Meroitic row present in a dataset."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C105-2-BOUNDARY-CHALLENGE",
+              "claim_id": "C105-2",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-2-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C105-2",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-2-COUNTEREXAMPLE-CHALLENGE",
+              "claim_id": "C105-2",
+              "challenge": "Counterexample challenge",
+              "breakpoint": "Absolute language is used without a bounded domain",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-2-INDEPENDENCE-UNMODELED",
+              "claim_id": "C105-2",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-3, C105-4, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-2-DRAFT-CAP",
+              "claim_id": "C105-2",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C105-3",
+          "text": "The Stage 1 inventories are derivations, not imports: each sandbox's L1 inventory filed at Stage 1 is exactly the set of equivalence classes of marks (sameness as recorded, spec section 2 P-1) over that sandbox's derivation set, produced by a derivation that reads the sandbox dataset and nothing else, and reproduced exactly by a second, independently written implementation of the same registered rungs (L0-L1). This does not establish: that the derived inventory is the script's sign inventory \u2014 it is the inventory of the recorded streams under distinction alone, filed beside the working sign lists and never merged into them (C105-5).",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The derivation ladder of spec.md section 5 (L0 distinction and persistence; L1 equivalence and inventory), the dataset schema of section 3, and test case TC-105-05 (derivation purity and agreement under two independent implementations).",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "The two implementations' inventories differing for any sandbox; any filed inventory containing a mark absent from its derivation set, or missing a mark present in it; the derivation reading any input other than its sandbox's dataset (the reserve included)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.08875000000000002,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C105-3-BOUNDARY-CHALLENGE",
+              "claim_id": "C105-3",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-3-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C105-3",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-3-COUNTEREXAMPLE-CHALLENGE",
+              "claim_id": "C105-3",
+              "challenge": "Counterexample challenge",
+              "breakpoint": "Absolute language is used without a bounded domain",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-3-INDEPENDENCE-UNMODELED",
+              "claim_id": "C105-3",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-2, C105-4, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-3-DRAFT-CAP",
+              "claim_id": "C105-3",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C105-4",
+          "text": "The sandboxes are separate and the reserves stay sealed: no datum, intermediate, or result from one sandbox is used in another, the three derivations sharing the registered procedure only; the Indus reserve (334 artifacts by the rule of spec section 3.1) is sealed by its filed hash at build and is read by no derivation until the G-IND gate stage unseals it under its own registration; Spec 096's sealed held-out inscriptions are read by no part of this study. This does not establish: that the separation is sufficient for the gates' independence \u2014 the gates' own registrations must still show their checkers worked from outside material only.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The partition and exclusion rules of spec.md section 3 (the Indus reserve rule, the Eteocypriot exclusions under Spec 096's standing seal, the Meroitic no-partition decision D-105-7) and test case TC-105-06 (reserve seal and partition discipline).",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any Stage 1 record importing another sandbox's output; any derivation input containing a reserve artifact (checked by artifact-index disjointness, TC-105-06); the reserve dataset's hash at any audit differing from the hash filed at build; any access to Spec 096's held-out content in the study's scripts or records."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C105-4-BOUNDARY-CHALLENGE",
+              "claim_id": "C105-4",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-4-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C105-4",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-4-INDEPENDENCE-UNMODELED",
+              "claim_id": "C105-4",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-2, C105-3, C105-5 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-4-DRAFT-CAP",
+              "claim_id": "C105-4",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C105-5",
+          "text": "The sandbox moves no standing and claims no decipherment: nothing this study files changes any anchor standing, claim verdict, or tally in the Indus, Eteocypriot, or Meroitic programs; nothing derived inside a sandbox is stated, labelled, or citable as a decipherment, a reading, or evidence for or against any reading; sandbox outputs are labelled sandbox-internal until a boundary gate returns GOOD, and a GOOD gate licenses only the specific comparison it checked. This does not establish: that the derived systems are wrong \u2014 only that this study's outputs carry no standing outside the sandbox until the gates say what they say.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The study's registered scope (spec.md sections 1, 7, 8): three sealed sandboxes, a derivation ladder whose meaning rung (L5) is structural role only, and boundary gates whose GOOD licenses only the comparison checked; and test case TC-105-07 (standing discipline read over the execution landing's diff).",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any record of this study stating a changed standing, verdict, or tally; any derived inventory merged into, or cited as, a working sign list; any citing record treating a sandbox output as a decipherment claim or as evidence in another study's adjudication beyond a gate's registered GOOD on its own comparison."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.08875000000000002,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C105-5-BOUNDARY-CHALLENGE",
+              "claim_id": "C105-5",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-5-PRECISION-CHALLENGE",
+              "claim_id": "C105-5",
+              "challenge": "Precision challenge",
+              "breakpoint": "Claim contains an undefined or non-measurable term",
+              "severity": "medium",
+              "category": "ambiguous_requirement",
+              "recovery_hint": "Replace vague language with a threshold, observable, or decision rule.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-5-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C105-5",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-5-INDEPENDENCE-UNMODELED",
+              "claim_id": "C105-5",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C105-1, C105-2, C105-3, C105-4 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C105-5-DRAFT-CAP",
+              "claim_id": "C105-5",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        }
+      ],
+      "scores": {
+        "C105-1": {
+          "claim_id": "C105-1",
+          "direct_score": 0.08875000000000002,
+          "propagated_score": 0.08875000000000002,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 0.5,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Falsification test 'Any build, derivation, or gate record of this study demonstrably using a non-admitted input: a sign or phonetic value, a gloss or translation, a segmentation or normalization not in the recording, an outside inventory, or material from another sandbox or from outside the three pinned sources.' earns partial credit (FR-8.7): failed criteria: no checkable condition (no numeric bound, comparator, or observation/action term)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C105-2": {
+          "claim_id": "C105-2",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C105-3": {
+          "claim_id": "C105-3",
+          "direct_score": 0.08875000000000002,
+          "propagated_score": 0.08875000000000002,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 0.5,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Falsification test \"The two implementations' inventories differing for any sandbox; any filed inventory containing a mark absent from its derivation set, or missing a mark present in it; the derivation reading any input other than its sandbox's dataset (the reserve included).\" earns partial credit (FR-8.7): failed criteria: no checkable condition (no numeric bound, comparator, or observation/action term)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C105-4": {
+          "claim_id": "C105-4",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C105-5": {
+          "claim_id": "C105-5",
+          "direct_score": 0.08875000000000002,
+          "propagated_score": 0.08875000000000002,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 0.5,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Falsification test \"Any record of this study stating a changed standing, verdict, or tally; any derived inventory merged into, or cited as, a working sign list; any citing record treating a sandbox output as a decipherment claim or as evidence in another study's adjudication beyond a gate's registered GOOD on its own comparison.\" earns partial credit (FR-8.7): failed criteria: no checkable condition (no numeric bound, comparator, or observation/action term)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        }
+      },
+      "recoveries": [
+        {
+          "failure_id": "AEE-C105-1-BOUNDARY-CHALLENGE",
+          "claim_id": "C105-1",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-2-BOUNDARY-CHALLENGE",
+          "claim_id": "C105-2",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-2-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C105-2",
+          "strategy": "narrow_boundary",
+          "action": "Narrow the claim or document evidence covering the entire domain.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-3-BOUNDARY-CHALLENGE",
+          "claim_id": "C105-3",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-3-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C105-3",
+          "strategy": "narrow_boundary",
+          "action": "Narrow the claim or document evidence covering the entire domain.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-4-BOUNDARY-CHALLENGE",
+          "claim_id": "C105-4",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-5-BOUNDARY-CHALLENGE",
+          "claim_id": "C105-5",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C105-1-INDEPENDENCE-UNMODELED",
+          "claim_id": "C105-1",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C105-1-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C105-1",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C105-2-INDEPENDENCE-UNMODELED",
+          "claim_id": "C105-2",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C105-2-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C105-2",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C105-3-INDEPENDENCE-UNMODELED",
+          "claim_id": "C105-3",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C105-3-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C105-3",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C105-4-INDEPENDENCE-UNMODELED",
+          "claim_id": "C105-4",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C105-4-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C105-4",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C105-5-INDEPENDENCE-UNMODELED",
+          "claim_id": "C105-5",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C105-5-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C105-5",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C105-5-PRECISION-CHALLENGE",
+          "claim_id": "C105-5",
+          "strategy": "clarify",
+          "action": "Replace vague language with a threshold, observable, or decision rule.",
+          "priority": 3,
+          "verification": "The revised claim contains a measurable observable or decision rule."
+        },
+        {
+          "failure_id": "AEE-C105-1-DRAFT-CAP",
+          "claim_id": "C105-1",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C105-2-DRAFT-CAP",
+          "claim_id": "C105-2",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C105-3-DRAFT-CAP",
+          "claim_id": "C105-3",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C105-4-DRAFT-CAP",
+          "claim_id": "C105-4",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C105-5-DRAFT-CAP",
+          "claim_id": "C105-5",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        }
+      ]
+    }
+  }
+}
