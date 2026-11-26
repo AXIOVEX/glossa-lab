@@ -244,3 +244,46 @@ and the captures at the goal's
   `meroitic-round-i-2026-11-25.md`, and
   `meroitic-round-i-verification-2026-11-25.json`,
   captured in full.
+
+### 2026-11-25 - Round J sweep (two Eteocypriot record units on the completed Spec 105 gate record; Round K due immediately)
+
+- **Change.** Round J ran in the three Round D sessions
+  (briefs fired ~21:05 ET Indus, ~21:12 ET Eteocypriot,
+  ~21:20 ET Meroitic, 2026-11-25), carrying the Spec 105
+  Stage 4 (L4), Stage 5 (L5), and Stage 6 (L6 gates)
+  outcomes (PRs #748, #749, #751) as the round's new
+  assessable material — none of it assessed in Round I —
+  and returned two units, both Eteocypriot, both sustained
+  and discharged at the adjudication's landing by the
+  dated Round J addendum to the Spec 105 Stage 6 outcome
+  record: J-E-1 (APPLY WITH MODIFICATION — the G-ETE
+  checker's registered 59-value Common syllabary table,
+  attributed in the registration to the edition of record's
+  signary, differs from the checked Common-syllabary
+  references in exactly six values, ye/ze/zi/xi/xo
+  registered-only and yo reference-only; provenance
+  recorded as UNRESOLVED, no checkable supporting passage
+  on file; ETE-1 GOOD verified unaffected, its 33 distinct
+  observed values lying in both repertoires) and J-E-2
+  (APPLY — ETE-2's zero-opportunity certificate: all 70
+  checked classes are singletons, recomputed from the
+  filed Stage 4/5 outputs, so the registered GOOD is
+  guaranteed by the partitions and is now annotated as
+  supplying no nontrivial external corroboration; the word
+  and tables stand unchanged). Indus returned a seventh
+  consecutive null at brief level, accepting IND-1 GOOD at
+  its registered scope and recording the L5-over-L4
+  definitional dependence as a confirmation rather than a
+  unit. Meroitic returned a null on direct inspection:
+  independent reconstruction of the L4 partitions and L5
+  role/overlap tables exact, G-MER's three words checked
+  as exact fractions against the 19/20 tolerance, synthetic
+  fixtures and threshold cases passing, deposited v4
+  byte-identical, ledger recount agreeing. Tallies: 2
+  units (1 APPLY, 1 APPLY WITH MODIFICATION, 0 DO NOT
+  APPLY, 0 owner decisions). Two rows added to the
+  recommendations ledger, both done: totals 130 rows — 78
+  done, 31 accepted, 0 open, 21 rejected. Nothing was
+  published, so no post-publication wait runs and Round K
+  falls due immediately; its briefs carry no new sandbox
+  material, Spec 105's registered design being complete.

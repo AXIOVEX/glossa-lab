@@ -71,3 +71,20 @@ Study: Spec 105 — The ELSEWHERE Sandbox (Indus, Eteocypriot, Meroitic).
 ## Solution register
 
 No claim holds SOLUTION status. The boundary gates have run (Iteration 6) and their words are recorded above at exactly their registered scope: a gate GOOD licenses the comparison checked and nothing else, and this study spawns no ensemble and derives no instance claim, so no framework label of §8 — SOLUTION or any lesser one — is earned or assigned by the gates. C105-1..C105-5 stand as registered; C105-4's seal clause is discharged as registered (the reserve was kept through every derivation rung and opened once, by the registered checker, under the frozen rule and margin it was written to govern).
+
+**Round J note (2026-11-25).** The Round J Co-scientist
+adjudication (Spec 091 records) sustained two Eteocypriot
+units on this study's gate record, discharged by the dated
+addendum appended to the Stage 6 outcome record: J-E-1 —
+the G-ETE reference table's provenance is recorded as
+UNRESOLVED (its exact 59-value enumeration differs from
+two checked Common-syllabary references in six values, and
+no checkable passage supporting the exact enumeration is
+on file; ETE-1's GOOD is unaffected, the 33 distinct
+observed values lying in both repertoires); J-E-2 — the
+ETE-2 zero-opportunity certificate: all 70 checked classes
+are singletons, so ETE-2's GOOD is guaranteed by the
+partitions and supplies no nontrivial external
+corroboration of a class merger. The gates' words stand
+exactly as recorded at Iteration 6; no claim holds SOLUTION
+status.
