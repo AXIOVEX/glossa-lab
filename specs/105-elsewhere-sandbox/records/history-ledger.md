@@ -62,6 +62,14 @@ Stage 3 was registered by its own record (committed before any derivation ran) a
 
 **Rests on:** `records/stage-3-registration-2026-11-25.md`; `records/stage-3-outcome-2026-11-25.md`; `records/stage-3-output-2026-11-25.json`.
 
+### 2026-11-25 — COMMISSION (Stage 4: L4)
+
+**Kind:** COMMISSION. **Actor:** the owner (Tristen Pierson), RCPH chat, 2026-11-25 19:07 ET; forwarded to the Glossa-Lab chat under the routing rule the same evening.
+
+The owner's keep-working directive ("Do not stop. Keep working on this until we take it as far as we can. All the studies we're working on including glossa-lab") names this program expressly and continues the day's resume order under which Stage 2 was commissioned and executed, and under which Stage 3 was commissioned and executed earlier the same evening. The Stage 4 commission for this study is issued under it. Stage 4 is registered by its own record under spec.md §8 and executes ladder rung L4 only (substitution classes: marks grouped by shared recorded contexts) in all three sandboxes. L5 and above and all gates remain uncommissioned, and the Indus reserve stays sealed.
+
+**Rests on:** `records/stage-4-registration-2026-11-25.md` §1.
+
 ## State
 
 In flight. Stage 3 completed 2026-11-25; the study stands open at L3. L4 and above and all gates remain uncommissioned, each requiring its own registration under spec.md §8.
