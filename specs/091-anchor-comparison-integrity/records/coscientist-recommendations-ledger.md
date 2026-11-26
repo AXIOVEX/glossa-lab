@@ -313,7 +313,11 @@ actual text; nothing is deposited on this round alone.
 
 | E-M-1 | The Spec 103 checker does not implement spec §3.4 as written (any-witness FAITHFUL; uncertainty erasure in expansion preprocessing) — narrow reopening of D-M-3, checker conformance only | accepted | APPLY WITH MODIFICATION; sustained on reproduction at adjudication against the filed script (SHA-256 661f0afc...): witnesses {soreyi, ato} classify FAITHFUL with verdicts {attests_form, absent}, and `[soreyi?]` tokenizes to an unqualified exact match; the filed aggregate's 14 counted loci carry no mixed witness-verdict set, and the uncertainty-erasure impact on historical classifications is indeterminate from the filed aggregate; D-M-3's CLAIM STANDS outcome and six-form table preserved; conformance annotation appended to `specs/103-meroitic-source-witness-check/records/stage-1-outcome-record-2026-11-23.md`; the remaining act is the conformance addendum (aggregation fix, uncertainty retention, regression tests, affected-case audit and replay on already-held witnesses; no new acquisition, no split change); adjudication §3.1 |
 | E-M-2 | Complete C-M-26's propagation: the deposited v3 paper's closing canonical block (p. 12) still quotes the superseded OD-22 summary as the canonical wording | done | APPLY; sustained against the v3 release source (the block quotes OD-22 under a present-tense canonical introduction; the OD-C-5 text reached the Zenodo v3 description only; no historical designation in the paper); C-M-26 annotated accordingly; the act is the Meroitic v4 paper replacing the block with the OD-C-5 text credited as adopted 2026-11-23, under the loop's standing publish instruction; done when the v4 deposit verifies; adjudication §3.2; DONE 2026-11-25: the v4 paper's closing canonical block prints the OD-C-5 summary (Zenodo record 24545036, DOI 10.5281/zenodo.24545036); Academia work 181628423 updated and verified live the same day; ResearchGate trails under the shared daily budget; see the v4 addendum in `specs/097-meroitic-reproduction-benchmark/records/release-record-2026-11-22.md` |
-| E-M-3 | Make Spec 106's §7/§8 ensemble status aggregation mutually exclusive before the first scored instance (all-UNDERIVABLE, all-UNTRANSLATABLE, and zero-survivor cases) | done | APPLY; sustained on the framework text (no precedence or aggregation rule exists in the framework or templates); dated clarification appended at framework §8.1 registering the aggregation table (no survivors -> no status, exhaustion is not refutation; all-UNTRANSLATABLE -> coverage failure; REFUTED-IN-ENSEMBLE requires a surviving instance deriving the negation; all-UNDERIVABLE -> UNDERIVABLE); no instance has run, so no result is affected; adjudication §3.3 |
+| E-M-3 | Make Spec 106's §7/§8 ensemble status aggregation mutually exclusive before the first scored instance (all-UNDERIVABLE, all-UNTRANSLATABLE, and zero-survivor cases) | done | APPLY; sustained on the framework text (no precedence or aggregation rule exists in the framework or templates); dated clarification appended at framework §8.1 registering the aggregation table (no survivors -> no status, exhaustion is not refutation; all-UNTRANSLATABLE -> coverage failure; REFUTED-IN-ENSEMBLE requires a surviving instance deriving the negation; all-UNDERIVABLE -> UNDERIVABLE); no instance has run, so no result is affected; adjudication §3.3; ROUND F annotation (2026-11-25): a narrow reopening flag was sustained against this row's §8.1 table for the one case it did not address — the positive row's mixed translation coverage (a surviving instance UNTRANSLATABLE for the claim while the translatable survivors derive it); the three cases this row repaired stand closed, and the flag is carried as row F-M-1 |
+
+### Round F — sweep (2026-11-25)
+
+| F-M-1 | §8.1's positive row turns partial translation coverage into full-ensemble support: ROBUST-IN-ENSEMBLE is awarded when every translatable survivor derives the claim even if another surviving instance is UNTRANSLATABLE for it (narrow reopening flag on E-M-3, mixed-coverage case only) | done | APPLY; sustained on the framework text at head `8088c06a` (§7's positive reading is full-coverage; §8.1's positive row substitutes the translatable-survivor condition and its coverage-failure row reaches only the all-UNTRANSLATABLE case; the two-instance counterexample — A derives under H, B the declared alternative survives but is UNTRANSLATABLE — satisfies the positive row although the claim was never tested in B); the session's kill check (a binding full-coverage rule, or a subset restriction on ROBUST-IN-ENSEMBLE for SOLUTION) was run against §§7, 8, and 8.1 and not met; dated clarification appended at framework §8.2 (ROBUST-IN-ENSEMBLE requires translatability in every surviving instance; mixed coverage returns no full-ensemble status and is logged with both denominators; subset results are reportable only as explicitly scoped subset results); no instance has run, so no result is affected; adjudication §3.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-f.md` |
 
 ## Counts
 
@@ -329,7 +333,8 @@ actual text; nothing is deposited on this round alone.
 | Meroitic, Round D | 3 | 3 | 0 | 0 | 0 | 0 |
 | Eteocypriot, Round E | 3 | 3 | 0 | 0 | 0 | 0 |
 | Meroitic, Round E | 3 | 2 | 1 | 0 | 0 | 0 |
-| **Total** | **125** | **72** | **32** | **0** | **0** | **21** |
+| Meroitic, Round F | 1 | 1 | 0 | 0 | 0 | 0 |
+| **Total** | **126** | **73** | **32** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -432,6 +437,26 @@ DOI 10.5281/zenodo.24545017) and Meroitic v4 (record
 rows E-E-3 and E-M-2 stand done. Totals: 125 rows —
 72 done, 32 accepted, 0 open, 21 rejected. E-M-1
 remains accepted on the conformance addendum.
+
+Round F cross-check (2026-11-25). The Round F sweep
+(the Round D sessions, continued through Round E;
+briefs fired 2026-11-25 ~18:46–18:48 ET through the
+tower-compute automation Brave route) returned an
+Indus null (third consecutive, brief-level; no row),
+an Eteocypriot null on direct inspection (the session
+read the checksum-matching deposited v4, verified the
+E-E-1/E-E-2 closures in the pinned Spec 104 record,
+and independently reconstructed the Spec 105
+Eteocypriot dataset and reproduced its L2 table; no
+row), and one Meroitic unit: F-M-1, APPLY, done at
+its landing (its act is the framework §8.2
+clarification filed with the Round F adjudication).
+Row E-M-3 gains a dated annotation for the narrow
+reopening flag; its status stands done, following the
+D-M-3 / E-M-1 precedent. Nothing was published in
+Round F, so no post-publication wait runs and Round G
+falls due immediately. Totals after Round F: 126
+rows — 73 done, 32 accepted, 0 open, 21 rejected.
 
 ## Briefing rule (closing note)
 

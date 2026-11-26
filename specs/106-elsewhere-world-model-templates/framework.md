@@ -306,6 +306,50 @@ requires at least one surviving instance and derivation
 coverage of the claim or its negation. The original text
 of §§7–8 stands; this subsection governs its reading.
 
+### 8.2 Translation coverage for the positive row (clarification, Round F adjudication, 2026-11-25)
+
+Section 8.1's positive row, as written, awards
+ROBUST-IN-ENSEMBLE when every translatable survivor
+derives the claim, even if another surviving instance is
+UNTRANSLATABLE for that claim. That turns partial
+translation coverage into full-ensemble support: in a
+two-instance ensemble where A derives the claim and B
+survives the evidence checker but cannot translate it,
+the claim was never tested in B, and B's silence is not
+derivation — had B returned UNDERIVABLE instead, the
+positive row would not have applied. This clarification,
+appended 2026-11-25 under the Round F adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25-round-f.md`,
+unit F-M-1) and registered before any scored instance has
+run, governs the reading of §8.1's positive row:
+
+- **ROBUST-IN-ENSEMBLE** requires at least one surviving
+  instance, the claim translatable in every surviving
+  instance, and the claim derived in every surviving
+  instance. The SOLUTION gates of §8 then apply to that
+  same claim scope and ensemble.
+- **Mixed translation coverage** — at least one survivor
+  UNTRANSLATABLE for the claim, whatever the translatable
+  survivors return — returns no full-ensemble status on
+  the positive row. The iteration log records the partial
+  coverage with both denominators (surviving instances;
+  translatable instances) and the per-instance outcomes.
+  A result over the translatable subset may be reported
+  only as an explicitly scoped subset result; it is not
+  ROBUST-IN-ENSEMBLE and is not SOLUTION-eligible for the
+  full-ensemble claim.
+- The remaining §8.1 rows stand as written: no surviving
+  instance returns no status; every surviving instance
+  UNTRANSLATABLE is a coverage failure; a survivor that
+  cannot translate the claim neither derives it nor its
+  negation under the REFUTED-IN-ENSEMBLE, AXIOM-TRACKING,
+  and UNDERIVABLE rows, whose tallies are computed over
+  the instances that returned an outcome for the claim,
+  with the coverage record above attached.
+
+The original text of §§7–8 and §8.1 stands; this
+subsection governs the positive row's reading.
+
 ## 9. The provenance standard: the seed-and-iteration log
 
 Every ELSEWHERE study keeps a **seed-and-iteration log** as a
