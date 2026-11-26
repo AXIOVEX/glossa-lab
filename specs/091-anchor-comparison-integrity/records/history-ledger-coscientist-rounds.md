@@ -199,3 +199,48 @@ and the captures at the goal's
   sessions' own files `eteocypriot-round-h-review.md` and
   `meroitic-round-h-2026-11-25.md`, captured in full.
 
+
+### 2026-11-25 - Round I sweep (second consecutive all-null round; Round J due immediately)
+
+- **Change.** Round I ran in the three Round D sessions
+  (briefs fired ~20:18 ET Indus, ~20:22 ET Eteocypriot,
+  ~20:27 ET Meroitic, 2026-11-25), carrying the Spec 105
+  Stage 3 (L3) outcome (PR #746) as the round's new
+  assessable material, and returned no unit in any
+  program: Indus a sixth consecutive null at brief-level
+  (the L3 summaries internally consistent and expressly
+  descriptive); Eteocypriot a scoped-audit null on direct
+  inspection (the filed Eteocypriot L3 tables independently
+  reproduced row for row, every reconciliation identity
+  holding, deposited v4 byte-identical); Meroitic a null
+  on direct inspection (17 named checks of the filed L3
+  aggregates passed; six synthetic fixtures on which both
+  implementations agreed with independent oracles;
+  deposited v4 byte-identical; its ledger recount
+  agreeing). Zero units: 0 APPLY, 0 APPLY WITH
+  MODIFICATION, 0 DO NOT APPLY, 0 owner decisions. No row
+  is added to the recommendations ledger; totals unchanged
+  at 128 rows - 76 done, 31 accepted, 0 open, 21 rejected.
+  Nothing was published, so no post-publication wait runs
+  and Round J falls due immediately. Live-record advances:
+  Spec 105 Stage 4 landed (PR #748, head 8a54d0ec, the head
+  the Eteocypriot and Meroitic sessions pinned) seconds
+  before the first brief was sent, and Stage 5 landed
+  (PR #749, head d8ece15f) while the round ran; the
+  sessions expressly excluded Stage 4 and neither stage
+  was assessed in this round — both outcomes are carried
+  into Round J's briefs.
+- **Why.** The loop's standing definition: each round's
+  feedback is adjudicated against the primary record and
+  answered on the record, with nulls recorded at the level
+  actually worked.
+- **Record.** The Round I adjudication record
+  (`records/coscientist-sweep-adjudication-2026-11-25-round-i.md`);
+  the Round I captures at the goal's
+  `hidden_files/coscientist-sweep-2026-11-25-round-i/<program>/`
+  (brief SHA-256s Indus 4f40b804..., Eteocypriot
+  781fcc2f..., Meroitic b7111490...), including the
+  sessions' own files `eteocypriot-round-i-review.md`,
+  `meroitic-round-i-2026-11-25.md`, and
+  `meroitic-round-i-verification-2026-11-25.json`,
+  captured in full.

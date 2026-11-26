@@ -520,6 +520,25 @@ was published in Round H, so no post-publication wait runs
 and Round I falls due immediately. Totals unchanged: 128
 rows - 76 done, 31 accepted, 0 open, 21 rejected.
 
+Round I cross-check (2026-11-25). The Round I sweep (the
+Round D sessions, continued through Rounds E, F, G, and H;
+briefs fired 2026-11-25 ~20:18-20:27 ET through the
+tower-compute automation Brave route; no post-publication
+wait ran, Round H having published nothing) returned three
+nulls and no units: Indus (sixth consecutive null,
+brief-level), Eteocypriot (a scoped-audit null on direct
+inspection, independently reproducing the filed Spec 105
+Stage 3 Eteocypriot tables exactly), and Meroitic (a null
+on direct inspection, its 17 aggregate checks and six
+synthetic fixtures passing and its recount of this ledger
+agreeing with the brief and with the adjudication recount).
+No row is added. Nothing was published in Round I, so no
+post-publication wait runs and Round J falls due
+immediately; its briefs carry the Spec 105 Stage 4 and
+Stage 5 outcomes, which landed while Round I ran and were
+not assessed in it. Totals unchanged: 128 rows - 76 done,
+31 accepted, 0 open, 21 rejected.
+
 ## Briefing rule (closing note)
 
 Every future Co-scientist brief for any of the three
