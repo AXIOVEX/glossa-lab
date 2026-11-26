@@ -205,3 +205,55 @@ L6 boundary gates run as registered. The study stands
 open only to a later registration amending the spec
 under section 8; nothing above L6 was ever registered,
 and no gate outcome licenses one.
+
+## Round J addendum (2026-11-25) — G-ETE source conformance and the ETE-2 certificate
+
+Appended at the landing of the Round J Co-scientist
+adjudication (PR for
+`records/coscientist-sweep-adjudication-2026-11-25-round-j.md`
+in the Spec 091 package, §2). Nothing above is altered: the
+registered table, the filed script, and the historical gate
+output stand as executed. This addendum records two
+findings of the Eteocypriot session (units J-E-1 and J-E-2),
+both sustained at adjudication on the filed record.
+
+**J-E-1 — the G-ETE reference table's provenance is
+unresolved.** The Stage 6 registration (§2) describes the
+Common syllabary value table applied by the G-ETE checker
+as the sign values of the frame "as settled by the Idalion
+bilingual and carried in the edition of record's signary
+(Masson, *Les inscriptions chypriotes syllabiques*)", and
+enumerates 59 values including `ye`, `ze`, `zi`, `xi`, `xo`
+and nowhere `yo`. Two checked Common-syllabary references
+differ from that enumeration in exactly six values: the
+CREWS project Common-syllabary worksheet (Y row ya/yo, Z
+row za/zo, X row xa/xe, the five registered-only cells
+blank) and the Unicode Cypriot Syllabary chart (55 encoded
+syllables; JA/JO, ZA/ZO, XA/XE) — registered-only `ye`,
+`ze`, `zi`, `xi`, `xo`; reference-only `yo`. No passage
+supporting the exact 59-value enumeration, with a checkable
+location and transliteration mapping, is on file in this
+package or was produced at adjudication; the attribution
+therefore stands UNRESOLVED as filed, and is not filled in
+by assertion. Input impact, verified at adjudication from
+the filed Stage 6 output: the ETE-1 table carries 33
+distinct observed values, none of them in the set
+difference, so the observed inventory returns GOOD under
+the checked reference repertoire as well, and ETE-1's word
+is unaffected under either table. Any corrected checker
+execution follows its own registration under spec.md §8;
+the registered table is not silently replaced.
+
+**J-E-2 — ETE-2's zero-opportunity certificate.** ETE-2
+returned GOOD under its registered non-merger rule. All 70
+checked classes are singletons (the 35 L4 joint classes and
+the 35 L5 identity classes, recomputed from the filed
+Stage 4 and Stage 5 outputs at adjudication; exactly one
+class in each partition contains the exempt mark `?`),
+leaving zero within-class pairs of value-carrying marks;
+homogeneity is therefore guaranteed by the partitions and
+supplies no nontrivial external corroboration of a class
+merger or class-discovery ability. The registered word,
+counts, and historical tables are retained unchanged. The
+same qualification is noted at the Spec 105
+seed-and-iteration log's Iteration 6 entry.

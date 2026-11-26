@@ -113,3 +113,36 @@ Stage 6 was registered by its own record (registration commit 199069df, committe
 ## State
 
 Complete as registered. Stage 6 executed 2026-11-25; the study stands at L6 with every registered comparison returned GOOD (ETE-1, ETE-2; MER-1, MER-2, MER-3; IND-1), each at exactly its registered license and none inflated beyond it. The derivation ladder (L0–L5) is fully derived in all three sandboxes and the boundary gates are discharged. The study stands open only to a later registration amending the spec under §8; nothing above L6 was ever registered.
+
+### 2026-11-25 — Round J addendum to the Stage 6 outcome record (CORRECTION/ANNOTATION)
+
+- **Kind:** CORRECTION (J-E-1) and annotation (J-E-2),
+  arising from the Co-scientist Round J adjudication
+  (Spec 091 records,
+  `coscientist-sweep-adjudication-2026-11-25-round-j.md`
+  §2), the first sweep round to assess Stages 4–6.
+- **What happened.** The Eteocypriot session, working at
+  direct-inspection level, reproduced the filed L4/L5
+  tables and the G-ETE canonical table exactly, and raised
+  two record findings on the gate: (1) the Stage 6
+  registration's 59-value Common syllabary table,
+  attributed there to the edition of record's signary
+  (Masson), differs from the checked Common-syllabary
+  references (CREWS worksheet; Unicode chart) in exactly
+  six values — ye, ze, zi, xi, xo registered-only, yo
+  reference-only — and no checkable passage supporting the
+  exact enumeration is on file; (2) ETE-2's GOOD is
+  guaranteed by construction, all 70 checked classes being
+  singletons (recomputed from the filed Stage 4/5 outputs
+  at adjudication), leaving zero within-class pairs of
+  value-carrying marks. Both units were sustained and
+  discharged by the dated Round J addendum appended to
+  `records/stage-6-outcome-2026-11-25.md`: the table's
+  provenance is recorded as UNRESOLVED with the verified
+  zero input impact on ETE-1 (its 33 distinct observed
+  values lie in both repertoires), and the ETE-2
+  zero-opportunity certificate is appended with the same
+  qualification noted in the seed-and-iteration log. The
+  registered table, the filed script, the historical gate
+  output, and both gate words stand unaltered. No standing,
+  verdict, or tally in any program is affected.

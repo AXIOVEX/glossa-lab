@@ -232,6 +232,11 @@ actual text; nothing is deposited on this round alone.
 
 | G-E-1 | Reconcile Round F's recorded dispatch (18:46–18:48 ET) with the release record's one-hour post-publication wait expiring after ~19:03 ET: the filed chronology implies dispatch ~16–18 minutes early, requiring an authenticated later send time, an applicable waiver, or an authoritative earlier publication receipt, failing which the record must acknowledge the wait-rule departure | done | APPLY; sustained on the filed record at adjudication with all three advance kill checks run and none met (the Spec 096 release record's v4 addendum states the wait runs from the 2026-11-25 ~18:03 ET Zenodo publication and Round F falls due after ~19:03 ET; the Zenodo API corroborates the anchor, records 24545017 / 24545036 created 23:03:59Z / 23:04:27Z; the Round F adjudication §0 and its capture notes record the sends at ~18:46 / ~18:47 / ~18:48 ET, and no later authenticated send time exists; no waiver of the wait or alternative gate definition is on file — the repository's waiver material concerns the Spec 104 stop rule, a different instruction); discharged by the dated chronology addendum at §7 of `records/coscientist-sweep-adjudication-2026-11-25-round-f.md`, recording the unwaived departure without retroactive ratification; scope is loop timing only — Round F published nothing and no standing, verdict, tally, or paper is affected; adjudication §2.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-g.md` |
 
+### Round J — sweep (2026-11-25)
+
+| J-E-1 | Reconcile the G-ETE reference table: the Stage 6 registration's 59-value Common syllabary enumeration, attributed to the edition of record's signary (Masson), includes ye, ze, zi, xi, xo and omits yo, against the checked Common-syllabary references (CREWS worksheet; Unicode chart), an exact six-value set difference | done | APPLY WITH MODIFICATION; the filed half verified verbatim at adjudication (registration §2 read in full; both checker implementations carry the same enumeration, so their agreement is not an independent check of the shared external table); the advance kill check (a source passage or signary with a checkable location supporting the exact enumeration and explaining the absent yo) was run and not met — no such passage is on file in the Spec 105 package; discharged by the dated Round J addendum to `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`, recording the discrepancy exactly, the provenance as UNRESOLVED, and the verified input impact (the filed ETE-1 table's 33 distinct observed values lie in both repertoires and none is in the set difference, so ETE-1 GOOD is unaffected under either table); the registered table, script, and historical output are not altered, and no corrected checker run is made (any such run follows its own §8 registration); adjudication §2.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-j.md` |
+| J-E-2 | Annotate ETE-2's guaranteed GOOD: all 70 checked classes are singletons, leaving zero within-class pairs of value-carrying marks, so the registered non-merger word is forced by class cardinalities and supplies no nontrivial homogeneity test | done | APPLY; sustained on recomputation at adjudication from the filed Stage 4 and Stage 5 outputs (35 L4 joint classes and 35 L5 identity classes, every one of size 1; exactly one class in each partition contains the exempt mark ?; Q = 0); all three advance kill checks run and none met (no filed checked class carries two non-exempt marks; the registered ETE-2 predicate is the within-class distinct-value test only, with no cross-class or assignment term; no annotation of the guarantee stood in the Stage 6 outcome record or the seed-and-iteration log); discharged by the Round J addendum to `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md` appending the zero-opportunity certificate in the session's formulation, with the same qualification noted at the Spec 105 seed-and-iteration log's Iteration 6 entry; ETE-2 GOOD, its counts, and the historical tables retained unchanged; adjudication §2.2 of `records/coscientist-sweep-adjudication-2026-11-25-round-j.md` |
+
 ## Meroitic rows
 
 ### Round B — refresh (2026-11-22), units M-1 to M-19
@@ -344,7 +349,8 @@ actual text; nothing is deposited on this round alone.
 | Meroitic, Round F | 1 | 1 | 0 | 0 | 0 | 0 |
 | Eteocypriot, Round G | 1 | 1 | 0 | 0 | 0 | 0 |
 | Meroitic, Round G | 1 | 1 | 0 | 0 | 0 | 0 |
-| **Total** | **128** | **76** | **31** | **0** | **0** | **21** |
+| Eteocypriot, Round J | 2 | 2 | 0 | 0 | 0 | 0 |
+| **Total** | **130** | **78** | **31** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -538,6 +544,30 @@ immediately; its briefs carry the Spec 105 Stage 4 and
 Stage 5 outcomes, which landed while Round I ran and were
 not assessed in it. Totals unchanged: 128 rows - 76 done,
 31 accepted, 0 open, 21 rejected.
+
+Round J cross-check (2026-11-25). The Round J sweep (the
+Round D sessions, continued through Rounds E, F, G, H, and
+I; briefs fired 2026-11-25 ~21:05-21:20 ET through the
+tower-compute automation Brave route; no post-publication
+wait ran, Round I having published nothing) carried the
+Spec 105 Stage 4, Stage 5, and Stage 6 outcomes as its new
+assessable material and returned two units, both
+Eteocypriot and both record-level: J-E-1 (APPLY WITH
+MODIFICATION — the G-ETE 59-value reference table's
+provenance recorded as unresolved by a dated addendum to
+the Stage 6 outcome record, ETE-1 GOOD unaffected) and
+J-E-2 (APPLY — the ETE-2 zero-opportunity certificate
+appended to the same record; ETE-2 GOOD retained). Both
+rows are added above and stand done at the adjudication's
+landing. Indus returned a seventh consecutive null
+(brief-level; IND-1 GOOD accepted at its registered scope,
+with the L5-over-L4 definitional dependence recorded as a
+confirmation, not a unit) and Meroitic a null on direct
+inspection (its independent reconstruction of the L4/L5
+tables exact and its G-MER checks passing). Nothing was
+published in Round J, so no post-publication wait runs and
+Round K falls due immediately. Totals after Round J: 130
+rows - 78 done, 31 accepted, 0 open, 21 rejected.
 
 ## Briefing rule (closing note)
 
