@@ -163,3 +163,46 @@ to Professor Kobayashi in the owner's thank-you of
 2026-11-24 is now owed; a draft is filed with the
 program's records outside this repo and is not sent by
 this act.
+
+## The outcome letter send (2026-11-26)
+
+The outcome letter promised to Professor Kobayashi in the
+owner's thank-you of 2026-11-24, and owed on the T501
+comparison performed the same day (supplement above), was
+sent on the owner's approval of its exact text, given in
+the Glossa-Lab chat on 2026-11-26 at ~01:54 ET ("Send the
+Kobayashi outcome letter as drafted", by tapped option
+and in plain words). The letter was sent exactly once:
+from tristen.pierson@gmail.com to
+masatok@l.u-tokyo.ac.jp, subject "Re: Request: blind
+coding of 9 Indus sign reading entries", in the
+engagement thread (1a1fb478074a3ca3), in reply to his
+submission of 2026-11-23 above, at 2026-11-26 01:56:56 ET
+(06:56:56 UTC). Gmail sent message id 1a216a49ea9ad8b6.
+No enclosures. After the send, the Sent record was read
+back: the letter body is byte-identical to the approved
+draft (2,656 characters; SHA-256
+9f6949cdef7768d97d8706d1ada3ca21f8be6fb94aeaca10a0d86e0e87c421ef),
+standing as the exact opening of the sent body. Below
+the letter, the reply route appended Gmail's standard
+quote of the message answered (206 characters: the
+attribution line and his submission note, quoted), so
+the full sent body is 2,862 characters (line endings
+CRLF in transport); no word of the letter itself was
+altered, added, or omitted. The approved draft is filed
+at the goal's
+hidden_files/kobayashi-outcome-letter-2026-11-24/DRAFT-outcome-letter.md,
+its status header now reading SENT with the send facts.
+The letter reports the T501 outcome to him: M047's
+comparison now counts as independently sourced, the
+first of the 184 crosswalk entries to reach that class;
+five entries' outcomes fixed in advance by the
+construction rule; the three numeral entries ineligible;
+the one recorded value divergence at no. 281 (piḷḷay
+against piḷḷai) stated as it stands; and the program's
+standing position, that the Indus script is not
+deciphered and no reading is established by the
+comparison, stated plainly. With this send, the outcome
+letter owed since 2026-11-24 is discharged. Any reply
+from Professor Kobayashi is covered by the hourly reply
+watch; no reply is presumed.
