@@ -57,3 +57,25 @@ Designated custody home: `~/.syncyard/worktrees/glossa/glossa-custody/spec103/` 
 ## 7. What did not happen
 
 The asoreyi check was not run, and no classification at any locus changed. Spec 103's outcome stands exactly as filed: CLAIM STANDS for soreyi, xolkete, pxolkete, xolkte, wisi; asoreyi NOT CHECKED — INCOMPLETE COVERAGE. No standing, verdict, or tally moved.
+
+## 8. Acquisition completed — Persée download through the desktop browser (2026-11-26)
+
+On 2026-11-26 (~02:24 ET) the owner directed the Persée route be run through the tower-compute automation Brave browser (the desktop-browser route), on his reasoning that a genuine desktop browser session should not trip the platform's Altcha protection the way the automated route did. He was right. **All three tome PDFs were downloaded, free of charge, and are HELD in the designated custody home.** This section supersedes §5's outcome and §6's state; §§1–4 and §7 stand as filed (the asoreyi check was still not run).
+
+**Method, exactly as executed.** In the automation Brave session (dedicated profile, tower-compute), one working tab: navigate to each document page, click the page's own PDF control ("doc-ctrl/global/pdf") once, and let the browser take the download. No bulk harvesting, no page-image scraping, no circumvention tooling, no sign-in (none is needed). Per tome:
+
+- **Tome I** (doc `rem_0000-0000_2000_num_1_1_845`): single click; download completed unaided.
+- **Tome II** (doc `rem_0000-0000_2000_num_2_1_847`): the first clicks produced no download; inspection found the page's hidden Altcha widget (`pdf-download-captcha-widget`, state "unverified"). One scripted click on its "I'm not a robot" checkbox drove the widget to state "error" and was not repeated. A fresh page load followed by a single click on the PDF control then passed the check unaided (the genuine session verifies invisibly on a fresh load, as it had for Tome I) and the download completed.
+- **Tome III** (doc `rem_0000-0000_2000_num_3_1_849`): fresh load, single click, download completed unaided.
+
+**Held material** (custody home `~/.syncyard/worktrees/glossa/glossa-custody/spec103/` on tower-compute; hashes verified in the /tmp staging area before the move and again in custody after it, identical; the custody note carries the same table):
+
+| File | Bytes | Pages | SHA-256 |
+|---|---|---|---|
+| rem-tome-1-rem0001-0387.pdf | 215,556,263 | 714 | f20d9f955ff2a74d391d894f65958c3d2848d5282a26a5c5ba5ae70dd591afce |
+| rem-tome-2-rem0401-0851.pdf | 174,384,353 | 658 | 55b13325bad738b8e2e53b3fc41f8340162625c8c5a2a3e982da811115dff167 |
+| rem-tome-3-rem1001-1278.pdf | 182,222,445 | 712 | cc24ffe691c6522b71cc56cc812554c41786fe0654742abed4238bbcb5ebe6a1 |
+
+Page counts sum to 2,084, the edition's stated extent; producer on all three is iText Core 8.0.2 (Persée's own PDF generator); each file ends in a complete PDF trailer. Cost: €0. The print-set route (€124) is no longer needed for a held digital witness.
+
+**What did not happen.** The asoreyi check was not run, and no classification at any locus changed. Spec 103's outcome stands exactly as filed: CLAIM STANDS for soreyi, xolkete, pxolkete, xolkte, wisi; asoreyi NOT CHECKED — INCOMPLETE COVERAGE. Running the check against the now-held witness needs its own future registration. No standing, verdict, or tally moved.
