@@ -161,6 +161,24 @@ merge `17b43e67`).
 | B-I-23 | Priority 5: inspect Spec 099's 25 ambiguous items for unstated inputs and publish a basis-survival view (OD-6) | done | OWNER DECISION OD-6, COMMISSIONED 2026-11-22 11:37 ET; executed PR #683 (merge `7b8fc4dd`): unstated inputs found for 25 of 25; bases surviving intact 2, citation-only 1, not surviving as filed 22; no class consequence |
 | B-I-24 | Adopt the assessment's strongest public formulation as the canonical Indus wording (OD-7) | done | OWNER DECISION OD-7, ADOPTED 2026-11-22 11:40 ET (PR #680, merge `28cabd4b`); canonical text quoted verbatim in adjudication §9 |
 
+### Round N — sweep (2026-11-26)
+
+Source: the captured output at the goal's
+`hidden_files/coscientist-sweep-2026-11-26-round-n/indus/OUTPUT-round-n.md`
+(46,510 bytes, SHA-256 `dd3c5691…`); adjudication
+`records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§2. The session's fourth unit, N-I-4 (inferring changed
+standings from the VEXA claims-ledger line count), was
+adjudicated DO NOT APPLY and, being a rejected inference
+rather than a recommendation, carries no row; it is
+recorded at adjudication §2.4.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| N-I-1 | Qualify G-IND's predictive interpretation: the registered scoring weights are not normalized probabilities (next-token row mass exceeds 1; witnesses 1.152023 at group start, 1.279273 after M342, 1.287293 after M176), so the 0.379654 difference is a comparison of the frozen unnormalized scoring rules, not an established normalized predictive log-loss advantage | done | APPLY; sustained on the filed record at adjudication (Stage 6 registration, execution script, and L2/L3 tables read directly; the advance kill check — a normalizer applied before every logarithm, or a disjoint sample-space construction — run and not met; the filed figures recompute exactly, so the historical GOOD stands as the frozen rule's mechanical consequence); discharged by the dated conformance annotation appended to `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`, which is the qualification of record for IND-1's forward citation (including the ELSEWHERE methods paper, Zenodo record 24571025, which states the figures at their registered license), with the matching qualification appended to the Round J adjudication's §1; no silent rewrite, no NOT-GOOD substitution, no corrected verdict asserted; adjudication §2.1 |
+| N-I-2 | Reconcile the Stage 6 outcome's "opened once" (§5) with its opening account of two full scoring executions in which the reserve was opened in both runs | done | APPLY WITH MODIFICATION; sustained as a wording conflict on the face of one record (the session's kill check — an already-filed governing definition reconciling both passages — run and not met); discharged by the dated execution-chronology addendum appended to `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`, distinguishing the single first disclosure (stopped run, after the guard; nothing available to Stages 1–5 before it) from the two checker executions (the second an unchanged re-scoring after the G-MER repair, changing no input, rule, or margin), and recording as unresolved that no registration provision expressly governs an unchanged replay after first disclosure; no first-run log recreated; record only; adjudication §2.2 |
+| N-I-3 | Reconcile the census snapshots: the paper's Appendix D.10 states 296 items (210 primary) while the current inference log holds 299 (213 primary), the two 299s differing in content; add a forward pointer where §11 of the register-wording addendum still gives 296/210 | done | APPLY WITH MODIFICATION; sustained on the filed record at adjudication (recounts at the pin: claims ledger 1,091 = 1,060 claims + 31 annotations; anchors 287, strict 94; inference log 299 items = 213 a + 61 b + 25 ambiguous; classes 3/66/4/3/18 agreeing with the paper; the amendment chain — original 299 with three duplicated DEDR citations, deduplicated 296, remainder amendment adding M202-03, M330-03, M124-04 for 299 — explains the drift exactly; the session's kill checks run and none met); discharged by `specs/099-inference-log/records/current-state-reconciliation-2026-11-26.md` (current census of record: 299 items, 213 primary) and the dated forward pointer at §12 of `records/register-wording-addendum-2026-11-22.md`; the paper is not edited; row B-I-22's completion is not undone; adjudication §2.3 |
+
 ## Eteocypriot rows
 
 ### Round B — refresh (2026-11-22), units E-1 to E-10
@@ -236,6 +254,20 @@ actual text; nothing is deposited on this round alone.
 
 | J-E-1 | Reconcile the G-ETE reference table: the Stage 6 registration's 59-value Common syllabary enumeration, attributed to the edition of record's signary (Masson), includes ye, ze, zi, xi, xo and omits yo, against the checked Common-syllabary references (CREWS worksheet; Unicode chart), an exact six-value set difference | done | APPLY WITH MODIFICATION; the filed half verified verbatim at adjudication (registration §2 read in full; both checker implementations carry the same enumeration, so their agreement is not an independent check of the shared external table); the advance kill check (a source passage or signary with a checkable location supporting the exact enumeration and explaining the absent yo) was run and not met — no such passage is on file in the Spec 105 package; discharged by the dated Round J addendum to `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`, recording the discrepancy exactly, the provenance as UNRESOLVED, and the verified input impact (the filed ETE-1 table's 33 distinct observed values lie in both repertoires and none is in the set difference, so ETE-1 GOOD is unaffected under either table); the registered table, script, and historical output are not altered, and no corrected checker run is made (any such run follows its own §8 registration); adjudication §2.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-j.md` |
 | J-E-2 | Annotate ETE-2's guaranteed GOOD: all 70 checked classes are singletons, leaving zero within-class pairs of value-carrying marks, so the registered non-merger word is forced by class cardinalities and supplies no nontrivial homogeneity test | done | APPLY; sustained on recomputation at adjudication from the filed Stage 4 and Stage 5 outputs (35 L4 joint classes and 35 L5 identity classes, every one of size 1; exactly one class in each partition contains the exempt mark ?; Q = 0); all three advance kill checks run and none met (no filed checked class carries two non-exempt marks; the registered ETE-2 predicate is the within-class distinct-value test only, with no cross-class or assignment term; no annotation of the guarantee stood in the Stage 6 outcome record or the seed-and-iteration log); discharged by the Round J addendum to `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md` appending the zero-opportunity certificate in the session's formulation, with the same qualification noted at the Spec 105 seed-and-iteration log's Iteration 6 entry; ETE-2 GOOD, its counts, and the historical tables retained unchanged; adjudication §2.2 of `records/coscientist-sweep-adjudication-2026-11-25-round-j.md` |
+
+### Round N — sweep (2026-11-26)
+
+Source: the captured output at the goal's
+`hidden_files/coscientist-sweep-2026-11-26-round-n/eteocypriot/OUTPUT-round-n.md`
+(40,495 bytes, SHA-256 `72c2e19c…`); adjudication
+`records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§3.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| N-E-1 | Reconcile the first ensemble's dual use of ETE-CON-03, ETE-CON-04, and ETE-ENV-03 as both instance axioms (in every declared instance) and exercised checker items at contact point 2, against the framework's §2/§6 rule that the evidence set is not an axiom of any instance and no instance treats a checker item as derivable | done | APPLY WITH MODIFICATION; sustained at adjudication as a record/method conformance finding (the reuse was disclosed in the outcome's §§4/6, not hidden; the session's kill checks run and neither met — no binding pre-pass rule permitting the dual role, and no scoring record showing a comparison against separately identified evidence; the filed tallies select REFUTED-IN-ENSEMBLE under §8.1, §8.2 not engaged, seed `9bc4d0b8` precedes outcome `401d4527`, G-ETE consistently not exercised); discharged by the dated conformance note appended to `specs/106-elsewhere-world-model-templates/records/ensemble-1-outcome-2026-11-26.md` and carried into the Spec 106 seed-and-iteration log at Iteration 2: the contact's agreement is an inherited-premise consistency check, not a separate evidentiary test; ETE-Q-1's REFUTED-IN-ENSEMBLE retained as a conditional logical result under the seed's declared translation; any consistency-only contact distinction is prospective registration only; no new ensemble commissioned; adjudication §3.1 |
+| N-E-2 | Correct the Eteocypriot baseline's false domain-count metadata (seed record states GEO 0, POL 0, MOV 0, DNA 0, ECO 0, ENV 0, CON 0; the axiom lines count 11/12/9/5/10/10/14 = 71) by dated erratum, and make the census audit implement TC-106-05's registered per-domain comparison and TC-106-02's exactly-one-label check, which version 1 never implemented (it returned AUDIT PASS on the false metadata, and on both of the session's scratch negative fixtures) | done | APPLY, extended at adjudication to the defect's full family (the identical zero-count statement stands in all three baselines' seed records, verified from the filed files, and TC-106-05's comparison runs over all three templates; actual counts recomputed at adjudication — Indus 14/12/11/12/13/11/15 = 88, Eteocypriot 11/12/9/5/10/10/14 = 71, Meroitic 12/12/10/8/10/11/13 = 76; axiom-line hashes recompute unchanged, Eteocypriot `fca1cc8a…`); discharged by dated errata appended to all three baseline templates (historical seed records preserved unedited), by `specs/106-elsewhere-world-model-templates/records/census-audit-v2.py` (per-domain comparison against the governing census; exactly-one-label check at the label position) with its rejection fixtures executed at adjudication (altered erratum count REJECTED; two labels in label position REJECTED; unmodified templates PASS) and its run filed at `records/census-audit-v2-output-2026-11-26.txt`, and by the dated qualification appended to `records/census-audit-output-2026-11-25.txt` (version 1's PASS preserved as historical output, its two unimplemented comparisons named); version 1 preserved unedited; adjudication §3.2 |
+| N-E-3 | Carry the settled 15-entry STEMS correction into the paper: deposited v4 §5.2 (p. 7) still says the consonant-stem table has "sixteen entries", while the pinned E1 driver carries 15 and the filed RT5-05 correction already established 15 (the ξ double-count; its k+s handling sits in letters_of, the sentence's own special case) | done | APPLY; sustained at adjudication (the session's kill check run and not met — no hash-matching executed driver carries 16 STEMS entries; driver SHA-256 `9ec475fd…`); discharged by the dated paper erratum record `specs/096-eteocypriot-program/records/paper-erratum-2026-11-26-stems-count.md`: "sixteen entries" corrected of record to "fifteen entries", the special-case clause standing; the deposited v4 is not silently replaced — the corrected wording is carried into the next authorized paper version on the owner's approval of the actual text; paper only, no verdict consequence; adjudication §3.3 |
 
 ## Meroitic rows
 
@@ -361,7 +393,9 @@ actual text; nothing is deposited on this round alone.
 | Eteocypriot, Round J | 2 | 2 | 0 | 0 | 0 | 0 |
 | Meroitic, Round L | 2 | 2 | 0 | 0 | 0 | 0 |
 | Meroitic, Round M | 1 | 1 | 0 | 0 | 0 | 0 |
-| **Total** | **133** | **81** | **31** | **0** | **0** | **21** |
+| Indus, Round N | 3 | 3 | 0 | 0 | 0 | 0 |
+| Eteocypriot, Round N | 3 | 3 | 0 | 0 | 0 | 0 |
+| **Total** | **139** | **87** | **31** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -579,6 +613,27 @@ tables exact and its G-MER checks passing). Nothing was
 published in Round J, so no post-publication wait runs and
 Round K falls due immediately. Totals after Round J: 130
 rows - 78 done, 31 accepted, 0 open, 21 rejected.
+
+Round N cross-check (2026-11-26). The Round N sweep (the
+Round D sessions, continued; briefs pinned at `0b377f6f`,
+the PR #765 head, and verified by length and checksum in a
+separate invocation before each send) returned seven
+units: Indus four (N-I-1 APPLY, N-I-2 and N-I-3 APPLY WITH
+MODIFICATION, N-I-4 DO NOT APPLY — a rejected inference,
+recorded at adjudication §2.4, carrying no row), Eteocypriot
+three (N-E-1 APPLY WITH MODIFICATION, N-E-2 and N-E-3
+APPLY), and Meroitic an explicit null on direct inspection
+(M-M-1's closure confirmed at the record level; the fresh
+Stage 4.4/4.5 passes finding no mismatch; its
+source-to-gate scoping suggestion recorded as not
+commissioned, as in Rounds L and M). The six APPLY-family
+units are added above and stand done at the adjudication's
+landing (PR and merge in the adjudication record,
+`records/coscientist-sweep-adjudication-2026-11-26-round-n.md`).
+Nothing was published in Round N, so no post-publication
+wait runs. Totals after Round N: 139 rows - 87 done, 31
+accepted, 0 open, 21 rejected (Indus 42, Eteocypriot 41,
+Meroitic 56).
 
 ## Briefing rule (closing note)
 

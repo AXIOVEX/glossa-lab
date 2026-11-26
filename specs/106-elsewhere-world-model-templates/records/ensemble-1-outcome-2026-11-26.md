@@ -212,3 +212,45 @@ the claim is closed.
 *AI disclosure: prepared by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per standing
 disclosure practice.*
+
+---
+
+## Conformance note (2026-11-26, Round N unit N-E-1)
+
+Appended at the landing of the Round N adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§3.1). Nothing above is altered.
+
+Contact point 2, as exercised in this pass, named the
+baseline's own ETE-CON-03, ETE-CON-04, and ETE-ENV-03 as
+its evidence items. All three are axioms in every declared
+instance, and the negation derivations' load-bearing
+factual premise is ETE-CON-03 itself. The framework's §2
+definition states that the evidence set "is not an axiom
+of any instance", and §6 states that no instance "treats
+a checker item as derivable". The contact therefore
+checked agreement with inherited premises: it is an
+inherited-premise consistency check, not a separate
+evidentiary test of those statements, and its agreement
+adds no evidentiary support to the premise the answer was
+derived from. This dual role does not satisfy the
+framework's literal evidence/axiom separation rule without
+an explicit exception or clarification, and none is
+created by this note.
+
+The verdict stands, at its corrected scope: ETE-Q-1 is
+REFUTED-IN-ENSEMBLE as a conditional logical result —
+under the seed's declared translation, the claim does not
+derive and its negation derives in every declared
+instance, identically at every corner of the declared
+politics variation. What this note withdraws is any
+reading of the pass as an independent evidentiary test of
+ETE-CON-03's content. The next evidence that could bear
+remains what §6 above names: the outstanding
+edition-of-record check on ICS 196's filed content
+(ETE-ENV-04). If consistency-only contacts of this kind
+are to be framework-conformant, the distinction between
+them and genuinely separate evidentiary contacts is a
+prospective registration matter; it is not created here,
+and no new ensemble is commissioned by this note.
+

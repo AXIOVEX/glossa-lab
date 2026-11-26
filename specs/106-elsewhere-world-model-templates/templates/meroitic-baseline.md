@@ -190,3 +190,33 @@ Note, per the task frame: the Meroitic affiliation question itself (MER-CON-10 /
 ---
 
 *Drafted 2026-11-25 for Spec 106. Sources opened in this pass: Rilly 2016 (UEE, scholarly, full text); Sirak et al. 2021, Nature Communications (scholarly, full text); Humphris & Scheibner 2017, African Archaeological Review via Springer (scholarly, full text); Kozieradzka-Ogunmakin & Sołtysiak 2023, Antiquity (scholarly, full text); Wikipedia "Kingdom of Kush", "Meroë", "Meroitic script" (reference, full text); Glossa-Lab gap analysis 2026-11-25 and SCOPE-meroitic.md (program records, full text). Further scholarly items (Rilly's Wadi Howar paper, Lipiński 2011, Weschenfelder on water management, Penn Museum on Karanog, Dimmendaal 2023) were read at search-result depth and are labeled as such at each citation. Rilly & de Voogt 2012 and Rilly 2010 could not be opened in full in this pass (paywalled / purchase-gated — the same access gap the program record names); their contents are cited only as summarised in Rilly 2016 and the program records.*
+
+---
+
+## Erratum (2026-11-26) — seed-record domain counts (Round N unit N-E-2)
+
+The seed record above (the **Baseline template** line) states
+the domain census as "GEO 0, POL 0, MOV 0, DNA 0, ECO 0,
+ENV 0, CON 0". Those zeroes are false metadata: they are not
+the counts of this file's axiom lines. Recomputed from the
+axiom lines as filed (domains 2–8), the census as seeded is:
+
+**GEO 12, POL 12, MOV 10, DNA 8, ECO 10, ENV 11, CON 13 — 76 axioms in total.**
+
+Erratum census (machine-readable, for
+records/census-audit-v2.py): GEO 12, POL 12, MOV 10, DNA 8, ECO 10, ENV 11, CON 13.
+
+No axiom line is added, removed, or altered by this erratum;
+the SHA-256 over the axiom lines as filed recomputes
+unchanged: `ecabd227f7e767a3a740ece3b355d8620db476b89ac482d7a8386b483a97f4f2` (the version 2 axiom-line hash; version 1's was `eeadf46e336fa80d09bcffa2538d3cf4c32c8756fdb6150c817ff0b19cdb4cf4`). The historical seed record is preserved
+unedited above; this erratum supersedes its domain-count
+figures only. The same zero-count defect stood in all three
+baseline templates' seed records; parallel errata of the
+same date correct the other two. The registered audit's
+failure to catch the defect (TC-106-05's per-domain
+comparison was never implemented in version 1) is recorded
+in the Round N adjudication,
+`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§3.2, and the corrected audit is
+`records/census-audit-v2.py`.
+

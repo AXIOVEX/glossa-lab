@@ -146,3 +146,45 @@ Complete as registered. Stage 6 executed 2026-11-25; the study stands at L6 with
   registered table, the filed script, the historical gate
   output, and both gate words stand unaltered. No standing,
   verdict, or tally in any program is affected.
+
+### 2026-11-26 — Round N addendum to the Stage 6 outcome record (CORRECTION/ANNOTATION)
+
+- **Kind:** CORRECTION/ANNOTATION (N-I-1) and
+  record reconciliation (N-I-2), arising from the
+  Co-scientist Round N adjudication (Spec 091 records,
+  `coscientist-sweep-adjudication-2026-11-26-round-n.md`
+  §2), the first round to inspect the G-IND scoring
+  construction itself rather than the brief-level record.
+- **What happened.** The Indus session demonstrated from
+  the filed Stage 2/3 tables and the filed execution
+  script that the G-IND next-token weights do not sum to
+  one: the attested-successor pair weights already sum to
+  1, and unigram backoff mass is then added for every
+  other known mark with no discounting and no row
+  normalizer (witnesses: 1.152023 at group start, 1.279273
+  after M342, 1.287293 after M176). Sustained at
+  adjudication with the session's kill check run and not
+  met; the filed figures recompute exactly (4.557943 /
+  4.178289 / 0.379654 against the frozen 0.05 margin), so
+  the historical GOOD stands as the frozen rule's
+  mechanical consequence, and the dated conformance
+  annotation appended to `records/stage-6-outcome-2026-11-25.md`
+  withdraws only the normalized predictive log-loss
+  interpretation, naming itself the qualification of
+  record for IND-1's forward citation (the matching
+  qualification is appended to the Round J adjudication).
+  The same addendum reconciles the outcome's "opened
+  once" (§5) with its account of two full scoring
+  executions: one first disclosure, two checker executions
+  (the second an unchanged re-scoring after the G-MER
+  repair), with the absence of a registration provision
+  governing unchanged replays recorded as unresolved. No
+  standing, verdict, or tally is affected; no corrected
+  verdict is asserted, and no normalized correction is
+  commissioned.
+
+Rests on: `records/stage-6-outcome-2026-11-25.md` (Round N
+addendum, 2026-11-26); Spec 091 records,
+`coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§§2.1–2.2.
+

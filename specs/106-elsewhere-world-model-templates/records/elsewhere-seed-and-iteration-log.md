@@ -168,6 +168,25 @@ it alone.
 - **Rests on:** `records/ensemble-1-seed-2026-11-26.md`;
   `records/ensemble-1-outcome-2026-11-26.md`.
 
+### Conformance note on Iteration 2 (2026-11-26, Round N unit N-E-1)
+
+Appended at the landing of the Round N adjudication
+(Spec 091 records,
+`coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§3.1). The ensemble's contact point 2 exercised
+ETE-CON-03, ETE-CON-04, and ETE-ENV-03, which are axioms
+in every declared instance of ETE-ENS-1, against the
+framework's §2/§6 rule that the evidence set is not an
+axiom of any instance and no instance treats a checker
+item as derivable. The contact's agreement is therefore
+recorded as an inherited-premise consistency check, not a
+separate evidentiary test. ETE-Q-1's REFUTED-IN-ENSEMBLE
+stands as a conditional logical result under the seed's
+declared translation; the full note is appended to
+`records/ensemble-1-outcome-2026-11-26.md` at the same
+landing. Any consistency-only contact distinction is
+prospective registration only.
+
 ## Solution register
 
 No claim carries SOLUTION status. C106-1..C106-6 are

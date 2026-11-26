@@ -410,3 +410,25 @@ this round itself.
 **AI disclosure:** this adjudication was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+---
+
+## Forward-citation qualification (2026-11-26, Round N unit N-I-1)
+
+Appended at the landing of the Round N adjudication
+(`records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§2.1). Section 1 above accepted IND-1 GOOD at its
+registered scope from the reported figures; that
+acceptance was a brief-level assessment, as §1 itself
+discloses, and was not an independent normalization check.
+Round N's direct inspection demonstrated that the G-IND
+scoring weights are not normalized probabilities
+(next-token row mass exceeds 1; witness 1.279273 after
+M342). The historical GOOD stands as the frozen rule's
+mechanical consequence; the interpretation of the 0.379654
+difference as a normalized predictive log-loss advantage
+is withdrawn. Forward citations of IND-1 from this record
+carry the conformance annotation appended to
+`specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`
+at the same landing.
+

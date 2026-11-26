@@ -257,3 +257,119 @@ merger or class-discovery ability. The registered word,
 counts, and historical tables are retained unchanged. The
 same qualification is noted at the Spec 105
 seed-and-iteration log's Iteration 6 entry.
+
+---
+
+## Round N addendum (2026-11-26) — G-IND conformance annotation (unit N-I-1) and execution chronology (unit N-I-2)
+
+Appended at the landing of the Round N adjudication
+(`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§§2.1–2.2). Nothing above is altered: the registration,
+the filed script, the raw output, the figures, and the
+historical gate words stand exactly as filed.
+
+### N-I-1 — Conformance annotation: the G-IND scoring weights are not normalized probabilities
+
+Round N's Indus session demonstrated from the filed
+Stage 2 and Stage 3 tables and the filed execution script
+that the G-IND next-token weights do not sum to one. For a
+predecessor x with attested successor set S(x), the
+registered pair weights c(x,m)/c(x,*) already sum to 1
+over S(x); the rule then adds positive unigram weights
+c(m)/5611 for every known mark outside S(x), without
+discounting the attested successors and without any row
+normalizer before the logarithms. Exact witnesses from the
+filed tables (mass over the 372 derivation marks): group
+start 1 + 853/5611 = 1.152023; after M342,
+1 + 1567/5611 = 1.279273; after M176,
+1 + 1612/5611 = 1.287293. Both checker implementations
+implement the same registered construction; their agreement
+verifies agreement on these weights, not their validity as
+probabilities.
+
+What stands: recomputation from the filed case table
+reproduces baseline 4.557943, derived 4.178289, difference
+0.379654 against the frozen 0.05 margin. The historical
+GOOD on G-IND is the correct mechanical consequence of the
+frozen scoring rule and is retained. What is withdrawn:
+the interpretation of that difference as an advantage of
+0.379654 nats per token in normalized predictive log-loss.
+The result is to be cited as a comparison of the frozen
+unnormalized scoring rules as registered. A normalized
+predictive log-loss advantage is NOT established, and no
+corrected verdict is asserted here: the aggregate case
+table discards the predecessor identities a row-normalized
+replay would need, and any normalized correction is a
+separate act requiring its own registration, with no
+tuning to recover GOOD.
+
+Citation surfaces: this annotation is the qualification of
+record for IND-1 wherever it is cited forward. The Round J
+assessment's acceptance of IND-1 GOOD (§1 of
+`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25-round-j.md`)
+was a brief-level assessment, not an independent
+normalization check, and carries this qualification by the
+dated note appended to that record at this landing. The
+ELSEWHERE methods paper (Zenodo record 24571025, DOI
+10.5281/zenodo.24571025, deposited 2026-11-26) states the
+gate figures at their registered license; this annotation
+is the qualification of record for future citation of
+those figures.
+
+Advance kill check, run at adjudication and not met: the
+finding falls if the filed scoring path contains a
+normalizer actually applied before every logarithm, or a
+disjoint sample-space construction under which the
+next-token rows sum to one. Neither is present in the
+inspected registration or code, and the explicit mass sums
+above contradict normalization directly.
+
+### N-I-2 — Execution chronology: "opened once" and the two full scoring executions
+
+This record's opening account states that the stage was
+re-executed in full after implementation B's G-MER defect
+was caught, that the filed run is the corrected script's
+run, and that "the reserve was opened in both runs only by
+the G-IND checker, only after the registration guard
+passed". Section 5 states that the reserve "was kept
+through every derivation rung and opened once, by the
+registered checker, under the frozen rule and margin". The
+two passages use "opened" at different units; this
+chronology fixes the distinction on the record:
+
+(a) First release/disclosure: one. The reserve's contents
+were first disclosed to a checker in the stopped run,
+after the registration guard passed. Nothing about the
+reserve was available to any derivation rung (Stages 1–5)
+before that moment, and the seal clause's purpose — no
+exposure before the frozen rule and margin were fixed —
+was met at that single first disclosure.
+
+(b) Checker invocations / content reads: two full scoring
+executions read the reserve — the stopped run and the
+corrected filed run — each only through the G-IND checker
+(implementations A and B), each after the guard passed.
+The second execution changed no input, no rule, and no
+margin: the only correction was to implementation B's
+Meroitic stream read (the G-MER defect), and the G-IND
+figures of the two runs are identical, as recorded above.
+
+(c) The replay after the G-MER repair is therefore an
+unchanged re-scoring after a first disclosure, not a
+second holdout and not adaptive re-testing: no quantity
+was tuned against the reserve between the runs.
+
+What remains unresolved, recorded rather than settled by
+assertion: no provision of the Stage 6 registration
+expressly governs an unchanged replay after first
+disclosure; the registration's single-unsealing language
+and TC-105-23 are written at the unit of first disclosure.
+Whether a future registration should expressly permit or
+forbid such replays is a prospective registration question,
+not decided here. No first-run log is recreated by this
+addendum; the stopped run's outputs were not separately
+filed, and this chronology rests on the execution account
+already in this record. Nothing in this chronology alleges
+changed data, adaptive tuning, or a second fresh reserve,
+and the historical GOOD is unaffected by it.
+
