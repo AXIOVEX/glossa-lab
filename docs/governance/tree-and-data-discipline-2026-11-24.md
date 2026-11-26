@@ -35,7 +35,7 @@ The general lesson: **gitignored bytes are invisible to every protection git off
 | `~/glossa-work/recovery-2026-11-17/glossa-lab-mirror.git` | Secondary — bare recovery mirror (2026-11-17) | recovery artifact; retain until the discipline's retention review |
 | `~/glossa-work/adopt095/`, `~/glossa-work/paper-v11-deposit/` | Record bundles / stubs, not trees | evidence logs and a closing-commit bundle; the paper-v11-deposit repo was moved out by the worktree-keeper 2026-11-22 |
 | `~/glossa-work/tools/`, `~/glossa-work/venvs/` | Tooling (node runtime, venvs) | not data |
-| `~/data/glossa.db` | **Unclassified data body** (SQLite, 2.6 MB, in the home root) | flagged for owner classification; NOT moved and NOT deleted |
+| `~/data/glossa.db` | **Classified 2026-11-26** (see section 8): backend seed/initialization artifact of 2026-11-19, NOT the live database and not live program data | retained in place; NOT moved and NOT deleted |
 
 ### This VM (coordination venue)
 | Tree / home | Role | State at census |
@@ -87,3 +87,22 @@ Tower-compute was unreachable throughout this pass (SSH stalled; a separate owne
 2. Holdat copy in the tower archive (if any) hash-checked against the pin; the tower MCP tree's corpora checked and, if absent, supplied from the primary data home.
 3. MCP foundation check re-run through the Stage E MCP route and its verdict recorded verbatim.
 4. Any needed data found living in tower secondaries moved or copied to its primary home under rule 5's proof standard.
+
+## 8. Addendum — 2026-11-26 (owner-approved data-home actions)
+
+Executed 2026-11-26 under the owner's approval in the Glossa-Lab chat (2026-11-26 ~01:54 ET: "For everything else, execute now to your recommendations"), closing the two census flags this document carried: the unclassified `~/data/glossa.db` and the tower secondaries holding Spec 097 / Spec 098 data with no primary home.
+
+### 8.1 `~/data/glossa.db` (mini-server) — CLASSIFIED, retained in place
+
+- **What it is:** a Glossa backend database at schema version 27 holding **seed and initialization content only**, created in a single window on 2026-11-19 (every content timestamp falls between 2026-11-19T20:48:22Z and 20:52:58Z, matching the file's mtime 2026-11-19 15:52:59 EST). Populated tables: `corpus_catalogue` 39 rows (the backend's built-in corpus catalogue), `studies` 13 (built-in study definitions: Beam Decipherment Suite, the Fuls suites, Indus Structural Atlas, and peers), `texts` 7 (seed texts), `report_templates` 12, `model_scores` 82 (seed-time scoring), `discovery_items` 85 (one discovery fetch, 2026-11-19T20:49:00Z), `projects` 10 (the Indus Script Decipherment project shell plus test-fixture projects — Empty Scope, No Position, No Question, Position, Question — and remediation bundle/probe projects), `jobs` 2 (one failed discovery fetch; one report-generator job left in "running"), `job_results` 1. Every table that would carry real program work is empty: `anchor_sets`, `canonical_signs`, `citations`, `correspondences`, `hypotheses`, `notebooks`, `research_goals`, `research_loop_state`, `sign_cluster_assignments` all hold 0 rows.
+- **What it is not:** it is NOT the live program database. The serving backend's database is `~/glossa-lab/backend/data/glossa.db` (7,528,448 bytes, SHA-256 `659491f02ddf6e9a62866924b681580378de590eadc009e9959ab69e2beedbae`, mtime 2026-11-25, actively written; 748 discovery items, 16 jobs) — a different file with different content, so this file is not a stray copy of it and no hash-identical primary exists. No process held `~/data/glossa.db` at inspection.
+- **Inspection proof:** the file was opened read-only and immutable (`mode=ro&immutable=1`); SHA-256 before and after inspection identical: `f3d4747bb9c2d9d9d68a9f361ba9523b69c3bd28309afa1c94a51f5a09c53cb5` (2,617,344 bytes; mtime unchanged).
+- **Determination:** classified as a **backend seed/initialization artifact (2026-11-19)**. It is not live program data, so no primary data home is designated for it; it is retained in place under this census row, and it is not deleted. Any future cleanup treats it under section 5 with this classification on the record.
+
+### 8.2 Tower-compute Spec 097 / Spec 098 data — primary data home designated, data moved
+
+- **Designation:** `~/.syncyard/worktrees/glossa/glossa-custody/` is the primary data home for this material: `glossa-custody/spec097/` (created 2026-11-26) and `glossa-custody/spec098/` (already holding `heldout-clusters-v1.txt`).
+- **Sweep (Holdat rule):** neither source folder was a git repository and neither held subdirectories, symlinks, or dotfiles; the full inventory was 6 files, all unversioned study data, all moved. Nothing else was in either tree to sweep.
+- **Spec 097** (from `s097-data/`, 3 files, 54,566,631 bytes) → `glossa-custody/spec097/`: `forms.csv` (51,272,436 bytes, SHA-256 `4ee30b771a2cba59e7e904587f7f60dc3d823824a7b9aae9dd6f73a960139321`), `languages.csv` (3,292,247 bytes, `647174df2eb812eff370355b02b6843d76bfb2b082147bc263e5ccd4cc628be5`), `parameters.csv` (1,948 bytes, `2ed306c24552ea61e48ad6dc067859d8b70029abfc1d36668246214a5a1183ec`).
+- **Spec 098 Stage 3 runs** (from `s098-stage3-runs/`, 3 files, 65,719 bytes) → `glossa-custody/spec098/`: `release-log.json` (597 bytes, `492de273454d1600c5077447409cfb25855e0e5b3ad8f2e16a196cf9e3a4b2f5`), `study-20261122T163036Z-d32312-release.json` (597 bytes, same hash — byte-identical to `release-log.json`), `study-20261122T163043Z-c6e811-score-raw.json` (64,525 bytes, `a5943966a38bdf160461c8de0517e9dbd7a07ddfb840b552ab37981c83cae7f1`). The pre-existing `heldout-clusters-v1.txt` (9,244 bytes, `1974d83a5f667b71dbd53ecdb2e42a8221c6d4b91bdd32202b2a80579bf96cf9`) was not touched and re-verified unchanged after the move.
+- **Move proof:** every file's SHA-256 was taken before the move and re-taken at the destination after it; all 6 match exactly. The moves were renames on the same filesystem (no copy-then-delete). Both source folders were confirmed empty after the move and the empty folders removed. Nothing was deleted. A `MOVE-RECORD-2026-11-26.md` stands in each custody folder with the same hashes.
