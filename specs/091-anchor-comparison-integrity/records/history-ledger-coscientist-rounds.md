@@ -125,3 +125,40 @@ Ledger after the round: 126 rows — 73 done, 32 accepted,
 Rests on: `records/coscientist-sweep-adjudication-2026-11-25-round-f.md`
 and the captures at the goal's
 `hidden_files/coscientist-sweep-2026-11-25-round-f/`.
+
+### 2026-11-25 - Round G sweep
+
+The Round G sweep (the Round D sessions, continued through
+Rounds E and F; briefs fired 2026-11-25 ~19:13–19:21 ET
+through the tower-compute automation Brave route; no
+post-publication wait ran, Round F having published
+nothing) returned an Indus null (fourth consecutive,
+recorded as brief-level), one Eteocypriot unit and one
+Meroitic unit. G-E-1 (APPLY): Round F's dispatch at
+18:46–18:48 ET preceded the registered one-hour
+post-publication wait's expiry (~19:03 ET, from the v4
+publications at ~18:03 ET, corroborated by the Zenodo
+record API) by ~16–18 minutes, with no waiver on file;
+all three advance kill checks were run at adjudication
+and none was met, and the departure is recorded without
+retroactive ratification in a dated addendum (§7) to
+the Round F adjudication record. G-M-1 (APPLY): the
+Spec 106 Meroitic baseline's MER-ENV-01 (writing
+"only during" the kingdom, to c. 350 CE) contradicts
+its own MER-ENV-03 and MER-MOV-08 (the last Meroitic
+text, REM 0094, re-dated to 410/450 CE); discharged by
+version 2 of the baseline template (axiom-line SHA-256
+`ecabd227…`), before any instance has been spawned.
+While the round ran, the Spec 103 conformance addendum
+landed (PR #743), moving E-M-1 to done; the Meroitic
+session detected the advance from the live record and
+corroborated the addendum's filed tests and aggregates.
+No standing, verdict, or tally moved, and no paper item
+arose: nothing was published this round, so no
+post-publication wait runs and Round H falls due
+immediately. Ledger after the round: 128 rows — 76 done,
+31 accepted, 0 open, 21 rejected.
+
+Rests on: `records/coscientist-sweep-adjudication-2026-11-25-round-g.md`
+and the captures at the goal's
+`hidden_files/coscientist-sweep-2026-11-25-round-g/`.

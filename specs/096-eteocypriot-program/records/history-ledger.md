@@ -151,3 +151,9 @@ Rests on: the latest records cited above, as filed in this package.
 Round E found the v3 paper's Scope-section quotation still carrying the pre-amendment form of the canonical public description. The v4 release corrects exactly that quotation (Zenodo record 24545017, DOI 10.5281/zenodo.24545017; Academia work 181628208 updated and verified live; ResearchGate trailing under the shared daily budget). No verdict, standing, or claim changed.
 
 Rests on: `records/release-record-2026-11-22.md` (v4 addendum, 2026-11-25) and `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md` §§2.3, 7.
+
+### 2026-11-25 - Round G chronology finding (unit G-E-1)
+
+Round G's Eteocypriot session, working from the deposited v4 and the filed records, flagged that Round F's dispatch (18:46–18:48 ET) preceded the expiry of the one-hour post-publication wait stated in this package's release record v4 addendum (wait from the ~18:03 ET publication; Round F due after ~19:03 ET). Sustained APPLY at adjudication with the session's three kill checks run and none met (no later authenticated send time; no waiver on file; the Zenodo record API corroborates the publication anchor). The departure is recorded without retroactive ratification in a dated addendum (§7) to the Round F adjudication record. Loop timing only: no verdict, standing, claim, or paper text is affected, and the v4 release itself stands exactly as filed.
+
+Rests on: `records/release-record-2026-11-22.md` (v4 addendum, 2026-11-25); `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25-round-f.md` §7 addendum; `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25-round-g.md` §2.1.

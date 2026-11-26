@@ -24,6 +24,48 @@
 
 ---
 
+## Template amendment — version 2 (2026-11-25, Round G unit G-M-1)
+
+The seed record above stands as filed for version 1; this section
+versions the template under the framework's iteration protocol
+(template versions may change; the seed may not). Version 2 amends
+exactly one axiom line:
+
+- **MER-ENV-01 (K)** read in version 1: "The Meroitic language was
+  written only during the Kingdom of Meroe, c. 300 BCE – 350 CE,
+  though the language itself is attested earlier in Egyptian
+  transcriptions of personal names from as early as the second
+  millennium BCE." The exclusive "only during" clause is
+  incompatible with the template's own MER-ENV-03 (the script
+  outlived the fall of Meroe; the latest known text, REM 0094 at
+  Kalabsha, is re-dated to 410/450 CE) and MER-MOV-08 ("the last
+  Meroitic text is in fact a Blemmye king's inscription"). No
+  binding scope rule in the template or the framework confines
+  MER-ENV-01 to a kingdom-period subset; the Round G session's
+  kill check was run against the template and study records at
+  adjudication and was not met. In version 2 the line reads:
+  "Meroitic writing is attested during the Kingdom of Meroe,
+  c. 300 BCE – 350 CE, and continued after its fall (MER-ENV-03);
+  the language itself is attested earlier in Egyptian
+  transcriptions of personal names from as early as the second
+  millennium BCE." Source unchanged (Rilly 2016).
+- **Census unchanged:** 76 axioms; (F) 4, (K) 62, (H) 10;
+  UNSOURCED-flag lines 2. **Axiom-line SHA-256, version 2:**
+  `ecabd227f7e767a3a740ece3b355d8620db476b89ac482d7a8386b483a97f4f2`,
+  recomputed by the method of `records/census-audit.py`
+  (TC-106-05), which passes on the amended file. The version 1
+  pin (`eeadf46e336fa80d09bcffa2538d3cf4c32c8756fdb6150c817ff0b19cdb4cf4`)
+  is retained in the seed record above and in this study's git
+  history; no instance has been spawned from either version, so
+  no derivation, result, or status is affected. The correction
+  is filed before first instantiation, as the unit directed.
+- **Authority:** Co-scientist Round G unit G-M-1, sustained
+  APPLY at adjudication; `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25-round-g.md`
+  §3.1. Iteration entry: `records/elsewhere-seed-and-iteration-log.md`,
+  Iteration 1.
+
+---
+
 ## Domain 1 — Language-internal
 
 By reference to Spec 105 (`specs/105-elsewhere-sandbox/`): the corpus floor (distinction, sequence, co-presence, recurrence, boundary, over the recorded token streams as the one declared input assumption) and the derivation ladder L0–L6 with its boundary gates. This template does not duplicate that content; a full instance carries a Spec 105 language derivation inside this world model.
@@ -99,7 +141,7 @@ By reference to Spec 105 (`specs/105-elsewhere-sandbox/`): the corpus floor (dis
 
 ## Domain 7 — Environment and chronology (ENV)
 
-- MER-ENV-01 (K) — The Meroitic language was written only during the Kingdom of Meroe, c. 300 BCE – 350 CE, though the language itself is attested earlier in Egyptian transcriptions of personal names from as early as the second millennium BCE. Source: Rilly 2016, UCLA Encyclopedia of Egyptology (scholarly).
+- MER-ENV-01 (K) — Meroitic writing is attested during the Kingdom of Meroe, c. 300 BCE – 350 CE, and continued after its fall (MER-ENV-03); the language itself is attested earlier in Egyptian transcriptions of personal names from as early as the second millennium BCE. Source: Rilly 2016, UCLA Encyclopedia of Egyptology (scholarly).
 - MER-ENV-02 (K) — Meroitic texts are not attested in great numbers before the end of the 2nd century BCE; the bulk of the corpus extends from the last decades BCE to the 4th century CE, and the earliest cursive specimens are pilgrims' graffiti from Kawa and Dukki Gel dated to the beginning of the 2nd century BCE. Source: Rilly 2016, UCLA Encyclopedia of Egyptology (scholarly).
 - MER-ENV-03 (K) — The script outlived the fall of Meroe (c. 350 CE): the latest known text is the inscription of the Blemmye king Kharamadoye at Kalabsha (REM 0094), re-dated to 410/450 CE. Source: Rilly 2016, UCLA Encyclopedia of Egyptology (scholarly); Wikipedia, "Meroitic script" (reference).
 - MER-ENV-04 (K) — The REM (Répertoire d'épigraphie méroïtique) corpus as published includes some 1,300 texts, with approximately 900 further unpublished examples, mainly from Qasr Ibrim and Musawwarat es-Sufra — over 2,000 inscriptions in total known from northern Sudan and Egyptian Nubia. Source: Rilly 2016, UCLA Encyclopedia of Egyptology (scholarly).

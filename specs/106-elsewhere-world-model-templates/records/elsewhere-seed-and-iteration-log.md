@@ -46,10 +46,49 @@ it alone.
 
 ## Iteration entries
 
-None. No instance has been spawned under this study; Stage 1
-(first ensembles) is not commissioned (spec.md §5). The first
-iteration entry will be appended here by the landing that runs
-it, in the format of framework §9.
+### Iteration 1 (2026-11-25) — Meroitic baseline template version 2 (Round G unit G-M-1)
+
+- **What changed.** One baseline axiom line, in
+  `templates/meroitic-baseline.md` only: MER-ENV-01 (K).
+  Version 1 read "The Meroitic language was written only
+  during the Kingdom of Meroe, c. 300 BCE – 350 CE, though
+  the language itself is attested earlier in Egyptian
+  transcriptions of personal names from as early as the
+  second millennium BCE." Version 2 reads "Meroitic
+  writing is attested during the Kingdom of Meroe,
+  c. 300 BCE – 350 CE, and continued after its fall
+  (MER-ENV-03); the language itself is attested earlier
+  in Egyptian transcriptions of personal names from as
+  early as the second millennium BCE." Source unchanged.
+  The template's seed record stands as filed for
+  version 1; the amendment is recorded in the template's
+  Template amendment section.
+- **Why.** The version 1 line's exclusive clause
+  contradicts the template's own MER-ENV-03 (the script
+  outlived the fall of Meroe; REM 0094 at Kalabsha
+  re-dated to 410/450 CE) and MER-MOV-08 ("the last
+  Meroitic text"). The Round G Meroitic Co-scientist
+  session flagged it (unit G-M-1); its kill check (a
+  binding scope rule confining MER-ENV-01 to a
+  kingdom-period subset) was run at adjudication against
+  the template, the framework, and the study records and
+  was not met; the unit was sustained APPLY.
+- **Pins.** Census unchanged: 76 axioms, (F) 4, (K) 62,
+  (H) 10, UNSOURCED-flag lines 2. Axiom-line SHA-256:
+  version 1 `eeadf46e336fa80d09bcffa2538d3cf4c32c8756fdb6150c817ff0b19cdb4cf4`
+  → version 2 `ecabd227f7e767a3a740ece3b355d8620db476b89ac482d7a8386b483a97f4f2`,
+  recomputed by the method of `records/census-audit.py`
+  (TC-106-05; the audit passes in full on the amended
+  file).
+- **Effect.** None on any derivation or result: no
+  instance has been spawned under this study from either
+  version; Stage 1 (first ensembles) is not commissioned
+  (spec.md §5). The correction is filed before first
+  instantiation, as the unit directed.
+- **Rests on:**
+  `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25-round-g.md`
+  §3.1; `templates/meroitic-baseline.md` (Template
+  amendment — version 2).
 
 ## Solution register
 

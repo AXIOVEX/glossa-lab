@@ -298,3 +298,48 @@ definition, **Round G falls due immediately**.
 **AI disclosure:** this adjudication was executed by an AI
 agent (Muse, via Muse) at the direction of Tristen
 Pierson, per constitution sec. VI.
+
+## 7. Addendum (2026-11-25, Round G unit G-E-1) — dispatch chronology: an unwaived wait-rule departure, recorded
+
+The Round G Eteocypriot session flagged a chronology
+discrepancy between this record and the Spec 096 release
+record, and adjudication sustains it (Round G
+adjudication §2.1, in
+`records/coscientist-sweep-adjudication-2026-11-25-round-g.md`).
+The facts, each from the filed record:
+
+- The Spec 096 release record's v4 addendum states the
+  loop's 1-hour post-publication wait runs from the
+  Zenodo publication of 2026-11-25 (~23:03Z, 18:03 ET)
+  and that "Round F falls due after ~19:03 ET". The
+  Zenodo record API corroborates the anchor (record
+  24545017 created 2026-11-25T23:03:59.668929+00:00;
+  record 24545036 created 2026-11-25T23:04:27.840086+00:00),
+  so the wait expired at ~19:03–19:04 ET.
+- This record's §0 states the three briefs were fired
+  ~18:46–18:48 ET, and the round's capture notes record
+  the sends at ~18:46, ~18:47, and ~18:48 ET. The
+  dispatch therefore preceded the wait's expiry by
+  ~16–18 minutes.
+- The session's three advance kill checks were run at
+  the Round G adjudication and none was met: no
+  authenticated later send time exists in the captures;
+  no prior waiver of the wait and no different
+  authorized gate definition is on file anywhere in the
+  record (the repository's waiver material concerns the
+  Spec 104 stop rule, a different instruction); and no
+  earlier publication receipt displaces the Zenodo
+  anchor.
+
+The departure is therefore recorded here as what it
+was: Round F was dispatched before its registered
+post-publication wait expired, without a waiver, and
+this entry does not retroactively ratify it. Its scope
+is loop timing only: Round F published nothing, its one
+unit (F-M-1) is a framework clarification whose validity
+does not depend on dispatch timing, and no standing,
+verdict, tally, or paper is affected. No rerun is
+warranted. The original records and captures stand
+unchanged; this addendum is the correction the unit
+directed, and the resolved chronology is carried in the
+Co-scientist history ledger's Round G entry.

@@ -228,6 +228,10 @@ actual text; nothing is deposited on this round alone.
 | E-E-2 | Record the Spec 104 benchmark's assignment structure: the synthetic optima attain the row-maxima bound (search-free certificates), and every feasible assignment is a strict one-bit local maximum under the registered penalty and proposals | done | APPLY; verified by independent recomputation at adjudication on tower-compute (witnesses re-verified against the regenerated matrices; largest single-bit flip deltas reproduced exactly: -38 / -75 / -159 / -259 / -371 / -565; 200 random feasible points on the 12x48 instance with no nonnegative flip); analytical supplement appended to the Spec 104 outcome record; no new timing campaign; adjudication §2.2 |
 | E-E-3 | Complete C-E-2's propagation: the deposited v3 paper's Scope-section quotation still carries the pre-amendment (OD-12) form of the canonical description | done | APPLY WITH MODIFICATION; sustained against the v3 release source (the OD-C-1 clause is absent from the p. 9 quotation and no superseded label is present; the amendment reached the repository records and the Zenodo v3 description only); C-E-2 annotated accordingly; the act is the Eteocypriot v4 paper substituting the amended quotation, dated as amended 2026-11-23, under the loop's standing publish instruction; done when the v4 deposit verifies; adjudication §2.3; DONE 2026-11-25: the v4 paper carries the amended quotation in its Scope section (Zenodo record 24545017, DOI 10.5281/zenodo.24545017); Academia work 181628208 updated and verified live the same day; ResearchGate trails under the shared daily budget; see the v4 addendum in `specs/096-eteocypriot-program/records/release-record-2026-11-22.md` |
 
+### Round G — sweep (2026-11-25)
+
+| G-E-1 | Reconcile Round F's recorded dispatch (18:46–18:48 ET) with the release record's one-hour post-publication wait expiring after ~19:03 ET: the filed chronology implies dispatch ~16–18 minutes early, requiring an authenticated later send time, an applicable waiver, or an authoritative earlier publication receipt, failing which the record must acknowledge the wait-rule departure | done | APPLY; sustained on the filed record at adjudication with all three advance kill checks run and none met (the Spec 096 release record's v4 addendum states the wait runs from the 2026-11-25 ~18:03 ET Zenodo publication and Round F falls due after ~19:03 ET; the Zenodo API corroborates the anchor, records 24545017 / 24545036 created 23:03:59Z / 23:04:27Z; the Round F adjudication §0 and its capture notes record the sends at ~18:46 / ~18:47 / ~18:48 ET, and no later authenticated send time exists; no waiver of the wait or alternative gate definition is on file — the repository's waiver material concerns the Spec 104 stop rule, a different instruction); discharged by the dated chronology addendum at §7 of `records/coscientist-sweep-adjudication-2026-11-25-round-f.md`, recording the unwaived departure without retroactive ratification; scope is loop timing only — Round F published nothing and no standing, verdict, tally, or paper is affected; adjudication §2.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-g.md` |
+
 ## Meroitic rows
 
 ### Round B — refresh (2026-11-22), units M-1 to M-19
@@ -319,6 +323,10 @@ actual text; nothing is deposited on this round alone.
 
 | F-M-1 | §8.1's positive row turns partial translation coverage into full-ensemble support: ROBUST-IN-ENSEMBLE is awarded when every translatable survivor derives the claim even if another surviving instance is UNTRANSLATABLE for it (narrow reopening flag on E-M-3, mixed-coverage case only) | done | APPLY; sustained on the framework text at head `8088c06a` (§7's positive reading is full-coverage; §8.1's positive row substitutes the translatable-survivor condition and its coverage-failure row reaches only the all-UNTRANSLATABLE case; the two-instance counterexample — A derives under H, B the declared alternative survives but is UNTRANSLATABLE — satisfies the positive row although the claim was never tested in B); the session's kill check (a binding full-coverage rule, or a subset restriction on ROBUST-IN-ENSEMBLE for SOLUTION) was run against §§7, 8, and 8.1 and not met; dated clarification appended at framework §8.2 (ROBUST-IN-ENSEMBLE requires translatability in every surviving instance; mixed coverage returns no full-ensemble status and is logged with both denominators; subset results are reportable only as explicitly scoped subset results); no instance has run, so no result is affected; adjudication §3.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-f.md` |
 
+### Round G — sweep (2026-11-25)
+
+| G-M-1 | Reconcile the Meroitic baseline's mutually incompatible writing dates before instantiation: MER-ENV-01's exclusive "written only during the Kingdom of Meroe, c. 300 BCE – 350 CE" contradicts MER-ENV-03 (the script outlived the fall; REM 0094 at Kalabsha re-dated to 410/450 CE), corroborated by MER-MOV-08 ("the last Meroitic text") | done | APPLY; sustained on the template text at head `14e815b5` (the session's quotations verified verbatim at adjudication); the advance kill check (a binding scope rule confining MER-ENV-01 to a kingdom-period subset, or a declared interpretation placing REM 0094 outside its language claim) was run against the template, the framework, and the study records and not met — MER-MOV-08 points against the latter; discharged by version 2 of `specs/106-elsewhere-world-model-templates/templates/meroitic-baseline.md` (MER-ENV-01 amended to the attested-and-continued form with its source unchanged; census unchanged at 76 axioms, (F) 4 / (K) 62 / (H) 10, UNSOURCED 2; axiom-line SHA-256 from the version 1 pin `eeadf46e…` to `ecabd227…`, recomputed by the census-audit method, TC-106-02..05 passing in full on the amended file; the seed record stands as filed and the amendment is recorded in the template's Template amendment section and in Spec 106's seed-and-iteration log, Iteration 1); no instance has run, so no result is affected; no paper item (the deposited v4 does not carry the baseline text); adjudication §3.1 of `records/coscientist-sweep-adjudication-2026-11-25-round-g.md` |
+
 ## Counts
 
 | Section | Rows | done | accepted | adjudicating | open | rejected |
@@ -334,7 +342,9 @@ actual text; nothing is deposited on this round alone.
 | Eteocypriot, Round E | 3 | 3 | 0 | 0 | 0 | 0 |
 | Meroitic, Round E | 3 | 3 | 0 | 0 | 0 | 0 |
 | Meroitic, Round F | 1 | 1 | 0 | 0 | 0 | 0 |
-| **Total** | **126** | **74** | **31** | **0** | **0** | **21** |
+| Eteocypriot, Round G | 1 | 1 | 0 | 0 | 0 | 0 |
+| Meroitic, Round G | 1 | 1 | 0 | 0 | 0 | 0 |
+| **Total** | **128** | **76** | **31** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -472,6 +482,29 @@ rows — 74 done, 31 accepted, 0 open, 21 rejected.
 Records at
 `specs/103-meroitic-source-witness-check/records/conformance-addendum-outcome-2026-11-25.md`
 and the adjudication record §8.
+
+Round G cross-check (2026-11-25). The Round G sweep
+(the Round D sessions, continued through Rounds E and
+F; briefs fired 2026-11-25 ~19:13–19:21 ET through the
+tower-compute automation Brave route) returned an Indus
+null (fourth consecutive, brief-level; no row), one
+Eteocypriot unit (G-E-1, APPLY, done at its landing —
+its act is the dated chronology addendum at §7 of the
+Round F adjudication record, recording Round F's
+dispatch ~16–18 minutes before the registered
+post-publication wait expired, with all three advance
+kill checks run and none met), and one Meroitic unit
+(G-M-1, APPLY, done at its landing — its act is
+version 2 of the Spec 106 Meroitic baseline template,
+amending MER-ENV-01). The Meroitic session also
+reported the live-record advance of E-M-1 to done
+under PR #743 (merged while the round was in flight);
+its recount at that pin (126 rows — 74 done, 31
+accepted, 0 open, 21 rejected) agrees with this ledger.
+Nothing was published in Round G, so no
+post-publication wait runs and Round H falls due
+immediately. Totals after Round G: 128 rows — 76 done,
+31 accepted, 0 open, 21 rejected.
 
 ## Briefing rule (closing note)
 
