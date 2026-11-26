@@ -54,6 +54,14 @@ The owner's keep-working directive ("Do not stop. Keep working on this until we 
 
 **Rests on:** `records/stage-3-registration-2026-11-25.md` §1.
 
+### 2026-11-25 — ITERATION (Stage 3 executed: L3, order structure)
+
+**Kind:** ITERATION. **Actor:** the study's Stage 3 worker, under the commission above.
+
+Stage 3 was registered by its own record (committed before any derivation ran) and executed the same day. L3 ran in all three sandboxes under two independent implementations agreeing exactly (TC-105-11 PASS), with every reconciliation identity against the filed L2 table holding exactly: per mark, the four positional classes (sole / initial / final / medial) sum to the mark's L2 count, successor and predecessor totals reconcile, the pair total equals tokens minus groups, and both length distributions sum and weight to the filed totals. Headline shapes, sandbox-internal only: Indus 2,197 distinct attested ordered pairs of 138,384 possible (77 marks occur only group-initially; one mark, M220, only group-finally; no one-token groups in the derivation set); Eteocypriot 54 distinct pairs, 53 of them attested exactly once; Meroitic 448 distinct pairs of 1,024 possible, 404 of them recurring, with the recorded digits standing as the boundary cases (0, 5, 6, 8, 9 never have a successor; 8 occurs only as a sole token). The reserve was hashed and never read (TC-105-12 PASS), and remains sealed. All three sandboxes returned COMPLETED.
+
+**Rests on:** `records/stage-3-registration-2026-11-25.md`; `records/stage-3-outcome-2026-11-25.md`; `records/stage-3-output-2026-11-25.json`.
+
 ## State
 
-In flight. Stage 2 completed 2026-11-25; the study stands open at L2. L3 and above and all gates remain uncommissioned, each requiring its own registration under spec.md §8.
+In flight. Stage 3 completed 2026-11-25; the study stands open at L3. L4 and above and all gates remain uncommissioned, each requiring its own registration under spec.md §8.
