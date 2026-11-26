@@ -1,0 +1,2233 @@
+{
+ "stage": 6,
+ "rung": "L6",
+ "custody": {
+  "indus-derivation.json": "84476daa3a1d9ded33ee7c3eeaffb29fac0290ecf3507873206d4d60ac8b948b",
+  "indus-reserve.json": "bfbe79cb2d2d7c131fb0e2c7cc8004995d36af6c3e4cc5b1cdb5bb5ed29930ff",
+  "eteocypriot.json": "2799d1034e8af50a110e7df69d6f79ab931cbc13db480ebbc8d4dfcf589421fe",
+  "meroitic.json": "a8f551e5cc5264decbc2c01d7ee924740245ce8cbeca6b4b7f776e88a3920fb7"
+ },
+ "spec096_corpus_sha256": "2954283d6250803d25c98679174e2e534cb7a2c11e57b10711f9873198d23597",
+ "gates": {
+  "G-ETE": {
+   "status": "COMPLETED",
+   "implementations_agree": true,
+   "table_a": [
+    "ETE1|?|EXEMPT|EXEMPT",
+    "ETE1|[sa]|sa|IN",
+    "ETE1|a|a|IN",
+    "ETE1|e|e|IN",
+    "ETE1|i|i|IN",
+    "ETE1|ka|ka|IN",
+    "ETE1|ke|ke|IN",
+    "ETE1|ko|ko|IN",
+    "ETE1|ku|ku|IN",
+    "ETE1|la|la|IN",
+    "ETE1|le|le|IN",
+    "ETE1|li|li|IN",
+    "ETE1|lo|lo|IN",
+    "ETE1|ma|ma|IN",
+    "ETE1|mi|mi|IN",
+    "ETE1|mu|mu|IN",
+    "ETE1|na|na|IN",
+    "ETE1|no|no|IN",
+    "ETE1|o|o|IN",
+    "ETE1|po|po|IN",
+    "ETE1|ra|ra|IN",
+    "ETE1|re|re|IN",
+    "ETE1|ri|ri|IN",
+    "ETE1|ro|ro|IN",
+    "ETE1|sa|sa|IN",
+    "ETE1|se|se|IN",
+    "ETE1|si|si|IN",
+    "ETE1|so|so|IN",
+    "ETE1|ta|ta|IN",
+    "ETE1|ti|ti|IN",
+    "ETE1|to|to|IN",
+    "ETE1|tu|tu|IN",
+    "ETE1|u|u|IN",
+    "ETE1|wa|wa|IN",
+    "ETE1|we|we|IN",
+    "ETE2|identity|RC-10|1|HOMOG",
+    "ETE2|identity|RC-11|1|HOMOG",
+    "ETE2|identity|RC-12|1|HOMOG",
+    "ETE2|identity|RC-13|1|HOMOG",
+    "ETE2|identity|RC-14|1|HOMOG",
+    "ETE2|identity|RC-15|1|HOMOG",
+    "ETE2|identity|RC-16|1|HOMOG",
+    "ETE2|identity|RC-17|1|HOMOG",
+    "ETE2|identity|RC-18|1|HOMOG",
+    "ETE2|identity|RC-19|1|HOMOG",
+    "ETE2|identity|RC-1|0|HOMOG",
+    "ETE2|identity|RC-20|1|HOMOG",
+    "ETE2|identity|RC-21|1|HOMOG",
+    "ETE2|identity|RC-22|1|HOMOG",
+    "ETE2|identity|RC-23|1|HOMOG",
+    "ETE2|identity|RC-24|1|HOMOG",
+    "ETE2|identity|RC-25|1|HOMOG",
+    "ETE2|identity|RC-26|1|HOMOG",
+    "ETE2|identity|RC-27|1|HOMOG",
+    "ETE2|identity|RC-28|1|HOMOG",
+    "ETE2|identity|RC-29|1|HOMOG",
+    "ETE2|identity|RC-2|1|HOMOG",
+    "ETE2|identity|RC-30|1|HOMOG",
+    "ETE2|identity|RC-31|1|HOMOG",
+    "ETE2|identity|RC-32|1|HOMOG",
+    "ETE2|identity|RC-33|1|HOMOG",
+    "ETE2|identity|RC-34|1|HOMOG",
+    "ETE2|identity|RC-35|1|HOMOG",
+    "ETE2|identity|RC-3|1|HOMOG",
+    "ETE2|identity|RC-4|1|HOMOG",
+    "ETE2|identity|RC-5|1|HOMOG",
+    "ETE2|identity|RC-6|1|HOMOG",
+    "ETE2|identity|RC-7|1|HOMOG",
+    "ETE2|identity|RC-8|1|HOMOG",
+    "ETE2|identity|RC-9|1|HOMOG",
+    "ETE2|joint|JC-10|1|HOMOG",
+    "ETE2|joint|JC-11|1|HOMOG",
+    "ETE2|joint|JC-12|1|HOMOG",
+    "ETE2|joint|JC-13|1|HOMOG",
+    "ETE2|joint|JC-14|1|HOMOG",
+    "ETE2|joint|JC-15|1|HOMOG",
+    "ETE2|joint|JC-16|1|HOMOG",
+    "ETE2|joint|JC-17|1|HOMOG",
+    "ETE2|joint|JC-18|1|HOMOG",
+    "ETE2|joint|JC-19|1|HOMOG",
+    "ETE2|joint|JC-1|0|HOMOG",
+    "ETE2|joint|JC-20|1|HOMOG",
+    "ETE2|joint|JC-21|1|HOMOG",
+    "ETE2|joint|JC-22|1|HOMOG",
+    "ETE2|joint|JC-23|1|HOMOG",
+    "ETE2|joint|JC-24|1|HOMOG",
+    "ETE2|joint|JC-25|1|HOMOG",
+    "ETE2|joint|JC-26|1|HOMOG",
+    "ETE2|joint|JC-27|1|HOMOG",
+    "ETE2|joint|JC-28|1|HOMOG",
+    "ETE2|joint|JC-29|1|HOMOG",
+    "ETE2|joint|JC-2|1|HOMOG",
+    "ETE2|joint|JC-30|1|HOMOG",
+    "ETE2|joint|JC-31|1|HOMOG",
+    "ETE2|joint|JC-32|1|HOMOG",
+    "ETE2|joint|JC-33|1|HOMOG",
+    "ETE2|joint|JC-34|1|HOMOG",
+    "ETE2|joint|JC-35|1|HOMOG",
+    "ETE2|joint|JC-3|1|HOMOG",
+    "ETE2|joint|JC-4|1|HOMOG",
+    "ETE2|joint|JC-5|1|HOMOG",
+    "ETE2|joint|JC-6|1|HOMOG",
+    "ETE2|joint|JC-7|1|HOMOG",
+    "ETE2|joint|JC-8|1|HOMOG",
+    "ETE2|joint|JC-9|1|HOMOG"
+   ],
+   "table_b": [
+    "ETE1|?|EXEMPT|EXEMPT",
+    "ETE1|[sa]|sa|IN",
+    "ETE1|a|a|IN",
+    "ETE1|e|e|IN",
+    "ETE1|i|i|IN",
+    "ETE1|ka|ka|IN",
+    "ETE1|ke|ke|IN",
+    "ETE1|ko|ko|IN",
+    "ETE1|ku|ku|IN",
+    "ETE1|la|la|IN",
+    "ETE1|le|le|IN",
+    "ETE1|li|li|IN",
+    "ETE1|lo|lo|IN",
+    "ETE1|ma|ma|IN",
+    "ETE1|mi|mi|IN",
+    "ETE1|mu|mu|IN",
+    "ETE1|na|na|IN",
+    "ETE1|no|no|IN",
+    "ETE1|o|o|IN",
+    "ETE1|po|po|IN",
+    "ETE1|ra|ra|IN",
+    "ETE1|re|re|IN",
+    "ETE1|ri|ri|IN",
+    "ETE1|ro|ro|IN",
+    "ETE1|sa|sa|IN",
+    "ETE1|se|se|IN",
+    "ETE1|si|si|IN",
+    "ETE1|so|so|IN",
+    "ETE1|ta|ta|IN",
+    "ETE1|ti|ti|IN",
+    "ETE1|to|to|IN",
+    "ETE1|tu|tu|IN",
+    "ETE1|u|u|IN",
+    "ETE1|wa|wa|IN",
+    "ETE1|we|we|IN",
+    "ETE2|identity|RC-10|1|HOMOG",
+    "ETE2|identity|RC-11|1|HOMOG",
+    "ETE2|identity|RC-12|1|HOMOG",
+    "ETE2|identity|RC-13|1|HOMOG",
+    "ETE2|identity|RC-14|1|HOMOG",
+    "ETE2|identity|RC-15|1|HOMOG",
+    "ETE2|identity|RC-16|1|HOMOG",
+    "ETE2|identity|RC-17|1|HOMOG",
+    "ETE2|identity|RC-18|1|HOMOG",
+    "ETE2|identity|RC-19|1|HOMOG",
+    "ETE2|identity|RC-1|0|HOMOG",
+    "ETE2|identity|RC-20|1|HOMOG",
+    "ETE2|identity|RC-21|1|HOMOG",
+    "ETE2|identity|RC-22|1|HOMOG",
+    "ETE2|identity|RC-23|1|HOMOG",
+    "ETE2|identity|RC-24|1|HOMOG",
+    "ETE2|identity|RC-25|1|HOMOG",
+    "ETE2|identity|RC-26|1|HOMOG",
+    "ETE2|identity|RC-27|1|HOMOG",
+    "ETE2|identity|RC-28|1|HOMOG",
+    "ETE2|identity|RC-29|1|HOMOG",
+    "ETE2|identity|RC-2|1|HOMOG",
+    "ETE2|identity|RC-30|1|HOMOG",
+    "ETE2|identity|RC-31|1|HOMOG",
+    "ETE2|identity|RC-32|1|HOMOG",
+    "ETE2|identity|RC-33|1|HOMOG",
+    "ETE2|identity|RC-34|1|HOMOG",
+    "ETE2|identity|RC-35|1|HOMOG",
+    "ETE2|identity|RC-3|1|HOMOG",
+    "ETE2|identity|RC-4|1|HOMOG",
+    "ETE2|identity|RC-5|1|HOMOG",
+    "ETE2|identity|RC-6|1|HOMOG",
+    "ETE2|identity|RC-7|1|HOMOG",
+    "ETE2|identity|RC-8|1|HOMOG",
+    "ETE2|identity|RC-9|1|HOMOG",
+    "ETE2|joint|JC-10|1|HOMOG",
+    "ETE2|joint|JC-11|1|HOMOG",
+    "ETE2|joint|JC-12|1|HOMOG",
+    "ETE2|joint|JC-13|1|HOMOG",
+    "ETE2|joint|JC-14|1|HOMOG",
+    "ETE2|joint|JC-15|1|HOMOG",
+    "ETE2|joint|JC-16|1|HOMOG",
+    "ETE2|joint|JC-17|1|HOMOG",
+    "ETE2|joint|JC-18|1|HOMOG",
+    "ETE2|joint|JC-19|1|HOMOG",
+    "ETE2|joint|JC-1|0|HOMOG",
+    "ETE2|joint|JC-20|1|HOMOG",
+    "ETE2|joint|JC-21|1|HOMOG",
+    "ETE2|joint|JC-22|1|HOMOG",
+    "ETE2|joint|JC-23|1|HOMOG",
+    "ETE2|joint|JC-24|1|HOMOG",
+    "ETE2|joint|JC-25|1|HOMOG",
+    "ETE2|joint|JC-26|1|HOMOG",
+    "ETE2|joint|JC-27|1|HOMOG",
+    "ETE2|joint|JC-28|1|HOMOG",
+    "ETE2|joint|JC-29|1|HOMOG",
+    "ETE2|joint|JC-2|1|HOMOG",
+    "ETE2|joint|JC-30|1|HOMOG",
+    "ETE2|joint|JC-31|1|HOMOG",
+    "ETE2|joint|JC-32|1|HOMOG",
+    "ETE2|joint|JC-33|1|HOMOG",
+    "ETE2|joint|JC-34|1|HOMOG",
+    "ETE2|joint|JC-35|1|HOMOG",
+    "ETE2|joint|JC-3|1|HOMOG",
+    "ETE2|joint|JC-4|1|HOMOG",
+    "ETE2|joint|JC-5|1|HOMOG",
+    "ETE2|joint|JC-6|1|HOMOG",
+    "ETE2|joint|JC-7|1|HOMOG",
+    "ETE2|joint|JC-8|1|HOMOG",
+    "ETE2|joint|JC-9|1|HOMOG"
+   ],
+   "comparisons": {
+    "ETE-1": {
+     "word": "GOOD",
+     "marks_checked": 35,
+     "exempt_marks": [
+      "?"
+     ],
+     "out_of_table": []
+    },
+    "ETE-2": {
+     "word": "GOOD",
+     "classes_checked": 70,
+     "non_homogeneous": []
+    }
+   }
+  },
+  "G-MER": {
+   "status": "COMPLETED",
+   "implementations_agree": true,
+   "table_a": [
+    "MER1|.|LACUNA",
+    "MER1|0|NUMERAL",
+    "MER1|1|NUMERAL",
+    "MER1|2|NUMERAL",
+    "MER1|3|NUMERAL",
+    "MER1|4|NUMERAL",
+    "MER1|5|NUMERAL",
+    "MER1|6|NUMERAL",
+    "MER1|7|NUMERAL",
+    "MER1|8|NUMERAL",
+    "MER1|9|NUMERAL",
+    "MER1|N|SIGN:ne",
+    "MER1|S|SIGN:s",
+    "MER1|X|SIGN:ẖ",
+    "MER1|a|SIGN:a",
+    "MER1|b|SIGN:b",
+    "MER1|d|SIGN:d",
+    "MER1|e|SIGN:e",
+    "MER1|i|SIGN:i",
+    "MER1|k|SIGN:k",
+    "MER1|l|SIGN:l",
+    "MER1|m|SIGN:m",
+    "MER1|n|SIGN:n",
+    "MER1|o|SIGN:o",
+    "MER1|p|SIGN:p",
+    "MER1|q|SIGN:q",
+    "MER1|r|SIGN:r",
+    "MER1|s|SIGN:se",
+    "MER1|t|SIGN:t",
+    "MER1|w|SIGN:w",
+    "MER1|x|SIGN:ḫ",
+    "MER1|y|SIGN:y",
+    "MER2|a|725|737",
+    "MER3|i|2857|2880"
+   ],
+   "table_b": [
+    "MER1|.|LACUNA",
+    "MER1|0|NUMERAL",
+    "MER1|1|NUMERAL",
+    "MER1|2|NUMERAL",
+    "MER1|3|NUMERAL",
+    "MER1|4|NUMERAL",
+    "MER1|5|NUMERAL",
+    "MER1|6|NUMERAL",
+    "MER1|7|NUMERAL",
+    "MER1|8|NUMERAL",
+    "MER1|9|NUMERAL",
+    "MER1|N|SIGN:ne",
+    "MER1|S|SIGN:s",
+    "MER1|X|SIGN:ẖ",
+    "MER1|a|SIGN:a",
+    "MER1|b|SIGN:b",
+    "MER1|d|SIGN:d",
+    "MER1|e|SIGN:e",
+    "MER1|i|SIGN:i",
+    "MER1|k|SIGN:k",
+    "MER1|l|SIGN:l",
+    "MER1|m|SIGN:m",
+    "MER1|n|SIGN:n",
+    "MER1|o|SIGN:o",
+    "MER1|p|SIGN:p",
+    "MER1|q|SIGN:q",
+    "MER1|r|SIGN:r",
+    "MER1|s|SIGN:se",
+    "MER1|t|SIGN:t",
+    "MER1|w|SIGN:w",
+    "MER1|x|SIGN:ḫ",
+    "MER1|y|SIGN:y",
+    "MER2|a|725|737",
+    "MER3|i|2857|2880"
+   ],
+   "comparisons": {
+    "MER-1": {
+     "word": "GOOD",
+     "marks_checked": 32,
+     "unaccounted": []
+    },
+    "MER-2": {
+     "word": "GOOD",
+     "conforming": 725,
+     "total": 737,
+     "conformance": "725/737"
+    },
+    "MER-3": {
+     "word": "GOOD",
+     "conforming": 2857,
+     "total": 2880,
+     "conformance": "2857/2880"
+    }
+   }
+  },
+  "G-IND": {
+   "status": "COMPLETED",
+   "implementations_agree": true,
+   "registration_guard": "PASS",
+   "reserve_artifacts_scored": 334,
+   "reserve_tokens_scored": 1391,
+   "reserve_hash_as_sealed": "bfbe79cb2d2d7c131fb0e2c7cc8004995d36af6c3e4cc5b1cdb5bb5ed29930ff",
+   "reserve_hash_as_scored": "bfbe79cb2d2d7c131fb0e2c7cc8004995d36af6c3e4cc5b1cdb5bb5ed29930ff",
+   "unseen_tokens": 26,
+   "case_table": [
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 1,
+     "denominator": 5611,
+     "tokens": 54
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 2,
+     "denominator": 5611,
+     "tokens": 58
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 3,
+     "denominator": 5611,
+     "tokens": 43
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 4,
+     "denominator": 5611,
+     "tokens": 20
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 5,
+     "denominator": 5611,
+     "tokens": 12
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 6,
+     "denominator": 5611,
+     "tokens": 4
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 7,
+     "denominator": 5611,
+     "tokens": 8
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 8,
+     "denominator": 5611,
+     "tokens": 14
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 9,
+     "denominator": 5611,
+     "tokens": 15
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 10,
+     "denominator": 5611,
+     "tokens": 9
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 11,
+     "denominator": 5611,
+     "tokens": 21
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 12,
+     "denominator": 5611,
+     "tokens": 25
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 13,
+     "denominator": 5611,
+     "tokens": 40
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 14,
+     "denominator": 5611,
+     "tokens": 47
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 15,
+     "denominator": 5611,
+     "tokens": 23
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 16,
+     "denominator": 5611,
+     "tokens": 16
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 17,
+     "denominator": 5611,
+     "tokens": 5
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 18,
+     "denominator": 5611,
+     "tokens": 4
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 19,
+     "denominator": 5611,
+     "tokens": 6
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 20,
+     "denominator": 5611,
+     "tokens": 4
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 21,
+     "denominator": 5611,
+     "tokens": 5
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 22,
+     "denominator": 5611,
+     "tokens": 7
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 53,
+     "denominator": 5611,
+     "tokens": 9
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 63,
+     "denominator": 5611,
+     "tokens": 10
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 66,
+     "denominator": 5611,
+     "tokens": 17
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 100,
+     "denominator": 5611,
+     "tokens": 30
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 109,
+     "denominator": 5611,
+     "tokens": 23
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 117,
+     "denominator": 5611,
+     "tokens": 26
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 126,
+     "denominator": 5611,
+     "tokens": 31
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 128,
+     "denominator": 5611,
+     "tokens": 26
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 134,
+     "denominator": 5611,
+     "tokens": 29
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 135,
+     "denominator": 5611,
+     "tokens": 36
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 136,
+     "denominator": 5611,
+     "tokens": 35
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 137,
+     "denominator": 5611,
+     "tokens": 24
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 155,
+     "denominator": 5611,
+     "tokens": 38
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 158,
+     "denominator": 5611,
+     "tokens": 32
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 164,
+     "denominator": 5611,
+     "tokens": 41
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 174,
+     "denominator": 5611,
+     "tokens": 48
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 180,
+     "denominator": 5611,
+     "tokens": 54
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 192,
+     "denominator": 5611,
+     "tokens": 40
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 212,
+     "denominator": 5611,
+     "tokens": 37
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 285,
+     "denominator": 5611,
+     "tokens": 71
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 316,
+     "denominator": 5611,
+     "tokens": 73
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 317,
+     "denominator": 5611,
+     "tokens": 83
+    },
+    {
+     "model": "baseline",
+     "rule": "unigram",
+     "numerator": 472,
+     "denominator": 5611,
+     "tokens": 112
+    },
+    {
+     "model": "baseline",
+     "rule": "unseen",
+     "numerator": 1,
+     "denominator": 5983,
+     "tokens": 26
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 1,
+     "denominator": 5611,
+     "tokens": 54
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 2,
+     "denominator": 5611,
+     "tokens": 56
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 3,
+     "denominator": 5611,
+     "tokens": 41
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 4,
+     "denominator": 5611,
+     "tokens": 20
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 5,
+     "denominator": 5611,
+     "tokens": 12
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 6,
+     "denominator": 5611,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 53,
+     "denominator": 5611,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 63,
+     "denominator": 5611,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 66,
+     "denominator": 5611,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 100,
+     "denominator": 5611,
+     "tokens": 15
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 109,
+     "denominator": 5611,
+     "tokens": 9
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 117,
+     "denominator": 5611,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 126,
+     "denominator": 5611,
+     "tokens": 8
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 128,
+     "denominator": 5611,
+     "tokens": 10
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 134,
+     "denominator": 5611,
+     "tokens": 11
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 135,
+     "denominator": 5611,
+     "tokens": 11
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 136,
+     "denominator": 5611,
+     "tokens": 11
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 137,
+     "denominator": 5611,
+     "tokens": 9
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 155,
+     "denominator": 5611,
+     "tokens": 10
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 158,
+     "denominator": 5611,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 164,
+     "denominator": 5611,
+     "tokens": 11
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 174,
+     "denominator": 5611,
+     "tokens": 9
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 180,
+     "denominator": 5611,
+     "tokens": 19
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 192,
+     "denominator": 5611,
+     "tokens": 14
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 212,
+     "denominator": 5611,
+     "tokens": 12
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 285,
+     "denominator": 5611,
+     "tokens": 12
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 316,
+     "denominator": 5611,
+     "tokens": 18
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 317,
+     "denominator": 5611,
+     "tokens": 17
+    },
+    {
+     "model": "derived",
+     "rule": "backoff",
+     "numerator": 472,
+     "denominator": 5611,
+     "tokens": 21
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 6,
+     "denominator": 1336,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 7,
+     "denominator": 1336,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 8,
+     "denominator": 1336,
+     "tokens": 21
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 9,
+     "denominator": 1336,
+     "tokens": 23
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 10,
+     "denominator": 1336,
+     "tokens": 9
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 11,
+     "denominator": 1336,
+     "tokens": 23
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 12,
+     "denominator": 1336,
+     "tokens": 27
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 13,
+     "denominator": 1336,
+     "tokens": 44
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 14,
+     "denominator": 1336,
+     "tokens": 52
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 15,
+     "denominator": 1336,
+     "tokens": 30
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 16,
+     "denominator": 1336,
+     "tokens": 16
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 17,
+     "denominator": 1336,
+     "tokens": 10
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 18,
+     "denominator": 1336,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 19,
+     "denominator": 1336,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 20,
+     "denominator": 1336,
+     "tokens": 17
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 21,
+     "denominator": 1336,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 22,
+     "denominator": 1336,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 23,
+     "denominator": 1336,
+     "tokens": 8
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 26,
+     "denominator": 1336,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "initial",
+     "numerator": 31,
+     "denominator": 1336,
+     "tokens": 17
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 1,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 2,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 3,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 4,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 5,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 7,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 8,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 9,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 10,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 11,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 12,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 13,
+     "tokens": 8
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 14,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 15,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 16,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 17,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 18,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 21,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 22,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 52,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 63,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 64,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 66,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 77,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 80,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 84,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 106,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 108,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 115,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 125,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 156,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 234,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 263,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 272,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 1,
+     "denominator": 413,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 4,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 10,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 11,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 14,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 15,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 16,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 18,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 19,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 20,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 22,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 52,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 63,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 64,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 66,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 68,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 77,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 80,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 84,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 106,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 108,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 115,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 125,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 234,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 263,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 272,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 2,
+     "denominator": 413,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 9,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 14,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 15,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 52,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 63,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 64,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 66,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 68,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 80,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 84,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 106,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 108,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 156,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 234,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 263,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 3,
+     "denominator": 272,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 13,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 16,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 22,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 64,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 68,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 80,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 84,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 106,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 108,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 115,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 125,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 128,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 156,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 234,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 272,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 4,
+     "denominator": 413,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 52,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 63,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 64,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 77,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 80,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 84,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 106,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 108,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 115,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 128,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 156,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 234,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 263,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 5,
+     "denominator": 272,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 77,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 108,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 125,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 128,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 156,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 234,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 263,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 6,
+     "denominator": 272,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 52,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 63,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 106,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 108,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 115,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 234,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 263,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 7,
+     "denominator": 413,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 64,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 106,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 108,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 115,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 125,
+     "tokens": 8
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 234,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 263,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 8,
+     "denominator": 272,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 9,
+     "denominator": 63,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 9,
+     "denominator": 263,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 9,
+     "denominator": 272,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 10,
+     "denominator": 66,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 10,
+     "denominator": 156,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 10,
+     "denominator": 234,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 10,
+     "denominator": 263,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 10,
+     "denominator": 413,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 11,
+     "denominator": 63,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 11,
+     "denominator": 128,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 11,
+     "denominator": 234,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 11,
+     "denominator": 263,
+     "tokens": 6
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 11,
+     "denominator": 272,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 11,
+     "denominator": 413,
+     "tokens": 23
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 12,
+     "denominator": 234,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 12,
+     "denominator": 263,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 12,
+     "denominator": 272,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 12,
+     "denominator": 413,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 13,
+     "denominator": 80,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 13,
+     "denominator": 413,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 15,
+     "denominator": 234,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 15,
+     "denominator": 413,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 16,
+     "denominator": 234,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 16,
+     "denominator": 413,
+     "tokens": 1
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 17,
+     "denominator": 272,
+     "tokens": 5
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 19,
+     "denominator": 413,
+     "tokens": 10
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 21,
+     "denominator": 413,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 23,
+     "denominator": 108,
+     "tokens": 3
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 24,
+     "denominator": 272,
+     "tokens": 7
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 26,
+     "denominator": 115,
+     "tokens": 4
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 27,
+     "denominator": 413,
+     "tokens": 8
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 28,
+     "denominator": 125,
+     "tokens": 12
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 29,
+     "denominator": 128,
+     "tokens": 8
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 43,
+     "denominator": 156,
+     "tokens": 2
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 59,
+     "denominator": 234,
+     "tokens": 15
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 67,
+     "denominator": 263,
+     "tokens": 14
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 69,
+     "denominator": 272,
+     "tokens": 15
+    },
+    {
+     "model": "derived",
+     "rule": "pair",
+     "numerator": 101,
+     "denominator": 413,
+     "tokens": 21
+    },
+    {
+     "model": "derived",
+     "rule": "unseen",
+     "numerator": 1,
+     "denominator": 5983,
+     "tokens": 26
+    }
+   ],
+   "baseline_mean_log_loss": 4.557943054416728,
+   "derived_mean_log_loss": 4.17828872043132,
+   "baseline_mean_log_loss_6dp": "4.557943",
+   "derived_mean_log_loss_6dp": "4.178289",
+   "difference": 0.3796543339854077,
+   "difference_6dp": "0.379654",
+   "frozen_margin_nats_per_token": 0.05,
+   "comparisons": {
+    "IND-1": {
+     "word": "GOOD"
+    }
+   }
+  }
+ },
+ "checks": {
+  "TC-105-20": "PASS",
+  "TC-105-21": "PASS",
+  "TC-105-22": "PASS",
+  "TC-105-23": "PASS"
+ },
+ "opened_paths_audit": [
+  "/home/tpierson/.syncyard/worktrees/glossa/glossa-custody/spec105/eteocypriot.json",
+  "/home/tpierson/.syncyard/worktrees/glossa/glossa-custody/spec105/meroitic.json",
+  "/home/tpierson/.syncyard/worktrees/glossa/glossa-custody/spec105/indus-reserve.json (content, G-IND checker)",
+  "/home/tpierson/.syncyard/worktrees/glossa/glossa-custody/spec105/indus-derivation.json",
+  "/home/tpierson/.syncyard/worktrees/glossa/glossa-custody/spec105/indus-reserve.json"
+ ]
+}
