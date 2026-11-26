@@ -287,3 +287,38 @@ and the captures at the goal's
   published, so no post-publication wait runs and Round K
   falls due immediately; its briefs carry no new sandbox
   material, Spec 105's registered design being complete.
+
+### 2026-11-25 - Round K sweep (all-null round on the Round J record; Round L due immediately)
+
+- **Change.** Round K ran in the three Round D sessions
+  (briefs fired ~21:37 ET Indus, ~21:44 ET Eteocypriot,
+  ~21:50 ET Meroitic, 2026-11-25), carrying the Round J
+  record itself (PR #752: the J-E-1 and J-E-2 adjudications
+  and their discharges in the Spec 105 Stage 6 outcome
+  record) as the round's new assessable material — Spec 105
+  supplies no further stages, its registered design being
+  complete — and returned no units in any program, the
+  third all-null round of the sweep (after H and I). Indus
+  returned an eighth consecutive null at brief level:
+  Round J's acceptance adds no new experimental observation
+  and does not independently corroborate IND-1 GOOD, which
+  retains its registered scope; the next substantive advance
+  still requires discriminating evidence the program does
+  not have, and the session recorded that eight brief-level
+  nulls are eight review outcomes, not eight independent
+  confirmations of the record. Eteocypriot returned a
+  scoped-audit null on direct inspection: at pin c3d6e71b
+  it verified both Round J closures, preservation of the
+  historical artifacts, and the ledger counts, and
+  re-downloaded the deposited v4 byte-identical. Meroitic
+  returned a null on direct inspection (bounded delta
+  review): Round J recorded faithfully, deposited v4
+  unchanged, the intervening amendments Eteocypriot-facing
+  only, ledger recount agreeing (130 rows; Meroitic 53).
+  Tallies: 0 units (0 APPLY, 0 APPLY WITH MODIFICATION,
+  0 DO NOT APPLY, 0 owner decisions). No rows added to the
+  recommendations ledger: totals unchanged at 130 rows —
+  78 done, 31 accepted, 0 open, 21 rejected. Nothing was
+  published, so no post-publication wait runs and Round L
+  falls due immediately; its briefs carry no new sandbox
+  material, Spec 105's registered design being complete.
