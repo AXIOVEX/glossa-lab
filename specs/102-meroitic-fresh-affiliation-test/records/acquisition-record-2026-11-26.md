@@ -42,3 +42,76 @@ The compilation, once made, is the program's own work over published sources. Th
 ## 8. What did not happen
 
 The affiliation test was not executed. No digitisation has begun. No substitute source was introduced. No standing, verdict, or tally moved.
+
+## 9. ILL addendum (2026-11-26) — the loan route, prepared to the owner's one action
+
+### 9.1 The authorizing act and the limit, stated plainly
+
+On 2026-11-26 the owner ordered the free options tried, and then named this one directly: "Try library loan" (Glossa-Lab chat, 2026-11-26 ~02:24 ET). This addendum is the execution record of that order. **The limit stands and is not softened: an interlibrary loan gives reading access for a loan period. It is not a digitisable copy, and it does not by itself satisfy S-1's digitisation purpose (section 2).** The loan is a stopgap the owner asked to try anyway: it puts both books in the owner's hands for reading and assessment while the purchase decision stands open, and nothing in this addendum changes section 5's outcome (nothing obtained; acquisition stops at the payment checkout) or section 8 (no test executed, no digitisation begun, no substitute introduced).
+
+No request was placed by the executing agent. A MeLCat request requires the owner's library-card sign-in, and an off-system request to Oakland University is an external send; both are the owner's acts. Everything below is prepared so that the remaining owner step is one clear action per route (section 9.5).
+
+### 9.2 MeLCat holdings, checked 2026-11-26 (public catalogue, no sign-in)
+
+Both ISBNs were searched in MeLCat (Classic MeLCat, elibrary.mel.org) on 2026-11-26.
+
+- **Rilly 2010, ISBN 9789042922372 — record confirmed in MeLCat.** The ISBN search returns the record: *Le méroïtique et sa famille linguistique* / Claude Rilly, Louvain ; Paris : Peeters, 2010, 556 pp., ISBNs 9789042922372 (Louvain), 9042922370, 9782758400790 (Paris), 2758400790. The holdings table for this record could not be extracted through the public text interface in this pass (the interface returned the bibliographic record only, and repeat fetches failed at the network layer), so the count and names of holding libraries for this title are **not verified** in this addendum and are not guessed. The record's presence in the union catalogue is verified; whether any given copy is requestable is confirmed at request time by the system itself.
+- **Rilly & de Voogt 2012, ISBN 9781107008663 — record confirmed in MeLCat, record b45225094.** The holdings table as retrieved lists **one holding**: University of Michigan – Ann Arbor, Hatcher Graduate Library (GRAD), call number PL8512.M45 R56 2012, status **NOT REQUESTABLE**. A NOT REQUESTABLE status means MeLCat self-service requesting cannot take that copy (the lending library's local policy governs, per the MeL FAQ); it does not mean the book is absent from Michigan. For this title the practical loan channel is therefore not MeLCat self-service but the staff-mediated route in section 9.4, which searches OCLC WorldShare lenders beyond MeLCat.
+
+MeLCat mechanics (MeL FAQ, verified 2026-11-26): search is open to everyone; requesting is limited to eligible patrons of participating libraries. A request is placed from the record ("Get This For Me!" / "Get this from MeLCat"), selecting the home library and entering the patron's name and library card/account number (some libraries also require a PIN). Requests are placed one item at a time. Delivery to the home library typically takes about 7–14 days (library-published guidance). MeLCat does not carry article/chapter scan requests; books only, for these two items that is what is wanted.
+
+### 9.3 Route A — Springfield Township Library (the owner's home library)
+
+Verified from the library's own public site (springfield.michlibrary.org, read 2026-11-26):
+
+- Springfield Township Library, 12000 Davisburg Rd, Davisburg, MI 48350; phone 248-846-6550.
+- The library participates in MeLCat: its eShelf/Research page lists MeLCat ("Use your local library card to order materials from other libraries in Michigan"), and its borrowing table carries a "Mel Items" row: **21-day loan, $.25/day overdue fine, no item limit**.
+- A library card requires Springfield Township residency, proven in person at the Check-Out Desk (driver's license plus a current utility bill and/or recent tax statement). The owner is already a Springfield Township Library cardholder (program record, the 2026-10-10 ILL draft: "I am a Springfield Township Library cardholder"), so no new card step stands in front of a request.
+- The library publishes no separate ILL request form and is not an OCLC WorldShare member (program record, 2026-10-10); its beyond-MeLCat route is the referral in section 9.4, which Springfield's reference desk itself arranged in October 2026.
+
+So Route A is: the owner places the MeLCat request himself from the record page (section 9.5), and the book is delivered to Springfield for pickup, on a 21-day MeL loan.
+
+### 9.4 Route B — Oakland University Kresge Library ILL (staff-mediated, off-system)
+
+Published terms (Kresge Library ILL policy page, read 2026-11-26): the ILL office "serves the Oakland University community. This includes currently enrolled students of all levels, faculty and staff. These users must have an active NetID. Those outside the Oakland University community should contact their home library for interlibrary loan service." Requests are filled at no cost to eligible users. **No alumni or community ILL entitlement is published, and no Oakland University affiliation for the owner exists anywhere on the program's record; none is claimed here.** The owner is not an OU student, faculty, or staff member on any record this program holds.
+
+The route that actually exists is narrower and is a matter of practice, not entitlement: in October 2026 Springfield Township Library's reference desk referred the owner to Oakland University ILL, whose office agreed to conduct off-system requests for him as a Springfield cardholder at no charge. That channel has since carried the CISI volume 3 portion copy, the Proto-Indica loan, the Fuls chapter request, and the Laursen 2010 article request (withdrawn when the author supplied the paper directly). The standing intake is Natalie Smith, Oakland University ILL (nksmith@oakland.edu; the office mailbox illoaku@oakland.edu was used for the first, referral, request). Standing terms on those requests: private, non-commercial research; no redistribution; maximum USD 25 authorised, with patron confirmation required before any charge above USD 25; standard service, no deadline. This route searches beyond MeLCat (OCLC WorldShare lenders in the US and abroad), which is what the NOT REQUESTABLE MeLCat copy of the 2012 book makes necessary.
+
+### 9.5 The exact remaining owner actions (one per route)
+
+**For Rilly 2010 (Route A, MeLCat self-service):** go to mel.org, search ISBN **9789042922372**, open the record, click "Get this from MeLCat", select **Springfield Township Library** as the home library, enter his name and Springfield library card number (and PIN if asked), and submit. Expected delivery to Springfield in about 7–14 days; 21-day loan on pickup. If MeLCat reports the title not requestable, fall through to Route B for this book as well.
+
+**For Rilly & de Voogt 2012 (Route B; also the fallback for the 2010 book):** send one email to Natalie Smith at nksmith@oakland.edu, on the established off-system terms, carrying the two request blocks below (the 2012 book, and the 2010 book too if its MeLCat request fails). No stated turnaround exists for the off-system route; the October requests ran at standard service with no deadline.
+
+Request block — BOOK LOAN (whole book):
+
+    Patron name:            Tristen Pierson
+    Library:                Springfield Township Library (via Oakland University off-system request)
+    Request type:           LOAN of the whole book
+    Title:                  The Meroitic language and writing system
+    Authors:                Claude Rilly, Alex de Voogt
+    Publisher / year:       Cambridge University Press, 2012
+    ISBN:                   978-1-107-00866-3 (hardcover)
+    Note:                   The MeLCat copy (Univ. of Michigan, Hatcher Graduate,
+                            PL8512.M45 R56 2012) is marked NOT REQUESTABLE in MeLCat;
+                            a WorldShare lender is requested instead.
+    Max cost authorized:    USD 25 (patron will confirm before any charge above this)
+    Needed by:              No deadline — standard service is fine
+    Use:                    Private, non-commercial research. No redistribution.
+
+Request block — BOOK LOAN (whole book, fallback for the 2010 volume):
+
+    Patron name:            Tristen Pierson
+    Library:                Springfield Township Library (via Oakland University off-system request)
+    Request type:           LOAN of the whole book
+    Title:                  Le méroïtique et sa famille linguistique
+    Author:                 Claude Rilly
+    Publisher / year:       Peeters, Louvain-Paris, 2010 (Afrique et Langage 14; SELAF 454)
+    ISBN:                   978-90-429-2237-2
+    Max cost authorized:    USD 25 (patron will confirm before any charge above this)
+    Needed by:              No deadline — standard service is fine
+    Use:                    Private, non-commercial research. No redistribution.
+
+### 9.6 State after this addendum
+
+Prepared, not placed: no MeLCat request was submitted and no email was sent by the executing agent. Custody is unchanged (section 6: nothing held, no hashes). If a loan lands, the loan's arrival, lender, and loan period are to be appended to this record; the borrowed volumes are reading copies under the lending library's terms and are not digitisation stock. The affiliation test remains uncommissioned and unexecuted.
