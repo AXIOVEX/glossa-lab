@@ -90,8 +90,92 @@ it alone.
   §3.1; `templates/meroitic-baseline.md` (Template
   amendment — version 2).
 
+### Iteration 2 (2026-11-26) — First ensemble: ETE-ENS-1, Eteocypriot baseline, claim ETE-Q-1
+
+- **Authorizing act.** The owner's order in the Glossa-Lab
+  chat, 2026-11-26 ~01:54 ET ("For everything else,
+  execute now to your recommendations"), approving the
+  recommendation as presented: commission Spec 106's
+  Stage 1 with the framework's worked example, one claim,
+  fully logged, before any wider set.
+- **Seed.** `records/ensemble-1-seed-2026-11-26.md`,
+  committed before any derivation ran. Baseline: the
+  Eteocypriot template, version 1, axiom-line SHA-256
+  `fca1cc8a238631b0c6df8b2901daa5e84dc4cb2387dcdad560285c6e95beec4f`,
+  recomputed at the seeding by `records/census-audit.py`
+  (TC-106-02..TC-106-05 PASS). Evidence set and checker as
+  the template's seed record declares (Spec 096 corpus and
+  the fixed epigraphic record; contact points: Spec 105's
+  G-ETE gate, and the filed Eteocypriot record).
+- **Claim entered.** "The long Amathus text is a royal
+  dedication" entered the Eteocypriot baseline's claim
+  queue as **ETE-Q-1**, under the act above; the queue had
+  opened empty at the template's seeding. Status at entry:
+  UNTESTED. The seed declares the study-level
+  identification ("the long Amathus text" = ICS 196) and
+  the translation (a royal dedication is an inscription
+  whose dedicator is the king or royal house of Amathus
+  and whose act is a dedication).
+- **Instances spawned, declared before the pass.** Four,
+  each the baseline entire with exactly the named
+  difference. The baseline POL domain carries no (H)
+  lines, so the politics variation takes the two forms
+  framework §5 permits: **ETE1-A** + ETE-POL-H1 (added
+  (H): in ICS 196's period, substantial public inscriptions
+  at Amathus were normally commissioned by the king or the
+  royal house; the norm itself UNSOURCED in the opened
+  record); **ETE1-B** + ETE-POL-H2 (the civic alternative:
+  normally commissioned by the city as a civic body);
+  **ETE1-C** the baseline control, no addition, no drop;
+  **ETE1-D** + ETE-POL-H1 with the named (K) axiom
+  ETE-POL-11 dropped (declared sensitivity run: the
+  kingship's end left undated and unended).
+- **Verdicts, per claim per instance.** ETE-Q-1 —
+  ETE1-A: DOES-NOT-DERIVE (gap: no axiom connects ICS 196
+  to a royal dedicator; ETE-POL-H1 is a general norm and
+  does not distribute to a text whose filed content names
+  another dedicator); negation DERIVES (ETE-CON-03 with
+  the seed's translation). ETE1-B: DOES-NOT-DERIVE (same
+  gap); negation DERIVES. ETE1-C: DOES-NOT-DERIVE (same
+  gap); negation DERIVES. ETE1-D: DOES-NOT-DERIVE (same
+  gap; dropping ETE-POL-11 adds no premise about ICS 196);
+  negation DERIVES (the chain nowhere cites ETE-POL-11).
+- **Evidence applied.** Contact point 2 (the filed
+  Eteocypriot record: ETE-CON-03, ETE-CON-04, ETE-ENV-03)
+  was exercised for every instance: each negation
+  derivation agrees with it, and no instance derived a
+  contradiction with the evidence set. Contact point 1
+  (Spec 105's G-ETE gate) was not exercised — the pass ran
+  no language-internal derivation — and no G-ETE score is
+  claimed from this pass.
+- **Retirements.** No instance died. All four retired at
+  the close of the pass, claim queue exhausted, their
+  records kept in the outcome record.
+- **Ensemble reading.** Survivors 4 of 4; translatable in
+  4 of 4; claim derived in 0 of 4; negation derived in 4
+  of 4. Under §8.1's row for that tally: **ETE-Q-1 —
+  REFUTED-IN-ENSEMBLE**. §8.2 governs the positive row
+  only and is not engaged; coverage was complete in any
+  case. The claim's fate does not track the politics
+  variation: it fails identically at every corner of the
+  declared space, killed by the filed content of the text
+  itself (ETE-CON-03), not by any politics premise. The
+  next evidence that could bear is the outstanding
+  edition-of-record check on that content (ETE-ENV-04:
+  the program holds ICS 196 from secondary reproductions,
+  not Masson's edition or the Sittig 1914 photograph; the
+  portion-copy request is unanswered).
+- **Rests on:** `records/ensemble-1-seed-2026-11-26.md`;
+  `records/ensemble-1-outcome-2026-11-26.md`.
+
 ## Solution register
 
 No claim carries SOLUTION status. C106-1..C106-6 are
 registration claims about this package, settled by their test
 cases at registration; no instance-tested claim exists.
+
+**Register update (2026-11-26, Iteration 2).** The first
+instance-tested claim now exists. ETE-Q-1, "The long Amathus
+text is a royal dedication" (Eteocypriot baseline claim
+queue, ensemble ETE-ENS-1): **UNTESTED → REFUTED-IN-ENSEMBLE**.
+No claim carries SOLUTION status.
