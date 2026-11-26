@@ -115,3 +115,14 @@ Request block — BOOK LOAN (whole book, fallback for the 2010 volume):
 ### 9.6 State after this addendum
 
 Prepared, not placed: no MeLCat request was submitted and no email was sent by the executing agent. Custody is unchanged (section 6: nothing held, no hashes). If a loan lands, the loan's arrival, lender, and loan period are to be appended to this record; the borrowed volumes are reading copies under the lending library's terms and are not digitisation stock. The affiliation test remains uncommissioned and unexecuted.
+
+## 10. Book 2 completion addendum (2026-11-26) — Rilly & de Voogt 2012 acquired as the Cambridge Core digital edition
+
+This addendum records the completed acquisition of the second S-1 book and supersedes the book-2 state stated earlier in this record: section 5's "prepared to the point of purchase" for this title, and the section 9 loan route for this title (already closed by the owner's order of 2026-11-26 before any request was placed).
+
+- **The print route did not complete.** The assisted AbeBooks checkout for the verified hardcover listing failed at sign-in on 2026-11-26. No AbeBooks order was placed and no AbeBooks charge ever occurred.
+- **The owner chose the electronic edition.** Between the two verified electronic options presented to him on 2026-11-26, he picked Cambridge Core over the Rakuten Kobo EPUB (US$121.99, Adobe DRM).
+- **What was acquired:** Claude Rilly & Alex de Voogt, *The Meroitic Language and Writing System*, Cambridge University Press, 2012, as the **Cambridge Core digital edition for individuals** — digital ISBN 9780511920028, DOI 10.1017/CBO9780511920028. This is the edition whose Appendix (pp. 189–230) is the lexicon apparatus the registration names.
+- **Purchase:** Cambridge Core order reference **1001421**, placed 2026-11-26. **US$148.00 total charged** (subtotal US$148.00, tax US$0.00, no shipping), paid via Link, Visa ending in 2302. A new Cambridge Core account for tristen.pierson@gmail.com was created and email-activated for this purchase.
+- **Delivery verified:** the book's Cambridge Core page states "You have digital access to this book", and every chapter, including the Appendix lexicon (pp. 189–230), shows "You have access" with a Download PDF link; a Download PDF (zip) option is also offered.
+- **Custody and next step:** the book goes to the Spec 102 custody home designated in section 6 for digitisation under the registered terms (section 7) when the owner directs it. No digitisation has begun. The affiliation test remains **not commissioned** and unexecuted. No standing, verdict, or tally moved.
