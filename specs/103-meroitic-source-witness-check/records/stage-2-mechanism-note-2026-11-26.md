@@ -77,6 +77,32 @@ token stream, from what, before asking how authoritative
 the container is.** Independence lives at the level of
 the consumed form.
 
+**Clarification (2026-11-26, Co-scientist Round L unit
+L-M-2, adjudication APPLY).** The six WITNESS UNAVAILABLE
+classifications and every Stage 2 outcome stand unchanged;
+this clarification corrects only the scope of the
+independence sentence above ("in the way the check
+requires"), which overstates what Spec 103's registered
+diagnostic demands:
+
+> Reproduction of Griffith's hand copies supplies no
+> independent confirmation of his original epigraphic
+> reading. A separately produced transcription of a shared
+> source can nevertheless test downstream extraction
+> fidelity, while inheriting that source's errors. A new
+> reading from a photograph would require its own protocol
+> and a statement of the dependencies it does and does not
+> remove. None of these token streams was produced under
+> Stage 2's registered printed-transliteration protocol.
+
+The check registered in Spec 103 asks whether the frozen
+extraction preserves its source, and its protocol admits
+second representations of that source; independence from
+Griffith's original reading is required only for confirming
+that reading, which this check does not attempt. Stage 2
+still correctly declined to substitute a newly generated
+plate reading for the absent printed transliteration.
+
 ## 4. The existence check belongs in the acquisition, not the execution
 
 One page inspection per in-scope text, done at
