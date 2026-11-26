@@ -249,3 +249,11 @@ standing, tally, score, or claim changed.
   done on this evidence; row C-E-2's Round E annotation
   stands as the pointer to the propagation leg this
   release closes.
+
+## Addendum 2026-11-26 (ResearchGate v3 update)
+
+The scheduled ResearchGate v3 pass ran 2026-11-26 (browser task 11:04-11:14 ET).
+
+- **Source verification:** the v3 PDF was re-downloaded from Zenodo record 24533693 and its SHA-256 verified as `9f86e0e9291e5e6e2e58f1b6b799be9b4d011a3445c5d0242e377d4f5425c64f`, matching this record before any upload.
+- **ResearchGate publication 418211795 updated and verified:** the v2 file was replaced with `eteocypriot-alignment-v3.pdf` as the sole public full-text, and the header DOI was set to 10.5281/zenodo.24533693 (from 10.5281/zenodo.24449913). Verified on the public page afterward: header DOI 10.5281/zenodo.24533693, Public File 1 is the v3 file, preview reads "Preprint v3".
+- **Budget:** this was 1 of the 2 Glossa v3 edits this day; with the Riemann curvature-v2 retry earlier the same morning, the account-wide budget of about 3 publication changes per day was fully used. No "Edit limit reached" message appeared. The v4 ResearchGate update still trails to a later day; Zenodo remains the record of record.
