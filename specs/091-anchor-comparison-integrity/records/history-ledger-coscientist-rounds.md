@@ -162,3 +162,40 @@ immediately. Ledger after the round: 128 rows — 76 done,
 Rests on: `records/coscientist-sweep-adjudication-2026-11-25-round-g.md`
 and the captures at the goal's
 `hidden_files/coscientist-sweep-2026-11-25-round-g/`.
+
+### 2026-11-25 - Round H sweep (the first all-null round; Round I due immediately)
+
+- **Change.** Round H ran in the three Round D sessions
+  (briefs fired ~19:51 ET Indus, ~19:54 ET Eteocypriot,
+  ~19:56 ET Meroitic, 2026-11-25) and returned no unit in
+  any program: Indus a fifth consecutive null at
+  brief-level; Eteocypriot a scoped-audit null on direct
+  inspection (deposited v4 byte-identical; G-E-1's closure
+  verified as filed; the intervening delta holds no
+  Eteocypriot-facing change); Meroitic a null on direct
+  inspection (deposited v4 byte-identical; G-M-1's
+  discharge verified, both baseline pins reproduced and
+  TC-106-02..05 passing; its ledger recount agreeing).
+  Zero units: 0 APPLY, 0 APPLY WITH MODIFICATION, 0 DO NOT
+  APPLY, 0 owner decisions. No row is added to the
+  recommendations ledger; totals unchanged at 128 rows -
+  76 done, 31 accepted, 0 open, 21 rejected. Nothing was
+  published, so no post-publication wait runs and Round I
+  falls due immediately. Live-record note: Spec 105 Stage
+  3 landed (PR #746) while the round ran, after the
+  sessions pinned head 04dd93d3; the sessions did not
+  assess its outputs, which are carried into Round I's
+  briefs.
+- **Why.** The loop's standing definition: each round's
+  feedback is adjudicated against the primary record and
+  answered on the record, with nulls recorded at the level
+  actually worked.
+- **Record.** The Round H adjudication record
+  (`records/coscientist-sweep-adjudication-2026-11-25-round-h.md`);
+  the Round H captures at the goal's
+  `hidden_files/coscientist-sweep-2026-11-25-round-h/<program>/`
+  (brief SHA-256s Indus 6529f402..., Eteocypriot
+  4c8ecb38..., Meroitic 7597ebc7...), including the
+  sessions' own files `eteocypriot-round-h-review.md` and
+  `meroitic-round-h-2026-11-25.md`, captured in full.
+

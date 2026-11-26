@@ -506,6 +506,20 @@ post-publication wait runs and Round H falls due
 immediately. Totals after Round G: 128 rows — 76 done,
 31 accepted, 0 open, 21 rejected.
 
+Round H cross-check (2026-11-25). The Round H sweep (the
+Round D sessions, continued through Rounds E, F, and G;
+briefs fired 2026-11-25 ~19:51-19:56 ET through the
+tower-compute automation Brave route; no post-publication
+wait ran, Round G having published nothing) returned three
+nulls and no units: Indus (fifth consecutive null,
+brief-level), Eteocypriot (a scoped-audit null on direct
+inspection), and Meroitic (a null on direct inspection,
+its recount of this ledger agreeing with the brief and
+with the adjudication recount). No row is added. Nothing
+was published in Round H, so no post-publication wait runs
+and Round I falls due immediately. Totals unchanged: 128
+rows - 76 done, 31 accepted, 0 open, 21 rejected.
+
 ## Briefing rule (closing note)
 
 Every future Co-scientist brief for any of the three
