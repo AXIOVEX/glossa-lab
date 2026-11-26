@@ -303,3 +303,11 @@ standing, tally, score, or claim changed.
   done on this evidence; row C-M-26's Round E annotation
   stands as the pointer to the propagation leg this
   release closes.
+
+## Addendum 2026-11-26 (ResearchGate v3 update)
+
+The scheduled ResearchGate v3 pass ran 2026-11-26 (browser task 11:04-11:14 ET).
+
+- **Source verification:** the v3 PDF was re-downloaded from Zenodo record 24533707 and its SHA-256 verified as `9c5df93d0761eac16ccd8bce637bc7316ee3c1fef3a0f980f170d85859313a5c`, matching this record before any upload.
+- **ResearchGate publication 418214318 updated and verified:** the v2 file was replaced with `meroitic-reproduction-benchmark-v3.pdf` as the sole public full-text, and the header DOI was set to 10.5281/zenodo.24533707 (from 10.5281/zenodo.24450095). Verified on the public page afterward: header DOI 10.5281/zenodo.24533707, Public File 1 is the v3 file, preview reads "Preprint v3".
+- **Budget:** this was 1 of the 2 Glossa v3 edits this day; with the Riemann curvature-v2 retry earlier the same morning, the account-wide budget of about 3 publication changes per day was fully used. No "Edit limit reached" message appeared. The v4 ResearchGate update still trails to a later day; Zenodo remains the record of record.
