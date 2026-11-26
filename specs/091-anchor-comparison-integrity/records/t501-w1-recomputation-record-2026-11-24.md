@@ -219,6 +219,11 @@ entry's located value byte-for-byte. M281 is §6.3 below.
   Audit v2 (T502) is where disposition consequences would be
   filed, and citation consequences are T503's; neither is
   performed by this record.
+- **Owner decision (2026-11-26).** T502 and T503 were
+  considered by the owner and left UNCOMMISSIONED; the
+  deferral is recorded at both tasks in `tasks.md` (Stage
+  5), which stay unchecked. No audit or citation work is
+  performed under this note.
 - *This does not establish:* that any reading is correct —
   eligibility certifies that the M047 comparison can now
   testify independently, not what it testifies (C091-3's own

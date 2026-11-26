@@ -212,6 +212,9 @@ not-started at Stage 6 — never carried as silently pending.
   v2's census reproduces from its named inputs).
   *This does not establish:* that audit v2 is the final word — it is the
   current word, with the same amendment discipline as v1.
+  *Owner decision (2026-11-26):* T502 was considered and left
+  UNCOMMISSIONED. This box stays unchecked; no audit work is performed
+  under this note.
 - [ ] **T503 — The citation consequences.** Per workstream as its
   dispositions land (D-091-5): crosswalk citations carry eligibility
   classes (C091-4); the 46 cited as internal-only and the supported mass
@@ -222,6 +225,9 @@ not-started at Stage 6 — never carried as silently pending.
   *This does not establish:* that every historical document is rewritten
   — historical records stand; the obligation binds published current
   layers.
+  *Owner decision (2026-11-26):* T503 was considered and left
+  UNCOMMISSIONED. This box stays unchecked; no citation work is
+  performed under this note.
 
 ## Stage 6 — Register amendment + closeout (PR: feat/091-s6-closeout)
 

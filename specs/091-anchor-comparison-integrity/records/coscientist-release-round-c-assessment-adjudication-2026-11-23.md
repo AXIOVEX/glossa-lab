@@ -278,6 +278,15 @@ package per paper.
   materially revise the assessment of the anchors'
   standing, on the evidence he gives.
 
+**Decision addendum (2026-11-26) — E-P3's title element.**
+E-P3 above carried its title element conditionally: the
+§2 qualification was to reach the title only "if the
+owner wishes". The owner ruled on 2026-11-26 that the
+Eteocypriot paper's title is RETAINED unchanged. The
+title element of E-P3 is therefore closed with no title
+change; nothing in this ruling touches E-P3's abstract
+element or any other item in this section.
+
 ## 5. Owner decisions presented by this round
 
 Each is presented to the owner individually, in this
