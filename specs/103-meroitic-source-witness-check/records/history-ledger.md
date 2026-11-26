@@ -29,3 +29,21 @@ Rests on: the latest records cited above, as filed in this package.
 Round E of the Co-scientist loop (Meroitic session, unit E-M-1) found the executed checker deviates from spec §3.4 in two places (any-witness FAITHFUL; uncertainty erasure in expansion preprocessing), both reproduced at adjudication against the filed script. A conformance annotation was appended to the outcome record; ledger row D-M-3 stands reopened in the narrow scope of checker conformance only (carried as row E-M-1), with this study's outcome (CLAIM STANDS for the five witnessed forms; asoreyi NOT CHECKED) preserved. The conformance addendum (checker repair, regression tests, affected-case audit and replay on already-held witnesses) is recorded as the follow-on act.
 
 Rests on: `records/stage-1-outcome-record-2026-11-23.md` (conformance annotation, 2026-11-25) and `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-25.md` §3.1.
+
+### 2026-11-25 - Conformance addendum registered (Round E unit E-M-1)
+
+The conformance addendum was registered before any revised execution ran: `records/conformance-addendum-registration-2026-11-25.md` states the scope (checker repair, regression tests, affected-case audit and replay on the already-held witnesses; no new acquisition, no split change) and, where the frozen tokenization and §3.4's classification definitions conflict, the adjudicated treatment the corrected implementation follows (token identity unchanged; uncertainty markup retained as a per-token flag; witness disagreement explicit in the aggregation, with the precedence stated in advance). Test cases TC-103-07..TC-103-10 were added to `test-cases.md` in the same registration landing. D-M-3's outcome and the six-form table stand under a preservation rail: if the replay evidence itself contradicted an outcome, the addendum would stop and report, not rewrite.
+
+Rests on: `records/conformance-addendum-registration-2026-11-25.md`; `test-cases.md` (TC-103-07..TC-103-10).
+
+### 2026-11-25 - Conformance addendum executed — replay verdict
+
+The corrected checker (`records/conformance-addendum-script.py`; the filed Stage 1 script untouched, its functions re-implemented unchanged as the control) ran on tower-compute against the pinned build. Regression tests: 10, all PASS, both counterexamples exercised against both implementations (TC-103-07, TC-103-08). Replay (TC-103-09): Step 1 reproduces the filed basis and counts exactly; the control reproduces the filed classifications and verdicts at all 47 loci (14 counted, 33 near) with 0 mismatches; the corrected classifications are identical at every locus (diff 0). Audit bounds: 0 of the 14 counted loci carry a mixed filed witness-verdict set, so deviation 1 masked no actual disagreement in the executed payload; markup incidence across all 25 held-out witnesses is 0, so deviation 2's historical impact, indeterminate at adjudication, is bounded at zero within the held witnesses. Verdict (TC-103-10): the unchanged Step 4 machinery on the corrected classifications returns the filed six-form table exactly — CLAIM STANDS for soreyi, xolkete, pxolkete, xolkte, wisi; asoreyi NOT CHECKED — INCOMPLETE COVERAGE — so the study's outcome is preserved on replay evidence. Ledger row E-M-1 moves to done in the same landing. No standing, verdict, or tally moved.
+
+Rests on: `records/conformance-addendum-outcome-2026-11-25.md`; `records/conformance-addendum-results-2026-11-25.json`; `records/conformance-addendum-tests.py`.
+
+### Closed (2026-11-25, conformance addendum complete)
+
+The study is closed again: Stage 1 executed 2026-11-23 (CLAIM STANDS for the five witnessed forms; asoreyi NOT CHECKED for incomplete witness coverage), and the checker-conformance scope of the Round E reopening is discharged by the addendum above. The eight unwitnessed held-out texts, and any acquisition toward a witness for them, remain outside this study, as registered.
+
+Rests on: the latest records cited above, as filed in this package.

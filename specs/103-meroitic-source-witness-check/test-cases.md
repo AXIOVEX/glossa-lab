@@ -74,3 +74,50 @@ or tally; a CLAIM KILLED outcome, if any, is followed
 only by the §5 licence statement (a separately
 registered sensitivity), never by a recomputed score
 presented as Stage 4.4's.
+
+**TC-103-07 — Aggregation disagreement (C103-1;
+conformance addendum, deviation 1).** Drive the
+corrected checker's counted-locus classification with
+synthetic witnesses: extraction token `soreyi`, witness
+token lists {`soreyi`} and {`ato`} (verdicts
+attests_form and absent).
+*Pass:* the classification is DISCREPANCY, not
+FAITHFUL; and the preserved behaviours hold on their
+synthetic cases (unanimous attests_form → FAITHFUL;
+unanimous variant attestation → FAITHFUL (variant
+noted); all-absent with the expansion witness present
+→ DISCREPANCY; no witnesses → WITNESS UNAVAILABLE).
+
+**TC-103-08 — Uncertainty retention (C103-1;
+conformance addendum, deviation 2).** Tokenize the
+synthetic expansion record `[soreyi?]` under the
+corrected tokenization, and classify a counted locus
+whose only witness it is.
+*Pass:* the token `soreyi` is produced with its
+uncertainty flag set; the witness verdict is
+attests_form_uncertain; the locus classification is
+UNCERTAIN, not FAITHFUL. An unqualified record
+(`soreyi`) tokenizes with the flag clear and attests
+unqualified.
+
+**TC-103-09 — Replay integrity (C103-1, C103-2;
+conformance addendum).** Run the corrected script
+against the pinned build
+`145af0836c071e7c9796d37d4b36add00d347c8a`.
+*Pass:* Step 1 reproduces the frozen basis and counts
+exactly (TC-103-02's figures); the control
+implementation of the filed rules reproduces the
+filed Stage 1 classifications locus for locus; every
+locus whose corrected classification differs from its
+filed classification is one the audit flags (mixed
+witness verdicts or uncertainty markup at the locus).
+
+**TC-103-10 — Outcome preservation (C103-4;
+conformance addendum).** Apply the unchanged Step 4
+machinery to the corrected classifications.
+*Pass:* the six-form outcome table equals the filed
+table (CLAIM STANDS for soreyi, xolkete, pxolkete,
+xolkte, wisi; asoreyi NOT CHECKED — INCOMPLETE
+COVERAGE). Any difference stops the addendum and is
+reported, not absorbed: no outcome is rewritten by
+this addendum's hand.
