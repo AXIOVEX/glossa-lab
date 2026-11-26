@@ -46,6 +46,14 @@ Stage 2 was registered by its own record (committed before any derivation ran) a
 
 **Rests on:** `records/stage-2-registration-2026-11-25.md`; `records/stage-2-outcome-2026-11-25.md`; `records/stage-2-output-2026-11-25.json`; `records/stage-2-indus-unigram-baseline-2026-11-25.json`.
 
+### 2026-11-25 — COMMISSION (Stage 3: L3)
+
+**Kind:** COMMISSION. **Actor:** the owner (Tristen Pierson), RCPH chat, 2026-11-25 19:07 ET; forwarded to the Glossa-Lab chat under the routing rule the same evening.
+
+The owner's keep-working directive ("Do not stop. Keep working on this until we take it as far as we can. All the studies we're working on including glossa-lab") names this program expressly and continues the day's resume order under which Stage 2 was commissioned and executed. The Stage 3 commission for this study was issued under it. Stage 3 is registered by its own record under spec.md §8 and executes ladder rung L3 only (order structure: attested adjacency and positional structure within the recorded groups, lines, and artifacts) in all three sandboxes. L4 and above and all gates remain uncommissioned, and the Indus reserve stays sealed.
+
+**Rests on:** `records/stage-3-registration-2026-11-25.md` §1.
+
 ## State
 
 In flight. Stage 2 completed 2026-11-25; the study stands open at L2. L3 and above and all gates remain uncommissioned, each requiring its own registration under spec.md §8.
