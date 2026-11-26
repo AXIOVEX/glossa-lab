@@ -78,6 +78,22 @@ Stage 4 was registered by its own record (committed before any derivation ran) a
 
 **Rests on:** `records/stage-4-registration-2026-11-25.md`; `records/stage-4-outcome-2026-11-25.md`; `records/stage-4-output-2026-11-25.json`.
 
+### 2026-11-25 — COMMISSION (Stage 5: L5)
+
+**Kind:** COMMISSION. **Actor:** the owner (Tristen Pierson), RCPH chat, 2026-11-25 19:07 ET; forwarded to the Glossa-Lab chat under the routing rule the same evening.
+
+The owner's keep-working directive ("Do not stop. Keep working on this until we take it as far as we can. All the studies we're working on including glossa-lab") names this program expressly and continues the day's resume order under which Stage 2 was commissioned and executed, and under which Stages 3 and 4 were commissioned and executed earlier the same evening. The Stage 5 commission for this study is issued under it. Stage 5 is registered by its own record under spec.md §8 and executes ladder rung L5 only (the derived meaning system: per-mark role records assembled from the filed L2–L4 profiles, role identity keyed on content, and role overlap graded by component agreement) in all three sandboxes. L6 and all gates remain uncommissioned, and the Indus reserve stays sealed.
+
+**Rests on:** `records/stage-5-registration-2026-11-25.md` §1.
+
+### 2026-11-25 — ITERATION (Stage 5 executed: L5, the derived meaning system)
+
+**Kind:** ITERATION. **Actor:** the study's Stage 5 worker, under the commission above.
+
+Stage 5 was registered by its own record (committed before any derivation ran) and executed the same day. L5 ran in all three sandboxes under two independent implementations agreeing exactly (TC-105-17 PASS), with every reconciliation identity against the filed L2, L3, and L4 outputs holding exactly: the role table covers exactly the inventory and the identity class sizes sum to it, counts and fractions equal the filed L2 rows with ranks equal to the filed ordering's positions, context sets and supports equal the filed L3 structure, class assignments equal the filed L4 tables with identity refining the joint partition, and the overlap tables satisfy their degree-sum and pair-count identities. Three parsing defects in implementation B's tab-separated transport were caught by the agreement check during the run and fixed before the filed run (the filed script is the corrected one); implementation A and the filed tables were never in question. Headline shapes, sandbox-internal only: at the registered full-profile standard every mark's role is unique in all three sandboxes — 372 identity classes for 372 Indus marks, 35 for 35 Eteocypriot, 32 for 32 Meroitic — so no two marks share a complete derived role anywhere; overlap below identity is graded and filed pair by pair (degree-3 pairs: Indus 375, Eteocypriot 12, Meroitic exactly 1, the L4 substitution pair {6, 9}, separated at this rung by frequency alone, counts 10 and 7). No semantic content of any kind was assigned (D-105-23). The reserve was hashed and never read (TC-105-18 PASS), and remains sealed. All three sandboxes returned COMPLETED. L5 is the last derivation rung of the ladder; the study stands open at L5, with only the L6 boundary gates above it.
+
+**Rests on:** `records/stage-5-registration-2026-11-25.md`; `records/stage-5-outcome-2026-11-25.md`; `records/stage-5-output-2026-11-25.json`.
+
 ## State
 
-In flight. Stage 4 completed 2026-11-25; the study stands open at L4. L5 and above and all gates remain uncommissioned, each requiring its own registration under spec.md §8.
+In flight. Stage 5 completed 2026-11-25; the study stands open at L5. The derivation ladder (L0–L5) is fully derived in all three sandboxes; L6 (the boundary gates G-ETE, G-MER, G-IND) remains uncommissioned, each gate requiring its own registration under spec.md §8.
