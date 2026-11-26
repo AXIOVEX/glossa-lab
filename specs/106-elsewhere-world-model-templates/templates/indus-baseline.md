@@ -159,3 +159,33 @@ These are the hypotheses whose variation would move an ensemble of ELSEWHERE wor
 ---
 
 *End of census. Prepared for Spec 106 (ELSEWHERE templates), Glossa-Lab methodology study. No repo files were edited in its preparation.*
+
+---
+
+## Erratum (2026-11-26) — seed-record domain counts (Round N unit N-E-2)
+
+The seed record above (the **Baseline template** line) states
+the domain census as "GEO 0, POL 0, MOV 0, DNA 0, ECO 0,
+ENV 0, CON 0". Those zeroes are false metadata: they are not
+the counts of this file's axiom lines. Recomputed from the
+axiom lines as filed (domains 2–8), the census as seeded is:
+
+**GEO 14, POL 12, MOV 11, DNA 12, ECO 13, ENV 11, CON 15 — 88 axioms in total.**
+
+Erratum census (machine-readable, for
+records/census-audit-v2.py): GEO 14, POL 12, MOV 11, DNA 12, ECO 13, ENV 11, CON 15.
+
+No axiom line is added, removed, or altered by this erratum;
+the SHA-256 over the axiom lines as filed recomputes
+unchanged: `eb0e1d6218fadf8eed06c78eeb92979163ebb37b1206eb3d151c9c0d23b501e6`. The historical seed record is preserved
+unedited above; this erratum supersedes its domain-count
+figures only. The same zero-count defect stood in all three
+baseline templates' seed records; parallel errata of the
+same date correct the other two. The registered audit's
+failure to catch the defect (TC-106-05's per-domain
+comparison was never implemented in version 1) is recorded
+in the Round N adjudication,
+`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§3.2, and the corrected audit is
+`records/census-audit-v2.py`.
+

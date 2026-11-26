@@ -3,3 +3,26 @@ eteocypriot: 71 axioms  F=3 K=58 H=10  sha256(ax-lines)=fca1cc8a238631b0c6df8b29
 meroitic: 76 axioms  F=4 K=62 H=10  sha256(ax-lines)=eeadf46e336fa80d09bcffa2538d3cf4c32c8756fdb6150c817ff0b19cdb4cf4
 
 AUDIT PASS: TC-106-02, TC-106-03, TC-106-04, TC-106-05 all pass.
+
+---
+
+Qualification (2026-11-26, Round N unit N-E-2): the AUDIT
+PASS above is preserved as the historical output of
+records/census-audit.py (version 1). Version 1 did not
+implement two registered comparisons: TC-106-05's
+per-domain count comparison and TC-106-02's
+exactly-one-kind-label check (its label condition admitted
+one or more). The three baseline seed records' domain
+figures (all zeros) were therefore never actually
+compared, and they were false: corrected by the dated
+errata of 2026-11-26 in the three baseline templates
+(actual counts — Indus GEO 14, POL 12, MOV 11, DNA 12,
+ECO 13, ENV 11, CON 15; Eteocypriot GEO 11, POL 12, MOV 9,
+DNA 5, ECO 10, ENV 10, CON 14; Meroitic GEO 12, POL 12,
+MOV 10, DNA 8, ECO 10, ENV 11, CON 13). The corrected
+audit is records/census-audit-v2.py; its run of 2026-11-26
+is filed at records/census-audit-v2-output-2026-11-26.txt
+(AUDIT PASS with both comparisons implemented; rejection
+fixtures rejected). Adjudication: Spec 091 records,
+coscientist-sweep-adjudication-2026-11-26-round-n.md §3.2.
+

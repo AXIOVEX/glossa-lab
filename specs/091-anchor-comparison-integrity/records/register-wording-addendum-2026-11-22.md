@@ -190,6 +190,29 @@ record:
   candidate-system / 25 ambiguous), not 210 independent
   confirmations.
 
+## 12. Forward pointer — the census of record is now 299 items (2026-11-26, Round N unit N-I-3)
+
+Section 11 above states the item-type census as "296
+items = 210 primary / 61 candidate-system / 25 ambiguous".
+That was the census of the deduplicated snapshot it
+describes. Under Spec 099's amendment discipline, the
+remainder amendment of 2026-11-22
+(`specs/099-inference-log/records/inference-log-amendment-2026-11-22-remainder.md`)
+then added three basis items — M202-03 and M330-03
+(produced comparative lines) and M124-04 (literature
+attribution) — recording 296 + 2 + 1 = 299, with no class
+or graph-outcome change. **The current census of record is
+299 items: 213 primary / 61 candidate-system / 25
+ambiguous.** The two 299s differ in content: the original
+299 included three duplicated dictionary citations; the
+present 299 is the deduplicated 296 plus the three
+amendment items. Citations of the census after 2026-11-26
+use the current figures or name the snapshot they cite.
+The dated reconciliation of record is
+`specs/099-inference-log/records/current-state-reconciliation-2026-11-26.md`.
+Nothing in this pointer changes a standing, a class, or
+the §11 citation rules, which stand as filed.
+
 **AI disclosure:** executed by an AI agent (Muse, via
 Muse) at the direction of Tristen Pierson, per
 constitution sec. VI.

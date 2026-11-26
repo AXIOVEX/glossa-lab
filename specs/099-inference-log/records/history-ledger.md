@@ -77,3 +77,31 @@ Rests on: `records/inference-log-amendment-2026-11-22.md`
 The inference log and its amendments are complete on file through 2026-11-22; the census the log supports (299 items) is recorded in the amendments and the ambiguous-items inspection.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-26 - Spec 099 — Round N current-state reconciliation (unit N-I-3)
+
+Round N's Indus session, recounting at pin `0b377f6f`,
+found the deposited v12 paper's Appendix D.10 census
+snapshot (296 items, 210 primary) drifted from this log's
+current head (299 items, 213 primary), the two 299s
+differing in content. Sustained APPLY WITH MODIFICATION at
+adjudication and discharged by
+`records/current-state-reconciliation-2026-11-26.md`: the
+three populations are counted and named (1,091
+claims-ledger entries; 287 anchors, 94 strict-core; 299
+basis items), the amendment chain is stated (original 299
+with three duplicated DEDR citations; deduplicated 296;
+the 2026-11-22 remainder amendment's three additions —
+M202-03, M330-03, M124-04 — for the present 299), and the
+current census of record is fixed as 299 items (213
+primary / 61 candidate-system / 25 ambiguous). A forward
+pointer (§12) is appended to the register-wording addendum
+in Spec 091's records, whose §11 still states 296/210. The
+paper is not edited, and no standing, class, or tally
+changes.
+
+Rests on: `records/current-state-reconciliation-2026-11-26.md`;
+`records/inference-log-amendment-2026-11-22-remainder.md`;
+Spec 091 records,
+`coscientist-sweep-adjudication-2026-11-26-round-n.md` §2.3.
+

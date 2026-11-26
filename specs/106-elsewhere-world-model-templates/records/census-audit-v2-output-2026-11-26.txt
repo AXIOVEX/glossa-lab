@@ -1,0 +1,21 @@
+Spec 106 census audit, version 2 — run of 2026-11-26 (Round N unit N-E-2).
+Script: records/census-audit-v2.py, run against the three baseline templates as corrected by their dated errata of 2026-11-26.
+
+$ python3 records/census-audit-v2.py
+indus: domain census governed by the dated erratum census {'GEO': 14, 'POL': 12, 'MOV': 11, 'DNA': 12, 'ECO': 13, 'ENV': 11, 'CON': 15}; the seed record's original figures {'GEO': 0, 'POL': 0, 'MOV': 0, 'DNA': 0, 'ECO': 0, 'ENV': 0, 'CON': 0} are superseded (see the template's 2026-11-26 erratum)
+indus: 88 axioms  F=4 K=74 H=10  domains={'GEO': 14, 'POL': 12, 'MOV': 11, 'DNA': 12, 'ECO': 13, 'ENV': 11, 'CON': 15}  sha256(ax-lines)=eb0e1d6218fadf8eed06c78eeb92979163ebb37b1206eb3d151c9c0d23b501e6
+eteocypriot: domain census governed by the dated erratum census {'GEO': 11, 'POL': 12, 'MOV': 9, 'DNA': 5, 'ECO': 10, 'ENV': 10, 'CON': 14}; the seed record's original figures {'GEO': 0, 'POL': 0, 'MOV': 0, 'DNA': 0, 'ECO': 0, 'ENV': 0, 'CON': 0} are superseded (see the template's 2026-11-26 erratum)
+eteocypriot: 71 axioms  F=3 K=58 H=10  domains={'GEO': 11, 'POL': 12, 'MOV': 9, 'DNA': 5, 'ECO': 10, 'ENV': 10, 'CON': 14}  sha256(ax-lines)=fca1cc8a238631b0c6df8b2901daa5e84dc4cb2387dcdad560285c6e95beec4f
+meroitic: domain census governed by the dated erratum census {'GEO': 12, 'POL': 12, 'MOV': 10, 'DNA': 8, 'ECO': 10, 'ENV': 11, 'CON': 13}; the seed record's original figures {'GEO': 0, 'POL': 0, 'MOV': 0, 'DNA': 0, 'ECO': 0, 'ENV': 0, 'CON': 0} are superseded (see the template's 2026-11-26 erratum)
+meroitic: 76 axioms  F=4 K=62 H=10  domains={'GEO': 12, 'POL': 12, 'MOV': 10, 'DNA': 8, 'ECO': 10, 'ENV': 11, 'CON': 13}  sha256(ax-lines)=ecabd227f7e767a3a740ece3b355d8620db476b89ac482d7a8386b483a97f4f2
+
+AUDIT PASS (v2): TC-106-02, TC-106-03, TC-106-04, TC-106-05 all pass, including the per-domain comparison and the exactly-one-label check.
+exit=0
+
+$ python3 records/census-audit-v2.py --self-test
+fixture 0 (unmodified templates): PASS as required
+fixture 1 (erratum domain count altered): REJECTED as required
+fixture 2 (two kind labels in label position): REJECTED as required
+
+SELF-TEST PASS: unmodified templates pass; both rejection fixtures are rejected.
+exit=0

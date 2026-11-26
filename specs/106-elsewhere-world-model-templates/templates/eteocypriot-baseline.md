@@ -137,3 +137,33 @@ By reference to Spec 105 (`specs/105-elsewhere-sandbox/`): the corpus floor (dis
 - **DNA (Section 4) is too thin to census as a domain.** There is, in the opened record, no published ancient-DNA sample from Iron Age Cyprus and no tested Eteocypriot individual. The five lines above are therefore mostly absence statements and guardrails. An ELSEWHERE instance spawned from this census must carry DNA as an open variable, not as a prior.
 - **ENV, for the Iron Age proper, is thin at fine resolution.** Periodisation, corpus dates and the semi-arid baseline are solid (K); any year-by-year or century-by-century Iron Age Cypriot climate narrative is not (ETE-ENV-09, ETE-ENV-10). Climate should enter an instance only as semi-arid marginality plus drought risk, never as a dated event inside the frame period.
 - **Household-level language contact (within CON/MOV) is thin.** Public, monumental bilingualism is well attested; private and domestic language use is not attested in the opened record at all.
+
+---
+
+## Erratum (2026-11-26) — seed-record domain counts (Round N unit N-E-2)
+
+The seed record above (the **Baseline template** line) states
+the domain census as "GEO 0, POL 0, MOV 0, DNA 0, ECO 0,
+ENV 0, CON 0". Those zeroes are false metadata: they are not
+the counts of this file's axiom lines. Recomputed from the
+axiom lines as filed (domains 2–8), the census as seeded is:
+
+**GEO 11, POL 12, MOV 9, DNA 5, ECO 10, ENV 10, CON 14 — 71 axioms in total.**
+
+Erratum census (machine-readable, for
+records/census-audit-v2.py): GEO 11, POL 12, MOV 9, DNA 5, ECO 10, ENV 10, CON 14.
+
+No axiom line is added, removed, or altered by this erratum;
+the SHA-256 over the axiom lines as filed recomputes
+unchanged: `fca1cc8a238631b0c6df8b2901daa5e84dc4cb2387dcdad560285c6e95beec4f`. The historical seed record is preserved
+unedited above; this erratum supersedes its domain-count
+figures only. The same zero-count defect stood in all three
+baseline templates' seed records; parallel errata of the
+same date correct the other two. The registered audit's
+failure to catch the defect (TC-106-05's per-domain
+comparison was never implemented in version 1) is recorded
+in the Round N adjudication,
+`specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-26-round-n.md`
+§3.2, and the corrected audit is
+`records/census-audit-v2.py`.
+
