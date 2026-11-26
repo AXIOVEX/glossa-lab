@@ -1,0 +1,248 @@
+{
+  "completeness_scan": {
+    "note": "No REM transliteration token streams exist for any of the eight texts (no entry prints one), so the section 4.5 scan has nothing to scan; the extraction-side census stands exactly as filed.",
+    "streams_scanned": 0
+  },
+  "control": {
+    "addendum_replay_bytes_identical": true,
+    "addendum_replay_deep_equal_to_filed": true,
+    "loci_reproduced": 47,
+    "step1_equality_asserted_inside_replay": true,
+    "witness_covered_loci_reproduced": 41
+  },
+  "custody_hashes_verified": {
+    "rem-tome-1-rem0001-0387.pdf": "f20d9f955ff2a74d391d894f65958c3d2848d5282a26a5c5ba5ae70dd591afce",
+    "rem-tome-2-rem0401-0851.pdf": "55b13325bad738b8e2e53b3fc41f8340162625c8c5a2a3e982da811115dff167",
+    "rem-tome-3-rem1001-1278.pdf": "cc24ffe691c6522b71cc56cc812554c41786fe0654742abed4238bbcb5ebe6a1"
+  },
+  "date": "2026-11-26",
+  "kill_check": {
+    "claim_killed_for_any_form": false,
+    "discrepancies_demonstrated_stage2": 0,
+    "reading": "No discrepancy is demonstrated at any locus under Stage 2: the six open loci received no witness evidence, because the witness does not exist in the registered form. For asoreyi the claim is neither stood nor killed; the input-error explanation is not retired for asoreyi, and the outcome is NOT CHECKED - INCOMPLETE COVERAGE on the new ground that the held edition of record carries no transliteration witness for Sh. 9 or Sh. 16."
+  },
+  "registration": "records/stage-2-registration-2026-11-26.md",
+  "stage": "Spec 103 Stage 2 (witness completion)",
+  "stage2_loci": [
+    {
+      "classification_stage1": "WITNESS UNAVAILABLE",
+      "classification_stage2": "WITNESS UNAVAILABLE",
+      "form": "soreyi",
+      "kind": "counted",
+      "rem_entry": "REM 0383",
+      "rem_transliteration_printed": false,
+      "text": "Sh. 16",
+      "token": "soreyi"
+    },
+    {
+      "classification_stage1": "WITNESS UNAVAILABLE",
+      "classification_stage2": "WITNESS UNAVAILABLE",
+      "form": "soreyi",
+      "kind": "near",
+      "rem_entry": "REM 0376",
+      "rem_transliteration_printed": false,
+      "text": "Sh. 9",
+      "token": "asoreyi"
+    },
+    {
+      "classification_stage1": "WITNESS UNAVAILABLE",
+      "classification_stage2": "WITNESS UNAVAILABLE",
+      "form": "asoreyi",
+      "kind": "counted",
+      "rem_entry": "REM 0376",
+      "rem_transliteration_printed": false,
+      "text": "Sh. 9",
+      "token": "asoreyi"
+    },
+    {
+      "classification_stage1": "WITNESS UNAVAILABLE",
+      "classification_stage2": "WITNESS UNAVAILABLE",
+      "form": "asoreyi",
+      "kind": "near",
+      "rem_entry": "REM 0383",
+      "rem_transliteration_printed": false,
+      "text": "Sh. 16",
+      "token": "soreyi"
+    },
+    {
+      "classification_stage1": "WITNESS UNAVAILABLE",
+      "classification_stage2": "WITNESS UNAVAILABLE",
+      "form": "wisi",
+      "kind": "near",
+      "rem_entry": "REM 0383",
+      "rem_transliteration_printed": false,
+      "text": "Sh. 16",
+      "token": "wosi"
+    },
+    {
+      "classification_stage1": "WITNESS UNAVAILABLE",
+      "classification_stage2": "WITNESS UNAVAILABLE",
+      "form": "wisi",
+      "kind": "near",
+      "rem_entry": "REM 0376",
+      "rem_transliteration_printed": false,
+      "text": "Sh. 9",
+      "token": "wosi"
+    }
+  ],
+  "step4_restated": {
+    "asoreyi": {
+      "corrected_counts": {
+        "boundary_crossed": false,
+        "corrected": {
+          "legs": {
+            "share_leg": true,
+            "texts_leg": false
+          },
+          "share": 1.0,
+          "texts_with_form": 2
+        },
+        "outcome": "NOT CHECKED - INCOMPLETE COVERAGE"
+      },
+      "frozen_counts": {
+        "funerary_texts_with_form": 2,
+        "legs": {
+          "share_leg": true,
+          "texts_leg": false
+        },
+        "result": false,
+        "share": 1.0,
+        "texts_with_form": 2
+      },
+      "outcome_stage2": "NOT CHECKED - INCOMPLETE COVERAGE"
+    },
+    "pxolkete": {
+      "corrected_counts": {
+        "boundary_crossed": false,
+        "corrected": {
+          "legs": {
+            "share_leg": false,
+            "texts_leg": false
+          },
+          "share": 0.0,
+          "texts_with_form": 0
+        },
+        "outcome": "CLAIM STANDS"
+      },
+      "frozen_counts": {
+        "funerary_texts_with_form": 0,
+        "legs": {
+          "share_leg": false,
+          "texts_leg": false
+        },
+        "result": false,
+        "share": 0.0,
+        "texts_with_form": 0
+      },
+      "outcome_stage2": "CLAIM STANDS"
+    },
+    "soreyi": {
+      "corrected_counts": {
+        "boundary_crossed": false,
+        "corrected": {
+          "legs": {
+            "share_leg": true,
+            "texts_leg": true
+          },
+          "share": 1.0,
+          "texts_with_form": 10
+        },
+        "outcome": "CLAIM STANDS"
+      },
+      "frozen_counts": {
+        "funerary_texts_with_form": 10,
+        "legs": {
+          "share_leg": true,
+          "texts_leg": true
+        },
+        "result": true,
+        "share": 1.0,
+        "texts_with_form": 10
+      },
+      "outcome_stage2": "CLAIM STANDS"
+    },
+    "wisi": {
+      "corrected_counts": {
+        "boundary_crossed": false,
+        "corrected": {
+          "legs": {
+            "share_leg": false,
+            "texts_leg": false
+          },
+          "share": 0.0,
+          "texts_with_form": 0
+        },
+        "outcome": "CLAIM STANDS"
+      },
+      "frozen_counts": {
+        "funerary_texts_with_form": 0,
+        "legs": {
+          "share_leg": false,
+          "texts_leg": false
+        },
+        "result": false,
+        "share": 0.0,
+        "texts_with_form": 0
+      },
+      "outcome_stage2": "CLAIM STANDS"
+    },
+    "xolkete": {
+      "corrected_counts": {
+        "boundary_crossed": false,
+        "corrected": {
+          "legs": {
+            "share_leg": true,
+            "texts_leg": false
+          },
+          "share": 1.0,
+          "texts_with_form": 1
+        },
+        "outcome": "CLAIM STANDS"
+      },
+      "frozen_counts": {
+        "funerary_texts_with_form": 1,
+        "legs": {
+          "share_leg": true,
+          "texts_leg": false
+        },
+        "result": false,
+        "share": 1.0,
+        "texts_with_form": 1
+      },
+      "outcome_stage2": "CLAIM STANDS"
+    },
+    "xolkte": {
+      "corrected_counts": {
+        "boundary_crossed": false,
+        "corrected": {
+          "legs": {
+            "share_leg": true,
+            "texts_leg": false
+          },
+          "share": 1.0,
+          "texts_with_form": 1
+        },
+        "outcome": "CLAIM STANDS"
+      },
+      "frozen_counts": {
+        "funerary_texts_with_form": 1,
+        "legs": {
+          "share_leg": true,
+          "texts_leg": false
+        },
+        "result": false,
+        "share": 1.0,
+        "texts_with_form": 1
+      },
+      "outcome_stage2": "CLAIM STANDS"
+    }
+  },
+  "test_cases": {
+    "TC-103-11": "PASS (registration commit precedes this execution commit in the branch history)",
+    "TC-103-12": "PASS (custody hashes match; addendum replay deep-equal to the filed results)",
+    "TC-103-13": "PASS with two annotations filed in the outcome record (REM 0440 chapter label; plate pages)",
+    "TC-103-14": "NOT APPLICABLE (no locus classification rests on a REM token; no REM transliteration exists)",
+    "TC-103-15": "PASS (no pooling; no corrections of any kind)",
+    "TC-103-16": "PASS (one section-4 outcome per form; no Stage 4.4 score, verdict, or tally stated or changed)"
+  }
+}

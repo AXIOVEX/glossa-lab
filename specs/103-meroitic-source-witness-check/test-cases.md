@@ -121,3 +121,75 @@ xolkte, wisi; asoreyi NOT CHECKED — INCOMPLETE
 COVERAGE). Any difference stops the addendum and is
 reported, not absorbed: no outcome is rewritten by
 this addendum's hand.
+
+**TC-103-11 — Registration before execution (C103-1;
+Stage 2).** Inspect the landing's git history.
+*Pass:* the Stage 2 registration record
+(`records/stage-2-registration-2026-11-26.md`) and
+these test cases are committed before the execution
+commit that files the witness data, the execution
+script, and the outcome record; no transliteration
+was transcribed and no locus was classified before
+the registration commit.
+
+**TC-103-12 — Control and custody integrity (C103-1,
+C103-2; Stage 2).** At execution: re-verify the three
+custody PDFs' SHA-256 against §3 of the Stage 2
+registration; recompute Step 1 from the pinned build
+and assert exact equality with the frozen record
+(TC-103-02's figures); re-run the corrected checker
+over the 41 witness-covered loci of Stage 1 and
+assert every classification equals the conformance
+addendum's corrected classifications.
+*Pass:* all three hashes match; Step 1 equality
+holds; the 41-locus control diff is empty. Any
+inequality stops the stage and is reported, not
+absorbed.
+
+**TC-103-13 — Witness identification (C103-1;
+Stage 2).** For each of the eight unwitnessed texts,
+read the REM entry head on the rendered page image
+of the custody PDF at the registered page.
+*Pass:* for every text, the rendered page shows the
+registered REM number and the entry's original
+designation is the text's Griffith publication
+number (or, for B.O. 1, the entry describes the
+Buhen ostracon west of the South Temple and is
+followed by B.O. 2 at REM 0592); any mismatch is
+filed in the outcome record and the identification
+corrected there, with the registration's table
+annotated by the outcome record, never silently.
+
+**TC-103-14 — Decision-token verification (C103-1;
+Stage 2).** For every locus whose classification the
+REM witness decides, compare the transcribed token
+on which the classification rests against the
+rendered page image.
+*Pass:* every decision-bearing token (the counted
+and near tokens of the six in-scope loci) is read
+off the rendered transliteration line, not the PDFs'
+OCR text layer; the outcome record names, per locus,
+the tome, REM entry, and PDF page the token was read
+from.
+
+**TC-103-15 — No pooling, no score-driven correction
+(C103-3; Stage 2).** Read the outcome record's
+classification and adjudication tables.
+*Pass:* the xolkte-family forms are reported as
+three distinct forms with no pooled count; every
+correction in the adjudication cites a witness
+divergence (text, both token readings,
+classification DISCREPANCY); no token is counted
+toward a candidate form as its spelling variant.
+
+**TC-103-16 — Outcome vocabulary and standing
+discipline (C103-4; Stage 2).** Read the outcome
+record and the landing's citing records.
+*Pass:* every candidate form carries exactly one
+outcome in spec.md §4's vocabulary in the restated
+six-form table; no record states a changed Stage
+4.4 score, verdict, or tally; a CLAIM KILLED
+outcome, if any, is followed only by the §5 licence
+statement (a separately registered sensitivity),
+never by a recomputed score presented as Stage
+4.4's.
