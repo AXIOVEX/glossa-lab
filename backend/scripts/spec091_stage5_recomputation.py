@@ -22,6 +22,7 @@ import hashlib
 import json
 import pathlib
 import re
+import secrets
 import sys
 import unicodedata
 from datetime import datetime, timezone
@@ -45,6 +46,16 @@ def sha256(path):
 
 def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def mint_run_id(started):
+    """Run identity per run-defs v3 section 2 (D-089-1): the trailing
+    component is six lowercase hexadecimal characters drawn from a
+    cryptographic random source at minting time. An id names an
+    execution, never its content, so it is never derived from the
+    run's inputs or any hash of them."""
+    return "study-" + started.strftime("%Y%m%dT%H%M%SZ") + "-" + \
+        secrets.token_hex(3)
 
 
 def audit_normalize(value):
@@ -194,10 +205,7 @@ def main():
                if r["recomputed_classification"] != r["staged_classification"]}
 
     finished = datetime.now(timezone.utc)
-    pin_material = (sha256(PROVENANCE) + sha256(LOCATORS) + sha256(LOCATORS_SUPP)
-                    + sha256(CODING) + sha256(pathlib.Path(__file__)))
-    run_id = "study-" + started.strftime("%Y%m%dT%H%M%SZ") + "-" + \
-        hashlib.sha256(pin_material.encode()).hexdigest()[:6]
+    run_id = mint_run_id(started)
 
     detail = {
         "run_id": run_id,
