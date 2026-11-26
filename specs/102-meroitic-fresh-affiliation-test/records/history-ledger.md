@@ -31,3 +31,9 @@ The study is registered and unexecuted; its acquisition step is owner-gated on t
 GAP: no execution or outcome record exists in the package.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-26 - S-1 acquisition executed to the point of purchase
+
+The owner approved the S-1 acquisition in the Glossa-Lab chat on 2026-11-26 ("For everything else, execute now to your recommendations", 01:54 ET, covering the recommendation presented to him that morning). The exact editions were identified from the registration record: Rilly 2010, *Le méroïtique et sa famille linguistique* (Peeters, ISBN 978-90-429-2237-2), and Rilly & de Voogt 2012, *The Meroitic Language and Writing System* (Cambridge University Press, hardcover ISBN 978-1-107-00866-3; eBook ISBN 978-1-139-56053-5), whose Appendix (pp. 189–230) is the lexicon apparatus the registration names. Both books are commercial and payment-gated in every legitimate channel surveyed; no free legitimate digital copy exists. The acquisition is therefore prepared to the point of purchase and stops there: the blocker is the payment checkout (Rilly 2010 at €48.50 French retail; the 2012 book at US$141.00–148.00), and the blocker owner is the owner. An interlibrary-loan fallback is recorded, with its limit stated (reading access, not a digitisable copy). Custody home designated at `~/.syncyard/worktrees/glossa/glossa-custody/spec102/`; nothing is held yet. The affiliation test was not executed, no digitisation has begun, and no substitute source was introduced.
+
+Rests on: `records/acquisition-record-2026-11-26.md`.

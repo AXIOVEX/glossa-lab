@@ -47,3 +47,9 @@ Rests on: `records/conformance-addendum-outcome-2026-11-25.md`; `records/conform
 The study is closed again: Stage 1 executed 2026-11-23 (CLAIM STANDS for the five witnessed forms; asoreyi NOT CHECKED for incomplete witness coverage), and the checker-conformance scope of the Round E reopening is discharged by the addendum above. The eight unwitnessed held-out texts, and any acquisition toward a witness for them, remain outside this study, as registered.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-26 - REM witness acquisition: channel verified, print purchase prepared
+
+The owner approved the witness acquisition in the Glossa-Lab chat on 2026-11-26 ("For everything else, execute now to your recommendations", 01:54 ET). The modern REM edition was identified exactly: Leclant (dir.) et al., *Répertoire d'Épigraphie Méroïtique: Corpus des inscriptions publiées* (Académie des Inscriptions et Belles-Lettres, Paris, 2000; 3 volumes; ISBN 2-87754-113-4), whose chapter map covers all eight unwitnessed texts (the Karanog/Shablul chapter of Tome I carries Sh. 9 and Sh. 16). The edition's open-access deposit on Persée was verified to the exact issue and document identifiers for all three tomes, but automated PDF download is gated by the platform's Altcha bot protection (verified twice from tower-compute); bulk page-image harvesting was considered and not used, as defeating the platform's bot protection at scale is not a legitimate-channel acquisition. The print set (€124 via Peeters) is prepared to the point of purchase, with the payment checkout as its blocker (owner: the owner). Custody home designated at `~/.syncyard/worktrees/glossa/glossa-custody/spec103/`; nothing is held yet. The asoreyi check was not run; this study's outcome stands exactly as filed.
+
+Rests on: `records/rem-witness-acquisition-record-2026-11-26.md`.
