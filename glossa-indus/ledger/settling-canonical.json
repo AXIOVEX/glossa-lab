@@ -415,14 +415,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 091 E6 falsifier application (branch e6-falsifier-amendments-2026-11-27; record: specs/091-anchor-comparison-integrity/records/e6-falsifier-application-2026-11-27.md). The five unconditional falsifier amendments of the E6-readiness proposal (specs/091-anchor-comparison-integrity/records/e6-readiness-proposal-2026-11-27.md, sections 4.1, 4.2, 4.3, 4.7, 4.8) were applied under the owner's approval of 2026-11-27 04:05 ET; the adoption supersedes R-IP-04 item 1 in part for these five entries only, by the owner's act.",
+   "reason": "The claims ledger grew by five append-only reclassification entries, one per amended claim, each carrying the falsifier field for its superseded claim entry, appended through glossa_lab.ledger_intake.append_entry on 2026-11-27. The application was prepared against the 1,098-line build and is executed here over the 1,105-line build (Spec 108's intake landed first); the five entries are byte-identical to the prepared amendments. The canonicals' provenance pin names the ledger build they were derived over; the pin is refreshed to the new build under this registration's amendment discipline. The semantics (glossa-settle-1) are unchanged; no rule in SETTLING-SEMANTICS.md moved, so no new semantics version is registered.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "416a765de7eecb93c4cf1f83494f29334dffe8adc10080d416def10ee80d80af",
+    "lines": 1105
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
+    "lines": 1110
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "416a765de7eecb93c4cf1f83494f29334dffe8adc10080d416def10ee80d80af",
-   "lines": 1105
+   "sha256_canonical": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
+   "lines": 1110
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
