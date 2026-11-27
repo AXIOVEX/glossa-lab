@@ -126,6 +126,12 @@ Stage 6 executed 2026-11-27 under the same commission. The GR-093 section is app
 
 Rests on: `records/stage6-outcome-record-2026-11-27.md`
 
+### 2026-11-27 - Spec 093 Stage 6 — VEXA report sent (T602 complete; spec closed)
+
+The outcome record's §4 report was sent to the VEXA chat (465bcd0a-6000-470b-a91f-2d9f315062b9) on 2026-11-27, after the outcome record landed (PR #790, merge 964d4fa2), under a one-line instruction to post it verbatim; acceptance receipt submission id 0fc9db5b-0d55-4695-a0d8-c68af633d708. The sent text matches the outcome record character for character (T602's acceptance test). With T602 ticked, all fourteen of the spec's tasks stand complete and Spec 093 is closed. C093-1's final standing: INDEPENDENT IN PART for site and find context, with the closure qualifier ("Population: 179 joined pairs, all Mohenjo-daro; single stratum; no cross-site inference").
+
+Rests on: `records/stage6-send-record-2026-11-27.md`
+
 ### State at backfill (at backfill, 2026-11-25)
 
 The latest filed record is the closure-qualifier addendum of 2026-11-21. Stages 3-6 of the study were not commissioned on the filed record.
