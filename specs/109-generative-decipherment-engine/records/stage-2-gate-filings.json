@@ -1,0 +1,974 @@
+[
+ {
+  "candidate_id": "S109-P2-POS-001",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-001",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M001",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-002",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-002",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M001",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-003",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-003",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M002",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-004",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-004",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M002",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-005",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-005",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M003",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-006",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-006",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M003",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-007",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-007",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M004",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-008",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-008",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M004",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-009",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-009",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M005",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-010",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-010",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M005",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-015",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-011",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M008",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-016",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-012",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M008",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-017",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-013",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M009",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-018",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-014",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M009",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-019",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-015",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M010",
+  "per_site_agreement": "0/0",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-020",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-016",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M010",
+  "per_site_agreement": "0/0",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-021",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-017",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M011",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-022",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-018",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M011",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-023",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-019",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M013",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-024",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-020",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M013",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-025",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-021",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M014",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-026",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-022",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M014",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-027",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-023",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M015",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-028",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-024",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M015",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-029",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-025",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M016",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-030",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-026",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M016",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-031",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-027",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M017",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-032",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-028",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M017",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-035",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-029",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M019",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-036",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-030",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M019",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-037",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-031",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M020",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-038",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-032",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M020",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-039",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-033",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M021",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-040",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-034",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M021",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-041",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-035",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M022",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-042",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-036",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M022",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-043",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-037",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M023",
+  "per_site_agreement": "0/0",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-044",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-038",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M023",
+  "per_site_agreement": "0/0",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-045",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-039",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M024",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-046",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-040",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M024",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-047",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-041",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M025",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-048",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-042",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M025",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-049",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-043",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M026",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-050",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-044",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M026",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-051",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-045",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M027",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-052",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-046",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M027",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-057",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-047",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M030",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-058",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-048",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M030",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-059",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-049",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M031",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-060",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-050",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M031",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-063",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-051",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M033",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-064",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-052",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M033",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-065",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-053",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M034",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-066",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-054",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M034",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-067",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-055",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M035",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-068",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-056",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M035",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-071",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-057",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M037",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-072",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-058",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M037",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-073",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-059",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M038",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-074",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-060",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M038",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-075",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-061",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M039",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-076",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-062",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M039",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-079",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-063",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M041",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-080",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-064",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M041",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-085",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-065",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M044",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-086",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-066",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M044",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-087",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-067",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M045",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-088",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-068",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M045",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-089",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-069",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M046",
+  "per_site_agreement": "0/0",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-090",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-070",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M046",
+  "per_site_agreement": "0/0",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-097",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-071",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M052",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-098",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-072",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M052",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-099",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-073",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M053",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-100",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-074",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M053",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-105",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-075",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M056",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-106",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-076",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M056",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-109",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-077",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M058",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-110",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-078",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M058",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-111",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-079",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M060",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-112",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-080",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M060",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-113",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-081",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M061",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-114",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-082",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M061",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-115",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-083",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M062",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-116",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-084",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M062",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-117",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-085",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M063",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-118",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-086",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M063",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-121",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-087",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M066",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-122",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-088",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M066",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-129",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-089",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M070",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-130",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-090",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M070",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-131",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-091",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M071",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-132",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-092",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M071",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-135",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-093",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M073",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-136",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-094",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M073",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-139",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-095",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M075",
+  "per_site_agreement": "0/0",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-140",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-096",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M075",
+  "per_site_agreement": "0/0",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-143",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-097",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M077",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-144",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-098",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M077",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-145",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-099",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M078",
+  "per_site_agreement": "2/2",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-146",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-100",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M078",
+  "per_site_agreement": "2/2",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-147",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-101",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M079",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-148",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-102",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M079",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-149",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-103",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M080",
+  "per_site_agreement": "1/1",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-150",
+  "dominant": "initial",
+  "filing_reference": "GF-109-091-104",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M080",
+  "per_site_agreement": "1/1",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-195",
+  "dominant": "final",
+  "filing_reference": "GF-109-091-105",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M220",
+  "per_site_agreement": "3/3",
+  "rho": 0.95
+ },
+ {
+  "candidate_id": "S109-P2-POS-196",
+  "dominant": "final",
+  "filing_reference": "GF-109-091-106",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M220",
+  "per_site_agreement": "3/3",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-210",
+  "dominant": "final",
+  "filing_reference": "GF-109-091-107",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M249",
+  "per_site_agreement": "4/4",
+  "rho": 0.9
+ },
+ {
+  "candidate_id": "S109-P2-POS-226",
+  "dominant": "final",
+  "filing_reference": "GF-109-091-108",
+  "gate": "Spec 091 anchor comparison",
+  "mark": "M305",
+  "per_site_agreement": "4/4",
+  "rho": 0.9
+ }
+]

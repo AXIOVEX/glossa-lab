@@ -1,0 +1,364 @@
+{
+ "checks": {
+  "check1_bounded_range": {
+   "full_supported": false,
+   "halves_supported": [
+    false,
+    false
+   ],
+   "stability": "STABLE"
+  },
+  "check2_positional_restriction": {
+   "counted_calls": {
+    "M012": {
+     "full": {
+      "counts": {
+       "final": 61,
+       "initial": 29,
+       "medial": 53,
+       "sole": 0
+      },
+      "dominant": "final",
+      "restricted_0.9": false,
+      "restricted_0.95": false,
+      "shares": {
+       "final": 0.42657342657342656,
+       "initial": 0.20279720279720279,
+       "medial": 0.3706293706293706,
+       "sole": 0.0
+      },
+      "total": 143
+     },
+     "halves": [
+      {
+       "counts": {
+        "final": 28,
+        "initial": 10,
+        "medial": 21,
+        "sole": 0
+       },
+       "dominant": "final",
+       "restricted_0.9": false,
+       "restricted_0.95": false,
+       "shares": {
+        "final": 0.4745762711864407,
+        "initial": 0.1694915254237288,
+        "medial": 0.3559322033898305,
+        "sole": 0.0
+       },
+       "total": 59
+      },
+      {
+       "counts": {
+        "final": 21,
+        "initial": 10,
+        "medial": 27,
+        "sole": 0
+       },
+       "dominant": "medial",
+       "restricted_0.9": false,
+       "restricted_0.95": false,
+       "shares": {
+        "final": 0.3620689655172414,
+        "initial": 0.1724137931034483,
+        "medial": 0.46551724137931033,
+        "sole": 0.0
+       },
+       "total": 58
+      }
+     ],
+     "tokens_full": 143
+    },
+    "M059": {
+     "full": {
+      "counts": {
+       "final": 75,
+       "initial": 43,
+       "medial": 104,
+       "sole": 0
+      },
+      "dominant": "medial",
+      "restricted_0.9": false,
+      "restricted_0.95": false,
+      "shares": {
+       "final": 0.33783783783783783,
+       "initial": 0.19369369369369369,
+       "medial": 0.46846846846846846,
+       "sole": 0.0
+      },
+      "total": 222
+     },
+     "halves": [
+      {
+       "counts": {
+        "final": 27,
+        "initial": 15,
+        "medial": 42,
+        "sole": 0
+       },
+       "dominant": "medial",
+       "restricted_0.9": false,
+       "restricted_0.95": false,
+       "shares": {
+        "final": 0.32142857142857145,
+        "initial": 0.17857142857142858,
+        "medial": 0.5,
+        "sole": 0.0
+       },
+       "total": 84
+      },
+      {
+       "counts": {
+        "final": 32,
+        "initial": 16,
+        "medial": 42,
+        "sole": 0
+       },
+       "dominant": "medial",
+       "restricted_0.9": false,
+       "restricted_0.95": false,
+       "shares": {
+        "final": 0.35555555555555557,
+        "initial": 0.17777777777777778,
+        "medial": 0.4666666666666667,
+        "sole": 0.0
+       },
+       "total": 90
+      }
+     ],
+     "tokens_full": 222
+    },
+    "M391": {
+     "full": {
+      "counts": {
+       "final": 60,
+       "initial": 22,
+       "medial": 111,
+       "sole": 0
+      },
+      "dominant": "medial",
+      "restricted_0.9": false,
+      "restricted_0.95": false,
+      "shares": {
+       "final": 0.31088082901554404,
+       "initial": 0.11398963730569948,
+       "medial": 0.5751295336787565,
+       "sole": 0.0
+      },
+      "total": 193
+     },
+     "halves": [
+      {
+       "counts": {
+        "final": 33,
+        "initial": 6,
+        "medial": 49,
+        "sole": 0
+       },
+       "dominant": "medial",
+       "restricted_0.9": false,
+       "restricted_0.95": false,
+       "shares": {
+        "final": 0.375,
+        "initial": 0.06818181818181818,
+        "medial": 0.5568181818181818,
+        "sole": 0.0
+       },
+       "total": 88
+      },
+      {
+       "counts": {
+        "final": 16,
+        "initial": 9,
+        "medial": 42,
+        "sole": 0
+       },
+       "dominant": "medial",
+       "restricted_0.9": false,
+       "restricted_0.95": false,
+       "shares": {
+        "final": 0.23880597014925373,
+        "initial": 0.13432835820895522,
+        "medial": 0.6268656716417911,
+        "sole": 0.0
+       },
+       "total": 67
+      }
+     ],
+     "tokens_full": 193
+    }
+   },
+   "full_supported": false,
+   "halves_supported": [
+    false,
+    false
+   ],
+   "stability": "STABLE"
+  },
+  "check3_combination_contiguity": {
+   "full_share": 0.38235294117647056,
+   "full_supported": false,
+   "half_shares": [
+    0.25806451612903225,
+    0.46153846153846156
+   ],
+   "halves_supported": [
+    false,
+    false
+   ],
+   "stability": "STABLE"
+  }
+ },
+ "combination_full_n": 68,
+ "combination_halves_n": [
+  31,
+  26
+ ],
+ "counted_signs": [
+  "M012",
+  "M059",
+  "M391"
+ ],
+ "null_thresholds": {
+  "combination_share_p99": 0.6176470588235294,
+  "max_p95": 3,
+  "share_ge3_p05": 0.00823045267489712,
+  "variance_p05": 0.14266117969821673
+ },
+ "runs_full": [
+  {
+   "artifact": 4,
+   "length": 2,
+   "sign": "M059"
+  },
+  {
+   "artifact": 595,
+   "length": 2,
+   "sign": "M059"
+  },
+  {
+   "artifact": 1195,
+   "length": 2,
+   "sign": "M059"
+  },
+  {
+   "artifact": 1342,
+   "length": 2,
+   "sign": "M391"
+  }
+ ],
+ "runs_halves": [
+  [
+   {
+    "artifact": 2,
+    "length": 2,
+    "sign": "M059"
+   }
+  ],
+  [
+   {
+    "artifact": 297,
+    "length": 2,
+    "sign": "M059"
+   },
+   {
+    "artifact": 596,
+    "length": 2,
+    "sign": "M059"
+   }
+  ]
+ ],
+ "typeF": [
+  {
+   "cisi_id": "M-0334",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "RGR-0021",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "C-0063",
+   "counted_tokens": 1
+  },
+  {
+   "cisi_id": "M-0464",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "H-0423",
+   "counted_tokens": 1
+  },
+  {
+   "cisi_id": "L-0107",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "RGR-0028",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "SK-0058",
+   "counted_tokens": 1
+  },
+  {
+   "cisi_id": "M-0044",
+   "counted_tokens": 1
+  },
+  {
+   "cisi_id": "C-0039",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "H-0445",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "M-0354",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "M-0424",
+   "counted_tokens": 0
+  },
+  {
+   "cisi_id": "BN-0034",
+   "counted_tokens": 0
+  }
+ ],
+ "typeT_full": {
+  "histogram": {
+   "1": 418,
+   "2": 64,
+   "3": 4
+  },
+  "max": 3,
+  "n": 486,
+  "share_ge3": 0.00823045267489712,
+  "variance": 0.14266117969821673
+ },
+ "typeT_halves": [
+  {
+   "histogram": {
+    "1": 168,
+    "2": 30,
+    "3": 1
+   },
+   "max": 3,
+   "n": 199,
+   "share_ge3": 0.005025125628140704,
+   "variance": 0.1449963384763011
+  },
+  {
+   "histogram": {
+    "1": 161,
+    "2": 24,
+    "3": 2
+   },
+   "max": 3,
+   "n": 187,
+   "share_ge3": 0.0106951871657754,
+   "variance": 0.14870313706425692
+  }
+ ]
+}
