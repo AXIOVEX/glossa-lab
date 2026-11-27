@@ -44,3 +44,14 @@ Not attempted on 2026-11-26: the account-wide ResearchGate budget for the day wa
 ## Commission
 
 The owner approved the draft text and ordered publication in the Glossa-Lab chat on 2026-11-26 (15:49 ET). The draft and its proof map are filed in the goal workspace (`files/elsewhere-methods-paper-draft-2026-11-26.md`, `files/elsewhere-methods-paper-proof-map-2026-11-26.md`).
+
+## Addendum — ResearchGate, 2026-11-27
+
+- **Publication:** 418451740
+- **URL:** https://www.researchgate.net/publication/418451740_Elsewhere_A_Framework_for_Testing_Claims_About_Worlds_That_Cannot_Be_Observed_Built_and_Exercised_on_Three_Undeciphered_Scripts
+- Created as a Preprint on 2026-11-27 through the Muse cloud browser session signed in as Tristen Pierson (no tower/desktop profile used). Before creation, the profile's publications list was searched for the title and for the DOI and neither was found, so no duplicate existed.
+- The uploaded file is the deposited v1 file `elsewhere-framework-v1.pdf`, downloaded from Zenodo record 24571025 for this pass and verified before upload (131,538 bytes, SHA-256 `a85e749dc5da107f55fc1ab2470a4baa14b5db51788cd74cf105e35c006c033b`, matching the record above).
+- The header DOI was set to 10.5281/zenodo.24571025.
+- **Verification:** the public page displays the exact title, type Preprint, date November 2026, author Tristen Pierson, and the DOI 10.5281/zenodo.24571025 (linked); the attached public file is `elsewhere-framework-v1.pdf` and the in-page viewer renders page 1 with the title, author, Axiovex Systems, and the full abstract. A private copy was also stored by the create flow's public-and-private file option.
+- **Edit-limit note:** after the Add step, ResearchGate displayed "Edit limit reached". No further edit was attempted in this pass, per the standing budget discipline. The publication had nevertheless been created (profile toast confirmed it, and the public page verified as above). One gap remains for a later pass after the limit resets: the standalone Description section on the page shows "Add a description"; the abstract is fully readable inside the attached PDF.
+- This was the one ResearchGate change made in this pass. With this listing, all three venues carry v1: Zenodo (record of record), Academia (work 182066190), and ResearchGate (publication 418451740).
