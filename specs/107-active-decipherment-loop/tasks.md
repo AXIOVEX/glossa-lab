@@ -57,3 +57,19 @@
 - [x] T206 Cycle close: cycle-2 outcome record,
   posterior trace, kill-criteria evaluation filed;
   TC-107-11 and TC-107-12 run; PROGRAM-STATE updated.
+
+## Stage 2 (addendum) — M-2 re-registration (tasks T207–T208)
+
+- [x] T207 Land the M-2 re-registration (claim
+  C107-12, TC-107-13,
+  records/m2-re-registration-2026-11-27.md, the
+  Spec 097 custody restoration record, the
+  re-registration cascade) — before any M-2 run
+  under the re-registration.
+- [ ] T208 Execute M-2 on tower-compute under the
+  re-registration — held until T207 has landed; the
+  conformance preflight (re-registration §4) is
+  administered and filed first, and a preflight
+  failure closes this task as the leg’s outcome;
+  file the outcome record and raw outputs; run
+  TC-107-13.

@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "methodology_version": "2.1",
+  "project": "m2-rereg-wt-20261127",
+  "phase": "after_plan",
+  "outcome": "iterate",
+  "summary": "Assessed 1 claim(s); found 3 failure mode(s); 1 claim(s) below the 0.70 confidence threshold. Draft cap: 1 draft claim(s) capped at gather_evidence/iterate (FR-2.3). Stage cap: 1 claim(s) below stage 'explained'; the outcome cannot be 'pass' (Spec 004 R1.4). Not understood: 2 residual unknown(s) are recorded on this assessment (Spec 004 R5.2). Lane 1 (machine verification): outcome iterate; 0 claim(s) at or above the 0.70 threshold, 1 below. Lane 2 (human acceptance): stages by effective stage: created 1. Lane-2 lag: 1 claim(s) below explained.",
+  "created_at": "2026-11-27T18:19:55.168696Z",
+  "claims": [
+    {
+      "id": "C107-12",
+      "text": "The five-item phonotactic battery, computed on the preflight-validated Meroitic basis (the development partition plus the 932 distinct example phrases, the phrases from the restored Otten custody at the pin) and the two registered ASJP family sets under the registered lean, null, and control rules, returns POSITIVE for at most one family, NEGATIVE, or INDETERMINATE as the mechanical consequence of those rules. Does not establish: a POSITIVE verdict is typological support recorded in the trace only; it is not the Spec 102 affiliation test, does not consume its gates, and does not displace Spec 097\u2019s R3 position.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner\u2019s rulings of 2026-11-27 in the Glossa-Lab chat (11:26 ET ordering the Otten corpus restoration and the M-2 re-registration on its original basis; 11:33 ET clearance), the cycle-2 registration and the M-2 outcome record as filed in this package, and the Spec 097 custody restoration record of 2026-11-27.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "The battery\u2019s verdict is not the mechanical consequence of the re-registered rules over the filed item values, or the conformance preflight figures were not reproduced before scoring and the battery scored anyway, or any Otten byte consumed came from other than the restored custody at the pin as verified against the step-0 manifest."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C107-12-BOUNDARY-CHALLENGE",
+          "claim_id": "C107-12",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C107-12-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C107-12",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C107-12-DRAFT-CAP",
+          "claim_id": "C107-12",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    }
+  ],
+  "scores": {
+    "C107-12": {
+      "claim_id": "C107-12",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    }
+  },
+  "verdicts": {},
+  "recoveries": [
+    {
+      "failure_id": "AEE-C107-12-BOUNDARY-CHALLENGE",
+      "claim_id": "C107-12",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C107-12-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C107-12",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C107-12-DRAFT-CAP",
+      "claim_id": "C107-12",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    }
+  ],
+  "metadata": {
+    "threshold": 0.7,
+    "input": "/home/tpierson/.syncyard/worktrees/glossa/m2-rereg-wt-20261127/specs/107-active-decipherment-loop/claims-m2-reregistration.json",
+    "ledger": {
+      "mode": "custom",
+      "path": "/home/tpierson/.syncyard/worktrees/glossa/m2-rereg-wt-20261127/.specify/extensions/aee/ledger/epistemic-ledger.jsonl"
+    },
+    "engine_version": "1.6.0"
+  },
+  "reported_statuses": {
+    "C107-12": "draft"
+  },
+  "stage_caps": [],
+  "not_understood": [
+    "C107-12: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap.",
+    "C107-12: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded."
+  ],
+  "lanes": {
+    "lane_1": {
+      "label": "machine verification",
+      "outcome": "iterate",
+      "threshold": 0.7,
+      "claims_at_or_above_threshold": 0,
+      "claims_below_threshold": 1
+    },
+    "lane_2": {
+      "label": "human acceptance",
+      "stage_counts": {
+        "created": 1,
+        "checked": 0,
+        "explained": 0,
+        "accepted": 0,
+        "digested": 0
+      },
+      "claims_below_explained": 1,
+      "exposition_covered_claims": 0,
+      "exposition_missing_claims": 1,
+      "verified_unexplained_claims": 0,
+      "stage_capped_claims": 0,
+      "attribution_contested_claims": 0
+    },
+    "per_claim": {
+      "C107-12": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      }
+    }
+  },
+  "digestion": {
+    "C107-12": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    }
+  }
+}

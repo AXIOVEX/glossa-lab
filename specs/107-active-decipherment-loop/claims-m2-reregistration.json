@@ -1,0 +1,28 @@
+{
+ "claims": [
+  {
+   "boundary": [],
+   "conflicts_with": [],
+   "depends_on": [],
+   "evidence": [
+    {
+     "description": "The owner\u2019s rulings of 2026-11-27 in the Glossa-Lab chat (11:26 ET ordering the Otten corpus restoration and the M-2 re-registration on its original basis; 11:33 ET clearance), the cycle-2 registration and the M-2 outcome record as filed in this package, and the Spec 097 custody restoration record of 2026-11-27.",
+     "direction": "supports",
+     "kind": "asserted",
+     "ref": "spec.md",
+     "source_quality": "unknown"
+    }
+   ],
+   "falsification_tests": [
+    "The battery\u2019s verdict is not the mechanical consequence of the re-registered rules over the filed item values, or the conformance preflight figures were not reproduced before scoring and the battery scored anyway, or any Otten byte consumed came from other than the restored custody at the pin as verified against the step-0 manifest."
+   ],
+   "id": "C107-12",
+   "kind": "requirement",
+   "source_ref": "spec.md",
+   "stage": "created",
+   "status": "draft",
+   "text": "The five-item phonotactic battery, computed on the preflight-validated Meroitic basis (the development partition plus the 932 distinct example phrases, the phrases from the restored Otten custody at the pin) and the two registered ASJP family sets under the registered lean, null, and control rules, returns POSITIVE for at most one family, NEGATIVE, or INDETERMINATE as the mechanical consequence of those rules. Does not establish: a POSITIVE verdict is typological support recorded in the trace only; it is not the Spec 102 affiliation test, does not consume its gates, and does not displace Spec 097\u2019s R3 position.",
+   "uncertainty": "insufficient_evidence"
+  }
+ ]
+}

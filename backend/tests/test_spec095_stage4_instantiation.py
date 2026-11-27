@@ -74,8 +74,8 @@ def test_model_generic_layer_names_no_script_specific_assumption():
 def test_indus_claims_census_unchanged():
     rows = _ledger_rows()
     claims = [r for r in rows if r.get("kind") == "claim"]
-    assert len(rows) == 1123
-    assert len(claims) == 1078
+    assert len(rows) == 1124
+    assert len(claims) == 1079
     # Non-claim lines: 31 annotations, plus fourteen
     # reclassifications (the C101-1 adjudication and the five E6
     # falsifier amendments of 2026-11-27, Spec 091; and the eight
@@ -84,8 +84,8 @@ def test_indus_claims_census_unchanged():
     annotations = [r for r in rows if r.get("kind") == "annotation"]
     assert len(annotations) == 31
     assert len(rows) - len(claims) - len(annotations) == 14
-    # Falsifier coverage: 1069 of 1078; the 9 without are GR-088-21.
-    assert sum(1 for r in claims if r.get("falsifier")) == 1069
+    # Falsifier coverage: 1070 of 1079; the 9 without are GR-088-21.
+    assert sum(1 for r in claims if r.get("falsifier")) == 1070
     # Claim -> Sign linkage: exactly one claim carries sign_refs
     # (3 references) — the GR-088-07 gap, stated in the mapping.
     with_refs = [r for r in claims if r.get("sign_refs")]
@@ -116,7 +116,7 @@ def test_indus_corpus_registry_unchanged():
 
 def test_indus_matrix_census_unchanged():
     matrix = json.loads((ROOT / "glossa-indus" / "matrix" / "matrix.json").read_text(encoding="utf-8"))
-    assert len(matrix["rows"]) == 1078
+    assert len(matrix["rows"]) == 1079
     assert len(matrix["columns"]) == 644
 
 

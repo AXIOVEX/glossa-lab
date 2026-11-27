@@ -259,3 +259,28 @@ outcome record.
 *Does not establish:* the trace is a bookkeeping
 instrument; it is not itself evidence for any
 decipherment claim.
+
+**C107-12 — The phonotactic battery, re-registered
+(test M-2).** The five-item phonotactic battery,
+computed on the conformance-preflight-validated
+Meroitic basis (the development partition plus the
+932 distinct example phrases, the phrases from the
+restored Otten custody at the pin) and the two
+registered ASJP family sets under the registered lean,
+null, and control rules, returns POSITIVE for at most
+one family, NEGATIVE, or INDETERMINATE as the
+mechanical consequence of those rules.
+
+*Falsifier:* the battery’s verdict is not the
+mechanical consequence of the re-registered rules over
+the filed item values, or the conformance preflight
+figures were not reproduced before scoring and the
+battery scored anyway, or any Otten byte consumed came
+from other than the restored custody at the pin as
+verified against the step-0 manifest.
+
+*Does not establish:* a POSITIVE verdict is
+typological support recorded in the trace only; it is
+not the Spec 102 affiliation test, does not consume
+its gates, and does not displace Spec 097’s R3
+position.

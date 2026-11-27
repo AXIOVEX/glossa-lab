@@ -466,14 +466,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the merged build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the merged build (incumbent settling-20261127T155917Z-939f46, full-register settling-20261127T155918Z-ae2e92); both result blocks are byte-equal to both intermediate generations' (the Spec 107 generation of 13:37Z and the cascade's pre-merge generation of 13:50Z), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 107 M-2 re-registration (branch spec-107-m2-re-registration; records: specs/107-active-decipherment-loop/records/m2-re-registration-2026-11-27.md and specs/107-active-decipherment-loop/records/m2-re-registration-cascade-2026-11-27.md). The owner (Tristen Pierson) ruled in the Glossa-Lab chat on 2026-11-27 (11:26 ET) that the Otten corpus be re-acquired at its pin, verified against the step-0 manifest, restored to custody, and M-2 re-registered on its original basis; the restoration was executed the same day under the owner's further clearance of 11:33 ET and is filed in Spec 097's records (custody-restoration-2026-11-27.md). This entry registers the re-registration's claims intake (C107-12, carried in the third bundle file claims-m2-reregistration.json).",
+   "reason": "The claims ledger grew by append-only intake: the one bundle claim of Spec 107's third bundle file (specs/107-active-decipherment-loop/claims-m2-reregistration.json, C107-12) was appended through tools/ledger/import_bundle.py on 2026-11-27 (1 appended, 11 already canonical, 12 propositions). A bundle once intaken is never amended, so the re-registration rides a further bundle file; the intake's bundle discovery in backend/glossa_lab/ledger_intake.py was extended in this landing to read additional claims-<name>.json bundle files of the same schema through the same grouping, fingerprint, and validation path. The canonicals' provenance pin names the ledger build they were derived over; the pin is refreshed to the new build under this registration's amendment discipline. The semantics (glossa-settle-1) are unchanged; no rule in SETTLING-SEMANTICS.md moved, so no new semantics version is registered.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e",
+    "lines": 1123
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
+    "lines": 1124
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261127T182329Z-0cae4b, full-register settling-20261127T182408Z-f2168b); both result blocks are byte-equal to the superseded generation's (settling-20261127T155917Z-939f46 and settling-20261127T155918Z-ae2e92), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e",
-   "lines": 1123
+   "sha256_canonical": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
+   "lines": 1124
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",

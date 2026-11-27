@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e",
-  "ledger_lines": 1123,
+  "ledger_sha256": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
+  "ledger_lines": 1124,
   "ledger_date": "2026-11-27",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
@@ -6474,6 +6474,12 @@
   },
   {
    "id": "107-active-decipherment-loop/C107-10",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "107-active-decipherment-loop/C107-12",
    "population": "bundle",
    "status": "draft",
    "stage": null
@@ -26340,6 +26346,17 @@
    ]
   },
   {
+   "row": "107-active-decipherment-loop/C107-12",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "107-active-decipherment-loop/C107-12",
+    "spec.md"
+   ]
+  },
+  {
    "row": "107-active-decipherment-loop/C107-2",
    "column": "spec.md",
    "column_class": "documents",
@@ -26672,8 +26689,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1078,
-  "rows_with_cells": 1064,
+  "rows_total": 1079,
+  "rows_with_cells": 1065,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -27031,30 +27048,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1601,
+  "cells_total": 1602,
   "cells_by_relation": {
-   "supports": 1594,
+   "supports": 1595,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1594,
+   "documents": 1595,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1069,
-   "total": 1078,
+   "covered": 1070,
+   "total": 1079,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1055,
-     "total": 1055
+     "covered": 1056,
+     "total": 1056
     }
    }
   },

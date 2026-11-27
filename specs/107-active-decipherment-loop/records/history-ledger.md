@@ -183,3 +183,28 @@ tally in any program. Execution follows in Stage 1.
   OD-O-1 discharged and OD-O-2 standing as an open owner
   referral) and the loop stays open. No standing,
   verdict, or tally in any program moves.
+
+- 2026-11-27 — **M-2 RE-REGISTRATION.** The Otten
+  corpus, verified absent from every custody location
+  that morning, was re-acquired at its pin under the
+  owner’s ruling of 2026-11-27 11:26 ET, verified
+  30 of 30 against the step-0 manifest in the staging
+  clone and again in the custody copy, and restored
+  read-only to tower custody
+  (glossa-custody/spec097/otten-corpus/) under the
+  standing terms; the restoration is filed in
+  Spec 097’s records. M-2 is re-registered on its
+  original basis (the development partition plus the
+  932 distinct example phrases) with the cycle-2
+  calibration STOP-gate replaced by an OD-O-1-pattern
+  conformance preflight; claim C107-12 and test case
+  TC-107-13 are intaken with the re-registration, and
+  C107-10 stands as executed. The 931/932 figures are
+  reconciled on the re-registration’s face: 931 is
+  the step-0 census’s data-line count for
+  MilletExamples.txt alone; 932 is the freeze’s
+  count of distinct example phrases across the three
+  per-scholar files. The battery is not executed by
+  this act; execution is task T208, held until this
+  registration landed, and administers the preflight
+  first.

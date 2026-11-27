@@ -932,7 +932,16 @@ def build_bundle_entries(
     file_hashes: dict[Path, str] = {}
     for spec_dir in sorted(spec_dirs):
         spec = spec_dir.name
-        for fmt, name in (("claims", "claims.json"), ("aee", "aee-claims.json")):
+        bundle_files = [("claims", "claims.json"), ("aee", "aee-claims.json")]
+        # Additional bundle files (claims-<name>.json) ride the same
+        # intake: a bundle once intaken is never amended, so a later
+        # registration carries its claims in a further bundle file of
+        # the same schema (first instance: Spec 107's
+        # claims-m2-reregistration.json, C107-12, 2026-11-27).
+        for extra in sorted(spec_dir.glob("claims-*.json")):
+            if extra.name not in ("claims.json", "aee-claims.json"):
+                bundle_files.append(("claims", extra.name))
+        for fmt, name in bundle_files:
             path = spec_dir / name
             if not path.is_file():
                 continue

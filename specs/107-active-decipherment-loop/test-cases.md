@@ -165,3 +165,18 @@ each with its evidence cited.
 from the filed outcomes, and the section's conclusion
 (the loop open or closed, with the criterion named if
 closed) follows from the evaluations.
+
+**TC-107-13 — M-2 re-registration execution conformance
+(C107-12; Stage 2).** Read the M-2 outcome record
+under the re-registration.
+*Pass:* (1) the conformance preflight record is filed
+with the four figures reproduced (12,863 words;
+13,406 pairs; 0.3152; 0.3038, each to 4 decimal
+places) and the Otten custody manifest re-verification
+(30 of 30) filed in the same record, all before any
+battery figure; (2) the ASJP mapping table is filed
+in the run record and predates the battery figures;
+(3) the verdict recomputes from the filed item values
+under the re-registration’s rules; (4) the custody
+hashes filed match the custody bytes, and no Otten
+byte entered the repository.
