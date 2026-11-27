@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
-  "ledger_lines": 1124,
+  "ledger_sha256": "542c7fa2316f9236f3fbeb2e60e3020f2d8b93652cdce28ec235f7f0b42ab77e",
+  "ledger_lines": 1133,
   "ledger_date": "2026-11-27",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
@@ -6483,6 +6483,60 @@
    "population": "bundle",
    "status": "draft",
    "stage": null
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-6",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-4",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-2",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-3",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-7",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-9",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-1",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-5",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "109-generative-decipherment-engine/C109-8",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
   }
  ],
  "columns": [
@@ -26522,6 +26576,105 @@
    ]
   },
   {
+   "row": "109-generative-decipherment-engine/C109-1",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-1",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-2",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-2",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-3",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-3",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-4",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-4",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-5",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-5",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-6",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-6",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-7",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-7",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-8",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-8",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "109-generative-decipherment-engine/C109-9",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "109-generative-decipherment-engine/C109-9",
+    "spec.md"
+   ]
+  },
+  {
    "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "column": "055",
    "column_class": "studies",
@@ -26689,8 +26842,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1079,
-  "rows_with_cells": 1065,
+  "rows_total": 1088,
+  "rows_with_cells": 1074,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -27048,30 +27201,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1602,
+  "cells_total": 1611,
   "cells_by_relation": {
-   "supports": 1595,
+   "supports": 1604,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1595,
+   "documents": 1604,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1070,
-   "total": 1079,
+   "covered": 1079,
+   "total": 1088,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1056,
-     "total": 1056
+     "covered": 1065,
+     "total": 1065
     }
    }
   },
