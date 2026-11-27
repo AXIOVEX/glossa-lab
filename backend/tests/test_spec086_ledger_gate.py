@@ -1109,7 +1109,7 @@ def test_v10_legs_live_and_pass_on_a_program_map_tree(pm_scratch):
     assert all(c.status == "PASS" for c in checks)
     census = "\n".join(checks[1].evidence)
     assert "1066 claim nodes" in census
-    assert "107 study nodes" in census
+    assert "108 study nodes" in census
     finds_evidence = "\n".join(checks[2].evidence)
     assert "bundle_less_study 28" in finds_evidence
     assert "restricted_node 1" in finds_evidence

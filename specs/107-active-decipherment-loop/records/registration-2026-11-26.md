@@ -115,7 +115,8 @@ for Specs 104–106.)
   ledger lines 1,091 → 1,097; studies 107 → 108; matrix
   cells and map edges 1,583 → 1,589; map elements
   1,704 → 1,710; supports edges 1,576 → 1,582; claims
-  untouched by any run 1,059 → 1,065.
+  untouched by any run 1,059 → 1,065; draft status
+  1,036 → 1,042.
 - Recommendations ledger: no row added (D-107-3 — the
   study's provenance is the owner's direct adoption act,
   not a Co-scientist recommendation).

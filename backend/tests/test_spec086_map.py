@@ -200,7 +200,7 @@ def test_header_contract_q3(built) -> None:
     data = json.loads(built.json_bytes)
     h = data["header"]
     assert h["claims_total"] == 1066
-    assert h["claims_by_status"]["draft"] == 1036
+    assert h["claims_by_status"]["draft"] == 1042
     assert sum(h["claims_by_status"].values()) == 1066
     assert h["anchors_strict"] == 94
     assert h["anchors_total"] == 287
