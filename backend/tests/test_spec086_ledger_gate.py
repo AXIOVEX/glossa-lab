@@ -166,7 +166,7 @@ def test_gate_passes_clean_tree():
         assert any(n.startswith(cls) for n in names), cls
     v4 = _check(report, "V4 relation-carrying")
     assert v4.status == "PASS"
-    assert "1596 matrix cells" in v4.evidence[0]
+    assert "1601 matrix cells" in v4.evidence[0]
 
 
 def test_precondition_names_an_altered_extracted_claims_file(scratch):
@@ -860,14 +860,14 @@ def test_map_legs_live_and_pass_on_a_clean_map_tree(map_scratch):
     assert v5_full.name.endswith("(map-defs v1 copies)")
     assert v5_full.status == "PASS"
     census = "\n".join(v5_full.evidence)
-    assert "1596 map edges by relation" in census
+    assert "1601 map edges by relation" in census
     assert "UNPROVEN on the live population: corpus_texts" in census
     assert "UNPROVEN on the live population: constrains" in census
     v6 = _check(report, "V6 anchor shares — map header leg")
     assert v6.status == "PASS"
     assert "287 register records, 94 of them strict" in "\n".join(v6.evidence)
     v4 = _check(report, "V4 relation-carrying citations")
-    assert "map edge census: supports 1589, opposes 7, constrains 0" in (
+    assert "map edge census: supports 1594, opposes 7, constrains 0" in (
         "\n".join(v4.evidence)
     )
 

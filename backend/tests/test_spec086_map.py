@@ -240,7 +240,7 @@ def test_sections_census(built) -> None:
         "without_state": 1078,
         "total": 1078,
     }
-    assert system["claim_population"]["no_stage_recorded"] == 29
+    assert system["claim_population"]["no_stage_recorded"] == 34
 
 
 def test_edge_citation_rule_governing_pointer_only(built) -> None:
@@ -390,7 +390,7 @@ def test_api_sections_serve_the_artifact(client) -> None:
     assert system["sign_inventory"]["frame_scope"] == 286
     matrix = client.get("/api/v1/indus-map/matrix").json()["matrix"]
     assert matrix["coverage"]["cells_by_relation"] == {
-        "supports": 1589,
+        "supports": 1594,
         "opposes": 7,
         "constrains": 0,
     }
@@ -471,7 +471,7 @@ def cloud_client(tmp_path_factory):
 def test_scoping_member_reads_the_map(cloud_client) -> None:
     resp = cloud_client.get("/api/v1/indus-map/header", headers=MEMBER)
     assert resp.status_code == 200
-    assert resp.json()["header"]["claims_total"] == 1073
+    assert resp.json()["header"]["claims_total"] == 1078
 
 
 def test_scoping_outsider_gets_the_scoped_404(cloud_client) -> None:

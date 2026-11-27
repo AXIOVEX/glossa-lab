@@ -145,3 +145,9 @@ and the registration commit as `superseded_by_commit`; the
 legacy entry act for re-derivation [27] (folded census 113 entries).
 With the departure accounting in place, the run store carries exactly
 the new generation: runs 907cb1, 92af7b and the ea29e2 materialization.
+- Addendum (same landing): the gate-evidence text pins in
+  `backend/tests/test_spec086_ledger_gate.py` (matrix cells 1,596 →
+  1,601; supports 1,589 → 1,594) and the remaining pins in
+  `backend/tests/test_spec086_map.py` (no-stage-recorded 29 → 34;
+  supports 1,589 → 1,594; one further claims-total 1,073 → 1,078) were
+  updated from the same regenerated actuals.
