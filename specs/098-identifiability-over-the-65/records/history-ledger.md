@@ -121,3 +121,65 @@ Rests on: `records/stage-4-outcome-2026-11-27.md`
 Stage 4 landed. Preconditions verified from the record: the Stage 3 outcome and its archived raw output recount mechanically to the filed distribution (46 UNDECIDABLE AT THIS POWER / 22 NOT IDENTIFIABLE / 1 DISCRIMINATED ON PSEUDO-HELD-OUT over the executed 69) and to the per-arm counts (Arm I 43 / 21 / 1; Arm E 3 / 1 / 0); the seal's single release stands intact with its hash recomputed at release and at scoring, and Stage 4 made no further release and read no custody material. Per-sign outcomes restated per arm in the frozen vocabulary; M044 and M202 carry no outcome under this spec (both left the frozen population by the recorded addendum-rule strikes before Stage 2 execution; the executed population is 69 of the frozen 71). The premise falsifier applied as written: not falsified (TC-098-02 passes; M375 reached the pseudo-held-out pass outcome). The contamination ceiling restated on the face of the record: the genuine-holdout subset is empty (T101), IDENTIFIABLE ON HELD-OUT is unavailable to this study, and M375's DISCRIMINATED ON PSEUDO-HELD-OUT supports no standing change and no identification claim beyond the corpus. Claims C098-1..C098-8 adjudicated on the outcome, each SUPPORTED (C098-2 and C098-3 in their amended / frozen executed forms, stated in full in the record). Closeout remainders named: any standing act on M375's outcome is a separate program act, not a remainder of this study; the canonical-ledger cascade for the claims adjudications is a separate act, not performed by this landing; M048's identifiability is untested by this study. Spec 098 is complete, Stages 0–4.
 
 Rests on: `records/stage-4-outcome-2026-11-27.md`
+
+### 2026-11-27 - Standing cascade: the Stage 4 adjudications given effect in the ledger
+
+The owner's commission of 2026-11-27 (the blanket approval of the
+Stage 4 outcome) was executed as a separate program act: eight
+append-only reclassification entries in the claims ledger, one per
+claim C098-1..C098-8, each moving its claim draft ->
+strongly_supported through the ledger intake path (C098-2 in its
+amended form, C098-3 in its frozen executed form, the rest as
+registered). The entry texts were re-derived from the Stage 4
+outcome record's section 7 adjudications, the texts prepared
+earlier on 2026-11-27 not having been recovered; the application
+record states the re-derivation and its basis. The cascade followed
+the PR #772 / PR #788 discipline in full: the T405 pair re-executed
+over the grown ledger with byte-equal result blocks, the comparison
+re-filed, the assignment sets re-materialized (94 / 286, H003 out
+of frame), the ledger pin refreshed as re_derivations[27], the
+derived layers regenerated, the census pins updated, and the
+superseded run generation departed under run-defs v3 section 7.1.
+The ledger stands at 1,118 lines, canonical SHA-256
+1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813;
+the gate passes on the final tree in both modes. M375 carries no
+standing act, and no other claim's status, stage, or score moved.
+The work ran inside the tower clone s098-cascade-wt-20261127 under
+the owner's ruling of 2026-11-27 clearing work inside it after its
+execution-risk trip, following three flagged stops.
+
+Rests on: the Stage 4 outcome record
+(records/stage-4-outcome-2026-11-27.md) section 7; the application
+record (records/standing-cascade-application-2026-11-27.md),
+which quotes the eight entry texts from the ledger itself and
+carries the full authorization chain and cascade figures.
+
+### 2026-11-27 - Standing cascade reconciliation over the merged ledger
+
+While PR #793 was in flight, main advanced under PR #794
+(Spec 107 cycle-2 registration: five registration claims,
+its own T405 re-derivation and ledger-pin refresh, and
+section 7.1 departures of the same ad74e8 generation) and
+PR #795. The cascade was reconciled over the merged build
+in the same branch: the append-only stores unioned (merged
+ledger 1,123 lines, canonical SHA-256
+6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e;
+the eight Spec 098 entries at lines 1116-1123), the two
+racing T405 re-derivations linearized in execution order,
+this branch's duplicate departure acts dropped, the pin
+refresh renumbered to re_derivations[28], the pair
+re-executed over the merged build (incumbent
+settling-20261127T155917Z-939f46, full-register
+settling-20261127T155918Z-ae2e92; result blocks byte-equal
+to both intermediate generations'), both intermediate
+generations departed under run-defs v3 section 7.1 naming
+the merge commit, the derived layers regenerated, and the
+census pins updated from the merged actuals. The gate
+passes on the final merged tree in both modes. No claim's
+standing moved in the reconciliation beyond the eight
+moves of the cascade itself.
+
+Rests on: the application record
+(records/standing-cascade-application-2026-11-27.md),
+reconciliation section, which carries the full merged
+cascade figures.

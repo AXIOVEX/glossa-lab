@@ -449,14 +449,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, phase-108 register, and corpus snapshot pins identical). Both T405 scenarios were re-executed over the grown build (runs settling-20261127T133744Z-907cb1 incumbent, settling-20261127T133744Z-92af7b full-register); both result blocks are byte-equal to the superseded generation's, and the pair's input pins are identical to the superseded generation's except the ledger pin itself. The Stage 4 dual-run comparison was re-filed from the new pair; its diff against the previous filing is the ledger pin only. Assignment sets were re-materialized unchanged (run settling-20261127T133827Z-ea29e2; incumbent 94, full-register 286, H003 out of frame)."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 098 standing cascade, merge reconciliation (branch spec098-standing-cascade-2026-11-27, PR #793; record: specs/098-identifiability-over-the-65/records/standing-cascade-application-2026-11-27.md, reconciliation section). The Stage 4 adjudications of Spec 098's eight claims (C098-1..C098-8, each SUPPORTED; C098-2 in its amended form, C098-3 in its frozen executed form) were given effect in the ledger under the owner's commission of 2026-11-27. The cascade first executed over the 1,110-line build; while its pull request was in flight, main advanced under PR #794 (Spec 107 cycle-2 registration; the ledger to 1,115 lines; its own re-derivation at re_derivations[27]) and PR #795, and this re-derivation gives the act effect over the merged 1,123-line build.",
+   "reason": "The merged claims ledger carries the eight append-only reclassification entries at lines 1116-1123, after the Spec 107 registration claims at lines 1111-1115, each entry carrying the status field (draft -> strongly_supported) for its superseded claim entry, appended through glossa_lab.ledger_intake.append_entry on 2026-11-27. The entries' texts were re-derived from the Stage 4 outcome record's section 7 adjudications (the texts prepared earlier on 2026-11-27 were not recovered), and the application record states the re-derivation and its basis. The re-derivation prepared over the pre-merge build was renumbered from [27] to [28] in the reconciliation, the Spec 107 landing's re-derivation holding [27]. The canonicals' provenance pin names the ledger build they were derived over; the pin is refreshed to the merged build under this registration's amendment discipline. The semantics (glossa-settle-1) are unchanged; no rule in SETTLING-SEMANTICS.md moved, so no new semantics version is registered.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
+    "lines": 1115
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e",
+    "lines": 1123
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the merged build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the merged build (incumbent settling-20261127T155917Z-939f46, full-register settling-20261127T155918Z-ae2e92); both result blocks are byte-equal to both intermediate generations' (the Spec 107 generation of 13:37Z and the cascade's pre-merge generation of 13:50Z), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
-   "lines": 1115
+   "sha256_canonical": "6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e",
+   "lines": 1123
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",

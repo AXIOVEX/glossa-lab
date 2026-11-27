@@ -3,7 +3,7 @@
 Generated from `glossa-indus/ledger/claims.jsonl` by `tools/ledger/generate_matrix.py`. Do not hand-edit; regenerate.
 
 Definitions: matrix-defs v1 (`glossa-indus/matrix/DEFINITIONS.md`). Ledger schema: ledger-schema v1.
-As-of: ledger sha256 `ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a`; 1115 ledger lines; ledger date 2026-11-27.
+As-of: ledger sha256 `6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e`; 1123 ledger lines; ledger date 2026-11-27.
 
 Rows: 1078 claims. Cells: 1601 (supports 1594, opposes 7, constrains 0).
 
@@ -354,8 +354,8 @@ Rows: 1078 claims. Cells: 1601 (supports 1594, opposes 7, constrains 0).
 ```text
 Matrix generation — glossa-indus/matrix/ (matrix-defs v1; ledger-schema v1)
 generated from: glossa-indus/ledger/claims.jsonl
-ledger sha256: ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a
-ledger lines: 1115; ledger date: 2026-11-27
+ledger sha256: 6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e
+ledger lines: 1123; ledger date: 2026-11-27
 rows: 1078 claims (1064 with at least one cell; 14 empty)
 columns: studies 10, documents 316, research_checks 31, anchors 287, corpus_texts 0
 cells: 1601 (supports 1594, opposes 7, constrains 0)
