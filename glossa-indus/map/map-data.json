@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1073,
+  "claims_total": 1078,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1049,
+   "draft": 1054,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-   "ledger_lines": 1110,
+   "ledger_sha256": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
+   "ledger_lines": 1115,
    "ledger_date": "2026-11-27",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "518479a937fc7035dcd529677f78c43a92cb5ab24af6b1778356f2458b48a407",
+   "matrix_sha256": "74a0e9fe937c21d1a5734025cf65a09b682c3c0afe33a2cadc60c14dcb642cc8",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "0c4333af313e1447c57dfa0da63d3caa74ccd28f8376a26047337f9aa4777eed",
-   "comparison_sha256": "6194c08814ae760583b57b9208f955f647ed800e076b4dd81a4d15ad609ded4c",
-   "settling_canonical_sha256": "e46920a61d3a4b1845e78e74a312b9f738be42fa27b19bb93a1acb9e707a3c0e"
+   "assignment_sets_sha256": "da1317e189eb68d47cc6f1f19ddb1363d9195def805476a3dc6afde18ff4dde5",
+   "comparison_sha256": "c525968e3afdafdc4b82a47cd744a6a30d1fb629ad22428c77c1c877e9ff4f28",
+   "settling_canonical_sha256": "5746e4a6254aee54e23799a8656edc8ad47791f50c8b7ac903ea8782efcfd53e"
   }
  },
  "elements": [
@@ -8652,6 +8652,46 @@
    "statement": "The edge layer keeps the seven historical predicates mechanically distinct and preserves competition: every historical edge carries its predicate, evidence class, proponent, basis, scope, and a concrete falsifier or narrowing condition; competing edges coexist as separate records; no merge, majority, or consensus record exists that its sources do not themselves state; transitive closure is computed only within admitted GENETIC_DESCENT and never crosses PROPOSED_RELATION, contact, areal, population, script, or WRITES relations; no language relationship is derived from a script relationship, a population movement, or a rendering product. Does not establish: that any edge's asserted relationship is true; only that the layer represents each assertion in its own name.",
    "status": "draft",
    "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "107-active-decipherment-loop/C107-11",
+   "statement": "The cycle-2 posterior trace moves no standing, verdict, or tally in any program beyond the effects the cycle-2 outcome records license, and every effect it records cites its licensing outcome record. Does not establish: the trace is a bookkeeping instrument; it is not itself evidence for any decipherment claim.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "107-active-decipherment-loop/C107-8",
+   "statement": "The C-E-15 feasibility decision for the Eteocypriot alignment line, applied to the filed record under its registered rule, returns PROCEED or STOP as the mechanical consequence of that rule over the inventoried correspondence sets. Does not establish: the decision concerns test feasibility only; it is not evidence about the Eteocypriot language, its affiliation, or any proposed reading.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "107-active-decipherment-loop/C107-7",
+   "statement": "Positional-restriction recovery at Indus shape, re-measured at the realistic restriction levels ρ = 0.95 and ρ = 0.90 under the I-1 simulation machinery, returns the registered verdict (POSITIVE, NEGATIVE, or INDETERMINATE) as the mechanical consequence of the cycle-2 registration's R2 rule at the strictest measurable level ρ*, with two implementations in exact agreement. Does not establish: a POSITIVE verdict licenses reading Indus positional facts only at level ρ* with the measured error terms; it establishes nothing about what any Indus mark means or what language, if any, the corpus encodes.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "107-active-decipherment-loop/C107-9",
+   "statement": "If C-E-15 returns PROCEED, the ICS 217 Greek control excerpt's L2/L3 tables, derived by the same code and standards as the development set's, either separate from the development tables on at least one registered statistic beyond split-half variation (POSITIVE) or are indistinguishable in kind on both (NEGATIVE); if C-E-15 returns STOP, E-2 does not execute and this claim's outcome is the recorded non-execution. Does not establish: the calibration measures whether frequency and adjacency statistics carry kind-level signal at this corpus size; it establishes nothing about Eteocypriot's affiliation or any reading.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "107-active-decipherment-loop/C107-10",
+   "statement": "The five-item phonotactic battery, computed on the calibration-validated Meroitic basis and the two registered ASJP family sets under the registered lean, null, and control rules, returns POSITIVE for at most one family, NEGATIVE, or INDETERMINATE as the mechanical consequence of those rules. Does not establish: a POSITIVE verdict is typological support recorded in the trace only; it is not the Spec 102 affiliation test, does not consume its gates, and does not displace Spec 097's R3 position.",
+   "status": "draft",
+   "stage": null,
    "population": "bundle"
   },
   {
@@ -28493,6 +28533,28 @@
   },
   {
    "from": "spec.md",
+   "to": "107-active-decipherment-loop/C107-10",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "107-active-decipherment-loop/C107-10",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "107-active-decipherment-loop/C107-11",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "107-active-decipherment-loop/C107-11",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
    "to": "107-active-decipherment-loop/C107-2",
    "rel": "supports",
    "rule": "R2",
@@ -28543,6 +28605,39 @@
    "column_class": "documents",
    "citations": [
     "107-active-decipherment-loop/C107-6",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "107-active-decipherment-loop/C107-7",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "107-active-decipherment-loop/C107-7",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "107-active-decipherment-loop/C107-8",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "107-active-decipherment-loop/C107-8",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "107-active-decipherment-loop/C107-9",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "107-active-decipherment-loop/C107-9",
     "spec.md"
    ]
   },
@@ -34151,6 +34246,31 @@
    "constrains": 0
   },
   "108-world-language-graph/C108-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "107-active-decipherment-loop/C107-11": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "107-active-decipherment-loop/C107-8": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "107-active-decipherment-loop/C107-7": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "107-active-decipherment-loop/C107-9": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "107-active-decipherment-loop/C107-10": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -40595,6 +40715,36 @@
     "population": "bundle",
     "status": "draft",
     "stage": "created"
+   },
+   {
+    "id": "107-active-decipherment-loop/C107-11",
+    "population": "bundle",
+    "status": "draft",
+    "stage": null
+   },
+   {
+    "id": "107-active-decipherment-loop/C107-8",
+    "population": "bundle",
+    "status": "draft",
+    "stage": null
+   },
+   {
+    "id": "107-active-decipherment-loop/C107-7",
+    "population": "bundle",
+    "status": "draft",
+    "stage": null
+   },
+   {
+    "id": "107-active-decipherment-loop/C107-9",
+    "population": "bundle",
+    "status": "draft",
+    "stage": null
+   },
+   {
+    "id": "107-active-decipherment-loop/C107-10",
+    "population": "bundle",
+    "status": "draft",
+    "stage": null
    }
   ],
   "columns": [
@@ -60436,6 +60586,28 @@
     ]
    },
    {
+    "row": "107-active-decipherment-loop/C107-10",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "107-active-decipherment-loop/C107-10",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "107-active-decipherment-loop/C107-11",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "107-active-decipherment-loop/C107-11",
+     "spec.md"
+    ]
+   },
+   {
     "row": "107-active-decipherment-loop/C107-2",
     "column": "spec.md",
     "column_class": "documents",
@@ -60487,6 +60659,39 @@
     "rule": "R2",
     "citations": [
      "107-active-decipherment-loop/C107-6",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "107-active-decipherment-loop/C107-7",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "107-active-decipherment-loop/C107-7",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "107-active-decipherment-loop/C107-8",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "107-active-decipherment-loop/C107-8",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "107-active-decipherment-loop/C107-9",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "107-active-decipherment-loop/C107-9",
      "spec.md"
     ]
    },
@@ -60735,8 +60940,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1073,
-   "rows_with_cells": 1059,
+   "rows_total": 1078,
+   "rows_with_cells": 1064,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -61094,30 +61299,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1596,
+   "cells_total": 1601,
    "cells_by_relation": {
-    "supports": 1589,
+    "supports": 1594,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1589,
+    "documents": 1594,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1064,
-    "total": 1073,
+    "covered": 1069,
+    "total": 1078,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1050,
-      "total": 1050
+      "covered": 1055,
+      "total": 1055
      }
     }
    },
@@ -66162,8 +66367,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1073,
-   "rows_with_cells": 1059,
+   "rows_total": 1078,
+   "rows_with_cells": 1064,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -66521,15 +66726,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1596,
+   "cells_total": 1601,
    "cells_by_relation": {
-    "supports": 1589,
+    "supports": 1594,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1589,
+    "documents": 1594,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -66598,7 +66803,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1049,
+    "draft": 1054,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -66611,23 +66816,23 @@
     "created": 1033,
     "explained": 8
    },
-   "no_stage_recorded": 29,
+   "no_stage_recorded": 34,
    "by_population": {
-    "bundle": 1050,
+    "bundle": 1055,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1064,
-   "total": 1073,
+   "covered": 1069,
+   "total": 1078,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1050,
-     "total": 1050
+     "covered": 1055,
+     "total": 1055
     }
    },
    "gap_claims": [
@@ -66644,8 +66849,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1073,
-   "total": 1073
+   "without_state": 1078,
+   "total": 1078
   },
   "unresolved": {
    "sign_mentions": [
@@ -68131,7 +68336,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261127T102311Z-ad74e8",
+      "record": "settling-20261127T133744Z-907cb1",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -68145,7 +68350,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261127T102312Z-07ef78",
+      "record": "settling-20261127T133744Z-92af7b",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -170928,6 +171133,431 @@
     },
     "sign_records": []
    }
+  },
+  "107-active-decipherment-loop/C107-11": {
+   "id": "107-active-decipherment-loop/C107-11",
+   "statement": "The cycle-2 posterior trace moves no standing, verdict, or tally in any program beyond the effects the cycle-2 outcome records license, and every effect it records cites its licensing outcome record. Does not establish: the trace is a bookkeeping instrument; it is not itself evidence for any decipherment claim.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A diff-level audit of the cycle-2 landing finds a standing, verdict, or tally change not licensed by a cycle-2 outcome record, or a trace effect citing no outcome record."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C107-11",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "107-active-decipherment-loop/C107-11",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "107-active-decipherment-loop/C107-11",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C107-11",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    },
+    "sign_records": []
+   }
+  },
+  "107-active-decipherment-loop/C107-8": {
+   "id": "107-active-decipherment-loop/C107-8",
+   "statement": "The C-E-15 feasibility decision for the Eteocypriot alignment line, applied to the filed record under its registered rule, returns PROCEED or STOP as the mechanical consequence of that rule over the inventoried correspondence sets. Does not establish: the decision concerns test feasibility only; it is not evidence about the Eteocypriot language, its affiliation, or any proposed reading.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A correspondence set satisfying all four registered conditions (independently identifiable, mutually independent items, unconsumed, arithmetically able to beat the named baselines) exists in the filed record while the decision returns STOP, or none exists while it returns PROCEED."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C107-8",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "107-active-decipherment-loop/C107-8",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "107-active-decipherment-loop/C107-8",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C107-8",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    },
+    "sign_records": []
+   }
+  },
+  "107-active-decipherment-loop/C107-7": {
+   "id": "107-active-decipherment-loop/C107-7",
+   "statement": "Positional-restriction recovery at Indus shape, re-measured at the realistic restriction levels ρ = 0.95 and ρ = 0.90 under the I-1 simulation machinery, returns the registered verdict (POSITIVE, NEGATIVE, or INDETERMINATE) as the mechanical consequence of the cycle-2 registration's R2 rule at the strictest measurable level ρ*, with two implementations in exact agreement. Does not establish: a POSITIVE verdict licenses reading Indus positional facts only at level ρ* with the measured error terms; it establishes nothing about what any Indus mark means or what language, if any, the corpus encodes.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "The verdict is not the mechanical consequence of the registered rule (a recomputation from the filed per-replication values under the registered rule returns a different verdict), or the two implementations disagree on any ground-truth set or per-replication count."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C107-7",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "107-active-decipherment-loop/C107-7",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "107-active-decipherment-loop/C107-7",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C107-7",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    },
+    "sign_records": []
+   }
+  },
+  "107-active-decipherment-loop/C107-9": {
+   "id": "107-active-decipherment-loop/C107-9",
+   "statement": "If C-E-15 returns PROCEED, the ICS 217 Greek control excerpt's L2/L3 tables, derived by the same code and standards as the development set's, either separate from the development tables on at least one registered statistic beyond split-half variation (POSITIVE) or are indistinguishable in kind on both (NEGATIVE); if C-E-15 returns STOP, E-2 does not execute and this claim's outcome is the recorded non-execution. Does not establish: the calibration measures whether frequency and adjacency statistics carry kind-level signal at this corpus size; it establishes nothing about Eteocypriot's affiliation or any reading.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "E-2 executes without a PROCEED decision, or its verdict is not the mechanical consequence of the registered comparison rule over the filed tables."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C107-9",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "107-active-decipherment-loop/C107-9",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "107-active-decipherment-loop/C107-9",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C107-9",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    },
+    "sign_records": []
+   }
+  },
+  "107-active-decipherment-loop/C107-10": {
+   "id": "107-active-decipherment-loop/C107-10",
+   "statement": "The five-item phonotactic battery, computed on the calibration-validated Meroitic basis and the two registered ASJP family sets under the registered lean, null, and control rules, returns POSITIVE for at most one family, NEGATIVE, or INDETERMINATE as the mechanical consequence of those rules. Does not establish: a POSITIVE verdict is typological support recorded in the trace only; it is not the Spec 102 affiliation test, does not consume its gates, and does not displace Spec 097's R3 position.",
+   "status": "draft",
+   "stage": null,
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "The battery's verdict is not the mechanical consequence of the registered rules over the filed item values, or the calibration STOP-gate figures were not reproduced before scoring and the battery scored anyway."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C107-10",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "107-active-decipherment-loop/C107-10",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "107-active-decipherment-loop/C107-10",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C107-10",
+     "document_id": null,
+     "path": "specs/107-active-decipherment-loop/claims.json",
+     "role": "source_of_record",
+     "sha256": "240048f2d7df56d583a672930ef3b7794025df966cf261b870eb83d1c1b15dc0",
+     "spec": "107-active-decipherment-loop"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -170935,7 +171565,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "0c4333af313e1447c57dfa0da63d3caa74ccd28f8376a26047337f9aa4777eed",
+   "sha256": "da1317e189eb68d47cc6f1f19ddb1363d9195def805476a3dc6afde18ff4dde5",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -170979,15 +171609,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261127T102311Z-ad74e8",
+    "record": "settling-20261127T133744Z-907cb1",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-      "lines": 1110
+      "sha256": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
+      "lines": 1115
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -171038,15 +171668,15 @@
     }
    },
    {
-    "record": "settling-20261127T102312Z-07ef78",
+    "record": "settling-20261127T133744Z-92af7b",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-      "lines": 1110
+      "sha256": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
+      "lines": 1115
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -171101,7 +171731,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "6194c08814ae760583b57b9208f955f647ed800e076b4dd81a4d15ad609ded4c",
+   "sha256": "c525968e3afdafdc4b82a47cd744a6a30d1fb629ad22428c77c1c877e9ff4f28",
    "result": {
     "claims_compared": [
      {
@@ -171349,7 +171979,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "e46920a61d3a4b1845e78e74a312b9f738be42fa27b19bb93a1acb9e707a3c0e",
+   "sha256": "5746e4a6254aee54e23799a8656edc8ad47791f50c8b7ac903ea8782efcfd53e",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -171684,8 +172314,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1073,
-   "claims_untouched_by_any_run": 1072,
+   "claims_total": 1078,
+   "claims_untouched_by_any_run": 1077,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,
