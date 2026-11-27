@@ -38,22 +38,22 @@
   records/cycle-2-registration-2026-11-27.md, the
   registration cascade) — before any cycle-2 scoring
   run.
-- [ ] T202 Execute I-2 on tower-compute under cycle-2
+- [x] T202 Execute I-2 on tower-compute under cycle-2
   registration §3, with the OD-O-1 preflight (§3) run
   and filed before any scoring (the OD-O-1 hold on
   this task was lifted by the owner's ruling of
   2026-11-27); file the outcome record and raw
   outputs; run TC-107-07.
-- [ ] T203 Complete the C-E-15 decision under §4; file
+- [x] T203 Complete the C-E-15 decision under §4; file
   the decision record in this package's records and
   update the C-E-15 row in the recommendations ledger;
   run TC-107-08.
-- [ ] T204 Execute E-2 under §5 — only on a C-E-15
+- [x] T204 Execute E-2 under §5 — only on a C-E-15
   PROCEED; on STOP, file the non-execution in the
   cycle-2 outcome record; run TC-107-09.
-- [ ] T205 Execute M-2 on tower-compute under §6
+- [x] T205 Execute M-2 on tower-compute under §6
   (calibration STOP-gate first); file the outcome
   record and raw outputs; run TC-107-10.
-- [ ] T206 Cycle close: cycle-2 outcome record,
+- [x] T206 Cycle close: cycle-2 outcome record,
   posterior trace, kill-criteria evaluation filed;
   TC-107-11 and TC-107-12 run; PROGRAM-STATE updated.

@@ -1,0 +1,20 @@
+{
+ "test": "M-2 calibration gate (Spec 107 cycle 2)",
+ "build_sha256": "1e91e3a0c52626482bc4015b597df862e7818602dab48a7e870240ab2e567bc4",
+ "development_texts": 335,
+ "reconstructed": {
+  "words": 4886,
+  "cvc_pairs": 5883,
+  "same_place_rate": 0.30018697943226247,
+  "nes_reference_rate": 0.3037542662116041,
+  "nes_forms": 374,
+  "nes_pairs": 293
+ },
+ "filed": {
+  "words": 12863,
+  "cvc_pairs": 13406,
+  "same_place_rate": 0.3152,
+  "nes_reference_rate": 0.3038
+ },
+ "gate_pass": false
+}
