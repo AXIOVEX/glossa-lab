@@ -32,13 +32,17 @@ adjusted to convert that stop into a pass.
 
 Population: P-join, the 179 joined pairs. Field:
 material class as recorded on the join output — the
-CISI data list's material value (`material_raw`; 23
-distinct raw values), in the class form Stage 2's
-freeze counted: **Steatite 176, Clay 1, Faience 1, and
-1 pair carrying no value, of 179.** (The T102 register
-is bound to the snapshot's values and does not cover
-the data list's; the field is taken as recorded, per
-the T201 definition §2.2 and the T103 audit §5.)
+CISI data list's material value, carried as
+`material_raw`. Its census on the join output, counted
+at Stage 2 and recomputed under §4 below, is:
+**Steatite 176, Clay 1, Faience 1, and 1 pair carrying
+the empty sentinel, of 179.** (The T103 audit's remark
+about 23 distinct raw values concerns the source CSV's
+material column; the join output the pass consumes
+carries the counted form above. The T102 register is
+bound to the snapshot's values and does not cover the
+data list's; the field is taken as recorded, per the
+T201 definition §2.2 and the T103 audit §5.)
 
 ## 3. Floors
 
@@ -70,10 +74,8 @@ taken. If they reproduce:
   outcome is **CANNOT BE ADMINISTERED**, with the
   forcing counts on the face of its outcome record:
   Steatite 176 alone at or above the floor of 10; Clay
-  1 and Faience 1 below it; 1 pair empty; 179 total.
-  The raw-value form agrees: of the 23 distinct raw
-  values, only the steatite value's count reaches the
-  floor.
+  1 and Faience 1 below it; 1 pair carrying the empty
+  sentinel; 179 total.
 
 ## 5. Statement strength
 
