@@ -766,6 +766,33 @@ standing, verdict, or tally moved. Totals after Round P:
 158 rows - 106 done, 31 accepted, 0 open, 21 rejected
 (Indus 50, Eteocypriot 46, Meroitic 62).
 
+OD-P rulings and deposits (2026-11-27). The owner ruled
+all four referred items in the Glossa-Lab chat on
+2026-11-27, under the deposit approval given the same day
+(04:05 ET): OD-P-1 (08:27 ET), carry the ensemble
+conformance qualification in the ELSEWHERE paper; OD-P-2
+(08:34 ET), retitle the paper to "Three Ancient Writing
+Systems" with the matching abstract phrase; OD-P-3
+(08:35 ET), apply the \u00a76 Amathus fix; OD-P-4 (08:35 ET),
+date-bound the Eteocypriot paper's next-study statements
+to the 23 November 2026 reporting cutoff. The items carry
+no rows, as with OD-O-1 and OD-O-2. All four were applied
+to the finals, verified sentence by sentence in the
+rendered PDFs, and deposited the same day: ELSEWHERE v2
+(9 pages, SHA-256 `2331fce2\u2026`), Zenodo record 24590521,
+DOI 10.5281/zenodo.24590521, Academia work 182066190
+updated and verified byte-identical; Eteocypriot v5
+(10 pages, SHA-256 `61240b58\u2026`), Zenodo record 24590530,
+DOI 10.5281/zenodo.24590530, Academia work 181628208
+updated and verified byte-identical. The ResearchGate
+updates for both new versions are owed on a later day's
+budget. Records: \u00a75 addenda to the two paper-review
+adjudication records, the Spec 106 release record of
+2026-11-27, and the v5 addendum to the Spec 096 release
+record. No standing, verdict, or tally moved; totals
+unchanged: 158 rows - 106 done, 31 accepted, 0 open, 21
+rejected (Indus 50, Eteocypriot 46, Meroitic 62).
+
 ## Briefing rule (closing note)
 
 Every future Co-scientist brief for any of the three

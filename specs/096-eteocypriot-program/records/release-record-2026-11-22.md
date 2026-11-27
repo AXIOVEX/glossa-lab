@@ -257,3 +257,52 @@ The scheduled ResearchGate v3 pass ran 2026-11-26 (browser task 11:04-11:14 ET).
 - **Source verification:** the v3 PDF was re-downloaded from Zenodo record 24533693 and its SHA-256 verified as `9f86e0e9291e5e6e2e58f1b6b799be9b4d011a3445c5d0242e377d4f5425c64f`, matching this record before any upload.
 - **ResearchGate publication 418211795 updated and verified:** the v2 file was replaced with `eteocypriot-alignment-v3.pdf` as the sole public full-text, and the header DOI was set to 10.5281/zenodo.24533693 (from 10.5281/zenodo.24449913). Verified on the public page afterward: header DOI 10.5281/zenodo.24533693, Public File 1 is the v3 file, preview reads "Preprint v3".
 - **Budget:** this was 1 of the 2 Glossa v3 edits this day; with the Riemann curvature-v2 retry earlier the same morning, the account-wide budget of about 3 publication changes per day was fully used. No "Edit limit reached" message appeared. The v4 ResearchGate update still trails to a later day; Zenodo remains the record of record.
+
+## Addendum 2026-11-27 (v5 loop-iteration deposit)
+
+Under the owner's standing loop order, the Round P paper
+review (the Eteocypriot session; adjudication
+`paper-review-adjudication-2026-11-27-v5.md`), and the
+owner's ruling OD-P-4 of 2026-11-27 (08:35 ET), the v5
+iteration carries the review's three applied corrections
+(the \u00a74.2 patronymic tie sentence, the LCCS expansion, the
+Hermary & Masson apparatus pages) and date-bounds the
+paper's next-study status statements to its reporting
+cutoff. BOOKKEEPING ONLY, as above: no verdict, standing,
+tally, score, or claim changed.
+
+- **Paper changes:** as itemized in the adjudication
+  record's \u00a75 addendum: the abstract and \u00a77 next-study
+  statements now stand at the 23 November 2026 reporting
+  cutoff, in the session's preferred wording; the later
+  outcome of that study is not imported. The printed DOI
+  is the v5 version DOI, set before the final build, so
+  the deposited hash is the hash of record.
+- **Zenodo:** record 24590530, DOI 10.5281/zenodo.24590530
+  (concept DOI 10.5281/zenodo.24449059), file
+  `eteocypriot-alignment-v5.pdf`, 10 pages, 197,834 bytes,
+  PDF SHA-256
+  `61240b582f5e93a7eb5e55d83d0034f87e500e4656e26671b58b03aca89cba39`,
+  MD5 `6a922b243c33a59e6d61bd5173a451bc`. Deposited as a
+  new version of record 24545017 through the deposit API;
+  record created 2026-11-27T13:43:39Z and published the
+  same minute (API timestamps). Verified from the
+  published record after publish: the file entry's
+  checksum matches the final.
+- **Academia:** work 181628208 updated in place through
+  the tower-compute automation profile: the v5 attachment
+  replacing the v4 file, the abstract set to the final's
+  abstract, and the DOI field set to
+  10.5281/zenodo.24590530. Verified 2026-11-27: the
+  served attachment (135965620) was downloaded through
+  the same route and is byte-identical to the deposited
+  final (SHA-256 `61240b58\u2026`). An operational note on
+  the session's tabs is filed with the ELSEWHERE v2
+  release record of the same date.
+- **ResearchGate:** publication 418211795 is scheduled to
+  receive v4 today (2026-11-27) under the shared daily
+  budget. The v5 update trails to a later day under the
+  same budget; Zenodo is the record of record.
+- **Loop wait:** the 1 hour post-publication wait runs
+  from the Zenodo publication of 2026-11-27 (13:43Z,
+  08:43 ET).
