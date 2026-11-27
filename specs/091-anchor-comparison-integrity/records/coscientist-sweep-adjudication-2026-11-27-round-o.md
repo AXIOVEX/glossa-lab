@@ -264,3 +264,21 @@ Nothing was published in Round O, so no post-publication wait
 runs.
 
 Landing: PR #784.
+
+## 7. Owner ruling on OD-O-1 (2026-11-27)
+
+Ruled by the owner in the Glossa-Lab chat on
+2026-11-27 (08:27 ET): cycle 2 proceeds, with the
+conformance-and-ground-truth preflight built into
+I-2's registration. The ruling is given effect in the
+cycle-2 registration landing (Spec 107,
+`records/cycle-2-registration-2026-11-27.md` §3): the
+preflight is a registered gate executed and filed
+before any I-2 scoring, and a preflight failure is
+I-2's filed outcome, returning no verdict. The
+alternative — halting cycle 2 pending a prospectively
+registered corrected I-1 simulation — is not taken.
+OD-O-2 (§5) remains unruled at this entry; the E-1
+conformance qualifications stand as filed. This entry
+records the ruling; it decides nothing else, and no
+standing, verdict, or tally moves under it.

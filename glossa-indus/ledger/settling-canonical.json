@@ -432,14 +432,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 107 cycle-2 registration (branch spec-107-cycle-2-registration-b; records: specs/107-active-decipherment-loop/records/cycle-2-registration-2026-11-27.md and specs/107-active-decipherment-loop/records/cycle-2-registration-cascade-2026-11-27.md). The owner (Tristen Pierson) commissioned cycle 2 in the Glossa-Lab chat on 2026-11-27 under his keep-working directive and ruled OD-O-1 the same day (08:27 ET): cycle 2 proceeds with a conformance-and-ground-truth preflight built into I-2's registration. This entry registers the cycle-2 claims intake (C107-7..C107-11).",
+   "reason": "The claims ledger grew by append-only intake: the 5 bundle claims of Spec 107's second bundle file (specs/107-active-decipherment-loop/claims.json, C107-7..C107-11) were appended through tools/ledger/import_bundle.py on 2026-11-27 (5 appended, 6 already canonical, 11 propositions). The registration adopts the later of two unlanded registration drafts prepared the same day (verified byte-identical package files), amended for the OD-O-1 ruling; the cascade is executed here over the current build. The canonicals' provenance pin names the ledger build they were derived over; the pin is refreshed to the new build under this registration's amendment discipline. The semantics (glossa-settle-1) are unchanged; no rule in SETTLING-SEMANTICS.md moved, so no new semantics version is registered.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
+    "lines": 1110
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
+    "lines": 1115
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, phase-108 register, and corpus snapshot pins identical). Both T405 scenarios were re-executed over the grown build (runs settling-20261127T133744Z-907cb1 incumbent, settling-20261127T133744Z-92af7b full-register); both result blocks are byte-equal to the superseded generation's, and the pair's input pins are identical to the superseded generation's except the ledger pin itself. The Stage 4 dual-run comparison was re-filed from the new pair; its diff against the previous filing is the ledger pin only. Assignment sets were re-materialized unchanged (run settling-20261127T133827Z-ea29e2; incumbent 94, full-register 286, H003 out of frame)."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-   "lines": 1110
+   "sha256_canonical": "ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a",
+   "lines": 1115
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",

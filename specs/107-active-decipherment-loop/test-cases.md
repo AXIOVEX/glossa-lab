@@ -4,14 +4,20 @@ Each test case names the claim it exercises, its
 procedure, and its pass condition. Stage 0's acceptance
 test is TC-107-01; the Stage 1 test cases execute with
 cycle 1 and their results are filed in the cycle-1
-outcome record.
+outcome record. The Stage 2 test cases (TC-107-07..
+TC-107-12) execute with cycle 2 and their results are
+filed in the cycle-2 outcome record; TC-107-01 is
+re-run over the amended package at the cycle-2
+registration.
 
 **TC-107-01 — Package form (C107-1; Stage 0).**
-Parse aee-claims.json; compare its claim ids and order
-against claims.md; check every claim for a falsifier and
+Parse the package's bundle files (aee-claims.json for
+C107-1..C107-6, claims.json for C107-7..C107-11); compare
+their combined claim ids and order against claims.md;
+check every claim for a falsifier and
 a does-not-establish line; check that spec.md §2 states
 the five loop steps and §4 the five kill criteria.
-*Pass:* the ids and order are equal (C107-1..C107-6);
+*Pass:* the ids and order are equal (C107-1..C107-11);
 every claim carries both lines; the loop and the
 criteria are stated in full.
 
@@ -91,3 +97,71 @@ changes any program's cycle-2 lead).
 traceable to the filed trace, and the loop's state after
 cycle 1 (open or closed, with the criterion named if
 closed) is stated.
+
+**TC-107-07 — I-2 execution conformance (C107-7;
+Stage 2).** Read the I-2 outcome record and its filed
+per-replication values. Recompute the verdict from the
+filed values under cycle-2 registration §3's rule
+(ground truth at ρ = 0.95 and ρ = 0.90 with the sole-only
+exclusion, measurability floor, ρ* selection,
+thresholds).
+*Pass:* the filed verdict equals the recomputed verdict,
+the two implementations' agreement statement covers
+every ground-truth set and per-replication count, and
+the filed donor pins match the custody bytes.
+
+**TC-107-08 — C-E-15 decision conformance (C107-8;
+Stage 2).** Read the C-E-15 decision record. Check that
+every inventoried correspondence set is assessed against
+all four registered conditions (cycle-2 registration §4
+(i)–(iv)), that the named baseline arithmetic is shown,
+and that the returned result is the rule's mechanical
+consequence over the inventory.
+*Pass:* all three hold.
+
+**TC-107-09 — E-2 conformance / non-execution (C107-9;
+Stage 2).** If C-E-15 returned PROCEED: read the E-2
+outcome record; recompute statistics (a) and (b) and
+the split-half variations from the filed tables, and
+apply cycle-2 registration §5's rule. If C-E-15 returned
+STOP: check that no E-2 execution record or scoring
+output exists anywhere in the landing and that the
+cycle-2 outcome record carries the non-execution as the
+Eteocypriot outcome.
+*Pass:* in the PROCEED case, the filed verdict is the
+mechanical consequence of §5's rule over the recomputed
+figures; in the STOP case, the non-execution is complete
+as stated.
+
+**TC-107-10 — M-2 execution conformance (C107-10;
+Stage 2).** Read the M-2 outcome record.
+*Pass:* (1) the calibration STOP-gate figures are filed
+as reproduced (12,863 words; 13,406 pairs; 0.3152;
+0.3038, each to 4 decimal places) before any battery
+figure; (2) the ASJP mapping table is filed in the run
+record and predates the battery figures; (3) the verdict
+recomputes from the filed item values under cycle-2
+registration §6.4's rules; (4) the record states that no
+Otten byte was consumed and the custody hashes filed
+match the custody bytes.
+
+**TC-107-11 — Cycle-2 trace discipline (C107-11;
+Stage 2, executed at pull-request time).** Diff the
+cycle-2 execution landing against its base.
+*Pass:* every standing, verdict, or tally change in the
+diff is licensed by a cycle-2 outcome record, every
+effect in the cycle-2 trace cites its outcome record,
+and the I-2, C-E-15/E-2, and M-2 effects match cycle-2
+registration §3, §5, and §6's registered effects exactly.
+
+**TC-107-12 — Kill-criteria evaluation, cycle 2
+(C107-6; Stage 2).** Read the cycle-2 trace's
+kill-criteria section: each of the five criteria of
+spec.md §4 is tested against cycle 2's filed outcomes
+(criterion 1 against cycles 1 and 2 jointly, criterion 4
+against the minimum set in cycle-2 registration §2),
+each with its evidence cited.
+*Pass:* all five evaluations are present, each follows
+from the filed outcomes, and the section's conclusion
+(the loop open or closed, with the criterion named if
+closed) follows from the evaluations.

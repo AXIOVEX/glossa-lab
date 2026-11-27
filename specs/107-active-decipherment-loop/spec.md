@@ -317,10 +317,14 @@ corpora were asked and what they answered.
   evaluation filed at cycle close (records/
   cycle-1-outcome-2026-11-26.md and
   records/cycle-1-trace-2026-11-26.md).
-- **Stage 2 — Cycle 2 (not commissioned).** Re-ranked
-  queues and the next cycle are a later stage under the
-  owner's further commission or the loop's standing
-  operation as he directs.
+- **Stage 2 — Cycle 2 (COMMISSIONED 2026-11-27 by the
+  owner's keep-working directive in the Glossa-Lab
+  chat).** Registered at
+  records/cycle-2-registration-2026-11-27.md: I-2
+  (positional recovery at realistic restriction
+  levels), the C-E-15 feasibility decision with E-2
+  gated behind it, and M-2 (the phonotactic battery).
+  Tasks T201–T206.
 
 ## 7. Standing
 

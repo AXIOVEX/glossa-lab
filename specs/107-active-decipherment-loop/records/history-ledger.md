@@ -96,3 +96,63 @@ tally in any program. Execution follows in Stage 1.
   records/cycle-1-trace-2026-11-27.md (O-M-2). Adjudication:
   specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-27-round-o.md.
   No standing, verdict, or tally moved.
+
+## 2026-11-27 - Cycle 2 COMMISSION (owner act)
+
+- Kind: COMMISSION. Actor: the owner, in the
+  Glossa-Lab chat, 2026-11-27, under his
+  keep-working directive (work continues until
+  nothing is left undone); cycle 1's report had
+  named cycle 2's leads and left its registration
+  to this commission.
+- Scope as commissioned: I-2 (the Indus
+  positional-recovery calibration re-specified at
+  realistic restriction levels); the C-E-15
+  feasibility decision completed to a proceed/stop
+  result, with E-2 gated behind it; M-2 (the
+  Meroitic phonotactic battery). Registration
+  before any execution, under this spec's frame.
+
+## 2026-11-27 - OD-O-1 RULING (owner act)
+
+- Kind: RULING. Actor: the owner, in the Glossa-Lab
+  chat, 2026-11-27 (08:27 ET). Round O had referred
+  the I-1 duplication nonconformance's criterion-5
+  treatment to him as OD-O-1. He ruled: cycle 2
+  proceeds, with a conformance-and-ground-truth
+  preflight built into I-2's registration. The
+  ruling is recorded in the Round O adjudication
+  record (§7, appended in the cycle-2 registration
+  landing) and given effect at §3 of the cycle-2
+  registration. OD-O-2 (the E-1 conformance gaps)
+  remains unruled.
+
+## 2026-11-27 - Cycle 2 REGISTRATION (this landing)
+
+- Kind: ITERATION (registration). The cycle-2
+  registration record is filed at
+  records/cycle-2-registration-2026-11-27.md (the
+  ranking record with sensitivities, the null-yield
+  minimum for cycle 2, and the full registrations
+  of I-2 with the OD-O-1 preflight gate, the C-E-15
+  decision procedure, E-2, and M-2). Claims
+  C107-7..C107-11 intaken; test cases
+  TC-107-07..TC-107-12 added; TC-107-01's pass line
+  amended (C107-1..C107-6 → C107-1..C107-11) as a
+  disclosed package-form amendment of this landing;
+  spec.md §6 Stage 2 updated to commissioned. The
+  registration cascade's executed figures are filed
+  at records/cycle-2-registration-cascade-2026-11-27.md.
+- Drafting history (disclosed in the registration
+  record): two earlier unlanded drafts of this
+  registration (branch spec-107-cycle-2-registration
+  at 37833204; unpushed commit 35a84635) were
+  prepared by a coordinator that became unreachable;
+  this landing adopts the later draft's package,
+  amended for the OD-O-1 ruling, with the cascade
+  re-executed over the current ledger build. The
+  unlanded branch is deleted on this landing's
+  completion.
+- Registration moves no standing, verdict, or tally
+  in any program. Execution follows in Stage 2
+  tasks T202–T206.
