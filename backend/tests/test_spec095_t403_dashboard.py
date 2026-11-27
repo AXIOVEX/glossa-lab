@@ -38,7 +38,7 @@ def test_home_census_is_the_records_census(client):
     body = client.get(f"{BASE}/home").json()
     claims = _ledger_claims()
     assert body["census"]["claims"] == len(claims) == 1073
-    assert body["census"]["ledger_lines"] == 1110
+    assert body["census"]["ledger_lines"] == 1118
     assert body["census"]["studies"] == 109
     anchors = json.loads(
         (REPO / "backend" / "reports" / "INDUS_FINAL_ANCHORS.json")

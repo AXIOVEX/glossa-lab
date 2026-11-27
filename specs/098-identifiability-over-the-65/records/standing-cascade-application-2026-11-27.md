@@ -139,9 +139,18 @@ its face.
 - Derived layers regenerated over the grown build: the matrix
   (`glossa-indus/matrix/`), the map (`glossa-indus/map/map-data.json`)
   and the program map (`glossa-indus/map/program-map*.json/html`).
-  The dashboard census pins in
-  `backend/tests/test_spec095_t403_dashboard.py` (lines 193 and 218)
-  now name the new incumbent run `settling-20261127T135013Z-720cf7`.
+  Census pins were updated from the regenerated actuals: the
+  dashboard pins in `backend/tests/test_spec095_t403_dashboard.py`
+  name the new incumbent run `settling-20261127T135013Z-720cf7`
+  (lines 193 and 218) and the grown ledger (line 41);
+  `backend/tests/test_spec086_map.py` (line 219) and
+  `backend/tests/test_spec095_stage4_instantiation.py` pin the
+  grown ledger's 1,118 lines and its 14 reclassifications; and
+  `backend/tests/test_program_map_conformance.py` pins the new
+  class census (open 1055, positive 10). The first CI run on this
+  landing's pull request named the four files' stale pins; the
+  pins were updated from the regenerated artifacts, verified
+  locally (47 tests passing across the four files), and re-run.
 - Landing structure: the map builder carries every standing settling
   evaluation record and refuses a record pinned to another ledger
   build (its D-D rule), so the map could only be regenerated after
