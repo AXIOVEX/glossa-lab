@@ -233,7 +233,7 @@ def test_sections_census(built) -> None:
     assert rels == {"supports": 1589, "opposes": 7}
     assert len(data["loads"]) == 1073
     system = data["system"]
-    assert system["falsifier_census"]["covered"] == 1057
+    assert system["falsifier_census"]["covered"] == 1064
     assert system["falsifier_census"]["total"] == 1073
     assert system["aee_state_census"] == {
         "with_state": 0,
