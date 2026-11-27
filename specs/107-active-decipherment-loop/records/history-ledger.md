@@ -156,3 +156,30 @@ tally in any program. Execution follows in Stage 1.
 - Registration moves no standing, verdict, or tally
   in any program. Execution follows in Stage 2
   tasks T202–T206.
+- 2026-11-27 — **CYCLE 2 EXECUTION.** I-2 executed as
+  registered: the OD-O-1 preflight PASSED in full (shape
+  exact; achieved duplication exactly 0.011976 in 120/120
+  replications; ground-truth sets in exact
+  two-implementation agreement) and the verdict is
+  INDETERMINATE — R1 positive for both donors, R2
+  measurable for neither (ground-truth restricted sets:
+  Meroitic 1 mark, Latin 0, against a floor of 5).
+  C-E-15 decided STOP (the ICS 196 pair consumed; the
+  one remaining correspondence a single trial below the
+  battery's arithmetic reach); E-2 did not execute and
+  its non-execution is filed. M-2 STOPPED at its
+  calibration gate with a basis finding: the filed
+  figures were computed over the development partition
+  plus the Otten corpus's 932 example phrases, which
+  the registration excludes and which are absent from
+  tower custody; the Kovetsky-only reconstruction yields
+  4,886 of 12,863 words while the NES reference
+  reproduces exactly.
+- 2026-11-27 — **CYCLE 2 CLOSE.** The cycle-2 outcome
+  record files the posterior trace and the kill-criteria
+  evaluation: no criterion is met (criterion 4 against
+  registration §2's minimum is satisfied by the STOP
+  decision and the basis finding; criterion 5 records
+  OD-O-1 discharged and OD-O-2 standing as an open owner
+  referral) and the loop stays open. No standing,
+  verdict, or tally in any program moves.
