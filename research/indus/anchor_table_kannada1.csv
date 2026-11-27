@@ -1,0 +1,398 @@
+Sign,Reading,Kannada_archaic,Confidence,DEDR,Source,Basis
+M342,ay/ā,ಆ (ā) — terminal / oblique vowel,HIGH,,,"Terminal marker, Dravidian case suffix"
+M176,an/aṇ,ಅಂ (-aṁ) — masc. nom. suffix,HIGH,,,Masculine suffix
+M267,iN/in (genitive of),ಇನ (-ina) — genitive suffix,MEDIUM,,Phase-74 grammar z=8.04 p<0.0001 + Phase-64 score=7.0,"FACT-CHECK CORRECTION 2026-05-11: Original V6 assignment 'min/mīn' (HIGH) was wrong. M267 has freq=400 in the Holdat corpus and appears across ALL motif types (unicorn 127, zebu bull 72, elephant 37, rhinoceros 25, etc.) — it is NOT an iconographic fish sign. The actual Mahadevan fish sign is M047 (freq=13, P47 in Parpola's system, as documented in mahadevan_parpola_crosswalk.json). M267 is most likely a high-frequency functional/suffixal sign. Downgraded from HIGH. Previous: {'reading': 'min/mīn', 'confidence': 'HIGH', 'basis': 'Fish sign = star/planet (Parpola)'}"
+M099,kol/koḷ,ಕೊಳ್ (koḷ) — to take / hold; vessel,HIGH,,,Jar/vessel sign
+M233,ūr,ಊರ್ (ūr) — village / town,HIGH,,+Phase48_validated,Settlement/place marker
+M391,ka/kaṇ,ಕಣ್ (kaṇ) — eye / stroke,HIGH,,+Phase48_validated,Numeral/stroke sign
+M162,il/iḷ,ಇಲ್ → ಮನೆ (mane) — house,HIGH,,+Phase48_validated,House/dwelling sign
+M328,ā/āl,ಆಳ್ (āḷ) — man / person,HIGH,,+Phase48_validated,Man/person sign
+M059,ēḷ/eḷ,ಏಳ್ (ēḷ) — seven,HIGH,,+Phase48_validated,Numeral 7
+M051,pū/puḷ,ಪೂ (pū) — flower (→ ಹೂ),HIGH,,+Phase48_validated,Comb/flower sign
+M089,tu/tū,ತು (-tu) — terminal / neut. (syllabic),HIGH,,+Phase48_validated,Positional analysis; UPGRADED: high frequency (171); consistent TERMINAL position (n=171); collocates with HIGH anchor M342 (n=15); collocates with HIGH anchor M267 (n=6); collocates with HIGH anchor M176 (n=6); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M176 (n=12); collocates with HIGH anchor M267 (n=10); has specific PDR reading
+M048,mu/muṉ,ಮುನ್ (mun) — before / front,HIGH,,+Phase48_validated,Positional analysis; UPGRADED: high frequency (157); consistent TERMINAL position (n=157); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M267 (n=7); collocates with HIGH anchor M176 (n=5); collocates with HIGH anchor M342 (n=17); collocates with HIGH anchor M176 (n=8); has specific PDR reading
+M367,am/neuter,ಅಂ (-aṁ) — neuter nom. suffix,HIGH,,+Phase48_validated,terminal diamond = neuter suffix; UPGRADED: high frequency (190); consistent TERMINAL position (n=190); collocates with HIGH anchor M176 (n=8); collocates with HIGH anchor M099 (n=6); collocates with HIGH anchor M267 (n=5); collocates with HIGH anchor M342 (n=16); collocates with HIGH anchor M176 (n=13); collocates with HIGH anchor M267 (n=12); collocates with HIGH anchor M099 (n=9); has specific PDR reading
+M336,iṉ/locative,ಒಳ್ (-oḷ) — locative suffix,HIGH,,+Phase48_validated,chevron terminal = locative case marker; UPGRADED: high frequency (161); consistent TERMINAL position (n=161); collocates with HIGH anchor M342 (n=14); collocates with HIGH anchor M099 (n=6); collocates with HIGH anchor M267 (n=5); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M267 (n=12); collocates with HIGH anchor M176 (n=8); has specific PDR reading
+M012,oṉṟu/1,ಒಂದು (ondu) — one,HIGH,,+Phase48_validated,single stroke = numeral 1
+M305,ōṭu/comitative,ಒಡನೆ (oḍane) — with (sociative),HIGH,,+Phase48_validated,terminal pinch mark; UPGRADED: moderate frequency (83); consistent TERMINAL position (n=83); collocates with HIGH anchor M342 (n=10); collocates with HIGH anchor M176 (n=7); has specific PDR reading
+M062,erutu,ಎತ್ತು (ettu) — ox,HIGH,,,"Exclusive to zebu bull seals (lift > 5.0); PDR erutu = bull, ox"
+M073,kōṉ,ಕೋನ್ (kōn) — king / herdsman,HIGH,,+Phase48_validated,Exclusive to zebu bull seals (lift > 5.0); PDR kōṉ = king (bull metaphor)
+M045,yānai,ಆನೆ (āne) — elephant,HIGH,,,Exclusive to elephant seals (lift > 5.0); PDR yānai = elephant
+M016,kaḷiṟu,ಕಳಿಱು (kaḷiṟu) — tusker (male elephant),HIGH,,,Exclusive to elephant seals (lift > 5.0); PDR kaḷiṟu = male elephant
+M013,nakaram,ಮೊಸಳೆ (mosaḷe) — crocodile (makara-mocaḷi),HIGH,,+Phase48_validated,Exclusive to gharial seals (lift > 5.0); PDR nakaram = crocodile/makara
+M060,kāṇṭāmirukam,ಖಡ್ಗಮೃಗ (khaḍgamṛga) — rhinoceros,HIGH,,+Phase48_validated,Exclusive to rhinoceros seals (lift > 5.0); PDR kāṇṭāmirukam = rhinoceros (horn-beast)
+M080,vēṅkai,ಪುಲಿ (puli) — tiger (poetic),HIGH,,+Phase48_validated,Exclusive to tiger seals (lift > 5.0); PDR vēṅkai = tiger (poetic)
+M057,māṭu,ಮಾಡು (māṭu) retroflex ṭ/ḍ (ಟ/ಡ) — cattle / wealth,HIGH,,+Phase48_validated,Exclusive to zebu bull seals (lift > 5.0); PDR māṭu = cattle
+M039,āṉai,ಆನೆ (āne) — elephant,HIGH,,+Phase48_validated,Exclusive to elephant seals (lift > 5.0); PDR āṉai = elephant (variant)
+M067,kōṭṭāṉ,ಕೋಡು (kōḍu) — horned one,MEDIUM,,,Exclusive to rhinoceros seals (lift > 5.0); PDR kōṭṭāṉ = horned one
+M068,maṟi,ಮಱಿ (maṟi) — young one / calf,MEDIUM,,,Exclusive to rhinoceros seals (lift > 5.0); PDR maṟi = young animal/calf (generic); UPGRADED-V18: HIGH-anchor collocate M342 (n=4); has specific PDR reading
+M006,puli,ಪುಲಿ (puli) — tiger (→ ಹುಲಿ),HIGH,,,Exclusive to tiger seals (lift > 5.0); PDR puli = tiger
+M063,mutalai,ಮೊಸಳೆ (mosaḷe) — crocodile,HIGH,,+Phase48_validated,"FACT-CHECK CORRECTION 2026-05-11: Original V7 assignment was HIGH based on claimed 'lift > 5.0 on gharial seals'. Actual measured gharial lift = 4.35 (below threshold). M063 appears on 3/18 seals with gharial motif (vs. 4 unicorn, 3 zebu bull). Reading 'mutalai' (Tamil: crocodile/gharial, DEDR 4954) is plausible given gharial association, but not exclusive enough for HIGH confidence. Downgraded HIGH → MEDIUM. Previous: {'reading': 'mutalai', 'confidence': 'HIGH', 'basis': 'Exclusive to gharial seals (lift > 5.0); PDR mutalai = crocodile'}"
+M077,nal,ನಲ್ (nal) — good,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading"
+M018,nēr,ನೇರ್ (nēr) — straight / fitting,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading"
+M030,kō,ಕೋ (kō) — king / cow,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); HIGH-anchor collocate M342 (n=4); has specific PDR reading"
+M017,kai,ಕೈ (kai) — hand,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading"
+M020,kuṉ,ಕುನ್ಱ (kunṟa) — hill,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading"
+M004,kēḷ,ಕೇಳ್ (kēḷ) — to hear / ask,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M014,tiru,ತಿರು (tiru) — sacred / prosperity,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M026,mā,ಮಾ (mā) — great / beast,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M034,tōḷ,ತೋಳ್ (tōḷ) — arm / shoulder,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M027,māṟ,ಮಾಱು (māṟu) — change / exchange,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M041,pēr,ಪೇರ್ (pēr) — big / great,HIGH,,+Phase48_validated,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M038,pōr,ಪೋರ್ (pōr) — battle,MEDIUM,,,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M010,paṭ,ಪಡು (paḍu) — to undergo / befall,MEDIUM,,,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M050,pār,ಪಾರ್ (pār) — to see / earth,MEDIUM,,,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M025,cem,ಕೆಂ (keṁ) — red (→ ಕೆಂಪು),MEDIUM,,,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M070,vēl,ಬೇಲ್ (bēl) — spear,MEDIUM,,,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M078,cēr,ಸೇರ್ (sēr) — to join / reach,MEDIUM,,,"Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading"
+M023,vaḷ,ಬಳ (vaḷ) — abundance / fertile,MEDIUM,,,"Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading"
+M066,cōḻ,ಚೋಳ (cōḻa) — Chola,MEDIUM,,,"Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading"
+M071,nal,ನಲ್ (nal) — good,HIGH,,,"Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M267 (n=4); HIGH-anchor collocate M342 (n=4); has specific PDR reading [Phase-116 recal: SA-cons=1.00✓ DEDR✓]"
+M009,āṇ,ಆಣ್ (āṇ) — male,MEDIUM,,,"Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading"
+M069,nēr,ನೇರ್ (nēr) — straight / fitting,MEDIUM,,,"Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading"
+M021,kō,ಕೋ (kō) — king / cow,MEDIUM,,,"Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading"
+M031,kai,ಕೈ (kai) — hand,HIGH,,,"Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M342 (n=5); has specific PDR reading [Phase-116 recal: SA-cons=1.00✓ DEDR✓]"
+M002,kuṉ,ಕುನ್ಱ (kunṟa) — hill,MEDIUM,,,"Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading"
+M037,kēḷ,ಕೇಳ್ (kēḷ) — to hear / ask,MEDIUM,,,"Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M267 (n=4); has specific PDR reading"
+M005,kōṉ,ಕೋನ್ (kōn) — king / herdsman,MEDIUM,,,"Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); HIGH-anchor collocate M342 (n=4); has specific PDR reading"
+M011,kaḷiṟu,ಕಳಿಱು (kaḷiṟu) — tusker (male elephant),HIGH,,,"Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading [Phase-116 recal: SA-cons=0.50✓ DEDR✓]"
+M036,tiru,ತಿರು (tiru) — sacred / prosperity,MEDIUM,,,"Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading"
+M015,mā,ಮಾ (mā) — great / beast,MEDIUM,,,"Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading"
+M001,tōḷ,ತೋಳ್ (tōḷ) — arm / shoulder,MEDIUM,,Parpola 1994++Parpola_1994,"Round 2: INITIAL position (freq=14), distributional assignment"
+M075,māṟ,ಮಾಱು (māṟu) — change / exchange,MEDIUM,,,"Round 2: INITIAL position (freq=14), distributional assignment; UPGRADED-V18: HIGH-anchor collocate M267 (n=4); has specific PDR reading"
+M042,vaN,ಬಣ್ (baṇ) — colour / beauty,HIGH,,"Phase-89 systematic DEDR (ICON, MEDIUM)",[Phase-116 recal: SA-cons=0.62✓ DEDR✓]
+M040,ri,ರಿ (ri) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='ri' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=13."
+M024,nē,ನೇ (nē) — syllabic,MEDIUM,,Phase-105,Phase-73 SA syl_modal='nē' (Dravidian syllabic LM). Iconography: potted-plant/sprout sign ~ nē (sprouting). Phase-103: appears in 13 name slots; NAME_AY_AN pattern. DEDR 3741 nē = 'you (formal)' or nēr = 'straight/true'. Personal name component: Nē-an (true man). Freq=13; Pos=INITIAL; name_slots=5.
+M049,pu,ಪು (pu) — syllabic,HIGH,DEDR 4349,Phase-80 DEDR rebus (puL = DEDR 4349),[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M081,ve,ಬೆ (ve) — syllabic,HIGH,DEDR 5500,Phase-80 DEDR rebus (veeNkai = DEDR 5500),[Phase-116 recal: SA-cons=0.50✓ DEDR✓]
+M047,min/mīn,ಮೀನ್ (mīn) — fish / star,MEDIUM,,,"FACT-CHECK CORRECTION 2026-05-11: Distributional assignment 'par' (LOW, Round 2) overridden by crosswalk evidence. M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan 1977). Reading 'mīn' (fish/star, DEDR 4897) is the Parpola canonical anchor confirmed by iconographic_anchors.json (fish-in-crocodile-mouth, H-902B offerings tablet, eZu-miin compound). Freq=13 in Holdat corpus. Previous distributional: {'reading': 'pār', 'confidence': 'LOW', 'basis': 'Round 2: INITIAL position (freq=13), distributional assignment'}"
+M033,puli,ಪುಲಿ (puli) — tiger (→ ಹುಲಿ),HIGH,,,"Round 2: INITIAL position (freq=12), distributional assignment; UPGRADED-V18: HIGH-anchor collocate M267 (n=4); has specific PDR reading [Phase-116 recal: SA-cons=1.00✓ DEDR✓]"
+M074,ker,ಕೆಱೆ (keṟe) — tank / pond,MEDIUM,,Phase-87 DEDR_REBUS_EXTENDED,
+M054,mi,ಮಿ (mi) — syllabic,MEDIUM,DEDR 4855,Phase-80 DEDR rebus (miiNDu = DEDR 4855),
+M072,mā,ಮಾ (mā) — great / beast,MEDIUM,"DEDR 4751 (mā = great/large, Tamil)",Phase-129 positional upgrade,"Phase-129 positional squeeze: M072 is consistently INITIAL (12/12 tokens). SA modal = 'mā'. DEDR 4751 mā = great/large (very common Tamil adjective). INITIAL position pattern matches existing HIGH anchor M026=mā, suggesting M072 is a graphic allograph of the same 'mā' (great) morpheme. Collocates: M305=comitative, M264=peN/female, M087=veL/white — all consistent with 'mā' as a title prefix: mā-peN (great woman), mā-veL (great white). SA consistency: 1.00 (all 12 instances give 'mā'). Phase-129 MEDIUM."
+M055,miN3,ಮೀನ್ (mīn) — star (var.),MEDIUM,,"Phase-89 systematic DEDR (ICON, MEDIUM)",
+M028,cōḻ,ಚೋಳ (cōḻa) — Chola,MEDIUM,,Parpola 1994+,"Round 3: INITIAL position (freq=11), distributional assignment"
+M043,mu,ಮು (mu) — syllabic,HIGH,DEDR 5009,Phase-80 DEDR rebus (muukku = DEDR 5009),[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M029,yānai,ಆನೆ (āne) — elephant,MEDIUM,,Parpola 1994+,"Round 3: INITIAL position (freq=11), distributional assignment"
+M064,va,ವ (va) — syllabic,HIGH,DEDR 5243,Phase-80 DEDR rebus (vaai = DEDR 5243),[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M007,aaL,ಆಳ್ (āḷ) — man / person,MEDIUM,,"Phase-89 systematic DEDR (ICON, HIGH)",
+M046,kaL,ಕಳ್ (kaḷ) — toddy / to steal,HIGH,,"Phase-89 systematic DEDR (ICON, MEDIUM)",[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M032,koL,ಕೊಳ್ (koḷ) — to take,HIGH,,"Phase-89 systematic DEDR (ICON, MEDIUM)",[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M169,rā,ರಾ (rā) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='rā' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=8."
+M237,ce,ಚೆ (ce) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='ce' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=8."
+M102,ni,ನಿ (ni) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='ni' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR 3596: water. freq=8."
+M076,naN,ನಣ್ (naṇ) — kin / friend,HIGH,,Phase-91 threshold-1.0 (score=1.00),[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M272,ma,ಮ (ma) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='ma' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR 4751: great. freq=7."
+M128,kaṇ,ಕಣ್ (kaṇ) — eye,HIGH,,Parpola 1994+,"Round 3: MEDIAL position (freq=7), distributional assignment [Phase-116 recal: SA-cons=0.12✓ DEDR✓]"
+M082,pa,ಪ (pa) — syllabic,MEDIUM,DEDR 3966,Phase-80 DEDR rebus (pal = DEDR 3966),
+M235,vē,ಬೇ (vē) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=7."
+M149,or,ಓರ್ (ōr) — one (attributive),MEDIUM,"DEDR 987 (oru = one/a, Tamil); DEDR 994 (oru = a certain)",Phase-129 positional upgrade,"Phase-129 positional squeeze: MEDIAL position (7/7 tokens). SA modal = 'or'. DEDR 987 oru/or = one (numeral/article). Collocates before: M073=kōṉ (king/bull), M391=ka/kaṇ (numeral), M293=ta. Collocates after: M176=an/aṇ (masc suffix), M087=veL. Pattern: [king-sign]→M149→[masc-suffix] = '[kōṉ]-or-an' = 'the one who is king' or 'a certain king' — Dravidian partitive/numeral in title compound. SA consistency: 0.71 (5/7 instances give 'or'). Phase-129 MEDIUM."
+M185,pul,ಪುಲ್ (pul) — grass (→ ಹುಲ್ಲು),MEDIUM,"DEDR 4336 (pul = grass/humble/low, Tamil)",Phase-129 positional upgrade,"Phase-129 positional squeeze: MEDIAL position (7/7 tokens). SA modal = 'pol'. Nearest DEDR: 4336 pul (grass/humble/low, Tamil) or 4532 pol (resemble). 'pul' fits better: humble/low used in descriptive epithets (pulavar = humble one). Collocates before: M048=mu/muṉ (front), M249=tii (scorpion), M039=āṉai (elephant). Collocates after: M328=āl (man), M391=kaṇ (numeral), M362=aṇi. Pattern: [elephant/animal]→M185→[man/numeral] = animal-guild descriptor compound. SA consistency: 0.57. Phase-129 MEDIUM (borderline — DEDR + positional both fit)."
+M383,kol,ಕೊಳ್ (koḷ) — to seize / hold,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='kol' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=7."
+M375,taṇ,ತಣ್ (taṇ) — cool,MEDIUM,,Phase-105,Folded-arm sign ~ taṇ 'cool/refreshing' (DEDR 3009) or taṇṭu 'staff/rod'. Phase-103 NAME_AY_AN pattern: [M375]-M342-M176 (taṇ-ay-an = 'cool/noble man'). Sangam Akam poetry: taṇ- is a common personal name prefix. Freq=7; Pos=MEDIAL; name_slots=4.
+M270,muḷ,ಮುಳ್ (muḷ) — thorn,LOW,,,"Round 4: MEDIAL position (freq=6), distributional assignment"
+M401,vē,ಬೇ (vē) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=6."
+M374,kul,ಕುಲ (kula) — clan / tiger (substrate),MEDIUM,"DEDR 1709 (kulam = clan/lineage, Tamil)",Phase-128 substrate upgrade,"Phase-123 substrate match: Munda 'kul' (tiger/king-tiger, Witzel 1999). DEDR 1709 kulam = clan/lineage — attested Tamil noun. Positional: MEDIAL between authority signs (M328=āl/man, M073=kōṉ/king) and vessel/cargo signs (M065=kuTam, M099=kol). Semantic fit: 'kul' (clan-guild) as a social-group identifier within guild-title inscriptions. The Munda substrate + Dravidian cognate confirms this is a loanword or shared isogloss. Phase-128 SUBSTRATE-MEDIUM."
+M127,vē,ಬೇ (vē) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=6."
+M252,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='kur' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=6."
+M386,maṇ,ಮಣ್ (maṇ) — earth / soil,LOW,,,"Round 4: MEDIAL position (freq=6), distributional assignment"
+M351,vī,ಬಿತ್ತು (bittu) — seed,MEDIUM,"DEDR 5388 (vī = seed, Tamil/Telugu)",Phase-128 substrate upgrade,Phase-123 substrate match: Munda 'bi' (seed/sprout). DEDR 5388 vī = seed — attested Tamil/Telugu agricultural vocabulary. Phonological: Munda 'bi' → Dravidian 'vī' (voiced bilabial shift p/b→v). Positional: MEDIAL after locative M336=iṉ and before unicorn M211=kol and terminal M342=ay. Semantic fit: vī (seed/grain) in agricultural-guild inscriptions. Phase-128 SUBSTRATE-MEDIUM.
+M198,co,ಚೊ (co) — syllabic,MEDIUM,,,Phase-163 sibilant discovery: reading 'co' found in literature (3 mentions across sources: Wells_2015). Provides partial coverage for Shu-ilishu /su/ phonological slot.
+M168,inci,ಇಂಚಿ (iñci) — ginger,MEDIUM,,Phase-110,"Phase-110 targeted SA: modal='inci', consistency=0.90, 10 seeds, 130 anchors pinned. DEDR : . freq=6."
+M332,intu,ಇಂತು (intu) — thus / this,MEDIUM,,Phase-108,"Phase-106 name SA sprint: SA modal='intu', consistency=0.50, PD-valid. DEDR : . Freq=6."
+M183,vēḷ,ಬೇಳ್ (bēḷ) — chief / to desire,LOW,,,"Round 4: MEDIAL position (freq=5), distributional assignment"
+M222,min,ಮೀನ್ (mīn) — fish / star,MEDIUM,,anchor_staging_archive:compound_semantic_coherence,Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb). Register correction 2026-11-21: the earlier Phase-87 reading kur for this sign is superseded in the canonical register; this public table is corrected to the register value.
+M365,vāṉ,ಬಾನ್ (bān) — sky,LOW,,,"Round 4: MEDIAL position (freq=5), distributional assignment"
+M412,cūḷ,ಸೂಳ್ (sūḷ) — oath / vow,LOW,,,"Round 4: MEDIAL position (freq=5), distributional assignment"
+M151,viḷ,ಬೆಳೆ (beḷe) — to ripen / yield,LOW,,,"Round 4: MEDIAL position (freq=5), distributional assignment"
+M304,vēṟ,ಬೇಱೆ (bēṟe) — other / separate,LOW,,,"Round 4: MEDIAL position (freq=5), distributional assignment"
+M355,lu,ಲು (lu) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='lu' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5."
+M178,i,ಇ (i) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='i' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5."
+M163,il,ಇಲ್ → ಮನೆ (mane) — house,HIGH,,Phase-87 DEDR_REBUS_EXTENDED,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M108,kaL,ಕಳ್ (kaḷ) — toddy / to steal,HIGH,,"Phase-89 systematic DEDR (ICON, MEDIUM)",[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M231,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='kur' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5."
+M321,kol,ಕೊಳ್ (koḷ) — to seize / hold,LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M153,pu,ಪು (pu) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='pu' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR 4317: flower. freq=5."
+M177,na,ನ (na) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='na' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR 3549: word. freq=5."
+M357,kuḷ,ಕೊಳ (koḷa) — pond,LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M137,kuṟ,"ಕುಱು (kuṟu) — short / small (ಕುರುಚಲು,ಕುರುಬ)",LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M155,ka,ಕ (ka) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='ka' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR 1145: eye. freq=5."
+M239,il,ಇಲ್ → ಮನೆ (mane) — house(ಬಾಗಿಲು ('ಬಾಯ್' (ಮುಖ/ದ್ವಾರ) + 'ಇಲ್' (ಮನೆ)),LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M223,muḷ,ಮುಳ್ (muḷ) — thorn,LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M103,kol,ಕೊಳ್ (koḷ) — to seize / hold,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='kol' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5."
+M254,tēṉ,ತೇನ್ (tēn) — honey,LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M262,i,ಇ (i) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='i' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5."
+M416,na,ನ (na) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='na' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR 3549: word. freq=5."
+M143,maṇ,ಮಣ್ (maṇ) — earth / soil,LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M345,taṭ,ತಟ್ಟು (taṭṭu) — flat / to strike,LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M329,poṉ,ಪೊನ್ (pon) — gold (→ ಹೊನ್ನು),LOW,,,"Round 5: MEDIAL position (freq=5), distributional assignment"
+M190,paṉ,ಪನ್ (pan) — many / palm,LOW,,,"Round 6: MEDIAL position (freq=5), distributional assignment"
+M295,paṟ,ಪಱಿ (paṟi) — to pluck / seize,LOW,,,"Round 6: MEDIAL position (freq=5), distributional assignment"
+M402,vēḷ,ಬೇಳ್ (bēḷ) — chief / to desire,LOW,,,"Round 6: MEDIAL position (freq=5), distributional assignment"
+M255,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M251,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M301,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M406,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M387,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M116,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M274,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M086,oru,ಒರ್ (or) (ಓರ್ವ)— one / single,MEDIUM,,Parpola_1994_via_phase51,
+M087,veL,ಬೆಳ್ (beḷ) — white,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M091,aru,ಅರಿದು (aridu) — rare / precious,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=0.00✓ DEDR✓]
+M092,elu,ಎೞು (eḻu) — to rise,MEDIUM,,Parpola_1994_via_phase51,
+M124,kuTam,ಕೊಡ (koḍa) — pot,MEDIUM,,Parpola_1994_via_phase51,
+M175,katir,ಕದಿರ್ (kadir) — ear of grain / ray,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M261,muruku,ಮುರುಗ (muruga) — Murugan / coral tree,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M264,peN,ಪೆಣ್ (peṇ) — woman (→ ಹೆಣ್ಣು),HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M281,piLLai,ಪಿಳ್ಳೆ (piḷḷe) — child,MEDIUM,,Parpola_1994_via_phase51,
+M311,vaTamiin,ಬಡಮೀನ್ (baḍa-mīn) — north star,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M117,ar,ಆಱು (āṟu) — six,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M088,muu(n)-,ಮೂಱು (mūṟu) — three,HIGH,,Parpola_1994_via_phase51,[Phase-116 recal: SA-cons=0.00✓ DEDR✓]
+M090,aintu,ಐದು (aidu) — five,MEDIUM,,Parpola 1994,
+M093,eTTu,ಎಂಟು (eṇṭu) — eight,MEDIUM,,Parpola 1994,
+M094,onpatu,ಒಂಬತ್ತು (ombattu) — nine,MEDIUM,,Parpola 1994,
+M008,erumai,ಎಮ್ಮೆ (emme) — buffalo,MEDIUM,,Parpola 1994,
+M100,maa,ಮಾ (mā) — great / beast,HIGH,,Parpola 1994,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M101,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M125,vil,ಬಿಲ್ (bil) — bow,HIGH,,Parpola 1994,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M202,can,ಚನ್ (can) — syllabic,MEDIUM,,Phase-111,Phase-163 sibilant discovery: reading 'can' found in literature (4 mentions across sources: Mahadevan_2009_vestiges). Provides partial coverage for Shu-ilishu /su/ phonological slot.
+M211,kol,ಕೊಳ್ (koḷ) — to seize / hold,HIGH,,Phase-46+Parpola,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M249,tii,ತೀ (tī) — fire,MEDIUM,,Parpola 1994,
+M293,ta,ತ (ta) — syllabic,HIGH,,Phase-101 positional adjudication,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M058,ke,ಕೆ (ke) — syllabic,MEDIUM,DEDR 1994,Phase-80 DEDR rebus (keeDu = DEDR 1994),
+M065,kuTam,ಕೊಡ (koḍa) — pot,MEDIUM,,Phase-50+Parpola,
+M220,al,ಅಲ್ (al) — not / night,MEDIUM,,"Phase-89 systematic DEDR (PHON, MEDIUM)",
+M052,ta,ತ (ta) — syllabic,HIGH,DEDR 3036,Phase-80 DEDR rebus (taNal = DEDR 3036),[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M053,mi,ಮಿ (mi) — syllabic,MEDIUM,DEDR 4839,Phase-80 DEDR rebus (miiN = DEDR 4839),
+M061,ka,ಕ (ka) — syllabic,HIGH,DEDR 1166,Phase-80 DEDR rebus (kaNan = DEDR 1166),[Phase-116 recal: SA-cons=0.25✓ DEDR✓]
+M079,ir,ಇರ್ (ir) — two / to be,HIGH,,Phase-83 gap sprint,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M022,kalam,ಕಲಂ (kalaṁ) — vessel / pot,HIGH,,Phase-83 gap sprint,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M019,ampu,ಅಂಬು (ambu) — arrow,HIGH,,Phase-83 gap sprint,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M044,ku,ಕು (ku) — syllabic,MEDIUM,,Phase-83 gap sprint,
+M035,po,ಪೊ (po) — syllabic,HIGH,,Phase-87 DEDR_REBUS_EXTENDED,[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M003,kalam,ಕಲಂ (kalaṁ) — vessel / pot,HIGH,,"Phase-89 systematic DEDR (ICON, HIGH)",[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M107,ko,ಕೊ (ko) — syllabic,HIGH,,"Phase-89 systematic DEDR (ICON, HIGH)",[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M164,il,ಇಲ್ → ಮನೆ (mane) — house,HIGH,,"Phase-89 systematic DEDR (ICON, HIGH)",[Phase-116 recal: SA-cons=1.00✓ DEDR✓]
+M056,miN4,ಮೀನ್ (mīn) — star (var.),MEDIUM,,"Phase-89 systematic DEDR (ICON, MEDIUM)",
+M118,car,ಚರ್ (car) — syllabic,MEDIUM,,"Phase-89 systematic DEDR (ICON, MEDIUM)",
+M130,mui,ಮುಇ (mui) — syllabic,HIGH,,"Phase-89 systematic DEDR (ICON, MEDIUM)",[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M221,al,ಅಲ್ (al) — not / night,MEDIUM,,Phase-91 threshold completion,
+M192,ṇā,ಣಾ (ṇā) — syllabic,MEDIUM,,Phase-95 retroflex expansion (score=1.90),
+M193,ḷā,ಳಾ (ḷā) — syllabic,MEDIUM,,Phase-95 retroflex expansion (score=1.90),
+M194,kaṭ,ಕಟ್ಟು (kaṭṭu) — to bind,HIGH,,Phase-95 retroflex expansion (score=1.90),[Phase-116 recal: SA-cons=0.12✓ DEDR✓]
+M145,miṭ,ಮಿಟ್ (miṭ) — syllabic,MEDIUM,,Phase-95 retroflex expansion (score=1.90),
+M362,aṇi,ಅಣಿ (aṇi) — ornament / array,MEDIUM,,Phase-105,"Starburst / asterisk iconography ~ aṇi 'ornament/adorn' (DEDR 0145). Phase-103: appears in name-slot patterns between animal classifiers and titles. Sangam literature: aṇi- prefix in personal names (Aṇi-van, Aṇi-tan). Positional: predominantly MEDIAL in personal name sequences. Freq=3; Pos=MEDIAL; name_slots=2."
+M398,kuṟi,ಕುಱಿ (kuṟi) — mark / sign,MEDIUM,,Phase-105,Hook+ring iconography ~ kuṟi 'mark/sign' (DEDR 1769) or kuṟu 'small/short'. Phase-103: NAME_AY_AN + GENITIVE_NAME_SUFFIX patterns. Pattern [M267]-[M398]-[M342]: 'of-kuṟi-belonging' = genitive personal name. Score 1.2 (highest name_score in Phase-103 top candidates). Freq=3; Pos=MEDIAL; name_slots=3.
+M326,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M318,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M346,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M312,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M134,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M129,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M120,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M207,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M280,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M309,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M382,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M324,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M370,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M218,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M186,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M307,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M265,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M106,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M334,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M294,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M245,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M319,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M171,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M227,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M148,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M290,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M138,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M243,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M291,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M209,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M313,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M259,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M278,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M142,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M199,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M140,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M187,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M208,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M109,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M250,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M390,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]"
+M277,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M181,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M219,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M379,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M214,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M131,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M380,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M197,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M201,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M413,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M135,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M354,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M341,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M330,can,ಚನ್ (can) — syllabic,MEDIUM,,Phase-111,Phase-163 sibilant discovery: reading 'can' found in literature (4 mentions across sources: Parpola_1994). Provides partial coverage for Shu-ilishu /su/ phonological slot.
+M105,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M146,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M195,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M339,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M359,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M316,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M111,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M224,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M408,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M371,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M396,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M246,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M395,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M229,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M399,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M331,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M410,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M170,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M349,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M388,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M360,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M263,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M320,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M256,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M257,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M338,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M288,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M244,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M247,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M284,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M121,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M381,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M373,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M110,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M104,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M217,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M228,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M356,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M292,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M141,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M188,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M296,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M216,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M348,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M268,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M325,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M289,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M369,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]"
+M378,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M226,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M158,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M165,cul,ಸುೞಿ (suḻi) — to whirl / surround (ಸುಳಿ),MEDIUM,,Phase-111,Phase-163 sibilant discovery: reading 'cul' found in literature (4 mentions across sources: Parpola_1994). Provides partial coverage for Shu-ilishu /su/ phonological slot.
+M123,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M397,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M203,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M405,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M240,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M303,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M238,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M276,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M363,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M174,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M384,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M353,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M200,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M156,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M157,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M271,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M204,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M260,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M333,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M285,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M184,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M266,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M258,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M283,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M308,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M154,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M302,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M392,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M385,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M282,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M215,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M210,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M112,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M286,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M327,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M400,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M172,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M403,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M159,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M242,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M344,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M179,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M343,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M147,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M409,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M248,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M415,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M241,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M389,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2."
+M287,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M133,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M126,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M297,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M323,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M213,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M322,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M167,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M232,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M394,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M411,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M236,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M182,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M115,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M337,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M300,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M393,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M414,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M161,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M299,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M298,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M132,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M136,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M376,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M269,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M364,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M114,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M310,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M361,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M113,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M315,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M150,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M314,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M139,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M189,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M160,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M230,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M166,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M377,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M407,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M368,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M152,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M273,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M335,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M206,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M122,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M340,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M279,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M404,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M180,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M275,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M253,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M212,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M144,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M119,kur,ಕುಱು (kuṟu) — short/small  [low-conf default],LOW,,Phase-111,"Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=1."
+M347,ka,ಕ (ka) — syllabic,MEDIUM,,Phase-117,"Phase-117 grammar inference: slot=MEDIAL_BETWEEN_CONF, n_contexts=7, patterns=['M342-[M347]-M293', 'M028-[M347]-M367', 'M211-[M347]-M099']. Inferred from Dravidian grammar slot model (Phases 74-112). [Phase-120: grammar n_ctx=7≥4 → MEDIUM]"
+M350,vē,ಬೇ (vē) — syllabic,MEDIUM,,Phase-122,"Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5."
