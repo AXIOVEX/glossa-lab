@@ -1,0 +1,60 @@
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 1: custody re-verification begins
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 1: Otten custody 30/30 files match the step-0 manifest
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 1: Kovetsky inscriptions sha256 1e91e3a0c5262648... (pin 1e91e3a0c5262648...), HEAD 145af0836c07 (pin 145af0836c07)
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 1: ASJP custody hashes checked against freeze v2 pins: forms.csv=OK, languages.csv=OK, parameters.csv=OK
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 2: basis reconstruction begins
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 2: partition 335 development / 33 held out (filed 335 / 33)
+[2026-11-27T19:27:35Z] M-2-rereg preflight step 2: 932 distinct example phrases (filed 932)
+[2026-11-27T19:27:37Z] M-2-rereg preflight step 3: figures words 12863 (filed 12863); pairs 13406 (filed 13406); same-place 0.3152 (filed 0.3152); NES 0.3038 (filed 0.3038); gate PASS
+[2026-11-27T19:27:37Z] M-2-rereg preflight PASS - battery administration begins
+[2026-11-27T19:27:39Z] M-2-rereg section 6.1 mapping table filed at m2-reregistered-mapping.json (sha256 06c057352bde8f87...); defaulted symbols: ['$']; battery statistics begin now
+[2026-11-27T19:27:39Z] M-2-rereg Meroitic pooled items computed over 12863 words; strata: ['document', 'funerary', 'graffito', 'other', 'royal_temple']
+[2026-11-27T19:27:39Z] M-2-rereg comparator item values computed for 13 lists
+[2026-11-27T19:27:39Z] M-2-rereg family ranges and scoreability computed: SP-CVC=no, LV-CO=no, ONSET-CC=yes, CODA-C=yes, LV-TRANS=no
+[2026-11-27T19:27:43Z] M-2-rereg Null W progress: 500/10000 replicates
+[2026-11-27T19:27:48Z] M-2-rereg Null W progress: 1000/10000 replicates
+[2026-11-27T19:27:50Z] M-2-rereg Null W progress: 1500/10000 replicates
+[2026-11-27T19:27:55Z] M-2-rereg Null W progress: 2000/10000 replicates
+[2026-11-27T19:28:03Z] M-2-rereg Null W progress: 2500/10000 replicates
+[2026-11-27T19:28:08Z] M-2-rereg Null W progress: 3000/10000 replicates
+[2026-11-27T19:28:12Z] M-2-rereg Null W progress: 3500/10000 replicates
+[2026-11-27T19:28:19Z] M-2-rereg Null W progress: 4000/10000 replicates
+[2026-11-27T19:28:24Z] M-2-rereg Null W progress: 4500/10000 replicates
+[2026-11-27T19:28:30Z] M-2-rereg Null W progress: 5000/10000 replicates
+[2026-11-27T19:28:37Z] M-2-rereg Null W progress: 5500/10000 replicates
+[2026-11-27T19:28:43Z] M-2-rereg Null W progress: 6000/10000 replicates
+[2026-11-27T19:28:49Z] M-2-rereg Null W progress: 6500/10000 replicates
+[2026-11-27T19:28:55Z] M-2-rereg Null W progress: 7000/10000 replicates
+[2026-11-27T19:29:00Z] M-2-rereg Null W progress: 7500/10000 replicates
+[2026-11-27T19:29:09Z] M-2-rereg Null W progress: 8000/10000 replicates
+[2026-11-27T19:29:14Z] M-2-rereg Null W progress: 8500/10000 replicates
+[2026-11-27T19:29:21Z] M-2-rereg Null W progress: 9000/10000 replicates
+[2026-11-27T19:29:27Z] M-2-rereg Null W progress: 9500/10000 replicates
+[2026-11-27T19:29:32Z] M-2-rereg Null W progress: 10000/10000 replicates
+[2026-11-27T19:29:33Z] M-2-rereg Null X progress: 500/10000 replicates
+[2026-11-27T19:29:34Z] M-2-rereg Null X progress: 1000/10000 replicates
+[2026-11-27T19:29:35Z] M-2-rereg Null X progress: 1500/10000 replicates
+[2026-11-27T19:29:37Z] M-2-rereg Null X progress: 2000/10000 replicates
+[2026-11-27T19:29:38Z] M-2-rereg Null X progress: 2500/10000 replicates
+[2026-11-27T19:29:39Z] M-2-rereg Null X progress: 3000/10000 replicates
+[2026-11-27T19:29:40Z] M-2-rereg Null X progress: 3500/10000 replicates
+[2026-11-27T19:29:40Z] M-2-rereg Null X progress: 4000/10000 replicates
+[2026-11-27T19:29:41Z] M-2-rereg Null X progress: 4500/10000 replicates
+[2026-11-27T19:29:42Z] M-2-rereg Null X progress: 5000/10000 replicates
+[2026-11-27T19:29:43Z] M-2-rereg Null X progress: 5500/10000 replicates
+[2026-11-27T19:29:44Z] M-2-rereg Null X progress: 6000/10000 replicates
+[2026-11-27T19:29:45Z] M-2-rereg Null X progress: 6500/10000 replicates
+[2026-11-27T19:29:46Z] M-2-rereg Null X progress: 7000/10000 replicates
+[2026-11-27T19:29:47Z] M-2-rereg Null X progress: 7500/10000 replicates
+[2026-11-27T19:29:47Z] M-2-rereg Null X progress: 8000/10000 replicates
+[2026-11-27T19:29:49Z] M-2-rereg Null X progress: 8500/10000 replicates
+[2026-11-27T19:29:50Z] M-2-rereg Null X progress: 9000/10000 replicates
+[2026-11-27T19:29:51Z] M-2-rereg Null X progress: 9500/10000 replicates
+[2026-11-27T19:29:53Z] M-2-rereg Null X progress: 10000/10000 replicates
+[2026-11-27T19:29:53Z] M-2-rereg Null W for SP-CVC: central 95% [0.3111, 0.3229], observed 0.3152, NULL-CONSISTENT=True
+[2026-11-27T19:29:53Z] M-2-rereg Null W for LV-TRANS: central 95% [0.0362, 0.0415], observed 0.0236, NULL-CONSISTENT=False
+[2026-11-27T19:29:53Z] M-2-rereg Null X for LV-CO: central 95% [0.1830, 0.1949], observed 0.2416, NULL-CONSISTENT=False
+[2026-11-27T19:29:53Z] M-2-rereg pooled leans: {'SP-CVC': [], 'LV-CO': [], 'ONSET-CC': ['R2_AFROASIATIC'], 'CODA-C': [], 'LV-TRANS': []}; L_R1=0, L_R2=1
+[2026-11-27T19:29:53Z] M-2-rereg control: C=2 (max lean count over 13 leave-one-out targets)
+[2026-11-27T19:29:53Z] M-2-rereg verdict: INDETERMINATE; arms: ['fewer than 4 scoreable items']
+[2026-11-27T19:29:53Z] M-2-rereg battery complete; verdict INDETERMINATE; output written to m2-reregistered-output.json
