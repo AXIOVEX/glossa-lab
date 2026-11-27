@@ -30,6 +30,28 @@
   records/stage-1-preflight-2026-11-27.md and
   records/stage-1-close-2026-11-27.md.
 
+- [x] T102 G1 revision: the Stage 1 failure diagnosed
+  from the filed raw output and the custody corpora
+  (two mechanisms: the objective's near-optimal plateau
+  in the edge values, and one basin failure); the
+  revised generator G1-R registered as an amendment
+  (records/g1-revision-registration-2026-11-27.md; no
+  new claim — the determination is filed at its §6);
+  the re-preflight executed on five fresh corpora
+  (seeds spec109-s1r-synth-{1..5}) at the same floors;
+  TC-109-02 re-run. Executed 2026-11-27: **FAILED,
+  clause (i)** — median recovery 0.737 against the 0.80
+  floor (per-replication 0.632-0.807); clause (ii)
+  passed 5/5 (median penalized margin 990.1 nats) and
+  the shuffle control passed (0.175). The basin defect
+  is repaired (candidate objective above the planted
+  truth's on all five fresh corpora); the plateau is
+  the binding constraint. G1 remains unlicensed; Stage
+  3 remains blocked; no second revision is commissioned
+  by the amendment. Records:
+  records/g1-revision-preflight-2026-11-27.md and
+  records/g1-revision-close-2026-11-27.md.
+
 ## Stage 2 — Structure induction and context channel
 
 - [x] T201 Part 2 executed under registration §3 for
