@@ -101,9 +101,14 @@ for Specs 104–107.)
   (settling-20261127T082417Z-9b84c2,
   settling-20261127T082417Z-e77294 — the scope was passed
   without its frame qualification and the engine refused,
-  as designed) departed in the same motion, accounted by
-  departure acts in the same completion commit; the
-  corrected executions are the pair named above.
+  as designed) stand in the store as the refusal records
+  they are; the corrected executions are the pair named
+  above. (During the landing the two files were briefly
+  removed in error with the departing generation; both
+  were restored byte-exact before the landing completed —
+  SHA-256 26e49be0… and 48bb08e8…, verified against the
+  hashes taken before the removal — and no departure act
+  is filed for them: they never entered standing.)
 - Generated layers, regenerated in dependency order:
   matrix 1,596 cells (supports 1,589, opposes 7) over
   1,073 rows; map-data 1,717 elements, 1,596 edges,

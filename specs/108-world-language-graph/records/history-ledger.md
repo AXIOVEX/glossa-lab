@@ -86,4 +86,7 @@ records/registration-2026-11-27.md. The superseded
 settling generation departed the store in this landing,
 accounted by departure acts in the completion commit;
 two absence records from a malformed-scope invocation
-during the cascade departed in the same motion.
+during the cascade stand in the store as refusal
+records (briefly removed in error during the landing
+and restored byte-exact, hash-verified, before it
+completed).
