@@ -200,6 +200,15 @@ C-M-22) are classified (A) rather than (E) because their
 adoption is on the record and is the whole of what they call
 for.
 
+**Postscript (same day).** While this application was
+landing, cycle 2's execution landed as PR #796: C-E-15's
+leg executed and its outcome — STOP, no candidate set
+satisfies all four registered conditions — is recorded on
+its ledger row by that landing. The classification above
+stands as of the census (09:37 ET), when the leg was in
+flight; nothing in this record is altered by the outcome,
+and the row's own evidence now carries it.
+
 ## 3. Resulting ledger state
 
 After this application landing, recounted from the data

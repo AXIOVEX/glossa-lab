@@ -807,8 +807,10 @@ protocol filed verbatim); two rows are bound to their
 instruments and stay accepted (C-M-14, freeze-stage addendum
 to the Spec 102 execution registration; C-M-21, the
 evidential-units study registered in Spec 097's records).
-Two rows are in flight (C-E-15 in cycle 2; B-M-18 as the
-armed Spec 102) and nineteen stand gated, as the census
+Two rows were in flight at the census (C-E-15 in cycle 2
+— its execution has since landed as PR #796, with the STOP
+outcome recorded on its row above; B-M-18 as the armed
+Spec 102) and nineteen stand gated, as the census
 record itemizes. Totals after this application, recounted
 from the data rows: 158 rows — 114 done, 23 accepted, 0
 open, 21 rejected. The census's interim count of 159 rows /
