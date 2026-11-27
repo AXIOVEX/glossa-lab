@@ -17,12 +17,18 @@
 
 ## Stage 1 — Preflight
 
-- [ ] T101 Preflight harness built on tower-compute;
+- [x] T101 Preflight harness built on tower-compute;
   preflight run for the Indus generators (Parts 1–3);
   preflight record filed with per-clause results, the
   positional limitation on its face, and the
   two-implementation agreement statement; TC-109-02
   run. No undeciphered-system output scored.
+  Executed 2026-11-27: G3 PASSED; G2 passed for its
+  positional and numerical families and failed for
+  segmentation and (on the control) partials; G1
+  failed clause (i). Records:
+  records/stage-1-preflight-2026-11-27.md and
+  records/stage-1-close-2026-11-27.md.
 
 ## Stage 2 — Structure induction and context channel
 

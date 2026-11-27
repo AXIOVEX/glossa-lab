@@ -51,3 +51,48 @@ the superseded generation departed under §7.1, the ledger gate at
 32 PASS / 0 FAIL / 1 NOT-RUN over the final tree. No standing moved.
 Stage 0 closes with this entry; the next stage is Stage 1
 (preflight), uncommissioned.
+
+**2026-11-27 — Stage 1 executed (T101): the
+conformance preflight.** Executed the same day under
+the owner's blanket approval and keep-working
+directive, in a fresh worktree on tower-compute
+(`spec-109-stage-1-preflight`); the full record is
+`records/stage-1-preflight-2026-11-27.md` and the
+close is `records/stage-1-close-2026-11-27.md`. The
+harness ran five synthetic replications at the exact
+Indus profile with planted positional classes,
+segmentation, partials, context structure, and
+sign-value structure; clause (iii) re-ran Spec 107's
+filed I-2 execution unchanged, reproducing cycle 2's
+medians to four decimals for both donors (RIGHT above
+WRONG and SHUFFLE; verdict INDETERMINATE, the
+registered configuration), and reproducing the
+positional limitation on the re-run's own ground
+truth (Meroitic 1 mark, Latin 0, against the floor of
+5 — positional recovery on those controls NOT
+MEASURABLE, the clause run on the synthetic controls
+as registered). Verdicts: **G3 (context channel)
+PASSED** in full and is licensed for Stage 2. **G2
+(structure induction) PASSED for its positional and
+numerical families** (recovery 1.000, controls
+0.000) and **FAILED for segmentation** (F1 median
+0.569 at the 0.80 floor; shuffle control 0.443, 78%
+of its true rate) **and for recurrent partials on
+the control at the boundary** (recovery 1.000;
+control 0.500 against the required < 0.500). **G1
+(assignment search) FAILED clause (i)**: median
+recovery 0.772 at the 0.80 floor (per-replication
+0.614–0.825), while its margin clause passed 5/5 at
+a median penalized margin of 933.2 nats — the
+objective discriminates the planted truth
+decisively; the search does not reliably find it.
+Kill criteria 2 and 3 fired for the failed
+generators and families, which produce no scoreable
+output until revised generators pass under new
+registrations; no floor was moved. TC-109-02
+recomputed every filed figure from custody: PASS,
+38/38. No undeciphered-system output was produced or
+scored; no standing, verdict, or tally moved.
+Stage 2 is licensed in part (Part 2 positional and
+numerical families, Part 3 channel); Stage 3 is
+blocked at its generator.
