@@ -96,3 +96,51 @@ scored; no standing, verdict, or tally moved.
 Stage 2 is licensed in part (Part 2 positional and
 numerical families, Part 3 channel); Stage 3 is
 blocked at its generator.
+
+## 2026-11-27 — G1 revision executed (T102): re-preflight FAILED, clause (i)
+
+The Stage 1 close left Part 1 blocked at its generator,
+with the margin anatomy as the revision's starting
+evidence. The revision was executed the same day under
+the owner's blanket approval and keep-working directive,
+in a fresh worktree on tower-compute
+(`spec-109-g1-revision`). The diagnosis, run over a
+restart-by-restart reproduction of the filed Stage 1 run
+(the filed hits reproduce exactly: 47/44/40/45/35 of 57),
+separated two mechanisms: the objective's near-optimal
+plateau in the edge values (the filed best states beat
+the planted truth's objective by +26 to +50 nats on four
+corpora while missing 10–17 signs, all edge values in
+short cycles; the constraints exclude no planted value
+anywhere) and one basin failure (the fifth corpus's best
+found state 497.7 nats below truth at a swap-local
+optimum). Two refinement forms (fixed-temperature
+sampling marginals; modal aggregation over the optima)
+were built, measured, and set aside on the record — the
+first dilutes the optima, the second collapses to the
+argmax state on every corpus probed. The revised
+generator G1-R (40 restarts × 160,000 steps; swaps and
+3-cycle rotations; one reheat; per-restart polish; the
+objective, constraints, scoring, and floors identical)
+was registered as an amendment
+(`records/g1-revision-registration-2026-11-27.md`; the
+claim determination at its §6: no new claim, C109-7 as
+filed carrying the revised-generator pattern) and
+re-preflighted on five fresh corpora
+(`spec109-s1r-synth-{1..5}`). **Verdict: FAILED, clause
+(i)** — median recovery **0.737** at the 0.80 floor
+(0.632 / 0.684 / 0.807 / 0.737 / 0.772); clause (ii)
+passed 5/5 at a median penalized margin of 990.1 nats;
+the shuffle control passed (0.175). The basin defect is
+repaired on fresh material (candidate objective above
+the planted truth's on all five corpora, by +20 to +57
+nats); the plateau is the binding constraint — at this
+profile the objective does not identify a fifth to a
+third of the edge values, and no search over it recovers
+what it does not carry. TC-109-02 re-run for this
+generator: PASS, 45/45, every figure recomputed
+independently and the verdict mechanical. Kill
+criterion 2 fired for G1-R; the floor was not moved; the
+amendment commissions no second revision. G1 produces
+no scoreable output; Stage 3 remains blocked; no
+standing, verdict, or tally moved.
