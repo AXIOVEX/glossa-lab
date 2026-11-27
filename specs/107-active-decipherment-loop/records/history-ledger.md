@@ -43,3 +43,34 @@ stripped text, first row wins; held out iff
 int(SHA-256(text)) mod 10 == 0; the STRATA map as
 registered). Registration moves no standing, verdict, or
 tally in any program. Execution follows in Stage 1.
+
+## 2026-11-27 - Cycle 1 EXECUTION (all three tests)
+
+- Kind: ITERATION. Actor: cycle-1 execution under
+  the owner's commission of 2026-11-26.
+- E-1 executed as Spec 101 Stages 1-4 (intake
+  3fa7387f, registration 9dc5de7f, freeze b8c2001a,
+  outcome be6c5f41 on this branch): C101-1 NOT
+  SUPPORTED (enrichment target, OD-D-1).
+- M-1 executed (records/m1-execution.py): both
+  validation gates PASS; verdict POSITIVE, both
+  conformance facts stratum-stable. No Otten byte
+  consumed.
+- I-1 executed (records/i1-execution.py): 120
+  replications, two-implementation agreement held;
+  verdict INDETERMINATE (predictor clause positive
+  for both donors; R2 measurable for neither).
+  Donor B acquisition incident (wrong mirror file)
+  caught by the identity check before scoring;
+  bytes destroyed; correct edition pinned.
+
+## 2026-11-27 - Cycle 1 CLOSE
+
+- Kind: VERDICT. Outcome record:
+  records/cycle-1-outcome-2026-11-27.md. Posterior
+  trace, kill-criteria evaluation (no criterion
+  met; null-yield minimum exceeded), and cycle-2
+  re-ranking: records/cycle-1-trace-2026-11-27.md.
+- No canonical-ledger standing moved by the cycle;
+  C101-1's standing awaits the owner's
+  adjudication. Cycle 2 is not commissioned.
