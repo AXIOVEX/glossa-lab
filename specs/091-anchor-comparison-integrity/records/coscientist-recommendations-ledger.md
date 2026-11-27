@@ -182,6 +182,25 @@ recorded at adjudication §2.4.
 | O-I-2 | Distinguish method calibration from discrimination among the five Indus hypotheses: I-1's statistic is a function of the observed shape, the fixed donor streams, and the seed, identically in every target-language world, so the registration's five-hypothesis discrimination language overstates the license | done | APPLY WITH MODIFICATION; sustained on the filed record at adjudication (registration §1 discrimination language and §2 shape-only computation read directly; the session's kill check — a target-hypothesis-specific prediction the computation exercises — run and not met); discharged by the same annotations record §2: I-1 stands as indirect method calibration with no target-family or linguistic/non-linguistic update licensed by it alone; the donor-control measurements are retained at that license; registration bytes preserved; adjudication §1 |
 | O-I-3 | Correct the M-1 outcome's pooling-flag explanation: the pooled never-successor digit class {0, 5, 6, 8, 9} is described as "absent as a class in funerary, where every digit has a successor somewhere", but the five marks never occur in funerary (or any stratum but document), so the funerary clause reports absence, not counterexamples | done | APPLY; sustained on the filed raw tables at adjudication (population S strata: document only — 0: 7, 5: 12, 6: 10, 8: 5, 9: 7, none with a successor; the only funerary digit is 4, once, group-initial); raised independently by the Indus and Meroitic sessions and adjudicated once under O-M-1; discharged by the same annotations record §3 (document-supported positional observation; no count or verdict touched); adjudication §§1 and 3 |
 
+### Round P — paper round (2026-11-27)
+
+Source: the captured outputs at the goal's
+`hidden_files/coscientist-paper-round-2026-11-27/elsewhere-v2/indus/`
+(iteration 1: 17,698 bytes, SHA-256 `60266b6a…`; iteration 2:
+2,046 bytes, `bfd9d5bc…`; iteration 3: 376 bytes, `3b562eb6…`);
+adjudication
+`specs/106-elsewhere-world-model-templates/records/paper-review-adjudication-2026-11-27-elsewhere-v2.md`.
+The round's three owner-referred items (OD-P-1, OD-P-2, OD-P-3)
+carry no rows, as with OD-O-1 and OD-O-2.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| P-I-1 | Carry the N-I-2 chronology distinction into the ELSEWHERE paper §5: first disclosure vs two complete scoring executions, replay ungoverned by the registration, the stopped run's outputs not separately filed | done | APPLY (raised also by the Meroitic session, row P-M-1; adjudicated once); applied in the revised candidate (goal file `elsewhere-methods-paper-v2-candidate-revised-2026-11-27.pdf`, SHA-256 `089f9053…`) and confirmed as rendered at iterations 2 and 3; adjudication §3 U2 |
+| P-I-2 | Remove §7's "the strongest comparison available" superlative for the Indus gate comparison | done | APPLY (raised by all three sessions; Meroitic row P-M-2); the sentence now bounds the comparison to the frozen, unnormalized scoring rule; confirmed at iteration 2; adjudication §3 U5 |
+| P-I-3 | §2.2: a study is untesting when its registered evidence contacts cannot contradict any instance, not when it never kills one | done | APPLY; applied and confirmed at iteration 2; adjudication §3 U3(b) |
+| P-I-4 | §4.2: attach the 178 one-token groups to the Meroitic sandbox total, not to the neighbourless digit | done | APPLY WITH MODIFICATION (the rewrite preserves every number and the neighbourlessness statement; the Meroitic session read the original as the aggregate context and confirmed the figures); applied and confirmed at iteration 2; adjudication §3 U6 |
+| P-I-5 | §2.2: repair the "three outcomes" enumeration, which the revised aggregation paragraph no longer matches | done | APPLY (the session's own replacement sentence, applied verbatim after iteration 2); confirmed at iteration 3; adjudication §3 U8 |
+
 ## Eteocypriot rows
 
 ### Round B — refresh (2026-11-22), units E-1 to E-10
@@ -273,6 +292,26 @@ Source: the captured output at the goal's
 | N-E-3 | Carry the settled 15-entry STEMS correction into the paper: deposited v4 §5.2 (p. 7) still says the consonant-stem table has "sixteen entries", while the pinned E1 driver carries 15 and the filed RT5-05 correction already established 15 (the ξ double-count; its k+s handling sits in letters_of, the sentence's own special case) | done | APPLY; sustained at adjudication (the session's kill check run and not met — no hash-matching executed driver carries 16 STEMS entries; driver SHA-256 `9ec475fd…`); discharged by the dated paper erratum record `specs/096-eteocypriot-program/records/paper-erratum-2026-11-26-stems-count.md`: "sixteen entries" corrected of record to "fifteen entries", the special-case clause standing; the deposited v4 is not silently replaced — the corrected wording is carried into the next authorized paper version on the owner's approval of the actual text; paper only, no verdict consequence; adjudication §3.3 |
 | O-E-1 | Complete the E-1 outcome record: the Spec 101 history ledger and the cycle-1 trace cite `outcome-record-2026-11-27.md`, which does not exist; T401 stands checked on a scoring commit that carried only the scorer and `scoring-outcome.json`, which itself lacks the C101-2 exposure statement TC-101-04 requires verbatim in the outcome record; the cycle registration's "unseen Eteocypriot text" phrasing conflicts with the study's postdictive license | done | APPLY; sustained on direct inspection at the pin at adjudication (records listing, scoring JSON recomputed at SHA-256 `6e22675e…`, registration lines 34 and 445 read directly; the session's kill check — an outcome artifact at the pin meeting T401/TC-101-04 — run and not met); discharged by the late, explicitly dated `specs/101-eteocypriot-next-claim/records/outcome-record-2026-11-27.md` (canonical exposure statement verbatim; counts against floors; enrichment-only interpretation; TC-101-01..06 crosswalk; `scoring-outcome.json` named the preserved numerical artifact), by the Spec 101 history-ledger entry appended at this landing correcting the citation on the record, and by the trace qualification in the Spec 107 annotations record §4; no backdating, no figure changed; the criterion-5 treatment is referred to the owner as OD-O-2; adjudication §2 |
 | O-E-2 | Qualify the TC-101-06 closure-exercise claim: the freeze addendum states the TOO THIN closure path "was exercised, not merely read", but the filed probe is a constructed dictionary asserting `instantiable: False` and a literal checker-result string; no closure routine is invoked and no registered effect (TOO THIN closure, NOT TESTED standing, scoring suppression) is observed | done | APPLY WITH MODIFICATION; sustained on direct reading at adjudication (`freeze-computation.py` lines 79–86 and the binding TC-101-06 amendment read directly; the session's kill check — a filed execution witness showing the closure and suppression — run and not met); discharged by `specs/101-eteocypriot-next-claim/records/tc101-06-qualification-2026-11-27.md`: the behavioral coverage gap stands on the record, and the isolated fixture that would close it is named there as a later verification, not back-credited; the study itself is untouched (all four candidates instantiated; no rescore); adjudication §2 |
+
+### Round P — paper round (2026-11-27)
+
+Source: the captured outputs at the goal's
+`hidden_files/coscientist-paper-round-2026-11-27/eteocypriot-v5/eteocypriot/`
+(iteration 1: 14,325 bytes, SHA-256 `9bfbb611…`; iteration 2:
+1,204 bytes, `6d2c0e70…`); adjudication
+`specs/096-eteocypriot-program/records/paper-review-adjudication-2026-11-27-v5.md`.
+The round's owner-referred item (OD-P-4, the date-bounding of
+the next-study status statements) carries no row, as with
+OD-O-1 and OD-O-2. The session's confirmations of the two
+intended v5 revisions (the fifteen-entry correction, row
+N-E-3's discharge, and the internal-language scrub) are
+recorded in the adjudication §2 and the Round P cross-check.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| P-E-1 | §4.2: the patronymic's failure is not a maximisation tie (both derived spellings have a unique maximum of 4 at segment 6; its correspondent is segment 7) | done | APPLY (the session's proposed text); applied in the revised candidate (goal file `eteocypriot-alignment-v5-candidate-revised-2026-11-27.pdf`, SHA-256 `d6c9ff10…`) and confirmed at iteration 2; adjudication §3 PV5-E2 |
+| P-E-2 | §4.2: name LCCS by its registered expansion, longest common contiguous syllabogram subsequence, not "longest common correct sequence" | done | APPLY; applied and confirmed at iteration 2; adjudication §3 PV5-E3 |
+| P-E-3 | §3.3 and reference [3]: the Hermary & Masson sign-by-sign syllabic apparatus is at pp. 238–239, not 236–238 (the plates are at pp. 236–237) | done | APPLY; verified at adjudication against `records/androkles-intake-record-2026-11-22.md`; applied and confirmed at iteration 2; adjudication §3 PV5-E4 |
 
 ## Meroitic rows
 
@@ -380,6 +419,21 @@ actual text; nothing is deposited on this round alone.
 | O-M-1 | Correct the M-1 outcome's description-level pooling flag: the pooled never-successor digit class {0, 5, 6, 8, 9} is attested only in the document stratum (41 occurrences, none with a successor) and is absent from funerary and every other stratum, so its pooled statement is a document-supported positional observation, not a witnessed funerary failure or a pooling artifact | done | APPLY WITH MODIFICATION; sustained on the filed raw tables at adjudication (stratum counts verified directly; the session's dismissal check — a class member occurring outside document, or a registration provision making non-attestation itself the trigger — run and not met); discharged by `specs/107-active-decipherment-loop/records/round-o-conformance-annotations-2026-11-27.md` §3; counts, conformance figures, and the M-1 POSITIVE verdict untouched; raised jointly with the Indus session's O-I-3; adjudication §3 |
 | O-M-2 | Repair the Spec 107 completion-record crosswalk: `spec.md` §6 and C107-5 (claims.md and aee-claims.json) name `cycle-1-outcome-2026-11-26.md` and `cycle-1-trace-2026-11-26.md`, neither of which exists; the completed records are dated 2026-11-27 | done | APPLY; sustained on direct inspection at adjudication (records listing; spec.md lines 318–319 and claims.md line 125 read directly; the session's dismissal check — November 26 aliases or an existing governing crosswalk — run and not met); discharged by the completion crosswalk at §5 of the same annotations record; registration-era texts and the AEE assessment snapshot preserved unedited; adjudication §3 |
 
+### Round P — paper round (2026-11-27)
+
+Source: the captured outputs at the goal's
+`hidden_files/coscientist-paper-round-2026-11-27/elsewhere-v2/meroitic/`
+(iteration 1: 15,914 bytes, SHA-256 `272dc4a3…`; iteration 2:
+1,271 bytes, `8f793ea6…`); adjudication
+`specs/106-elsewhere-world-model-templates/records/paper-review-adjudication-2026-11-27-elsewhere-v2.md`.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| P-M-1 | Carry the execution-chronology distinction into the ELSEWHERE paper: the Meroitic checker defect's stop and the full-stage re-execution read the sealed Indus reserve in two complete scoring executions | done | APPLY (raised also by the Indus session, row P-I-1; adjudicated once); applied and confirmed at iteration 2; adjudication §3 U2 |
+| P-M-2 | Remove §7's "the strongest comparison available" superlative for the Indus gate comparison | done | APPLY (Indus row P-I-2); applied and confirmed at iteration 2; adjudication §3 U5 |
+| P-M-3 | §2.2: state the registered refutation condition — non-derivation is not refutation; refutation requires a surviving derivation of the negation (framework §8.1) | done | APPLY; applied and confirmed at iteration 2 by all three sessions; adjudication §3 U3(a) |
+| P-M-4 | §5: state the Eteocypriot inventory gate's exemption of the unread mark ? (35 marks checked, 34 value-carrying) | done | APPLY; verified at adjudication against `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`; applied and confirmed at iteration 2; adjudication §3 U7 |
+
 ## Counts
 
 | Section | Rows | done | accepted | adjudicating | open | rejected |
@@ -405,7 +459,10 @@ actual text; nothing is deposited on this round alone.
 | Indus, Round O | 3 | 3 | 0 | 0 | 0 | 0 |
 | Eteocypriot, Round O | 2 | 2 | 0 | 0 | 0 | 0 |
 | Meroitic, Round O | 2 | 2 | 0 | 0 | 0 | 0 |
-| **Total** | **146** | **94** | **31** | **0** | **0** | **21** |
+| Indus, Round P | 5 | 5 | 0 | 0 | 0 | 0 |
+| Eteocypriot, Round P | 3 | 3 | 0 | 0 | 0 | 0 |
+| Meroitic, Round P | 4 | 4 | 0 | 0 | 0 | 0 |
+| **Total** | **158** | **106** | **31** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -663,6 +720,51 @@ Two criterion-5 questions are referred to the owner there
 published in Round O, so no post-publication wait runs. Totals
 after Round O: 146 rows - 94 done, 31 accepted, 0 open, 21
 rejected (Indus 45, Eteocypriot 43, Meroitic 58).
+
+Round P cross-check (2026-11-27). The Round P paper round
+(the three Round D sessions for the ELSEWHERE methods paper;
+the Eteocypriot session for its own paper; briefs filed at
+the goal's `hidden_files/coscientist-paper-round-2026-11-27/`
+and verified by length and checksum in the same invocation
+as each fill, with a guarded send re-verifying both, and a
+throw-on-wrong-session pre-guard from the v5 send onward)
+reviewed the two owner-approved candidates prepared by
+PR #775. On the ELSEWHERE v2 candidate, all three sessions
+confirmed the N-I-1 normalization qualification correct and
+stated at the right strength (the Meroitic session
+independently recomputed the filed figures), and returned
+seven further units: five APPLY-family items applied to a
+revised candidate and confirmed at iteration 2 (the
+execution chronology, the §2.2 refutation condition, the
+§2.2 testing sentence, the §7 superlative, the §5 inventory
+exemption, the §4.2 digit attachment — six textual changes,
+rows P-I-1 to P-I-4, P-M-1 to P-M-4), one iteration-2
+enumeration repair applied verbatim and confirmed at
+iteration 3 (row P-I-5), and three items referred to the
+owner as OD-P-1 (the ensemble conformance qualification for
+§6 and the abstract), OD-P-2 (the title and abstract
+classification of Meroitic), and OD-P-3 (the §6 Amathus
+characterization, unit PV2-E3, identified by the Eteocypriot
+session at iteration 2 after its iteration-1 filed review
+proved byte-identical to the Indus session's — disclosed in
+the adjudication record). Two optional precision suggestions
+were adjudicated DO NOT APPLY and carry no rows. On the
+Eteocypriot v5 candidate, the session confirmed the
+fifteen-entry correction (its own parse of the pinned
+driver) and the internal-language scrub (no meaning-changing
+error; all 13 claim labels consistent), returned three
+APPLY items applied and confirmed at iteration 2 (rows
+P-E-1 to P-E-3), and referred one item to the owner as
+OD-P-4 (date-bounding the next-study status statements).
+The referred items are not decided by the round and carry
+no rows, as with OD-O-1 and OD-O-2. The revised candidates
+stand in the goal workspace (ELSEWHERE: 8 pages, SHA-256
+`089f9053…`; Eteocypriot: 10 pages, `d6c9ff10…`), ready for
+the deposit step once the owner decides the referred items.
+Nothing was deposited or published in Round P, and no
+standing, verdict, or tally moved. Totals after Round P:
+158 rows - 106 done, 31 accepted, 0 open, 21 rejected
+(Indus 50, Eteocypriot 46, Meroitic 62).
 
 ## Briefing rule (closing note)
 
