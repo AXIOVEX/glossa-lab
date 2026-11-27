@@ -66,7 +66,7 @@
   Spec 097 custody restoration record, the
   re-registration cascade) — before any M-2 run
   under the re-registration.
-- [ ] T208 Execute M-2 on tower-compute under the
+- [x] T208 Execute M-2 on tower-compute under the
   re-registration — held until T207 has landed; the
   conformance preflight (re-registration §4) is
   administered and filed first, and a preflight

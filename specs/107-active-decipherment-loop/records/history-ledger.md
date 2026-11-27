@@ -208,3 +208,41 @@ tally in any program. Execution follows in Stage 1.
   this act; execution is task T208, held until this
   registration landed, and administers the preflight
   first.
+
+## 2026-11-27 - M-2 RE-REGISTERED EXECUTION (T208)
+
+- Kind: EXECUTION (Spec 107, M-2 as re-registered).
+  The conformance preflight of the re-registration
+  §4 PASSED in full: the restored Otten custody
+  re-verified 30 of 30 against the step-0 manifest,
+  the Kovetsky pin matched on hash and HEAD, and the
+  reconstructed basis reproduced the four filed
+  figures exactly (12,863 words; 13,406 pairs;
+  same-place rate 0.3152; NES reference rate 0.3038,
+  each to 4 dp) — the cycle-2 basis defect is closed
+  on the original basis. The battery was then
+  administered as registered (cycle-2 §§6.1–6.4
+  unchanged): 2 of the 5 items are scoreable under
+  the registered denominator floors (ONSET-CC and
+  CODA-C; the NES family contributes only 2
+  qualifying lists on SP-CVC, LV-CO, and LV-TRANS),
+  so the verdict is **INDETERMINATE** on the
+  registered ground of fewer than 4 scoreable items.
+  Leans on the scoreable items: L_R1 = 0, L_R2 = 1;
+  control C = 2. Descriptive only: SP-CVC is
+  null-consistent under Null W; LV-CO sits above both
+  family ranges and its Null X band; LV-TRANS below
+  both ranges and its Null W band. Standings effect:
+  none — INDETERMINATE has no effect, no claim
+  standing moves, Spec 097's R3 position is
+  untouched, and Spec 102's gates are not consumed.
+  C107-12's falsifier does not fire on any arm;
+  TC-107-13 PASS. Outcome record:
+  records/m2-reregistered-outcome-record-2026-11-27.md,
+  with the execution script, raw output, mapping
+  table, and run log filed alongside it. The outcome
+  record also files the execution notes: a first
+  attempt crashed on a script assertion that caught
+  a pair-enumeration divergence before any output
+  was written (no statistic from it is used), and
+  the leg was re-administered in full.

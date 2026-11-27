@@ -1,0 +1,910 @@
+{
+ "test": "M-2 re-registered (Spec 107, T208)",
+ "registration": "records/m2-re-registration-2026-11-27.md",
+ "started_utc": "2026-11-27T19:27:35.689954+00:00",
+ "preflight": {
+  "custody_reverification": {
+   "otten_manifest_files": 30,
+   "otten_files_matching": 30,
+   "otten_pin": "c9158f6865325877112b6b9ceef83b3c80a93c56",
+   "per_file": {
+    "Code/RamsesScraperComplete.py": {
+     "filed": "02682781e77f561aff7f377bf8cbd420fd9a832f64c97c54ae6865e60522197a",
+     "actual": "02682781e77f561aff7f377bf8cbd420fd9a832f64c97c54ae6865e60522197a",
+     "match": true
+    },
+    "Code/find_nearest_neighbors.py": {
+     "filed": "d11a8c4c676f67418fdc9bf0a29ac2dc9651742cd75d5fd007e1371f0fe800ad",
+     "actual": "d11a8c4c676f67418fdc9bf0a29ac2dc9651742cd75d5fd007e1371f0fe800ad",
+     "match": true
+    },
+    "Code/getW2V_embeddings.py": {
+     "filed": "3dc5ddc589fab1508e12ba5ffe18ae19de804d4d31cd47c30ac00dcfacaf6a22",
+     "actual": "3dc5ddc589fab1508e12ba5ffe18ae19de804d4d31cd47c30ac00dcfacaf6a22",
+     "match": true
+    },
+    "Code/intrinsic_eval.py": {
+     "filed": "a242d1245a121280a65f3fe1fea8fa8aa544b67b639c1b720cbdc8ab4905cfd7",
+     "actual": "a242d1245a121280a65f3fe1fea8fa8aa544b67b639c1b720cbdc8ab4905cfd7",
+     "match": true
+    },
+    "Data/HamadabStelaOfAmanirenasNarrative.txt": {
+     "filed": "8c3e22902ac61361dc13bc7863b4b418ba88b06c4eaf71e4fbeba6a176dbe115",
+     "actual": "8c3e22902ac61361dc13bc7863b4b418ba88b06c4eaf71e4fbeba6a176dbe115",
+     "match": true
+    },
+    "Data/KalabshaMeroiticInscriptionOfKharamadoyeNarrative.txt": {
+     "filed": "e06dba12998118c420f4188a6607b9cab7fdfc6287922355923b27e5f136d04d",
+     "actual": "e06dba12998118c420f4188a6607b9cab7fdfc6287922355923b27e5f136d04d",
+     "match": true
+    },
+    "Data/Kalabsha_Millet.txt": {
+     "filed": "42408955e513a98e35b539013ceaaff2ebc25616e2091c09f16a12d9b1ef7ac0",
+     "actual": "42408955e513a98e35b539013ceaaff2ebc25616e2091c09f16a12d9b1ef7ac0",
+     "match": true
+    },
+    "Data/LobbanVocabList.txt": {
+     "filed": "1275c34d10bf4dc397cc0e457f3a686fdb76f3fbc192b3b42efb6afba753d622",
+     "actual": "1275c34d10bf4dc397cc0e457f3a686fdb76f3fbc192b3b42efb6afba753d622",
+     "match": true
+    },
+    "Data/MilletExamples.txt": {
+     "filed": "9e0dc67ca945fa915479f015cdb6083b5788f86c3cc096f171994b0e4e670e6f",
+     "actual": "9e0dc67ca945fa915479f015cdb6083b5788f86c3cc096f171994b0e4e670e6f",
+     "match": true
+    },
+    "Data/RillyExamples.txt": {
+     "filed": "beae69e1b417cdd6bcdf88b2d6987af22b6cc99044dbd40d3276b8b13815f1f7",
+     "actual": "beae69e1b417cdd6bcdf88b2d6987af22b6cc99044dbd40d3276b8b13815f1f7",
+     "match": true
+    },
+    "Data/TanyidamaniNarrative.txt": {
+     "filed": "92144779aec84f735a3f0851c8898ad26a40a733d4466aebe93ecfd307e4dba1",
+     "actual": "92144779aec84f735a3f0851c8898ad26a40a733d4466aebe93ecfd307e4dba1",
+     "match": true
+    },
+    "Data/mero-corpus.txt": {
+     "filed": "b7f3350c2f2118a8223854462a8e881c424cba6b26c01ebfb676efa92ea253ce",
+     "actual": "b7f3350c2f2118a8223854462a8e881c424cba6b26c01ebfb676efa92ea253ce",
+     "match": true
+    },
+    "Embeddings/egyptian_dim_100.txt": {
+     "filed": "20fc91ebd357736a8e96311dd4dc2086e72ebb66255e311cae41679f0f3adfe9",
+     "actual": "20fc91ebd357736a8e96311dd4dc2086e72ebb66255e311cae41679f0f3adfe9",
+     "match": true
+    },
+    "Embeddings/egyptian_dim_120.txt": {
+     "filed": "568f5727ba3434ef2767374cc83e38c5559102e610927098437136833a80deab",
+     "actual": "568f5727ba3434ef2767374cc83e38c5559102e610927098437136833a80deab",
+     "match": true
+    },
+    "Embeddings/egyptian_dim_20.txt": {
+     "filed": "b4119313aaca89f50b791d0b8fc4219f0606859e1077d22d62edcffbb7ddab03",
+     "actual": "b4119313aaca89f50b791d0b8fc4219f0606859e1077d22d62edcffbb7ddab03",
+     "match": true
+    },
+    "Embeddings/egyptian_dim_50.txt": {
+     "filed": "bce8e4f2910aecf14b7e67648b2f70d0f1f1ff18f418e0a4949ffaf4f518fc70",
+     "actual": "bce8e4f2910aecf14b7e67648b2f70d0f1f1ff18f418e0a4949ffaf4f518fc70",
+     "match": true
+    },
+    "Embeddings/meroitic_dim_100.txt": {
+     "filed": "9da08536433995ef577d392e17a0440cc0a2e722ca740315e34af8d303e98c94",
+     "actual": "9da08536433995ef577d392e17a0440cc0a2e722ca740315e34af8d303e98c94",
+     "match": true
+    },
+    "Embeddings/meroitic_dim_120.txt": {
+     "filed": "59c0d7c8a9add3dae38832ebd41cfbec5f297c57b52f0d4319a026f82318851e",
+     "actual": "59c0d7c8a9add3dae38832ebd41cfbec5f297c57b52f0d4319a026f82318851e",
+     "match": true
+    },
+    "Embeddings/meroitic_dim_20.txt": {
+     "filed": "dc4c2e5ab35a32d67f6d5ab2e3fb343056c5280654231cc9685382e55f24a2d6",
+     "actual": "dc4c2e5ab35a32d67f6d5ab2e3fb343056c5280654231cc9685382e55f24a2d6",
+     "match": true
+    },
+    "Embeddings/meroitic_dim_50.txt": {
+     "filed": "0ae1f4105d57b1eb5f77b65e6379c5f0d8ca62ec423c881de733db3757945397",
+     "actual": "0ae1f4105d57b1eb5f77b65e6379c5f0d8ca62ec423c881de733db3757945397",
+     "match": true
+    },
+    "README.md": {
+     "filed": "9979a88afbe238bd837f7075c778d4ea9fe9a1c13f4283a25e7a4c1f0ebf8ee4",
+     "actual": "9979a88afbe238bd837f7075c778d4ea9fe9a1c13f4283a25e7a4c1f0ebf8ee4",
+     "match": true
+    },
+    "bilingual_dicts/adj_mr-eg.txt": {
+     "filed": "f34a996d42ee954e326712d1497de52efc4f6f2dc26e76735aeb6f7de5d84b79",
+     "actual": "f34a996d42ee954e326712d1497de52efc4f6f2dc26e76735aeb6f7de5d84b79",
+     "match": true
+    },
+    "bilingual_dicts/fra-eng.0-5000.txt": {
+     "filed": "bd6b571a68e32c7914e729a6dc5cffe28aeb2204ef868f7fb1a4dc5e545266ba",
+     "actual": "bd6b571a68e32c7914e729a6dc5cffe28aeb2204ef868f7fb1a4dc5e545266ba",
+     "match": true
+    },
+    "bilingual_dicts/names_mr-eg.txt": {
+     "filed": "bed3f2240bb86db6cf7af9b81803f59ed93039230c7e3a9209d51d3e7a486bc2",
+     "actual": "bed3f2240bb86db6cf7af9b81803f59ed93039230c7e3a9209d51d3e7a486bc2",
+     "match": true
+    },
+    "bilingual_dicts/nouns+names+nums.txt": {
+     "filed": "614775d3c9a291c31a3236a9ef65676c223d0ca9211b41962181a1bdde74b207",
+     "actual": "614775d3c9a291c31a3236a9ef65676c223d0ca9211b41962181a1bdde74b207",
+     "match": true
+    },
+    "bilingual_dicts/nouns_mr-eg.txt": {
+     "filed": "3271932b757df71e9e5f2bb4120932387838f8dbb607aa811401f831a2968af4",
+     "actual": "3271932b757df71e9e5f2bb4120932387838f8dbb607aa811401f831a2968af4",
+     "match": true
+    },
+    "bilingual_dicts/num_mr-eg.dict": {
+     "filed": "c1353dae92d30a06510d4484545bb94db8a2a8306f347005e212bb19fdfcf105",
+     "actual": "c1353dae92d30a06510d4484545bb94db8a2a8306f347005e212bb19fdfcf105",
+     "match": true
+    },
+    "bilingual_dicts/prep_mr-eg.txt": {
+     "filed": "129564fe25f978ade144c8ffe73e00ac1599d6bdd2fd1320cbcdc02ded2e27c4",
+     "actual": "129564fe25f978ade144c8ffe73e00ac1599d6bdd2fd1320cbcdc02ded2e27c4",
+     "match": true
+    },
+    "bilingual_dicts/titularies_mr-eg.dict": {
+     "filed": "df2e5f643af4eeec3bd4ab4cd464e11396888bc2137f03223f7dd9a1182c2d8a",
+     "actual": "df2e5f643af4eeec3bd4ab4cd464e11396888bc2137f03223f7dd9a1182c2d8a",
+     "match": true
+    },
+    "bilingual_dicts/verb_mr-eg.txt": {
+     "filed": "d7c7f9539744d35d565ffadd5da1c37817c2dd5faa34c94fc7e612422d32e858",
+     "actual": "d7c7f9539744d35d565ffadd5da1c37817c2dd5faa34c94fc7e612422d32e858",
+     "match": true
+    }
+   },
+   "kovetsky_inscriptions_sha256": "1e91e3a0c52626482bc4015b597df862e7818602dab48a7e870240ab2e567bc4",
+   "kovetsky_inscriptions_pin_match": true,
+   "kovetsky_head": "145af0836c071e7c9796d37d4b36add00d347c8a",
+   "kovetsky_head_pin_match": true,
+   "asjp_custody": {
+    "forms.csv": {
+     "filed": true,
+     "sha256": "4ee30b771a2cba59e7e904587f7f60dc3d823824a7b9aae9dd6f73a960139321"
+    },
+    "languages.csv": {
+     "filed": true,
+     "sha256": "647174df2eb812eff370355b02b6843d76bfb2b082147bc263e5ccd4cc628be5"
+    },
+    "parameters.csv": {
+     "filed": true,
+     "sha256": "2ed306c24552ea61e48ad6dc067859d8b70029abfc1d36668246214a5a1183ec"
+    }
+   },
+   "pass": true
+  },
+  "basis_reconstruction": {
+   "words": 12863,
+   "cvc_pairs": 13406,
+   "same_place_rate": 0.3151573922124422,
+   "nes_reference_rate": 0.3037542662116041,
+   "nes_forms": 374,
+   "nes_pairs": 293,
+   "development_texts": 335,
+   "held_out_texts": 33,
+   "distinct_example_phrases": 932
+  },
+  "filed_figures": {
+   "words": 12863,
+   "cvc_pairs": 13406,
+   "same_place_rate": 0.3152,
+   "nes_reference_rate": 0.3038
+  },
+  "figure_gate_pass": true,
+  "pass": true
+ },
+ "null_implementation": "numpy Generator (PCG64), seed 20261127, 10000 replicates per null; Null W shuffles consonants within words, Null X permutes consonants across words",
+ "battery": {
+  "mapping_file_sha256": "06c057352bde8f87f580f50b20bb3028011ba21d0d1475992e3ccbf7045caae1",
+  "meroitic": {
+   "pooled": {
+    "SP-CVC": {
+     "value": 0.3151573922124422,
+     "denominator": 13406
+    },
+    "LV-CO": {
+     "value": 0.2415510117597203,
+     "denominator": 9439
+    },
+    "ONSET-CC": {
+     "value": 0.32815050921246985,
+     "denominator": 12863
+    },
+    "CODA-C": {
+     "value": 0.35777034906320454,
+     "denominator": 12863
+    },
+    "LV-TRANS": {
+     "value": 0.023646128599134716,
+     "denominator": 13406
+    }
+   },
+   "per_stratum": {
+    "document": {
+     "SP-CVC": {
+      "value": 0.3157894736842105,
+      "denominator": 152
+     },
+     "LV-CO": {
+      "value": 0.18452380952380953,
+      "denominator": 168
+     },
+     "ONSET-CC": {
+      "value": 0.21095890410958903,
+      "denominator": 365
+     },
+     "CODA-C": {
+      "value": 0.30684931506849317,
+      "denominator": 365
+     },
+     "LV-TRANS": {
+      "value": 0.03289473684210526,
+      "denominator": 152
+     }
+    },
+    "funerary": {
+     "SP-CVC": {
+      "value": 0.29579088987122815,
+      "denominator": 5203
+     },
+     "LV-CO": {
+      "value": 0.34678624813153963,
+      "denominator": 3345
+     },
+     "ONSET-CC": {
+      "value": 0.40901082305562547,
+      "denominator": 3973
+     },
+     "CODA-C": {
+      "value": 0.26050843191542916,
+      "denominator": 3973
+     },
+     "LV-TRANS": {
+      "value": 0.014991351143571016,
+      "denominator": 5203
+     }
+    },
+    "graffito": {
+     "SP-CVC": {
+      "value": 0.2766990291262136,
+      "denominator": 206
+     },
+     "LV-CO": {
+      "value": 0.16666666666666666,
+      "denominator": 168
+     },
+     "ONSET-CC": {
+      "value": 0.3423913043478261,
+      "denominator": 184
+     },
+     "CODA-C": {
+      "value": 0.3804347826086957,
+      "denominator": 184
+     },
+     "LV-TRANS": {
+      "value": 0.019417475728155338,
+      "denominator": 206
+     }
+    },
+    "other": {
+     "SP-CVC": {
+      "value": 0.23809523809523808,
+      "denominator": 21
+     },
+     "LV-CO": {
+      "value": 0.18181818181818182,
+      "denominator": 22
+     },
+     "ONSET-CC": {
+      "value": 0.32432432432432434,
+      "denominator": 37
+     },
+     "CODA-C": {
+      "value": 0.35135135135135137,
+      "denominator": 37
+     },
+     "LV-TRANS": {
+      "value": 0.0,
+      "denominator": 21
+     }
+    },
+    "royal_temple": {
+     "SP-CVC": {
+      "value": 0.38870431893687707,
+      "denominator": 301
+     },
+     "LV-CO": {
+      "value": 0.21951219512195122,
+      "denominator": 287
+     },
+     "ONSET-CC": {
+      "value": 0.4434250764525994,
+      "denominator": 327
+     },
+     "CODA-C": {
+      "value": 0.4036697247706422,
+      "denominator": 327
+     },
+     "LV-TRANS": {
+      "value": 0.03986710963455149,
+      "denominator": 301
+     }
+    }
+   },
+   "split_half_dev_texts_only": {
+    "half_1": {
+     "SP-CVC": {
+      "value": 0.3006779661016949,
+      "denominator": 2950
+     },
+     "LV-CO": {
+      "value": 0.32941176470588235,
+      "denominator": 2040
+     },
+     "ONSET-CC": {
+      "value": 0.4024632499006754,
+      "denominator": 2517
+     },
+     "CODA-C": {
+      "value": 0.28128724672228844,
+      "denominator": 2517
+     },
+     "LV-TRANS": {
+      "value": 0.015593220338983051,
+      "denominator": 2950
+     }
+    },
+    "half_2": {
+     "SP-CVC": {
+      "value": 0.2996931469485169,
+      "denominator": 2933
+     },
+     "LV-CO": {
+      "value": 0.3148717948717949,
+      "denominator": 1950
+     },
+     "ONSET-CC": {
+      "value": 0.38370620514985226,
+      "denominator": 2369
+     },
+     "CODA-C": {
+      "value": 0.2760658505698607,
+      "denominator": 2369
+     },
+     "LV-TRANS": {
+      "value": 0.018070235254006136,
+      "denominator": 2933
+     }
+    }
+   }
+  },
+  "comparators": {
+   "AKKADIAN": {
+    "SP-CVC": {
+     "value": 0.3888888888888889,
+     "denominator": 36
+    },
+    "LV-CO": {
+     "value": 0.13157894736842105,
+     "denominator": 38
+    },
+    "ONSET-CC": {
+     "value": 0.06818181818181818,
+     "denominator": 44
+    },
+    "CODA-C": {
+     "value": 0.045454545454545456,
+     "denominator": 44
+    },
+    "LV-TRANS": {
+     "value": 0.08333333333333333,
+     "denominator": 36
+    }
+   },
+   "AMHARIC": {
+    "SP-CVC": {
+     "value": 0.3161290322580645,
+     "denominator": 155
+    },
+    "LV-CO": {
+     "value": 0.12612612612612611,
+     "denominator": 111
+    },
+    "ONSET-CC": {
+     "value": 0.0,
+     "denominator": 119
+    },
+    "CODA-C": {
+     "value": 0.5630252100840336,
+     "denominator": 119
+    },
+    "LV-TRANS": {
+     "value": 0.06451612903225806,
+     "denominator": 155
+    }
+   },
+   "BIBLICAL_HEBREW": {
+    "SP-CVC": {
+     "value": 0.203125,
+     "denominator": 64
+    },
+    "LV-CO": {
+     "value": 0.18421052631578946,
+     "denominator": 38
+    },
+    "ONSET-CC": {
+     "value": 0.05263157894736842,
+     "denominator": 38
+    },
+    "CODA-C": {
+     "value": 0.8947368421052632,
+     "denominator": 38
+    },
+    "LV-TRANS": {
+     "value": 0.078125,
+     "denominator": 64
+    }
+   },
+   "COPTIC": {
+    "SP-CVC": {
+     "value": 0.3888888888888889,
+     "denominator": 36
+    },
+    "LV-CO": {
+     "value": 0.06818181818181818,
+     "denominator": 44
+    },
+    "ONSET-CC": {
+     "value": 0.140625,
+     "denominator": 64
+    },
+    "CODA-C": {
+     "value": 0.5,
+     "denominator": 64
+    },
+    "LV-TRANS": {
+     "value": 0.0,
+     "denominator": 36
+    }
+   },
+   "DONGOLESE_NUBIAN": {
+    "SP-CVC": {
+     "value": 0.29591836734693877,
+     "denominator": 98
+    },
+    "LV-CO": {
+     "value": 0.11842105263157894,
+     "denominator": 76
+    },
+    "ONSET-CC": {
+     "value": 0.0,
+     "denominator": 108
+    },
+    "CODA-C": {
+     "value": 0.6481481481481481,
+     "denominator": 108
+    },
+    "LV-TRANS": {
+     "value": 0.07142857142857142,
+     "denominator": 98
+    }
+   },
+   "HAUSA": {
+    "SP-CVC": {
+     "value": 0.23728813559322035,
+     "denominator": 118
+    },
+    "LV-CO": {
+     "value": 0.14705882352941177,
+     "denominator": 102
+    },
+    "ONSET-CC": {
+     "value": 0.05042016806722689,
+     "denominator": 119
+    },
+    "CODA-C": {
+     "value": 0.03361344537815126,
+     "denominator": 119
+    },
+    "LV-TRANS": {
+     "value": 0.059322033898305086,
+     "denominator": 118
+    }
+   },
+   "KUNUZ_NUBIAN": {
+    "SP-CVC": {
+     "value": 0.34782608695652173,
+     "denominator": 23
+    },
+    "LV-CO": {
+     "value": 0.047619047619047616,
+     "denominator": 21
+    },
+    "ONSET-CC": {
+     "value": 0.0,
+     "denominator": 35
+    },
+    "CODA-C": {
+     "value": 0.5428571428571428,
+     "denominator": 35
+    },
+    "LV-TRANS": {
+     "value": 0.043478260869565216,
+     "denominator": 23
+    }
+   },
+   "LATE_EGYPTIAN": {
+    "SP-CVC": {
+     "value": 0.24242424242424243,
+     "denominator": 33
+    },
+    "LV-CO": {
+     "value": 0.16666666666666666,
+     "denominator": 36
+    },
+    "ONSET-CC": {
+     "value": 0.28888888888888886,
+     "denominator": 45
+    },
+    "CODA-C": {
+     "value": 0.4444444444444444,
+     "denominator": 45
+    },
+    "LV-TRANS": {
+     "value": 0.09090909090909091,
+     "denominator": 33
+    }
+   },
+   "MEIDOB_NUBIAN": {
+    "SP-CVC": {
+     "value": 0.21739130434782608,
+     "denominator": 23
+    },
+    "LV-CO": {
+     "value": 0.0,
+     "denominator": 25
+    },
+    "ONSET-CC": {
+     "value": 0.0,
+     "denominator": 38
+    },
+    "CODA-C": {
+     "value": 0.23684210526315788,
+     "denominator": 38
+    },
+    "LV-TRANS": {
+     "value": 0.0,
+     "denominator": 23
+    }
+   },
+   "MIDDLE_EGYPTIAN": {
+    "SP-CVC": {
+     "value": null,
+     "denominator": 0
+    },
+    "LV-CO": {
+     "value": 0.13846153846153847,
+     "denominator": 65
+    },
+    "ONSET-CC": {
+     "value": 0.9701492537313433,
+     "denominator": 67
+    },
+    "CODA-C": {
+     "value": 1.0,
+     "denominator": 67
+    },
+    "LV-TRANS": {
+     "value": null,
+     "denominator": 0
+    }
+   },
+   "NARA": {
+    "SP-CVC": {
+     "value": 0.29473684210526313,
+     "denominator": 95
+    },
+    "LV-CO": {
+     "value": 0.09876543209876543,
+     "denominator": 81
+    },
+    "ONSET-CC": {
+     "value": 0.0196078431372549,
+     "denominator": 102
+    },
+    "CODA-C": {
+     "value": 0.3333333333333333,
+     "denominator": 102
+    },
+    "LV-TRANS": {
+     "value": 0.05263157894736842,
+     "denominator": 95
+    }
+   },
+   "NOBIIN": {
+    "SP-CVC": {
+     "value": 0.26666666666666666,
+     "denominator": 30
+    },
+    "LV-CO": {
+     "value": 0.037037037037037035,
+     "denominator": 27
+    },
+    "ONSET-CC": {
+     "value": 0.0,
+     "denominator": 36
+    },
+    "CODA-C": {
+     "value": 0.5277777777777778,
+     "denominator": 36
+    },
+    "LV-TRANS": {
+     "value": 0.03333333333333333,
+     "denominator": 30
+    }
+   },
+   "OLD_NUBIAN": {
+    "SP-CVC": {
+     "value": 0.20689655172413793,
+     "denominator": 29
+    },
+    "LV-CO": {
+     "value": 0.03125,
+     "denominator": 32
+    },
+    "ONSET-CC": {
+     "value": 0.0,
+     "denominator": 55
+    },
+    "CODA-C": {
+     "value": 0.6909090909090909,
+     "denominator": 55
+    },
+    "LV-TRANS": {
+     "value": 0.034482758620689655,
+     "denominator": 29
+    }
+   }
+  },
+  "family_ranges": {
+   "SP-CVC": {
+    "R1_NES": [
+     0.29473684210526313,
+     0.29591836734693877
+    ],
+    "R1_NES_n_lists": 2,
+    "R2_AFROASIATIC": [
+     0.203125,
+     0.3161290322580645
+    ],
+    "R2_AFROASIATIC_n_lists": 3
+   },
+   "LV-CO": {
+    "R1_NES": [
+     0.09876543209876543,
+     0.11842105263157894
+    ],
+    "R1_NES_n_lists": 2,
+    "R2_AFROASIATIC": [
+     0.06818181818181818,
+     0.14705882352941177
+    ],
+    "R2_AFROASIATIC_n_lists": 4
+   },
+   "ONSET-CC": {
+    "R1_NES": [
+     0.0,
+     0.0196078431372549
+    ],
+    "R1_NES_n_lists": 3,
+    "R2_AFROASIATIC": [
+     0.0,
+     0.9701492537313433
+    ],
+    "R2_AFROASIATIC_n_lists": 6
+   },
+   "CODA-C": {
+    "R1_NES": [
+     0.3333333333333333,
+     0.6909090909090909
+    ],
+    "R1_NES_n_lists": 3,
+    "R2_AFROASIATIC": [
+     0.03361344537815126,
+     1.0
+    ],
+    "R2_AFROASIATIC_n_lists": 6
+   },
+   "LV-TRANS": {
+    "R1_NES": [
+     0.05263157894736842,
+     0.07142857142857142
+    ],
+    "R1_NES_n_lists": 2,
+    "R2_AFROASIATIC": [
+     0.059322033898305086,
+     0.078125
+    ],
+    "R2_AFROASIATIC_n_lists": 3
+   }
+  },
+  "scoreable": {
+   "SP-CVC": false,
+   "LV-CO": false,
+   "ONSET-CC": true,
+   "CODA-C": true,
+   "LV-TRANS": false
+  },
+  "n_scoreable": 2,
+  "nulls": {
+   "SP-CVC": {
+    "null": "W",
+    "replicates": 10000,
+    "seed": 20261127,
+    "central95": [
+     0.3110547516037595,
+     0.3229151126361331
+    ],
+    "observed": 0.3151573922124422,
+    "null_consistent": true
+   },
+   "LV-TRANS": {
+    "null": "W",
+    "replicates": 10000,
+    "seed": 20261127,
+    "central95": [
+     0.03617783082201999,
+     0.04147396688050127
+    ],
+    "observed": 0.023646128599134716,
+    "null_consistent": false
+   },
+   "LV-CO": {
+    "null": "X",
+    "replicates": 10000,
+    "seed": 20261127,
+    "central95": [
+     0.1829642970653671,
+     0.19493590422714271
+    ],
+    "observed": 0.2415510117597203,
+    "null_consistent": false
+   }
+  },
+  "meroitic_pooled_leans": {
+   "SP-CVC": [],
+   "LV-CO": [],
+   "ONSET-CC": [
+    "R2_AFROASIATIC"
+   ],
+   "CODA-C": [],
+   "LV-TRANS": []
+  },
+  "lean_counts": {
+   "R1_NES": 0,
+   "R2_AFROASIATIC": 1
+  },
+  "control_lean_counts": {
+   "OLD_NUBIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 0
+   },
+   "NOBIIN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 0
+   },
+   "DONGOLESE_NUBIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 0
+   },
+   "KUNUZ_NUBIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 0
+   },
+   "MEIDOB_NUBIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 1
+   },
+   "NARA": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 0
+   },
+   "COPTIC": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 1
+   },
+   "LATE_EGYPTIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 1
+   },
+   "MIDDLE_EGYPTIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 0
+   },
+   "AKKADIAN": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 2
+   },
+   "BIBLICAL_HEBREW": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 2
+   },
+   "AMHARIC": {
+    "R1_NES": 1,
+    "R2_AFROASIATIC": 0
+   },
+   "HAUSA": {
+    "R1_NES": 0,
+    "R2_AFROASIATIC": 1
+   }
+  },
+  "control_C": 2,
+  "per_stratum_leans": {
+   "document": {
+    "SP-CVC": [
+     "R2_AFROASIATIC"
+    ],
+    "LV-CO": [],
+    "ONSET-CC": [
+     "R2_AFROASIATIC"
+    ],
+    "CODA-C": [
+     "R2_AFROASIATIC"
+    ],
+    "LV-TRANS": []
+   },
+   "funerary": {
+    "SP-CVC": [],
+    "LV-CO": [],
+    "ONSET-CC": [
+     "R2_AFROASIATIC"
+    ],
+    "CODA-C": [
+     "R2_AFROASIATIC"
+    ],
+    "LV-TRANS": []
+   },
+   "graffito": {
+    "SP-CVC": [
+     "R2_AFROASIATIC"
+    ],
+    "LV-CO": [],
+    "ONSET-CC": [
+     "R2_AFROASIATIC"
+    ],
+    "CODA-C": [],
+    "LV-TRANS": []
+   },
+   "other": {
+    "SP-CVC": null,
+    "LV-CO": null,
+    "ONSET-CC": null,
+    "CODA-C": null,
+    "LV-TRANS": null
+   },
+   "royal_temple": {
+    "SP-CVC": [],
+    "LV-CO": [],
+    "ONSET-CC": [
+     "R2_AFROASIATIC"
+    ],
+    "CODA-C": [],
+    "LV-TRANS": []
+   }
+  },
+  "verdict": "INDETERMINATE",
+  "positive_family": null,
+  "negative_arms": [],
+  "indeterminate_grounds": [
+   "fewer than 4 scoreable items"
+  ]
+ },
+ "outcome": "INDETERMINATE",
+ "finished_utc": "2026-11-27T19:29:53.121773+00:00"
+}

@@ -1,0 +1,76 @@
+{
+ "filed_before_battery_statistics": true,
+ "asjp_symbol_to_class": {
+  "a": "vowel",
+  "e": "vowel",
+  "i": "vowel",
+  "o": "vowel",
+  "u": "vowel",
+  "E": "vowel",
+  "3": "vowel",
+  "p": "labial",
+  "b": "labial",
+  "m": "labial",
+  "f": "labial",
+  "v": "labial",
+  "w": "labial",
+  "k": "velar",
+  "g": "velar",
+  "q": "velar",
+  "x": "velar",
+  "X": "velar",
+  "N": "velar",
+  "t": "coronal",
+  "d": "coronal",
+  "T": "coronal",
+  "s": "coronal",
+  "z": "coronal",
+  "S": "coronal",
+  "C": "coronal",
+  "n": "coronal",
+  "l": "coronal",
+  "r": "coronal",
+  "5": "coronal",
+  "7": "other",
+  "h": "other",
+  "8": "other",
+  "y": "other",
+  "j": "other"
+ },
+ "asjp_non_segments_dropped": [
+  " ",
+  "\"",
+  "~"
+ ],
+ "asjp_defaulted_symbols": [
+  "$"
+ ],
+ "meroitic_place_classes": {
+  "labial": [
+   "p",
+   "b",
+   "m"
+  ],
+  "velar": [
+   "k",
+   "q",
+   "g",
+   "x"
+  ],
+  "coronal": [
+   "t",
+   "d",
+   "s",
+   "z",
+   "n",
+   "l",
+   "r"
+  ],
+  "other": "every other consonant, including h (freeze v2, cycle-2 section 6.1)"
+ },
+ "derivation_notes": [
+  "ASJP classes from the codebook's articulatory definitions; E and 3 are vowel symbols (central vowels); N is the velar nasal (velar); 5 follows the pipeline's registered ASJP_MAP (5 -> s, coronal); 7 is the glottal stop and 8 the pharyngeal (other); y and j are palatal glides (other); w is the labial-velar glide (labial).",
+  "The tilde and double-quote are segment modifiers (nasalization; glottalization) in these lists, not segments, and spaces are separators; all three are dropped before classification.",
+  "Symbols observed in the 13 lists but absent from the table default to 'other' and are listed in asjp_defaulted_symbols."
+ ]
+}
