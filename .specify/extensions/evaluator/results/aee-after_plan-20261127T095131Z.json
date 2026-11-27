@@ -1,0 +1,1789 @@
+{
+  "schema_version": "1.0",
+  "evaluator": {
+    "id": "aee",
+    "version": "1.0.0",
+    "name": "Applied Epistemic Engineering",
+    "url": "https://github.com/electrohire/spec-kit-aee"
+  },
+  "phase": "after_plan",
+  "outcome": "iterate",
+  "summary": "Assessed 7 claim(s); found 31 failure mode(s); 7 claim(s) below the 0.70 confidence threshold. Shared evidence: 1 supporting source(s) shared across 7 of 7 claim(s); the same evidence set supports multiple claims (FR-2.8, reporting only, no outcome effect in this phase). Draft cap: 7 draft claim(s) capped at gather_evidence/iterate (FR-2.3). Stage cap: 7 claim(s) below stage 'explained'; the outcome cannot be 'pass' (Spec 004 R1.4). Not understood: 14 residual unknown(s) are recorded on this ass",
+  "findings": [
+    {
+      "id": "AEE-C108-1-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-1-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-1-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-2, C108-3, C108-4, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-1-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C108-2-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-2-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-2-COUNTEREXAMPLE-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Absolute language is used without a bounded domain",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Counterexample challenge"
+    },
+    {
+      "id": "AEE-C108-2-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-3, C108-4, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-2-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C108-3-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-3-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-3-COUNTEREXAMPLE-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Absolute language is used without a bounded domain",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Counterexample challenge"
+    },
+    {
+      "id": "AEE-C108-3-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-4, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-3-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C108-4-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-4-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-4-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-4-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C108-5-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-5-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-5-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-4, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-5-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C108-6-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-6-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-6-COUNTEREXAMPLE-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Absolute language is used without a bounded domain",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Counterexample challenge"
+    },
+    {
+      "id": "AEE-C108-6-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-4, C108-5, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-6-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C108-7-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C108-7-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C108-7-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-4, C108-5, C108-6 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C108-7-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    }
+  ],
+  "next_action": {
+    "kind": "iterate",
+    "target_phase": "plan",
+    "message": "Revise the current phase to address 31 finding(s)."
+  },
+  "metadata": {
+    "timestamp": "2026-11-27T09:51:31.530016Z",
+    "artifacts_evaluated": [
+      "specs/108-world-language-graph/aee-claims.json"
+    ],
+    "model": null,
+    "deterministic": true,
+    "engine_version": "1.5.3",
+    "aee_methodology_version": "2.0",
+    "lanes": {
+      "lane_1": {
+        "label": "machine verification",
+        "outcome": "iterate",
+        "threshold": 0.7,
+        "claims_at_or_above_threshold": 0,
+        "claims_below_threshold": 7
+      },
+      "lane_2": {
+        "label": "human acceptance",
+        "stage_counts": {
+          "created": 7,
+          "checked": 0,
+          "explained": 0,
+          "accepted": 0,
+          "digested": 0
+        },
+        "claims_below_explained": 7,
+        "exposition_covered_claims": 0,
+        "exposition_missing_claims": 7,
+        "verified_unexplained_claims": 0,
+        "stage_capped_claims": 0,
+        "attribution_contested_claims": 0
+      }
+    },
+    "not_understood": [
+      "C108-1: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-1: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C108-2: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-2: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C108-3: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-3: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C108-4: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-4: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C108-5: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-5: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C108-6: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-6: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C108-7: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C108-7: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded."
+    ],
+    "reported_statuses": {
+      "C108-1": "draft",
+      "C108-2": "draft",
+      "C108-3": "draft",
+      "C108-4": "draft",
+      "C108-5": "draft",
+      "C108-6": "draft",
+      "C108-7": "draft"
+    }
+  },
+  "state": {
+    "aee": {
+      "project": "wlg-108",
+      "claims": [
+        {
+          "id": "C108-1",
+          "text": "The graph's node schema keeps languages and scripts distinct, and no node carries a placement as a fact: language and script nodes are different record kinds joined only by time-scoped WRITES relations; every node carries exactly one subtype from the design's lists; family placement exists only as placement assertions and PROPOSED_RELATION edges; the node schema has no unqualified family field. Does not establish: that any placement assertion in the graph is correct; only that placements are represented in the one permitted form.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any node record in a released stream that carries a family value outside a placement assertion; any language/script kind conflation; any script status value appearing as a language status or the reverse (WLG-03)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-1-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-1",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-1-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-1",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-1-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-1",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-2, C108-3, C108-4, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-1-DRAFT-CAP",
+              "claim_id": "C108-1",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C108-2",
+          "text": "The edge layer keeps the seven historical predicates mechanically distinct and preserves competition: every historical edge carries its predicate, evidence class, proponent, basis, scope, and a concrete falsifier or narrowing condition; competing edges coexist as separate records; no merge, majority, or consensus record exists that its sources do not themselves state; transitive closure is computed only within admitted GENETIC_DESCENT and never crosses PROPOSED_RELATION, contact, areal, population, script, or WRITES relations; no language relationship is derived from a script relationship, a population movement, or a rendering product. Does not establish: that any edge's asserted relationship is true; only that the layer represents each assertion in its own name.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A released edge missing any required field; a CONTACT_BORROWING edge with an empty feature scope; a POPULATION_MOVEMENT edge terminating on a language node; a consensus or merged record not stated by a source (WLG-03, WLG-09)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-2-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-2",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-2-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-2",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-2-COUNTEREXAMPLE-CHALLENGE",
+              "claim_id": "C108-2",
+              "challenge": "Counterexample challenge",
+              "breakpoint": "Absolute language is used without a bounded domain",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-2-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-2",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-3, C108-4, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-2-DRAFT-CAP",
+              "claim_id": "C108-2",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C108-3",
+          "text": "Geometry is typed before coordinates, and the projection never implies what the assertions do not say: every rendered coordinate resolves to a typed geometry assertion; attested and inferred geometries are stored, rendered, and exported in separate layers; NO_GEOMETRY nodes appear in the off-sphere index and never at a default coordinate; time is an interval query with no interpolation between slices; the eight never-imply rules of the design's section 3.8 hold for every view this build files. Does not establish: any geographic, homeland, or contact claim; views are renderings over a release, not evidence.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A coordinate in a filed view that resolves to no geometry assertion; an inferred geometry rendered in an attested form; a node placed at a fallback coordinate; an exported view whose state does not reproduce it (WLG-07, WLG-08)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-3-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-3",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-3-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-3",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-3-COUNTEREXAMPLE-CHALLENGE",
+              "claim_id": "C108-3",
+              "challenge": "Counterexample challenge",
+              "breakpoint": "Absolute language is used without a bounded domain",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-3-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-3",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-4, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-3-DRAFT-CAP",
+              "claim_id": "C108-3",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C108-4",
+          "text": "The gap register is complete by construction: every script node assessed S0, S1, or S2, every language node assessed L0, L1, or L2, every L3 language with PLACEMENT_UNRESOLVED, every inferred-unknown node, and every script whose linguistic status is disputed carries exactly one gap entry, with known and missing lists populated, blockers typed, candidates banded A-D by evidence (within-band order a work order, not a likelihood), movement conditions named, and a structured priority. Does not establish: that any gap will close, or that any candidate placement is likely; the register describes an epistemic state and a work queue.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A node meeting a generation threshold with no gap entry, or with two; a gap entry whose candidate reference does not resolve to a live placement assertion or hypothesis edge; a candidate ranked by a probability the register does not carry (WLG-04)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-4-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-4",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-4-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-4",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-4-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-4",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-5, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-4-DRAFT-CAP",
+              "claim_id": "C108-4",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C108-5",
+          "text": "The graph is evidence infrastructure, not a fourth baseline, and this build moves nothing: no Spec 106 baseline, template, or pin is amended; no program standing, verdict, or tally is edited; the release's three hashes (graph snapshot, source manifest, baseline pins) are distinct and separately recomputable; graph content reaches a baseline only through the reviewed amendment pipeline of the design's section 5.3, which this build does not execute. Does not establish: that any graph assertion is fit for baseline adoption; adoption is a separate, reviewed act.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any diff in this study's landings touching a baseline template, a pin, or a program record of a standing, verdict, or tally; a baseline-links record asserting an adoption no amendment record names (WLG-06)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-5-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-5",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-5-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-5",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-5-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-5",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-4, C108-6, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-5-DRAFT-CAP",
+              "claim_id": "C108-5",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C108-6",
+          "text": "Every populated item is sourced, labelled, and reviewable: every field assertion and edge carries exactly one evidence class (F/K/H), a source grade (P1-P4), and a review state; every item names a source actually opened, with a locator, or carries the UNSOURCED flag, which appears only on (H) items; no (F) item is unsourced; every (H) item carries a removal condition; consensus / contested / fringe labels from the ingestion source are preserved in the confidence labels and never upgraded in transit. Does not establish: that a sourced item is true; only that its provenance is inspectable at the scope its source claims.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A released item with no evidence class, a missing or unopenable locator, an UNSOURCED item not classed (H), or a confidence label stronger than its source's own label (WLG-02)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-6-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-6",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-6-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-6",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-6-COUNTEREXAMPLE-CHALLENGE",
+              "claim_id": "C108-6",
+              "challenge": "Counterexample challenge",
+              "breakpoint": "Absolute language is used without a bounded domain",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-6-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-6",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-4, C108-5, C108-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-6-DRAFT-CAP",
+              "claim_id": "C108-6",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C108-7",
+          "text": "The release's census and pins recompute exactly: the release's stated counts (by node kind, subtype, status, evidence class, gap kind, and predicate) recompute exactly from the canonical streams, and the graph snapshot hash and source manifest hash recompute exactly under the schema version the release names. Does not establish: the correctness of any individual assertion; only the internal integrity of the release as a countable, citable object.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's act of 2026-11-27 03:08 ET in the Glossa-Lab chat commissioning the World Language Graph build and population as designed, adopting all eight commissioning decisions of the design of 2026-11-26 as written; and the design and the world-languages research report of 2026-11-26 as filed.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any count or hash in the release record that does not recompute from the streams as filed (WLG-01, WLG-05)."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C108-7-BOUNDARY-CHALLENGE",
+              "claim_id": "C108-7",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-7-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C108-7",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-7-INDEPENDENCE-UNMODELED",
+              "claim_id": "C108-7",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C108-1, C108-2, C108-3, C108-4, C108-5, C108-6 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C108-7-DRAFT-CAP",
+              "claim_id": "C108-7",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        }
+      ],
+      "scores": {
+        "C108-1": {
+          "claim_id": "C108-1",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C108-2": {
+          "claim_id": "C108-2",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C108-3": {
+          "claim_id": "C108-3",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C108-4": {
+          "claim_id": "C108-4",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C108-5": {
+          "claim_id": "C108-5",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C108-6": {
+          "claim_id": "C108-6",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C108-7": {
+          "claim_id": "C108-7",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        }
+      },
+      "recoveries": [
+        {
+          "failure_id": "AEE-C108-1-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-1",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-2-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-2",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-2-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C108-2",
+          "strategy": "narrow_boundary",
+          "action": "Narrow the claim or document evidence covering the entire domain.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-3-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-3",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-3-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C108-3",
+          "strategy": "narrow_boundary",
+          "action": "Narrow the claim or document evidence covering the entire domain.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-4-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-4",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-5-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-5",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-6-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-6",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-6-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C108-6",
+          "strategy": "narrow_boundary",
+          "action": "Narrow the claim or document evidence covering the entire domain.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-7-BOUNDARY-CHALLENGE",
+          "claim_id": "C108-7",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C108-1-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-1",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-1-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-1",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-2-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-2",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-2-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-2",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-3-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-3",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-3-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-3",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-4-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-4",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-4-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-4",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-5-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-5",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-5-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-5",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-6-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-6",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-6-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-6",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-7-INDEPENDENCE-UNMODELED",
+          "claim_id": "C108-7",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C108-7-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C108-7",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C108-1-DRAFT-CAP",
+          "claim_id": "C108-1",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C108-2-DRAFT-CAP",
+          "claim_id": "C108-2",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C108-3-DRAFT-CAP",
+          "claim_id": "C108-3",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C108-4-DRAFT-CAP",
+          "claim_id": "C108-4",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C108-5-DRAFT-CAP",
+          "claim_id": "C108-5",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C108-6-DRAFT-CAP",
+          "claim_id": "C108-6",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C108-7-DRAFT-CAP",
+          "claim_id": "C108-7",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        }
+      ]
+    }
+  }
+}

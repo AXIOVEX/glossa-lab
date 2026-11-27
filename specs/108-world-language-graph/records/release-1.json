@@ -1,0 +1,61 @@
+{
+ "release_id": "WLG-R1",
+ "date": "2026-11-27",
+ "schema_version": "wlg-1.0",
+ "counts": {
+  "nodes": 148,
+  "edges": 129,
+  "assertions": 365,
+  "gaps": 53,
+  "sources": 7
+ },
+ "counts_by_kind": {
+  "LANGUAGE": 82,
+  "CONTEXT": 14,
+  "SCRIPT": 52
+ },
+ "counts_by_status": {
+  "None": 44,
+  "L4": 14,
+  "L0": 4,
+  "L3": 10,
+  "L1": 9,
+  "L2": 15,
+  "S3": 24,
+  "S0": 12,
+  "S2": 6,
+  "S4": 3,
+  "S1": 7
+ },
+ "counts_by_predicate": {
+  "GENETIC_DESCENT": 27,
+  "WRITES": 41,
+  "SCRIPT_DESCENT": 5,
+  "SCRIPT_BORROWING": 4,
+  "CONTACT_BORROWING": 3,
+  "PROPOSED_RELATION": 42,
+  "POPULATION_MOVEMENT": 7
+ },
+ "counts_by_evidence_class": {
+  "K": 357,
+  "H": 3,
+  "F": 5
+ },
+ "counts_by_gap_kind": {
+  "LANGUAGE_NOT_UNDERSTOOD": 28,
+  "SCRIPT_UNDECIPHERED": 24,
+  "LINGUISTIC_STATUS_DISPUTED": 1
+ },
+ "coverage_depths": {
+  "SKELETON": 143,
+  "DOSSIER": 5
+ },
+ "graph_snapshot_hash": "d2c8fddc060800646846d8bf27471241cd59af225c7c8515a5a7762b428439cd",
+ "source_manifest_hash": "5f3cbb38f7d7203c4a8e12af74e2550140793732c751bf8a185d41e0a5a17d08",
+ "baseline_pins": {
+  "indus": "eb0e1d6218fadf8eed06c78eeb92979163ebb37b1206eb3d151c9c0d23b501e6",
+  "eteocypriot": "fca1cc8a238631b0c6df8b2901daa5e84dc4cb2387dcdad560285c6e95beec4f",
+  "meroitic": "ecabd227f7e767a3a740ece3b355d8620db476b89ac482d7a8386b483a97f4f2"
+ },
+ "note": "Baseline pins are the Spec 106 templates own pins, recorded untouched. This release amends no baseline and moves no standing."
+}
