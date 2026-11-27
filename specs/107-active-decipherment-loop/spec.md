@@ -334,5 +334,25 @@ exactly those the three registrations license, and are
 stated in the cycle-1 trace against the outcome records
 that license them.
 
+## 8. M-2 re-registration (2026-11-27)
+
+Test M-2 is re-registered on its original basis by
+`records/m2-re-registration-2026-11-27.md`: the
+development partition plus the 932 distinct example
+phrases, the phrases from the Otten corpus restored to
+tower custody at its pin and verified against the
+step-0 manifest (the restoration is filed at
+`specs/097-meroitic-reproduction-benchmark/records/custody-restoration-2026-11-27.md`).
+The cycle-2 registration’s calibration STOP-gate is
+replaced by a conformance preflight in the pattern of
+the OD-O-1 ruling: custody re-verification and basis
+reconstruction must reproduce the four filed
+calibration figures before any battery figure exists,
+and a preflight failure is the leg’s filed outcome.
+The battery’s design is unchanged from the cycle-2
+registration’s §6. Claim C107-12 and test case
+TC-107-13 are intaken with this re-registration;
+C107-10 stands as executed. Tasks T207–T208.
+
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.

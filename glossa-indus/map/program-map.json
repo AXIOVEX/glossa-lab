@@ -4,14 +4,14 @@
    "by_class": {
     "closed_other": 1,
     "negative": 7,
-    "open": 1060,
+    "open": 1061,
     "positive": 10
    },
    "by_population": {
-    "bundle": 1055,
+    "bundle": 1056,
     "extracted": 23
    },
-   "total": 1078
+   "total": 1079
   },
   "domains": {
    "Anchors & readings": {
@@ -87,11 +87,11 @@
     }
    },
    "Program infrastructure": {
-    "claims": 290,
+    "claims": 291,
     "claims_by_class": {
      "closed_other": 1,
      "negative": 1,
-     "open": 288,
+     "open": 289,
      "positive": 0
     },
     "restricted_studies": 0,
@@ -135,8 +135,8 @@
     "the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002",
     "without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001"
    ],
-   "present": 1069,
-   "total": 1078
+   "present": 1070,
+   "total": 1079
   },
   "judgment_call_studies": [],
   "multi_spec_claims": [
@@ -14795,6 +14795,20 @@
     "document": null,
     "domain": "Program infrastructure",
     "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-12",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": null,
+    "standing": "Ledger standing: status draft · stage none · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
     "id": "107-active-decipherment-loop/C107-2",
     "kind": "claim",
     "population": "bundle",
@@ -17038,9 +17052,9 @@
     "member_counts": {
      "closed_other": 0,
      "negative": 0,
-     "open": 11,
+     "open": 12,
      "positive": 0,
-     "total": 11
+     "total": 12
     },
     "restricted": false,
     "subdomain": "Governance, lifecycle & generated layers"
@@ -17065,9 +17079,9 @@
  },
  "stamp": {
   "ledger_latest_entry_date": "2026-11-27",
-  "ledger_lines": 1123,
+  "ledger_lines": 1124,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e",
+  "ledger_sha256": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v2"
  },
