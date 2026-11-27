@@ -37,3 +37,24 @@ The study is registered and unexecuted. The Round D target-decision note of 2026
 GAP: no execution or outcome record exists in the package.
 
 Rests on: the latest records cited above, as filed in this package.
+
+## 2026-11-27 - EXECUTION and VERDICT (Spec 107 cycle 1, test E-1)
+
+- Kind: VERDICT. Actor: cycle-1 execution under the
+  owner's commission of 2026-11-26 (Spec 107).
+- Stages 1-4 executed as registered: T101 intake
+  (Perna-side corpus state, identity record
+  intake-identity-record-2026-11-27.md; Spec 096
+  corpus hash 2954283d... unchanged), T201 candidate
+  registration before any scoring load (K = 4,
+  reproducing the floor record section 2 set),
+  T202 freeze (floors 33/25/25/25, Q = 0.031153),
+  T301 scoring twice byte-identical with an agreeing
+  independent recount (counts: -se 0, -na 9, -i 1,
+  -ti 14 against floors 33/25/25/25).
+- Verdict: C101-1 NOT SUPPORTED (target ENRICHMENT
+  per OD-D-1; expressly not a recurrence finding).
+  Outcome record: outcome-record-2026-11-27.md.
+  Any standing change remains the owner's
+  adjudication; none is effected by the outcome
+  record itself.

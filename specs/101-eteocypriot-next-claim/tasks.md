@@ -40,7 +40,7 @@
 
 ## Stage 1 — Intake — GATED (fresh owner commission)
 
-- [ ] **T101 — Perna-side corpus state built.**
+- [x] **T101 — Perna-side corpus state built.**
   Perna 2019's reading of ICS 194/195 intaken as a new
   corpus state with its C095-3 identity record
   (per-inscription pins, provenance, custody); the
@@ -49,20 +49,20 @@
 
 ## Stage 2 — Candidate registration — GATED
 
-- [ ] **T201 — Candidates registered.** Recurring-ending
+- [x] **T201 — Candidates registered.** Recurring-ending
   candidates derived from the ICS 196 development set
   alone under spec §3.1 P-2's mechanical rule; the
   candidate set, predicted positions, and occurrence
   floors committed before any scoring load. Claims:
   C101-1. Test: TC-101-02.
-- [ ] **T202 — Freeze addendum filed.** Every
+- [x] **T202 — Freeze addendum filed.** Every
   derivation, stem table, and sign table written in
   full; floors instantiated against the intaken
   census. Claims: C101-3. Tests: TC-101-05.
 
 ## Stage 3 — Scoring — GATED
 
-- [ ] **T301 — The registered test scored.** Each
+- [x] **T301 — The registered test scored.** Each
   candidate counted at its registered positions in
   the Perna-side state; the run executed twice with
   byte-identical outcomes and an independent recount.
@@ -70,7 +70,7 @@
 
 ## Stage 4 — Outcome — GATED
 
-- [ ] **T401 — Outcome record and adjudication
+- [x] **T401 — Outcome record and adjudication
   package.** The outcome record carries the exposure
   statement verbatim and each candidate's count
   against its floor; the adjudication package is

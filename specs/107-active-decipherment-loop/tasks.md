@@ -16,17 +16,17 @@
 
 ## Stage 1 — Cycle 1 execution
 
-- [ ] T101 I-1 executed on tower-compute under its
+- [x] T101 I-1 executed on tower-compute under its
   registration; run record, raw table, and outcome
   record filed; TC-107-02 run.
-- [ ] T102 M-1 executed on tower-compute under its
+- [x] T102 M-1 executed on tower-compute under its
   registration (both validations passed, or the STOP
   filed); run record, raw tables, and outcome record
   filed; TC-107-03 run.
-- [ ] T103 E-1 executed as Spec 101's stages T101–T401
+- [x] T103 E-1 executed as Spec 101's stages T101–T401
   in its own package; TC-101-01..TC-101-06 results
   filed there; TC-107-04 read over them.
-- [ ] T104 Cycle close: cycle-1 outcome record,
+- [x] T104 Cycle close: cycle-1 outcome record,
   posterior trace, kill-criteria evaluation, and
   cycle-2 re-ranking filed; TC-107-05 and TC-107-06
   run; PROGRAM-STATE updated.

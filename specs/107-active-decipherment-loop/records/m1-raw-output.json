@@ -1,0 +1,2354 @@
+{
+ "test": "M-1 (Spec 107 cycle 1)",
+ "build": {
+  "path": "/home/tpierson/.syncyard/worktrees/glossa/kovetsky-src/data/inscriptions.jsonl",
+  "sha256": "1e91e3a0c52626482bc4015b597df862e7818602dab48a7e870240ab2e567bc4"
+ },
+ "population_S": {
+  "artifacts": 376,
+  "pooled": {
+   "groups": 5195,
+   "tokens": 29843,
+   "adjacencies": 24648,
+   "distinct_pairs": 448,
+   "top_pair": [
+    [
+     "t",
+     "e"
+    ],
+    1352
+   ],
+   "positional": {
+    ".": {
+     "initial": 110,
+     "medial": 857,
+     "final": 142
+    },
+    "0": {
+     "final": 7
+    },
+    "1": {
+     "initial": 16,
+     "sole": 24,
+     "final": 3,
+     "medial": 1
+    },
+    "2": {
+     "final": 3,
+     "sole": 20,
+     "initial": 2,
+     "medial": 1
+    },
+    "3": {
+     "sole": 17,
+     "initial": 2,
+     "final": 1
+    },
+    "4": {
+     "initial": 2,
+     "final": 1,
+     "sole": 9,
+     "medial": 1
+    },
+    "5": {
+     "sole": 7,
+     "final": 5
+    },
+    "6": {
+     "final": 1,
+     "sole": 9
+    },
+    "7": {
+     "initial": 1,
+     "sole": 5
+    },
+    "8": {
+     "sole": 5
+    },
+    "9": {
+     "sole": 6,
+     "final": 1
+    },
+    "N": {
+     "medial": 128,
+     "final": 65,
+     "sole": 2,
+     "initial": 11
+    },
+    "S": {
+     "initial": 429,
+     "medial": 779,
+     "final": 63,
+     "sole": 5
+    },
+    "X": {
+     "final": 49,
+     "initial": 95,
+     "medial": 620
+    },
+    "a": {
+     "initial": 719,
+     "medial": 11,
+     "final": 1,
+     "sole": 6
+    },
+    "b": {
+     "medial": 298,
+     "final": 56,
+     "initial": 100,
+     "sole": 3
+    },
+    "d": {
+     "medial": 720,
+     "initial": 109,
+     "final": 25,
+     "sole": 2
+    },
+    "e": {
+     "medial": 3189,
+     "final": 1244,
+     "sole": 5,
+     "initial": 46
+    },
+    "i": {
+     "medial": 1151,
+     "final": 1706,
+     "initial": 20,
+     "sole": 3
+    },
+    "k": {
+     "medial": 924,
+     "final": 39,
+     "initial": 146,
+     "sole": 1
+    },
+    "l": {
+     "final": 269,
+     "initial": 104,
+     "medial": 1806,
+     "sole": 9
+    },
+    "m": {
+     "final": 16,
+     "initial": 735,
+     "medial": 701,
+     "sole": 1
+    },
+    "n": {
+     "medial": 339,
+     "final": 20,
+     "initial": 104,
+     "sole": 2
+    },
+    "o": {
+     "medial": 2287,
+     "final": 650,
+     "initial": 4,
+     "sole": 1
+    },
+    "p": {
+     "initial": 553,
+     "medial": 184,
+     "final": 8,
+     "sole": 3
+    },
+    "q": {
+     "medial": 374,
+     "initial": 169,
+     "final": 6
+    },
+    "r": {
+     "medial": 1081,
+     "final": 111,
+     "initial": 22,
+     "sole": 2
+    },
+    "s": {
+     "medial": 215,
+     "final": 174,
+     "sole": 13,
+     "initial": 51
+    },
+    "t": {
+     "medial": 1868,
+     "final": 231,
+     "initial": 631,
+     "sole": 5
+    },
+    "w": {
+     "medial": 963,
+     "final": 66,
+     "initial": 339,
+     "sole": 5
+    },
+    "x": {
+     "medial": 610,
+     "initial": 181,
+     "sole": 4,
+     "final": 28
+    },
+    "y": {
+     "initial": 316,
+     "final": 26,
+     "medial": 523,
+     "sole": 4
+    }
+   },
+   "a_conformance": {
+    "occurrences": 737,
+    "numerator": 725,
+    "rate": 0.9837177747625508
+   },
+   "i_conformance": {
+    "occurrences": 2880,
+    "numerator": 2857,
+    "rate": 0.9920138888888889
+   },
+   "never_successor": [
+    "0",
+    "5",
+    "6",
+    "8",
+    "9"
+   ],
+   "never_predecessor": [
+    "7",
+    "8"
+   ]
+  },
+  "validation": {
+   "adjacencies == 24648": true,
+   "distinct_pairs == 448": true,
+   "top_pair == (t,e)@1352": true,
+   "a occurrences == 737": true,
+   "a numerator == 725": true,
+   "i occurrences == 2880": true,
+   "i numerator == 2857": true,
+   "digits 0,5,6,8,9 never successor": true,
+   "digit 8 no neighbour": true
+  },
+  "strata": {
+   "document": {
+    "groups": 402,
+    "tokens": 1223,
+    "adjacencies": 821,
+    "distinct_pairs": 224,
+    "top_pair": [
+     [
+      "t",
+      "e"
+     ],
+     42
+    ],
+    "positional": {
+     ".": {
+      "medial": 37,
+      "final": 4,
+      "initial": 7
+     },
+     "0": {
+      "final": 7
+     },
+     "1": {
+      "sole": 24,
+      "initial": 15,
+      "final": 3,
+      "medial": 1
+     },
+     "2": {
+      "sole": 20,
+      "initial": 2,
+      "final": 2,
+      "medial": 1
+     },
+     "3": {
+      "sole": 17,
+      "initial": 2,
+      "final": 1
+     },
+     "4": {
+      "final": 1,
+      "sole": 9,
+      "medial": 1,
+      "initial": 1
+     },
+     "5": {
+      "sole": 7,
+      "final": 5
+     },
+     "6": {
+      "final": 1,
+      "sole": 9
+     },
+     "7": {
+      "initial": 1,
+      "sole": 5
+     },
+     "8": {
+      "sole": 5
+     },
+     "9": {
+      "sole": 6,
+      "final": 1
+     },
+     "N": {
+      "medial": 7,
+      "final": 11,
+      "initial": 1
+     },
+     "S": {
+      "initial": 18,
+      "sole": 1,
+      "medial": 17,
+      "final": 1
+     },
+     "X": {
+      "initial": 2,
+      "medial": 8,
+      "final": 6
+     },
+     "a": {
+      "initial": 40,
+      "sole": 1,
+      "medial": 1
+     },
+     "b": {
+      "medial": 25,
+      "initial": 12,
+      "final": 4
+     },
+     "d": {
+      "medial": 16,
+      "initial": 15,
+      "final": 5,
+      "sole": 1
+     },
+     "e": {
+      "final": 63,
+      "medial": 92,
+      "sole": 2,
+      "initial": 9
+     },
+     "i": {
+      "final": 47,
+      "medial": 29,
+      "initial": 4
+     },
+     "k": {
+      "medial": 21,
+      "initial": 12,
+      "final": 5
+     },
+     "l": {
+      "medial": 53,
+      "initial": 24,
+      "final": 10,
+      "sole": 2
+     },
+     "m": {
+      "initial": 32,
+      "medial": 17,
+      "final": 1
+     },
+     "n": {
+      "medial": 16,
+      "final": 2,
+      "initial": 2,
+      "sole": 1
+     },
+     "o": {
+      "final": 45,
+      "medial": 43,
+      "initial": 1
+     },
+     "p": {
+      "medial": 6,
+      "initial": 4,
+      "final": 2
+     },
+     "q": {
+      "initial": 24,
+      "medial": 15,
+      "final": 1
+     },
+     "r": {
+      "medial": 42,
+      "final": 14,
+      "initial": 4
+     },
+     "s": {
+      "final": 20,
+      "medial": 8,
+      "initial": 1,
+      "sole": 4
+     },
+     "t": {
+      "medial": 59,
+      "initial": 30,
+      "final": 3
+     },
+     "w": {
+      "initial": 8,
+      "sole": 1,
+      "final": 9,
+      "medial": 6
+     },
+     "x": {
+      "medial": 12,
+      "final": 4,
+      "sole": 3,
+      "initial": 4
+     },
+     "y": {
+      "final": 5,
+      "initial": 8,
+      "sole": 1,
+      "medial": 5
+     }
+    },
+    "a_conformance": {
+     "occurrences": 42,
+     "numerator": 41,
+     "rate": 0.9761904761904762
+    },
+    "i_conformance": {
+     "occurrences": 80,
+     "numerator": 76,
+     "rate": 0.95
+    },
+    "never_successor": [
+     "0",
+     "5",
+     "6",
+     "8",
+     "9"
+    ],
+    "never_predecessor": [
+     "7",
+     "8"
+    ]
+   },
+   "funerary": {
+    "groups": 4133,
+    "tokens": 25080,
+    "adjacencies": 20947,
+    "distinct_pairs": 422,
+    "top_pair": [
+     [
+      "t",
+      "e"
+     ],
+     1140
+    ],
+    "positional": {
+     ".": {
+      "final": 107,
+      "initial": 57,
+      "medial": 661
+     },
+     "4": {
+      "initial": 1
+     },
+     "N": {
+      "medial": 103,
+      "final": 40,
+      "sole": 1,
+      "initial": 8
+     },
+     "S": {
+      "initial": 381,
+      "medial": 723,
+      "final": 40,
+      "sole": 4
+     },
+     "X": {
+      "medial": 594,
+      "initial": 83,
+      "final": 37
+     },
+     "a": {
+      "initial": 598,
+      "medial": 9,
+      "final": 1,
+      "sole": 4
+     },
+     "b": {
+      "medial": 220,
+      "initial": 69,
+      "sole": 3,
+      "final": 45
+     },
+     "d": {
+      "medial": 621,
+      "initial": 74,
+      "final": 11,
+      "sole": 1
+     },
+     "e": {
+      "medial": 2737,
+      "final": 1031,
+      "sole": 3,
+      "initial": 21
+     },
+     "i": {
+      "medial": 968,
+      "final": 1526,
+      "initial": 7,
+      "sole": 3
+     },
+     "k": {
+      "medial": 809,
+      "initial": 110,
+      "final": 19,
+      "sole": 1
+     },
+     "l": {
+      "initial": 43,
+      "medial": 1582,
+      "final": 223,
+      "sole": 4
+     },
+     "m": {
+      "initial": 650,
+      "medial": 578,
+      "final": 7,
+      "sole": 1
+     },
+     "n": {
+      "medial": 226,
+      "sole": 1,
+      "initial": 70,
+      "final": 17
+     },
+     "o": {
+      "medial": 2081,
+      "final": 485,
+      "initial": 2,
+      "sole": 1
+     },
+     "p": {
+      "initial": 500,
+      "sole": 2,
+      "medial": 149,
+      "final": 3
+     },
+     "q": {
+      "initial": 115,
+      "medial": 288,
+      "final": 1
+     },
+     "r": {
+      "final": 90,
+      "medial": 896,
+      "initial": 14,
+      "sole": 2
+     },
+     "s": {
+      "sole": 7,
+      "final": 127,
+      "medial": 154,
+      "initial": 38
+     },
+     "t": {
+      "medial": 1545,
+      "initial": 535,
+      "final": 209,
+      "sole": 2
+     },
+     "w": {
+      "final": 37,
+      "medial": 891,
+      "initial": 299,
+      "sole": 2
+     },
+     "x": {
+      "medial": 543,
+      "initial": 167,
+      "sole": 1,
+      "final": 19
+     },
+     "y": {
+      "medial": 481,
+      "initial": 246,
+      "final": 13,
+      "sole": 2
+     }
+    },
+    "a_conformance": {
+     "occurrences": 612,
+     "numerator": 602,
+     "rate": 0.9836601307189542
+    },
+    "i_conformance": {
+     "occurrences": 2504,
+     "numerator": 2494,
+     "rate": 0.9960063897763578
+    },
+    "never_successor": [],
+    "never_predecessor": [
+     "4"
+    ]
+   },
+   "graffito": {
+    "groups": 200,
+    "tokens": 1051,
+    "adjacencies": 851,
+    "distinct_pairs": 203,
+    "top_pair": [
+     [
+      "t",
+      "e"
+     ],
+     37
+    ],
+    "positional": {
+     ".": {
+      "initial": 6,
+      "medial": 39,
+      "final": 7
+     },
+     "N": {
+      "final": 9,
+      "medial": 5
+     },
+     "S": {
+      "initial": 13,
+      "medial": 25,
+      "final": 13
+     },
+     "X": {
+      "initial": 1,
+      "medial": 4
+     },
+     "a": {
+      "initial": 21
+     },
+     "b": {
+      "initial": 6,
+      "medial": 13,
+      "final": 4
+     },
+     "d": {
+      "medial": 21,
+      "final": 3,
+      "initial": 6
+     },
+     "e": {
+      "final": 30,
+      "medial": 118
+     },
+     "i": {
+      "final": 46,
+      "medial": 43,
+      "initial": 1
+     },
+     "k": {
+      "medial": 14,
+      "final": 5,
+      "initial": 8
+     },
+     "l": {
+      "medial": 62,
+      "initial": 5,
+      "final": 4
+     },
+     "m": {
+      "medial": 28,
+      "initial": 17,
+      "final": 1
+     },
+     "n": {
+      "medial": 19,
+      "initial": 10
+     },
+     "o": {
+      "medial": 64,
+      "final": 49
+     },
+     "p": {
+      "initial": 22,
+      "medial": 10
+     },
+     "q": {
+      "medial": 20,
+      "final": 3,
+      "initial": 12
+     },
+     "r": {
+      "medial": 37,
+      "final": 1,
+      "initial": 1
+     },
+     "s": {
+      "medial": 14,
+      "final": 8,
+      "initial": 7
+     },
+     "t": {
+      "initial": 22,
+      "medial": 64,
+      "final": 10
+     },
+     "w": {
+      "medial": 24,
+      "initial": 15,
+      "final": 3
+     },
+     "x": {
+      "medial": 15,
+      "initial": 4
+     },
+     "y": {
+      "final": 4,
+      "medial": 12,
+      "initial": 23
+     }
+    },
+    "a_conformance": {
+     "occurrences": 21,
+     "numerator": 21,
+     "rate": 1.0
+    },
+    "i_conformance": {
+     "occurrences": 90,
+     "numerator": 89,
+     "rate": 0.9888888888888889
+    },
+    "never_successor": [],
+    "never_predecessor": [
+     "a"
+    ]
+   },
+   "other": {
+    "groups": 36,
+    "tokens": 144,
+    "adjacencies": 108,
+    "distinct_pairs": 66,
+    "top_pair": [
+     [
+      "t",
+      "e"
+     ],
+     7
+    ],
+    "positional": {
+     ".": {
+      "initial": 5,
+      "final": 4,
+      "medial": 4
+     },
+     "N": {
+      "sole": 1,
+      "initial": 1
+     },
+     "S": {
+      "initial": 4,
+      "medial": 2
+     },
+     "X": {
+      "final": 1,
+      "medial": 3
+     },
+     "a": {
+      "initial": 3
+     },
+     "b": {
+      "medial": 2
+     },
+     "d": {
+      "initial": 3,
+      "final": 1,
+      "medial": 2
+     },
+     "e": {
+      "medial": 13,
+      "final": 7
+     },
+     "i": {
+      "final": 6,
+      "medial": 2,
+      "initial": 1
+     },
+     "k": {
+      "medial": 3
+     },
+     "l": {
+      "initial": 5,
+      "medial": 5,
+      "final": 1
+     },
+     "m": {
+      "medial": 1,
+      "final": 1,
+      "initial": 3
+     },
+     "n": {
+      "initial": 1
+     },
+     "o": {
+      "final": 10,
+      "medial": 9
+     },
+     "p": {
+      "medial": 1,
+      "sole": 1,
+      "initial": 1
+     },
+     "q": {
+      "medial": 6,
+      "initial": 2,
+      "final": 1
+     },
+     "r": {
+      "medial": 3
+     },
+     "s": {
+      "initial": 1
+     },
+     "t": {
+      "medial": 12,
+      "initial": 3,
+      "final": 1
+     },
+     "w": {
+      "sole": 1,
+      "medial": 2
+     },
+     "x": {
+      "medial": 3
+     },
+     "y": {
+      "medial": 2
+     }
+    },
+    "a_conformance": {
+     "occurrences": 3,
+     "numerator": 3,
+     "rate": 1.0
+    },
+    "i_conformance": {
+     "occurrences": 9,
+     "numerator": 8,
+     "rate": 0.8888888888888888
+    },
+    "never_successor": [],
+    "never_predecessor": [
+     "N",
+     "a",
+     "n",
+     "s"
+    ]
+   },
+   "royal_temple": {
+    "groups": 424,
+    "tokens": 2345,
+    "adjacencies": 1921,
+    "distinct_pairs": 276,
+    "top_pair": [
+     [
+      "t",
+      "e"
+     ],
+     126
+    ],
+    "positional": {
+     ".": {
+      "initial": 35,
+      "medial": 116,
+      "final": 20
+     },
+     "1": {
+      "initial": 1
+     },
+     "2": {
+      "final": 1
+     },
+     "N": {
+      "medial": 13,
+      "final": 5,
+      "initial": 1
+     },
+     "S": {
+      "initial": 13,
+      "medial": 12,
+      "final": 9
+     },
+     "X": {
+      "final": 5,
+      "initial": 9,
+      "medial": 11
+     },
+     "a": {
+      "initial": 57,
+      "medial": 1,
+      "sole": 1
+     },
+     "b": {
+      "medial": 38,
+      "final": 3,
+      "initial": 13
+     },
+     "d": {
+      "medial": 60,
+      "initial": 11,
+      "final": 5
+     },
+     "e": {
+      "medial": 229,
+      "final": 113,
+      "initial": 16
+     },
+     "i": {
+      "medial": 109,
+      "final": 81,
+      "initial": 7
+     },
+     "k": {
+      "medial": 77,
+      "final": 10,
+      "initial": 16
+     },
+     "l": {
+      "final": 31,
+      "initial": 27,
+      "medial": 104,
+      "sole": 3
+     },
+     "m": {
+      "final": 6,
+      "initial": 33,
+      "medial": 77
+     },
+     "n": {
+      "medial": 78,
+      "final": 1,
+      "initial": 21
+     },
+     "o": {
+      "medial": 90,
+      "final": 61,
+      "initial": 1
+     },
+     "p": {
+      "initial": 26,
+      "medial": 18,
+      "final": 3
+     },
+     "q": {
+      "medial": 45,
+      "initial": 16
+     },
+     "r": {
+      "medial": 103,
+      "initial": 3,
+      "final": 6
+     },
+     "s": {
+      "medial": 39,
+      "final": 19,
+      "initial": 4,
+      "sole": 2
+     },
+     "t": {
+      "medial": 188,
+      "final": 8,
+      "initial": 41,
+      "sole": 3
+     },
+     "w": {
+      "medial": 40,
+      "final": 17,
+      "initial": 17,
+      "sole": 1
+     },
+     "x": {
+      "medial": 37,
+      "initial": 6,
+      "final": 5
+     },
+     "y": {
+      "initial": 39,
+      "final": 4,
+      "medial": 23,
+      "sole": 1
+     }
+    },
+    "a_conformance": {
+     "occurrences": 59,
+     "numerator": 58,
+     "rate": 0.9830508474576272
+    },
+    "i_conformance": {
+     "occurrences": 197,
+     "numerator": 190,
+     "rate": 0.9644670050761421
+    },
+    "never_successor": [
+     "2"
+    ],
+    "never_predecessor": [
+     "1"
+    ]
+   }
+  }
+ },
+ "population_P": {
+  "counts": {
+   "development": {
+    "royal_temple": 41,
+    "graffito": 22,
+    "funerary": 223,
+    "other": 7,
+    "document": 42
+   },
+   "held_out": {
+    "royal_temple": 10,
+    "graffito": 2,
+    "funerary": 16,
+    "document": 5
+   }
+  },
+  "validation_pass": true,
+  "tables": {
+   "development": {
+    "document": {
+     "groups": 359,
+     "tokens": 1108,
+     "adjacencies": 749,
+     "distinct_pairs": 215,
+     "top_pair": [
+      [
+       "t",
+       "e"
+      ],
+      36
+     ],
+     "positional": {
+      ".": {
+       "medial": 35,
+       "final": 3,
+       "initial": 7
+      },
+      "0": {
+       "final": 6
+      },
+      "1": {
+       "initial": 13,
+       "sole": 22,
+       "final": 3
+      },
+      "2": {
+       "sole": 17,
+       "initial": 2,
+       "final": 2,
+       "medial": 1
+      },
+      "3": {
+       "sole": 17,
+       "initial": 2,
+       "final": 1
+      },
+      "4": {
+       "sole": 8,
+       "medial": 1,
+       "initial": 1
+      },
+      "5": {
+       "sole": 6,
+       "final": 5
+      },
+      "6": {
+       "sole": 8
+      },
+      "7": {
+       "sole": 5
+      },
+      "8": {
+       "sole": 3
+      },
+      "9": {
+       "sole": 5,
+       "final": 1
+      },
+      "N": {
+       "medial": 7,
+       "final": 9
+      },
+      "S": {
+       "initial": 14,
+       "sole": 1,
+       "medial": 16,
+       "final": 1
+      },
+      "X": {
+       "initial": 2,
+       "medial": 8,
+       "final": 6
+      },
+      "a": {
+       "initial": 38,
+       "sole": 1,
+       "medial": 1
+      },
+      "b": {
+       "medial": 24,
+       "initial": 12,
+       "final": 4
+      },
+      "d": {
+       "medial": 15,
+       "initial": 12,
+       "final": 5,
+       "sole": 1
+      },
+      "e": {
+       "final": 57,
+       "medial": 82,
+       "sole": 2,
+       "initial": 8
+      },
+      "i": {
+       "final": 41,
+       "medial": 28,
+       "initial": 4
+      },
+      "k": {
+       "medial": 20,
+       "initial": 11,
+       "final": 5
+      },
+      "l": {
+       "initial": 20,
+       "medial": 47,
+       "final": 8,
+       "sole": 2
+      },
+      "m": {
+       "initial": 29,
+       "medial": 17,
+       "final": 1
+      },
+      "n": {
+       "medial": 16,
+       "final": 2,
+       "initial": 2,
+       "sole": 1
+      },
+      "o": {
+       "medial": 43,
+       "final": 39,
+       "initial": 1
+      },
+      "p": {
+       "initial": 3,
+       "medial": 5,
+       "final": 1
+      },
+      "q": {
+       "initial": 19,
+       "medial": 15,
+       "final": 1
+      },
+      "r": {
+       "final": 12,
+       "initial": 3,
+       "medial": 38
+      },
+      "s": {
+       "final": 19,
+       "medial": 8,
+       "initial": 1,
+       "sole": 4
+      },
+      "t": {
+       "initial": 29,
+       "medial": 50,
+       "final": 2
+      },
+      "w": {
+       "initial": 7,
+       "sole": 1,
+       "final": 9,
+       "medial": 6
+      },
+      "x": {
+       "medial": 10,
+       "final": 3,
+       "sole": 3,
+       "initial": 3
+      },
+      "y": {
+       "final": 5,
+       "initial": 8,
+       "sole": 1,
+       "medial": 5
+      }
+     },
+     "a_conformance": {
+      "occurrences": 40,
+      "numerator": 39,
+      "rate": 0.975
+     },
+     "i_conformance": {
+      "occurrences": 73,
+      "numerator": 69,
+      "rate": 0.9452054794520548
+     },
+     "never_successor": [
+      "0",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "never_predecessor": [
+      "6",
+      "7",
+      "8"
+     ]
+    },
+    "funerary": {
+     "groups": 3823,
+     "tokens": 23253,
+     "adjacencies": 19430,
+     "distinct_pairs": 417,
+     "top_pair": [
+      [
+       "t",
+       "e"
+      ],
+      1059
+     ],
+     "positional": {
+      ".": {
+       "final": 91,
+       "initial": 49,
+       "medial": 597
+      },
+      "4": {
+       "initial": 1
+      },
+      "N": {
+       "medial": 95,
+       "final": 39,
+       "sole": 1,
+       "initial": 7
+      },
+      "S": {
+       "initial": 354,
+       "medial": 677,
+       "final": 34,
+       "sole": 4
+      },
+      "X": {
+       "medial": 556,
+       "initial": 80,
+       "final": 34
+      },
+      "a": {
+       "initial": 542,
+       "medial": 8,
+       "sole": 2
+      },
+      "b": {
+       "medial": 197,
+       "initial": 64,
+       "sole": 3,
+       "final": 41
+      },
+      "d": {
+       "medial": 573,
+       "initial": 68,
+       "final": 10,
+       "sole": 1
+      },
+      "e": {
+       "medial": 2534,
+       "final": 953,
+       "sole": 3,
+       "initial": 21
+      },
+      "i": {
+       "medial": 894,
+       "final": 1422,
+       "initial": 7,
+       "sole": 3
+      },
+      "k": {
+       "medial": 760,
+       "initial": 103,
+       "final": 15,
+       "sole": 1
+      },
+      "l": {
+       "initial": 39,
+       "medial": 1494,
+       "final": 201,
+       "sole": 2
+      },
+      "m": {
+       "initial": 618,
+       "medial": 540,
+       "final": 7,
+       "sole": 1
+      },
+      "n": {
+       "medial": 210,
+       "sole": 1,
+       "initial": 61,
+       "final": 17
+      },
+      "o": {
+       "medial": 1944,
+       "final": 456,
+       "initial": 1,
+       "sole": 1
+      },
+      "p": {
+       "initial": 467,
+       "sole": 2,
+       "medial": 137,
+       "final": 3
+      },
+      "q": {
+       "initial": 108,
+       "medial": 267,
+       "final": 1
+      },
+      "r": {
+       "final": 84,
+       "medial": 834,
+       "initial": 13,
+       "sole": 1
+      },
+      "s": {
+       "sole": 6,
+       "final": 119,
+       "medial": 139,
+       "initial": 36
+      },
+      "t": {
+       "medial": 1423,
+       "initial": 490,
+       "final": 192,
+       "sole": 2
+      },
+      "w": {
+       "final": 33,
+       "medial": 820,
+       "initial": 277,
+       "sole": 2
+      },
+      "x": {
+       "medial": 509,
+       "initial": 160,
+       "sole": 1,
+       "final": 19
+      },
+      "y": {
+       "medial": 438,
+       "initial": 218,
+       "final": 13,
+       "sole": 2
+      }
+     },
+     "a_conformance": {
+      "occurrences": 552,
+      "numerator": 544,
+      "rate": 0.9855072463768116
+     },
+     "i_conformance": {
+      "occurrences": 2326,
+      "numerator": 2316,
+      "rate": 0.9957007738607051
+     },
+     "never_successor": [],
+     "never_predecessor": [
+      "4"
+     ]
+    },
+    "graffito": {
+     "groups": 180,
+     "tokens": 953,
+     "adjacencies": 773,
+     "distinct_pairs": 188,
+     "top_pair": [
+      [
+       ".",
+       "."
+      ],
+      34
+     ],
+     "positional": {
+      ".": {
+       "initial": 5,
+       "medial": 38,
+       "final": 7
+      },
+      "N": {
+       "final": 9,
+       "medial": 3
+      },
+      "S": {
+       "initial": 12,
+       "medial": 22,
+       "final": 12
+      },
+      "X": {
+       "initial": 1,
+       "medial": 4
+      },
+      "a": {
+       "initial": 15
+      },
+      "b": {
+       "medial": 13,
+       "final": 4,
+       "initial": 5
+      },
+      "d": {
+       "final": 3,
+       "medial": 20,
+       "initial": 5
+      },
+      "e": {
+       "final": 29,
+       "medial": 112
+      },
+      "i": {
+       "medial": 38,
+       "final": 38,
+       "initial": 1
+      },
+      "k": {
+       "medial": 13,
+       "final": 3,
+       "initial": 6
+      },
+      "l": {
+       "medial": 56,
+       "initial": 5,
+       "final": 4
+      },
+      "m": {
+       "medial": 24,
+       "initial": 16,
+       "final": 1
+      },
+      "n": {
+       "medial": 14,
+       "initial": 9
+      },
+      "o": {
+       "medial": 60,
+       "final": 44
+      },
+      "p": {
+       "initial": 20,
+       "medial": 6
+      },
+      "q": {
+       "medial": 18,
+       "final": 3,
+       "initial": 10
+      },
+      "r": {
+       "medial": 34,
+       "final": 1,
+       "initial": 1
+      },
+      "s": {
+       "medial": 12,
+       "final": 7,
+       "initial": 6
+      },
+      "t": {
+       "initial": 21,
+       "medial": 59,
+       "final": 9
+      },
+      "w": {
+       "medial": 22,
+       "initial": 15,
+       "final": 3
+      },
+      "x": {
+       "medial": 13,
+       "initial": 4
+      },
+      "y": {
+       "medial": 12,
+       "initial": 23,
+       "final": 3
+      }
+     },
+     "a_conformance": {
+      "occurrences": 15,
+      "numerator": 15,
+      "rate": 1.0
+     },
+     "i_conformance": {
+      "occurrences": 77,
+      "numerator": 76,
+      "rate": 0.987012987012987
+     },
+     "never_successor": [],
+     "never_predecessor": [
+      "a"
+     ]
+    },
+    "other": {
+     "groups": 36,
+     "tokens": 144,
+     "adjacencies": 108,
+     "distinct_pairs": 66,
+     "top_pair": [
+      [
+       "t",
+       "e"
+      ],
+      7
+     ],
+     "positional": {
+      ".": {
+       "initial": 5,
+       "final": 4,
+       "medial": 4
+      },
+      "N": {
+       "sole": 1,
+       "initial": 1
+      },
+      "S": {
+       "initial": 4,
+       "medial": 2
+      },
+      "X": {
+       "final": 1,
+       "medial": 3
+      },
+      "a": {
+       "initial": 3
+      },
+      "b": {
+       "medial": 2
+      },
+      "d": {
+       "initial": 3,
+       "final": 1,
+       "medial": 2
+      },
+      "e": {
+       "medial": 13,
+       "final": 7
+      },
+      "i": {
+       "final": 6,
+       "medial": 2,
+       "initial": 1
+      },
+      "k": {
+       "medial": 3
+      },
+      "l": {
+       "initial": 5,
+       "medial": 5,
+       "final": 1
+      },
+      "m": {
+       "medial": 1,
+       "final": 1,
+       "initial": 3
+      },
+      "n": {
+       "initial": 1
+      },
+      "o": {
+       "final": 10,
+       "medial": 9
+      },
+      "p": {
+       "medial": 1,
+       "sole": 1,
+       "initial": 1
+      },
+      "q": {
+       "medial": 6,
+       "initial": 2,
+       "final": 1
+      },
+      "r": {
+       "medial": 3
+      },
+      "s": {
+       "initial": 1
+      },
+      "t": {
+       "medial": 12,
+       "initial": 3,
+       "final": 1
+      },
+      "w": {
+       "sole": 1,
+       "medial": 2
+      },
+      "x": {
+       "medial": 3
+      },
+      "y": {
+       "medial": 2
+      }
+     },
+     "a_conformance": {
+      "occurrences": 3,
+      "numerator": 3,
+      "rate": 1.0
+     },
+     "i_conformance": {
+      "occurrences": 9,
+      "numerator": 8,
+      "rate": 0.8888888888888888
+     },
+     "never_successor": [],
+     "never_predecessor": [
+      "N",
+      "a",
+      "n",
+      "s"
+     ]
+    },
+    "royal_temple": {
+     "groups": 314,
+     "tokens": 1712,
+     "adjacencies": 1398,
+     "distinct_pairs": 260,
+     "top_pair": [
+      [
+       "t",
+       "e"
+      ],
+      94
+     ],
+     "positional": {
+      ".": {
+       "initial": 22,
+       "medial": 70,
+       "final": 14
+      },
+      "1": {
+       "initial": 1
+      },
+      "2": {
+       "final": 1
+      },
+      "N": {
+       "medial": 10,
+       "final": 2
+      },
+      "S": {
+       "initial": 12,
+       "medial": 11,
+       "final": 7
+      },
+      "X": {
+       "initial": 8,
+       "medial": 9,
+       "final": 3
+      },
+      "a": {
+       "initial": 44,
+       "medial": 1
+      },
+      "b": {
+       "medial": 28,
+       "final": 2,
+       "initial": 8
+      },
+      "d": {
+       "medial": 49,
+       "initial": 8,
+       "final": 5
+      },
+      "e": {
+       "medial": 176,
+       "final": 86,
+       "initial": 14
+      },
+      "i": {
+       "medial": 70,
+       "final": 51,
+       "initial": 6
+      },
+      "k": {
+       "medial": 58,
+       "final": 8,
+       "initial": 15
+      },
+      "l": {
+       "final": 26,
+       "initial": 21,
+       "medial": 74,
+       "sole": 2
+      },
+      "m": {
+       "final": 6,
+       "initial": 27,
+       "medial": 51
+      },
+      "n": {
+       "medial": 51,
+       "final": 1,
+       "initial": 16
+      },
+      "o": {
+       "medial": 66,
+       "final": 47
+      },
+      "p": {
+       "initial": 19,
+       "medial": 15,
+       "final": 3
+      },
+      "q": {
+       "medial": 34,
+       "initial": 13
+      },
+      "r": {
+       "medial": 75,
+       "initial": 3,
+       "final": 5
+      },
+      "s": {
+       "medial": 27,
+       "final": 13,
+       "initial": 3,
+       "sole": 1
+      },
+      "t": {
+       "medial": 141,
+       "final": 7,
+       "initial": 30,
+       "sole": 2
+      },
+      "w": {
+       "medial": 32,
+       "final": 12,
+       "initial": 15,
+       "sole": 1
+      },
+      "x": {
+       "medial": 27,
+       "initial": 4,
+       "final": 4
+      },
+      "y": {
+       "initial": 18,
+       "final": 4,
+       "medial": 16,
+       "sole": 1
+      }
+     },
+     "a_conformance": {
+      "occurrences": 45,
+      "numerator": 44,
+      "rate": 0.9777777777777777
+     },
+     "i_conformance": {
+      "occurrences": 127,
+      "numerator": 121,
+      "rate": 0.952755905511811
+     },
+     "never_successor": [
+      "2"
+     ],
+     "never_predecessor": [
+      "1"
+     ]
+    }
+   },
+   "held_out": {
+    "document": {
+     "groups": 43,
+     "tokens": 115,
+     "adjacencies": 72,
+     "distinct_pairs": 46,
+     "top_pair": [
+      [
+       "l",
+       "i"
+      ],
+      6
+     ],
+     "positional": {
+      ".": {
+       "medial": 2,
+       "final": 1
+      },
+      "0": {
+       "final": 1
+      },
+      "1": {
+       "sole": 2,
+       "initial": 2,
+       "medial": 1
+      },
+      "2": {
+       "sole": 3
+      },
+      "4": {
+       "final": 1,
+       "sole": 1
+      },
+      "5": {
+       "sole": 1
+      },
+      "6": {
+       "final": 1,
+       "sole": 1
+      },
+      "7": {
+       "initial": 1
+      },
+      "8": {
+       "sole": 2
+      },
+      "9": {
+       "sole": 1
+      },
+      "N": {
+       "initial": 1,
+       "final": 2
+      },
+      "S": {
+       "initial": 4,
+       "medial": 1
+      },
+      "a": {
+       "initial": 2
+      },
+      "b": {
+       "medial": 1
+      },
+      "d": {
+       "medial": 1,
+       "initial": 3
+      },
+      "e": {
+       "final": 6,
+       "medial": 10,
+       "initial": 1
+      },
+      "i": {
+       "final": 6,
+       "medial": 1
+      },
+      "k": {
+       "initial": 1,
+       "medial": 1
+      },
+      "l": {
+       "medial": 6,
+       "initial": 4,
+       "final": 2
+      },
+      "m": {
+       "initial": 3
+      },
+      "o": {
+       "final": 6
+      },
+      "p": {
+       "medial": 1,
+       "initial": 1,
+       "final": 1
+      },
+      "q": {
+       "initial": 5
+      },
+      "r": {
+       "medial": 4,
+       "final": 2,
+       "initial": 1
+      },
+      "s": {
+       "final": 1
+      },
+      "t": {
+       "medial": 9,
+       "initial": 1,
+       "final": 1
+      },
+      "w": {
+       "initial": 1
+      },
+      "x": {
+       "medial": 2,
+       "final": 1,
+       "initial": 1
+      }
+     },
+     "a_conformance": {
+      "occurrences": 2,
+      "numerator": 2,
+      "rate": 1.0
+     },
+     "i_conformance": {
+      "occurrences": 7,
+      "numerator": 7,
+      "rate": 1.0
+     },
+     "never_successor": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "6",
+      "8",
+      "9",
+      "o",
+      "s"
+     ],
+     "never_predecessor": [
+      "2",
+      "5",
+      "7",
+      "8",
+      "9",
+      "a",
+      "m",
+      "q",
+      "w"
+     ]
+    },
+    "funerary": {
+     "groups": 310,
+     "tokens": 1827,
+     "adjacencies": 1517,
+     "distinct_pairs": 233,
+     "top_pair": [
+      [
+       "t",
+       "e"
+      ],
+      81
+     ],
+     "positional": {
+      ".": {
+       "medial": 64,
+       "final": 16,
+       "initial": 8
+      },
+      "N": {
+       "medial": 8,
+       "final": 1,
+       "initial": 1
+      },
+      "S": {
+       "initial": 27,
+       "medial": 46,
+       "final": 6
+      },
+      "X": {
+       "medial": 38,
+       "initial": 3,
+       "final": 3
+      },
+      "a": {
+       "initial": 56,
+       "final": 1,
+       "sole": 2,
+       "medial": 1
+      },
+      "b": {
+       "medial": 23,
+       "initial": 5,
+       "final": 4
+      },
+      "d": {
+       "medial": 48,
+       "initial": 6,
+       "final": 1
+      },
+      "e": {
+       "medial": 203,
+       "final": 78
+      },
+      "i": {
+       "medial": 74,
+       "final": 104
+      },
+      "k": {
+       "initial": 7,
+       "medial": 49,
+       "final": 4
+      },
+      "l": {
+       "initial": 4,
+       "medial": 88,
+       "final": 22,
+       "sole": 2
+      },
+      "m": {
+       "medial": 38,
+       "initial": 32
+      },
+      "n": {
+       "initial": 9,
+       "medial": 16
+      },
+      "o": {
+       "medial": 137,
+       "final": 29,
+       "initial": 1
+      },
+      "p": {
+       "initial": 33,
+       "medial": 12
+      },
+      "q": {
+       "medial": 21,
+       "initial": 7
+      },
+      "r": {
+       "medial": 62,
+       "initial": 1,
+       "sole": 1,
+       "final": 6
+      },
+      "s": {
+       "final": 8,
+       "sole": 1,
+       "medial": 15,
+       "initial": 2
+      },
+      "t": {
+       "medial": 122,
+       "initial": 45,
+       "final": 17
+      },
+      "w": {
+       "medial": 71,
+       "initial": 22,
+       "final": 4
+      },
+      "x": {
+       "medial": 34,
+       "initial": 7
+      },
+      "y": {
+       "medial": 43,
+       "initial": 28
+      }
+     },
+     "a_conformance": {
+      "occurrences": 60,
+      "numerator": 58,
+      "rate": 0.9666666666666667
+     },
+     "i_conformance": {
+      "occurrences": 178,
+      "numerator": 178,
+      "rate": 1.0
+     },
+     "never_successor": [],
+     "never_predecessor": []
+    },
+    "graffito": {
+     "groups": 20,
+     "tokens": 98,
+     "adjacencies": 78,
+     "distinct_pairs": 56,
+     "top_pair": [
+      [
+       "l",
+       "i"
+      ],
+      5
+     ],
+     "positional": {
+      ".": {
+       "initial": 1,
+       "medial": 1
+      },
+      "N": {
+       "medial": 2
+      },
+      "S": {
+       "medial": 3,
+       "initial": 1,
+       "final": 1
+      },
+      "a": {
+       "initial": 6
+      },
+      "b": {
+       "initial": 1
+      },
+      "d": {
+       "medial": 1,
+       "initial": 1
+      },
+      "e": {
+       "final": 1,
+       "medial": 6
+      },
+      "i": {
+       "final": 8,
+       "medial": 5
+      },
+      "k": {
+       "final": 2,
+       "initial": 2,
+       "medial": 1
+      },
+      "l": {
+       "medial": 6
+      },
+      "m": {
+       "medial": 4,
+       "initial": 1
+      },
+      "n": {
+       "medial": 5,
+       "initial": 1
+      },
+      "o": {
+       "final": 5,
+       "medial": 4
+      },
+      "p": {
+       "initial": 2,
+       "medial": 4
+      },
+      "q": {
+       "initial": 2,
+       "medial": 2
+      },
+      "r": {
+       "medial": 3
+      },
+      "s": {
+       "medial": 2,
+       "final": 1,
+       "initial": 1
+      },
+      "t": {
+       "initial": 1,
+       "medial": 5,
+       "final": 1
+      },
+      "w": {
+       "medial": 2
+      },
+      "x": {
+       "medial": 2
+      },
+      "y": {
+       "final": 1
+      }
+     },
+     "a_conformance": {
+      "occurrences": 6,
+      "numerator": 6,
+      "rate": 1.0
+     },
+     "i_conformance": {
+      "occurrences": 13,
+      "numerator": 13,
+      "rate": 1.0
+     },
+     "never_successor": [
+      "y"
+     ],
+     "never_predecessor": [
+      "a",
+      "b"
+     ]
+    },
+    "royal_temple": {
+     "groups": 84,
+     "tokens": 464,
+     "adjacencies": 380,
+     "distinct_pairs": 122,
+     "top_pair": [
+      [
+       ".",
+       "."
+      ],
+      30
+     ],
+     "positional": {
+      ".": {
+       "initial": 13,
+       "medial": 41,
+       "final": 5
+      },
+      "N": {
+       "final": 2,
+       "initial": 1,
+       "medial": 3
+      },
+      "S": {
+       "medial": 1,
+       "final": 2,
+       "initial": 1
+      },
+      "X": {
+       "final": 1
+      },
+      "a": {
+       "initial": 5,
+       "sole": 1
+      },
+      "b": {
+       "medial": 10,
+       "initial": 5,
+       "final": 1
+      },
+      "d": {
+       "medial": 8,
+       "initial": 1
+      },
+      "e": {
+       "medial": 44,
+       "final": 21,
+       "initial": 2
+      },
+      "i": {
+       "final": 26,
+       "medial": 27
+      },
+      "k": {
+       "initial": 1,
+       "medial": 12,
+       "final": 2
+      },
+      "l": {
+       "medial": 22,
+       "initial": 5,
+       "final": 5,
+       "sole": 1
+      },
+      "m": {
+       "medial": 18,
+       "initial": 3
+      },
+      "n": {
+       "medial": 18,
+       "initial": 2
+      },
+      "o": {
+       "medial": 14,
+       "final": 7,
+       "initial": 1
+      },
+      "p": {
+       "initial": 5,
+       "medial": 3
+      },
+      "q": {
+       "medial": 4,
+       "initial": 2
+      },
+      "r": {
+       "medial": 13,
+       "final": 1
+      },
+      "s": {
+       "medial": 12,
+       "initial": 1,
+       "sole": 1,
+       "final": 4
+      },
+      "t": {
+       "medial": 30,
+       "initial": 8,
+       "sole": 1
+      },
+      "w": {
+       "medial": 7,
+       "initial": 2,
+       "final": 2
+      },
+      "x": {
+       "medial": 8,
+       "initial": 1,
+       "final": 1
+      },
+      "y": {
+       "initial": 21,
+       "medial": 5
+      }
+     },
+     "a_conformance": {
+      "occurrences": 6,
+      "numerator": 6,
+      "rate": 1.0
+     },
+     "i_conformance": {
+      "occurrences": 53,
+      "numerator": 53,
+      "rate": 1.0
+     },
+     "never_successor": [
+      "X"
+     ],
+     "never_predecessor": [
+      "a"
+     ]
+    }
+   }
+  }
+ },
+ "out_of_stratum_prediction_development": {
+  "a_conformance": {
+   "funerary_rate": 0.9855072463768116,
+   "royal_temple_rate": 0.9777777777777777,
+   "difference": 0.007729468599033895
+  },
+  "i_conformance": {
+   "funerary_rate": 0.9957007738607051,
+   "royal_temple_rate": 0.952755905511811,
+   "difference": 0.042944868348894105
+  }
+ },
+ "verdicts": {
+  "a_conformance": {
+   "verdict": "holds (stratum-stable)",
+   "adequate_floor_other_strata": {
+    "document": {
+     "occurrences": 42,
+     "numerator": 41,
+     "rate": 0.9761904761904762
+    },
+    "royal_temple": {
+     "occurrences": 59,
+     "numerator": 58,
+     "rate": 0.9830508474576272
+    }
+   }
+  },
+  "i_conformance": {
+   "verdict": "holds (stratum-stable)",
+   "adequate_floor_other_strata": {
+    "document": {
+     "occurrences": 80,
+     "numerator": 76,
+     "rate": 0.95
+    },
+    "graffito": {
+     "occurrences": 90,
+     "numerator": 89,
+     "rate": 0.9888888888888889
+    },
+    "royal_temple": {
+     "occurrences": 197,
+     "numerator": 190,
+     "rate": 0.9644670050761421
+    }
+   }
+  }
+ },
+ "headline_verdict": "POSITIVE"
+}

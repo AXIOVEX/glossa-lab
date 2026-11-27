@@ -1,0 +1,75 @@
+{
+ "D": 11,
+ "K": 4,
+ "M": 84,
+ "Q": 0.03115339858698945,
+ "alpha_per_candidate": 0.0125,
+ "floors": [
+  {
+   "E_i": 22.909090909090907,
+   "F_i": 33,
+   "ending": "-se",
+   "f_i": 3,
+   "p_i": 0.2727272727272727,
+   "q_i": 0.011213379315882425
+  },
+  {
+   "E_i": 15.272727272727273,
+   "F_i": 25,
+   "ending": "-na",
+   "f_i": 2,
+   "p_i": 0.18181818181818182,
+   "q_i": 0.006646673090369008
+  },
+  {
+   "E_i": 15.272727272727273,
+   "F_i": 25,
+   "ending": "-i",
+   "f_i": 2,
+   "p_i": 0.18181818181818182,
+   "q_i": 0.006646673090369008
+  },
+  {
+   "E_i": 15.272727272727273,
+   "F_i": 25,
+   "ending": "-ti",
+   "f_i": 2,
+   "p_i": 0.18181818181818182,
+   "q_i": 0.006646673090369008
+  }
+ ],
+ "instantiation_registered_candidates": [
+  {
+   "candidate": "-se",
+   "census_instances": 84,
+   "instantiable": true,
+   "predicted_position_kind": "segment-final"
+  },
+  {
+   "candidate": "-na",
+   "census_instances": 84,
+   "instantiable": true,
+   "predicted_position_kind": "segment-final"
+  },
+  {
+   "candidate": "-i",
+   "census_instances": 84,
+   "instantiable": true,
+   "predicted_position_kind": "segment-final"
+  },
+  {
+   "candidate": "-ti",
+   "census_instances": 84,
+   "instantiable": true,
+   "predicted_position_kind": "segment-final"
+  }
+ ],
+ "tc101_06_probe": {
+  "census_instances": 0,
+  "checker_result": "UNINSTANTIABLE - the closure branch of floor record section 3 / TC-101-06 returns TOO THIN for a candidate of this kind; exercised here so the path is run, not merely read",
+  "instantiable": false,
+  "predicted_position_kind": "reverse-face segment-final",
+  "probe_candidate": "-zz (procedure probe, not a candidate of the study)"
+ },
+ "too_thin_all_registered_instantiable": true
+}
