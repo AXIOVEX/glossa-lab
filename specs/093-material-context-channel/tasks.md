@@ -217,7 +217,7 @@ block ratification (Stage 0, T003).
   headings count only at paragraph starts; regression
   test added). Record at
   `records/stage6-outcome-record-2026-11-27.md`.
-- [ ] **T602 — Outcome record and VEXA report.** The
+- [x] **T602 — Outcome record and VEXA report.** The
   closeout record states per stage what was
   administered, accepted, or stopped (with counts) and
   C093-1's standing as it finally stands; the outcome
@@ -226,3 +226,11 @@ block ratification (Stage 0, T003).
   recorded send matches the outcome record). *This does
   not establish:* the final word on the channel — later
   joins, later data, and the reader stand after it.
+  **Complete 2026-11-27**: outcome record at
+  `records/stage6-outcome-record-2026-11-27.md` (PR
+  #790); the VEXA report sent the same day in the
+  record's own words (§4 of the outcome record),
+  submission id 0fc9db5b-0d55-4695-a0d8-c68af633d708;
+  send recorded at
+  `records/stage6-send-record-2026-11-27.md`. Spec 093
+  is closed.
