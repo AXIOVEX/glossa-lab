@@ -194,3 +194,23 @@ settling canonicals and comparison, the new T405 run
 records and materialization, the departed records'
 removal, the regenerated matrix and maps, and the
 census-pin updates above.
+
+## Finalization (completion commit)
+
+The registration commit of this landing is
+`a9f3f22144f93931e1c4b7951aa9c3b380656a75` (branch
+`spec-107-m2-re-registration`). The three departure
+acts were appended to
+`glossa-indus/ledger/runs/run-index.jsonl` in the
+completion commit that carries this section, each
+naming its record, its blob sha256 and git blob id
+(as listed under Departures above), its run id, and
+the registration commit as `superseded_by_commit`;
+the `tools/ledger/build_legacy_index.py` completion
+pass then appended the legacy entry act for
+re-derivation [29] (folded census 124 entries). With
+the departure accounting in place, the run store
+carries exactly the new generation: runs
+`settling-20261127T182329Z-0cae4b`,
+`settling-20261127T182408Z-f2168b` and the
+`settling-20261127T182440Z-f87253` materialization.
