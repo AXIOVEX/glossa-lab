@@ -163,7 +163,7 @@ block ratification (Stage 0, T003).
 
 ## Stage 5 — Machinery extension
 
-- [ ] **T501 — Matrix rows and map layer, generated.**
+- [x] **T501 — Matrix rows and map layer, generated.**
   The generators emit the material-context domain's
   matrix rows and the program map's material-context
   layer from the ledger family; no generated file is
@@ -171,8 +171,16 @@ block ratification (Stage 0, T003).
   reproduces the surfaces byte-for-byte from the
   ledger). *This does not establish:* that the layer's
   claims are true — only that the surface is the ledger,
-  generated, citing ids.
-- [ ] **T502 — Gate extension.** The ledger gate gains
+  generated, citing ids. **Complete 2026-11-27** (Stage 5
+  record): taxonomy amendment to program-map-taxonomy v2
+  (new Material context domain; this study's assignment
+  moved; same-motion copies and the conformance census
+  pin moved with it); program map republished through
+  the gated path; matrix republished byte-identical;
+  gate full 32 PASS / 0 FAIL / 1 NOT-RUN, regen
+  35 / 0 / 0; record at
+  `records/stage5-record-2026-11-27.md`.
+- [x] **T502 — Gate extension.** The ledger gate gains
   the culture-layer checks (citation existence, one-way
   flow, register-section counting support for Stage 6),
   with a seeded-violation proof that a bad citation
@@ -181,7 +189,13 @@ block ratification (Stage 0, T003).
   profile). *This does not establish:* that earlier
   layers' checks changed — the standing profile's
   existing counts are untouched, and the extension is
-  additive.
+  additive. **Complete 2026-11-27** (Stage 5 record):
+  gate class V12 landed with the three legs; the
+  counting leg passes with the zero count on its face
+  while the register carries no culture-side section
+  (Stage 6 lands it); teeth battery
+  test_spec093_stage5_gate_extension.py, ten tests,
+  seeded violations failing each leg.
 
 ## Stage 6 — Gap register and closeout
 

@@ -1,12 +1,13 @@
 {
- "version": "program-map-taxonomy v1",
+ "version": "program-map-taxonomy v2",
  "note": "Curated study/claim assignments for the generated program map. Grouping only: this file carries no standings (C2). Changes are amendment acts (new version, recorded in the stage record).",
  "domains": [
   "Sign inventory & corpus",
   "Anchors & readings",
   "Claim families by study line",
   "Contact zone & external corpora",
-  "Program infrastructure"
+  "Program infrastructure",
+  "Material context"
  ],
  "subdomains": {
   "Sign inventory & corpus": [
@@ -34,6 +35,9 @@
    "Platform & tooling",
    "Evidence & research-check tooling",
    "Governance, lifecycle & generated layers"
+  ],
+  "Material context": [
+   "The material-context channel"
   ]
  },
  "studies": [
@@ -504,8 +508,8 @@
   },
   {
    "spec_dir": "093-material-context-channel",
-   "domain": "Claim families by study line",
-   "subdomain": "Site, object & repertoire tests"
+   "domain": "Material context",
+   "subdomain": "The material-context channel"
   },
   {
    "spec_dir": "094-research-loop-acceptance-hardening",

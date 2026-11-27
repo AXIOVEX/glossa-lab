@@ -42,7 +42,15 @@ for resolving producing bindings, quarantined citations,
 store census and index integrity, and junction
 completeness; the gate verifies junction reports and
 index acts, it never originates an analysis, an act, or
-an adjudication).
+an adjudication),
+V12 culture layer (Spec 093 Stage 5: the program map
+material-context layer — the taxonomy domain the
+Spec 093 claim family generates into — checked for
+citation existence and one-way flow against the ledger
+family, and the gap register
+culture-side section
+counted, every GR-093 entry verified to carry its four
+elements, C093-12).
 
 **The gate never writes.** It calls only pure builders and
 read paths; it imports no write entry point (V9 audits this
@@ -216,7 +224,7 @@ MAP_S_R3_NOTE = (
 # copy is the divergence V10 exists to catch.
 
 GATE_PROGRAM_MAP_DEFS_VERSION = "program-map-defs v1"
-PROGRAM_MAP_TAXONOMY_VERSION = "program-map-taxonomy v1"
+PROGRAM_MAP_TAXONOMY_VERSION = "program-map-taxonomy v2"
 PROGRAM_MAP_REL = "glossa-indus/map/program-map.json"
 PROGRAM_MAP_FINDS_REL = "glossa-indus/map/program-map-finds.json"
 PROGRAM_MAP_HTML_REL = "glossa-indus/map/program-map.html"
@@ -5350,6 +5358,228 @@ def _v11_checks(root: Path) -> list[Check]:
 # The gate run
 
 
+# ---------------------------------------------------------------------------
+# V12 — culture layer (Spec 093 Stage 5, T502). The gate's
+# checks over the program map's material-context layer —
+# the taxonomy domain the Spec 093 claim family generates
+# into — and over the gap register's culture-side
+# section. The layer is verified the way every other
+# layer's is: its citations must resolve to the ledger,
+# and its contents must be exactly the ledger family's
+# (one-way flow: nothing on the surface that is not a
+# ledger claim, and no claim of the family missing from
+# the surface or grouped elsewhere). The register leg is
+# the counting support Stage 6 lands its section under
+# (C093-12): every GR-093 entry the section carries is
+# counted, and an entry missing any of its four elements
+# (what is not known, its candidate acceptance test, its
+# falsifier, its honesty type) fails the leg.
+
+CULTURE_DOMAIN = "Material context"
+CULTURE_STUDY = "093-material-context-channel"
+GAP_REGISTER_REL = "glossa-indus/map/gap-register.md"
+_CULTURE_SECTION_MARK = "Culture-side entries"
+_GR093_HEADING = re.compile(r"^GR-093-(\d+)\.\s", re.M)
+_GR093_ELEMENTS = (
+    "**Missing piece:**",
+    "**Candidate",
+    "**Falsifier:**",
+    "**Type:**",
+)
+
+
+def _v12_checks(
+    root: Path, entries: list[dict[str, Any]]
+) -> list[Check]:
+    """V12's legs. Where the material-context layer has
+    not landed at all (no such domain in the taxonomy and
+    no program-map node carrying it — a pre-Spec-093
+    Stage 5 tree, or a scratch tree carrying only the
+    older chain), V12 enumerates a single NOT-RUN, the
+    V10/V11 posture toward a layer that did not exist
+    yet. Once any part of the layer is present, every
+    leg runs and absence is a named failure."""
+    taxonomy_path = root / PROGRAM_MAP_TAXONOMY_REL
+    map_path = root / PROGRAM_MAP_REL
+    taxonomy: dict[str, Any] = {}
+    if taxonomy_path.is_file():
+        try:
+            taxonomy = json.loads(
+                taxonomy_path.read_text(encoding="utf-8")
+            )
+        except (OSError, json.JSONDecodeError):
+            taxonomy = {}
+    program_map: dict[str, Any] = {}
+    if map_path.is_file():
+        try:
+            program_map = json.loads(
+                map_path.read_text(encoding="utf-8")
+            )
+        except (OSError, json.JSONDecodeError):
+            program_map = {}
+    nodes = program_map.get("nodes") or {}
+    claim_nodes = nodes.get("claims") or []
+    study_nodes = nodes.get("studies") or []
+    layer_claims = [
+        n for n in claim_nodes if n.get("domain") == CULTURE_DOMAIN
+    ]
+    layer_studies = [
+        n for n in study_nodes if n.get("domain") == CULTURE_DOMAIN
+    ]
+    if (
+        CULTURE_DOMAIN not in (taxonomy.get("domains") or [])
+        and not layer_claims
+        and not layer_studies
+    ):
+        return [
+            Check(
+                "V12 culture layer",
+                "NOT-RUN",
+                [
+                    "the material-context layer has not landed "
+                    "(no Material context domain in the taxonomy "
+                    "and no program-map node carries it)"
+                ],
+            )
+        ]
+
+    checks: list[Check] = []
+    ledger_ids = {e.get("id") for e in entries}
+
+    # -- citation existence --------------------------------
+    problems: list[str] = []
+    for node in layer_claims:
+        if node.get("id") not in ledger_ids:
+            problems.append(
+                f"program-map claim node {node.get('id')!r} cites "
+                "no ledger entry"
+            )
+    if not any(n.get("id") == CULTURE_STUDY for n in layer_studies):
+        problems.append(
+            f"the channel study node {CULTURE_STUDY!r} is absent "
+            "from the Material context domain"
+        )
+    checks.append(
+        Check(
+            "V12 culture layer — citation existence",
+            "FAIL" if problems else "PASS",
+            problems
+            or [
+                f"{len(layer_claims)} claim nodes in the "
+                "Material context domain, every one citing a "
+                "ledger entry; the channel study node present"
+            ],
+        )
+    )
+
+    # -- one-way flow: the layer is exactly the family -----
+    family_ids = {
+        e.get("id")
+        for e in entries
+        if e.get("kind") == "claim"
+        and str(e.get("id", "")).startswith(CULTURE_STUDY + "/")
+    }
+    layer_ids = {n.get("id") for n in layer_claims}
+    problems = []
+    for cid in sorted(family_ids - layer_ids):
+        problems.append(
+            f"ledger claim {cid} is missing from the "
+            "Material context layer"
+        )
+    for cid in sorted(layer_ids - family_ids):
+        problems.append(
+            f"layer node {cid} is not a claim of the "
+            f"{CULTURE_STUDY} family in the ledger"
+        )
+    for node in claim_nodes:
+        if str(node.get("id", "")).startswith(
+            CULTURE_STUDY + "/"
+        ) and node.get("domain") != CULTURE_DOMAIN:
+            problems.append(
+                f"family claim {node.get('id')} is grouped "
+                f"under {node.get('domain')!r}, not the "
+                "Material context domain"
+            )
+    checks.append(
+        Check(
+            "V12 culture layer — one-way flow (layer = ledger family)",
+            "FAIL" if problems else "PASS",
+            problems
+            or [
+                f"the layer's {len(layer_ids)} claim nodes are "
+                f"exactly the ledger's {len(family_ids)} claims "
+                f"of {CULTURE_STUDY}; no family claim grouped "
+                "elsewhere"
+            ],
+        )
+    )
+
+    # -- register-section counting support ------------------
+    register_path = root / GAP_REGISTER_REL
+    problems = []
+    detail: list[str] = []
+    if not register_path.is_file():
+        problems.append(f"gap register not found: {register_path}")
+    else:
+        text = register_path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        start = None
+        end = len(lines)
+        for i, line in enumerate(lines):
+            if line.startswith("## ") and _CULTURE_SECTION_MARK in line:
+                if start is None:
+                    start = i
+            elif start is not None and line.startswith("## "):
+                end = i
+                break
+        if start is None:
+            detail.append(
+                "the register carries no culture-side section "
+                "yet; 0 GR-093 entries counted (the counting "
+                "support Stage 6 lands the section under, "
+                "C093-12)"
+            )
+        else:
+            section = "\n".join(lines[start:end])
+            heads = list(_GR093_HEADING.finditer(section))
+            if not heads:
+                problems.append(
+                    "the culture-side section is present but "
+                    "carries no GR-093 entries"
+                )
+            for j, head in enumerate(heads):
+                block = section[
+                    head.start():
+                    heads[j + 1].start()
+                    if j + 1 < len(heads)
+                    else len(section)
+                ]
+                missing = [
+                    el for el in _GR093_ELEMENTS if el not in block
+                ]
+                if missing:
+                    problems.append(
+                        f"GR-093-{head.group(1)} lacks "
+                        + ", ".join(missing)
+                    )
+            if heads and not problems:
+                detail.append(
+                    f"{len(heads)} GR-093 entries counted in "
+                    "the culture-side section; every entry "
+                    "carries what is not known, its candidate "
+                    "(acceptance test), its falsifier, and "
+                    "its honesty type (C093-12)"
+                )
+    checks.append(
+        Check(
+            "V12 culture layer — gap-register section counting",
+            "FAIL" if problems else "PASS",
+            problems or detail,
+        )
+    )
+    return checks
+
+
 def _first_divergences(expected: Any, actual: Any, path: str, out: list[str],
                        limit: int = 8) -> None:
     """Enumerate the first divergences between two JSON
@@ -6181,6 +6411,18 @@ def run_gate(
         report.checks.append(
             Check(
                 "V11 run-binding",
+                "NOT-RUN",
+                ["out of scope for this run"],
+            )
+        )
+
+    # -- V12 ------------------------------------------------------------------
+    if in_scope("V12"):
+        report.checks.extend(_v12_checks(root, entries))
+    else:
+        report.checks.append(
+            Check(
+                "V12 culture layer",
                 "NOT-RUN",
                 ["out of scope for this run"],
             )

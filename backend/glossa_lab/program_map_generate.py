@@ -40,7 +40,7 @@ from pathlib import Path
 from glossa_lab.ledger_intake import sha256_file
 
 DEFS_VERSION = "program-map-defs v1"
-TAXONOMY_VERSION = "program-map-taxonomy v1"
+TAXONOMY_VERSION = "program-map-taxonomy v2"
 LEDGER_SCHEMA_VERSION = "ledger-schema v1"
 
 LEDGER_REL = "glossa-indus/ledger/claims.jsonl"

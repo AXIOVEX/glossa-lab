@@ -114,6 +114,12 @@ Stage 4 executed 2026-11-27 under the owner's commission of the same day (Stages
 
 Rests on: `records/stage4-record-2026-11-27.md`
 
+### 2026-11-27 - Spec 093 Stage 5 — machinery extension (T501, T502)
+
+Stage 5 executed 2026-11-27 under the same commission. The taxonomy amendment landed as program-map-taxonomy v2: a Material context domain (The material-context channel) now carries this study's assignment, moved from the study-line grouping, with the builder's and the gate's version copies and the definitions document's literals moved in the same motion (PROGRAM-MAP-DEFINITIONS.md §8/§12; the conformance census pin moved as data: study-line 41 to 40, Material context 1). The program map republished through the gated path; the matrix republished byte-identical (the taxonomy feeds neither the matrix nor the map data). Gate class V12 landed (citation existence, one-way flow, register-section counting support) with a ten-test teeth battery; the counting leg passes with the zero count on its face until Stage 6 lands the section. A disclosed mid-motion refusal: the first matrix publish in the stage was refused while the published map still carried the old grouping, V12's flow leg naming it. Gate at the extended profile: full 32 PASS / 0 FAIL / 1 NOT-RUN (V7); regen 35 / 0 / 0.
+
+Rests on: `records/stage5-record-2026-11-27.md`
+
 ### State at backfill (at backfill, 2026-11-25)
 
 The latest filed record is the closure-qualifier addendum of 2026-11-21. Stages 3-6 of the study were not commissioned on the filed record.

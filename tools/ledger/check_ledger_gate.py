@@ -3,7 +3,7 @@
 
 Recomputes the matrix (and, when present, the map and the
 program map) from the ledger by the gate's own independent
-route and checks the chain under classes V1–V11 of
+route and checks the chain under classes V1–V12 of
 spec.md Point 4 (V8, the settling canonicals, arrived
 with Stage 4; V10, the program-map equivalence, with
 Spec 088 Stage 3; V11, run-binding, with Spec 089
@@ -65,8 +65,8 @@ from glossa_lab.ledger_contamination import (  # noqa: E402
 _LAYER_CLASSES = {
     "ledger": {"V1", "V2", "V3", "V4", "V8", "V9", "V11"},
     "matrix": {"V2", "V3", "V4"},
-    "map": {"V2", "V4", "V5", "V6"},
-    "program_map": {"V10"},
+    "map": {"V2", "V4", "V5", "V6", "V12"},
+    "program_map": {"V10", "V12"},
     "anchors": {"V4", "V6", "V8"},
     "runs": {"V11"},
 }
