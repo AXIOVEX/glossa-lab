@@ -171,7 +171,7 @@ def main() -> int:
         rec = json.loads(path.read_text(encoding="utf-8"))
         runs.append((path.name, rec))
     mine = [(n, r) for n, r in runs
-            if r.get("header", {}).get("tool") == "run_stage4_site.py"]
+            if r.get("run", {}).get("tool") == "run_stage4_site.py"]
     problems = []
     if len(mine) != 2:
         problems.append(f"expected 2 stage-4 runs, found {len(mine)}")
@@ -179,7 +179,7 @@ def main() -> int:
     for name, rec in mine:
         result = rec.get("result") or {}
         by_kind[result.get("kind")] = (name, rec)
-        pins = rec.get("header", {}).get("input_pins", {})
+        pins = rec.get("run", {}).get("key", {}).get("input_pins", {})
         if pins.get("snapshot", {}).get("sha256") != SNAPSHOT_SHA256:
             problems.append(f"{name}: snapshot pin in header wrong")
         if pins.get("freeze_record_sha256") != sha256_file(ROOT / FREEZE_REL):

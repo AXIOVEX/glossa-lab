@@ -1,0 +1,16 @@
+{
+  "spec": "093",
+  "stage": "4",
+  "task": "T401",
+  "auditor": "audit_stage4_site.py (independent implementation)",
+  "runs_compared": {
+    "administration": "study-20261127T095820Z-2c776c.json",
+    "permutation-controls": "study-20261127T095821Z-31eef3.json"
+  },
+  "blocks_matching": {
+    "administration": 1,
+    "permutation-controls": 1
+  },
+  "problems": [],
+  "verdict": "AGREE"
+}

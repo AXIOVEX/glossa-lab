@@ -1,0 +1,33 @@
+{
+  "spec": "093",
+  "stage": "4",
+  "task": "T401",
+  "freeze": "stage4-site-freeze-v1.md \u00a76",
+  "audit_verdict": "AGREE",
+  "q1_length": {
+    "discovery_statistic": 0.07015641938980952,
+    "discovery_p99": 0.16489302860682759,
+    "clause1_discovery_above_p99": false,
+    "held_out_statistic": 0.12806637806637808,
+    "held_out_p95": 0.21464646464646464,
+    "clause2_held_out_above_p95": false,
+    "direction_discovery": 1,
+    "direction_held_out": -1,
+    "clause3_direction_agrees": false,
+    "pseudo_site_p95": 0.12602495543672015,
+    "clause4_control_behaves": true,
+    "verdict": "NOT YET"
+  },
+  "q2_sign_choice": {
+    "discovery_statistic": 0.3307919492228383,
+    "discovery_p99": 0.3285356264226427,
+    "clause1_discovery_above_p99": true,
+    "held_out_statistic": 0.4287730414746544,
+    "held_out_p95": 0.44556521739130434,
+    "clause2_held_out_above_p95": false,
+    "pseudo_site_p95": 0.3187978346089229,
+    "clause4_control_behaves": true,
+    "verdict": "NOT YET"
+  },
+  "pass_outcome": "NOT YET"
+}

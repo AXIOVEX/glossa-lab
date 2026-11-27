@@ -107,23 +107,40 @@ block ratification (Stage 0, T003).
 
 ## Stage 4 — First computed passes
 
-- [ ] **T401 — Site pass.** Freeze, runs, controls,
+- [x] **T401 — Site pass.** Freeze, runs, controls,
   held-out arm as the counts allow, audit, outcome —
   per plan.md Stage 4(a). Acceptance: **test** (bar
   adjudged mechanically on audited runs). *This does not
   establish:* why any accepted regularity holds — the
   pass states a joint-distribution fact at channel
   strength (C093-7), and no cause, function, or reading
-  may be read into it.
-- [ ] **T402 — Material pass (join-gated).** As T401,
+  may be read into it. **Completion (2026-11-27):**
+  freeze v1 filed before any computation
+  (`records/stage4-site-freeze-v1.md`); runs
+  `study-20261127T095820Z-2c776c` (administration) and
+  `study-20261127T095821Z-31eef3` (controls); independent
+  audit AGREE; mechanical adjudication **NOT YET** —
+  Q1 length fails clauses 1–3, Q2 sign choice meets
+  clause 1 and fails the held-out clause 2; both
+  pseudo-site controls behave; stage record at
+  `records/stage4-record-2026-11-27.md` §2.
+- [x] **T402 — Material pass (join-gated).** As T401,
   over the Stage 1 join's population, only if the join
   cleared its floor; otherwise the CANNOT BE
   ADMINISTERED record with the forcing counts is this
   task's deliverable. Acceptance: **test**. *This does
   not establish:* anything about material practice in
   the world if it stops — a stop is a finding about the
-  record system, stated at its counts.
-- [ ] **T403 — Contact-context administration.** The 14
+  record system, stated at its counts. **Completion
+  (2026-11-27):** the join cleared its floor at Stage 1
+  (precision 1.000 ≥ 0.90), and the freeze's §4
+  administration rule was executed — the §2 counts
+  recompute exactly (Steatite 176, Clay 1, Faience 1,
+  1 empty sentinel, 179 total) and one class meets the
+  floor of 10 where at least 2 are required: **CANNOT
+  BE ADMINISTERED**, forcing counts on the face of
+  `records/stage4-record-2026-11-27.md` §3.
+- [x] **T403 — Contact-context administration.** The 14
   excavated seals and the Meluhha record administered
   as an evidence class under their Stage 3 entries'
   frozen expectations; the outcome states what the find
@@ -131,6 +148,18 @@ block ratification (Stage 0, T003).
   **human-as-oracle**. *This does not establish:* a
   population claim of any kind — n=14 is an evidence
   class, and this task's record says so on its face.
+  **Completion (2026-11-27):** freeze v1 filed before
+  the administration (`records/stage4-contact-freeze-v1.md`,
+  citing CR-093-01 and CR-093-02 only); expectations
+  **E1–E4 all MET** (14/14 find periods, 12/14
+  excavation spots; 11/14 outside the Indus region;
+  11/14 inscription-bearing; Meluhha modal period
+  Ur III with 1,155 in-window hits, filed aggregates
+  agreeing); the freeze's two bounded licensed
+  statements in force; machine record at
+  `records/stage4-contact-counts-2026-11-27.json`;
+  stage record at `records/stage4-record-2026-11-27.md`
+  §4.
 
 ## Stage 5 — Machinery extension
 

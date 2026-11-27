@@ -1,0 +1,51 @@
+{
+  "spec": "093",
+  "stage": "4",
+  "task": "T403",
+  "freeze": "stage4-contact-freeze-v1.md \u00a73",
+  "seals_total": 14,
+  "e1": {
+    "with_find_period": 14,
+    "with_excavation_spot": 12,
+    "verdict": "MET"
+  },
+  "e2": {
+    "outside_indus_region": 11,
+    "verdict": "MET"
+  },
+  "e3": {
+    "inscription_bearing": 11,
+    "verdict": "MET"
+  },
+  "meluhha_total": 1462,
+  "e4": {
+    "modal_period": "Ur III (ca. 2100-2000 BC)",
+    "modal_count": 850,
+    "in_window_hits": 1155,
+    "filed_aggregates_agree": true,
+    "verdict": "MET"
+  },
+  "period_census": {
+    "(unknown)": 15,
+    "ED I-II (ca. 2900-2700 BC)": 13,
+    "ED I-II (ca. 2900-2700 BC), Old Babylonian (ca. 1900-1600 BC)": 6,
+    "ED IIIa (ca. 2600-2500 BC)": 26,
+    "ED IIIb (ca. 2500-2340 BC)": 71,
+    "ED IIIb (ca. 2500-2340 BC) ?": 3,
+    "Early Old Babylonian (ca. 2000-1900 BC)": 18,
+    "Ebla (ca. 2350-2250 BC)": 141,
+    "Lagash II (ca. 2200-2100 BC)": 29,
+    "Middle Babylonian (ca. 1400-1100 BC)": 3,
+    "Neo-Assyrian (ca. 911-612 BC)": 61,
+    "Neo-Babylonian (ca. 626-539 BC)": 2,
+    "Old Akkadian (ca. 2340-2200 BC)": 54,
+    "Old Akkadian (ca. 2340-2200 BC) ?": 2,
+    "Old Assyrian (ca. 1950-1850 BC)": 1,
+    "Old Babylonian (ca. 1900-1600 BC)": 130,
+    "Old Babylonian (ca. 1900-1600 BC) ?": 1,
+    "Ur III (ca. 2100-2000 BC)": 850,
+    "Uruk III (ca. 3200-3000 BC)": 34,
+    "Uruk IV (ca. 3350-3200 BC)": 1,
+    "uncertain": 1
+  }
+}
