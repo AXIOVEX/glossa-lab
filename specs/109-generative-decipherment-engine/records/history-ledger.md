@@ -190,3 +190,55 @@ criterion 2 fired for G1-R; the floor was not moved; the
 amendment commissions no second revision. G1 produces
 no scoreable output; Stage 3 remains blocked; no
 standing, verdict, or tally moved.
+
+## 2026-11-27 — G1 identifiability-scale study executed (T103): MIXED
+
+The G1 revision's close posed the question its anatomy
+left open: G1-R's candidates beat the planted truth's
+objective on all five fresh 1x corpora while missing a
+fifth to a third of the edge values, so at 1x either the
+information is not there (A) or the objective's
+edge-value evidence is itself the defect (B). The scale
+study registered an amendment
+(`records/g1-scale-registration-2026-11-27.md`; the
+claim determination at its section 6: no new claim, the
+study a measurement under C109-7's discipline as filed)
+and re-ran the identical G1-R preflight at 2x and 4x
+corpus scale, five fresh corpora per scale (seeds
+`spec109-scl2-synth-{1..5}`, `spec109-scl4-synth-{1..5}`;
+effective scales 1.995x and 3.676x). The scale
+definition carries two combinatorial accommodations on
+its face: the length-2 stem pool saturates at the
+529-pair inventory maximum (23 stem values admit at
+most 529 pairs, so a 300k pool target is unattainable
+and the filed distinctness count with it), and
+distinctness falls back at length-2 slots only (F = 9
+per replication at 2x, 547 at 4x, exactly the
+registered minimum in both cases), with the distinct
+count and effective scale filed per corpus. Results:
+median recovery **0.807 at 2x** (0.807 / 0.684 / 0.860 /
+0.737 / 0.807) and **0.772 at 4x** (0.772 / 0.702 /
+0.860 / 0.754 / 0.860); clause (ii) passed 5/5 at both
+scales (median penalized margins 1,789.9 and 3,446.3
+nats); the shuffle control passed at both (median
+0.175). The decision rule returned **MIXED**: the
+median crosses the floor at 2x but not at 4x, and the
+anatomy changed character — basin failures returned at
+scale (objective gaps -551.7 at 2x and -1,415.9 /
+-1,495.0 at 4x, against G1-R's five-of-five positive
+gaps at 1x), carrying all three of the study's stem
+misses, while the seven basin-found replications keep
+the filed 1x anatomy exactly (stems 0; candidates
+beating truth by +30 to +97 nats missing 8-15 edge
+values). The study record files the interpretation the
+anatomy supports: the objective's per-swap deltas grow
+with the token counts while the registered temperature
+schedule is fixed, so the identical search runs
+relatively colder at scale — its calibration, not only
+the data, is scale-bound. Neither (A) nor (B) is
+supported in its clean form; the 1x plateau conclusion
+stands at 1x, where the basin was found five of five;
+G1-R's FAILED licensing state stands; no floor moved;
+no standing, verdict, or tally moved. TC-109-02 re-run
+in verification form: PASS, 119/119, every figure
+recomputed independently and the decision mechanical.

@@ -52,6 +52,38 @@
   records/g1-revision-preflight-2026-11-27.md and
   records/g1-revision-close-2026-11-27.md.
 
+- [x] T103 G1 identifiability-scale study: the G1-R
+  preflight re-run at 2x and 4x corpus scale under a
+  registered amendment
+  (records/g1-scale-registration-2026-11-27.md; no
+  new claim — the determination is filed at its
+  section 6), five fresh corpora per scale (seeds
+  spec109-scl2-synth-{1..5},
+  spec109-scl4-synth-{1..5}), the generator,
+  objective, scoring, and floors identical, the
+  scale definition's two combinatorial
+  accommodations on the record (the length-2 stem
+  pool saturates at the 529-pair inventory maximum;
+  distinctness falls back at length-2 slots only,
+  with F and the effective scale filed per corpus);
+  TC-109-02 re-run in verification form (PASS
+  119/119). Executed 2026-11-27: **MIXED** — median
+  recovery 0.807 at 2x (the floor crossed) and 0.772
+  at 4x (not held); clause (ii) passed 5/5 at both
+  scales and the shuffle control passed at both.
+  Basin failures returned at scale (negative
+  objective gaps in 1 of 5 replications at 2x and 2
+  of 5 at 4x, carrying all of the study's stem
+  misses), while in basin-found replications the 1x
+  plateau anatomy persists (stems 0; edge-only
+  misses of 8-15 at gaps of +30 to +97 nats).
+  Neither (A) information nor (B) objective design
+  is supported in its clean form. G1 remains
+  unlicensed; Stage 3 remains blocked; no floor
+  moved. Records:
+  records/g1-scale-study-2026-11-27.md and
+  records/g1-scale-close-2026-11-27.md.
+
 ## Stage 2 — Structure induction and context channel
 
 - [x] T201 Part 2 executed under registration §3 for
