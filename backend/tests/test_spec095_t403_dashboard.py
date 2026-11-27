@@ -39,7 +39,7 @@ def test_home_census_is_the_records_census(client):
     claims = _ledger_claims()
     assert body["census"]["claims"] == len(claims) == 1073
     assert body["census"]["ledger_lines"] == 1104
-    assert body["census"]["studies"] == 108
+    assert body["census"]["studies"] == 109
     anchors = json.loads(
         (REPO / "backend" / "reports" / "INDUS_FINAL_ANCHORS.json")
         .read_text(encoding="utf-8")
@@ -79,7 +79,7 @@ def test_falsifier_absent_class_is_exactly_the_gap(client):
         body["falsifier_census"]["gap_claims"]
     )
     present = client.get(f"{BASE}/claims", params={"falsifier": "present"}).json()
-    assert present["total"] == 1057
+    assert present["total"] == 1064
 
 
 def test_sign_filter_matches_both_record_name_forms(client):

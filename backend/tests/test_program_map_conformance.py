@@ -212,7 +212,7 @@ def test_taxonomy_hygiene_against_live_inputs():
         "Anchors & readings": 16,
         "Claim families by study line": 41,
         "Contact zone & external corpora": 2,
-        "Program infrastructure": 28,
+        "Program infrastructure": 29,
         "Sign inventory & corpus": 21,
     }
     program_map = json.loads(pmg.build_artifacts(_REPO)[pmg.MAP_REL])

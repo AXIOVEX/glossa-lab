@@ -230,7 +230,7 @@ def test_sections_census(built) -> None:
     rels = {}
     for edge in data["edges"]:
         rels[edge["rel"]] = rels.get(edge["rel"], 0) + 1
-    assert rels == {"supports": 1582, "opposes": 7}
+    assert rels == {"supports": 1589, "opposes": 7}
     assert len(data["loads"]) == 1073
     system = data["system"]
     assert system["falsifier_census"]["covered"] == 1057
@@ -390,7 +390,7 @@ def test_api_sections_serve_the_artifact(client) -> None:
     assert system["sign_inventory"]["frame_scope"] == 286
     matrix = client.get("/api/v1/indus-map/matrix").json()["matrix"]
     assert matrix["coverage"]["cells_by_relation"] == {
-        "supports": 1582,
+        "supports": 1589,
         "opposes": 7,
         "constrains": 0,
     }
