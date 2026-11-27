@@ -28,13 +28,13 @@ from glossa_lab.ledger_intake import sha256_file
 
 _REPO = Path(__file__).resolve().parents[2]
 
-# The census of record (2026-11-26, post-Spec-107-registration ledger).
+# The census of record (2026-11-27, post-C101-1-adjudication ledger).
 PIN_CLAIMS = 1066
 PIN_CLAIMS_BY_POPULATION = {"bundle": 1043, "extracted": 23}
 PIN_CLAIMS_BY_CLASS = {
     "closed_other": 1,
-    "negative": 6,
-    "open": 1057,
+    "negative": 7,
+    "open": 1056,
     "positive": 2,
 }
 PIN_STUDIES = 108

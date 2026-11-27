@@ -58,3 +58,29 @@ Rests on: the latest records cited above, as filed in this package.
   Any standing change remains the owner's
   adjudication; none is effected by the outcome
   record itself.
+
+## 2026-11-27 - DECISION (owner adjudication: C101-1 NOT SUPPORTED)
+
+- Kind: DECISION. Actor: the owner, Tristen Pierson
+  (Glossa-Lab chat, 2026-11-27 03:09 ET, by one-tap
+  decision widget and in plain words: "Adjudicate
+  C101-1 as NOT SUPPORTED").
+- The adjudication rests on the registered outcome
+  executed in Spec 107 cycle 1 (test E-1; PR #770):
+  counts -se 0, -na 9, -i 1, -ti 14 against floors
+  33/25/25/25 (Q = 0.031153 < 0.05), every candidate
+  below its floor; floor record section 1.5. Target
+  ENRICHMENT per OD-D-1; expressly not a recurrence
+  finding.
+- Standing change: C101-1 draft -> unsupported
+  (NOT SUPPORTED; program-map-defs v1 section 4.2,
+  class negative), effected by the append-only
+  reclassification entry
+  101-eteocypriot-next-claim/C101-1/reclassification-2026-11-27
+  in the claims ledger (1,097 -> 1,098 lines;
+  canonical SHA-256 fd4d12e7...), with the full
+  settling cascade (verify-canonicals 6/6; T405 pair
+  re-executed, both result blocks byte-equal; pin
+  refreshed as re_derivations[24]).
+- Record: adjudication-2026-11-27.md in this
+  package's records. No other standing moved.

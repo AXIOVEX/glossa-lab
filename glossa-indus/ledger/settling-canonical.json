@@ -381,14 +381,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 101 C101-1 adjudication (branch spec-101-c101-1-adjudication-2026-11-27; record: specs/101-eteocypriot-next-claim/records/adjudication-2026-11-27.md). The owner (Tristen Pierson) adjudicated C101-1 NOT SUPPORTED on 2026-11-27 (Glossa-Lab chat, 03:09 ET) on the registered outcome of Spec 101 as executed in Spec 107 cycle 1 (test E-1); this entry registers the standing change that adjudication effects in the claims ledger.",
+   "reason": "The claims ledger grew by one append-only reclassification entry: 101-eteocypriot-next-claim/C101-1/reclassification-2026-11-27, superseding 101-eteocypriot-next-claim/C101-1 and moving its status from draft to unsupported (the registered vocabulary value for a NOT SUPPORTED adjudication; program-map-defs v1 section 4.2, class negative), appended through glossa_lab.ledger_intake.append_entry on 2026-11-27. No claim was appended and no superseded line was edited.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "51f4fbbd1a96a4cd9c332bc7fa8fc65e568b6c519c008ab3d14ed3bd838ad21a",
+    "lines": 1097
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "fd4d12e73b0df3ad2d9311772b506b1f0a9e10da4ec156f9456d24fb109d7abc",
+    "lines": 1098
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entry is a reclassification carrying no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "51f4fbbd1a96a4cd9c332bc7fa8fc65e568b6c519c008ab3d14ed3bd838ad21a",
-   "lines": 1097
+   "sha256_canonical": "fd4d12e73b0df3ad2d9311772b506b1f0a9e10da4ec156f9456d24fb109d7abc",
+   "lines": 1098
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
