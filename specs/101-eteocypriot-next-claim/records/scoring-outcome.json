@@ -1,0 +1,53 @@
+{
+ "Q": 0.03115339858698945,
+ "candidates": [
+  {
+   "at_or_above_floor": false,
+   "candidate": "-se",
+   "count": 0,
+   "floor": 33,
+   "per_inscription": {
+    "ICS 194": 0,
+    "ICS 195": 0
+   },
+   "sign": "se"
+  },
+  {
+   "at_or_above_floor": false,
+   "candidate": "-na",
+   "count": 9,
+   "floor": 25,
+   "per_inscription": {
+    "ICS 194": 8,
+    "ICS 195": 1
+   },
+   "sign": "na"
+  },
+  {
+   "at_or_above_floor": false,
+   "candidate": "-i",
+   "count": 1,
+   "floor": 25,
+   "per_inscription": {
+    "ICS 194": 0,
+    "ICS 195": 1
+   },
+   "sign": "i"
+  },
+  {
+   "at_or_above_floor": false,
+   "candidate": "-ti",
+   "count": 14,
+   "floor": 25,
+   "per_inscription": {
+    "ICS 194": 3,
+    "ICS 195": 11
+   },
+   "sign": "ti"
+  }
+ ],
+ "segment_final_positions_scored": 84,
+ "state_sha256_expected": "9535108dfcbd93adb6b10ba8c2ca40cfd7a5710b02bb45f1c5768f00a54a631c",
+ "target": "ENRICHMENT (OD-D-1); NOT SUPPORTED is expressly not a recurrence finding",
+ "verdict_C101-1": "NOT SUPPORTED"
+}
