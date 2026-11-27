@@ -95,12 +95,12 @@
 
 ## Stage 4 — Outcome and closeout
 
-- [ ] **T401 — Outcome record.** Per-sign outcomes per arm
+- [x] **T401 — Outcome record.** Per-sign outcomes per arm
   in the frozen vocabulary; family counts; the premise
   falsifier applied as written; the contamination ceiling
   restated; this spec's claims adjudicated on the outcome.
   Claims: C098-5, C098-6, C098-7. Acceptance: **record**.
-- [ ] **T402 — Closeout.** Tasks ticked to the record;
+- [x] **T402 — Closeout.** Tasks ticked to the record;
   remainders named (any standing act on the outcomes is a
   separate program act, not a remainder of this study).
   Acceptance: **record**.

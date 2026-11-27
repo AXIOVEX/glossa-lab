@@ -109,3 +109,15 @@ Stages 1-3 are executed and recorded, closing with the Stage 3 outcome record of
 GAP: no filed record states a final disposition for the study beyond the Stage 3 outcome, and no Stage 4 was commissioned on the filed record.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-27 - Spec 098 — Stage 4 commissioned (owner's blanket approval)
+
+The owner's act in the Glossa-Lab chat, 2026-11-27 04:05 ET ("Yes do all these things now or take my approval now to do at the best time"), lifted the not-commissioned state under which Stages 1–3 were completed. Stages 1–3 had closed on 2026-11-22 with the Stage 3 outcome record and, as the backfill entry below states, no filed final disposition beyond it; Stage 4 (T401 outcome record, T402 closeout) is a record stage on the filed records of Stages 1–3 and was executed exactly as registered, with no second release of the held-out list (none is registered, and none was made).
+
+Rests on: `records/stage-4-outcome-2026-11-27.md`
+
+### 2026-11-27 - Spec 098 — Stage 4 Outcome Record and Closeout (T401 + T402)
+
+Stage 4 landed. Preconditions verified from the record: the Stage 3 outcome and its archived raw output recount mechanically to the filed distribution (46 UNDECIDABLE AT THIS POWER / 22 NOT IDENTIFIABLE / 1 DISCRIMINATED ON PSEUDO-HELD-OUT over the executed 69) and to the per-arm counts (Arm I 43 / 21 / 1; Arm E 3 / 1 / 0); the seal's single release stands intact with its hash recomputed at release and at scoring, and Stage 4 made no further release and read no custody material. Per-sign outcomes restated per arm in the frozen vocabulary; M044 and M202 carry no outcome under this spec (both left the frozen population by the recorded addendum-rule strikes before Stage 2 execution; the executed population is 69 of the frozen 71). The premise falsifier applied as written: not falsified (TC-098-02 passes; M375 reached the pseudo-held-out pass outcome). The contamination ceiling restated on the face of the record: the genuine-holdout subset is empty (T101), IDENTIFIABLE ON HELD-OUT is unavailable to this study, and M375's DISCRIMINATED ON PSEUDO-HELD-OUT supports no standing change and no identification claim beyond the corpus. Claims C098-1..C098-8 adjudicated on the outcome, each SUPPORTED (C098-2 and C098-3 in their amended / frozen executed forms, stated in full in the record). Closeout remainders named: any standing act on M375's outcome is a separate program act, not a remainder of this study; the canonical-ledger cascade for the claims adjudications is a separate act, not performed by this landing; M048's identifiability is untested by this study. Spec 098 is complete, Stages 0–4.
+
+Rests on: `records/stage-4-outcome-2026-11-27.md`
