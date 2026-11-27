@@ -36,7 +36,7 @@ The builder reads **only** the following, and nothing else:
 | Input | Identity | How it is reached |
 |---|---|---|
 | The ledger | `glossa-indus/ledger/claims.jsonl` (`ledger-schema v1`) | Directly. Its canonical SHA-256 (the shared helper `glossa_lab.ledger_intake.sha256_file`: UTF-8, CRLF→LF) is computed at build time and carried in the stamp. |
-| The taxonomy | `glossa-indus/map/program-map-taxonomy.json` (`program-map-taxonomy v1`) | Directly. Curated grouping only (§8); it carries no standings, by format (§8's forbidden keys). |
+| The taxonomy | `glossa-indus/map/program-map-taxonomy.json` (`program-map-taxonomy v2`) | Directly. Curated grouping only (§8); it carries no standings, by format (§8's forbidden keys). |
 | The spec tree | The directory names under `specs/` | Names only. No spec file's contents are read for any purpose (C2). |
 
 Any other file — a stage record, a report, a bundle file —
@@ -204,7 +204,7 @@ is a taxonomy amendment (§8) — both are acts, recorded.
 
 ## 8. The taxonomy
 
-`program-map-taxonomy v1` is a curated file: declared
+`program-map-taxonomy v2` is a curated file: declared
 domains, declared subdomains per domain, one assignment
 per study directory, one assignment per extracted source
 document, and the restricted list. It is grouping only.
@@ -250,7 +250,7 @@ Every build emits the coverage block, in `program-map.json`:
 Every generated artifact carries: the ledger's canonical
 SHA-256, the ledger line count, the ledger's own latest
 entry date, and the versions in force (`ledger-schema v1`,
-`program-map-defs v1`, `program-map-taxonomy v1`). There is
+`program-map-defs v1`, `program-map-taxonomy v2`). There is
 no wall-clock generation time: delete-and-regenerate
 byte-identity (C088-13) is the acceptance property, which a
 clock stamp would make impossible, and the stamp's purpose

@@ -210,8 +210,9 @@ def test_taxonomy_hygiene_against_live_inputs():
     }
     assert domain_totals == {
         "Anchors & readings": 16,
-        "Claim families by study line": 41,
+        "Claim families by study line": 40,
         "Contact zone & external corpora": 2,
+        "Material context": 1,
         "Program infrastructure": 29,
         "Sign inventory & corpus": 21,
     }
