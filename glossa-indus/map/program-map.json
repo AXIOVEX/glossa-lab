@@ -4,8 +4,8 @@
    "by_class": {
     "closed_other": 1,
     "negative": 7,
-    "open": 1063,
-    "positive": 2
+    "open": 1055,
+    "positive": 10
    },
    "by_population": {
     "bundle": 1050,
@@ -19,16 +19,16 @@
     "claims_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 23,
-     "positive": 0
+     "open": 15,
+     "positive": 8
     },
     "restricted_studies": 0,
     "studies": 16,
     "studies_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 3,
-     "positive": 0,
+     "open": 2,
+     "positive": 1,
      "unjudged": 13
     }
    },
@@ -189,8 +189,8 @@
    "by_class": {
     "closed_other": 0,
     "negative": 1,
-    "open": 79,
-    "positive": 0,
+    "open": 78,
+    "positive": 1,
     "unjudged": 28
    },
    "restricted": 1,
@@ -14035,7 +14035,7 @@
     "subdomain": "Signary & corpus models"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14043,13 +14043,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14057,13 +14057,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14071,13 +14071,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14085,13 +14085,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14099,13 +14099,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14113,13 +14113,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14127,13 +14127,13 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
    {
-    "class": "open",
+    "class": "positive",
     "document": null,
     "domain": "Anchors & readings",
     "falsifier_present": true,
@@ -14141,8 +14141,8 @@
     "kind": "claim",
     "population": "bundle",
     "stage": "created",
-    "standing": "Ledger standing: status draft · stage created · falsifier present",
-    "status": "draft",
+    "standing": "Ledger standing: status strongly_supported · stage created · falsifier present",
+    "status": "strongly_supported",
     "study": "098-identifiability-over-the-65",
     "subdomain": "Validation batteries for the SA-lineage anchors, Phases 111–119"
    },
@@ -16816,7 +16816,7 @@
     "subdomain": "Signary & corpus models"
    },
    {
-    "class": "open",
+    "class": "positive",
     "domain": "Anchors & readings",
     "id": "098-identifiability-over-the-65",
     "judgment_call": false,
@@ -16824,8 +16824,8 @@
     "member_counts": {
      "closed_other": 0,
      "negative": 0,
-     "open": 8,
-     "positive": 0,
+     "open": 0,
+     "positive": 8,
      "total": 8
     },
     "restricted": false,
@@ -16995,9 +16995,9 @@
  },
  "stamp": {
   "ledger_latest_entry_date": "2026-11-27",
-  "ledger_lines": 1110,
+  "ledger_lines": 1118,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
+  "ledger_sha256": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v2"
  },

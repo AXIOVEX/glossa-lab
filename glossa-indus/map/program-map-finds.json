@@ -165,9 +165,9 @@
  ],
  "stamp": {
   "ledger_latest_entry_date": "2026-11-27",
-  "ledger_lines": 1110,
+  "ledger_lines": 1118,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
+  "ledger_sha256": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v2"
  },

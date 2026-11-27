@@ -190,7 +190,7 @@ def test_results_legacy_runs_named_not_reproducible(client):
     assert body["settling_runs"]
     t405 = next(
         r for r in body["settling_runs"]
-        if r["record"] == "settling-20261127T102311Z-ad74e8"
+        if r["record"] == "settling-20261127T135013Z-720cf7"
     )
     assert t405["assigned_count"] == 94
     assert t405["consistent"] == 94
@@ -215,7 +215,7 @@ def test_rerun_reproduces_the_t405_quantities(client):
         ["git", "-C", str(REPO), "checkout", "--", "glossa-indus/claims/extracted_claims"],
         check=False, capture_output=True,
     )
-    r = client.post(f"{BASE}/results/settling-20261127T102311Z-ad74e8/rerun")
+    r = client.post(f"{BASE}/results/settling-20261127T135013Z-720cf7/rerun")
     assert r.status_code == 200, r.text
     body = r.json()
     assert body["corpus_identity"] == "verified"

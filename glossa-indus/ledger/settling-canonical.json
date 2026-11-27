@@ -432,14 +432,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 098 standing cascade (branch spec098-standing-cascade-2026-11-27; record: specs/098-identifiability-over-the-65/records/standing-cascade-application-2026-11-27.md). The Stage 4 adjudications of Spec 098's eight claims (C098-1..C098-8, each SUPPORTED; C098-2 in its amended form, C098-3 in its frozen executed form) were given effect in the ledger under the owner's commission of 2026-11-27 (the blanket approval of the Stage 4 outcome), the fresh-clone approval of 2026-11-27, and the owner's later ruling of 2026-11-27 clearing work inside the cascade clone (s098-cascade-wt-20261127) after its execution-risk trip.",
+   "reason": "The claims ledger grew by eight append-only reclassification entries, one per C098 claim, each carrying the status field (draft -> strongly_supported) for its superseded claim entry, appended through glossa_lab.ledger_intake.append_entry on 2026-11-27. The entries' texts were re-derived from the Stage 4 outcome record's section 7 adjudications (the texts prepared earlier on 2026-11-27 were not recovered), and the application record states the re-derivation and its basis. The canonicals' provenance pin names the ledger build they were derived over; the pin is refreshed to the new build under this registration's amendment discipline. The semantics (glossa-settle-1) are unchanged; no rule in SETTLING-SEMANTICS.md moved, so no new semantics version is registered.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
+    "lines": 1110
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
+    "lines": 1118
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (the anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-   "lines": 1110
+   "sha256_canonical": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
+   "lines": 1118
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
