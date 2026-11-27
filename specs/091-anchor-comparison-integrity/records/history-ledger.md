@@ -293,3 +293,9 @@ Rests on: `records/t501-w1-recomputation-record-2026-11-24.md`
 The study is in flight. The latest filed record is the Stage 5 T501 (W1 leg) recomputation record of 2026-11-24, fed by the T401 blind coding received 2026-11-23. Stage 4's independence legs stand open on the engaged humans' replies, and Stages 5-6 continue from the T501 record. No closing record exists, and none is implied by this ledger.
 
 Rests on: the latest records cited above, as filed in this package.
+
+### 2026-11-26 - DECISION - R-IP-04 owner rulings, items 1-3
+
+The owner ruled on three items of R-IP-04 (the adjudication of the VEXA Spec 011 E5 shadow import's 2,244 standing divergences over this study's claims ledger), each ruling given in the VEXA chat on 2026-11-26 and confirmed by the owner in the Glossa-Lab chat the same evening. Item 1 (22:37 ET, confirmed 22:38 ET): "Record all falsifier absences as standing divergences" — the true absences (9 null falsifiers; the annotation entries' C6 share, 31) stand as recorded divergences and no falsifier text is to be authored after the fact; the 1,051 list-shaped falsifiers are present content in the wrong shape, carried as their own line, their disposition subject to the owner's pending refinement ruling. Item 2 (22:38 ET, confirmed 22:39 ET): "Project provenance as a named history event" — C7 provenance is projected as a named history event in the shared vocabulary, not a profile extension. Item 3 (22:38 ET, confirmed 22:39 ET): "Annotations stand as their own kind, under their own profile" — the 31 annotation entries are their own kind, not defective claims. Still pending and not pre-decided: the four status-mapping judgement calls and the item-1 refinement. The converted ledger's E2 remains FAILS as qualified by these rulings; E3 keeps refusing it; E6 cannot run until R-IP-04 is fully ruled.
+
+Rests on: `records/r-ip-04-adjudication-2026-11-26.md`
