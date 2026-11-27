@@ -1,0 +1,946 @@
+{
+ "corpus_id": "eteocypriot-perna-2019-ics194-195",
+ "version": "1.0.0",
+ "study": "101-eteocypriot-next-claim",
+ "assembled": "2026-11-26",
+ "inscriptions": [
+  {
+   "id": "ICS 194",
+   "lines": [
+    {
+     "line": "1",
+     "segments": [
+      {
+       "signs": [
+        "tu"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "li",
+        "ra",
+        "ni"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "i",
+        "te"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "tu",
+        "su"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "le",
+        "ja"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "pa",
+        "ku",
+        "ke"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "no",
+        "ti",
+        "ta",
+        "so",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "2",
+     "segments": [
+      {
+       "signs": [
+        "a",
+        "pu",
+        "nu",
+        "pi"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "i",
+        "te"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "pi",
+        "ma"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ma",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "so",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "tu",
+        "ka",
+        "i",
+        "mi",
+        "no",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "3",
+     "segments": [
+      {
+       "signs": [
+        "a",
+        "ja",
+        "i",
+        "a",
+        "a",
+        "li",
+        "•",
+        "•"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        5
+       ]
+      },
+      {
+       "signs": [
+        "ko",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "su"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1
+       ]
+      },
+      {
+       "signs": [
+        "a",
+        "so",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "tu",
+        "ka",
+        "i",
+        "mi",
+        "no",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "4-5",
+     "segments": [
+      {
+       "signs": [
+        "tu",
+        "mi",
+        "ra"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "i",
+        "te"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "i",
+        "mi"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ka",
+        "ni"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "i",
+        "te"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "ko",
+        "e",
+        "ne",
+        "mi",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "i",
+        "te"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "ra",
+        "wo"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "e",
+        "ne",
+        "mi"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "•",
+        "•",
+        "la",
+        "wa",
+        "ti",
+        "ke"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "mu",
+        "so",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    }
+   ],
+   "sign_count": 104,
+   "segment_count": 33,
+   "unread_positions": 4
+  },
+  {
+   "id": "ICS 195",
+   "lines": [
+    {
+     "line": "1",
+     "segments": [
+      {
+       "signs": [
+        "•",
+        "•",
+        "ta",
+        "ro",
+        "wa",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ma",
+        "lu"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "•",
+        "•",
+        "ni",
+        "ka",
+        "to",
+        "ro"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "ra",
+        "to",
+        "ke",
+        "ne",
+        "so",
+        "we",
+        "o"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "na",
+        "mi"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1
+       ]
+      },
+      {
+       "signs": [
+        "la",
+        "wa",
+        "ni"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ku",
+        "ti",
+        "ra"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "mu",
+        "sa",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ke"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "2",
+     "segments": [
+      {
+       "signs": [
+        "•",
+        "•",
+        "ma"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "ki"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "e",
+        "ro",
+        "ko",
+        "ro"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ko"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "sa",
+        "o",
+        "na",
+        "sa",
+        "ko",
+        "ra",
+        "no",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        0
+       ]
+      },
+      {
+       "signs": [
+        "te",
+        "ja"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "X",
+        "X",
+        "I",
+        "I"
+       ],
+       "kind": "numeral",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "we",
+        "ro",
+        "ra"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "na",
+        "sa",
+        "ko",
+        "ra",
+        "ke"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "pa",
+        "po",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "sa",
+        "to",
+        "wa",
+        "na",
+        "ka",
+        "so",
+        "we",
+        "•",
+        "•"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "3",
+     "segments": [
+      {
+       "signs": [
+        "ta",
+        "sa",
+        "ma"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ku",
+        "a",
+        "re",
+        "se",
+        "a",
+        "na",
+        "ta",
+        "i"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "pu",
+        "ru",
+        "wa",
+        "no",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "tu",
+        "sa",
+        "so"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "li",
+        "o",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ko",
+        "i",
+        "ro",
+        "so",
+        "we",
+        "o"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ra",
+        "ta",
+        "ra",
+        "no",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        0
+       ]
+      },
+      {
+       "signs": [
+        "e",
+        "tu",
+        "mo",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1
+       ]
+      },
+      {
+       "signs": [
+        "sa",
+        "mo"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "line": "4",
+     "segments": [
+      {
+       "signs": [
+        "a",
+        "sa",
+        "ta",
+        "ra",
+        "to",
+        "no",
+        "we",
+        "o"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        6
+       ]
+      },
+      {
+       "signs": [
+        "•",
+        "•",
+        "ke",
+        "ra",
+        "ka",
+        "re",
+        "tu",
+        "lo",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        0
+       ]
+      },
+      {
+       "signs": [
+        "o",
+        "e",
+        "lo",
+        "ti",
+        "mo",
+        "ti",
+        "tu",
+        "sa",
+        "so",
+        "we",
+        "o",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ko",
+        "i",
+        "ro",
+        "so",
+        "we",
+        "o"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        2
+       ]
+      },
+      {
+       "signs": [
+        "ti",
+        "ma",
+        "ku"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "te",
+        "we",
+        "•",
+        "•",
+        "so"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "5",
+     "segments": [
+      {
+       "signs": [
+        "o",
+        "ra",
+        "ko",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1
+       ]
+      },
+      {
+       "signs": [
+        "i",
+        "mi",
+        "ko"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1,
+        2
+       ]
+      },
+      {
+       "signs": [
+        "na",
+        "ka",
+        "no",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        0
+       ]
+      },
+      {
+       "signs": [
+        "o",
+        "na",
+        "i",
+        "ti",
+        "mo"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "li",
+        "o",
+        "ti"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "ra",
+        "pi"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1
+       ]
+      },
+      {
+       "signs": [
+        "a",
+        "na"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ta",
+        "su"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "pu",
+        "ru",
+        "wa",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    },
+    {
+     "line": "6",
+     "segments": [
+      {
+       "signs": [
+        "o",
+        "ta",
+        "ko",
+        "•",
+        "•"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        3
+       ]
+      },
+      {
+       "signs": [
+        "ku",
+        "la",
+        "we",
+        "ti",
+        "mo",
+        "ti",
+        "mo",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": [
+        1
+       ]
+      },
+      {
+       "signs": [
+        "o",
+        "e",
+        "lo",
+        "ti",
+        "mo",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "o",
+        "a",
+        "ja",
+        "ko"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "i",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "ti",
+        "ka",
+        "no"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      },
+      {
+       "signs": [
+        "a",
+        "ma",
+        "ti",
+        "ke",
+        "e"
+       ],
+       "kind": "text",
+       "changed_reading_sign_indices": []
+      }
+     ]
+    }
+   ],
+   "sign_count": 227,
+   "segment_count": 51,
+   "unread_positions": 14
+  }
+ ],
+ "sign_count_total": 331,
+ "segment_count_total": 84,
+ "segment_final_positions_M": 84,
+ "unread_positions_total": 18
+}
