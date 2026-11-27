@@ -1,0 +1,58 @@
+{
+ "candidates": [
+  {
+   "development_segments": [
+    6,
+    7,
+    8
+   ],
+   "ending": "-se",
+   "f_i": 3,
+   "predicted_positions": "segment-final positions of the Perna-side census",
+   "signs": [
+    "se"
+   ]
+  },
+  {
+   "development_segments": [
+    3,
+    4
+   ],
+   "ending": "-i",
+   "f_i": 2,
+   "predicted_positions": "segment-final positions of the Perna-side census",
+   "signs": [
+    "i"
+   ]
+  },
+  {
+   "development_segments": [
+    1,
+    5
+   ],
+   "ending": "-na",
+   "f_i": 2,
+   "predicted_positions": "segment-final positions of the Perna-side census",
+   "signs": [
+    "na"
+   ]
+  },
+  {
+   "development_segments": [
+    9,
+    11
+   ],
+   "ending": "-ti",
+   "f_i": 2,
+   "predicted_positions": "segment-final positions of the Perna-side census",
+   "signs": [
+    "ti"
+   ]
+  }
+ ],
+ "candidates_K": 4,
+ "derivation": "mechanical rule of spec.md 3.1 P-2 over the ICS 196 development set alone",
+ "development_segments_D": 11,
+ "recurring_length_ge_2": {},
+ "recurring_suffixes_total": 4
+}
