@@ -151,3 +151,6 @@ the new generation: runs 907cb1, 92af7b and the ea29e2 materialization.
   `backend/tests/test_spec086_map.py` (no-stage-recorded 29 → 34;
   supports 1,589 → 1,594; one further claims-total 1,073 → 1,078) were
   updated from the same regenerated actuals.
+  Two further evidence-text pins in the same file (claims counted
+  across 8 statuses 1,073 → 1,078; claim nodes 1,073 → 1,078) were
+  updated in the same pass.
