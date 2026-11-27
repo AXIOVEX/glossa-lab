@@ -1,0 +1,2170 @@
+{
+  "schema_version": "1.0",
+  "evaluator": {
+    "id": "aee",
+    "version": "1.0.0",
+    "name": "Applied Epistemic Engineering",
+    "url": "https://github.com/electrohire/spec-kit-aee"
+  },
+  "phase": "after_plan",
+  "outcome": "iterate",
+  "summary": "Assessed 9 claim(s); found 37 failure mode(s); 9 claim(s) below the 0.70 confidence threshold. Shared evidence: 1 supporting source(s) shared across 9 of 9 claim(s); the same evidence set supports multiple claims (FR-2.8, reporting only, no outcome effect in this phase). Draft cap: 9 draft claim(s) capped at gather_evidence/iterate (FR-2.3). Stage cap: 9 claim(s) below stage 'explained'; the outcome cannot be 'pass' (Spec 004 R1.4). Not understood: 18 residual unknown(s) are recorded on this ass",
+  "findings": [
+    {
+      "id": "AEE-C109-1-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-1-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-1-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-2, C109-3, C109-4, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-1-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-2-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-2-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-2-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-3, C109-4, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-2-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-3-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-3-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-3-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-4, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-3-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-4-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-4-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-4-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-4-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-5-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-5-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-5-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-5-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-6-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-6-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-6-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-6-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-7-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-7-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-7-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-6, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-7-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-8-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-8-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-8-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-6, C109-7, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-8-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    },
+    {
+      "id": "AEE-C109-9-BOUNDARY-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Scope and operating assumptions are not explicit",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Boundary challenge"
+    },
+    {
+      "id": "AEE-C109-9-IRREDUCIBILITY-CHALLENGE",
+      "severity": "medium",
+      "kind": "coverage_gap",
+      "subject": "spec.md",
+      "description": "Claim may contain multiple independently falsifiable propositions",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Irreducibility challenge"
+    },
+    {
+      "id": "AEE-C109-9-COUNTEREXAMPLE-CHALLENGE",
+      "severity": "high",
+      "kind": "assumption_unvalidated",
+      "subject": "spec.md",
+      "description": "Absolute language is used without a bounded domain",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "revise",
+      "rationale": "Counterexample challenge"
+    },
+    {
+      "id": "AEE-C109-9-INDEPENDENCE-UNMODELED",
+      "severity": "medium",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-6, C109-7, C109-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Shared-evidence independence challenge"
+    },
+    {
+      "id": "AEE-C109-9-DRAFT-CAP",
+      "severity": "low",
+      "kind": "other",
+      "subject": "spec.md",
+      "description": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+      "evidence_refs": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records."
+        }
+      ],
+      "provenance_refs": [
+        "spec.md"
+      ],
+      "uncertainty": "insufficient_evidence",
+      "recommended_action": "iterate",
+      "rationale": "Draft outcome cap"
+    }
+  ],
+  "next_action": {
+    "kind": "iterate",
+    "target_phase": "plan",
+    "message": "Revise the current phase to address 37 finding(s)."
+  },
+  "metadata": {
+    "timestamp": "2026-11-27T19:47:00.617850Z",
+    "artifacts_evaluated": [
+      "specs/109-generative-decipherment-engine/aee-claims.json"
+    ],
+    "model": null,
+    "deterministic": true,
+    "engine_version": "1.5.3",
+    "aee_methodology_version": "2.0",
+    "lanes": {
+      "lane_1": {
+        "label": "machine verification",
+        "outcome": "iterate",
+        "threshold": 0.7,
+        "claims_at_or_above_threshold": 0,
+        "claims_below_threshold": 9
+      },
+      "lane_2": {
+        "label": "human acceptance",
+        "stage_counts": {
+          "created": 9,
+          "checked": 0,
+          "explained": 0,
+          "accepted": 0,
+          "digested": 0
+        },
+        "claims_below_explained": 9,
+        "exposition_covered_claims": 0,
+        "exposition_missing_claims": 9,
+        "verified_unexplained_claims": 0,
+        "stage_capped_claims": 0,
+        "attribution_contested_claims": 0
+      }
+    },
+    "not_understood": [
+      "C109-1: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-1: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-2: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-2: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-3: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-3: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-4: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-4: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-5: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-5: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-6: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-6: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-7: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-7: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-8: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-8: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+      "C109-9: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+      "C109-9: propagated score 0.089 is below the 0.70 threshold - the claim is not established by its evidence as recorded."
+    ],
+    "reported_statuses": {
+      "C109-1": "draft",
+      "C109-2": "draft",
+      "C109-3": "draft",
+      "C109-4": "draft",
+      "C109-5": "draft",
+      "C109-6": "draft",
+      "C109-7": "draft",
+      "C109-8": "draft",
+      "C109-9": "draft"
+    }
+  },
+  "state": {
+    "aee": {
+      "project": "glossa-lab",
+      "claims": [
+        {
+          "id": "C109-1",
+          "text": "The five generative parts registered in spec.md section 3 and in records/registration-2026-11-27.md sections 3-7 (assignment search; sign-class and structure induction; the context channel; Meroitic gloss induction; Eteocypriot reading candidates), the shared conformance preflight of spec.md section 2, the separation of generation from adjudication, the provenance discipline of section 8, and the kill criteria of section 9 are the discovery side of this study, and no leg of this study runs under any other design. Does not establish: that any part will generate a correct candidate, that the search spaces contain the truth, or that generation at these corpus sizes can succeed; the claim registers a capability and its discipline, not an outcome.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A leg of this study executed under a design other than its registration; a generated candidate entering any record without its full generation provenance; a candidate of this study presented anywhere as a reading, a gloss, or a decipherment rather than as a ranked candidate with margins; a kill criterion firing on the record without the affected part closing."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-1-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-1",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-1-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-1",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-1-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-1",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-2, C109-3, C109-4, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-1-DRAFT-CAP",
+              "claim_id": "C109-1",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-2",
+          "text": "Under the registration filed at records/registration-2026-11-27.md section 5, the Indus assignment search (constraint propagation from the register's E-standing anchor values and Part 2's induced positional classes, then simulated annealing over the registered value inventory under registered restarts and seeds, optimizing duplicate-aware cross-validated predictive likelihood) returns a ranked candidate set of at most the registered K = 20 assignments, each carrying its penalized margin under Spec 098's frozen decide() rule computed once on the sealed 109 reserve against the frozen permutation null and the structural-only rival, and the leg's outcome is the mechanical consequence of the frozen bar over those margins. Does not establish: that a DISCRIMINATED candidate is a correct assignment; a negative outcome is a finding about the search and the information available, not about the script.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A candidate scored on any material other than the once-opened 109 reserve; a margin computed under any rule other than the frozen decide() rule; a free choice left uncharged at the frozen 2 nats; the reserve opened more than once, or opened before the search freeze's hash commitment; a filed outcome that is not the mechanical consequence of the registered bar over the filed margins; the bar lowered, in this study or by amendment, in response to a negative outcome."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-2-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-2",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-2-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-2",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-2-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-2",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-3, C109-4, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-2-DRAFT-CAP",
+              "claim_id": "C109-2",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-3",
+          "text": "Under the registration filed at records/registration-2026-11-27.md section 3, the induction over the full corpus (390 marks, 1,670 artifacts) files its positional classes, segmentation boundaries, affix-like recurrent partials, and numerical/metrological subsystem analysis as generated structure hypotheses in the study's generated-hypotheses register, each with full generation provenance and its registered stability results (split-half and out-of-stratum), and each then facing the existing gates (anchor comparison; identifiability) under those gates' own registrations, induction itself moving no standing, anchor, or class. Does not establish: that any induced class, segmentation, or partial is a fact about the script, or what any count in the numerical subsystem means.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "An induced structure filed without its provenance or without its stability results; an induced structure whose stability checks failed filed as passing; an induction output altering any standing, anchor, or class other than through a filed gate outcome under that gate's own registration; a structure tuned after its stability failure and refiled without a new registration."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-3-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-3",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-3-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-3",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-3-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-3",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-4, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-3-DRAFT-CAP",
+              "claim_id": "C109-3",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-4",
+          "text": "Under the registration filed at records/registration-2026-11-27.md section 4, the context channel joins exactly the registered inputs (the Spec 093 joined census of 179 pairs, its single-site limit carried on the channel's face; the tracked population files' per-seal site field over the 1,670-seal population; and no iconography input while the iconography sub-channel stands gated), and context enters candidate scoring only as the registered additive evidence term, capped by its own context-label permutation null, with every context score filed labelled as carrying no iconography component for as long as the sub-channel is gated. Does not establish: that context carries decipherment evidence at these sizes; the channel's own registered outcome may be that the context term discriminates nothing.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A context score computed from any input outside the registered joins; an iconography input used while Spec 100's gate stands closed, or used under any terms other than the Holdat terms of spec.md section 6; a context term lifting a candidate beyond its null's cap; a filed context score missing its no-iconography label while the sub-channel is gated; the Spec 093 census's single-site limit dropped from any record that uses the census."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-4-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-4",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-4-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-4",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-4-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-4",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-5, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-4-DRAFT-CAP",
+              "claim_id": "C109-4",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-5",
+          "text": "Under the registration filed at records/registration-2026-11-27.md section 7, Meroitic gloss induction executes only after Spec 102's digitisation has landed and its freeze exists; it consumes Spec 102's frozen filtered vocabulary and family sets as filed, changes neither gate G-1 nor gate G-2, and returns ranked gloss candidates per form scored by prediction on the frozen partition's 33 held-out texts under permutation nulls and the wrong-family control; if Spec 102 closes NOT ADMINISTERED, this part files NOT ADMINISTERED - INPUT GATE UNMET as its outcome and does not execute. Does not establish: any affiliation verdict, which remains Spec 102's alone under its gates, and no gloss; a ranked gloss candidate is a candidate reading entering the program's candidate adjudication machinery, not a meaning.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Gloss induction executed before Spec 102's freeze exists, or on any vocabulary other than the frozen one; a gate of Spec 102 amended, waived, or routed around by this study; vocabulary sourced elsewhere after a NOT ADMINISTERED close; a candidate scored on development material under a held-out label; the wrong-family control discriminating as strongly as the target family without the part closing under kill criterion 3."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-5-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-5",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-5-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-5",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-5-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-5",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-6, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-5-DRAFT-CAP",
+              "claim_id": "C109-5",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-6",
+          "text": "Under the registration filed at records/registration-2026-11-27.md section 6, the Eteocypriot generator composes candidate readings for the ICS texts from the transliteration and the registered comparanda only, and ranks them by the registered rule (comparanda coverage; distributional fit as reduced at registration; prediction of the held-out forms at form level), filing a ranked candidate set per text with margins, and no record of this part carries licensing language, resolves or presumes OD-O-2, or states or implies that any check has been passed for the Eteocypriot program as a whole. Does not establish: anything about the Eteocypriot language, its affiliation, or the correctness of any candidate.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A candidate composed from comparanda outside the registered set; a ranking not equal to the registered rule's mechanical consequence over the filed candidate records; a licensing statement, an 'all checks passed' statement, or any resolution or presumption of OD-O-2 anywhere in this part's records; a candidate presented as a reading of a text rather than as a ranked candidate."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-6-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-6",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-6-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-6",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-6-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-6",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-7, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-6-DRAFT-CAP",
+              "claim_id": "C109-6",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-7",
+          "text": "No generator's output on an undeciphered system is scored under this study before that generator has passed the conformance preflight of spec.md section 2 as registered at records/registration-2026-11-27.md section 2: synthetic ground-truth recovery at the registered floors; the deciphered-control clause in its R1 form, with the Latin/Meroitic positional limitation carried on the record's face rather than passed silently; and exact two-implementation agreement on every ground-truth set and recovery figure. A preflight failure or a NOT MEASURABLE clause is filed as the leg's outcome, and the generator produces no scoreable output until a revised generator passes under a new registration. Does not establish: that a generator passing its preflight will recover anything on an undeciphered system; the preflight establishes a necessary condition for trusting its output, not a sufficient one.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "Any score computed on a generator's undeciphered-system output before its preflight record is filed as passed; a preflight record claiming a positional recovery figure for the Latin or Meroitic controls from the re-specified ground-truth sets cycle 2 filed (1 mark and 0 marks against the floor of 5); a recovery figure on which the two implementations disagree, filed as a pass."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-7-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-7",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-7-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-7",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-7-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-7",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-6, C109-8, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-7-DRAFT-CAP",
+              "claim_id": "C109-7",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-8",
+          "text": "Every candidate this study files carries, in its candidate record, its full generation provenance (generator identity and version pin, search state or state hash, seed, the data pins of every input, and the constraint-set version), and every filed result is reproducible by replay from its candidate records exactly (the same candidate set, the same margins), as exercised by TC-109-03 at each stage that files candidates. Does not establish: that a replayable candidate is a correct one; provenance makes generation auditable and repeatable, and is not evidence for any candidate's content.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A filed candidate with any provenance field missing; a replay producing a different candidate set or different margins from the filed ones; a result filed from candidate records held anywhere other than the custody home of D-109-4 with their pins in the outcome record."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.16375000000000003,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-8-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-8",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-8-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-8",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-8-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-8",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-6, C109-7, C109-9 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-8-DRAFT-CAP",
+              "claim_id": "C109-8",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        },
+        {
+          "id": "C109-9",
+          "text": "This study's landings move no standing, verdict, or tally in any program; every standings effect this study ever records is licensed by a filed outcome record under an existing gate's own registration (Spec 098's gate for Part 1's candidates; the anchor and candidate adjudication machinery for Parts 2, 4, and 5's outputs; no gate at all for Part 3's scores, which are inputs to other parts' scoring and nothing more), and the study's stage-close records state, per program, what moved and under which licensing record, or that nothing moved. Does not establish: that the standings after this study's stages are correct, only that they are exactly the standings the licensed outcomes produce.",
+          "kind": "requirement",
+          "status": "draft",
+          "boundary": [],
+          "depends_on": [],
+          "conflicts_with": [],
+          "evidence": [
+            {
+              "ref": "spec.md",
+              "kind": "asserted",
+              "direction": "supports",
+              "source_quality": "unknown",
+              "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering the program made capable of attempting decipherment (the discovery side registered as standing program governance), under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 093, 096, 098, 100, 101, 102, 104, 105, 106, 107, and 108 and their records.",
+              "source_id": "",
+              "independent_of": [],
+              "observed_at": null,
+              "content_hash": null
+            }
+          ],
+          "assumptions": [],
+          "alternatives": [],
+          "falsification_tests": [
+            "A standing, verdict, tally, anchor, or class altered in content by any landing of this study outside a licensing outcome record of an existing gate; a stage-close record claiming an effect no licensing record supports; a candidate of this study acquiring a standing other than through the program's standing machinery acting on a filed gate outcome."
+          ],
+          "uncertainty": "insufficient_evidence",
+          "severity": "medium",
+          "source_ref": "spec.md",
+          "domain": "",
+          "confidence": 0.08875000000000002,
+          "confidence_band": "low",
+          "failures": [
+            {
+              "id": "AEE-C109-9-BOUNDARY-CHALLENGE",
+              "claim_id": "C109-9",
+              "challenge": "Boundary challenge",
+              "breakpoint": "Scope and operating assumptions are not explicit",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-9-IRREDUCIBILITY-CHALLENGE",
+              "claim_id": "C109-9",
+              "challenge": "Irreducibility challenge",
+              "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+              "severity": "medium",
+              "category": "coverage_gap",
+              "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-9-COUNTEREXAMPLE-CHALLENGE",
+              "claim_id": "C109-9",
+              "challenge": "Counterexample challenge",
+              "breakpoint": "Absolute language is used without a bounded domain",
+              "severity": "high",
+              "category": "assumption_unvalidated",
+              "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-9-INDEPENDENCE-UNMODELED",
+              "claim_id": "C109-9",
+              "challenge": "Shared-evidence independence challenge",
+              "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C109-1, C109-2, C109-3, C109-4, C109-5, C109-6, C109-7, C109-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+              "severity": "medium",
+              "category": "independence_unmodeled",
+              "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+              "resolved": false,
+              "disposition": null
+            },
+            {
+              "id": "AEE-C109-9-DRAFT-CAP",
+              "claim_id": "C109-9",
+              "challenge": "Draft outcome cap",
+              "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+              "severity": "low",
+              "category": "draft_cap",
+              "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+              "resolved": false,
+              "disposition": null
+            }
+          ],
+          "metadata": {},
+          "dispositions": [],
+          "stage": "created",
+          "stage_events": [],
+          "headline": false,
+          "role": null
+        }
+      ],
+      "scores": {
+        "C109-1": {
+          "claim_id": "C109-1",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-2": {
+          "claim_id": "C109-2",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-3": {
+          "claim_id": "C109-3",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-4": {
+          "claim_id": "C109-4",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-5": {
+          "claim_id": "C109-5",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-6": {
+          "claim_id": "C109-6",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-7": {
+          "claim_id": "C109-7",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-8": {
+          "claim_id": "C109-8",
+          "direct_score": 0.16375000000000003,
+          "propagated_score": 0.16375000000000003,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 1.0,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        },
+        "C109-9": {
+          "claim_id": "C109-9",
+          "direct_score": 0.08875000000000002,
+          "propagated_score": 0.08875000000000002,
+          "band": "low",
+          "components": {
+            "evidence": 0.025000000000000022,
+            "independence": 0.5,
+            "falsifiability": 0.5,
+            "boundary": 0.0,
+            "contradiction_penalty": 0
+          },
+          "declared_state": {
+            "status": "draft",
+            "uncertainty": "insufficient_evidence",
+            "severity": "medium",
+            "conflicts_with": []
+          },
+          "propagation": {
+            "status": "propagated",
+            "cycle_component": []
+          },
+          "notes": [
+            "No observed supporting evidence",
+            "Fewer than two independent supporting sources",
+            "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+            "Falsification test \"A standing, verdict, tally, anchor, or class altered in content by any landing of this study outside a licensing outcome record of an existing gate; a stage-close record claiming an effect no licensing record supports; a candidate of this study acquiring a standing other than through the program's standing machinery acting on a filed gate outcome.\" earns partial credit (FR-8.7): failed criteria: no checkable condition (no numeric bound, comparator, or observation/action term)",
+            "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+          ]
+        }
+      },
+      "recoveries": [
+        {
+          "failure_id": "AEE-C109-1-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-1",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-2-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-2",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-3-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-3",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-4-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-4",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-5-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-5",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-6-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-6",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-7-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-7",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-8-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-8",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-9-BOUNDARY-CHALLENGE",
+          "claim_id": "C109-9",
+          "strategy": "narrow_boundary",
+          "action": "Declare where, when, and under which assumptions the claim holds.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-9-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C109-9",
+          "strategy": "narrow_boundary",
+          "action": "Narrow the claim or document evidence covering the entire domain.",
+          "priority": 2,
+          "verification": "The claim identifies its applicable system, population, time, and conditions."
+        },
+        {
+          "failure_id": "AEE-C109-1-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-1",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-1-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-1",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-2-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-2",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-2-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-2",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-3-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-3",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-3-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-3",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-4-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-4",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-4-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-4",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-5-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-5",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-5-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-5",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-6-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-6",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-6-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-6",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-7-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-7",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-7-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-7",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-8-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-8",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-8-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-8",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-9-INDEPENDENCE-UNMODELED",
+          "claim_id": "C109-9",
+          "strategy": "clarify",
+          "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "priority": 3,
+          "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+        },
+        {
+          "failure_id": "AEE-C109-9-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C109-9",
+          "strategy": "decompose",
+          "action": "Split the claim into atomic propositions and link them explicitly.",
+          "priority": 3,
+          "verification": "Every resulting claim contains one independently falsifiable proposition."
+        },
+        {
+          "failure_id": "AEE-C109-1-DRAFT-CAP",
+          "claim_id": "C109-1",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-2-DRAFT-CAP",
+          "claim_id": "C109-2",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-3-DRAFT-CAP",
+          "claim_id": "C109-3",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-4-DRAFT-CAP",
+          "claim_id": "C109-4",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-5-DRAFT-CAP",
+          "claim_id": "C109-5",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-6-DRAFT-CAP",
+          "claim_id": "C109-6",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-7-DRAFT-CAP",
+          "claim_id": "C109-7",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-8-DRAFT-CAP",
+          "claim_id": "C109-8",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        },
+        {
+          "failure_id": "AEE-C109-9-DRAFT-CAP",
+          "claim_id": "C109-9",
+          "strategy": "define_falsifier",
+          "action": "Ratify the claim (change its status from draft) to lift the cap.",
+          "priority": 4,
+          "verification": "A concrete observation that would refute the claim is documented."
+        }
+      ]
+    }
+  }
+}
