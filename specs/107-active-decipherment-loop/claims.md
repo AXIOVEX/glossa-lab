@@ -1,11 +1,16 @@
 # Spec 107 — Claims
 
-Six claims, C107-1..C107-6, each with its falsifier and
-its does-not-establish line, in the program's claim form.
-The claims are intaken at registration through the
-sanctioned importer (spec.md, tasks T003); intake sets no
-standing, and no claim in this package carries a result
-beyond what its test cases check.
+Eleven claims, C107-1..C107-11, each with its falsifier
+and its does-not-establish line, in the program's claim
+form. C107-1..C107-6 were intaken at registration
+through the sanctioned importer (spec.md, tasks T003)
+from aee-claims.json; C107-7..C107-11 were intaken at
+the cycle-2 registration the same way (tasks T201) from
+the package's second bundle file, claims.json — a
+bundle file once intaken is never amended, so
+aee-claims.json stands as intaken, unamended. Intake
+sets no standing, and no claim in this package carries
+a result beyond what its test cases check.
 
 **C107-1 — The loop as filed is the loop the design
 specifies.** The five-step loop registered in spec.md §2
@@ -158,3 +163,99 @@ criteria, or that closing it would end the three
 programs — closure returns the programs to their
 pre-loop posture with the trace standing, as spec.md §4
 states.
+
+**C107-7 — Positional recovery at realistic restriction
+levels (test I-2).** Positional-restriction recovery at
+Indus shape, re-measured at the realistic restriction
+levels ρ = 0.95 and ρ = 0.90 under the I-1 simulation
+machinery, returns the registered verdict (POSITIVE,
+NEGATIVE, or INDETERMINATE) as the mechanical
+consequence of the cycle-2 registration's R2 rule at the
+strictest measurable level ρ*, with two implementations
+in exact agreement.
+
+*Falsifier:* the verdict is not the mechanical
+consequence of the registered rule (a recomputation from
+the filed per-replication values under the registered
+rule returns a different verdict), or the two
+implementations disagree on any ground-truth set or
+per-replication count.
+
+*Does not establish:* a POSITIVE verdict licenses
+reading Indus positional facts only at level ρ* with the
+measured error terms; it establishes nothing about what
+any Indus mark means or what language, if any, the
+corpus encodes.
+
+**C107-8 — The C-E-15 feasibility decision (Eteocypriot
+alignment line).** The C-E-15 feasibility decision for
+the Eteocypriot alignment line, applied to the filed
+record under its registered rule, returns PROCEED or
+STOP as the mechanical consequence of that rule over the
+inventoried correspondence sets.
+
+*Falsifier:* a correspondence set satisfying all four
+registered conditions (independently identifiable,
+mutually independent items, unconsumed, arithmetically
+able to beat the named baselines) exists in the filed
+record while the decision returns STOP, or none exists
+while it returns PROCEED.
+
+*Does not establish:* the decision concerns test
+feasibility only; it is not evidence about the
+Eteocypriot language, its affiliation, or any proposed
+reading.
+
+**C107-9 — Control-corpus parallel derivation (test
+E-2, gated on C-E-15 PROCEED).** If C-E-15 returns
+PROCEED, the ICS 217 Greek control excerpt's L2/L3
+tables, derived by the same code and standards as the
+development set's, either separate from the development
+tables on at least one registered statistic beyond
+split-half variation (POSITIVE) or are indistinguishable
+in kind on both (NEGATIVE); if C-E-15 returns STOP, E-2
+does not execute and this claim's outcome is the recorded
+non-execution.
+
+*Falsifier:* E-2 executes without a PROCEED decision,
+or its verdict is not the mechanical consequence of the
+registered comparison rule over the filed tables.
+
+*Does not establish:* the calibration measures whether
+frequency and adjacency statistics carry kind-level
+signal at this corpus size; it establishes nothing about
+Eteocypriot's affiliation or any reading.
+
+**C107-10 — The phonotactic battery (test M-2).** The
+five-item phonotactic battery, computed on the
+calibration-validated Meroitic basis and the two
+registered ASJP family sets under the registered lean,
+null, and control rules, returns POSITIVE for at most
+one family, NEGATIVE, or INDETERMINATE as the mechanical
+consequence of those rules.
+
+*Falsifier:* the battery's verdict is not the
+mechanical consequence of the registered rules over the
+filed item values, or the calibration STOP-gate figures
+were not reproduced before scoring and the battery
+scored anyway.
+
+*Does not establish:* a POSITIVE verdict is typological
+support recorded in the trace only; it is not the
+Spec 102 affiliation test, does not consume its gates,
+and does not displace Spec 097's R3 position.
+
+**C107-11 — Cycle-2 trace discipline.** The cycle-2
+posterior trace moves no standing, verdict, or tally in
+any program beyond the effects the cycle-2 outcome
+records license, and every effect it records cites its
+licensing outcome record.
+
+*Falsifier:* a diff-level audit of the cycle-2 landing
+finds a standing, verdict, or tally change not licensed
+by a cycle-2 outcome record, or a trace effect citing no
+outcome record.
+
+*Does not establish:* the trace is a bookkeeping
+instrument; it is not itself evidence for any
+decipherment claim.
