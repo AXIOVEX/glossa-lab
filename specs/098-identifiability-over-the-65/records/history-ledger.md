@@ -153,3 +153,33 @@ Rests on: the Stage 4 outcome record
 record (records/standing-cascade-application-2026-11-27.md),
 which quotes the eight entry texts from the ledger itself and
 carries the full authorization chain and cascade figures.
+
+### 2026-11-27 - Standing cascade reconciliation over the merged ledger
+
+While PR #793 was in flight, main advanced under PR #794
+(Spec 107 cycle-2 registration: five registration claims,
+its own T405 re-derivation and ledger-pin refresh, and
+section 7.1 departures of the same ad74e8 generation) and
+PR #795. The cascade was reconciled over the merged build
+in the same branch: the append-only stores unioned (merged
+ledger 1,123 lines, canonical SHA-256
+6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e;
+the eight Spec 098 entries at lines 1116-1123), the two
+racing T405 re-derivations linearized in execution order,
+this branch's duplicate departure acts dropped, the pin
+refresh renumbered to re_derivations[28], the pair
+re-executed over the merged build (incumbent
+settling-20261127T155917Z-939f46, full-register
+settling-20261127T155918Z-ae2e92; result blocks byte-equal
+to both intermediate generations'), both intermediate
+generations departed under run-defs v3 section 7.1 naming
+the merge commit, the derived layers regenerated, and the
+census pins updated from the merged actuals. The gate
+passes on the final merged tree in both modes. No claim's
+standing moved in the reconciliation beyond the eight
+moves of the cascade itself.
+
+Rests on: the application record
+(records/standing-cascade-application-2026-11-27.md),
+reconciliation section, which carries the full merged
+cascade figures.

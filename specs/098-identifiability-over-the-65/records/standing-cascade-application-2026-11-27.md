@@ -181,3 +181,73 @@ the departures commit.
 `tools/ledger/check_ledger_gate.py`: 32 PASS / 0 FAIL / 1 NOT-RUN
 (the NOT-RUN is V7 lossless regeneration, which runs only in
 `--regen` mode). `--regen`: 35 PASS / 0 FAIL / 0 NOT-RUN.
+
+## Reconciliation over the merged ledger (2026-11-27, PR #793)
+
+The sections above file the act as first executed over the
+1,110-line build. While this landing's pull request was in
+flight, main advanced: PR #794 (Spec 107 cycle-2
+registration) grew the ledger to 1,115 lines with five
+registration claims, ran its own T405 re-derivation
+(incumbent `settling-20261127T133744Z-907cb1`, full-register
+`settling-20261127T133744Z-92af7b`, materialization
+`settling-20261127T133827Z-ea29e2`), refreshed the ledger
+pin as its own `re_derivations[27]`, and departed the
+ad74e8 generation under run-defs v3 §7.1 in the same form
+this record's departures section describes (the same three
+records, the same git blobs); PR #795 (paper finals)
+followed. The branch then conflicted with main, and no CI
+run could be created for its updated head (a repo-wide
+Actions run-creation stall from 14:29Z to about 15:17Z
+covered the first re-triggers; the merge conflict blocked
+the rest). The landing was reconciled over the merged
+build, in this branch, as follows; the figures below
+supersede the pre-merge figures above wherever they differ.
+
+- The append-only stores were unioned: the merged claims
+  ledger is main's 1,115 lines with the eight
+  reclassification entries appended at lines 1116-1123 —
+  1,123 lines, canonical SHA-256
+  `6c358631b742a52bde6e7371f667dabcc9d079271a172c93a2c4afe48121fe9e`.
+  `validate_ledger` on the merged build: PASS — 1,078
+  claims, 31 annotations, 14 reclassifications.
+- This branch's duplicate departure acts for the ad74e8
+  generation were dropped in the merge (the Spec 107
+  landing's acts stand; a record departs once). Its legacy
+  entry act was likewise dropped and re-entered against
+  `re_derivations[28]`.
+- The two racing T405 re-derivations were linearized in
+  execution order by two supersedes acts with the
+  reconciliation stated in their refs (720cf7 succeeds
+  907cb1; 97f795 succeeds 92af7b), keeping every record's
+  successor single.
+- The T405 pair was re-executed over the merged build:
+  incumbent `settling-20261127T155917Z-939f46`,
+  full-register `settling-20261127T155918Z-ae2e92`. Both
+  result blocks are byte-equal to BOTH intermediate
+  generations', verified by direct comparison of the
+  stored records. The comparison was re-filed over the
+  merged pair, and the assignment sets re-materialized
+  (run `settling-20261127T160138Z-65ba1d`; incumbent 94,
+  full-register 286, H003 out of frame — unchanged).
+- The ledger pin was refreshed as `re_derivations[28]`
+  (prior pin: the Spec 107 build, 1,115 lines,
+  `ec8f262bb9e2d5653a664adc824b8d25dcac03d854a42fe17007adfad0e0bb2a`),
+  the provenance pin moved in the same motion.
+- Both intermediate generations (907cb1, 92af7b, ea29e2,
+  720cf7, 97f795, 4addaa) departed under run-defs v3
+  §7.1, their acts naming the merge commit
+  `a94799c248852e0da7c3134c06d595095e15858b`; their record
+  files are deleted in the departures commit.
+- The derived layers were regenerated over the merged
+  build, and census pins were updated from the merged
+  actuals: the dashboard pins name the merged incumbent
+  `settling-20261127T155917Z-939f46` and 1,123 ledger
+  lines; the Spec 095 stage-4 census pins 1,123 rows and
+  14 reclassifications; the Spec 086 map pins 1,123
+  ledger lines; the program-map conformance pins the
+  merged class census (open 1060, positive 10).
+- Gate profile on the final merged tree:
+  `tools/ledger/check_ledger_gate.py` 32 PASS / 0 FAIL /
+  1 NOT-RUN; `--regen` 35 PASS / 0 FAIL / 0 NOT-RUN. The
+  four census test files pass locally (47 tests).
