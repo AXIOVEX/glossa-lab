@@ -108,6 +108,12 @@ Stage 3 executed 2026-11-27 under the owner's commission of the same day in the 
 
 Rests on: `records/stage3-record-2026-11-27.md`
 
+### 2026-11-27 - Spec 093 Stage 4 — first computed passes (T401, T402, T403)
+
+Stage 4 executed 2026-11-27 under the owner's commission of the same day (Stages 3-6). Freezes v1 for all three passes were committed before any computation under them (PR #781). T401 site pass: runs study-20261127T095820Z-2c776c and study-20261127T095821Z-31eef3, independent audit AGREE, mechanical adjudication NOT YET (Q1 fails clauses 1-3; Q2 meets clause 1 and fails the held-out clause 2; both pseudo-site controls behave). T402 material pass: the freeze's section 4 rule executed over the pinned join output — counts reproduce exactly (Steatite 176, Clay 1, Faience 1, 1 sentinel, 179 total), one class at the floor of 10 where two are required: CANNOT BE ADMINISTERED. T403 contact-context administration under CR-093-01 and CR-093-02: E1-E4 all MET; the freeze's two bounded evidence-class statements in force. The first execution pass ended on a runtime fault after the runs; the state it left was verified on resumption (audit, adjudication, and contact counts each reproduced byte-identical; the committed auditor's key-path repair is disclosed in the stage record) before any outcome was taken from it. C093-1's standing unchanged: INDEPENDENT IN PART for site and find context, with the closure qualifier.
+
+Rests on: `records/stage4-record-2026-11-27.md`
+
 ### State at backfill (at backfill, 2026-11-25)
 
 The latest filed record is the closure-qualifier addendum of 2026-11-21. Stages 3-6 of the study were not commissioned on the filed record.

@@ -1,0 +1,69 @@
+{
+ "run": {
+  "run_id": "study-20261127T095820Z-2c776c",
+  "surface": "study",
+  "tool": "run_stage4_site.py",
+  "tool_version": "1.0.0",
+  "started": "2026-11-27T09:58:20Z",
+  "finished": "2026-11-27T09:58:21Z",
+  "key": {
+   "surface": "study",
+   "command": "run-administration",
+   "tool_version": "1.0.0",
+   "input_pins": {
+    "spec": "093",
+    "stage": "4",
+    "freeze_record": "specs/093-material-context-channel/records/stage4-site-freeze-v1.md",
+    "freeze_record_sha256": "d5e1a9bb09cf33b79f4b9699feaa2294037465355b3925ae3db6b5fc4e899ac0",
+    "stage2_record": "specs/093-material-context-channel/records/stage2-record-2026-11-19.md",
+    "stage2_record_sha256": "4d64bd2bebbb806878131a03f578bdeecc78600208691cffaf9936165bf94a8f",
+    "counts_record": "specs/093-material-context-channel/records/t201-counts-2026-11-19.json",
+    "counts_record_sha256": "15e2cef667872868a4ba3145677aecc7b818dcbf8cf3ccc13a9d6aff532df3b8",
+    "snapshot": {
+     "path": "glossa-corpus/indus/exports/indus_research.jsonl",
+     "sha256": "08fc96c8dbc22a37effb65e789b22b144f4baf22be1da55dc3d84db5dc44505e"
+    }
+   },
+   "seed": 20261127,
+   "code_version": "ed49c849570b1f3dba817386547b48af22b7725d",
+   "environment_class": "tower-compute/linux"
+  },
+  "determinism_class": "deterministic"
+ },
+ "result": {
+  "spec": "093",
+  "stage": "4",
+  "task": "T401",
+  "kind": "administration",
+  "population": 966,
+  "adjudged_classes": {
+   "Harappa": 110,
+   "Mohenjo-daro": 839
+  },
+  "excluded_classes": {
+   "Chanhu-Daro": 7,
+   "Kalibangan": 1,
+   "Lothal": 3,
+   "Sutkagen-Dor": 6
+  },
+  "adjudged_total": 949,
+  "arms": {
+   "discovery": {
+    "n_mohenjo_daro": 587,
+    "n_harappa": 77,
+    "q1_ks": 0.07015641938980952,
+    "q2_tv": 0.3307919492228383,
+    "mean_length_mohenjo_daro": 4.7666098807495745,
+    "mean_length_harappa": 4.532467532467533
+   },
+   "held_out": {
+    "n_mohenjo_daro": 252,
+    "n_harappa": 33,
+    "q1_ks": 0.12806637806637808,
+    "q2_tv": 0.4287730414746544,
+    "mean_length_mohenjo_daro": 4.444444444444445,
+    "mean_length_harappa": 4.696969696969697
+   }
+  }
+ }
+}
