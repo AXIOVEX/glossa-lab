@@ -96,14 +96,14 @@ block ratification (Stage 0, T003).
 
 ## Stage 3 — Comparanda register
 
-- [ ] **T301 — Register v1.** Entries seeded per D-093-7
+- [x] **T301 — Register v1.** Entries seeded per D-093-7
   are committed, each carrying comparanda set,
   transmission mechanism with source, fixed window, and
   compared practice; the four-element check runs over the
   register. Acceptance: **gate**. *This does not
   establish:* that the seeded comparisons are the right
   ones — only that each was fixed, with its mechanism,
-  before anything was computed under it.
+  before anything was computed under it. **Completion (2026-11-27):** register v1 filed at `records/comparanda-register-v1.md` (4 entries, CR-093-01..04; all 39 catalogue corpora accounted exactly once: 2 entered, 5 the subject corpus, 32 annexed as not entered for want of a mechanism of record); the four-element check (`tools/spec093/check_comparanda_register.py`) PASS; stage record at `records/stage3-record-2026-11-27.md`.
 
 ## Stage 4 — First computed passes
 

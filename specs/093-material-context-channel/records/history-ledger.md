@@ -102,6 +102,12 @@ Rests on: `records/t202-findcontext-freeze-v3.md`
 
 Rests on: `records/closure-qualifier-addendum-2026-11-21.md`
 
+### 2026-11-27 - Spec 093 Stage 3 — comparanda register v1 (T301)
+
+Stage 3 executed 2026-11-27 under the owner's commission of the same day in the Glossa-Lab chat, which commissioned Stages 3-6 (the backfilled state entry below records they were not commissioned on the filed record; the commission reopens execution of the registered stages and amends no definition — the reconciliation is stated in the stage record's §1). Register v1 filed: 4 entries (CR-093-01..04), each with comparanda set, transmission mechanism with source, fixed window, and compared practice; all 39 catalogue corpora accounted exactly once (2 entered, 5 the subject corpus, 32 annexed as not entered, no mechanism of record). Four-element check PASS after a first-run failure on name-string mismatches, corrected and recorded in the stage record.
+
+Rests on: `records/stage3-record-2026-11-27.md`
+
 ### State at backfill (at backfill, 2026-11-25)
 
 The latest filed record is the closure-qualifier addendum of 2026-11-21. Stages 3-6 of the study were not commissioned on the filed record.
