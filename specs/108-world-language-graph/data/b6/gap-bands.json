@@ -1,0 +1,124 @@
+{
+ "E-B5-21": "B",
+ "E-B5-22": "C",
+ "E-B5-18": "C",
+ "E-B5-19": "C",
+ "E-B5-20": "C",
+ "E-B5-23": "C",
+ "E-B5-24": "C",
+ "E-B5-25": "C",
+ "E-B5-26": "C",
+ "gap:SCR-indus": {
+  "missing": [
+   "SIGN_VALUES",
+   "SEGMENTATION",
+   "BILINGUAL_OR_PARALLEL",
+   "RELATED_LANGUAGE_IDENTIFICATION",
+   "EXPERT_VERIFICATION"
+  ],
+  "blockers": [
+   "INFORMATION",
+   "PERMISSION"
+  ],
+  "movement_conditions": [
+   "A second independent blind coding return",
+   "The Spec 100 gate opening on the corpus holder's reply",
+   "An external corpus match independently sourcing further anchors",
+   "A normalised replay settling the G-IND predictive question (loop test I-4)"
+  ],
+  "priority": {
+   "owner_priority": 1,
+   "readiness": "PARTIAL",
+   "blocker_class": "INFORMATION"
+  },
+  "linked_tests": [
+   "Spec 100 (gate closed, holder's reply awaited)",
+   "Spec 107 cycle 1 test I-1 (INDETERMINATE, landed)"
+  ],
+  "custody_and_access": "Holdat corpus: statistics publishable, scans and rows never redistributed (SRC-HOLDAT-CUSTODY).",
+  "lifecycle_state": "OPEN"
+ },
+ "gap:LANG-indus-inferred": {
+  "missing": [
+   "LEXICON",
+   "GRAMMAR",
+   "RELATED_LANGUAGE_IDENTIFICATION",
+   "BILINGUAL_OR_PARALLEL"
+  ],
+  "blockers": [
+   "INFORMATION"
+  ],
+  "movement_conditions": [
+   "Any movement condition of the Indus script gap (GAP-SCR-indus), on which this entry depends"
+  ],
+  "priority": {
+   "owner_priority": 1,
+   "readiness": "PARTIAL",
+   "blocker_class": "INFORMATION"
+  },
+  "linked_tests": [
+   "Spec 107 cycle 1 test I-1 (INDETERMINATE, landed)"
+  ],
+  "custody_and_access": "none recorded",
+  "lifecycle_state": "OPEN"
+ },
+ "gap:LANG-eteocypriot": {
+  "missing": [
+   "CORPUS_SIZE",
+   "LEXICON",
+   "GRAMMAR",
+   "RELATED_LANGUAGE_IDENTIFICATION",
+   "SOURCE_ACQUISITION",
+   "EXPERT_VERIFICATION"
+  ],
+  "blockers": [
+   "INFORMATION",
+   "ACCESS",
+   "EXPERTISE"
+  ],
+  "movement_conditions": [
+   "Arrival of the ICS 196 edition-of-record portion copy (ILL request of 2026-11-22)",
+   "A returned second-reader verification (Steele) or completeness check (Egetmeyer)",
+   "The control-corpus calibration (loop test E-2) settling which statistics may be argued from at this corpus size"
+  ],
+  "priority": {
+   "owner_priority": 1,
+   "readiness": "PARTIAL",
+   "blocker_class": "INFORMATION"
+  },
+  "linked_tests": [
+   "Spec 101 (executed as Spec 107 cycle-1 test E-1: C101-1 NOT SUPPORTED)"
+  ],
+  "custody_and_access": "none recorded",
+  "lifecycle_state": "OPEN"
+ },
+ "gap:LANG-meroitic": {
+  "missing": [
+   "LEXICON",
+   "GRAMMAR",
+   "RELATED_LANGUAGE_IDENTIFICATION",
+   "SOURCE_ACQUISITION"
+  ],
+  "blockers": [
+   "POWER",
+   "ACCESS"
+  ],
+  "movement_conditions": [
+   "Rilly 2010's delivery and digitisation under the registered terms, completing Spec 102's source requirement",
+   "The G-1 coverage computation on the expanded lists (at least 40 scored concepts, at least 20 outside the earlier twelve)",
+   "The G-2 injection simulation (at least 80 percent power at theta = 0.30, d = 0.75)",
+   "The owner's commission of Spec 102"
+  ],
+  "priority": {
+   "owner_priority": 1,
+   "readiness": "PARTIAL",
+   "blocker_class": "POWER"
+  },
+  "linked_tests": [
+   "Spec 102 (registered, not commissioned; gates G-1/G-2 carried unchanged)",
+   "Spec 107 cycle 1 test M-1 (POSITIVE, landed)"
+  ],
+  "custody_and_access": "Rilly & de Voogt 2012 Appendix in custody under registered terms; no redistribution of the lexicon text (SRC-RILLY-DEVOOGT-APPENDIX). Otten build: aggregate-only, no redistribution (SRC-OTTEN-CUSTODY).",
+  "lifecycle_state": "OPEN"
+ }
+}

@@ -114,3 +114,22 @@ program map 1,073 claims, 109 studies), and census
 pins updated from actuals. Executed figures:
 records/registration-2026-11-27.md, which supersedes
 the first execution's figures wherever they differ.
+## 2026-11-27 — ITERATION — Build and population executed; release WLG-R1 admitted
+
+The implementation (schema, store, builder, gap
+generator, view generator, audit suite) was built to
+the design and run on tower-compute with timestamped
+progress indicators throughout. Population batches
+B0–B6 landed 148 nodes, 129 edges, 365 assertions,
+and 7 sources; the gap register generated 53 entries;
+release WLG-R1 was admitted with all nine audits
+WLG-01..09 PASS (payload exit 0). Graph snapshot hash
+d2c8fddc060800646846d8bf27471241cd59af225c7c8515a5a7762b428439cd;
+source manifest hash
+5f3cbb38f7d7203c4a8e12af74e2550140793732c751bf8a185d41e0a5a17d08;
+the three Spec 106 baseline pins are recorded in the
+release record exactly as filed, untouched. Records:
+records/population-report-2026-11-27.md,
+records/audit-results-release-1-2026-11-27.md,
+records/release-record-2026-11-27.md,
+records/gap-register-release-1-2026-11-27.md.
