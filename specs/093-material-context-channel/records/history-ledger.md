@@ -120,6 +120,12 @@ Stage 5 executed 2026-11-27 under the same commission. The taxonomy amendment la
 
 Rests on: `records/stage5-record-2026-11-27.md`
 
+### 2026-11-27 - Spec 093 Stage 6 — gap register section and outcome record (T601; T602 record filed)
+
+Stage 6 executed 2026-11-27 under the same commission. The GR-093 section is appended to the gap register under its own section (D-093-5(a)): 7 entries — the five the plan names (ductus/writing-style arm, iconography, artifact typology beyond seal/unknown, period per record, the material join's residual coverage) plus the two gaps Stage 4's outcomes named (the material field's single usable class; site coverage beyond the two adjudged sites) — each carrying its four C093-12 elements, the Candidate field written as the discharging administration (the acceptance test, stated in the outcome record). Section census: missing node 4, thin evidence 3; DATA-BLOCKED 5, UNMEASURED 2; in-house re-derivation 7. The gate's V12 counting leg counts the section in the same landing (7 entries; full gate 32 PASS / 0 FAIL / 1 NOT-RUN, regen 35 / 0 / 0). One disclosed machinery fix in the landing: the counting leg's entry detection matched any line beginning "GR-093-NN." and the section's own text exposed a wrapped cross-reference line inside GR-093-07; headings now count only at paragraph starts, with a regression test (teeth battery at eleven). The outcome record (T602) states per stage what was administered, accepted, or stopped, with counts, and C093-1's standing as it finally stands: INDEPENDENT IN PART for site and find context, with the closure qualifier. T602's tick and the send record follow the VEXA report send, whose text the outcome record carries verbatim in its §4.
+
+Rests on: `records/stage6-outcome-record-2026-11-27.md`
+
 ### State at backfill (at backfill, 2026-11-25)
 
 The latest filed record is the closure-qualifier addendum of 2026-11-21. Stages 3-6 of the study were not commissioned on the filed record.
