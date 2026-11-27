@@ -199,7 +199,7 @@ block ratification (Stage 0, T003).
 
 ## Stage 6 — Gap register and closeout
 
-- [ ] **T601 — GR-093 entries and the completeness
+- [x] **T601 — GR-093 entries and the completeness
   extension.** The culture-side entries (at least the
   five the plan names) are appended under the register's
   new section, each with its four elements (C093-12);
@@ -208,6 +208,15 @@ block ratification (Stage 0, T003).
   Acceptance: **gate**. *This does not establish:* that
   these are all the culture-side gaps there are — only
   that every entry carried is closable honestly.
+  **Complete 2026-11-27** (Stage 6 outcome record): the
+  GR-093 section is appended (7 entries, each with its
+  four C093-12 elements); the gate's V12 counting leg
+  counts the section in this same landing (7 entries
+  counted, full gate PASS at the extended profile); one
+  disclosed machinery fix in the same landing (entry
+  headings count only at paragraph starts; regression
+  test added). Record at
+  `records/stage6-outcome-record-2026-11-27.md`.
 - [ ] **T602 — Outcome record and VEXA report.** The
   closeout record states per stage what was
   administered, accepted, or stopped (with counts) and

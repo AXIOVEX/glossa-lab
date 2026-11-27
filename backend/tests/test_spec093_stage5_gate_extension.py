@@ -227,6 +227,28 @@ def test_v12_register_entry_missing_an_element_fails(tmp_path):
     )
 
 
+def test_v12_wrapped_cross_reference_is_not_an_entry(tmp_path):
+    # Regression (Stage 6): a wrapped line inside an
+    # entry's own text that begins with a cross-reference
+    # ("GR-093-05." at a line wrap) is not an entry
+    # heading; entry headings count only at paragraph
+    # starts. The landed GR-093 section itself exposed
+    # the case.
+    entry = _COMPLETE_ENTRY.replace(
+        "**Candidate (acceptance test):** the administration whose\n"
+        "outcome would discharge this entry.",
+        "**Why its absence blocks convergence:** the bound in\n"
+        "GR-093-05.\n"
+        "stands behind this one.\n\n"
+        "**Candidate (acceptance test):** the administration whose\n"
+        "outcome would discharge this entry.",
+    )
+    root = _tree(tmp_path, register=_register_with_section(entry))
+    legs = _legs(lg._v12_checks(root, FAMILY + OTHER))
+    assert legs[COUNTING].status == "PASS", legs[COUNTING]
+    assert "1 GR-093 entries counted" in legs[COUNTING].evidence[0]
+
+
 def test_v12_empty_culture_section_fails(tmp_path):
     root = _tree(tmp_path, register=_register_with_section(""))
     legs = _legs(lg._v12_checks(root, FAMILY + OTHER))

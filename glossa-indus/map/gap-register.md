@@ -1276,6 +1276,264 @@ candidate is proposed.
 **Owner gates:** OWNER — the restriction stands until the owner lifts it
 by name. No agent route exists, and none is sought by this register.
 
+## Culture-side entries — Spec 093 (GR-093)
+
+Appended 2026-11-27 (Spec 093 Stage 6, T601) under
+D-093-5(a): a section of this register, not a sibling
+file. Each entry carries the four elements C093-12
+requires — what is not known (the **Missing piece:**
+field), an acceptance test, a falsifier, and an honesty
+type. The register's field for the acceptance test is
+**Candidate:** — in this section the candidate is
+written as the administration whose outcome would
+discharge the entry, and its discharge condition is
+stated on its face, so the field carries the acceptance
+test in the register's own shape. The section's census
+stands at its close; the GR-088 census above is the
+ratified v1 census of its own 37 entries and is not
+rewritten by this section. The gate's V12 counting leg
+(Spec 093 Stage 5, T502) counts this section.
+
+GR-093-01. NO DUCTUS / WRITING-STYLE FIELD
+(Material context). DATA-BLOCKED.
+Kind: missing node. Source: Spec 093 grounding
+inventory §5 item 1 (`records/
+grounding-data-inventory-2026-11-05.md`); the arm was
+excluded at ratification (D-093-2).
+**Missing piece:** any per-record coding of how the
+signs are written — ductus, hand, tool, execution
+style — for the inscription-bearing population. No
+field exists in the snapshot or in any joined source.
+**Why its absence blocks convergence:** a whole
+dimension the channel was designed against (writing
+style could pattern with site, material, or period
+independently of sign choice) cannot be administered
+at all; every channel statement is silent on it, and
+until this entry the silence itself was recorded
+nowhere a reader of the surfaces would see it.
+**Candidate:** a future registered coding protocol
+over the published sign-form images, administered as
+its own stage with a frozen vocabulary and a precision
+audit on a hand-checked sample; the entry discharges
+when a coded field exists for a stated population and
+an independence battery of the Stage 2 kind can be
+frozen against it.
+**Falsifier:** a source in program hands is found to
+already carry per-record ductus coding for the
+population → the gap was a join gap, not a data gap,
+and the entry re-registers as such.
+**Type:** in-house re-derivation.
+**Owner gates:** none for this entry; the coding
+protocol itself would be a new registered stage,
+commissioned by the owner.
+
+GR-093-02. NO ICONOGRAPHY CODING
+(Material context). DATA-BLOCKED.
+Kind: missing node. Source: Spec 093 grounding
+inventory §5 item 2.
+**Missing piece:** motif and iconography coding for
+the 10,072 seals and the other inscribed objects —
+which motif, which composition. The snapshot carries
+none, so the sign sequence and the image on the same
+object have never been jointly administered.
+**Why its absence blocks convergence:** the oldest
+standing question about the seals — whether motif and
+inscription covary — is untestable; the channel's
+object side is text-only by default, not by finding.
+**Candidate:** a registered motif-coding pass over
+the seal images with a frozen motif vocabulary and
+inter-coder agreement measured on a sample; the entry
+discharges when motif codes exist for a stated
+population and a motif × sign-choice battery can be
+frozen against them.
+**Falsifier:** an existing in-program dataset is
+shown to carry motif coding joinable to the seal
+population → the entry re-registers as a join gap.
+**Type:** in-house re-derivation.
+**Owner gates:** none for this entry; the coding pass
+is a new registered stage.
+
+GR-093-03. ARTIFACT TYPOLOGY BEYOND SEAL/UNKNOWN
+(Material context). DATA-BLOCKED.
+Kind: missing node. Source: Spec 093 grounding
+inventory §1.2 (`artifact_type` carries one bit:
+seal 10,072 / unknown 5,436 in the snapshot).
+**Missing piece:** a per-record artifact typology —
+tablet, pottery, copper plate, tag, seal subtype —
+joined to the inscription-bearing population. A
+richer typology exists on the CISI side — its `type`
+field over 5,679 catalogued records: SEAL:S 1,777,
+TAB:B 1,108, TAB:I 952, POT:T:g 538, SEAL:R 388,
+TAB:C 230, TAG 172, SEAL 82, and a tail (T101 census)
+— but it reaches only the 179 joined pairs, not the
+population.
+**Why its absence blocks convergence:** "what things
+had what written on them" — the question the channel
+exists to ask — can be put to this field only at one
+bit; artifact type was NOT ADMINISTERED at Stage 2's
+floors and no pass can consume it.
+**Candidate:** extend the audited join (or a
+successor join under the same discipline) so the
+CISI typology field reaches a stated population with
+measured precision at or above the registered join
+floor; the entry discharges when artifact type is a
+per-record field over a stated population and a
+Stage 2 battery can be frozen on at least two classes
+at floor.
+**Falsifier:** the join extension's audit measures
+precision below the floor, or the typology field
+proves derivable from the seal/unknown bit alone →
+the richer typology does not exist to be joined and
+the entry re-registers as structural.
+**Type:** in-house re-derivation.
+**Owner gates:** CISI discipline binds any use of
+that source (statistics publishable, scans never
+redistributed; Andreas Fuls is never contacted).
+
+GR-093-04. NO PERIOD PER RECORD
+(Material context). DATA-BLOCKED.
+Kind: missing node. Source: Spec 093 grounding
+inventory §5 item 4.
+**Missing piece:** a per-record period or phase field
+for the Indus record population. Dating exists around
+the population — the contact corpora carry periods,
+and the seals in Mesopotamian contexts carry find
+periods — but no record in the subject corpus carries
+its own period.
+**Why its absence blocks convergence:** no channel
+question can be asked diachronically. Whether sign
+choice, inscription length, or material practice
+changes over time is untestable, and every pass is a
+synchronic average over an unknown span.
+**Candidate:** a registered period-assignment
+protocol (stratigraphic and contextual dating joined
+per record, the assignment rule and its uncertainty
+stated per record); the entry discharges when a
+stated population carries period assignments under a
+frozen rule and a period-stratified battery can be
+frozen against them.
+**Falsifier:** the protocol's own audit shows the
+datable fraction is too small, or too site-skewed, to
+stratify any battery → the gap is structural for this
+corpus and the entry re-registers as such.
+**Type:** in-house re-derivation.
+**Owner gates:** none for this entry.
+
+GR-093-05. THE MATERIAL JOIN'S RESIDUAL COVERAGE
+(Material context). DATA-BLOCKED.
+Kind: thin evidence. Source: Spec 093 Stage 1 record
+(T103 coverage bound); closure-qualifier addendum,
+2026-11-21.
+**Missing piece:** a concordance joining
+material-side records to the remaining 2,906 of the
+3,085 text-bearing records. The one audited join
+covers 179 pairs (5.8%), all Mohenjo-daro, single
+stratum; the Mahadevan population has no in-repo
+concordance.
+**Why its absence blocks convergence:** every
+material-context statement the channel makes rests on
+5.8% of the text-bearing population from one site.
+C093-1's closure qualifier exists precisely because
+this coverage is the bound, and no material or
+find-context result can be read past it.
+**Candidate:** a successor concordance (CISI-side
+identifiers against the Mahadevan population),
+precision-audited on a hand-checked sample at the
+registered join floor; the entry discharges when a
+second audited join raises the covered population
+past the 179 and the qualifier can be re-stated on
+the record.
+**Falsifier:** the successor concordance's audit
+shows the joinable fraction is bounded near the
+current 5.8% (the identifiers do not survive) → the
+coverage is structural, the qualifier is permanent,
+and the entry re-registers as such.
+**Type:** in-house re-derivation.
+**Owner gates:** CISI discipline binds (as GR-093-03).
+
+GR-093-06. THE MATERIAL FIELD'S SINGLE USABLE CLASS
+(Material context). UNMEASURED.
+Kind: thin evidence. Source: Spec 093 Stage 4 record
+§3 (the T402 outcome).
+**Missing piece:** a second material class at or
+above the floor of 10 joined records. The Stage 4
+census over the pinned join output counts Steatite
+176, Clay 1, Faience 1, and 1 empty sentinel, of 179
+— there is effectively one material in the joined
+population, which is why the material pass stands at
+CANNOT BE ADMINISTERED. The poverty is in the join,
+not the source: the CISI-side material field carries
+23 distinct values over 4,706 records (Steatite
+2,633, Clay 960, Faience 619, Copper 264, and a tail;
+T101 census), but the 179 joined pairs are all
+SEAL:S seals from one site and one stratum.
+**Why its absence blocks convergence:** whether the
+channel's material dimension carries any signal at
+all is untested, and cannot be tested until a join
+reaches a population in which more than one material
+is common.
+**Candidate:** the successor join of GR-093-05
+administered over a population beyond the single
+Mohenjo-daro stratum, with the Stage 4 census re-run
+under its freeze §4 rule; the entry discharges when
+at least two classes stand at or above the floor of
+10 and the material pass can be frozen and
+administered.
+**Falsifier:** the widened census still returns one
+class at floor → the single-material picture is a
+property of the surviving joined record, not of the
+join, and the material pass closes as not
+administrable on this corpus.
+**Type:** in-house re-derivation.
+**Owner gates:** none for this entry.
+
+GR-093-07. SITE COVERAGE BEYOND THE TWO ADJUDGED
+SITES (Material context). UNMEASURED.
+Kind: thin evidence. Source: Spec 093 Stage 4 site
+freeze v1 and Stage 4 record §2 (the T401 outcome);
+grounding inventory §1.2.
+**Missing piece:** sequence-bearing site records
+beyond Mohenjo-daro (839) and Harappa (110). Of the
+966 site-named records, Chanhu-Daro carries 7,
+Sutkagen-Dor 6, Lothal 3, Kalibangan 1 — four sites
+below any floor a battery could be frozen at, and
+949 of the 966 records in two sites.
+**Why its absence blocks convergence:** the site
+pass could be administered only as a two-site
+contrast and returned NOT YET; no cross-site
+statement about the channel is possible, and this is
+the site-side twin of the join coverage bound in
+GR-093-05.
+**Candidate:** ingestion of further site-attributed
+inscription corpora into the snapshot under the
+census discipline, with the site census re-run; the
+entry discharges when at least one further site
+stands at or above the freeze floor of 50
+sequence-bearing records and a successor site battery
+can be frozen with a genuine held-out-site arm.
+**Falsifier:** the census over the widened snapshot
+still leaves every other site below floor → the
+two-site bound is a property of the published corpus,
+and the entry re-registers as structural.
+**Type:** in-house re-derivation.
+**Owner gates:** new corpus ingestion is an
+owner-commissioned act; CISI discipline binds for
+CISI-sourced material.
+
+**Census of the GR-093 section:** 7 entries
+(GR-093-01 … GR-093-07), each carrying one candidate,
+one falsifier, and one honesty type. By kind: missing
+node 4 (GR-093-01, 02, 03, 04) · thin evidence 3
+(GR-093-05, 06, 07) · missing edge 0 · stale
+bookkeeping 0. By status word: DATA-BLOCKED 5
+(GR-093-01, 02, 03, 04, 05) · UNMEASURED 2
+(GR-093-06, 07). By honesty type: in-house
+re-derivation 7 · independent confirmation 0 — every
+gap in this section is closable, if at all, by work
+inside the program's own discipline; none is recorded
+as the other kind.
+
+
 ## Census of this register
 
 Entries: **37** (GR-088-01 … GR-088-37), consolidating the S5 scans'

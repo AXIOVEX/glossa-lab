@@ -5379,7 +5379,12 @@ CULTURE_DOMAIN = "Material context"
 CULTURE_STUDY = "093-material-context-channel"
 GAP_REGISTER_REL = "glossa-indus/map/gap-register.md"
 _CULTURE_SECTION_MARK = "Culture-side entries"
-_GR093_HEADING = re.compile(r"^GR-093-(\d+)\.\s", re.M)
+# Entry headings count only at paragraph starts: a
+# wrapped line inside an entry's own text that begins
+# with a cross-reference ("GR-093-05." at a line wrap)
+# is not an entry. Found on the landed section itself
+# at Spec 093 Stage 6 and fixed there.
+_GR093_HEADING = re.compile(r"(?:\A|\n\n)(GR-093-(\d+)\.\s)")
 _GR093_ELEMENTS = (
     "**Missing piece:**",
     "**Candidate",
@@ -5549,8 +5554,8 @@ def _v12_checks(
                 )
             for j, head in enumerate(heads):
                 block = section[
-                    head.start():
-                    heads[j + 1].start()
+                    head.start(1):
+                    heads[j + 1].start(1)
                     if j + 1 < len(heads)
                     else len(section)
                 ]
@@ -5559,7 +5564,7 @@ def _v12_checks(
                 ]
                 if missing:
                     problems.append(
-                        f"GR-093-{head.group(1)} lacks "
+                        f"GR-093-{head.group(2)} lacks "
                         + ", ".join(missing)
                     )
             if heads and not problems:
