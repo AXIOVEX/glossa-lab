@@ -216,7 +216,7 @@ def test_header_contract_q3(built) -> None:
     as_of = h["as_of"]
     assert as_of["ledger_sha256"] == li.sha256_file(ROOT / li.LEDGER_REL)
     assert as_of["map_defs"] == "map-defs v1"
-    assert as_of["ledger_lines"] == 1097
+    assert as_of["ledger_lines"] == 1098
 
 
 def test_sections_census(built) -> None:
