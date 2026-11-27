@@ -1,0 +1,2616 @@
+[
+ {
+  "area_section": "HRA",
+  "cisi_object": "M-1",
+  "material_raw": "Steatite",
+  "signs": [
+   "P121",
+   "P202",
+   "P385",
+   "P073",
+   "P108"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000205"
+ },
+ {
+  "area_section": "HRA",
+  "cisi_object": "M-10",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P204",
+   "P114",
+   "P151",
+   "P316",
+   "P060",
+   "P364",
+   "P122",
+   "P067",
+   "P221"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000213"
+ },
+ {
+  "area_section": "DKE",
+  "cisi_object": "M-100",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P073",
+   "P316",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000301"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-101",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P210",
+   "P324",
+   "P003",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000302"
+ },
+ {
+  "area_section": "DKE",
+  "cisi_object": "M-102",
+  "material_raw": "Steatite",
+  "signs": [
+   "P004",
+   "P123",
+   "P154",
+   "P226"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000303"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-103",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P124",
+   "P122",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000304"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-104",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P050",
+   "P060",
+   "P359"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000305"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-105",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P324",
+   "P364",
+   "P056",
+   "P326",
+   "P120",
+   "P154"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000306"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-106",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P000"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000307"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-107",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P238",
+   "P058",
+   "P122",
+   "P054",
+   "P071"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000308"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-108",
+  "material_raw": "Steatite",
+  "signs": [
+   "P099",
+   "P378",
+   "P050",
+   "P201",
+   "P075",
+   "P230",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000309"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-109",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P381",
+   "P050",
+   "P092",
+   "P122",
+   "P084",
+   "P011"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000310"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-110",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000311"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-111",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P160",
+   "P303",
+   "P058",
+   "P121",
+   "P378",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000312"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-112",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P056",
+   "P126",
+   "P111",
+   "P325",
+   "P285",
+   "P254"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000313"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-113",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P145",
+   "P349",
+   "P325",
+   "P120",
+   "P156"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000314"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-114",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P283",
+   "P122",
+   "P205",
+   "P095"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000315"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-115",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P352",
+   "P011",
+   "P194",
+   "P364",
+   "P122",
+   "P205",
+   "P076"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000316"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-116",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P009",
+   "P194",
+   "P349",
+   "P139",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000317"
+ },
+ {
+  "area_section": "SD-",
+  "cisi_object": "M-117",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P147",
+   "P316",
+   "P050",
+   "P364",
+   "P142",
+   "P122",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000318"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-118",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P096",
+   "P147",
+   "P316",
+   "P058",
+   "P364",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000319"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-119",
+  "material_raw": "Steatite",
+  "signs": [
+   "P001",
+   "P309",
+   "P195",
+   "P122",
+   "P086",
+   "P035",
+   "P270",
+   "P145",
+   "P154",
+   "P230"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000320"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-12",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P086",
+   "P276",
+   "P058",
+   "P122",
+   "P202",
+   "P386",
+   "P182",
+   "P108"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000214"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-120",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P009",
+   "P288",
+   "P325",
+   "P349",
+   "P044"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000321"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-121",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P154",
+   "P355",
+   "P058",
+   "P075"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000322"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-122",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P147",
+   "P316"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000323"
+ },
+ {
+  "area_section": "SD-",
+  "cisi_object": "M-123",
+  "material_raw": "Steatite",
+  "signs": [
+   "P098",
+   "P014",
+   "P202",
+   "P114"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000324"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-124",
+  "material_raw": "Clay",
+  "signs": [
+   "P324",
+   "P175",
+   "P050",
+   "P145"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000325"
+ },
+ {
+  "area_section": "--",
+  "cisi_object": "M-125",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P144",
+   "P108"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000326"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-126",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P230",
+   "P234",
+   "P120",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000327"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-127",
+  "material_raw": "Steatite",
+  "signs": [
+   "P238",
+   "P324",
+   "P060",
+   "P324",
+   "P194"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000328"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-128",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P175",
+   "P364",
+   "P324",
+   "P208",
+   "P316"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000329"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-129",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P058",
+   "P062",
+   "P060",
+   "P325",
+   "P293"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000330"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-13",
+  "material_raw": "Steatite",
+  "signs": [
+   "P202",
+   "P205",
+   "P035"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000215"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-130",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P003",
+   "P050",
+   "P145",
+   "P122",
+   "P032"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000331"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-131",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P086",
+   "P276",
+   "P325",
+   "P086",
+   "P355"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000332"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-132",
+  "material_raw": "Steatite",
+  "signs": [
+   "P004",
+   "P123",
+   "P226"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000333"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-133",
+  "material_raw": "Steatite",
+  "signs": [
+   "P301",
+   "P230",
+   "P062",
+   "P050",
+   "P073",
+   "P369",
+   "P174",
+   "P110"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000334"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-134",
+  "material_raw": "Steatite",
+  "signs": [
+   "P390",
+   "P145",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000335"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-135",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P147",
+   "P316",
+   "P144"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000336"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-136",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P050",
+   "P126",
+   "P144",
+   "P177",
+   "P226"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000337"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-137",
+  "material_raw": "Steatite",
+  "signs": [
+   "P379"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000338"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-138",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P154",
+   "P125"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000339"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-139",
+  "material_raw": "Steatite",
+  "signs": [
+   "P147",
+   "P368",
+   "P061",
+   "P325",
+   "P294"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000340"
+ },
+ {
+  "area_section": "L-",
+  "cisi_object": "M-14",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P117",
+   "P210",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000216"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-140",
+  "material_raw": "Faience",
+  "signs": [
+   "P324",
+   "P309",
+   "P145",
+   "P050",
+   "P201",
+   "P283",
+   "P221"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000341"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-141",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P122",
+   "P000"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000342"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-142",
+  "material_raw": "Steatite",
+  "signs": [
+   "P022",
+   "P011",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000343"
+ },
+ {
+  "area_section": "DKG",
+  "cisi_object": "M-143",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P082",
+   "P122",
+   "P145",
+   "P170",
+   "P349"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000344"
+ },
+ {
+  "area_section": "DKG",
+  "cisi_object": "M-144",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P009",
+   "P092",
+   "P062",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000345"
+ },
+ {
+  "area_section": "SDBath Cells",
+  "cisi_object": "M-145",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P098",
+   "P031",
+   "P384"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000346"
+ },
+ {
+  "area_section": "SD-",
+  "cisi_object": "M-146",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P073",
+   "P160",
+   "P120",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000347"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-147",
+  "material_raw": "Steatite",
+  "signs": [
+   "P051",
+   "P364",
+   "P122",
+   "P050",
+   "P221",
+   "P217"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000348"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-148",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P385",
+   "P231"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000349"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-149",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P283",
+   "P120",
+   "P230"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000350"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-15",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P194",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000217"
+ },
+ {
+  "area_section": "HRA",
+  "cisi_object": "M-150",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P368"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000351"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-151",
+  "material_raw": "Steatite",
+  "signs": [
+   "P050",
+   "P201",
+   "P393"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000352"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-152",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P096",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000353"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-153",
+  "material_raw": "Steatite",
+  "signs": [
+   "P067",
+   "P026",
+   "P076"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000354"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-154",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P050",
+   "P092",
+   "P122",
+   "P300",
+   "P182",
+   "P265"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000355"
+ },
+ {
+  "area_section": "DKE",
+  "cisi_object": "M-155",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P194",
+   "P144"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000356"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-157",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P154",
+   "P355",
+   "P058",
+   "P075",
+   "P121",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000357"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-158",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P126",
+   "P120",
+   "P230"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000358"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-159",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P136",
+   "P325",
+   "P166",
+   "P290"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000359"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-16",
+  "material_raw": "Steatite",
+  "signs": [
+   "P378",
+   "P026",
+   "P151",
+   "P346"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000218"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-160",
+  "material_raw": "Steatite",
+  "signs": [
+   "P001",
+   "P048",
+   "P144",
+   "P122",
+   "P378",
+   "P325"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000360"
+ },
+ {
+  "area_section": "DKG",
+  "cisi_object": "M-161",
+  "material_raw": "Steatite",
+  "signs": [
+   "P268",
+   "P268",
+   "P037",
+   "P123"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000361"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-162",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P349",
+   "P230",
+   "P234",
+   "P123"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000362"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-163",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P050",
+   "P092",
+   "P120",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000363"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-164",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P031",
+   "P204",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000364"
+ },
+ {
+  "area_section": "DKH",
+  "cisi_object": "M-165",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P121",
+   "P325",
+   "P086",
+   "P122",
+   "P385",
+   "P324",
+   "P076"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000365"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-166",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P349",
+   "P062",
+   "P364",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000366"
+ },
+ {
+  "area_section": "--",
+  "cisi_object": "M-167",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P000",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000367"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-169",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P289",
+   "P127",
+   "P000",
+   "P145"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000368"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-17",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P126",
+   "P122",
+   "P369",
+   "P232"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000219"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-170",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P175",
+   "P086",
+   "P204",
+   "P114",
+   "P145",
+   "P325",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000369"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-171",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P204",
+   "P324",
+   "P175",
+   "P058",
+   "P364",
+   "P120",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000370"
+ },
+ {
+  "area_section": "--",
+  "cisi_object": "M-172",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P128",
+   "P121",
+   "P050",
+   "P117",
+   "P355"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000371"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-173",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P110",
+   "P160",
+   "P303",
+   "P364"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000372"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-174",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P175",
+   "P050",
+   "P145",
+   "P122",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000373"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-175",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000374"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-176",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P255"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000375"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-177",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P123",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000376"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-178",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P126"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000377"
+ },
+ {
+  "area_section": "DKE",
+  "cisi_object": "M-179",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P123"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000378"
+ },
+ {
+  "area_section": "HRA",
+  "cisi_object": "M-18",
+  "material_raw": "Steatite",
+  "signs": [
+   "P341",
+   "P324",
+   "P142"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000220"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-180",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P265"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000379"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-181",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P193",
+   "P122",
+   "P205",
+   "P207"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000380"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-182",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P095"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000381"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-183",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P058",
+   "P120",
+   "P205"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000382"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-184",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P010",
+   "P359"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000383"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-19",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000221"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-20",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P125",
+   "P122",
+   "P385",
+   "P147",
+   "P147",
+   "P215",
+   "P275"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000222"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-21",
+  "material_raw": "Steatite",
+  "signs": [
+   "P091",
+   "P121",
+   "P324",
+   "P272",
+   "P256",
+   "P145",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000223"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-22",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P172",
+   "P194",
+   "P050",
+   "P145",
+   "P230",
+   "P000"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000224"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-23",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P197",
+   "P120",
+   "P256",
+   "P217",
+   "P050",
+   "P060",
+   "P121",
+   "P160",
+   "P350",
+   "P390",
+   "P076",
+   "P202"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000225"
+ },
+ {
+  "area_section": "SD-",
+  "cisi_object": "M-24",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P062",
+   "P060",
+   "P122",
+   "P174",
+   "P011"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000226"
+ },
+ {
+  "area_section": "--",
+  "cisi_object": "M-25",
+  "material_raw": "-",
+  "signs": [
+   "P268",
+   "P268",
+   "P050",
+   "P316",
+   "P276"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000227"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-26",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P228",
+   "P120",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000228"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-27",
+  "material_raw": "Steatite",
+  "signs": [
+   "P238",
+   "P060",
+   "P364",
+   "P325",
+   "P311",
+   "P154",
+   "P123"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000229"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-28",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P103",
+   "P324",
+   "P332",
+   "P349",
+   "P095",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000230"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-29",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P142",
+   "P062",
+   "P060",
+   "P364",
+   "P122",
+   "P050",
+   "P221",
+   "P210"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000231"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-3",
+  "material_raw": "Steatite",
+  "signs": [
+   "P320",
+   "P145",
+   "P094"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000206"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-30",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P127",
+   "P210",
+   "P062",
+   "P060",
+   "P364"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000232"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-31",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P067",
+   "P275",
+   "P058",
+   "P120",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000233"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-32",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P123",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000234"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-33",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P145",
+   "P175",
+   "P111",
+   "P058",
+   "P122",
+   "P041"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000235"
+ },
+ {
+  "area_section": "HRA",
+  "cisi_object": "M-34",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P309",
+   "P194",
+   "P122",
+   "P086",
+   "P108",
+   "P103"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000236"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-35",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P086",
+   "P276",
+   "P058",
+   "P056",
+   "P122",
+   "P007"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000237"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-36",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P358",
+   "P270",
+   "P050",
+   "P145",
+   "P122",
+   "P202",
+   "P174",
+   "P307"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000238"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-37",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P050",
+   "P092"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000239"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-38",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P256",
+   "P188",
+   "P073",
+   "P050",
+   "P145",
+   "P062",
+   "P060",
+   "P122",
+   "P086",
+   "P035",
+   "P270",
+   "P145"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000240"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-39",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P316",
+   "P062",
+   "P060",
+   "P139",
+   "P083",
+   "P303"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000241"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-4",
+  "material_raw": "Steatite",
+  "signs": [
+   "P205",
+   "P186",
+   "P147",
+   "P316",
+   "P056",
+   "P122",
+   "P237",
+   "P268",
+   "P268",
+   "P147"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000207"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-40",
+  "material_raw": "Steatite",
+  "signs": [
+   "P089",
+   "P122",
+   "P301",
+   "P186",
+   "P125"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000242"
+ },
+ {
+  "area_section": "DKG",
+  "cisi_object": "M-41",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P270",
+   "P062",
+   "P060",
+   "P122",
+   "P086",
+   "P035",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000243"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-42",
+  "material_raw": "Steatite",
+  "signs": [
+   "P301",
+   "P230",
+   "P062",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000244"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-43",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P230",
+   "P056",
+   "P122",
+   "P142",
+   "P360"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000245"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-44",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P147",
+   "P316",
+   "P364",
+   "P122",
+   "P154",
+   "P296"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000246"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-45",
+  "material_raw": "Steatite",
+  "signs": [
+   "P268",
+   "P268",
+   "P372",
+   "P139",
+   "P205",
+   "P349",
+   "P145"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000247"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-46",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P230",
+   "P062",
+   "P060",
+   "P122",
+   "P050",
+   "P201",
+   "P353"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000248"
+ },
+ {
+  "area_section": "DKE",
+  "cisi_object": "M-47",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P332",
+   "P060",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000249"
+ },
+ {
+  "area_section": "DKE",
+  "cisi_object": "M-48",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P378",
+   "P215",
+   "P120",
+   "P202",
+   "P154"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000250"
+ },
+ {
+  "area_section": "VS-",
+  "cisi_object": "M-49",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P230",
+   "P062",
+   "P050",
+   "P145",
+   "P122",
+   "P205",
+   "P091",
+   "P145",
+   "P076"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000251"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-5",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P096",
+   "P062",
+   "P060",
+   "P120",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000208"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-50",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P288",
+   "P127",
+   "P147",
+   "P316",
+   "P062",
+   "P230",
+   "P122",
+   "P000"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000252"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-51",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P230",
+   "P215",
+   "P091",
+   "P060",
+   "P324",
+   "P086",
+   "P011"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000253"
+ },
+ {
+  "area_section": "DKD",
+  "cisi_object": "M-52",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P172",
+   "P145",
+   "P050",
+   "P092",
+   "P060",
+   "P364",
+   "P122",
+   "P211",
+   "P320"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000254"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-53",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P050",
+   "P126",
+   "P122",
+   "P205",
+   "P076",
+   "P154",
+   "P011"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000255"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-54",
+  "material_raw": "Steatite",
+  "signs": [
+   "P051",
+   "P062",
+   "P147",
+   "P316",
+   "P230",
+   "P122",
+   "P378"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000256"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-55",
+  "material_raw": "Steatite",
+  "signs": [
+   "P000",
+   "P332",
+   "P215",
+   "P275",
+   "P121",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000257"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-56",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P382",
+   "P145",
+   "P060",
+   "P120",
+   "P230",
+   "P281",
+   "P349"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000258"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-57",
+  "material_raw": "Steatite",
+  "signs": [
+   "P051",
+   "P145",
+   "P056",
+   "P230",
+   "P122",
+   "P258"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000259"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-58",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P215",
+   "P210",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000260"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-59",
+  "material_raw": "Steatite",
+  "signs": [
+   "P202",
+   "P123",
+   "P326",
+   "P120",
+   "P160"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000261"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-6",
+  "material_raw": "Steatite",
+  "signs": [
+   "P378",
+   "P384",
+   "P201",
+   "P065"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000209"
+ },
+ {
+  "area_section": "DKG",
+  "cisi_object": "M-60",
+  "material_raw": "Steatite",
+  "signs": [
+   "P001",
+   "P000"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000262"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-61",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P251",
+   "P056",
+   "P050",
+   "P221",
+   "P268",
+   "P246"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000263"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-62",
+  "material_raw": "Steatite",
+  "signs": [
+   "P051",
+   "P122",
+   "P325",
+   "P230",
+   "P310",
+   "P234"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000264"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-63",
+  "material_raw": "Steatite",
+  "signs": [
+   "P301",
+   "P230",
+   "P120",
+   "P230"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000265"
+ },
+ {
+  "area_section": "DKG",
+  "cisi_object": "M-64",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P147",
+   "P316",
+   "P120",
+   "P050",
+   "P124"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000266"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-65",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P050",
+   "P144",
+   "P121",
+   "P316",
+   "P289"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000267"
+ },
+ {
+  "area_section": "HRB",
+  "cisi_object": "M-66",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P276",
+   "P060",
+   "P122",
+   "P103",
+   "P206",
+   "P091",
+   "P324"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000268"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-67",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P342",
+   "P154",
+   "P120",
+   "P040",
+   "P289",
+   "P223"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000269"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-68",
+  "material_raw": "Steatite",
+  "signs": [
+   "P013",
+   "P324",
+   "P194",
+   "P326",
+   "P120",
+   "P160",
+   "P260",
+   "P047"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000270"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-69",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P364",
+   "P056",
+   "P120",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000271"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-7",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P352",
+   "P011",
+   "P324",
+   "P154",
+   "P009",
+   "P154",
+   "P175",
+   "P062",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000210"
+ },
+ {
+  "area_section": "HR-",
+  "cisi_object": "M-70",
+  "material_raw": "Steatite",
+  "signs": [
+   "P051",
+   "P145",
+   "P122",
+   "P086",
+   "P256"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000272"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-71",
+  "material_raw": "Steatite",
+  "signs": [
+   "P001",
+   "P108",
+   "P031",
+   "P122",
+   "P086",
+   "P023"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000273"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-72",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P073",
+   "P316",
+   "P011",
+   "P125",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000274"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-73",
+  "material_raw": "Steatite",
+  "signs": [
+   "P098",
+   "P217",
+   "P181",
+   "P000"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000275"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-74",
+  "material_raw": "Steatite",
+  "signs": [
+   "P280",
+   "P289",
+   "P316",
+   "P011"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000276"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-75",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P050",
+   "P124",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000277"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-77",
+  "material_raw": "Steatite",
+  "signs": [
+   "P366",
+   "P086",
+   "P364",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000278"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-78",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P043",
+   "P145",
+   "P226"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000279"
+ },
+ {
+  "area_section": "DKG. (N)",
+  "cisi_object": "M-79",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P012",
+   "P062",
+   "P058",
+   "P122",
+   "P385",
+   "P247"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000280"
+ },
+ {
+  "area_section": "VSA",
+  "cisi_object": "M-8",
+  "material_raw": "Steatite",
+  "signs": [
+   "P316",
+   "P011",
+   "P270"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000211"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-80",
+  "material_raw": "Steatite",
+  "signs": [
+   "P004",
+   "P123",
+   "P120",
+   "P202",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000281"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-81",
+  "material_raw": "Steatite",
+  "signs": [
+   "P301",
+   "P230",
+   "P062",
+   "P122",
+   "P268",
+   "P268",
+   "P217"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000282"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-82",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P053",
+   "P122",
+   "P082",
+   "P230",
+   "P086"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000283"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-83",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P128",
+   "P180"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000284"
+ },
+ {
+  "area_section": "DKC",
+  "cisi_object": "M-84",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P335",
+   "P062",
+   "P121",
+   "P202",
+   "P154"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000285"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-85",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P058",
+   "P325",
+   "P251",
+   "P070"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000286"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-86",
+  "material_raw": "Steatite",
+  "signs": [
+   "P217",
+   "P147",
+   "P316",
+   "P056",
+   "P122",
+   "P378",
+   "P310"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000287"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-87",
+  "material_raw": "Steatite",
+  "signs": [
+   "P098",
+   "P178",
+   "P020"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000288"
+ },
+ {
+  "area_section": "DKB",
+  "cisi_object": "M-88",
+  "material_raw": "Steatite",
+  "signs": [
+   "P301",
+   "P110",
+   "P058"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000289"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-89",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P358",
+   "P313",
+   "P145",
+   "P060"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000290"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-9",
+  "material_raw": "Steatite",
+  "signs": [
+   "P144",
+   "P205",
+   "P327"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000212"
+ },
+ {
+  "area_section": "DK-",
+  "cisi_object": "M-90",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P349",
+   "P139",
+   "P144",
+   "P122",
+   "P385"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000291"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-91",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P009",
+   "P230",
+   "P050",
+   "P145",
+   "P122",
+   "P385",
+   "P073",
+   "P095"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000292"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-92",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P075",
+   "P215",
+   "P091",
+   "P122",
+   "P369",
+   "P253"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000293"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-93",
+  "material_raw": "Steatite",
+  "signs": [
+   "P004",
+   "P123",
+   "P062",
+   "P325",
+   "P043"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000294"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-94",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P086",
+   "P276",
+   "P050",
+   "P123"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000295"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-95",
+  "material_raw": "Steatite",
+  "signs": [
+   "P086",
+   "P123",
+   "P122",
+   "P040",
+   "P342"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000296"
+ },
+ {
+  "area_section": "SD-",
+  "cisi_object": "M-96",
+  "material_raw": "Steatite",
+  "signs": [
+   "P004",
+   "P124"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000297"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-97",
+  "material_raw": "Steatite",
+  "signs": [
+   "P004",
+   "P188",
+   "P073"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000298"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-98",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P288",
+   "P127"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000299"
+ },
+ {
+  "area_section": "DKG. (S)",
+  "cisi_object": "M-99",
+  "material_raw": "Steatite",
+  "signs": [
+   "P324",
+   "P353",
+   "P122",
+   "P202",
+   "P038"
+  ],
+  "site": "Mohenjo-daro",
+  "text_id": "GLI-IND-0000300"
+ }
+]

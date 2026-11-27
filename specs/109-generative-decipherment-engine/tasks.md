@@ -32,17 +32,31 @@
 
 ## Stage 2 — Structure induction and context channel
 
-- [ ] T201 Part 2 executed under registration §3:
-  freeze filed; four induction families run; stability
+- [x] T201 Part 2 executed under registration §3 for
+  the families the Stage 1 preflight licensed
+  (positional classes and numerical/metrological;
+  segmentation and recurrent partials not licensed
+  and not run): freeze filed; induction run; stability
   computed; generated-hypotheses register opened;
-  STABLE structures filed to the existing gates;
-  outcome record filed; TC-109-04 run.
-- [ ] T202 Part 3 executed under registration §4:
-  both joins built and validated (STOP filed on any
-  mismatch); context term and null computed;
-  out-of-site validation run; channel record filed
-  with its verdict and the no-iconography label;
-  TC-109-05 run.
+  108 STABLE structures filed to Spec 091's anchor
+  comparison; outcome record filed; TC-109-04 run.
+  Verdict POSITIVE (positional family; the numerical
+  family's three checks not supported, stably).
+  Records: records/stage-2-freeze-2026-11-27.md,
+  records/stage-2-part2-outcome-2026-11-27.md,
+  records/stage-2-close-2026-11-27.md.
+- [x] T202 Part 3 executed under registration §4:
+  both joins built and validated exactly (no STOP);
+  context terms, nulls, and caps computed for the
+  site, material, and find-context families;
+  out-of-site validation run in both directions;
+  channel record filed with its verdict and the
+  no-iconography label; TC-109-05 run. Verdict
+  CHANNEL NULL (pooled Δ 0.00888 against null p99
+  0.03371); the context term is withdrawn from this
+  study's scoring. Records:
+  records/stage-2-part3-channel-2026-11-27.md,
+  records/stage-2-close-2026-11-27.md.
 
 ## Stage 3 — Assignment search
 
