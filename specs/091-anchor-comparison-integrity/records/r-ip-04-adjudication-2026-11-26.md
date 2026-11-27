@@ -124,3 +124,115 @@ Until R-IP-04 is fully ruled, the converted ledger's E2
 stands as FAILS on the recorded divergences as qualified
 by the rulings above, E3 keeps refusing it, and E6
 (external reproduction, currently 0 of 3) cannot run.
+
+## Item 1 refinement — Rendering rule for the 1,051 (ruled and confirmed, 2026-11-27)
+
+**Ruling, in the owner's words:** "Refine item 1:
+rendering rule for the 1,051, standing for true
+absences."
+
+**Provenance:** ruled by the owner in the VEXA chat,
+2026-11-27 02:37 ET; relayed to the Glossa-Lab chat; and
+confirmed by the owner in the Glossa-Lab chat,
+2026-11-27 03:09:53 ET ("Confirm and record the item 1
+refinement").
+
+**Scope.** The 1,051 list-shaped falsifiers are
+adjudicated by a list-to-string rendering rule, stated
+in the import profile and checked by the verbatim
+audit; they are not recorded as absences. The
+standing-divergence ruling of item 1 applies only to
+the true absences: the 9 null falsifiers and the
+annotation entries' falsifier share (the C6 line of
+each annotation entry, 31 in all).
+
+**Effect and supersession.** This refinement supersedes
+the unrefined item 1 wording ("Record all falsifier
+absences as standing divergences") for the 1,051. The
+item 1 landing above carried the 1,051 as their own
+line, present content in list shape, with their
+disposition expressly subject to this pending
+refinement; that refinement-carrying form is now
+settled by this ruling. Item 1 as it applies to the
+true absences stands unchanged.
+
+## Item 4 — Status mappings confirmed as recorded (ruled and confirmed, 2026-11-27)
+
+**Ruling, in the owner's words:** "Confirm all four
+status mappings as recorded."
+
+**Provenance:** ruled by the owner in the VEXA chat,
+2026-11-27 02:37 ET; relayed to the Glossa-Lab chat; and
+confirmed by the owner in the Glossa-Lab chat,
+2026-11-27 03:09:54 ET ("Confirm and record item 4").
+
+**Scope.** The four judgement calls stand as recorded
+in the import profile's mapping file
+(`specs/011-import-path/glossa/glossa-mapping.json` in
+AXIOVEX/vexa): draft → UNJUDGED,
+partially_supported → INCONCLUSIVE,
+unsupported → INCONCLUSIVE, superseded → UNJUDGED. The
+full mapping (8 statuses; kind annotation → Evidence,
+claim → Claim) is unchanged.
+
+**Effect.** With this ruling, all four R-IP-04 items
+are ruled and confirmed. Nothing in the mapping
+changes; the item closes the adjudication's open
+questions.
+
+## Application on the VEXA side — The applied state (2026-11-27)
+
+Recorded from the VEXA chat's completion report. The
+four rulings were applied at AXIOVEX/vexa main
+`b78c07bd` (application commit `961227b`, record commit
+`b78c07b`), remote-verified there.
+
+- **Item 1 as refined.** The falsifier census at the
+  source head found 1,051 lists carrying 1,107
+  elements, all strings, no empty lists, no element
+  containing a newline, so the rendering rule is a
+  newline join (single-element lists render as their
+  element), implemented as a profile-gated capability
+  in import_ledger 1.2.8 (field_renderings,
+  list_to_string; one implementation serves the
+  converter and the coverage audit). The list-shaped
+  C6 leg cleared on its merits (D-RENDER ×1,051). The
+  true absences stand: 9 null claims and 31
+  annotations.
+- **Item 2.** The shipped positional projection did not
+  fit this ledger's shape (source_of_record sits at
+  position 0 on 343 claims, position 1 on 717), so a
+  sibling form was implemented under the same
+  discipline: member-value select with exactly-one
+  match required, the date taken from the entry itself
+  (the source record carries no date; the basis is
+  stated in the profile). C7 ×1,091 cleared on their
+  merits.
+- **Item 3.** Annotations convert under their own kind
+  profile (statement and status omitted rather than
+  nulled; falsifier absence rendered as the explicit
+  null, standing under item 1; provenance projected
+  from the sidecar). C2 ×31 and C4 ×31 remain E2 lines
+  because the validator is kind-blind and no statement
+  or status was derived (deriving one was not the
+  ruling); they stand as the named population's declared
+  shape under its own profile.
+- **Item 4.** No change; the regenerated mapping file
+  is byte-identical to the E5-cited hash, and the
+  honesty counts match on both sides.
+
+**New E2 state.** The converted ledger fails with
+exactly 102 lines (C6 ×40, C2 ×31, C4 ×31), down from
+2,244. The verbatim audit passes 24,752 comparisons
+with 0 mismatches; coverage accounting is identical to
+E5; E3 still refuses the converted ledger; the
+comparison verdict is unchanged. TC-IP-15 (the new
+capabilities' regression case) passes 8/8; all standing
+gates clear.
+
+**What remains.** E6 for this study now turns on two
+matters on this side of the record: falsifier text for
+the 40 entries standing as true absences in this
+study's own source ledger, and the annotation shape as
+a profile matter. R-IP-04 itself is complete: all four
+items ruled, confirmed, and applied.
