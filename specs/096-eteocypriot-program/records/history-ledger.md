@@ -164,3 +164,8 @@ Round N's Eteocypriot session, cross-checking the deposited v4 paper against the
 
 Rests on: `records/paper-erratum-2026-11-26-stems-count.md`; `records/eteocypriot-e1-driver.py`; `records/outcome-record-amendment-2-correction-2026-11-21.md` (RT5-05); `specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-26-round-n.md` §3.3.
 
+### 2026-11-27 - Paper version 5 candidate prepared
+
+A version 5 candidate of the program's paper was prepared for the owner's approval of the actual text and filed in the goal workspace (`eteocypriot-alignment-v5-candidate-2026-11-27.pdf`, 10 pages, SHA-256 `34f57ac9…`). It carries the correction of record from the 2026-11-26 erratum (§5.2: "sixteen entries" now reads "fifteen entries"; verified first-hand at preparation against the pinned E1 driver, hash `9ec475fd…`, whose STEMS dictionary holds exactly 15 entries) and a scrub of internal language under the owner's directive of 2026-11-27 (the spec number, the claim IDs C096-1 to C096-4, the floor IDs F-E1a/F-E1b/F-E2, the finding ID F-2, and ledger and intake vocabulary, each replaced with a plain description of the same thing, itemized in the preparation record). No number, result, verdict, or standing changes beyond the stem-count correction. The deposited v4 is untouched; nothing was deposited or sent. On the owner's text approval the paper goes to Co-scientist review before any deposit question returns to him.
+
+Rests on: `records/preparation-record-2026-11-27-v5-candidate.md`; `records/paper-erratum-2026-11-26-stems-count.md`; `records/eteocypriot-e1-driver.py`.

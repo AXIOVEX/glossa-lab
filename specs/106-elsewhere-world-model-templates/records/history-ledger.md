@@ -94,3 +94,10 @@ The three baseline templates' seed records state their domain censuses as all ze
 
 **Rests on:** `templates/indus-baseline.md`, `templates/eteocypriot-baseline.md`, `templates/meroitic-baseline.md` (errata, 2026-11-26); `records/census-audit-v2.py`; `records/census-audit-v2-output-2026-11-26.txt`; `records/census-audit-output-2026-11-25.txt` (qualification, 2026-11-26).
 
+### 2026-11-27 — PREPARATION (ELSEWHERE methods paper, version 2 candidate)
+
+**Kind:** PREPARATION. **Actor:** the paper-candidates worker, under the owner's keep-working directive of 2026-11-27 and the two standing text rules of the same day (papers carry no internal language; Co-scientist review follows text approval, before any deposit).
+
+A version 2 candidate of the ELSEWHERE methods paper was prepared for the owner's approval of the actual text and filed in the goal workspace (`elsewhere-methods-paper-v2-candidate-2026-11-27.pdf`, 8 pages, SHA-256 `dd5aa034…`). Its one substantive change states the Round N unit N-I-1 qualification at the place where the Indus gate result is stated: the gate's good outcome stands as the frozen rule's correct mechanical consequence, the scoring weights are stated not to be probabilities (row-mass witnesses 1.152023 / 1.279273 / 1.287293), and the reading of the 0.379654 difference as a normalized predictive log-loss advantage is withdrawn. One further sentence was scrubbed of internal vocabulary ("history ledgers" → "records"). No number, result, or claim changed beyond that qualification. Nothing was deposited or sent; on the owner's text approval the paper goes to Co-scientist review before any deposit question returns to him.
+
+**Rests on:** `records/preparation-record-2026-11-27-elsewhere-v2-candidate.md`; `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md` (Round N addendum, unit N-I-1).
