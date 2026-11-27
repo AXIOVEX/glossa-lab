@@ -1,0 +1,160 @@
+# Spec 107 — Claims
+
+Six claims, C107-1..C107-6, each with its falsifier and
+its does-not-establish line, in the program's claim form.
+The claims are intaken at registration through the
+sanctioned importer (spec.md, tasks T003); intake sets no
+standing, and no claim in this package carries a result
+beyond what its test cases check.
+
+**C107-1 — The loop as filed is the loop the design
+specifies.** The five-step loop registered in spec.md §2
+(explicit hypothesis sets including the absorbing
+verdicts; advance registration with falsifier, null, and
+control; ranking by expected information gain per unit
+cost with the sensitivity printed beside the ranking;
+blinded or held-out scoring wherever the test allows,
+under the five-rung preference order; a posterior trace
+with the supported / refuted / indeterminate / exhausted
+stopping rules) is the operating discipline of this
+study, and the five kill criteria of spec.md §4 are
+registered with it.
+
+*Falsifier:* a cycle of this study run under any other
+discipline; a test entering a cycle trace without a
+prior registration carrying its falsifier and verdict
+rule; a ranking record filed without its sensitivity
+statement; a kill criterion firing on the record without
+the loop closing.
+
+*Does not establish:* that the loop's rankings are
+correct, that expected information gain is measurable
+for decipherment questions, or that any test outcome
+under the loop is a decipherment result — the loop is an
+operating discipline, labelled in spec.md §1 as a
+designed transfer with no decipherment track record.
+
+**C107-2 — At the Indus corpus profile, the program's
+structural statistics are identifiable (test I-1).**
+Under the registration filed at
+`records/cycle-1-registration-2026-11-26.md` §2, two
+donor corpora of known structure (Meroitic from the
+pinned Kovetsky build; Latin from a pinned public-domain
+text), reshaped to the Indus profile (artifact count,
+token count, per-artifact length distribution,
+duplication rate) and ciphered, return — under the
+right-model condition — a G-IND-form predictor advantage
+and L3 positional-restriction recovery materially above
+the wrong-model and shuffle conditions, by the margins
+the registration fixes, at 1× scale.
+
+*Falsifier:* the registration's NEGATIVE conditions
+(right-model median advantage below the frozen 0.05
+margin for either donor, or the wrong-model or shuffle
+medians within half the right-model median), or its
+INDETERMINATE conditions (the donors' evaluations
+disagreeing; positional recovery not measurable for
+either donor while the predictor condition is positive
+for both) — each is a complete outcome of the test, and
+a NEGATIVE outcome closes the positive internal-structure
+reading of the Indus corpus at this shape as below
+identifiability.
+
+*Does not establish:* anything about the Indus language,
+its family, or any sign's value — the test calibrates
+what methods of the program's kind can extract from a
+corpus of this shape, on corpora whose structure is
+known; the Indus corpus itself is not scored by it.
+
+**C107-3 — The Meroitic corpus-wide structural facts are
+stratum-stable (test M-1).** Under the registration filed
+at `records/cycle-1-registration-2026-11-26.md` §3, the
+a-sign conformance (725/737 = 98.4% group-initial-or-sole,
+filed) and the i-sign conformance (2,857/2,880 = 99.2%
+neither-initial-nor-sole, filed), recomputed within genre
+strata over the pinned Kovetsky build, hold in the
+funerary stratum and in every other stratum carrying an
+adequate occurrence floor, at the registered 95-in-100
+tolerance.
+
+*Falsifier:* either conformance fact holding pooled but
+failing within the funerary stratum, or holding in the
+funerary stratum but failing in every other
+adequate-floor stratum — the fact is then a genre
+artifact, and the corresponding MER license narrows to
+the stratum where it holds.
+
+*Does not establish:* any affiliation, gloss, or meaning
+— the test decides whether two filed corpus-wide facts
+are facts about the language or about its funerary
+majority, and nothing further.
+
+**C107-4 — E-1 is Spec 101 executed as registered.**
+Spec 101's execution in this cycle follows its
+registration and its binding floor record
+(`specs/101-eteocypriot-next-claim/records/floor-derivation-and-outcome-registration-2026-11-22.md`)
+without amendment: preconditions P-1..P-3 discharged in
+stage order (intake with identity; candidate
+registration committed before any scoring load; freeze
+addendum carrying the complete tables and the floors
+computed by the floor record's §1.3 formula), the
+verdict returned exactly as the floor record's §1.5
+provides (SUPPORTED on both conjuncts; NOT SUPPORTED;
+or the study closing TOO THIN with C101-1 NOT TESTED),
+the target standing as declared under OD-D-1
+(enrichment, expressly not a recurrence finding), and
+the exposure statement carried verbatim in the outcome
+record.
+
+*Falsifier:* any deviation from Spec 101's registered
+design in the executed stages, as exercised by
+TC-101-01..TC-101-06 — a stage run out of order, a floor
+not equal to its §1.3 recomputation, a candidate set
+exceeding the registered cap or naming a non-recurring
+ending, a scoring run before the candidate registration
+commit, an outcome record missing the verbatim exposure
+string.
+
+*Does not establish:* C101-1's own truth — that claim is
+Spec 101's, returned by its test and adjudicated in its
+package; this claim certifies only that the execution
+was the registered one.
+
+**C107-5 — The cycle-1 trace moves nothing it does not
+license.** The posterior trace filed at cycle close
+(`records/cycle-1-trace-2026-11-26.md`) states each
+program's hypothesis standings after cycle 1, and every
+standings effect it records is licensed by a filed
+outcome record under its registration — the I-1, M-1,
+and E-1 outcome records and no other source.
+
+*Falsifier:* a standings change in the trace with no
+licensing outcome record; an outcome record claiming an
+effect its registration does not license; a tally,
+verdict, or anchor standing anywhere in the three
+programs altered by this study's landings in content.
+
+*Does not establish:* that the standings after cycle 1
+are correct — only that they are exactly the standings
+the registered outcomes produce, no more and no less.
+
+**C107-6 — The loop's kill criteria are evaluated at
+every cycle close, on the record.** Each cycle of this
+study closes with a filed evaluation of the five kill
+criteria of spec.md §4 against the cycle's trace
+(information exhaustion; total blockage; ranking
+collapse; null yield, against the minimum the cycle's
+registration set in advance; integrity tripwire), and if
+any criterion fires, the loop closes on the record and
+does not run a further cycle.
+
+*Falsifier:* a cycle closing without its kill-criteria
+evaluation; a further cycle run after a criterion has
+fired on the record; a kill evaluation that does not
+test each criterion against the filed trace.
+
+*Does not establish:* that the loop will survive its
+criteria, or that closing it would end the three
+programs — closure returns the programs to their
+pre-loop posture with the trace standing, as spec.md §4
+states.

@@ -4,14 +4,14 @@
    "by_class": {
     "closed_other": 1,
     "negative": 6,
-    "open": 1051,
+    "open": 1057,
     "positive": 2
    },
    "by_population": {
-    "bundle": 1037,
+    "bundle": 1043,
     "extracted": 23
    },
-   "total": 1060
+   "total": 1066
   },
   "domains": {
    "Anchors & readings": {
@@ -69,19 +69,19 @@
     }
    },
    "Program infrastructure": {
-    "claims": 272,
+    "claims": 278,
     "claims_by_class": {
      "closed_other": 1,
      "negative": 0,
-     "open": 271,
+     "open": 277,
      "positive": 0
     },
     "restricted_studies": 0,
-    "studies": 27,
+    "studies": 28,
     "studies_by_class": {
      "closed_other": 0,
      "negative": 0,
-     "open": 21,
+     "open": 22,
      "positive": 0,
      "unjudged": 6
     }
@@ -117,8 +117,8 @@
     "the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002",
     "without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001"
    ],
-   "present": 1051,
-   "total": 1060
+   "present": 1057,
+   "total": 1066
   },
   "judgment_call_studies": [],
   "multi_spec_claims": [
@@ -171,12 +171,12 @@
    "by_class": {
     "closed_other": 0,
     "negative": 0,
-    "open": 78,
+    "open": 79,
     "positive": 0,
     "unjudged": 28
    },
    "restricted": 1,
-   "total": 107
+   "total": 108
   },
   "unjudged_studies": [
    "001-glossa-lab-baseline",
@@ -14732,6 +14732,90 @@
    },
    {
     "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-1",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-2",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-3",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-4",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-5",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "107-active-decipherment-loop/C107-6",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": "created",
+    "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "107-active-decipherment-loop",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
     "document": "ancient_writing_and_modern_technologies_51831ac9",
     "domain": "Claim families by study line",
     "falsifier_present": false,
@@ -16758,14 +16842,30 @@
     },
     "restricted": false,
     "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "domain": "Program infrastructure",
+    "id": "107-active-decipherment-loop",
+    "judgment_call": false,
+    "kind": "study",
+    "member_counts": {
+     "closed_other": 0,
+     "negative": 0,
+     "open": 6,
+     "positive": 0,
+     "total": 6
+    },
+    "restricted": false,
+    "subdomain": "Governance, lifecycle & generated layers"
    }
   ]
  },
  "stamp": {
-  "ledger_latest_entry_date": "2026-11-25",
-  "ledger_lines": 1091,
+  "ledger_latest_entry_date": "2026-11-26",
+  "ledger_lines": 1097,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "a7235a6147112cb32d49a3c3a0ddf00b08343ff0a64321d894667ca983f3bf6b",
+  "ledger_sha256": "51f4fbbd1a96a4cd9c332bc7fa8fc65e568b6c519c008ab3d14ed3bd838ad21a",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v1"
  },
