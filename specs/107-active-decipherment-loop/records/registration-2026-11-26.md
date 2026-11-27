@@ -140,3 +140,26 @@ data.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## Completion pass (2026-11-26, same landing)
+
+- **Departure acts appended.** The three superseded settling
+  records named in §3 departed the run store in this landing;
+  their departure acts were appended to the run index through
+  `run_records.append_act` in this completion commit, naming
+  the registration commit
+  `bbde46b15daca4f7d49a9a729e53332b5b5b6c8d` as
+  `superseded_by_commit`. Each act carries both hashes of the
+  departed record: the SHA-256 of its bytes (e4d210:
+  0a04e2fe8b1ea11f81c8f88d37f922f29427261b3a80234b3f92d05b087b8091;
+  28b091: 688c79c5904d3922a520f0e8c55861404405086781f0471dac2440e515ce3735;
+  0b66a6: 4d2d5ba2509c35c93e146865be506064054b12a77192e24f736a66be75d56019)
+  and its git blob id from the pre-landing tree (e4d210:
+  874c3c2bc72b5ba296c38635c8df7540fd174e9c; 28b091:
+  606deddc6e89d653346f21aae25856df3a1eb348; 0b66a6:
+  6157a67dac2c36afa424ced760a4480e332de9f5) — §3's
+  parenthetical named the git blob ids; both kinds stand
+  here so the record is exact. The run-index completion
+  pass (build_legacy_index.py) appended 1 act and named the
+  departed records post-spec skips (folded census 97
+  entries).
