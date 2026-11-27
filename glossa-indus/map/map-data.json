@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-   "ledger_lines": 1110,
+   "ledger_sha256": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
+   "ledger_lines": 1118,
    "ledger_date": "2026-11-27",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "518479a937fc7035dcd529677f78c43a92cb5ab24af6b1778356f2458b48a407",
+   "matrix_sha256": "72e58476c8d9d4aa6895ac36706591a4010516bdef504a38699713de1d160194",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "0c4333af313e1447c57dfa0da63d3caa74ccd28f8376a26047337f9aa4777eed",
-   "comparison_sha256": "6194c08814ae760583b57b9208f955f647ed800e076b4dd81a4d15ad609ded4c",
-   "settling_canonical_sha256": "e46920a61d3a4b1845e78e74a312b9f738be42fa27b19bb93a1acb9e707a3c0e"
+   "assignment_sets_sha256": "a5de27479fed8a07665a4147edaf5e3eaedb16dae304acece5d1bef3f4c0f9ee",
+   "comparison_sha256": "4a9ba83451b912a12d7d27be8dcd2e00ecce76dc0b1b4d59d81150d4b28db619",
+   "settling_canonical_sha256": "ecf932f525a5936411971511c0f61cef7793f46d4c65c30c681887922e388459"
   }
  },
  "elements": [
@@ -68131,7 +68131,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261127T102311Z-ad74e8",
+      "record": "settling-20261127T135013Z-720cf7",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -68145,7 +68145,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261127T102312Z-07ef78",
+      "record": "settling-20261127T135013Z-97f795",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -170935,7 +170935,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "0c4333af313e1447c57dfa0da63d3caa74ccd28f8376a26047337f9aa4777eed",
+   "sha256": "a5de27479fed8a07665a4147edaf5e3eaedb16dae304acece5d1bef3f4c0f9ee",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -170979,15 +170979,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261127T102311Z-ad74e8",
+    "record": "settling-20261127T135013Z-720cf7",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-      "lines": 1110
+      "sha256": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
+      "lines": 1118
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -171038,15 +171038,15 @@
     }
    },
    {
-    "record": "settling-20261127T102312Z-07ef78",
+    "record": "settling-20261127T135013Z-97f795",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "bc601e86f7bbdc851f27494de8bb5ac03d63171797f17dd9c4533f42d1561418",
-      "lines": 1110
+      "sha256": "1dfcbd0867eb6d850702c7005387100d350f2beb12efe1552cc0a3d48192c813",
+      "lines": 1118
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -171101,7 +171101,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "6194c08814ae760583b57b9208f955f647ed800e076b4dd81a4d15ad609ded4c",
+   "sha256": "4a9ba83451b912a12d7d27be8dcd2e00ecce76dc0b1b4d59d81150d4b28db619",
    "result": {
     "claims_compared": [
      {
@@ -171349,7 +171349,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "e46920a61d3a4b1845e78e74a312b9f738be42fa27b19bb93a1acb9e707a3c0e",
+   "sha256": "ecf932f525a5936411971511c0f61cef7793f46d4c65c30c681887922e388459",
    "scenarios": [
     {
      "id": "null-over-subset",
