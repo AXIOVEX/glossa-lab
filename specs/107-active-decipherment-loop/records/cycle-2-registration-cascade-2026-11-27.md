@@ -131,3 +131,17 @@ OD-O-1 ruling), the grown ledger and its validation state, the refreshed
 settling canonicals and comparison, the new T405 run records and
 materialization, the departed records' removal, the regenerated matrix
 and maps, and the census-pin updates above.
+
+## Finalization (completion commit)
+
+The registration commit of this landing is
+`85a9b2b4344ac24f3fd48f953bd6a371e9b058dc` (branch
+`spec-107-cycle-2-registration-b`). The three departure acts were
+appended to `glossa-indus/ledger/runs/run-index.jsonl` in the completion
+commit that carries this section, each naming its record, its blob
+sha256 and git blob id (as listed under Departures above), its run id,
+and the registration commit as `superseded_by_commit`; the
+`tools/ledger/build_legacy_index.py` completion pass then appended the
+legacy entry act for re-derivation [27] (folded census 113 entries).
+With the departure accounting in place, the run store carries exactly
+the new generation: runs 907cb1, 92af7b and the ea29e2 materialization.
