@@ -162,3 +162,40 @@ via Muse) at the direction of Tristen Pierson, per constitution
 sec. VI. It compiles the round's dispositions of record; it
 adjudicates nothing beyond the paper-text items named above and
 changes no standing, class, verdict, or tally.
+
+## 5. Owner ruling, application, and deposit (addendum, 2026-11-27)
+
+The owner ruled the referred item in the Glossa-Lab chat on
+2026-11-27, under the deposit approval given the same day
+(04:05 ET):
+
+- **OD-P-4 (ruled 08:35 ET): date-bound the next-study
+  statements.** Applied, in the session's preferred wording.
+  The abstract now reads: "At this paper's reporting cutoff
+  of 23 November 2026, a next-claim study was registered but
+  not yet executed." \u00a77 opens: "As of 23 November 2026, a
+  next-claim study had been registered but not yet executed:"
+  and its prospective sentence reads: "As of 23 November 2026
+  the study was to execute only under a fresh commission, on
+  Perna-side material held as a new corpus state with the
+  frozen corpus file untouched." The study's later outcome is
+  not imported into the paper (verified: no "27 November"
+  appears in the final).
+
+**Final and deposit.** Built on tower-compute (TeX Live
+2026, three pdflatex passes, zero errors); page count
+unchanged at 10. The paper's DOI line was set to the new
+version DOI before the final build, so the deposited hash is
+the hash of record. Every changed sentence verified present
+in the rendered PDF and every replaced sentence absent; the
+internal-language sweep is clean. Final:
+`eteocypriot-alignment-v5.pdf`, 10 pages, 197,834 bytes,
+SHA-256
+`61240b582f5e93a7eb5e55d83d0034f87e500e4656e26671b58b03aca89cba39`.
+Deposited 2026-11-27 as Zenodo record **24590530**, DOI
+**10.5281/zenodo.24590530** (concept 10.5281/zenodo.24449059);
+Academia work 181628208 updated and verified byte-identical;
+the ResearchGate update is owed on a later day's budget.
+Full deposit record: the v5 addendum to
+`release-record-2026-11-22.md` in this spec's records. No
+verdict or standing moved.

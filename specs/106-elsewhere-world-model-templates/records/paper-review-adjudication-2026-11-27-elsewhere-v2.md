@@ -246,3 +246,70 @@ via Muse) at the direction of Tristen Pierson, per constitution
 sec. VI. It compiles the round's dispositions of record; it
 adjudicates nothing beyond the paper-text items named above and
 changes no standing, class, verdict, or tally.
+
+## 5. Owner rulings, application, and deposit (addendum, 2026-11-27)
+
+The owner ruled all three referred items in the Glossa-Lab chat
+on 2026-11-27, under the deposit approval given the same day
+(04:05 ET):
+
+- **OD-P-1 (ruled 08:27 ET): carry the qualification.** Applied.
+  \u00a76 gains, after the result-tally paragraph, the paragraph:
+  "This pass has a method-conformance qualification. The
+  negation follows from a statement inherited as an axiom by
+  every instance, under the seed's declared translation; that
+  statement was also used as a checker item, and it is the
+  load-bearing item of the derivation. Agreement therefore
+  checked consistency with an inherited premise, not that
+  premise against separate evidence, and the contact did not
+  satisfy the framework's literal evidence/axiom separation
+  rule. The refuted-in-ensemble status stands as a conditional
+  logical result under the declared translation, not as an
+  independent evidentiary test of the filed content: this pass
+  does not demonstrate an independent evidentiary refutation."
+  The two raising sessions' texts are reconciled into this one
+  paragraph (the Indus text's internal identifier is scrubbed;
+  no number and no other sentence changed). The abstract's
+  ensemble sentence now ends: "\u2026was refuted in all four
+  instances, a conditional refutation killed not by any
+  contested premise but by the filed content of the text
+  itself, which every instance also carried as an axiom."
+- **OD-P-2 (ruled 08:34 ET): retitle.** Applied. The title is
+  now "Elsewhere: A Framework for Testing Claims About Worlds
+  That Cannot Be Observed, Built and Exercised on Three
+  Ancient Writing Systems", and the abstract's classification
+  phrase reads "for three ancient writing systems with
+  unresolved language or reading questions (Indus,
+  Eteocypriot, and Meroitic)". Meroitic is not called an
+  undeciphered script anywhere in the title or abstract.
+- **OD-P-3 (ruled 08:35 ET): apply the Amathus fix.** Applied.
+  \u00a76 now reads: "The text in question is the Amathus
+  bilingual, whose Greek half can be read; the seed's
+  identification of the claim's long Amathus text with this
+  inscription (ICS 196) is a declared assumption of the study,
+  not a plain fact. The tested proposition, in its operational
+  form, concerned a royal dedicator and an act of dedication."
+  The "longest Eteocypriot inscription" superlative is
+  removed, and "a named private citizen" is deleted from the
+  derivation sentence, which is otherwise unchanged.
+
+**Final and deposit.** The final was built on tower-compute
+(TeX Live 2026, three pdflatex passes, zero errors) from the
+revised candidate above. The OD-P-1 paragraph carries the
+paper from 8 to **9 pages**; no other text was cut to hold
+the count, and the change is reported here as forced. Every
+changed sentence was verified present in the rendered PDF and
+every replaced sentence absent; the internal-language sweep
+is clean. One correction to the deposit brief is recorded:
+the paper carries no DOI line of its own \u2014 verified absent
+from the deposited v1 PDF's bytes and from the v2 candidate
+\u2014 so no DOI line was set; the version DOI lives on the
+Zenodo record. Final: `elsewhere-framework-v2.pdf`, 9 pages,
+133,377 bytes, SHA-256
+`2331fce2350ab7f65a0dea1b2b2be8d150648bd49027ebbfb45131c597b56dd1`.
+Deposited 2026-11-27 as Zenodo record **24590521**, DOI
+**10.5281/zenodo.24590521** (concept 10.5281/zenodo.24571024);
+Academia work 182066190 updated and verified byte-identical;
+the ResearchGate update is owed on a later day's budget.
+Full deposit record: `release-record-2026-11-27.md` in this
+spec's records. No standing, verdict, or tally moved.
