@@ -74,3 +74,25 @@ tally in any program. Execution follows in Stage 1.
 - No canonical-ledger standing moved by the cycle;
   C101-1's standing awaits the owner's
   adjudication. Cycle 2 is not commissioned.
+
+## 2026-11-27 - CORRECTION (Co-scientist Round O)
+
+- Kind: CORRECTION. Co-scientist Round O annotations filed at
+  records/round-o-conformance-annotations-2026-11-27.md: (1) I-1
+  duplication conformance — the achieved duplication rate in
+  every filed replication falls outside the registration's
+  ±0.01 tolerance around d = 20/1670 (1× medians 0.393713
+  Meroitic, 0.232934 Latin); the mechanical INDETERMINATE
+  stands, the "at Indus shape" license is qualified, and the
+  criterion-5 treatment is referred to the owner (OD-O-1);
+  (2) I-1's license is indirect method calibration, not
+  five-hypothesis discrimination (O-I-2); (3) the M-1 outcome's
+  pooling-flag explanation is corrected — the five
+  never-successor digits are document-only attestations
+  (O-I-3/O-M-1); (4) the trace's kill-criteria item 5 is
+  qualified accordingly; (5) completion crosswalk — the
+  November 26 record names in spec.md §6 and C107-5 resolve to
+  records/cycle-1-outcome-2026-11-27.md and
+  records/cycle-1-trace-2026-11-27.md (O-M-2). Adjudication:
+  specs/091-anchor-comparison-integrity/records/coscientist-sweep-adjudication-2026-11-27-round-o.md.
+  No standing, verdict, or tally moved.

@@ -84,3 +84,22 @@ Rests on: the latest records cited above, as filed in this package.
   refreshed as re_derivations[24]).
 - Record: adjudication-2026-11-27.md in this
   package's records. No other standing moved.
+
+## 2026-11-27 - CORRECTION (Co-scientist Round O)
+
+- Kind: CORRECTION. Round O unit O-E-1: the narrative outcome
+  record named by this ledger's execution entry
+  (outcome-record-2026-11-27.md) was not filed with the scoring
+  commit be6c5f41, which carried the scorer and
+  scoring-outcome.json only; scoring-outcome.json carries no
+  C101-2 exposure statement. The outcome record is now filed,
+  late and dated by its filing, in the Round O landing:
+  records/outcome-record-2026-11-27.md (exposure statement
+  verbatim; counts against floors; TC-101-01..06 crosswalk).
+  The earlier citation is corrected by this entry; the execution
+  entry's text stands as filed.
+- Round O unit O-E-2: the freeze addendum's statement that the
+  TC-101-06 closure path "was exercised, not merely read" is
+  qualified by records/tc101-06-qualification-2026-11-27.md; the
+  behavioral coverage gap stands on the record. No standing,
+  verdict, or figure changes.
