@@ -310,5 +310,42 @@ state persists until one of those fires**; it does
 not lapse, and no part of the sequence runs before
 the trigger and the completed digitisation.
 
+## Addendum 2026-11-27 — freeze-stage power-calibration adequacy (Co-scientist row C-M-14)
+
+Filed under the owner's instruction of 2026-11-27 to apply
+every unapplied Co-scientist plan, on the Round C
+adjudication of row C-M-14 (APPLY WITH MODIFICATION): forty
+concepts is not itself a power guarantee, and the G-2
+simulation is to be calibrated under detection heterogeneity
+and missingness before execution, gates unchanged. At the
+census this registration contained no heterogeneity or
+missingness provision; this addendum supplies it as a
+freeze-stage binding.
+
+When G-2 is computed at the freeze (§4), the design-time
+simulation is also run:
+
+- under heterogeneous per-concept detection rates, with the
+  rate distribution stated in the freeze record before any
+  scoring; and
+- under a stated missingness pattern, with the pattern and
+  its parameters stated in the freeze record before any
+  scoring.
+
+Both additional runs are filed with the power statement in
+the freeze record. The registered G-2 bar — at least 80%
+power at θ = 0.30, d = 0.75 for the primary statistic T in
+each family test, by the registered construction — is
+unchanged: no gate is lowered, raised, or otherwise altered
+by this addendum, and the NOT ADMINISTERED consequence of a
+gate failure is unchanged. The heterogeneity and missingness
+runs are an adequacy item: if they show the registered power
+figure does not hold under the stated conditions, that
+finding is filed with the freeze and reported as part of
+the power statement; it amends no gate by itself, and any
+design response is a new registration under the standing
+rule. The machinery precondition already registered for the
+freeze is unaffected.
+
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
