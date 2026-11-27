@@ -35,7 +35,7 @@ def _p1_records():
 
 def _p2_records():
     records = []
-    for pattern in ("specs/*/claims.json", "specs/*/aee-claims.json"):
+    for pattern in ("specs/*/claims.json", "specs/*/aee-claims.json", "specs/*/claims-*.json"):
         for path in sorted(REPO.glob(pattern)):
             data = json.loads(path.read_text(encoding="utf-8"))
             for record in data["claims"]:

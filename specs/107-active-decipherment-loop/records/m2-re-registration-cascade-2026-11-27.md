@@ -214,3 +214,16 @@ carries exactly the new generation: runs
 `settling-20261127T182329Z-0cae4b`,
 `settling-20261127T182408Z-f2168b` and the
 `settling-20261127T182440Z-f87253` materialization.
+- Addendum (same landing, after the first CI run):
+  the full backend suites single failure was
+- Addendum (same landing, after the first CI run):
+  the full backend suite's single failure was
+  `test_spec086_ledger_migration.py::test_p2_reconciliation`
+  (1 failed, 3,101 passed) — the migration test's own
+  bundle-record helper (`_p2_records`) carried the
+  same two-filename discovery the machinery amendment
+  retired, so its expected fingerprint set lacked
+  C107-12's. The helper's glob now includes
+  `specs/*/claims-*.json`, the same discovery as the
+  intake's; the test file passes 6/6 locally, and the
+  fix rides this landing's third commit.
