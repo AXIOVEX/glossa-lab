@@ -262,3 +262,5 @@ done at landing: totals **146 rows — 94 done, 31 accepted,
 0 open, 21 rejected (Indus 45, Eteocypriot 43, Meroitic 58)**.
 Nothing was published in Round O, so no post-publication wait
 runs.
+
+Landing: PR #784.
