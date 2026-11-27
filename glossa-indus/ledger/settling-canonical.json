@@ -398,14 +398,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entry is a reclassification carrying no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 091 E6 falsifier amendments (branch e6-falsifier-amendments-2026-11-27; record: specs/091-anchor-comparison-integrity/records/e6-falsifier-application-2026-11-27.md). The owner (Tristen Pierson) approved application of the E6-readiness proposal as recommended on 2026-11-27 (Glossa-Lab chat, 04:05 ET); this entry registers the falsifier amendments that approval effects in the claims ledger.",
+   "reason": "The claims ledger grew by five append-only reclassification entries, each carrying the falsifier field for its superseded claim entry: ancient_writing_and_modern_technologies_51831ac9_sign_val_0001, ancient_writing_and_modern_technologies_51831ac9_sign_val_0002, ancient_writing_and_modern_technologies_51831ac9_sign_val_0003, the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0001 and the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002, appended through glossa_lab.ledger_intake.append_entry on 2026-11-27. The falsifier texts are verbatim from the E6-readiness proposal (records/e6-readiness-proposal-2026-11-27.md, sections 4.1, 4.2, 4.3, 4.7 and 4.8), authored on 2026-11-27 under the E6-readiness preparation and provenance-marked as authored after the fact on each entry's face; the adoption supersedes R-IP-04 item 1 (as refined) in part, for these five entries only, by the owner's act. No filed line was edited, and no field other than each superseded entry's falsifier was carried.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "fd4d12e73b0df3ad2d9311772b506b1f0a9e10da4ec156f9456d24fb109d7abc",
+    "lines": 1098
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "f599a2541131adc7a35a62d978e831a245944b21b780c31c9f39e3de3522781d",
+    "lines": 1103
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries are reclassifications carrying no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "fd4d12e73b0df3ad2d9311772b506b1f0a9e10da4ec156f9456d24fb109d7abc",
-   "lines": 1098
+   "sha256_canonical": "f599a2541131adc7a35a62d978e831a245944b21b780c31c9f39e3de3522781d",
+   "lines": 1103
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
