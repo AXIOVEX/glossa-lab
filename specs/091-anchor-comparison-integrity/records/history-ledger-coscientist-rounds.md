@@ -371,3 +371,27 @@ Meroitic returned an explicit null on direct inspection, with no reopening flags
 
 Tallies: 7 units (3 APPLY, 3 APPLY WITH MODIFICATION, 1 DO NOT APPLY, 0 owner decisions). Six rows added to the recommendations ledger, all done at landing: totals 139 rows — 87 done, 31 accepted, 0 open, 21 rejected (Indus 42, Eteocypriot 41, Meroitic 56). Nothing was published; no paper is edited; no standing, verdict, or tally moves.
 
+### 2026-11-27 - Round O sweep (all three programs; records and standings only, papers excluded)
+
+Round O was a full three-program sweep under the owner's keep-working directive, run on the records and standings only (the papers are excluded; they take their own review rounds after the owner's text approval). Briefs pinned at `80484f4d` (the PR #772 merge), verified by length and checksum in the same invocation as each fill, with a guarded send re-verifying both: Indus 4,915 characters, FNV-1a `afc24f91`; Eteocypriot 5,159, `50798ec2`; Meroitic 4,798, `714007e3`. Outputs captured verbatim the same day at `OUTPUT-round-o.md` in each program's Round O folder (Indus 19,959 bytes, SHA-256 `8ba1758e…`; Eteocypriot 21,309 bytes, SHA-256 `e1bfaff0…`; Meroitic 14,295 bytes, SHA-256 `084cf3fb…`). All three sessions returned non-null. Adjudication: `records/coscientist-sweep-adjudication-2026-11-27-round-o.md`.
+
+Indus returned four units:
+
+- **O-I-1, APPLY WITH MODIFICATION, done.** The cycle-1 registration requires the achieved duplication rate to match d = 20/1670 within ±0.01, but the filed raw output's achieved rates at 1× are median 0.393713 (Meroitic) and 0.232934 (Latin), with no filed replication at any scale inside the tolerance. Discharged by `specs/107-active-decipherment-loop/records/round-o-conformance-annotations-2026-11-27.md` §§1 and 4; the criterion-5 consequence is referred to the owner as OD-O-1, not decided here.
+- **O-I-2, APPLY WITH MODIFICATION, done.** I-1's statistic is a function of the observed shape, the fixed donor streams, and the seed, identically in every target-language world, so the registration's five-hypothesis discrimination language overstates the license; I-1 stands as indirect method calibration. Discharged by the same annotations record §2.
+- **O-I-3, APPLY, done (jointly with O-M-1).** The M-1 outcome's pooling-flag explanation is corrected: the five never-successor marks never occur in funerary (or any stratum but document). Discharged by the same annotations record §3.
+- **O-I-4, DO NOT APPLY, recorded (no row).** The session's own disposition against substituting POSITIVE/NEGATIVE or moving any Indus standing from this audit is concurred in.
+
+Eteocypriot returned two units:
+
+- **O-E-1, APPLY, done.** The E-1 outcome record named by the Spec 101 history ledger and the cycle-1 trace did not exist; the scoring commit carried only the scorer and `scoring-outcome.json`, which lacks the C101-2 exposure statement TC-101-04 requires verbatim. Discharged by the late, explicitly dated `specs/101-eteocypriot-next-claim/records/outcome-record-2026-11-27.md`, by the Spec 101 history-ledger entry appended at this landing, and by the trace qualification in the Spec 107 annotations record §4; the criterion-5 treatment is referred to the owner as OD-O-2, not decided here.
+- **O-E-2, APPLY WITH MODIFICATION, done.** The freeze addendum's statement that the TC-101-06 closure path "was exercised, not merely read" overstates the filed probe, which invokes no closure routine and observes no registered effect. Discharged by `specs/101-eteocypriot-next-claim/records/tc101-06-qualification-2026-11-27.md`; the behavioral coverage gap stands on the record.
+
+Meroitic returned two units:
+
+- **O-M-1, APPLY WITH MODIFICATION, done (jointly with O-I-3).** The pooled never-successor digit class {0, 5, 6, 8, 9} is attested only in the document stratum (41 occurrences, none with a successor) and is absent from funerary and every other stratum, so its pooled statement is a document-supported positional observation. Discharged by the Spec 107 annotations record §3; counts, conformance figures, and the M-1 POSITIVE verdict untouched.
+- **O-M-2, APPLY, done.** Spec 107 `spec.md` §6 and C107-5 name `cycle-1-outcome-2026-11-26.md` and `cycle-1-trace-2026-11-26.md`, neither of which exists; the completed records are dated 2026-11-27. Discharged by the completion crosswalk at §5 of the same annotations record.
+
+The two owner referrals, OD-O-1 (the I-1 duplication nonconformance's criterion-5 treatment) and OD-O-2 (the E-1 conformance gaps' criterion-5 treatment), are recorded as referred, not decided. Landing: PR #__PRNUM__ (merge filled in at landing).
+
+Tallies: 8 units (2 APPLY, 4 APPLY WITH MODIFICATION counting O-I-3/O-M-1 once per raising program's row, 1 DO NOT APPLY, 2 owner decisions recorded inside the O-I-1 and O-E-1/O-E-2 rows). Seven rows added to the recommendations ledger, all done at landing: totals 146 rows — 94 done, 31 accepted, 0 open, 21 rejected (Indus 45, Eteocypriot 43, Meroitic 58). Nothing was published in Round O, so no post-publication wait runs; no standing, verdict, or tally moved.
