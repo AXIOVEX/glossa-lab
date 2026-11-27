@@ -571,6 +571,11 @@
    "spec_dir": "106-elsewhere-world-model-templates",
    "domain": "Program infrastructure",
    "subdomain": "Governance, lifecycle & generated layers"
+  },
+  {
+   "spec_dir": "107-active-decipherment-loop",
+   "domain": "Program infrastructure",
+   "subdomain": "Governance, lifecycle & generated layers"
   }
  ],
  "extracted_documents": [
