@@ -97,6 +97,52 @@ Stage 2 is licensed in part (Part 2 positional and
 numerical families, Part 3 channel); Stage 3 is
 blocked at its generator.
 
+**2026-11-27 — Stage 2 executed (T201, T202): the
+licensed induction families and the context
+channel.** Executed the same day under the owner's
+blanket approval and keep-working directive, in a
+fresh worktree on tower-compute
+(`spec-109-stage-2`), under the Stage 2 freeze
+committed before any computation. Part 2 ran only
+its licensed families. The positional induction
+reproduces the filed L3 table exactly, cell by cell
+over all 372 derivation marks, and extends it
+monotonically over the full corpus: 131 marks
+restricted at each registered ρ level (the levels
+induce identical sets; no measurable mark's dominant
+share falls in [0.90, 0.95)), against a shuffle-null
+mean of 2.9 restricted calls. Stability over
+duplicate-aware split halves files **108 STABLE
+(mark, ρ) structures over 55 distinct marks**
+(dominant initial 104, final 4), 2 UNSTABLE, 152
+INDETERMINATE at the half floors; per-site agreement
+over the stable structures is 160 of 160 measurable
+site cells. All 108 are filed to Spec 091's anchor
+comparison with gate filing references; Part 2's
+verdict is POSITIVE. The numerical family returns
+no structure: bounded range, positional restriction,
+and combination contiguity are each NOT SUPPORTED at
+their frozen rules, stably across halves (the
+bounded-range record carries its null-degeneracy
+disclosure on its face); the corpus holds exactly 4
+stroke-series runs, each of length 2, and the
+NUMERAL_FORMULA tag marks a counted sign on only 4
+of its 14 seals. Part 3's joins both validate
+exactly (population join: 1,670 seals, zero
+disagreements, Spec 091's site census reproduced;
+Spec 093 join: 179 pairs, census exact). The terms
+are filed per family with their nulls, caps, and
+weights under the no-iconography label, and the
+out-of-site validation returns **CHANNEL NULL**:
+pooled Δ 0.00888 against the label-permutation
+null's 99th percentile 0.03371 — context at this
+corpus does not discriminate the filed positional
+classes beyond its null, and the context term is
+withdrawn from this study's scoring (Parts 1 and 5
+run without it). TC-109-04, TC-109-05, and TC-109-03
+(replay) pass, 20/20 verification checks in all. No
+standing, verdict, or tally in any program moved.
+
 ## 2026-11-27 — G1 revision executed (T102): re-preflight FAILED, clause (i)
 
 The Stage 1 close left Part 1 blocked at its generator,

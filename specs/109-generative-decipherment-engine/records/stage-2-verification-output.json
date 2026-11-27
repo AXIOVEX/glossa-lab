@@ -1,0 +1,106 @@
+{
+ "pass": 20,
+ "total": 20,
+ "checks": [
+  {
+   "check": "TC109-04 full positional table recomputes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 derivation positional table recomputes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 half tables recompute",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 structures recompute from filed tables",
+   "pass": true,
+   "detail": "262 structures"
+  },
+  {
+   "check": "TC109-04 L3 reconciliation exact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 L3 call divergences recompute",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 every STABLE structure has a gate filing reference",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 Type-T distribution recomputes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 check-1 degeneracy is as disclosed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-04 counted tokens recompute",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 join pairs pin",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 join (b) census recomputes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 join (a) census recomputes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 site term M048 recomputes",
+   "pass": true,
+   "detail": "0.082316 vs 0.082316"
+  },
+  {
+   "check": "TC109-05 material term P276 recomputes",
+   "pass": true,
+   "detail": "0.450561 vs 0.450561"
+  },
+  {
+   "check": "TC109-05 weights are the frozen effective-N shares",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 register terms carry caps and the no-iconography label",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 no iconography field in any join row",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-05 channel verdict is the frozen rule's consequence",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "TC109-03 replay reproduces the register and raw output exactly",
+   "pass": true,
+   "detail": "register 56d2a8aa587a raw 433017fa9f5d"
+  }
+ ]
+}
