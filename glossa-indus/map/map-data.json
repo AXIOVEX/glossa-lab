@@ -3,10 +3,10 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl through glossa-indus/matrix/matrix.json and the settling records of record",
  "generated_by": "tools/ledger/generate_map.py (backend/glossa_lab/map_generate.py)",
  "header": {
-  "claims_total": 1079,
+  "claims_total": 1088,
   "claims_by_status": {
    "contradicted": 4,
-   "draft": 1055,
+   "draft": 1064,
    "partially_falsified": 1,
    "partially_supported": 3,
    "strongly_supported": 2,
@@ -55,18 +55,18 @@
    "reason": "the anchors register records no review dates for the pending validations, so they appear as a count, not as dated items (decision Q4)"
   },
   "as_of": {
-   "ledger_sha256": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
-   "ledger_lines": 1124,
+   "ledger_sha256": "542c7fa2316f9236f3fbeb2e60e3020f2d8b93652cdce28ec235f7f0b42ab77e",
+   "ledger_lines": 1133,
    "ledger_date": "2026-11-27",
    "ledger_schema": "ledger-schema v1",
    "matrix_defs": "matrix-defs v1",
    "map_defs": "map-defs v1",
    "settle_semantics": "glossa-settle-1",
-   "matrix_sha256": "9bde954442d474e7fae4e52f496ef7f33060e68ea71cba2eeb2591c511167689",
+   "matrix_sha256": "ab711f6ca3bbea2ef70b9d9e8020ff499540160f379bec4d68caa44503cc8d21",
    "anchors_register_sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
-   "assignment_sets_sha256": "d21674cfcec2d4d8ad78a53d52510f38dae70adee19b364751f8c1ca21d48623",
-   "comparison_sha256": "189a13d9173ceb2073bd4d86cad3117e1e9c931f3eb578a3dbf3b0f2576b1352",
-   "settling_canonical_sha256": "977d5dc79dd3232d073bf97addf91c81612fe6bf8a71a07bbca8400dd2e44e4d"
+   "assignment_sets_sha256": "4d4a0eba46abcecd084747d13b5565a33261f594e1df2ad2f87b962be7dc90e1",
+   "comparison_sha256": "5972d4bd2cec187007c8acb174d4ff14c52b79cfe4115c9d3cb72ccb6e959417",
+   "settling_canonical_sha256": "5e15712dba721d46c3f0703fc34a51791063b34840377c68ea6f2959d0e6c608"
   }
  },
  "elements": [
@@ -8700,6 +8700,78 @@
    "statement": "The five-item phonotactic battery, computed on the preflight-validated Meroitic basis (the development partition plus the 932 distinct example phrases, the phrases from the restored Otten custody at the pin) and the two registered ASJP family sets under the registered lean, null, and control rules, returns POSITIVE for at most one family, NEGATIVE, or INDETERMINATE as the mechanical consequence of those rules. Does not establish: a POSITIVE verdict is typological support recorded in the trace only; it is not the Spec 102 affiliation test, does not consume its gates, and does not displace Spec 097’s R3 position.",
    "status": "draft",
    "stage": null,
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-6",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 6, the Eteocypriot generator composes candidate readings for the ICS texts from the transliteration and the registered comparanda only, and ranks them by the registered rule (comparanda coverage; distributional fit as reduced at registration; prediction of the held-out forms at form level), filing a ranked candidate set per text with margins, and no record of this part carries licensing language, resolves or presumes OD-O-2, or states or implies that any check has been passed for the Eteocypriot program as a whole. Does not establish: anything about the Eteocypriot language, its affiliation, or the correctness of any candidate.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-4",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 4, the context channel joins exactly the registered inputs (the Spec 093 joined census of 179 pairs, its single-site limit carried on the channel's face; the tracked population files' per-seal site field over the 1,670-seal population; and no iconography input while the iconography sub-channel stands gated), and context enters candidate scoring only as the registered additive evidence term, capped by its own context-label permutation null, with every context score filed labelled as carrying no iconography component for as long as the sub-channel is gated. Does not establish: that context carries decipherment evidence at these sizes; the channel's own registered outcome may be that the context term discriminates nothing.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-2",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 5, the Indus assignment search (constraint propagation from the register's E-standing anchor values and Part 2's induced positional classes, then simulated annealing over the registered value inventory under registered restarts and seeds, optimizing duplicate-aware cross-validated predictive likelihood) returns a ranked candidate set of at most the registered K = 20 assignments, each carrying its penalized margin under Spec 098's frozen decide() rule computed once on the sealed 109 reserve against the frozen permutation null and the structural-only rival, and the leg's outcome is the mechanical consequence of the frozen bar over those margins. Does not establish: that a DISCRIMINATED candidate is a correct assignment; a negative outcome is a finding about the search and the information available, not about the script.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-3",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 3, the induction over the full corpus (390 marks, 1,670 artifacts) files its positional classes, segmentation boundaries, affix-like recurrent partials, and numerical/metrological subsystem analysis as generated structure hypotheses in the study's generated-hypotheses register, each with full generation provenance and its registered stability results (split-half and out-of-stratum), and each then facing the existing gates (anchor comparison; identifiability) under those gates' own registrations, induction itself moving no standing, anchor, or class. Does not establish: that any induced class, segmentation, or partial is a fact about the script, or what any count in the numerical subsystem means.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-7",
+   "statement": "No generator's output on an undeciphered system is scored under this study before that generator has passed the conformance preflight of spec.md section 2 as registered at records/registration-2026-11-27.md section 2: synthetic ground-truth recovery at the registered floors; the deciphered-control clause in its R1 form, with the Latin/Meroitic positional limitation carried on the record's face rather than passed silently; and exact two-implementation agreement on every ground-truth set and recovery figure. A preflight failure or a NOT MEASURABLE clause is filed as the leg's outcome, and the generator produces no scoreable output until a revised generator passes under a new registration. Does not establish: that a generator passing its preflight will recover anything on an undeciphered system; the preflight establishes a necessary condition for trusting its output, not a sufficient one.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-9",
+   "statement": "This study's landings move no standing, verdict, or tally in any program; every standings effect this study ever records is licensed by a filed outcome record under an existing gate's own registration (Spec 098's gate for Part 1's candidates; the anchor and candidate adjudication machinery for Parts 2, 4, and 5's outputs; no gate at all for Part 3's scores, which are inputs to other parts' scoring and nothing more), and the study's stage-close records state, per program, what moved and under which licensing record, or that nothing moved. Does not establish: that the standings after this study's stages are correct, only that they are exactly the standings the licensed outcomes produce.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-1",
+   "statement": "The five generative parts registered in spec.md section 3 and in records/registration-2026-11-27.md sections 3-7 (assignment search; sign-class and structure induction; the context channel; Meroitic gloss induction; Eteocypriot reading candidates), the shared conformance preflight of spec.md section 2, the separation of generation from adjudication, the provenance discipline of section 8, and the kill criteria of section 9 are the discovery side of this study, and no leg of this study runs under any other design. Does not establish: that any part will generate a correct candidate, that the search spaces contain the truth, or that generation at these corpus sizes can succeed; the claim registers a capability and its discipline, not an outcome.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-5",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 7, Meroitic gloss induction executes only after Spec 102's digitisation has landed and its freeze exists; it consumes Spec 102's frozen filtered vocabulary and family sets as filed, changes neither gate G-1 nor gate G-2, and returns ranked gloss candidates per form scored by prediction on the frozen partition's 33 held-out texts under permutation nulls and the wrong-family control; if Spec 102 closes NOT ADMINISTERED, this part files NOT ADMINISTERED - INPUT GATE UNMET as its outcome and does not execute. Does not establish: any affiliation verdict, which remains Spec 102's alone under its gates, and no gloss; a ranked gloss candidate is a candidate reading entering the program's candidate adjudication machinery, not a meaning.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle"
+  },
+  {
+   "kind": "claim",
+   "id": "109-generative-decipherment-engine/C109-8",
+   "statement": "Every candidate this study files carries, in its candidate record, its full generation provenance (generator identity and version pin, search state or state hash, seed, the data pins of every input, and the constraint-set version), and every filed result is reproducible by replay from its candidate records exactly (the same candidate set, the same margins), as exercised by TC-109-03 at each stage that files candidates. Does not establish: that a replayable candidate is a correct one; provenance makes generation auditable and repeatable, and is not evidence for any candidate's content.",
+   "status": "draft",
+   "stage": "created",
    "population": "bundle"
   },
   {
@@ -28738,6 +28810,105 @@
    ]
   },
   {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-1",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-1",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-2",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-2",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-3",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-3",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-4",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-4",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-5",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-5",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-6",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-6",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-7",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-7",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-8",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-8",
+    "spec.md"
+   ]
+  },
+  {
+   "from": "spec.md",
+   "to": "109-generative-decipherment-engine/C109-9",
+   "rel": "supports",
+   "rule": "R2",
+   "column_class": "documents",
+   "citations": [
+    "109-generative-decipherment-engine/C109-9",
+    "spec.md"
+   ]
+  },
+  {
    "from": "055",
    "to": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
    "rel": "opposes",
@@ -34295,6 +34466,51 @@
    "constrains": 0
   },
   "107-active-decipherment-loop/C107-12": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-6": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-4": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-2": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-3": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-7": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-9": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-1": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-5": {
+   "supports": 1,
+   "opposes": 0,
+   "constrains": 0
+  },
+  "109-generative-decipherment-engine/C109-8": {
    "supports": 1,
    "opposes": 0,
    "constrains": 0
@@ -40775,6 +40991,60 @@
     "population": "bundle",
     "status": "draft",
     "stage": null
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-6",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-4",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-2",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-3",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-7",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-9",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-1",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-5",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
+   },
+   {
+    "id": "109-generative-decipherment-engine/C109-8",
+    "population": "bundle",
+    "status": "draft",
+    "stage": "created"
    }
   ],
   "columns": [
@@ -60814,6 +61084,105 @@
     ]
    },
    {
+    "row": "109-generative-decipherment-engine/C109-1",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-1",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-2",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-2",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-3",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-3",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-4",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-4",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-5",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-5",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-6",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-6",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-7",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-7",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-8",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-8",
+     "spec.md"
+    ]
+   },
+   {
+    "row": "109-generative-decipherment-engine/C109-9",
+    "column": "spec.md",
+    "column_class": "documents",
+    "relation": "supports",
+    "rule": "R2",
+    "citations": [
+     "109-generative-decipherment-engine/C109-9",
+     "spec.md"
+    ]
+   },
+   {
     "row": "ancient_writing_and_modern_technologies_51831ac9_sign_val_0001",
     "column": "055",
     "column_class": "studies",
@@ -60981,8 +61350,8 @@
    }
   ],
   "coverage": {
-   "rows_total": 1079,
-   "rows_with_cells": 1065,
+   "rows_total": 1088,
+   "rows_with_cells": 1074,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -61340,30 +61709,30 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1602,
+   "cells_total": 1611,
    "cells_by_relation": {
-    "supports": 1595,
+    "supports": 1604,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1595,
+    "documents": 1604,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
    },
    "falsifier_coverage": {
-    "covered": 1070,
-    "total": 1079,
+    "covered": 1079,
+    "total": 1088,
     "by_population": {
      "extracted": {
       "covered": 14,
       "total": 23
      },
      "bundle": {
-      "covered": 1056,
-      "total": 1056
+      "covered": 1065,
+      "total": 1065
      }
     }
    },
@@ -66408,8 +66777,8 @@
    }
   },
   "matrix_coverage": {
-   "rows_total": 1079,
-   "rows_with_cells": 1065,
+   "rows_total": 1088,
+   "rows_with_cells": 1074,
    "empty_rows": [
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
     "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -66767,15 +67136,15 @@
     ],
     "corpus_texts": []
    },
-   "cells_total": 1602,
+   "cells_total": 1611,
    "cells_by_relation": {
-    "supports": 1595,
+    "supports": 1604,
     "opposes": 7,
     "constrains": 0
    },
    "cells_by_class": {
     "studies": 7,
-    "documents": 1595,
+    "documents": 1604,
     "research_checks": 0,
     "anchors": 0,
     "corpus_texts": 0
@@ -66844,7 +67213,7 @@
   "claim_population": {
    "by_status": {
     "contradicted": 4,
-    "draft": 1055,
+    "draft": 1064,
     "partially_falsified": 1,
     "partially_supported": 3,
     "strongly_supported": 2,
@@ -66854,26 +67223,26 @@
    },
    "by_stage": {
     "checked": 3,
-    "created": 1033,
+    "created": 1042,
     "explained": 8
    },
    "no_stage_recorded": 35,
    "by_population": {
-    "bundle": 1056,
+    "bundle": 1065,
     "extracted": 23
    }
   },
   "falsifier_census": {
-   "covered": 1070,
-   "total": 1079,
+   "covered": 1079,
+   "total": 1088,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1056,
-     "total": 1056
+     "covered": 1065,
+     "total": 1065
     }
    },
    "gap_claims": [
@@ -66890,8 +67259,8 @@
   },
   "aee_state_census": {
    "with_state": 0,
-   "without_state": 1079,
-   "total": 1079
+   "without_state": 1088,
+   "total": 1088
   },
   "unresolved": {
    "sign_mentions": [
@@ -68377,7 +68746,7 @@
     "runs": [
      {
       "candidate": "incumbent",
-      "record": "settling-20261127T182329Z-0cae4b",
+      "record": "settling-20261127T194911Z-13948f",
       "via_signs": [
        "mahadevan:70"
       ],
@@ -68391,7 +68760,7 @@
      },
      {
       "candidate": "full-register",
-      "record": "settling-20261127T182408Z-f2168b",
+      "record": "settling-20261127T194911Z-c44e3e",
       "via_signs": [
        "mahadevan:72",
        "mahadevan:64",
@@ -171684,6 +172053,771 @@
     },
     "sign_records": []
    }
+  },
+  "109-generative-decipherment-engine/C109-6": {
+   "id": "109-generative-decipherment-engine/C109-6",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 6, the Eteocypriot generator composes candidate readings for the ICS texts from the transliteration and the registered comparanda only, and ranks them by the registered rule (comparanda coverage; distributional fit as reduced at registration; prediction of the held-out forms at form level), filing a ranked candidate set per text with margins, and no record of this part carries licensing language, resolves or presumes OD-O-2, or states or implies that any check has been passed for the Eteocypriot program as a whole. Does not establish: anything about the Eteocypriot language, its affiliation, or the correctness of any candidate.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A candidate composed from comparanda outside the registered set; a ranking not equal to the registered rule's mechanical consequence over the filed candidate records; a licensing statement, an 'all checks passed' statement, or any resolution or presumption of OD-O-2 anywhere in this part's records; a candidate presented as a reading of a text rather than as a ranked candidate."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-6",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-6",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-6",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-6",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-4": {
+   "id": "109-generative-decipherment-engine/C109-4",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 4, the context channel joins exactly the registered inputs (the Spec 093 joined census of 179 pairs, its single-site limit carried on the channel's face; the tracked population files' per-seal site field over the 1,670-seal population; and no iconography input while the iconography sub-channel stands gated), and context enters candidate scoring only as the registered additive evidence term, capped by its own context-label permutation null, with every context score filed labelled as carrying no iconography component for as long as the sub-channel is gated. Does not establish: that context carries decipherment evidence at these sizes; the channel's own registered outcome may be that the context term discriminates nothing.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A context score computed from any input outside the registered joins; an iconography input used while Spec 100's gate stands closed, or used under any terms other than the Holdat terms of spec.md section 6; a context term lifting a candidate beyond its null's cap; a filed context score missing its no-iconography label while the sub-channel is gated; the Spec 093 census's single-site limit dropped from any record that uses the census."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-4",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-4",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-4",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-4",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-2": {
+   "id": "109-generative-decipherment-engine/C109-2",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 5, the Indus assignment search (constraint propagation from the register's E-standing anchor values and Part 2's induced positional classes, then simulated annealing over the registered value inventory under registered restarts and seeds, optimizing duplicate-aware cross-validated predictive likelihood) returns a ranked candidate set of at most the registered K = 20 assignments, each carrying its penalized margin under Spec 098's frozen decide() rule computed once on the sealed 109 reserve against the frozen permutation null and the structural-only rival, and the leg's outcome is the mechanical consequence of the frozen bar over those margins. Does not establish: that a DISCRIMINATED candidate is a correct assignment; a negative outcome is a finding about the search and the information available, not about the script.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A candidate scored on any material other than the once-opened 109 reserve; a margin computed under any rule other than the frozen decide() rule; a free choice left uncharged at the frozen 2 nats; the reserve opened more than once, or opened before the search freeze's hash commitment; a filed outcome that is not the mechanical consequence of the registered bar over the filed margins; the bar lowered, in this study or by amendment, in response to a negative outcome."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-2",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-2",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-2",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-2",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-3": {
+   "id": "109-generative-decipherment-engine/C109-3",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 3, the induction over the full corpus (390 marks, 1,670 artifacts) files its positional classes, segmentation boundaries, affix-like recurrent partials, and numerical/metrological subsystem analysis as generated structure hypotheses in the study's generated-hypotheses register, each with full generation provenance and its registered stability results (split-half and out-of-stratum), and each then facing the existing gates (anchor comparison; identifiability) under those gates' own registrations, induction itself moving no standing, anchor, or class. Does not establish: that any induced class, segmentation, or partial is a fact about the script, or what any count in the numerical subsystem means.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "An induced structure filed without its provenance or without its stability results; an induced structure whose stability checks failed filed as passing; an induction output altering any standing, anchor, or class other than through a filed gate outcome under that gate's own registration; a structure tuned after its stability failure and refiled without a new registration."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-3",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-3",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-3",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-3",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-7": {
+   "id": "109-generative-decipherment-engine/C109-7",
+   "statement": "No generator's output on an undeciphered system is scored under this study before that generator has passed the conformance preflight of spec.md section 2 as registered at records/registration-2026-11-27.md section 2: synthetic ground-truth recovery at the registered floors; the deciphered-control clause in its R1 form, with the Latin/Meroitic positional limitation carried on the record's face rather than passed silently; and exact two-implementation agreement on every ground-truth set and recovery figure. A preflight failure or a NOT MEASURABLE clause is filed as the leg's outcome, and the generator produces no scoreable output until a revised generator passes under a new registration. Does not establish: that a generator passing its preflight will recover anything on an undeciphered system; the preflight establishes a necessary condition for trusting its output, not a sufficient one.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "Any score computed on a generator's undeciphered-system output before its preflight record is filed as passed; a preflight record claiming a positional recovery figure for the Latin or Meroitic controls from the re-specified ground-truth sets cycle 2 filed (1 mark and 0 marks against the floor of 5); a recovery figure on which the two implementations disagree, filed as a pass."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-7",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-7",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-7",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-7",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-9": {
+   "id": "109-generative-decipherment-engine/C109-9",
+   "statement": "This study's landings move no standing, verdict, or tally in any program; every standings effect this study ever records is licensed by a filed outcome record under an existing gate's own registration (Spec 098's gate for Part 1's candidates; the anchor and candidate adjudication machinery for Parts 2, 4, and 5's outputs; no gate at all for Part 3's scores, which are inputs to other parts' scoring and nothing more), and the study's stage-close records state, per program, what moved and under which licensing record, or that nothing moved. Does not establish: that the standings after this study's stages are correct, only that they are exactly the standings the licensed outcomes produce.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A standing, verdict, tally, anchor, or class altered in content by any landing of this study outside a licensing outcome record of an existing gate; a stage-close record claiming an effect no licensing record supports; a candidate of this study acquiring a standing other than through the program's standing machinery acting on a filed gate outcome."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-9",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-9",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-9",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-9",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-1": {
+   "id": "109-generative-decipherment-engine/C109-1",
+   "statement": "The five generative parts registered in spec.md section 3 and in records/registration-2026-11-27.md sections 3-7 (assignment search; sign-class and structure induction; the context channel; Meroitic gloss induction; Eteocypriot reading candidates), the shared conformance preflight of spec.md section 2, the separation of generation from adjudication, the provenance discipline of section 8, and the kill criteria of section 9 are the discovery side of this study, and no leg of this study runs under any other design. Does not establish: that any part will generate a correct candidate, that the search spaces contain the truth, or that generation at these corpus sizes can succeed; the claim registers a capability and its discipline, not an outcome.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A leg of this study executed under a design other than its registration; a generated candidate entering any record without its full generation provenance; a candidate of this study presented anywhere as a reading, a gloss, or a decipherment rather than as a ranked candidate with margins; a kill criterion firing on the record without the affected part closing."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-1",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-1",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-1",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-1",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-5": {
+   "id": "109-generative-decipherment-engine/C109-5",
+   "statement": "Under the registration filed at records/registration-2026-11-27.md section 7, Meroitic gloss induction executes only after Spec 102's digitisation has landed and its freeze exists; it consumes Spec 102's frozen filtered vocabulary and family sets as filed, changes neither gate G-1 nor gate G-2, and returns ranked gloss candidates per form scored by prediction on the frozen partition's 33 held-out texts under permutation nulls and the wrong-family control; if Spec 102 closes NOT ADMINISTERED, this part files NOT ADMINISTERED - INPUT GATE UNMET as its outcome and does not execute. Does not establish: any affiliation verdict, which remains Spec 102's alone under its gates, and no gloss; a ranked gloss candidate is a candidate reading entering the program's candidate adjudication machinery, not a meaning.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "Gloss induction executed before Spec 102's freeze exists, or on any vocabulary other than the frozen one; a gate of Spec 102 amended, waived, or routed around by this study; vocabulary sourced elsewhere after a NOT ADMINISTERED close; a candidate scored on development material under a held-out label; the wrong-family control discriminating as strongly as the target family without the part closing under kill criterion 3."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-5",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-5",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-5",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-5",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
+  },
+  "109-generative-decipherment-engine/C109-8": {
+   "id": "109-generative-decipherment-engine/C109-8",
+   "statement": "Every candidate this study files carries, in its candidate record, its full generation provenance (generator identity and version pin, search state or state hash, seed, the data pins of every input, and the constraint-set version), and every filed result is reproducible by replay from its candidate records exactly (the same candidate set, the same margins), as exercised by TC-109-03 at each stage that files candidates. Does not establish: that a replayable candidate is a correct one; provenance makes generation auditable and repeatable, and is not evidence for any candidate's content.",
+   "status": "draft",
+   "stage": "created",
+   "population": "bundle",
+   "author": null,
+   "author_kind": null,
+   "as_of": null,
+   "date": "2026-11-27",
+   "falsifier": [
+    "A filed candidate with any provenance field missing; a replay producing a different candidate set or different margins from the filed ones; a result filed from candidate records held anywhere other than the custody home of D-109-4 with their pins in the outcome record."
+   ],
+   "falsifier_counts": {
+    "present": 1,
+    "evaluable": null
+   },
+   "does_not_establish": null,
+   "aee_state": null,
+   "displayed_score": {
+    "state": "empty"
+   },
+   "sign_refs": [],
+   "sources": [
+    {
+     "claim_id": "C109-8",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    }
+   ],
+   "matrix_row": {
+    "cells": [
+     {
+      "row": "109-generative-decipherment-engine/C109-8",
+      "column": "spec.md",
+      "column_class": "documents",
+      "relation": "supports",
+      "rule": "R2",
+      "citations": [
+       "109-generative-decipherment-engine/C109-8",
+       "spec.md"
+      ]
+     }
+    ],
+    "empty": false
+   },
+   "settling_bearing": null,
+   "annotations": [],
+   "evidence": {
+    "column_summary": {
+     "studies": {
+      "columns": 10,
+      "cells": 0
+     },
+     "documents": {
+      "columns": 316,
+      "cells": 1
+     },
+     "research_checks": {
+      "columns": 31,
+      "cells": 0
+     },
+     "anchors": {
+      "columns": 287,
+      "cells": 0
+     },
+     "corpus_texts": {
+      "columns": 0,
+      "cells": 0
+     }
+    },
+    "source_document": {
+     "claim_id": "C109-8",
+     "document_id": null,
+     "path": "specs/109-generative-decipherment-engine/aee-claims.json",
+     "role": "source_of_record",
+     "sha256": "7af008b683c62f7280b4b2de6e087750bd5be29cfc39f076e3d2daff0ad654ba",
+     "spec": "109-generative-decipherment-engine"
+    },
+    "sign_records": []
+   }
   }
  },
  "settling": {
@@ -171691,7 +172825,7 @@
   "semantics": "glossa-settle-1",
   "assignment_sets": {
    "record": "glossa-indus/ledger/assignment-sets.json",
-   "sha256": "d21674cfcec2d4d8ad78a53d52510f38dae70adee19b364751f8c1ca21d48623",
+   "sha256": "4d4a0eba46abcecd084747d13b5565a33261f594e1df2ad2f87b962be7dc90e1",
    "register": {
     "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
     "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -171735,15 +172869,15 @@
   },
   "runs": [
    {
-    "record": "settling-20261127T182329Z-0cae4b",
+    "record": "settling-20261127T194911Z-13948f",
     "scenario": "incumbent-over-subset",
     "candidate": "incumbent",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
-      "lines": 1124
+      "sha256": "542c7fa2316f9236f3fbeb2e60e3020f2d8b93652cdce28ec235f7f0b42ab77e",
+      "lines": 1133
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -171794,15 +172928,15 @@
     }
    },
    {
-    "record": "settling-20261127T182408Z-f2168b",
+    "record": "settling-20261127T194911Z-c44e3e",
     "scenario": "full-register-over-subset",
     "candidate": "full-register",
     "semantics": "glossa-settle-1",
     "pins": {
      "ledger": {
       "path": "glossa-indus/ledger/claims.jsonl",
-      "sha256": "dad4de2db2ecf2449288e975fa1c5ba730b72b04e49a1bcdd719a14c3c03b197",
-      "lines": 1124
+      "sha256": "542c7fa2316f9236f3fbeb2e60e3020f2d8b93652cdce28ec235f7f0b42ab77e",
+      "lines": 1133
      },
      "anchors_register": {
       "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -171857,7 +172991,7 @@
   ],
   "comparison": {
    "record": "specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json",
-   "sha256": "189a13d9173ceb2073bd4d86cad3117e1e9c931f3eb578a3dbf3b0f2576b1352",
+   "sha256": "5972d4bd2cec187007c8acb174d4ff14c52b79cfe4115c9d3cb72ccb6e959417",
    "result": {
     "claims_compared": [
      {
@@ -172105,7 +173239,7 @@
   },
   "canonicals": {
    "record": "glossa-indus/ledger/settling-canonical.json",
-   "sha256": "977d5dc79dd3232d073bf97addf91c81612fe6bf8a71a07bbca8400dd2e44e4d",
+   "sha256": "5e15712dba721d46c3f0703fc34a51791063b34840377c68ea6f2959d0e6c608",
    "scenarios": [
     {
      "id": "null-over-subset",
@@ -172440,8 +173574,8 @@
   },
   "reach": {
    "claims_with_sign_refs": 1,
-   "claims_total": 1079,
-   "claims_untouched_by_any_run": 1078,
+   "claims_total": 1088,
+   "claims_untouched_by_any_run": 1087,
    "s_r3": {
     "status": "UNMEASURED",
     "class_table": null,

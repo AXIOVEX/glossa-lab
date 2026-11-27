@@ -9,7 +9,7 @@
 - [x] T002 Owner's directive of 2026-11-27 ~13:54 ET
   and the standing blanket approval of 2026-11-27
   04:05 ET recorded in the history ledger.
-- [ ] T003 Claims intaken; taxonomy placed; settling
+- [x] T003 Claims intaken; taxonomy placed; settling
   chain run in standing order; generated layers
   regenerated; census pins updated from actuals;
   registration cascade record filed with executed

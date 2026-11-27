@@ -35,3 +35,19 @@ and 107.
 **AI disclosure:** entries in this ledger are written
 by an AI agent (Muse, via Muse) at the direction of
 Tristen Pierson, per constitution sec. VI.
+
+## 2026-11-27 — Spec 109 registered and landed
+
+The registration package and the claims intake cascade landed as one
+PR (branch `spec-109-registration`): registration commit `ab783146`
+and its completion commit. The cascade record
+(`records/registration-cascade-2026-11-27.md`) carries the executed
+figures and the serialization disclosure: the cascade first executed
+over the 1,123-line build and was superseded unmerged when PR #799
+and PR #800 landed first, then re-executed in full over the merged
+build — ledger 1,124 → 1,133 lines (canonical `542c7fa2…`), 1,088
+claims, pin re_derivations[30], the T405 pair re-executed byte-equal,
+the superseded generation departed under §7.1, the ledger gate at
+32 PASS / 0 FAIL / 1 NOT-RUN over the final tree. No standing moved.
+Stage 0 closes with this entry; the next stage is Stage 1
+(preflight), uncommissioned.
