@@ -381,14 +381,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 108 registration intake (branch spec-108-world-language-graph-registration; record: specs/108-world-language-graph/records/registration-2026-11-27.md). Spec 108 (the World Language Graph: build and population under the design of 2026-11-26) was registered under the owner's act of 2026-11-27 (Glossa-Lab chat, 03:08 ET) commissioning the graph build and population as designed and adopting all eight commissioning decisions of the design as written; this entry registers its claims intake. The build and population land as their own records in the same spec; no claim in it carries a result at this entry.",
+   "reason": "The claims ledger grew by one append-only intake: the 7 claims of Spec 108 (108-world-language-graph/C108-1..7), appended through tools/ledger/import_bundle.py on 2026-11-27.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "51f4fbbd1a96a4cd9c332bc7fa8fc65e568b6c519c008ab3d14ed3bd838ad21a",
+    "lines": 1097
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "e8b4f72caa7a2f2ece7b3c7e0f9b64f3c7fe548ce09220ac8a13da881bfd2ded",
+    "lines": 1104
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The appended entries carry no sign_refs and no outcome blocks, and no scenario input changed (anchors register, corpus snapshot and phase-108 register pins in the re-executed pair's input pins are identical to the superseded generation's); both T405 result blocks are byte-equal to the superseded generation's, verified by direct comparison of the stored records."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "51f4fbbd1a96a4cd9c332bc7fa8fc65e568b6c519c008ab3d14ed3bd838ad21a",
-   "lines": 1097
+   "sha256_canonical": "e8b4f72caa7a2f2ece7b3c7e0f9b64f3c7fe548ce09220ac8a13da881bfd2ded",
+   "lines": 1104
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
