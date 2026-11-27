@@ -1,0 +1,15 @@
+{
+ "results": {
+  "WLG-01": "PASS",
+  "WLG-02": "PASS",
+  "WLG-03": "PASS",
+  "WLG-04": "PASS",
+  "WLG-05": "PASS",
+  "WLG-06": "PASS",
+  "WLG-07": "PASS",
+  "WLG-08": "PASS",
+  "WLG-09": "PASS"
+ },
+ "findings": [],
+ "verdict": "PASS"
+}

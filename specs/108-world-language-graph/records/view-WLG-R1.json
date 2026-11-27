@@ -1,0 +1,1099 @@
+{
+ "view_id": "VIEW-WLG-R1-SPHERE-ALLTIME",
+ "release_id": "WLG-R1",
+ "projection": "sphere (canonical); no 2D projection generated in this release",
+ "time_window": "all intervals (no slice applied)",
+ "layers": {
+  "attested_geometry": [],
+  "inferred_geometry": [],
+  "structural_edges": [
+   "E-B12-26",
+   "E-B12-27",
+   "E-B12-28",
+   "E-B12-29",
+   "E-B12-30",
+   "E-B12-31",
+   "E-B12-32",
+   "E-B12-33",
+   "E-B12-34",
+   "E-B12-35",
+   "E-B12-36",
+   "E-B12-37",
+   "E-B12-38",
+   "E-B12-39",
+   "E-B12-40",
+   "E-B12-41",
+   "E-B12-42",
+   "E-B12-43",
+   "E-B12-44",
+   "E-B12-45",
+   "E-B12-46",
+   "E-B12-47",
+   "E-B12-48",
+   "E-B12-49",
+   "E-B12-50",
+   "E-B12-51",
+   "E-B12-52",
+   "E-B12-53",
+   "E-B12-54",
+   "E-B5-1",
+   "E-B5-10",
+   "E-B5-11",
+   "E-B5-12",
+   "E-B5-2",
+   "E-B5-3",
+   "E-B5-4",
+   "E-B5-5",
+   "E-B5-6",
+   "E-B5-7",
+   "E-B5-8",
+   "E-B5-9"
+  ],
+  "hypothesis_edges_default": "off (shown only under a view title naming hypotheses)"
+ },
+ "never_imply_rules": "design section 3.8, rules 1-8, binding on this view",
+ "counts": {
+  "release_nodes": 148,
+  "rendered_on_sphere": 0,
+  "off_sphere_index": 148
+ },
+ "off_sphere_index": [
+  {
+   "node_id": "LANG-FAM-kartvelian",
+   "label": "Kartvelian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-FAM-mixe-zoquean",
+   "label": "Mixe-Zoquean",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-FAM-northwest-caucasian",
+   "label": "Northwest Caucasian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-afroasiatic",
+   "label": "Afroasiatic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-akkadian",
+   "label": "Akkadian",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-anatolian",
+   "label": "Anatolian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-ancient-south-arabian",
+   "label": "Ancient South Arabian languages",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-arawakan",
+   "label": "Arawakan",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-atlantic-congo",
+   "label": "Atlantic-Congo",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-austroasiatic",
+   "label": "Austroasiatic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-austronesian",
+   "label": "Austronesian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-byblos-inferred",
+   "label": "Byblos language (inferred, presumably Northwest Semitic)",
+   "status_code": "L0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-byblos-inferred"
+  },
+  {
+   "node_id": "LANG-carian",
+   "label": "Carian",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-classic-cholti-an",
+   "label": "Classic Ch'olti'an (Maya language)",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-coptic",
+   "label": "Coptic",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-cypro-minoan",
+   "label": "Cypro-Minoan language(s)",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-cypro-minoan"
+  },
+  {
+   "node_id": "LANG-dravidian",
+   "label": "Dravidian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-egyptian",
+   "label": "Egyptian",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-elamite",
+   "label": "Elamite",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-elymian",
+   "label": "Elymian",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-elymian"
+  },
+  {
+   "node_id": "LANG-eteocypriot",
+   "label": "Eteocypriot",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-eteocypriot"
+  },
+  {
+   "node_id": "LANG-etruscan",
+   "label": "Etruscan",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-garamantian",
+   "label": "Garamantian",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-garamantian"
+  },
+  {
+   "node_id": "LANG-greek",
+   "label": "Greek",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-hattic",
+   "label": "Hattic",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-hattic"
+  },
+  {
+   "node_id": "LANG-hittite",
+   "label": "Hittite",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-hurrian",
+   "label": "Hurrian",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-hurro-urartian",
+   "label": "Hurro-Urartian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-iberian",
+   "label": "Iberian language",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-iberian"
+  },
+  {
+   "node_id": "LANG-indo-european",
+   "label": "Indo-European",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-indus-inferred",
+   "label": "Indus language (inferred, unattested directly)",
+   "status_code": "L0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-indus-inferred"
+  },
+  {
+   "node_id": "LANG-isthmian",
+   "label": "Isthmian language (epi-Olmec texts)",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-isthmian"
+  },
+  {
+   "node_id": "LANG-kassite",
+   "label": "Kassite",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-kassite"
+  },
+  {
+   "node_id": "LANG-khitan",
+   "label": "Khitan",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-khitan"
+  },
+  {
+   "node_id": "LANG-lemnian",
+   "label": "Lemnian",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-lemnian"
+  },
+  {
+   "node_id": "LANG-linear-a",
+   "label": "Linear A language",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-linear-a"
+  },
+  {
+   "node_id": "LANG-lusitanian",
+   "label": "Lusitanian",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-lusitanian"
+  },
+  {
+   "node_id": "LANG-luwian",
+   "label": "Luwian",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-lycian",
+   "label": "Lycian",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-lydian",
+   "label": "Lydian",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-lydian"
+  },
+  {
+   "node_id": "LANG-mayan",
+   "label": "Mayan",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-meroitic",
+   "label": "Meroitic",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-meroitic"
+  },
+  {
+   "node_id": "LANG-messapic",
+   "label": "Messapic",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-messapic"
+  },
+  {
+   "node_id": "LANG-milyan",
+   "label": "Milyan (Lycian B)",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-milyan"
+  },
+  {
+   "node_id": "LANG-mongolic",
+   "label": "Mongolic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-na-dene",
+   "label": "Na-Dene",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-nilo-saharan",
+   "label": "Nilo-Saharan",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-north-picene",
+   "label": "North Picene",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-north-picene"
+  },
+  {
+   "node_id": "LANG-northeast-caucasian",
+   "label": "Northeast Caucasian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-northern-east-sudanic",
+   "label": "Northern East Sudanic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-nuclear-trans-new-guinea",
+   "label": "Nuclear Trans-New Guinea",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-numidian",
+   "label": "Numidian language",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-numidian"
+  },
+  {
+   "node_id": "LANG-old-chinese",
+   "label": "Old Chinese",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-old-nubian",
+   "label": "Old Nubian",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-old-persian",
+   "label": "Old Persian",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-otomanguean",
+   "label": "Otomanguean",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-pama-nyungan",
+   "label": "Pama-Nyungan",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-phoenician",
+   "label": "Phoenician",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-phrygian",
+   "label": "Phrygian",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-phrygian"
+  },
+  {
+   "node_id": "LANG-pisidian",
+   "label": "Pisidian",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-pisidian"
+  },
+  {
+   "node_id": "LANG-prakrit",
+   "label": "Prakrit",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-proto-elamite-inferred",
+   "label": "Proto-Elamite language (inferred)",
+   "status_code": "L0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-proto-elamite-inferred"
+  },
+  {
+   "node_id": "LANG-raetic",
+   "label": "Raetic",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-raetic"
+  },
+  {
+   "node_id": "LANG-rapa-nui",
+   "label": "Rapa Nui (Old Rapa Nui)",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-semitic",
+   "label": "Semitic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-sicanian",
+   "label": "Sicanian",
+   "status_code": "L0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-sicanian"
+  },
+  {
+   "node_id": "LANG-sidetic",
+   "label": "Sidetic",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-sidetic"
+  },
+  {
+   "node_id": "LANG-sino-tibetan",
+   "label": "Sino-Tibetan",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-south-picene",
+   "label": "South Picene",
+   "status_code": "L2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-south-picene"
+  },
+  {
+   "node_id": "LANG-sumerian",
+   "label": "Sumerian",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-tai-kadai",
+   "label": "Tai-Kadai",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-tartessian",
+   "label": "Tartessian language",
+   "status_code": "L1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-LANG-tartessian"
+  },
+  {
+   "node_id": "LANG-tungusic",
+   "label": "Tungusic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-tupian",
+   "label": "Tupian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-turkic",
+   "label": "Turkic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-tyrsenian",
+   "label": "Tyrsenian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-ugaritic",
+   "label": "Ugaritic",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-uralic",
+   "label": "Uralic",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-urartian",
+   "label": "Urartian",
+   "status_code": "L4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-venetic",
+   "label": "Venetic",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-yeniseian",
+   "label": "Yeniseian",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "LANG-zapotec-ancient",
+   "label": "Zapotec (ancient)",
+   "status_code": "L3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-anatolian-neolithic-farmers",
+   "label": "Anatolian / Near-Eastern early farming populations (ancient-DNA sampled)",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-bantu-expansion-communities",
+   "label": "Communities of the Bantu expansion (central, eastern and southern Africa)",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-beringian-ancestors",
+   "label": "Ancient Beringian / early Indigenous American ancestral populations",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-corded-ware-populations",
+   "label": "Corded Ware populations of Europe",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-early-european-farmers",
+   "label": "Early farming populations of Europe (ancient-DNA sampled)",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-indigenous-american-communities",
+   "label": "Indigenous American communities south of the ice sheets",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-indus-periphery-populations",
+   "label": "Indus Periphery cline populations (contact-zone samples, Narasimhan et al. 2019)",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-kordofan-nubian-communities",
+   "label": "Northern Kordofan / Darfur Nubian source communities",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-lapita-communities",
+   "label": "Lapita / early Remote Oceanian communities",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-nigeria-cameroon-source-communities",
+   "label": "Nigeria/Cameroon Grassfields source communities of the Bantu expansion",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-nile-valley-communities",
+   "label": "Nile Valley communities of the first centuries CE",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-post-ivc-south-asian-populations",
+   "label": "Post-IVC South Asian populations (ancestral north / south Indian formation)",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-taiwan-austronesian-communities",
+   "label": "Early Austronesian communities of Taiwan",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "POP-yamnaya-steppe-pastoralists",
+   "label": "Yamnaya / Pontic-Caspian steppe pastoralist populations",
+   "status_code": null,
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-anatolian-hieroglyphs",
+   "label": "Anatolian hieroglyphs (Hieroglyphic Luwian)",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-ancient-south-arabian-musnad",
+   "label": "Ancient South Arabian musnad",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-brahmi",
+   "label": "Brahmi",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-byblos-syllabary",
+   "label": "Byblos syllabary (pseudo-hieroglyphic)",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-byblos-syllabary"
+  },
+  {
+   "node_id": "SCR-carian-alphabet",
+   "label": "Carian alphabet",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-cascajal",
+   "label": "Cascajal block signs",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-cascajal"
+  },
+  {
+   "node_id": "SCR-caucasian-albanian",
+   "label": "Caucasian Albanian script",
+   "status_code": "S2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-caucasian-albanian"
+  },
+  {
+   "node_id": "SCR-cretan-hieroglyphic",
+   "label": "Cretan Hieroglyphic",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-cretan-hieroglyphic"
+  },
+  {
+   "node_id": "SCR-cuneiform",
+   "label": "Cuneiform",
+   "status_code": "S4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-cypriot-syllabary",
+   "label": "Cypriot syllabary",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-cypro-minoan",
+   "label": "Cypro-Minoan",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-cypro-minoan"
+  },
+  {
+   "node_id": "SCR-dongba",
+   "label": "Dongba (Naxi) pictographic system",
+   "status_code": "S2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-dongba"
+  },
+  {
+   "node_id": "SCR-egyptian-demotic",
+   "label": "Egyptian demotic",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-egyptian-hieratic",
+   "label": "Egyptian hieratic",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-egyptian-hieroglyphic",
+   "label": "Egyptian hieroglyphic",
+   "status_code": "S4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-etruscan-alphabet",
+   "label": "Etruscan alphabet",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-greek-alphabet",
+   "label": "Greek alphabet",
+   "status_code": "S4",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-iberian-semi-syllabary",
+   "label": "Iberian semi-syllabary",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-indus",
+   "label": "Indus script (sign system)",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-indus"
+  },
+  {
+   "node_id": "SCR-isthmian",
+   "label": "Isthmian (epi-Olmec) script",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-isthmian"
+  },
+  {
+   "node_id": "SCR-jiroft",
+   "label": "Jiroft inscriptions (authenticity disputed)",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-jiroft"
+  },
+  {
+   "node_id": "SCR-kharoshthi",
+   "label": "Kharoshthi",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-khitan-small",
+   "label": "Khitan small script",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-khitan-small"
+  },
+  {
+   "node_id": "SCR-khitan-small-script",
+   "label": "Khitan small script",
+   "status_code": "S2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-khitan-small-script"
+  },
+  {
+   "node_id": "SCR-linear-a",
+   "label": "Linear A",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-linear-a"
+  },
+  {
+   "node_id": "SCR-linear-b",
+   "label": "Linear B",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-linear-elamite",
+   "label": "Linear Elamite",
+   "status_code": "S2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-linear-elamite"
+  },
+  {
+   "node_id": "SCR-lycian-alphabet",
+   "label": "Lycian alphabet",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-maya",
+   "label": "Maya script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-meroitic",
+   "label": "Meroitic script (cursive and hieroglyphic)",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-nabataean",
+   "label": "Nabataean script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-neolithic-sign-systems",
+   "label": "Neolithic sign systems (Vinča, Jiahu, Banpo)",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-neolithic-sign-systems"
+  },
+  {
+   "node_id": "SCR-numidian-libyco-berber",
+   "label": "Numidian / Libyco-Berber script",
+   "status_code": "S2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-numidian-libyco-berber"
+  },
+  {
+   "node_id": "SCR-old-persian-cuneiform",
+   "label": "Old Persian cuneiform",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-old-turkic-runiform",
+   "label": "Old Turkic runiform",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-oracle-bone-script",
+   "label": "Oracle-bone script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-pahlavi",
+   "label": "Pahlavi script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-palmyrene",
+   "label": "Palmyrene script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-para-lydian",
+   "label": "Para-Lydian script",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-para-lydian"
+  },
+  {
+   "node_id": "SCR-phaistos",
+   "label": "Phaistos Disc script",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-phaistos"
+  },
+  {
+   "node_id": "SCR-phoenician",
+   "label": "Phoenician alphabet",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-proto-elamite",
+   "label": "Proto-Elamite script",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-proto-elamite"
+  },
+  {
+   "node_id": "SCR-proto-sinaitic",
+   "label": "Proto-Sinaitic / Proto-Canaanite",
+   "status_code": "S2",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-proto-sinaitic"
+  },
+  {
+   "node_id": "SCR-quipu",
+   "label": "Quipu (khipu) recording system",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-quipu"
+  },
+  {
+   "node_id": "SCR-rohonc",
+   "label": "Rohonc Codex writing system",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-rohonc"
+  },
+  {
+   "node_id": "SCR-rongorongo",
+   "label": "Rongorongo",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-rongorongo"
+  },
+  {
+   "node_id": "SCR-safaitic",
+   "label": "Safaitic script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-tangut",
+   "label": "Tangut script",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-tartessian",
+   "label": "Tartessian (Southwestern) script",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-tartessian"
+  },
+  {
+   "node_id": "SCR-ugaritic",
+   "label": "Ugaritic alphabet",
+   "status_code": "S3",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": null
+  },
+  {
+   "node_id": "SCR-voynich",
+   "label": "Voynich manuscript writing system",
+   "status_code": "S0",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-voynich"
+  },
+  {
+   "node_id": "SCR-zapotec",
+   "label": "Zapotec script",
+   "status_code": "S1",
+   "reason": "NO_GEOMETRY: no defensible geometry assertion is populated in this release",
+   "gap_id": "GAP-SCR-zapotec"
+  }
+ ],
+ "view_sha256": "0eb4510fa08be8d9562571d8cab7c386d4a937611f6146cf5bc7bd0045c64032"
+}
