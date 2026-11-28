@@ -602,14 +602,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T104041Z-9c65d4, full-register settling-20261128T104041Z-5585a9); both result blocks are byte-equal to the superseded generation's (settling-20261128T092257Z-31e57c, settling-20261128T092422Z-7b9cea), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T104053Z-c68cfb): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
+  },
+  {
+   "date": "2026-11-28",
+   "act": "Statisti_0004 falsifier amendment (branch statisti-amend-2026-11-28; record: specs/091-anchor-comparison-integrity/records/e6-rulings-application-2026-11-27.md, postscript of 2026-11-28). One reclassification entry was appended: ancient_writing_and_modern_technologies_51831ac9_statisti_0004/reclassification-2026-11-28, carrying a one-element list falsifier that completes the status-only retirement of 2026-11-27, under the owner's ruling of 2026-11-28 (given in the VEXA chat and confirmed by the owner directly in the Glossa-Lab chat the same morning). The amendment is filed in the established shape of the three E6 falsifier amendments: its supersedes pointer names the claim entry, and the retirement entry is not edited and stays in force for the status it carries. The retirement's substance is unchanged: the fragment stays retired as an extraction artefact (status superseded, class closed_other), and no standing, verdict or tally moved. The cascade executed twice over the grown build before any commit: the first execution, whose amendment entry pointed its supersedes at the retirement entry, was refused by the program map builder (a reclassification's supersedes names a claim entry in this ledger's semantics) and was superseded uncommitted; the tree was restored from git and the cascade re-executed in full over the corrected build, as the postscript's serialization disclosure records.",
+   "reason": "The claims ledger grew by append-only intake: one reclassification entry dated 2026-11-28 was appended through glossa_lab.ledger_intake.append_entry. The 2026-11-27 retirement was filed in status-only form with no falsifier, on the E6-readiness proposal's section 4.4 ground that the fragment states no proposition a falsifier could count against; that form left the shared ledger schema's falsifier requirement unmet for the entry. The appended falsifier is addressed to the retirement's own ground and is built from the fragment's filed does_not_establish note: it states the evidence (re-extraction of the five source passages in full showing the entry carried a stated finding with its numbers) that would show the entry was a genuine claim rather than an extraction artefact. No existing entry was modified, and no other standing, verdict or tally moved.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "0eb3f3ffe82bcf35304f01b1be52a203643814971aefe1b7c0fad3be22e16039",
+    "lines": 1167
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "2fb09e0800ba5d27e98419e2ca0e40ee3279b21f79c4a5fe09ebdfe96d2c8766",
+    "lines": 1168
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T115655Z-99df8e, full-register settling-20261128T115655Z-9492cd); both result blocks are byte-equal to the superseded generation's (settling-20261128T104041Z-9c65d4, settling-20261128T104041Z-5585a9), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T115757Z-56125e): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "0eb3f3ffe82bcf35304f01b1be52a203643814971aefe1b7c0fad3be22e16039",
-   "lines": 1167
+   "sha256_canonical": "2fb09e0800ba5d27e98419e2ca0e40ee3279b21f79c4a5fe09ebdfe96d2c8766",
+   "lines": 1168
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
