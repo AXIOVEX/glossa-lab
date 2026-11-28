@@ -228,3 +228,41 @@ cascade's own required updates changed.
 *This record was executed by an AI agent (Muse, via Muse) at
 the direction of Tristen Pierson, per constitution sec. VI. The
 rulings it records are the owner's acts, named in section 1.*
+
+## 6. Completion
+
+- The superseded generation's three run records
+  (`settling-20261128T020148Z-9f5fe0`,
+  `settling-20261128T020148Z-75cdce`,
+  `settling-20261128T020148Z-1d5c35` — the Spec 110 revision
+  registration cascade's generation) depart the store in this
+  landing's completion commit under run-defs v3 §7.1; their
+  departure acts in `glossa-indus/ledger/runs/run-index.jsonl`
+  name the records, their blob hashes, and the application
+  commit (`46843e112bc704d941f4f03c0616d8d8263ca935`) as
+  `superseded_by_commit`. The legacy-index completion pass
+  appended the legacy entry act for `re_derivations[34]`
+  (folded census 144 entries).
+- The evidence map was regenerated over the final store
+  (map-data.json SHA-256
+  `2645d24de502151515c66e2bee18608227c4e9e01033d07edee577f6fd46da01`):
+  1,107 claims; falsifier census 1,098 of 1,107 claims carry a
+  falsifier on the claim entry itself, the 9 gaps named (eight
+  now covered by dated amendment, the ninth retired); settling
+  runs carried: 2.
+- Ledger gate over the final tree: **32 PASS / 0 FAIL / 1
+  NOT-RUN — RESULT: PASS.**
+- Census pins updated from the regenerated actuals:
+  `backend/tests/test_program_map_conformance.py` (claims by
+  governing class: closed_other 2, open 1,088),
+  `backend/tests/test_spec086_map.py` (ledger lines 1,156),
+  `backend/tests/test_spec095_stage4_instantiation.py` (ledger
+  lines 1,156; reclassifications 18, enumerated in the test's
+  comment), `backend/tests/test_spec095_t403_dashboard.py`
+  (ledger lines 1,156; the T405 run of record is now
+  `settling-20261128T030313Z-22d2a2`). The two frontend e2e
+  census texts stand unchanged (1,107 claims). The five census
+  test files pass over the final tree (114 passed).
+- Both gated publications re-ran over the final tree before
+  completing: matrix RESULT PASS, map published; both
+  byte-identical to the committed artifacts.
