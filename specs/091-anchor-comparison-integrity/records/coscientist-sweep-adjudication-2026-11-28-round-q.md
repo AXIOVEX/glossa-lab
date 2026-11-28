@@ -418,3 +418,59 @@ consequence; (2) the Q-E-2 / Q-I-2 disposition of the P4
 grade basis. Nothing in this landing moves a standing,
 verdict, or tally; no paper text is edited; nothing is
 deposited; no new study is registered.
+
+## Referred dispositions — decided under the owner's recommended-answer delegation (2026-11-28)
+
+Authority: the owner's recommended-answer delegation,
+given in the Glossa-Lab chat on 2026-11-27 — questions are
+decided on the recommended answer that is most likely to
+advance the work. Both dispositions below are the
+recommended ones, decided by the coordinator under that
+delegation and reported to the owner as delegated
+decisions. They are recorded here as dated disposition
+entries; the round's original text above stands unedited.
+
+### Q-E-1 disposition — decided (2026-11-28)
+
+Disposition (2026-11-28, coordinator decision under the
+owner's recommended-answer delegation of 2026-11-27): the
+Eteocypriot continuation license (OD-O-2, ruled
+2026-11-27: continuation licensed with the O-E-1/O-E-2
+conformance qualifications standing) carries a third
+standing qualification from the Q-E-1 finding: the
+Spec 109 Stage 4 preflight's conformance is qualified —
+numerical floors met on the executed controls; the
+registered derangement construction not met (the executed
+shuffle controls were not the registered derangements in
+3 of 5 replications). The observed recoveries and the
+RANKING NULL verdict stand. No license language anywhere
+claims full conformance, and the words "preflight met in
+full" are not reinstated anywhere. Ledger row Q-E-1 is
+updated from accepted to done on this ruling.
+
+### Q-E-2 / Q-I-2 disposition — decided (2026-11-28)
+
+Disposition (2026-11-28, coordinator decision under the
+owner's recommended-answer delegation of 2026-11-27): the
+Eteocypriot P4 leg remains NOT SUPPORTED, under the
+bounded meaning already filed in the Spec 111
+correction-and-adjudication record ("no demonstrated
+positive instance"), with the explicit qualification
+recorded that content-based inference is bounded by what
+the corpus's known texts can show and the Indus content
+leg stays UNTESTABLE. The ICS 196 factual correction
+(the city honouring Ariston, son of Aristonax) already
+landed stands as the factual basis. The Spec 111
+evaluation's original bytes stay unedited; no grade in
+the claims ledger changes — this disposition fixes the
+grade's stated basis, not the grade. Ledger rows Q-E-2
+and Q-I-2 are updated to done on this ruling (Q-I-2
+already stood done on its factual correction; its status
+is retained as done and its evidence is supplemented by
+this disposition).
+
+Totals after these two dispositions: 168 rows — 123 done,
+24 accepted, 0 open, 21 rejected (Indus 54, Eteocypriot
+50, Meroitic 64). No standing, verdict, or tally in any
+spec's claims ledger moves; no paper text is edited;
+nothing is deposited; no new study is registered.
