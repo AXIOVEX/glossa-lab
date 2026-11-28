@@ -1,0 +1,29 @@
+{
+ "fixture_seed": 20261130,
+ "fixtures": {
+  "easy": {
+   "median_f1": "1",
+   "median_f1_float": 1.0,
+   "n_forms": 2400,
+   "n_gt_forms": 2193,
+   "pass_b": true,
+   "pass_c": true,
+   "planted_beats_fallback": {
+    "of": 2193,
+    "wins": 2193
+   }
+  },
+  "hard": {
+   "median_f1": "1",
+   "median_f1_float": 1.0,
+   "n_forms": 2600,
+   "n_gt_forms": 2485,
+   "pass_c": true
+  }
+ },
+ "one_piece_candidates": 0,
+ "pass": true,
+ "proof_a_no_one_piece": true,
+ "proof_b_planted_beats_fallback": true,
+ "proof_c_median_f1": true
+}

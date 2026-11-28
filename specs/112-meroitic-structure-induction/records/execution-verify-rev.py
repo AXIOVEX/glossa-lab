@@ -8,6 +8,19 @@ records/execution-harness-rev.py (no shared code but the corpus
 pins). Rational figures must agree exactly; entropies to 1e-9 with
 the same argmax. Payload verdict = exit code (0 iff all checks
 agree).
+
+Correction (2026-11-28, after the first filed run): the first
+version of this verifier recomputed the P-3 gold union with an
+attestation filter (a gold string counted only if attested as a
+development form) that the registered construction does not
+contain; the construction of record — the first execution's,
+carried unchanged — takes the gold morphology's filed corpus_form
+plus corpus_variants, with the E->o fold for the second stream
+(24 strings). The first run therefore disagreed on that one check
+(20 strings) while agreeing on precision (5/14) under both unions.
+The filter is removed; the preflight output itself was never
+affected. The correction is disclosed here and in the verdict
+record; the frozen harness is untouched.
 """
 
 import hashlib
@@ -184,21 +197,13 @@ def main():
     p3 = pf["P-3"]
     gm_path = KOVETSKY_DIR + "/data/gold_morphology.json"
     assert sha256_file(gm_path) == GOLD_MORPH_SHA256
-    assert sha256_file(OTTEN_FILE) == MERO_SHA256
-    ott_forms = set()
-    for line in open(OTTEN_FILE):
-        line = line.rstrip("\n")
-        if not line or held_out(line):
-            continue
-        ott_forms.update(tokenize(line))
     gold = set()
     for e in json.load(open(gm_path)):
         if e["form"].startswith("-") and e.get("corpus_form"):
             strs = [e["corpus_form"]] + list(e.get("corpus_variants") or [])
             for s in strs:
-                if s in ott_forms:
-                    gold.add(s)
-                    gold.add(s.replace("E", "o"))
+                gold.add(s)
+                gold.add(s.replace("E", "o"))
     check("P-3 gold union", gold == set(p3["gold_suffix_string_set"]),
           f"recomputed {len(gold)} strings")
     props = set(p3["proposal_set"])
