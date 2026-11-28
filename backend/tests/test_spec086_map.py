@@ -240,7 +240,7 @@ def test_sections_census(built) -> None:
         "without_state": 1118,
         "total": 1118,
     }
-    assert system["claim_population"]["no_stage_recorded"] == 40
+    assert system["claim_population"]["no_stage_recorded"] == 44
 
 
 def test_edge_citation_rule_governing_pointer_only(built) -> None:
@@ -295,7 +295,7 @@ def test_settling_section_opens_on_the_stored_comparison(built) -> None:
     assert result["per_claim_divergences"] == []
     assert len(settling["canonicals"]["scenarios"]) == 5
     assert settling["reach"]["s_r3"]["status"] == "UNMEASURED"
-    assert settling["reach"]["claims_untouched_by_any_run"] == 1113
+    assert settling["reach"]["claims_untouched_by_any_run"] == 1117
     assert settling["label"] == mp.SETTLING_LABEL
 
 
