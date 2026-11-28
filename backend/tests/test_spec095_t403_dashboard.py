@@ -39,7 +39,7 @@ def test_home_census_is_the_records_census(client):
     claims = _ledger_claims()
     assert body["census"]["claims"] == len(claims) == 1094
     assert body["census"]["ledger_lines"] == 1139
-    assert body["census"]["studies"] == 110
+    assert body["census"]["studies"] == 111
     anchors = json.loads(
         (REPO / "backend" / "reports" / "INDUS_FINAL_ANCHORS.json")
         .read_text(encoding="utf-8")
@@ -118,7 +118,7 @@ def test_matrix_overview_matches_the_map(client):
     body = client.get(f"{BASE}/matrix").json()
     assert body["rows_total"] == 1094
     assert body["columns_by_class"] == {
-        "studies": 10, "documents": 316, "research_checks": 31, "anchors": 287,
+        "studies": 11, "documents": 316, "research_checks": 31, "anchors": 287,
     }
 
 
