@@ -1,0 +1,122 @@
+{
+ "features": [
+  "inventory",
+  "mean_text_len",
+  "H1_bits",
+  "cond_entropy_bits",
+  "hapax_fraction",
+  "positional_restricted_share"
+ ],
+ "profiles": {
+  "indus": {
+   "texts": 1336,
+   "tokens": 5611,
+   "inventory": 372,
+   "mean_text_len": 4.199850299401198,
+   "H1_bits": 6.265061398968382,
+   "cond_entropy_bits": 3.9754992744235187,
+   "hapax_fraction": 0.22311827956989247,
+   "positional_restricted_share": 0.8412698412698413,
+   "measurable_signs_positional": 126
+  },
+  "eteocypriot": {
+   "texts": 14,
+   "tokens": 69,
+   "inventory": 35,
+   "mean_text_len": 4.928571428571429,
+   "H1_bits": 4.889119159859073,
+   "cond_entropy_bits": 0.8558769173019503,
+   "hapax_fraction": 0.5142857142857142,
+   "positional_restricted_share": 1.0,
+   "measurable_signs_positional": 1
+  },
+  "meroitic": {
+   "texts": 5195,
+   "tokens": 29843,
+   "inventory": 32,
+   "mean_text_len": 5.744562078922041,
+   "H1_bits": 4.136055454855667,
+   "cond_entropy_bits": 2.81561628423211,
+   "hapax_fraction": 0.0,
+   "positional_restricted_share": 0.21875,
+   "measurable_signs_positional": 32
+  },
+  "latin_control": {
+   "texts": 972,
+   "tokens": 138622,
+   "inventory": 27,
+   "mean_text_len": 142.61522633744855,
+   "H1_bits": 4.04890328145645,
+   "cond_entropy_bits": 3.5138592153060504,
+   "hapax_fraction": 0.0,
+   "positional_restricted_share": 0.96,
+   "measurable_signs_positional": 25
+  },
+  "synthetic_null": {
+   "texts": 1336,
+   "tokens": 5611,
+   "inventory": 323,
+   "mean_text_len": 4.199850299401198,
+   "H1_bits": 6.19479858798715,
+   "cond_entropy_bits": 4.47204654285721,
+   "hapax_fraction": 0.18885448916408668,
+   "positional_restricted_share": 0.02142857142857143,
+   "measurable_signs_positional": 140
+  }
+ },
+ "distances": {
+  "indus": {
+   "indus": 0.0,
+   "eteocypriot": 3.9231,
+   "meroitic": 3.7743,
+   "latin_control": 4.2575,
+   "synthetic_null": 2.0865
+  },
+  "eteocypriot": {
+   "indus": 3.9231,
+   "eteocypriot": 0.0,
+   "meroitic": 3.7597,
+   "latin_control": 4.3447,
+   "synthetic_null": 4.7178
+  },
+  "meroitic": {
+   "indus": 3.7743,
+   "eteocypriot": 3.7597,
+   "meroitic": 0.0,
+   "latin_control": 3.1301,
+   "synthetic_null": 3.3214
+  },
+  "latin_control": {
+   "indus": 4.2575,
+   "eteocypriot": 4.3447,
+   "meroitic": 3.1301,
+   "latin_control": 0.0,
+   "synthetic_null": 4.6675
+  },
+  "synthetic_null": {
+   "indus": 2.0865,
+   "eteocypriot": 4.7178,
+   "meroitic": 3.3214,
+   "latin_control": 4.6675,
+   "synthetic_null": 0.0
+  }
+ },
+ "within_trio_mean": 3.8190333333333335,
+ "within_trio": [
+  3.9231,
+  3.7743,
+  3.7597
+ ],
+ "trio_to_controls_mean": 3.6430000000000002,
+ "trio_to_controls": [
+  4.2575,
+  2.0865,
+  4.3447,
+  4.7178,
+  3.1301,
+  3.3214
+ ],
+ "meroitic_to_latin": 3.1301,
+ "indus_to_eteocypriot": 3.9231,
+ "note": "Descriptive, low-power: 5 systems, 6 features, one real control. Filed as the distributional leg of P1 only."
+}

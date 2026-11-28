@@ -3,16 +3,16 @@
 Generated from `glossa-indus/ledger/claims.jsonl` by `tools/ledger/generate_matrix.py`. Do not hand-edit; regenerate.
 
 Definitions: matrix-defs v1 (`glossa-indus/matrix/DEFINITIONS.md`). Ledger schema: ledger-schema v1.
-As-of: ledger sha256 `0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63`; 1144 ledger lines; ledger date 2026-11-27.
+As-of: ledger sha256 `70097435f564959f5e3e20e9b8dd5a1d96aea096ba1d7d61c0d1eb42b3f564b9`; 1147 ledger lines; ledger date 2026-11-27.
 
-Rows: 1099 claims. Cells: 1622 (supports 1615, opposes 7, constrains 0).
+Rows: 1102 claims. Cells: 1625 (supports 1618, opposes 7, constrains 0).
 
 ## Cells by column class
 
 | Class | Columns | Borne | Cells | Supports | Opposes | Constrains |
 |---|---|---|---|---|---|---|
 | studies | 10 | 4 | 7 | 0 | 7 | 0 |
-| documents | 320 | 320 | 1615 | 1615 | 0 | 0 |
+| documents | 317 | 317 | 1618 | 1618 | 0 | 0 |
 | research_checks | 31 | 0 | 0 | 0 | 0 | 0 |
 | anchors | 287 | 0 | 0 | 0 | 0 | 0 |
 | corpus_texts | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -147,9 +147,6 @@ Rows: 1099 claims. Cells: 1622 (supports 1615, opposes 7, constrains 0).
 | positional_analysis_of_indus_signs_a2bedc93 | 1 | 1 | 0 | 0 |
 | programme goal record (owner order, 2026-10-26) | 2 | 2 | 0 | 0 |
 | records/execution-2026-11-27.md | 3 | 3 | 0 | 0 |
-| records/revision-control-validation-2026-11-27.md | 1 | 1 | 0 | 0 |
-| records/revision-execution-2026-11-27.md | 3 | 3 | 0 | 0 |
-| records/revision-registration-2026-11-27.md | 1 | 1 | 0 | 0 |
 | reports/cgsa_validation_report.md | 1 | 1 | 0 | 0 |
 | reports/cluster_characterization.md | 2 | 2 | 0 | 0 |
 | reports/indus_cgsa_cluster_analysis.json | 1 | 1 | 0 | 0 |
@@ -191,7 +188,7 @@ Rows: 1099 claims. Cells: 1622 (supports 1615, opposes 7, constrains 0).
 | scripts/global_class_stability.py | 2 | 2 | 0 | 0 |
 | spec section 0 (FF-6); reports/phase441_results.json census.token_999 | 1 | 1 | 0 | 0 |
 | spec section 3 (inputs) | 1 | 1 | 0 | 0 |
-| spec.md | 326 | 326 | 0 | 0 |
+| spec.md | 334 | 334 | 0 | 0 |
 | specs/019-phase125-cross-compilation-positional/spec.md | 1 | 1 | 0 | 0 |
 | specs/021-phase130-intake-pack/spec.md | 5 | 5 | 0 | 0 |
 | specs/023-keyed-transcription-layer/spec.md | 2 | 2 | 0 | 0 |
@@ -358,20 +355,20 @@ Rows: 1099 claims. Cells: 1622 (supports 1615, opposes 7, constrains 0).
 ```text
 Matrix generation — glossa-indus/matrix/ (matrix-defs v1; ledger-schema v1)
 generated from: glossa-indus/ledger/claims.jsonl
-ledger sha256: 0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63
-ledger lines: 1144; ledger date: 2026-11-27
-rows: 1099 claims (1085 with at least one cell; 14 empty)
-columns: studies 10, documents 320, research_checks 31, anchors 287, corpus_texts 0
-cells: 1622 (supports 1615, opposes 7, constrains 0)
-cells by class: studies 7, documents 1615, research_checks 0, anchors 0, corpus_texts 0
-falsifier coverage: 1090 of 1099 claim entries carry a falsifier
-falsifier coverage by population: bundle 1076/1076, extracted 14/23
+ledger sha256: 70097435f564959f5e3e20e9b8dd5a1d96aea096ba1d7d61c0d1eb42b3f564b9
+ledger lines: 1147; ledger date: 2026-11-27
+rows: 1102 claims (1088 with at least one cell; 14 empty)
+columns: studies 10, documents 317, research_checks 31, anchors 287, corpus_texts 0
+cells: 1625 (supports 1618, opposes 7, constrains 0)
+cells by class: studies 7, documents 1618, research_checks 0, anchors 0, corpus_texts 0
+falsifier coverage: 1093 of 1102 claim entries carry a falsifier
+falsifier coverage by population: bundle 1079/1079, extracted 14/23
 Coverage
 empty rows: 14
   ancient_writing_and_modern_technologies_51831ac9_sign_val_0002, ancient_writing_and_modern_technologies_51831ac9_sign_val_0003, indus_valley_script_deciphered_from_myth_65ff0a26_manual_001, indus_valley_script_deciphered_from_myth_65ff0a26_manual_002, indus_valley_script_deciphered_from_myth_65ff0a26_manual_003, indus_valley_script_deciphered_from_myth_65ff0a26_manual_004, parpola_2010_dravidian_solution_manual_001, parpola_2010_dravidian_solution_manual_002, the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0001, the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_001, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_002, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_004, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_005
 unused columns (studies): 6 of 10
   046, 047, 051, 056, 063, 064
-unused columns (documents): 0 of 320
+unused columns (documents): 0 of 317
 unused columns (research_checks): 31 of 31
   glossa-indus/claims/research_checks/ancient_writing_and_modern_technologies_51831ac9__ancient_writing_and_modern_technologies_51831ac9_sign_val_0001.research_check.json, glossa-indus/claims/research_checks/ancient_writing_and_modern_technologies_51831ac9__ancient_writing_and_modern_technologies_51831ac9_sign_val_0002.research_check.json, glossa-indus/claims/research_checks/ancient_writing_and_modern_technologies_51831ac9__ancient_writing_and_modern_technologies_51831ac9_sign_val_0003.research_check.json, glossa-indus/claims/research_checks/ancient_writing_and_modern_technologies_51831ac9__ancient_writing_and_modern_technologies_51831ac9_statisti_0004.research_check.json, glossa-indus/claims/research_checks/farmer_sproat_witzel_2004__farmer_sproat_witzel_2004_manual_001.research_check.json, glossa-indus/claims/research_checks/fuls2023_catalog_of_indussigns_searchins_1dbdecdb__fuls2023_catalog_of_indussigns_searchins_1dbdecdb_statisti_0001.research_check.json, glossa-indus/claims/research_checks/indus_valley_script_deciphered_from_myth_65ff0a26__indus_valley_script_deciphered_from_myth_65ff0a26_critique_0001.research_check.json, glossa-indus/claims/research_checks/indus_valley_script_deciphered_from_myth_65ff0a26__indus_valley_script_deciphered_from_myth_65ff0a26_critique_0002.research_check.json, glossa-indus/claims/research_checks/indus_valley_script_deciphered_from_myth_65ff0a26__indus_valley_script_deciphered_from_myth_65ff0a26_manual_001.research_check.json, glossa-indus/claims/research_checks/indus_valley_script_deciphered_from_myth_65ff0a26__indus_valley_script_deciphered_from_myth_65ff0a26_manual_002.research_check.json, glossa-indus/claims/research_checks/indus_valley_script_deciphered_from_myth_65ff0a26__indus_valley_script_deciphered_from_myth_65ff0a26_manual_003.research_check.json, glossa-indus/claims/research_checks/indus_valley_script_deciphered_from_myth_65ff0a26__indus_valley_script_deciphered_from_myth_65ff0a26_manual_004.research_check.json, glossa-indus/claims/research_checks/parpola_2010_dravidian_solution__parpola_2010_dravidian_solution_manual_001.research_check.json, glossa-indus/claims/research_checks/parpola_2010_dravidian_solution__parpola_2010_dravidian_solution_manual_002.research_check.json, glossa-indus/claims/research_checks/positional_analysis_of_indus_signs_a2bedc93__positional_analysis_of_indus_signs_a2bedc93_statisti_0001.research_check.json, glossa-indus/claims/research_checks/the_archaeology_and_epigraphy_of_indus_w_27f45a68__the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0001.research_check.json, glossa-indus/claims/research_checks/the_archaeology_and_epigraphy_of_indus_w_27f45a68__the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002.research_check.json, glossa-indus/claims/research_checks/the_archaeology_and_epigraphy_of_indus_w_27f45a68__the_archaeology_and_epigraphy_of_indus_w_27f45a68_statisti_0003.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_critique_0003.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_critique_0004.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_001.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_002.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_003.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_004.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_005.research_check.json, glossa-indus/claims/research_checks/without_kings_or_conquests_the_indus_scr_ce9d98cc__without_kings_or_conquests_the_indus_scr_ce9d98cc_statisti_0002.research_check.json, glossa-indus/claims/research_checks/yadav_2009_arxiv__yadav_2009_arxiv_manual_001.research_check.json, glossa-indus/claims/research_checks/yadav_2009_arxiv__yadav_2009_arxiv_manual_002.research_check.json, glossa-indus/claims/research_checks/yadav_2010_ngrams__yadav_2010_ngrams_manual_001.research_check.json, glossa-indus/claims/research_checks/yadav_2010_ngrams__yadav_2010_ngrams_manual_002.research_check.json
 unused columns (anchors): 287 of 287

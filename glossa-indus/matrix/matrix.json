@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
-  "ledger_lines": 1144,
+  "ledger_sha256": "70097435f564959f5e3e20e9b8dd5a1d96aea096ba1d7d61c0d1eb42b3f564b9",
+  "ledger_lines": 1147,
   "ledger_date": "2026-11-27",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
@@ -6575,34 +6575,52 @@
    "stage": "created"
   },
   {
-   "id": "110-obfuscation-hypothesis/C110-10",
+   "id": "111-deep-antiquity-evaluation/C111-2",
    "population": "bundle",
    "status": "draft",
-   "stage": null
+   "stage": "created"
   },
   {
-   "id": "110-obfuscation-hypothesis/C110-8",
+   "id": "111-deep-antiquity-evaluation/C111-8",
    "population": "bundle",
    "status": "draft",
-   "stage": null
+   "stage": "created"
   },
   {
-   "id": "110-obfuscation-hypothesis/C110-9",
+   "id": "111-deep-antiquity-evaluation/C111-7",
    "population": "bundle",
    "status": "draft",
-   "stage": null
+   "stage": "created"
   },
   {
-   "id": "110-obfuscation-hypothesis/C110-7",
+   "id": "111-deep-antiquity-evaluation/C111-1",
    "population": "bundle",
    "status": "draft",
-   "stage": null
+   "stage": "created"
   },
   {
-   "id": "110-obfuscation-hypothesis/C110-11",
+   "id": "111-deep-antiquity-evaluation/C111-5",
    "population": "bundle",
    "status": "draft",
-   "stage": null
+   "stage": "created"
+  },
+  {
+   "id": "111-deep-antiquity-evaluation/C111-3",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "111-deep-antiquity-evaluation/C111-6",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
+  },
+  {
+   "id": "111-deep-antiquity-evaluation/C111-4",
+   "population": "bundle",
+   "status": "draft",
+   "stage": "created"
   }
  ],
  "columns": [
@@ -7104,18 +7122,6 @@
   },
   {
    "id": "records/execution-2026-11-27.md",
-   "class": "documents"
-  },
-  {
-   "id": "records/revision-control-validation-2026-11-27.md",
-   "class": "documents"
-  },
-  {
-   "id": "records/revision-execution-2026-11-27.md",
-   "class": "documents"
-  },
-  {
-   "id": "records/revision-registration-2026-11-27.md",
    "class": "documents"
   },
   {
@@ -26768,28 +26774,6 @@
    ]
   },
   {
-   "row": "110-obfuscation-hypothesis/C110-10",
-   "column": "records/revision-execution-2026-11-27.md",
-   "column_class": "documents",
-   "relation": "supports",
-   "rule": "R2",
-   "citations": [
-    "110-obfuscation-hypothesis/C110-10",
-    "records/revision-execution-2026-11-27.md"
-   ]
-  },
-  {
-   "row": "110-obfuscation-hypothesis/C110-11",
-   "column": "records/revision-execution-2026-11-27.md",
-   "column_class": "documents",
-   "relation": "supports",
-   "rule": "R2",
-   "citations": [
-    "110-obfuscation-hypothesis/C110-11",
-    "records/revision-execution-2026-11-27.md"
-   ]
-  },
-  {
    "row": "110-obfuscation-hypothesis/C110-2",
    "column": "spec.md",
    "column_class": "documents",
@@ -26845,36 +26829,91 @@
    ]
   },
   {
-   "row": "110-obfuscation-hypothesis/C110-7",
-   "column": "records/revision-registration-2026-11-27.md",
+   "row": "111-deep-antiquity-evaluation/C111-1",
+   "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "110-obfuscation-hypothesis/C110-7",
-    "records/revision-registration-2026-11-27.md"
+    "111-deep-antiquity-evaluation/C111-1",
+    "spec.md"
    ]
   },
   {
-   "row": "110-obfuscation-hypothesis/C110-8",
-   "column": "records/revision-control-validation-2026-11-27.md",
+   "row": "111-deep-antiquity-evaluation/C111-2",
+   "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "110-obfuscation-hypothesis/C110-8",
-    "records/revision-control-validation-2026-11-27.md"
+    "111-deep-antiquity-evaluation/C111-2",
+    "spec.md"
    ]
   },
   {
-   "row": "110-obfuscation-hypothesis/C110-9",
-   "column": "records/revision-execution-2026-11-27.md",
+   "row": "111-deep-antiquity-evaluation/C111-3",
+   "column": "spec.md",
    "column_class": "documents",
    "relation": "supports",
    "rule": "R2",
    "citations": [
-    "110-obfuscation-hypothesis/C110-9",
-    "records/revision-execution-2026-11-27.md"
+    "111-deep-antiquity-evaluation/C111-3",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "111-deep-antiquity-evaluation/C111-4",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "111-deep-antiquity-evaluation/C111-4",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "111-deep-antiquity-evaluation/C111-5",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "111-deep-antiquity-evaluation/C111-5",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "111-deep-antiquity-evaluation/C111-6",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "111-deep-antiquity-evaluation/C111-6",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "111-deep-antiquity-evaluation/C111-7",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "111-deep-antiquity-evaluation/C111-7",
+    "spec.md"
+   ]
+  },
+  {
+   "row": "111-deep-antiquity-evaluation/C111-8",
+   "column": "spec.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "111-deep-antiquity-evaluation/C111-8",
+    "spec.md"
    ]
   },
   {
@@ -27045,8 +27084,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1099,
-  "rows_with_cells": 1085,
+  "rows_total": 1102,
+  "rows_with_cells": 1088,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -27065,7 +27104,7 @@
   ],
   "columns_by_class": {
    "studies": 10,
-   "documents": 320,
+   "documents": 317,
    "research_checks": 31,
    "anchors": 287,
    "corpus_texts": 0
@@ -27404,30 +27443,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1622,
+  "cells_total": 1625,
   "cells_by_relation": {
-   "supports": 1615,
+   "supports": 1618,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1615,
+   "documents": 1618,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1090,
-   "total": 1099,
+   "covered": 1093,
+   "total": 1102,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1076,
-     "total": 1076
+     "covered": 1079,
+     "total": 1079
     }
    }
   },
