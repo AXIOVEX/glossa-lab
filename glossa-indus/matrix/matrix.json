@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "0eb3f3ffe82bcf35304f01b1be52a203643814971aefe1b7c0fad3be22e16039",
-  "ledger_lines": 1167,
+  "ledger_sha256": "2fb09e0800ba5d27e98419e2ca0e40ee3279b21f79c4a5fe09ebdfe96d2c8766",
+  "ledger_lines": 1168,
   "ledger_date": "2026-11-28",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"

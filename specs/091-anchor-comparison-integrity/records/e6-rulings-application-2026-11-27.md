@@ -266,3 +266,79 @@ rulings it records are the owner's acts, named in section 1.*
 - Both gated publications re-ran over the final tree before
   completing: matrix RESULT PASS, map published; both
   byte-identical to the committed artifacts.
+
+## 7. Postscript — 2026-11-28: the statisti_0004 falsifier amendment
+
+Ruled by the owner in the VEXA chat on 2026-11-28 and confirmed by
+the owner directly in the Glossa-Lab chat the same morning: the
+retirement of §2.2 is completed by a falsifier-carrying amendment,
+option (a) of the VEXA-side design note for the one line the
+status-only retirement left standing (the shared schema's C6
+falsifier requirement unmet for this entry). One reclassification
+entry was appended through `glossa_lab.ledger_intake.append_entry`:
+
+- id:
+  `ancient_writing_and_modern_technologies_51831ac9_statisti_0004/reclassification-2026-11-28`,
+  kind `reclassification`, dated 2026-11-28, superseding the claim
+  entry, carrying the status, stage, and class the retirement
+  carried (`superseded`, `adjudicated`, `closed_other`) and a
+  one-element list falsifier built from the retirement entry's own
+  `does_not_establish` artefact note and the §4.4 ground of the E6
+  proposal:
+
+  "Re-extraction of the five source passages in full showing that
+  this entry was a genuine claim: a stated finding of the
+  positional analysis, with its numbers attached, carried by this
+  entry as extracted, rather than the heading of a results section
+  whose results the extraction lost."
+
+- Serialization, disclosed: the intake was first executed with the
+  amendment's supersedes pointer naming the 2026-11-27 retirement
+  entry, as the commissioning brief literally prescribed. The
+  program map builder refused that form: a reclassification's
+  supersedes must name a claim entry, the rule both
+  `program_map_generate` and `ledger_gate` apply when they take up
+  a reclassification's carried fields, and no chained
+  reclassification exists anywhere in the ledger. Nothing had been
+  committed; the tree was restored from git and the full cascade
+  re-executed over the corrected build, with the pointer naming
+  the claim entry in the shape of the three §2.1 amendments. The
+  retirement entry is not edited and stays in force for the status
+  it carries; the amendment completes it, and the retirement's
+  substance is unchanged.
+
+- What did not move: the claim's standing (`superseded`,
+  `closed_other`) is the retirement's own; no verdict, tally, or
+  governing-class count changed (positive 10, negative 7, open
+  1,099, closed_other 2). The falsifier census, which counts
+  claim-line falsifier fields, stands unchanged at 1,109 of 1,118
+  with the same nine named gaps, this claim among them on that
+  counting rule; the amendment's falsifier rides the supersession
+  chain, the same uptake the three §2.1 amendments have.
+
+- The cascade: the ledger stands at 1,168 lines, canonical
+  SHA-256
+  `2fb09e0800ba5d27e98419e2ca0e40ee3279b21f79c4a5fe09ebdfe96d2c8766`,
+  pinned at `re_derivations[37]` of the settling canonicals.
+  Verify-canonicals passed 6 of 6 before the pin moved. The T405
+  pair was re-executed (`settling-20261128T115655Z-99df8e`
+  incumbent, `settling-20261128T115655Z-9492cd` full-register;
+  every block outside `run` and `pins` byte-equal to the
+  superseded generation's), the dual-run comparison re-filed by
+  surgical substitution (only the ledger pin moved), and the
+  materialization re-run (`settling-20261128T115757Z-56125e`;
+  assignment sets unchanged). The superseded generation's three
+  run records departed the store under run-defs v3 §7.1, their
+  departure acts naming the application commit; the legacy-index
+  completion pass appended the legacy entry act for re-derivation
+  [37]. The derived layers regenerated in dependency order:
+  matrix (1,641 cells; supports 1,634, opposes 7), evidence map
+  (1,767 elements, 1,641 edges), program map (1,118 claims, 113
+  studies, 28 unjudged, 0 judgment calls). Census pins updated
+  from the regenerated actuals: three ledger-line pins 1,167 to
+  1,168, the reclassification census 18 to 19 with its comment,
+  and the T405 run of record. Final ledger gate over the final
+  tree: 32 PASS / 0 FAIL / 1 NOT-RUN. Both gated publications
+  re-ran over the final tree byte-identical to the committed
+  artifacts. Application commit `5610e584`; the pull request and
+  merge are named in PROGRAM-STATE.
