@@ -1,11 +1,11 @@
 {
  "run": {
-  "run_id": "settling-20261128T003303Z-a36ba8",
+  "run_id": "settling-20261128T014955Z-81da8e",
   "surface": "settling",
   "tool": "run_settling.py materialize-sets",
   "tool_version": "0.1.0",
-  "started": "2026-11-28T00:33:03Z",
-  "finished": "2026-11-28T00:33:03Z",
+  "started": "2026-11-28T01:49:55Z",
+  "finished": "2026-11-28T01:49:55Z",
   "key": {
    "surface": "settling",
    "command": "materialize-sets",
@@ -13,8 +13,8 @@
    "input_pins": {
     "ledger": {
      "path": "glossa-indus/ledger/claims.jsonl",
-     "sha256": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
-     "lines": 1139
+     "sha256": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
+     "lines": 1144
     },
     "anchors_register": {
      "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -35,7 +35,7 @@
     }
    },
    "seed": "no-seed",
-   "code_version": "b4408dff506250426273080a9fb75f8744da78f7",
+   "code_version": "4d57d8c998ce0f635418ed2ca8ab9412ce830928",
    "environment_class": "vm/linux"
   },
   "determinism_class": "deterministic"
@@ -46,8 +46,8 @@
  "pins": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
-   "lines": 1139
+   "sha256": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
+   "lines": 1144
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
@@ -69,7 +69,7 @@
  },
  "result": {
   "materialized": "glossa-indus/ledger/assignment-sets.json",
-  "artifact_sha256": "09652e4cc002aa84d52ce0735ce1b00a90de174d11a838d6df3f5db599683f0b",
+  "artifact_sha256": "32d1be92412b1b72ce8f07aac06dd77b06a14e9c55f0d75e142a9ede4605f743",
   "register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
    "sha256_raw_bytes": "df0cf620a0d66b71d778300b93a91d96b2f30f23580088e6086592b32d34f569",
@@ -89,6 +89,6 @@
   "out_of_frame_records": [
    "H003"
   ],
-  "producing_run": "settling-20261128T003303Z-a36ba8"
+  "producing_run": "settling-20261128T014955Z-81da8e"
  }
 }

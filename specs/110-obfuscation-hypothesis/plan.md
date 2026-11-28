@@ -40,3 +40,15 @@ worktree; intermediates live in custody under
 `glossa-custody/spec110/` (D-110-4). Every run emits
 timestamped, countable progress lines, and every
 reported verdict is the run's own payload verdict.
+
+## Revision addendum (2026-11-27)
+
+The revised battery (records/revision-registration-2026-11-27.md)
+re-runs the study's sequence on the corrected design: revision
+registration and claims C110-7..C110-11 intaken through the standard
+cascade; the gate executed once on the registered revision seeds
+before any real corpus is scored; execution only for gate-passing
+families, patterns, and profiles; TC-110-06..08 as filed; the close
+under TC-110-04 and TC-110-05. Custody for the revision's raw output
+is glossa-custody/spec110-rev/. The first battery's plan above stands
+as the record of the first attempt.

@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
-  "ledger_lines": 1139,
+  "ledger_sha256": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
+  "ledger_lines": 1144,
   "ledger_date": "2026-11-27",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
@@ -6573,6 +6573,36 @@
    "population": "bundle",
    "status": "draft",
    "stage": "created"
+  },
+  {
+   "id": "110-obfuscation-hypothesis/C110-10",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "110-obfuscation-hypothesis/C110-8",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "110-obfuscation-hypothesis/C110-9",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "110-obfuscation-hypothesis/C110-7",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "110-obfuscation-hypothesis/C110-11",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
   }
  ],
  "columns": [
@@ -7074,6 +7104,18 @@
   },
   {
    "id": "records/execution-2026-11-27.md",
+   "class": "documents"
+  },
+  {
+   "id": "records/revision-control-validation-2026-11-27.md",
+   "class": "documents"
+  },
+  {
+   "id": "records/revision-execution-2026-11-27.md",
+   "class": "documents"
+  },
+  {
+   "id": "records/revision-registration-2026-11-27.md",
    "class": "documents"
   },
   {
@@ -26726,6 +26768,28 @@
    ]
   },
   {
+   "row": "110-obfuscation-hypothesis/C110-10",
+   "column": "records/revision-execution-2026-11-27.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "110-obfuscation-hypothesis/C110-10",
+    "records/revision-execution-2026-11-27.md"
+   ]
+  },
+  {
+   "row": "110-obfuscation-hypothesis/C110-11",
+   "column": "records/revision-execution-2026-11-27.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "110-obfuscation-hypothesis/C110-11",
+    "records/revision-execution-2026-11-27.md"
+   ]
+  },
+  {
    "row": "110-obfuscation-hypothesis/C110-2",
    "column": "spec.md",
    "column_class": "documents",
@@ -26778,6 +26842,39 @@
    "citations": [
     "110-obfuscation-hypothesis/C110-6",
     "spec.md"
+   ]
+  },
+  {
+   "row": "110-obfuscation-hypothesis/C110-7",
+   "column": "records/revision-registration-2026-11-27.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "110-obfuscation-hypothesis/C110-7",
+    "records/revision-registration-2026-11-27.md"
+   ]
+  },
+  {
+   "row": "110-obfuscation-hypothesis/C110-8",
+   "column": "records/revision-control-validation-2026-11-27.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "110-obfuscation-hypothesis/C110-8",
+    "records/revision-control-validation-2026-11-27.md"
+   ]
+  },
+  {
+   "row": "110-obfuscation-hypothesis/C110-9",
+   "column": "records/revision-execution-2026-11-27.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "110-obfuscation-hypothesis/C110-9",
+    "records/revision-execution-2026-11-27.md"
    ]
   },
   {
@@ -26948,8 +27045,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1094,
-  "rows_with_cells": 1080,
+  "rows_total": 1099,
+  "rows_with_cells": 1085,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -26968,7 +27065,7 @@
   ],
   "columns_by_class": {
    "studies": 10,
-   "documents": 317,
+   "documents": 320,
    "research_checks": 31,
    "anchors": 287,
    "corpus_texts": 0
@@ -27307,30 +27404,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1617,
+  "cells_total": 1622,
   "cells_by_relation": {
-   "supports": 1610,
+   "supports": 1615,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1610,
+   "documents": 1615,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1085,
-   "total": 1094,
+   "covered": 1090,
+   "total": 1099,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1071,
-     "total": 1071
+     "covered": 1076,
+     "total": 1076
     }
    }
   },

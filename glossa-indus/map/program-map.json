@@ -4,14 +4,14 @@
    "by_class": {
     "closed_other": 1,
     "negative": 7,
-    "open": 1076,
+    "open": 1081,
     "positive": 10
    },
    "by_population": {
-    "bundle": 1071,
+    "bundle": 1076,
     "extracted": 23
    },
-   "total": 1094
+   "total": 1099
   },
   "domains": {
    "Anchors & readings": {
@@ -87,11 +87,11 @@
     }
    },
    "Program infrastructure": {
-    "claims": 306,
+    "claims": 311,
     "claims_by_class": {
      "closed_other": 1,
      "negative": 1,
-     "open": 304,
+     "open": 309,
      "positive": 0
     },
     "restricted_studies": 0,
@@ -135,8 +135,8 @@
     "the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002",
     "without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001"
    ],
-   "present": 1085,
-   "total": 1094
+   "present": 1090,
+   "total": 1099
   },
   "judgment_call_studies": [],
   "multi_spec_claims": [
@@ -15159,6 +15159,34 @@
     "document": null,
     "domain": "Program infrastructure",
     "falsifier_present": true,
+    "id": "110-obfuscation-hypothesis/C110-10",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": null,
+    "standing": "Ledger standing: status draft · stage none · falsifier present",
+    "status": "draft",
+    "study": "110-obfuscation-hypothesis",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "110-obfuscation-hypothesis/C110-11",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": null,
+    "standing": "Ledger standing: status draft · stage none · falsifier present",
+    "status": "draft",
+    "study": "110-obfuscation-hypothesis",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
     "id": "110-obfuscation-hypothesis/C110-2",
     "kind": "claim",
     "population": "bundle",
@@ -15220,6 +15248,48 @@
     "population": "bundle",
     "stage": "created",
     "standing": "Ledger standing: status draft · stage created · falsifier present",
+    "status": "draft",
+    "study": "110-obfuscation-hypothesis",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "110-obfuscation-hypothesis/C110-7",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": null,
+    "standing": "Ledger standing: status draft · stage none · falsifier present",
+    "status": "draft",
+    "study": "110-obfuscation-hypothesis",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "110-obfuscation-hypothesis/C110-8",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": null,
+    "standing": "Ledger standing: status draft · stage none · falsifier present",
+    "status": "draft",
+    "study": "110-obfuscation-hypothesis",
+    "subdomain": "Governance, lifecycle & generated layers"
+   },
+   {
+    "class": "open",
+    "document": null,
+    "domain": "Program infrastructure",
+    "falsifier_present": true,
+    "id": "110-obfuscation-hypothesis/C110-9",
+    "kind": "claim",
+    "population": "bundle",
+    "stage": null,
+    "standing": "Ledger standing: status draft · stage none · falsifier present",
     "status": "draft",
     "study": "110-obfuscation-hypothesis",
     "subdomain": "Governance, lifecycle & generated layers"
@@ -17310,9 +17380,9 @@
     "member_counts": {
      "closed_other": 0,
      "negative": 0,
-     "open": 6,
+     "open": 11,
      "positive": 0,
-     "total": 6
+     "total": 11
     },
     "restricted": false,
     "subdomain": "Governance, lifecycle & generated layers"
@@ -17321,9 +17391,9 @@
  },
  "stamp": {
   "ledger_latest_entry_date": "2026-11-27",
-  "ledger_lines": 1139,
+  "ledger_lines": 1144,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
+  "ledger_sha256": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v2"
  },

@@ -248,3 +248,30 @@ program moves.
 
 **AI disclosure:** executed by an AI agent (Muse, via Muse)
 at the direction of Tristen Pierson, per constitution sec. VI.
+
+## 8. The revision (2026-11-27)
+
+The first battery's control gate FAILED (G-A, G-D,
+G-C, G-FP; records/control-validation-2026-11-27.md)
+and kill criterion 1 fired: the hypothesis stood
+UNTESTED and no real corpus was scored. The same
+day, under the kill-criterion discipline of §7 —
+revise the search design, never the bar — a revised
+battery was registered in
+records/revision-registration-2026-11-27.md,
+answering each filed failure: per-system control
+bands in place of the pooled band (G-A); family D
+re-registered as the joint inventory-inflation rule
+the precedent survey identifies as the strongest
+attested signature (G-D); C2 retired on a filed
+development record and C1 re-registered
+conditionally on its false-positive leg (G-C,
+G-FP); family B carried over unchanged with its
+pass on the record. The hypothesis, the gate-first
+rule, the verdict forms, and every threshold of
+this spec are unchanged; the revision's claims are
+C110-7..C110-11 (claims-revision.json). The
+revision's gate and execution records are
+records/revision-control-validation-2026-11-27.md
+and records/revision-execution-2026-11-27.md; its
+close is records/revision-close-2026-11-27.md.

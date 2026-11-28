@@ -117,7 +117,7 @@ def test_indus_corpus_registry_unchanged():
 def test_indus_matrix_census_unchanged():
     matrix = json.loads((ROOT / "glossa-indus" / "matrix" / "matrix.json").read_text(encoding="utf-8"))
     assert len(matrix["rows"]) == 1094
-    assert len(matrix["columns"]) == 645
+    assert len(matrix["columns"]) == 648
 
 
 def test_translation_hypothesis_emptiness_is_stated_not_papered():

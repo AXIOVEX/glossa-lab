@@ -517,14 +517,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T003231Z-486124, full-register settling-20261128T003231Z-5502ae); both result blocks are byte-equal to the superseded generation (settling-20261127T194911Z-13948f, settling-20261127T194911Z-c44e3e) except the ledger pin itself. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T003303Z-a36ba8): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 110 revision registration (branch spec-110-revised-battery; records: specs/110-obfuscation-hypothesis/records/revision-registration-2026-11-27.md and specs/110-obfuscation-hypothesis/records/revision-cascade-2026-11-27.md). The first battery's control gate failed on its filed design defects (G-A, G-D, G-C, G-FP) and the hypothesis stood UNTESTED; under the program's kill-criterion discipline (revise the search design, never the bar) the battery was revised - per-system control bands, family D re-registered as the joint inventory-inflation rule, C2 retired on the development record and C1 re-registered conditionally on its false-positive leg, family B carried over unchanged - and the revision's five claims (C110-7..C110-11, specs/110-obfuscation-hypothesis/claims-revision.json) were intaken at stage created, status draft. Registration only at this entry: the revision gate and execution land in the same pull request under the revision registration, and no standing, verdict, or tally moves.",
+   "reason": "The claims ledger grew by append-only intake: the five revision bundle claims of Spec 110 (C110-7..C110-11) were appended through tools/ledger/import_bundle.py; the first battery's six claims reported already canonical and were not duplicated. No existing entry was modified, and no standing, verdict or tally moved.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
+    "lines": 1139
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
+    "lines": 1144
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T014954Z-39a330, full-register settling-20261128T014955Z-d01d59); both result blocks are byte-equal to the superseded generation (settling-20261128T003231Z-486124, settling-20261128T003231Z-5502ae) except the ledger pin itself. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T014955Z-81da8e): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
-   "lines": 1139
+   "sha256_canonical": "0933a9d5175a505029ae45de6c182ab377f39eec8e2d5020419e84fdcbbfce63",
+   "lines": 1144
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
