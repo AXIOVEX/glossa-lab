@@ -20,3 +20,30 @@
   No induction executed; no corpus output exists;
   no standing moved. Cascade record:
   records/registration-cascade-2026-11-28.md.
+- **2026-11-28 — Execution: preflight failed in
+  full; study closed as filed (KC-1).** The
+  execution freeze (records/execution-freeze-
+  2026-11-28.md, commit 377db656) verified the
+  corpus pins (TC-112-02) and pinned the
+  ground-truth sets (1,719 forms; TC-112-03). The
+  conformance preflight ran once and failed all
+  three legs, every figure recomputed exactly by
+  the independent implementation (TC-112-06,
+  14/14): P-1 median boundary F1 0 against 0.80
+  (the segmenter's whole-form fallback wins by a
+  normalization artefact on 1,719 of 1,719 forms —
+  a defect of the design as specified, filed as
+  such); P-2 slot-sequence match 1 of 95 labeled
+  texts against 90% (the filiation forms are
+  positionally diffuse and collide in one band;
+  the name-slot entropy sub-leg held); P-3
+  partial precision 1/9 against 0.80 (recall 1/4
+  filed for transparency; the shuffle leg passed,
+  ratio 0 against the 0.20 cap). TC-112-05's
+  fixture met its registered criterion (yield 1
+  ordered, 0 shuffled) and failed the freeze's
+  stronger recovery expectations, filed as a
+  machinery warning. No corpus output was
+  produced (TC-112-04); Spec 102 and Spec 109
+  Stage 5 untouched (TC-112-08). Record:
+  records/preflight-2026-11-28.md.

@@ -1,0 +1,25 @@
+{
+ "all_agree": true,
+ "checks": {
+  "P-1 median F1 exact": true,
+  "P-1 pass flag": true,
+  "P-1 per-form F1 exact": true,
+  "P-2 entropies 1e-9": true,
+  "P-2 mapping equal": true,
+  "P-2 match rate exact": true,
+  "P-2 name-slot argmax": true,
+  "P-2 pass flag": true,
+  "P-3 pass flag": true,
+  "P-3 precision exact": true,
+  "P-3 proposal set equal": true,
+  "P-3 ratio exact": true,
+  "P-3 yields": true,
+  "pass_in_full consistent": true
+ },
+ "recomputed": {
+  "P-1_median_f1": "0",
+  "P-2_match_rate": "1/95",
+  "P-3_precision": "1/9",
+  "P-3_shuffle_ratio": "0"
+ }
+}

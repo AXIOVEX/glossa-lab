@@ -1,0 +1,33 @@
+{
+ "labeled": 120,
+ "mapping": {
+  "0": "invocation",
+  "1": "presentation",
+  "2": "closing",
+  "3": "filiation1",
+  "4": "filiation2",
+  "5": "offering"
+ },
+ "mapping_note": "ok",
+ "max_entropy_slot": "filiation2",
+ "sequence_matches": 1,
+ "shuffle_ratio": "0",
+ "shuffle_yield": 0,
+ "slot_entropy": {
+  "closing": 5.073647664594816,
+  "filiation1": 5.094397829261185,
+  "filiation2": 5.217958319057194,
+  "invocation": -0.0,
+  "offering": 2.278426593112428,
+  "presentation": -0.0
+ },
+ "yield": 1,
+ "yield_per_band": [
+  1,
+  1,
+  0,
+  0,
+  0,
+  5
+ ]
+}
