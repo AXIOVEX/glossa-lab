@@ -83,3 +83,42 @@ as `ecaa022b` while this branch was in flight. That landing touched
 only Spec 109 files; the claims ledger did not move on main, so the
 cascade above stands without re-execution, and main is merged into
 this branch before the pull request opens.
+
+## Serialization addendum — second execution (2026-11-27)
+
+The first execution above was completed and its pull request reached
+CI 10/10, but before it merged, main advanced twice more: PR #807
+(Spec 109 Stage 4, no ledger movement) and PRs #808/#810 (Spec 109
+G1-E and the Spec 110 cascade), the latter moving the ledger to 1,139
+lines / canonical `a9149847…` / 1,094 claims with pin
+re_derivations[31]. The merge was therefore blocked on conflicts in
+every cascade artifact, and per the standing rule the cascade was
+re-executed in full over the merged build rather than reconciled by
+hand. The first execution's commits were discarded; its figures above
+stand as the record of that execution.
+
+Second execution, over base main `4d57d8c9` (merge of PR #810):
+
+- Intake: 8 appended, 0 already canonical; ledger 1,139 → 1,147
+  lines; canonical SHA-256 `a9149847…` →
+  `70097435f564959f5e3e20e9b8dd5a1d96aea096ba1d7d61c0d1eb42b3f564b9`;
+  validate PASS, 1,102 claims; verify-canonicals 6/6.
+- T405 pair re-executed: incumbent `settling-20261128T011943Z-1449ae`,
+  full-register `settling-20261128T011943Z-5ff36b`; both result blocks
+  byte-equal to the superseded generation's
+  (`settling-20261128T003231Z-486124` / `-5502ae`); comparison
+  re-filed; materialization `settling-20261128T012044Z-8c4e4c`, sets
+  unchanged (94 / 286, H003 out of frame).
+- Pin refreshed at re_derivations[32]; provenance.ledger moved in the
+  same motion; expectations_changed false.
+- Generated layers: matrix 1,625 cells; map 1,747 elements, 1,625
+  edges; falsifier census 1,093 of 1,102; program map 1,102 claims,
+  112 studies. Departures: the Spec 110 generation's three run records
+  depart under §7.1, their acts naming registration commit `d054b8c5`;
+  legacy folded census 136 entries.
+- Ledger gate over the final tree: 32 PASS / 0 FAIL / 1 NOT-RUN,
+  RESULT PASS. Census pins updated from the regenerated actuals in
+  the same five backend test files (T405 run of record now
+  `settling-20261128T011943Z-1449ae`) and in the two frontend e2e
+  census texts (1,102 claims). Both gated publications re-ran over
+  the final tree before completing.

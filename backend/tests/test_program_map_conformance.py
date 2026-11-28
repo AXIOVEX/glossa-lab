@@ -29,17 +29,17 @@ from glossa_lab.ledger_intake import sha256_file
 _REPO = Path(__file__).resolve().parents[2]
 
 # The census of record (2026-11-27, post-Spec-110-registration merged ledger).
-PIN_CLAIMS = 1094
-PIN_CLAIMS_BY_POPULATION = {"bundle": 1071, "extracted": 23}
+PIN_CLAIMS = 1102
+PIN_CLAIMS_BY_POPULATION = {"bundle": 1079, "extracted": 23}
 PIN_CLAIMS_BY_CLASS = {
     "closed_other": 1,
     "negative": 7,
-    "open": 1076,
+    "open": 1084,
     "positive": 10,
 }
-PIN_STUDIES = 111
+PIN_STUDIES = 112
 PIN_UNJUDGED = 28
-PIN_FALSIFIER_PRESENT = 1085
+PIN_FALSIFIER_PRESENT = 1093
 PIN_NULL_FALSIFIER_EXTRACTED = 9
 PIN_MULTI_SPEC = 44
 
@@ -213,7 +213,7 @@ def test_taxonomy_hygiene_against_live_inputs():
         "Claim families by study line": 40,
         "Contact zone & external corpora": 2,
         "Material context": 1,
-        "Program infrastructure": 31,
+        "Program infrastructure": 32,
         "Sign inventory & corpus": 21,
     }
     program_map = json.loads(pmg.build_artifacts(_REPO)[pmg.MAP_REL])
