@@ -590,6 +590,11 @@
    "spec_dir": "109-generative-decipherment-engine",
    "domain": "Program infrastructure",
    "subdomain": "Governance, lifecycle & generated layers"
+  },
+  {
+   "spec_dir": "110-obfuscation-hypothesis",
+   "domain": "Program infrastructure",
+   "subdomain": "Governance, lifecycle & generated layers"
   }
  ],
  "extracted_documents": [
