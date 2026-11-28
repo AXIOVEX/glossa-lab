@@ -83,3 +83,15 @@ final tree there (the Spec 107 M-2 pattern).
   31 PASS / 1 FAIL / 1 NOT-RUN, the single FAIL being V11 run-binding
   naming exactly the three departed records — the expected mid-cascade
   state, cleared by the completion commit's departure acts.
+
+## Finalization (completion commit)
+
+- Registration commit: `3f2da55067b41c51bd1c09ab9da973a4dfa82753`.
+- The three departure acts are appended to
+  `glossa-indus/ledger/runs/run-index.jsonl` in the completion commit,
+  naming that commit as `superseded_by_commit`.
+- Legacy index completion pass: 1 act appended (the re-derivation
+  [31] entry act); folded census 132 entries.
+- The ledger gate re-run over the final tree is filed with the PR;
+  the V11 run-binding FAIL of the mid-cascade state clears on the
+  departure acts.
