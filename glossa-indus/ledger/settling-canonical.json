@@ -500,14 +500,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261127T194911Z-13948f, full-register settling-20261127T194911Z-c44e3e); both result blocks are byte-equal to the superseded generation's (settling-20261127T182329Z-0cae4b and settling-20261127T182408Z-f2168b), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations. The assignment-set materialization was re-run (settling-20261127T194943Z-6d174a); the sets of record are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "Spec 110 registration (branch spec-110-obfuscation; records: specs/110-obfuscation-hypothesis/records/registration-2026-11-27.md and specs/110-obfuscation-hypothesis/records/registration-cascade-2026-11-27.md). The owner (Tristen Pierson) directed in the Glossa-Lab chat on 2026-11-27 (~19:22 ET) that the program entertain the deliberate-obfuscation hypothesis for its three scripts, not assume it, and add tests for it; this entry registers the obfuscation battery as six claims (C110-1..C110-6) intaken at stage created, status draft. Registration only at this entry: the battery control gate and execution land in the same pull request under the registration, and no standing, verdict, or tally moves.",
+   "reason": "The claims ledger grew by append-only intake: the six bundle claims of Spec 110 (specs/110-obfuscation-hypothesis/aee-claims.json, C110-1..C110-6) were appended through tools/ledger/import_bundle.py. No existing entry was modified, and no standing, verdict or tally moved.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "542c7fa2316f9236f3fbeb2e60e3020f2d8b93652cdce28ec235f7f0b42ab77e",
+    "lines": 1133
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
+    "lines": 1139
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T003231Z-486124, full-register settling-20261128T003231Z-5502ae); both result blocks are byte-equal to the superseded generation (settling-20261127T194911Z-13948f, settling-20261127T194911Z-c44e3e) except the ledger pin itself. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T003303Z-a36ba8): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "542c7fa2316f9236f3fbeb2e60e3020f2d8b93652cdce28ec235f7f0b42ab77e",
-   "lines": 1133
+   "sha256_canonical": "a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa",
+   "lines": 1139
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",
