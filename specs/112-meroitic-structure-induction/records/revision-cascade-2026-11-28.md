@@ -125,7 +125,7 @@ established split.
 
 ## Finalization
 
-- Registration commit: `REGISTRATION_COMMIT` (the Spec 112
+- Registration commit: `e5ee35f7ed6db61e1f8ba00c663ab5b3e6dc5db0` (the Spec 112
   revision package, the AEE assessment and its ledger files, the
   grown ledger, the refreshed canonical, the re-filed comparison,
   the new run records, the assignment sets, the matrix, the
@@ -136,7 +136,7 @@ established split.
   under run-defs v3 §7.1; their departure acts in `run-index.jsonl`
   name the records, their blob hashes, and the registration
   commit as `superseded_by_commit`. The legacy-index completion
-  pass appended the legacy entry act for re-derivation [36].
+  pass appended the legacy entry act for re-derivation [36] (1 act; folded census 152 entries).
   Both gated publications were re-run over the final tree and
   passed the full gate, so the published bytes are the gated
   bytes; the ledger gate over the final tree reads **32 PASS /
