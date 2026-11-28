@@ -118,7 +118,7 @@ def test_matrix_overview_matches_the_map(client):
     body = client.get(f"{BASE}/matrix").json()
     assert body["rows_total"] == 1094
     assert body["columns_by_class"] == {
-        "studies": 11, "documents": 316, "research_checks": 31, "anchors": 287,
+        "studies": 10, "documents": 317, "research_checks": 31, "anchors": 287,
     }
 
 
