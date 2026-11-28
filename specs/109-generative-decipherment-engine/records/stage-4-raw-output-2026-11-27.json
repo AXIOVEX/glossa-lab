@@ -1,0 +1,2724 @@
+{
+ "clause_N": {
+  "D": [
+   [
+    "a",
+    "ri",
+    "si",
+    "to",
+    "na"
+   ],
+   [
+    "a",
+    "ri",
+    "si",
+    "to",
+    "na",
+    "ka",
+    "to",
+    "so"
+   ]
+  ],
+  "checks": {
+   "A1_pairings": true,
+   "A2_pairings": true,
+   "D_name1": true,
+   "D_name2": true,
+   "J_pairings": true,
+   "LCCS_name1_seg6": true,
+   "LCCS_name2_seg6": true,
+   "LCCS_name2_seg7": true,
+   "joint_optimum_6": true
+  },
+  "joint_optimum": 6,
+  "passed": true,
+  "segments_count": 11,
+  "token_count": 54
+ },
+ "clause_S": {
+  "floor": 0.8,
+  "median_recovery": 1.0,
+  "median_shuffle_recovery": 0.16666666666666666,
+  "recovery_pass": true,
+  "reps": [
+   {
+    "attempts": 1,
+    "census": {
+     "distinct_marks": 25,
+     "singletons": 15,
+     "tokens": 53
+    },
+    "corpus": {
+     "D": [
+      [
+       "lu",
+       "ra",
+       "sa",
+       "na",
+       "so"
+      ],
+      [
+       "lu",
+       "ra",
+       "sa",
+       "na",
+       "so",
+       "mi",
+       "ta",
+       "se"
+      ]
+     ],
+     "attempts": 1,
+     "census": {
+      "distinct_marks": 25,
+      "singletons": 15,
+      "tokens": 53
+     },
+     "heldout_forms": [
+      [
+       "lo",
+       "ra",
+       "nu",
+       "ni"
+      ],
+      [
+       "sa",
+       "e",
+       "nu",
+       "ni"
+      ],
+      [
+       "sa",
+       "si",
+       "lu",
+       "nu",
+       "ni"
+      ],
+      [
+       "ra",
+       "na",
+       "ri",
+       "mo",
+       "ne"
+      ],
+      [
+       "lu",
+       "re",
+       "ra",
+       "ri",
+       "mo",
+       "ne"
+      ],
+      [
+       "a",
+       "ka",
+       "a",
+       "ka"
+      ],
+      [
+       "ra",
+       "ko",
+       "sa",
+       "a",
+       "ka"
+      ],
+      [
+       "so",
+       "mi"
+      ]
+     ],
+     "name_positions": [
+      4,
+      5
+     ],
+     "planted_anchored": [
+      "lu",
+      "mi",
+      "na",
+      "ra",
+      "sa",
+      "so"
+     ],
+     "planted_pairings": {
+      "0": 6,
+      "1": 7
+     },
+     "seed_string": "spec109-s4-synth-1",
+     "segments": [
+      [
+       "lo",
+       "ra"
+      ],
+      [
+       "sa",
+       "e",
+       "na"
+      ],
+      [
+       "lu",
+       "re",
+       "ra",
+       "ti",
+       "sa"
+      ],
+      [
+       "a",
+       "ka",
+       "lu",
+       "na"
+      ],
+      [
+       "sa",
+       "si",
+       "lu"
+      ],
+      [
+       "lu",
+       "ra",
+       "sa",
+       "na",
+       "nu",
+       "ni"
+      ],
+      [
+       "o",
+       "to",
+       "ki",
+       "no",
+       "so",
+       "mi",
+       "ri",
+       "mo",
+       "ne"
+      ],
+      [
+       "ra",
+       "ko",
+       "sa",
+       "la",
+       "na",
+       "u",
+       "lu"
+      ],
+      [
+       "so",
+       "mi",
+       "lo",
+       "e",
+       "so",
+       "mi",
+       "re"
+      ],
+      [
+       "ra",
+       "na"
+      ],
+      [
+       "so",
+       "mi",
+       "ti",
+       "so",
+       "mi"
+      ]
+     ]
+    },
+    "planted_anchored": [
+     "lu",
+     "mi",
+     "na",
+     "ra",
+     "sa",
+     "so"
+    ],
+    "ranking": [
+     "J",
+     "A1",
+     "A2"
+    ],
+    "recovery": 1.0,
+    "seed_string": "spec109-s4-synth-1",
+    "shuffle_recovery": 0.16666666666666666,
+    "shuffle_top_variant": "A1",
+    "top_variant": "J",
+    "variants": {
+     "A1": {
+      "anchored_map": {
+       "lu": "lu",
+       "na": "na",
+       "ra": "ra",
+       "sa": "sa"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "lu"
+       ],
+       [
+        "nu",
+        "ni"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 5,
+       "1": 6
+      }
+     },
+     "A2": {
+      "anchored_map": {
+       "lu": "lu",
+       "na": "na",
+       "ra": "ra",
+       "sa": "sa"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "nu",
+        "ni"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 6,
+       "1": 6
+      }
+     },
+     "J": {
+      "anchored_map": {
+       "lu": "lu",
+       "mi": "mi",
+       "na": "na",
+       "ra": "ra",
+       "sa": "sa",
+       "so": "so"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "nu",
+        "ni"
+       ],
+       [
+        "ri",
+        "mo",
+        "ne"
+       ]
+      ],
+      "key1": 5,
+      "key2": 0.5660377358490566,
+      "pairings": {
+       "0": 6,
+       "1": 7
+      }
+     }
+    }
+   },
+   {
+    "attempts": 1,
+    "census": {
+     "distinct_marks": 25,
+     "singletons": 15,
+     "tokens": 53
+    },
+    "corpus": {
+     "D": [
+      [
+       "ko",
+       "ro",
+       "lo",
+       "o",
+       "si"
+      ],
+      [
+       "ko",
+       "ro",
+       "lo",
+       "o",
+       "si",
+       "lu",
+       "se",
+       "ke"
+      ]
+     ],
+     "attempts": 1,
+     "census": {
+      "distinct_marks": 25,
+      "singletons": 15,
+      "tokens": 53
+     },
+     "heldout_forms": [
+      [
+       "me",
+       "ro",
+       "ma",
+       "no"
+      ],
+      [
+       "lo",
+       "te",
+       "ma",
+       "no"
+      ],
+      [
+       "lo",
+       "ri",
+       "ko",
+       "ma",
+       "no"
+      ],
+      [
+       "ro",
+       "o",
+       "la",
+       "li",
+       "mi"
+      ],
+      [
+       "ko",
+       "sa",
+       "ro",
+       "la",
+       "li",
+       "mi"
+      ],
+      [
+       "re",
+       "ne",
+       "re",
+       "ne"
+      ],
+      [
+       "ro",
+       "mo",
+       "lo",
+       "re",
+       "ne"
+      ],
+      [
+       "si",
+       "lu"
+      ]
+     ],
+     "name_positions": [
+      4,
+      5
+     ],
+     "planted_anchored": [
+      "ko",
+      "lo",
+      "lu",
+      "o",
+      "ro",
+      "si"
+     ],
+     "planted_pairings": {
+      "0": 6,
+      "1": 7
+     },
+     "seed_string": "spec109-s4-synth-2",
+     "segments": [
+      [
+       "me",
+       "ro"
+      ],
+      [
+       "lo",
+       "te",
+       "o"
+      ],
+      [
+       "ko",
+       "sa",
+       "ro",
+       "ti",
+       "lo"
+      ],
+      [
+       "re",
+       "ne",
+       "ko",
+       "o"
+      ],
+      [
+       "lo",
+       "ri",
+       "ko"
+      ],
+      [
+       "ko",
+       "ro",
+       "lo",
+       "o",
+       "ma",
+       "no"
+      ],
+      [
+       "ki",
+       "ta",
+       "e",
+       "ra",
+       "si",
+       "lu",
+       "la",
+       "li",
+       "mi"
+      ],
+      [
+       "ro",
+       "mo",
+       "lo",
+       "le",
+       "o",
+       "na",
+       "ko"
+      ],
+      [
+       "si",
+       "lu",
+       "me",
+       "te",
+       "si",
+       "lu",
+       "sa"
+      ],
+      [
+       "ro",
+       "o"
+      ],
+      [
+       "si",
+       "lu",
+       "ti",
+       "si",
+       "lu"
+      ]
+     ]
+    },
+    "planted_anchored": [
+     "ko",
+     "lo",
+     "lu",
+     "o",
+     "ro",
+     "si"
+    ],
+    "ranking": [
+     "J",
+     "A1",
+     "A2"
+    ],
+    "recovery": 1.0,
+    "seed_string": "spec109-s4-synth-2",
+    "shuffle_recovery": 0.0,
+    "shuffle_top_variant": "A1",
+    "top_variant": "J",
+    "variants": {
+     "A1": {
+      "anchored_map": {
+       "ko": "ko",
+       "lo": "lo",
+       "o": "o",
+       "ro": "ro"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ko"
+       ],
+       [
+        "ma",
+        "no"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 5,
+       "1": 6
+      }
+     },
+     "A2": {
+      "anchored_map": {
+       "ko": "ko",
+       "lo": "lo",
+       "o": "o",
+       "ro": "ro"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ma",
+        "no"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 6,
+       "1": 6
+      }
+     },
+     "J": {
+      "anchored_map": {
+       "ko": "ko",
+       "lo": "lo",
+       "lu": "lu",
+       "o": "o",
+       "ro": "ro",
+       "si": "si"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "la",
+        "li",
+        "mi"
+       ],
+       [
+        "ma",
+        "no"
+       ]
+      ],
+      "key1": 5,
+      "key2": 0.5660377358490566,
+      "pairings": {
+       "0": 6,
+       "1": 7
+      }
+     }
+    }
+   },
+   {
+    "attempts": 1,
+    "census": {
+     "distinct_marks": 25,
+     "singletons": 15,
+     "tokens": 53
+    },
+    "corpus": {
+     "D": [
+      [
+       "me",
+       "nu",
+       "mi",
+       "ro",
+       "ma"
+      ],
+      [
+       "me",
+       "nu",
+       "mi",
+       "ro",
+       "ma",
+       "lu",
+       "mo",
+       "li"
+      ]
+     ],
+     "attempts": 1,
+     "census": {
+      "distinct_marks": 25,
+      "singletons": 15,
+      "tokens": 53
+     },
+     "heldout_forms": [
+      [
+       "se",
+       "nu",
+       "ri",
+       "ne"
+      ],
+      [
+       "mi",
+       "ka",
+       "ri",
+       "ne"
+      ],
+      [
+       "mi",
+       "ni",
+       "me",
+       "ri",
+       "ne"
+      ],
+      [
+       "nu",
+       "ro",
+       "to",
+       "a",
+       "ta"
+      ],
+      [
+       "me",
+       "re",
+       "nu",
+       "to",
+       "a",
+       "ta"
+      ],
+      [
+       "te",
+       "ko",
+       "te",
+       "ko"
+      ],
+      [
+       "nu",
+       "la",
+       "mi",
+       "te",
+       "ko"
+      ],
+      [
+       "ma",
+       "lu"
+      ]
+     ],
+     "name_positions": [
+      4,
+      5
+     ],
+     "planted_anchored": [
+      "lu",
+      "ma",
+      "me",
+      "mi",
+      "nu",
+      "ro"
+     ],
+     "planted_pairings": {
+      "0": 6,
+      "1": 7
+     },
+     "seed_string": "spec109-s4-synth-3",
+     "segments": [
+      [
+       "se",
+       "nu"
+      ],
+      [
+       "mi",
+       "ka",
+       "ro"
+      ],
+      [
+       "me",
+       "re",
+       "nu",
+       "si",
+       "mi"
+      ],
+      [
+       "te",
+       "ko",
+       "me",
+       "ro"
+      ],
+      [
+       "mi",
+       "ni",
+       "me"
+      ],
+      [
+       "me",
+       "nu",
+       "mi",
+       "ro",
+       "ri",
+       "ne"
+      ],
+      [
+       "le",
+       "no",
+       "sa",
+       "so",
+       "ma",
+       "lu",
+       "to",
+       "a",
+       "ta"
+      ],
+      [
+       "nu",
+       "la",
+       "mi",
+       "lo",
+       "ro",
+       "o",
+       "me"
+      ],
+      [
+       "ma",
+       "lu",
+       "se",
+       "ka",
+       "ma",
+       "lu",
+       "re"
+      ],
+      [
+       "nu",
+       "ro"
+      ],
+      [
+       "ma",
+       "lu",
+       "si",
+       "ma",
+       "lu"
+      ]
+     ]
+    },
+    "planted_anchored": [
+     "lu",
+     "ma",
+     "me",
+     "mi",
+     "nu",
+     "ro"
+    ],
+    "ranking": [
+     "J",
+     "A1",
+     "A2"
+    ],
+    "recovery": 1.0,
+    "seed_string": "spec109-s4-synth-3",
+    "shuffle_recovery": 0.16666666666666666,
+    "shuffle_top_variant": "A1",
+    "top_variant": "J",
+    "variants": {
+     "A1": {
+      "anchored_map": {
+       "me": "me",
+       "mi": "mi",
+       "nu": "nu",
+       "ro": "ro"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "me"
+       ],
+       [
+        "ri",
+        "ne"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 5,
+       "1": 6
+      }
+     },
+     "A2": {
+      "anchored_map": {
+       "me": "me",
+       "mi": "mi",
+       "nu": "nu",
+       "ro": "ro"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ri",
+        "ne"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 6,
+       "1": 6
+      }
+     },
+     "J": {
+      "anchored_map": {
+       "lu": "lu",
+       "ma": "ma",
+       "me": "me",
+       "mi": "mi",
+       "nu": "nu",
+       "ro": "ro"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ri",
+        "ne"
+       ],
+       [
+        "to",
+        "a",
+        "ta"
+       ]
+      ],
+      "key1": 5,
+      "key2": 0.5660377358490566,
+      "pairings": {
+       "0": 6,
+       "1": 7
+      }
+     }
+    }
+   },
+   {
+    "attempts": 1,
+    "census": {
+     "distinct_marks": 25,
+     "singletons": 15,
+     "tokens": 53
+    },
+    "corpus": {
+     "D": [
+      [
+       "lu",
+       "ke",
+       "re",
+       "mo",
+       "lo"
+      ],
+      [
+       "lu",
+       "ke",
+       "re",
+       "mo",
+       "lo",
+       "me",
+       "ti",
+       "ro"
+      ]
+     ],
+     "attempts": 1,
+     "census": {
+      "distinct_marks": 25,
+      "singletons": 15,
+      "tokens": 53
+     },
+     "heldout_forms": [
+      [
+       "ri",
+       "ke",
+       "a",
+       "na"
+      ],
+      [
+       "re",
+       "no",
+       "a",
+       "na"
+      ],
+      [
+       "re",
+       "se",
+       "lu",
+       "a",
+       "na"
+      ],
+      [
+       "ke",
+       "mo",
+       "le",
+       "u",
+       "ma"
+      ],
+      [
+       "lu",
+       "ko",
+       "ke",
+       "le",
+       "u",
+       "ma"
+      ],
+      [
+       "la",
+       "mi",
+       "la",
+       "mi"
+      ],
+      [
+       "ke",
+       "ra",
+       "re",
+       "la",
+       "mi"
+      ],
+      [
+       "lo",
+       "me"
+      ]
+     ],
+     "name_positions": [
+      4,
+      5
+     ],
+     "planted_anchored": [
+      "ke",
+      "lo",
+      "lu",
+      "me",
+      "mo",
+      "re"
+     ],
+     "planted_pairings": {
+      "0": 6,
+      "1": 7
+     },
+     "seed_string": "spec109-s4-synth-4",
+     "segments": [
+      [
+       "ri",
+       "ke"
+      ],
+      [
+       "re",
+       "no",
+       "mo"
+      ],
+      [
+       "lu",
+       "ko",
+       "ke",
+       "ni",
+       "re"
+      ],
+      [
+       "la",
+       "mi",
+       "lu",
+       "mo"
+      ],
+      [
+       "re",
+       "se",
+       "lu"
+      ],
+      [
+       "lu",
+       "ke",
+       "re",
+       "mo",
+       "a",
+       "na"
+      ],
+      [
+       "e",
+       "ne",
+       "so",
+       "sa",
+       "lo",
+       "me",
+       "le",
+       "u",
+       "ma"
+      ],
+      [
+       "ke",
+       "ra",
+       "re",
+       "ta",
+       "mo",
+       "ki",
+       "lu"
+      ],
+      [
+       "lo",
+       "me",
+       "ri",
+       "no",
+       "lo",
+       "me",
+       "ko"
+      ],
+      [
+       "ke",
+       "mo"
+      ],
+      [
+       "lo",
+       "me",
+       "ni",
+       "lo",
+       "me"
+      ]
+     ]
+    },
+    "planted_anchored": [
+     "ke",
+     "lo",
+     "lu",
+     "me",
+     "mo",
+     "re"
+    ],
+    "ranking": [
+     "J",
+     "A1",
+     "A2"
+    ],
+    "recovery": 1.0,
+    "seed_string": "spec109-s4-synth-4",
+    "shuffle_recovery": 0.16666666666666666,
+    "shuffle_top_variant": "A1",
+    "top_variant": "J",
+    "variants": {
+     "A1": {
+      "anchored_map": {
+       "ke": "ke",
+       "lu": "lu",
+       "mo": "mo",
+       "re": "re"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "a",
+        "na"
+       ],
+       [
+        "lu"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 5,
+       "1": 6
+      }
+     },
+     "A2": {
+      "anchored_map": {
+       "ke": "ke",
+       "lu": "lu",
+       "mo": "mo",
+       "re": "re"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "a",
+        "na"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 6,
+       "1": 6
+      }
+     },
+     "J": {
+      "anchored_map": {
+       "ke": "ke",
+       "lo": "lo",
+       "lu": "lu",
+       "me": "me",
+       "mo": "mo",
+       "re": "re"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "a",
+        "na"
+       ],
+       [
+        "le",
+        "u",
+        "ma"
+       ]
+      ],
+      "key1": 5,
+      "key2": 0.5660377358490566,
+      "pairings": {
+       "0": 6,
+       "1": 7
+      }
+     }
+    }
+   },
+   {
+    "attempts": 1,
+    "census": {
+     "distinct_marks": 25,
+     "singletons": 15,
+     "tokens": 53
+    },
+    "corpus": {
+     "D": [
+      [
+       "ti",
+       "ta",
+       "to",
+       "ma",
+       "li"
+      ],
+      [
+       "ti",
+       "ta",
+       "to",
+       "ma",
+       "li",
+       "no",
+       "mi",
+       "i"
+      ]
+     ],
+     "attempts": 1,
+     "census": {
+      "distinct_marks": 25,
+      "singletons": 15,
+      "tokens": 53
+     },
+     "heldout_forms": [
+      [
+       "na",
+       "ta",
+       "ka",
+       "ko"
+      ],
+      [
+       "to",
+       "ne",
+       "ka",
+       "ko"
+      ],
+      [
+       "to",
+       "o",
+       "ti",
+       "ka",
+       "ko"
+      ],
+      [
+       "ta",
+       "ma",
+       "lo",
+       "sa",
+       "si"
+      ],
+      [
+       "ti",
+       "ra",
+       "ta",
+       "lo",
+       "sa",
+       "si"
+      ],
+      [
+       "ke",
+       "la",
+       "ke",
+       "la"
+      ],
+      [
+       "ta",
+       "e",
+       "to",
+       "ke",
+       "la"
+      ],
+      [
+       "li",
+       "no"
+      ]
+     ],
+     "name_positions": [
+      4,
+      5
+     ],
+     "planted_anchored": [
+      "li",
+      "ma",
+      "no",
+      "ta",
+      "ti",
+      "to"
+     ],
+     "planted_pairings": {
+      "0": 6,
+      "1": 7
+     },
+     "seed_string": "spec109-s4-synth-5",
+     "segments": [
+      [
+       "na",
+       "ta"
+      ],
+      [
+       "to",
+       "ne",
+       "ma"
+      ],
+      [
+       "ti",
+       "ra",
+       "ta",
+       "ri",
+       "to"
+      ],
+      [
+       "ke",
+       "la",
+       "ti",
+       "ma"
+      ],
+      [
+       "to",
+       "o",
+       "ti"
+      ],
+      [
+       "ti",
+       "ta",
+       "to",
+       "ma",
+       "ka",
+       "ko"
+      ],
+      [
+       "u",
+       "ro",
+       "ni",
+       "nu",
+       "li",
+       "no",
+       "lo",
+       "sa",
+       "si"
+      ],
+      [
+       "ta",
+       "e",
+       "to",
+       "ki",
+       "ma",
+       "re",
+       "ti"
+      ],
+      [
+       "li",
+       "no",
+       "na",
+       "ne",
+       "li",
+       "no",
+       "ra"
+      ],
+      [
+       "ta",
+       "ma"
+      ],
+      [
+       "li",
+       "no",
+       "ri",
+       "li",
+       "no"
+      ]
+     ]
+    },
+    "planted_anchored": [
+     "li",
+     "ma",
+     "no",
+     "ta",
+     "ti",
+     "to"
+    ],
+    "ranking": [
+     "J",
+     "A1",
+     "A2"
+    ],
+    "recovery": 1.0,
+    "seed_string": "spec109-s4-synth-5",
+    "shuffle_recovery": 0.16666666666666666,
+    "shuffle_top_variant": "A2",
+    "top_variant": "J",
+    "variants": {
+     "A1": {
+      "anchored_map": {
+       "ma": "ma",
+       "ta": "ta",
+       "ti": "ti",
+       "to": "to"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ka",
+        "ko"
+       ],
+       [
+        "ti"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 5,
+       "1": 6
+      }
+     },
+     "A2": {
+      "anchored_map": {
+       "ma": "ma",
+       "ta": "ta",
+       "ti": "ti",
+       "to": "to"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ka",
+        "ko"
+       ]
+      ],
+      "key1": 3,
+      "key2": 0.37735849056603776,
+      "pairings": {
+       "0": 6,
+       "1": 6
+      }
+     },
+     "J": {
+      "anchored_map": {
+       "li": "li",
+       "ma": "ma",
+       "no": "no",
+       "ta": "ta",
+       "ti": "ti",
+       "to": "to"
+      },
+      "conflicts_excluded": [],
+      "implied_endings": [
+       [
+        "ka",
+        "ko"
+       ],
+       [
+        "lo",
+        "sa",
+        "si"
+       ]
+      ],
+      "key1": 5,
+      "key2": 0.5660377358490566,
+      "pairings": {
+       "0": 6,
+       "1": 7
+      }
+     }
+    }
+   }
+  ],
+  "shuffle_pass": true
+ },
+ "corpus_sha256": "2954283d6250803d25c98679174e2e534cb7a2c11e57b10711f9873198d23597",
+ "harness_sha256": "c9776d3e88bf86a127b8f7b863086b9dbfd386575e6dc513ddb1508210d44a53",
+ "null": {
+  "B": 999,
+  "null_max_key1_sorted": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   4
+  ],
+  "null_mean": 0.22122122122122123,
+  "observed_top_key1": 2,
+  "p99": 2,
+  "seed": 109401,
+  "separates": false
+ },
+ "null_B": 999,
+ "null_seed": 109401,
+ "preflight_passed": true,
+ "real": {
+  "D": [
+   [
+    "a",
+    "ri",
+    "si",
+    "to",
+    "na"
+   ],
+   [
+    "a",
+    "ri",
+    "si",
+    "to",
+    "na",
+    "ka",
+    "to",
+    "so"
+   ]
+  ],
+  "heldout_forms": [
+   [
+    "mi",
+    "ta",
+    "ra",
+    "wa",
+    "no"
+   ],
+   [
+    "a",
+    "sa",
+    "to",
+    "wa",
+    "na",
+    "ka",
+    "so",
+    "ko",
+    "?"
+   ],
+   [
+    "o",
+    "e",
+    "lo",
+    "ti",
+    "mo",
+    "ti"
+   ],
+   [
+    "ke",
+    "ra",
+    "ka",
+    "re",
+    "tu",
+    "lo",
+    "ti"
+   ],
+   [
+    "e",
+    "lo",
+    "ti",
+    "mo",
+    "no"
+   ],
+   [
+    "a",
+    "ra",
+    "to",
+    "ke",
+    "ne",
+    "so",
+    "ko",
+    "o",
+    "?"
+   ],
+   [
+    "e",
+    "ne",
+    "mi",
+    "na"
+   ],
+   [
+    "pu",
+    "e",
+    "ne",
+    "mi",
+    "na"
+   ]
+  ],
+  "inventory": [
+   "?",
+   "[sa]",
+   "a",
+   "e",
+   "i",
+   "ka",
+   "ke",
+   "ko",
+   "ku",
+   "la",
+   "le",
+   "li",
+   "lo",
+   "ma",
+   "mi",
+   "mu",
+   "na",
+   "no",
+   "o",
+   "po",
+   "ra",
+   "re",
+   "ri",
+   "ro",
+   "sa",
+   "se",
+   "si",
+   "so",
+   "ta",
+   "ti",
+   "to",
+   "tu",
+   "u",
+   "wa",
+   "we"
+  ],
+  "ranking": [
+   "A1",
+   "J",
+   "A2"
+  ],
+  "segments": [
+   [
+    "a",
+    "na"
+   ],
+   [
+    "ma",
+    "to",
+    "ri"
+   ],
+   [
+    "u",
+    "mi",
+    "e",
+    "sa",
+    "i"
+   ],
+   [
+    "mu",
+    "ku",
+    "la",
+    "i"
+   ],
+   [
+    "la",
+    "sa",
+    "na"
+   ],
+   [
+    "a",
+    "ri",
+    "si",
+    "to",
+    "no",
+    "se"
+   ],
+   [
+    "a",
+    "ra",
+    "to",
+    "wa",
+    "na",
+    "ka",
+    "so",
+    "ko",
+    "o",
+    "se"
+   ],
+   [
+    "ke",
+    "ra",
+    "ke",
+    "re",
+    "tu",
+    "lo",
+    "se"
+   ],
+   [
+    "ta",
+    "ka",
+    "na",
+    "?",
+    "?",
+    "so",
+    "ti"
+   ],
+   [
+    "a",
+    "lo"
+   ],
+   [
+    "ka",
+    "i",
+    "li",
+    "po",
+    "ti"
+   ]
+  ],
+  "token_count": 54,
+  "variants": {
+   "A1": {
+    "anchored_map": {
+     "a": "a",
+     "na": "na",
+     "ri": "ri",
+     "si": "si",
+     "to": "to"
+    },
+    "conflicts_excluded": [],
+    "implied_endings": [
+     [
+      "na"
+     ],
+     [
+      "no",
+      "se"
+     ]
+    ],
+    "key1": 2,
+    "key2": 0.25925925925925924,
+    "pairings": {
+     "0": 5,
+     "1": 6
+    }
+   },
+   "A2": {
+    "anchored_map": {
+     "a": "a",
+     "ri": "ri",
+     "si": "si",
+     "to": "to"
+    },
+    "conflicts_excluded": [],
+    "implied_endings": [
+     [
+      "no",
+      "se"
+     ]
+    ],
+    "key1": 0,
+    "key2": 0.18518518518518517,
+    "pairings": {
+     "0": 6,
+     "1": 6
+    }
+   },
+   "J": {
+    "anchored_map": {
+     "a": "a",
+     "ka": "ka",
+     "na": "na",
+     "ri": "ri",
+     "si": "si",
+     "to": "to"
+    },
+    "conflicts_excluded": [],
+    "implied_endings": [
+     [
+      "no",
+      "se"
+     ],
+     [
+      "so",
+      "ko",
+      "o",
+      "se"
+     ]
+    ],
+    "key1": 0,
+    "key2": 0.3148148148148148,
+    "pairings": {
+     "0": 6,
+     "1": 7
+    }
+   }
+  }
+ },
+ "verdict": "RANKING NULL"
+}
