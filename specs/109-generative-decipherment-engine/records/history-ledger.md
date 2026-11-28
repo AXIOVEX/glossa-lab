@@ -242,3 +242,71 @@ G1-R's FAILED licensing state stands; no floor moved;
 no standing, verdict, or tally moved. TC-109-02 re-run
 in verification form: PASS, 119/119, every figure
 recomputed independently and the decision mechanical.
+
+## 2026-11-27 — G1 enriched-objective preflight executed (T104): FAILED, clause (i)
+
+The scale study's close posed two questions: whether
+the objective's edge-value evidence could be
+strengthened from evidence the program has already
+verified, and whether an energy-scale-calibrated
+search answers the basin failures at scale. The
+enriched-objective amendment
+(`records/g1-enriched-registration-2026-11-27.md`;
+the claim determination at its §7: no new claim, the
+amendment a generator revision under C109-7's
+discipline as filed) enriched G1's objective with a
+positional-consistency term — G2's licensed
+positional induction in its full distributional form,
+run by the pipeline itself on the corpus under
+analysis and on the family corpus, the planted
+assignment never read — and calibrated the search's
+temperature schedule per corpus to the objective's
+own measured swap-delta scale δ̂, the constants
+frozen against the development reference
+δ̂_ref = 63.9045 so the filed schedule is reproduced
+at the reference scale. Development ran on the ten
+development-visible corpora only: the λ grid
+{0, 0.25, 0.5, 1, 2, 4} returned medians 0.763 /
+0.772 / 0.772 / 0.781 / 0.781 / 0.754, and the
+registered selection rule (maximal median, ties to
+the smallest λ) froze λ* = 1.0. The preflight on five
+fresh corpora (seeds `spec109-s1e-synth-{1..5}`, rep
+4 of record `spec109-s1e-synth-4-try1`) returned
+median recovery **0.719** (0.772 / 0.719 / 0.754 /
+0.684 / 0.702) against the 0.80 floor — **FAILED,
+clause (i)**; clause (ii) passed 5/5 (median
+penalized margin 1,050.69 nats) and the shuffle
+control passed (median 0.070 against the 0.360
+bound). The anatomy is the filed plateau's, one level
+up: the calibrated search found the basin on all
+five corpora (enriched gaps +24.9 to +51.0 nats;
+base gaps +22.7 to +48.1), the misses are edge-only
+(stems 0 in all five; closers 4–8, context 3–9,
+affixes 0–4), and the term that repaired specific
+confusions on development material does not separate
+the surviving ones — values alike in positional
+profile whose pair statistics stay weak at this
+profile. The 2x diagnostic (seeds
+`spec109-s1e2-synth-{1..5}`, effective 1.995x,
+diagnostic only) returned median recovery 0.772 with
+no basin failures in five draws (gaps +31.6 to
++63.8), against the scale study's 1-of-5 basin
+failure at 2x under the fixed schedule: the
+calibration's basin behavior is consistent with its
+design intent, filed as a diagnostic observation,
+not a scale verdict. TC-109-02 re-run for this
+generator: PASS, 69/69 checks at 1x and 70/70 at 2x,
+every figure recomputed independently (the shuffle
+control by deterministic re-execution). One filing
+defect is disclosed on the record (preflight record
+§5): the registration's first transfer to the
+worktree silently produced an empty file, discovered
+at verification time and repaired by re-filing the
+text byte-identical, hash-verified; the design
+freeze precedes the verdict run on the timestamped
+custody artifacts and the hash-pinned harness. G1-E
+is not licensed; kill criterion 2 fires for it; G1
+produces no scoreable output; Stage 3 remains
+blocked; the amendment commissions no second
+revision; no floor moved; no standing, verdict, or
+tally moved.

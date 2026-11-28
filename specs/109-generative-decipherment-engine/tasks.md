@@ -84,6 +84,42 @@
   records/g1-scale-study-2026-11-27.md and
   records/g1-scale-close-2026-11-27.md.
 
+- [x] T104 G1 enriched objective: the plateau attacked
+  with the program's strongest verified structure —
+  the objective enriched with a positional-consistency
+  term built from G2's licensed positional induction
+  (full distributional form, on both sides of the
+  assignment; the planted assignment never read), the
+  weight chosen on development corpora by a registered
+  grid and selection rule (λ* = 1.0), and the search's
+  temperature schedule calibrated per corpus to the
+  objective's own measured swap-delta scale (δ̂;
+  constants frozen against δ̂_ref = 63.9045);
+  registered as an amendment
+  (records/g1-enriched-registration-2026-11-27.md; no
+  new claim — the determination is filed at its §7);
+  the preflight executed on five fresh corpora (seeds
+  spec109-s1e-synth-{1..5}) at the same floors, with
+  the identical preflight at 2x filed as a secondary
+  diagnostic (seeds spec109-s1e2-synth-{1..5});
+  TC-109-02 re-run for this generator (PASS 69/69 at
+  1x, 70/70 at 2x). Executed 2026-11-27: **FAILED,
+  clause (i)** — median recovery 0.719 against the
+  0.80 floor (per-replication 0.684-0.772); clause
+  (ii) passed 5/5 (median penalized margin
+  1,050.69 nats) and the shuffle control passed
+  (0.070). The calibrated search held the basin on
+  all five verdict corpora and on all five diagnostic
+  corpora at 2x (no basin failures; the scale study's
+  2x basin failure does not recur in this draw); the
+  enriched objective's near-optimal region still
+  contains non-truth assignments, the misses
+  edge-only (stems 0 in all ten replications). G1
+  remains unlicensed; Stage 3 remains blocked; the
+  amendment commissions no second revision. Records:
+  records/g1-enriched-preflight-2026-11-27.md and
+  records/g1-enriched-close-2026-11-27.md.
+
 ## Stage 2 — Structure induction and context channel
 
 - [x] T201 Part 2 executed under registration §3 for
