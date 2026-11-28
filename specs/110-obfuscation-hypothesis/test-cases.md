@@ -75,3 +75,45 @@ and the state of each family (verdicts filed, closed,
 or not testable) is stated.
 *Pass:* all five evaluations are present and
 traceable to the filed outcomes.
+
+**TC-110-06 — Revision package form (C110-7;
+revision registration).** Check the revision
+bundle claims-revision.json carries exactly
+C110-7..C110-11 in order, each with a falsifier and
+a does-not-establish line; claims.md carries the
+same five with falsifiers; the revision
+registration carries its registered elements
+(per-system bands, T-SHUF, the fixed-rank tail,
+C2's retirement, the gate legs and seeds, the two
+survey cautions, the uniform-substitution limit).
+*Pass:* the filed script records/tc110-06-package-form.py
+exits 0.
+
+**TC-110-07 — Revision gate recomputation (C110-8;
+revision gate).** Independently recompute the
+revision gate from the registered seeds: the
+per-system bands, every gate leg's counts, the
+12-sample false-positive panel, family B's baseline
+and legs, and the scoreability outcomes, using an
+independent statistics implementation that imports
+only the filed harness's corpus machinery.
+*Pass:* every filed gate figure and outcome
+reproduces; the filed script
+records/tc110-07-08-revision-verification.py exits
+0 on its gate section.
+
+**TC-110-08 — Revision execution recomputation
+(C110-9, C110-10, C110-11; revision execution).**
+Independently recompute each real corpus's
+statistics against the recomputed bands and
+re-derive every filed verdict (and every filed
+absence of a verdict) under the revision
+registration's scoreability table and floors.
+*Pass:* every filed verdict reproduces exactly;
+the same filed script exits 0 on its execution
+section.
+
+**TC-110-04 and TC-110-05 apply at the revision
+close** over the revision landing, in their filed
+forms, with the revision's claims (C110-7..C110-11)
+in the intake scope.

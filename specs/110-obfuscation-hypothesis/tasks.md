@@ -32,3 +32,29 @@
 - [x] T104 Close: TC-110-04 PASS, TC-110-05 filed
   (criterion 1 fired), close record filed,
   PROGRAM-STATE updated.
+
+## Revision (2026-11-27)
+
+- [x] T201 Revision registered: development rounds
+  on development seeds measured and disclosed;
+  revision registration filed
+  (records/revision-registration-2026-11-27.md);
+  claims C110-7..C110-11 written as
+  claims-revision.json and appended to claims.md;
+  spec.md §8, plan.md addendum, and TC-110-06..08
+  filed; AEE assessment over the revision bundle
+  filed; TC-110-06 run.
+- [x] T202 Revision claims intaken through the
+  standard cascade over the landing base; revision
+  cascade record filed with executed figures.
+- [x] T203 Revision harness built
+  (records/obfuscation-harness-rev2.py); gate run
+  once on the registered seeds; revision
+  control-validation record filed.
+- [x] T204 Execution for gate-passing families and
+  profiles only; revision execution record filed;
+  TC-110-07 and TC-110-08 run.
+- [x] T205 Revision close: TC-110-04 and TC-110-05
+  over the revision landing; revision close record
+  filed; history ledger appended; PROGRAM-STATE
+  updated.

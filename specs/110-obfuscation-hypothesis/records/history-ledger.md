@@ -40,3 +40,32 @@
   this battery, not falsified. Close record:
   `records/close-2026-11-27.md` (TC-110-04 PASS; TC-110-03 not run by
   the gate's design).
+
+## 9. Revision (2026-11-27, later the same day)
+
+- The battery was revised under kill-criterion discipline and
+  re-registered before any run (records/revision-registration-
+  2026-11-27.md): per-system control bands (G-A); family D
+  re-registered as the joint inventory-inflation rule (G-D); C2
+  retired on a disclosed development record and C1 re-registered
+  conditionally on its false-positive leg (G-C, G-FP); family B
+  unchanged. Claims C110-7..C110-11 intaken (cascade record:
+  records/revision-cascade-2026-11-27.md; ledger 1,144 lines,
+  canonical 0933a9d5…, pin re_derivations[32]).
+- The revised gate ran once on the registered seeds (harness
+  records/obfuscation-harness-rev2.py, SHA-256 c5e31913…; gate
+  output in custody glossa-custody/spec110-rev/, SHA-256
+  53c2af44…). Passed: A-structure, B, C1 at the Indus profile
+  (FP panel 0/0/1/0). Failed: A-flattening (T-POLY 3/5) and D
+  (3/5) at Indus; the invariance leg at Meroitic (3/5 clean, on a
+  measured band-coverage mechanism: T-SUB-U statistics identical
+  to natural, two natural corpora outside the tight V0 = 31 band).
+- Execution for the licensed set only (records/revision-
+  execution-2026-11-27.md): Indus A SIGNATURE PRESENT (structure),
+  C SIGNATURE PRESENT (C1, the same measurement), B SIGNATURE
+  ABSENT, D no verdict (unscored joint rule would have filed
+  ABSENT); Meroitic no A/C/D verdict, B NOT TESTABLE; Eteocypriot
+  NOT TESTABLE all families. TC-110-06 PASS; TC-110-07/08 PASS
+  43/43; TC-110-04 PASS; TC-110-05 filed in the revision close
+  record. The PRESENTs are candidates for adjudication; no
+  standing, verdict, or tally moves.
