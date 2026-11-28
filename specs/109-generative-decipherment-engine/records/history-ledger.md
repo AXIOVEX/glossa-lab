@@ -242,3 +242,46 @@ G1-R's FAILED licensing state stands; no floor moved;
 no standing, verdict, or tally moved. TC-109-02 re-run
 in verification form: PASS, 119/119, every figure
 recomputed independently and the decision mechanical.
+
+## 2026-11-27 — Stage 4 executed (T401): Part 5 preflight met; ranking filed RANKING NULL
+
+Stage 4 executed Part 5 (Eteocypriot candidate ranking) under
+registration §6 in the worktree the owner cleared for this stage
+(spec109-stage4-wt-20261127). The freeze
+(records/stage-4-freeze-2026-11-27.md, SHA-256 80ec9c9f...) was
+committed before any computation: comparanda closed at (a) alone
+(the two ICS 196 name anchors), with the determination on its face
+that the E1 derivation tables are not filed complete under Spec
+101's P-3, so comparanda (b) do not exist at this freeze; the
+variant set closed at {A1, A2, J}; scoring on components (1) and
+(2) only, component (3) dropped as registered, no context term
+(Stage 2's CHANNEL NULL). Preflight (records/stage-4-preflight-
+2026-11-27.md): clause N met, 9/9 filed anchor facts reproduced
+from the pinned corpus; clause S met, median recovery 1.000 over
+five synthetic corpora at the unchanged 0.80 floor, shuffle
+control median 0.167. The preflight record discloses the first
+execution's fail-closed stop: the harness had recomputed the
+development inventory with editorial brackets stripped (34 marks)
+against the filed 35 (Spec 105's L1 list carries '[sa]' and 'sa'
+as separate marks over 69 tokens); the harness was corrected to
+the tokens as recorded and the run re-executed whole; every
+figure comes from the second execution (payload exit 0). Ranking
+(records/stage-4-outcome-2026-11-27.md): three candidates for
+ICS 196 — A1 (pairings (5, 6); key1 2; key2 0.2593), J ((6, 7);
+key1 0; key2 0.3148), A2 ((6, 6); key1 0; key2 0.1852) — A1's lead
+rests on key1 alone (its implied ending [na] suffixes two of the
+eight held-out forms); the permutation null (B = 999, seed
+109401, over the filed 35-mark inventory) returned maximum-key1
+distribution {0: 888, 1: 3, 2: 107, 4: 1}, 99th percentile 2,
+against the top candidate's 2. Verdict RANKING NULL: the ranked
+set is filed as candidates with margins and full generation
+provenance; the top rank is not distinguishable from the null at
+the frozen bar. TC-109-07 and TC-109-03 PASS by independent
+verification (records/stage-4-verify.py; 31/31 checks: ranking,
+null distribution, and clause-S recoveries all recomputed
+exactly; the language scan over Part 5's records returned zero
+hits). Kill criterion 1 fired for Part 5 in its registered form;
+criteria 2, 3, and 5 not fired; criterion 4 not engaged. No
+standing, verdict, tally, anchor, or ledger row in any program
+moved; no claim moved; OD-O-2 neither resolved nor presumed.
+Close record: records/stage-4-close-2026-11-27.md.
