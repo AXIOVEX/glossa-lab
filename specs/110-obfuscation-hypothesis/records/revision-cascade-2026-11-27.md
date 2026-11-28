@@ -170,3 +170,13 @@ Re-executed figures over the merged build:
   run-index entry acts were superseded with the merge resolution
   (the index on the merged tree carries main's acts plus the
   re-execution's).
+
+Completion (re-execution): the three records of Spec 111's T405
+generation carry `departure` acts on the run index naming the
+re-execution commit (`248904fd`) and their final blobs, and the
+legacy-index entry act for `re_derivations[33]` is appended
+(1 act; folded census 140 entries). With those acts in place the
+ledger gate's V11 leg closes: full gate re-run after the
+completion commit is filed in the close record's terms (all legs
+PASS except V7, NOT-RUN locally by design; CI runs V7 under
+`--regen`).
