@@ -551,14 +551,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the merged grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the merged build (incumbent settling-20261128T020148Z-9f5fe0, full-register settling-20261128T020148Z-75cdce); both result blocks are byte-equal to the superseded generation (settling-20261128T011943Z-1449ae, settling-20261128T011943Z-5ff36b) except the pins blocks, which carry the new ledger pin. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T020148Z-1d5c35): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
+  },
+  {
+   "date": "2026-11-27",
+   "act": "E6 rulings application (branch e6-rulings-2026-11-27; record: specs/091-anchor-comparison-integrity/records/e6-rulings-application-2026-11-27.md). The owner (Tristen Pierson) ruled in the Glossa-Lab chat on 2026-11-27, under his recommended-answer directive of 19:41 ET (\"Keep working. Any questions you have for me, I want you to go with the recommended answer that is most likely to advance our work\"), adopting the recommendations presented to him with the E6-readiness proposal: (a) the shared conditional falsifier draft ACCEPTED for the three claims indus_valley_script_deciphered_from_myth_65ff0a26_critique_0001, indus_valley_script_deciphered_from_myth_65ff0a26_critique_0002 and without_kings_or_conquests_the_indus_scr_ce9d98cc_language_0001 (proposal sections 4.5, 4.6, 4.9), attaching on his acceptance of the Phase-104 evaluation's reading of the fragments as restating the Farmer\u2013Sproat\u2013Witzel thesis (companion record farmer_sproat_witzel_2004_manual_001); (b) ancient_writing_and_modern_technologies_51831ac9_statisti_0004 RETIRED as an extraction artefact (proposal section 4.4 ground: its statement is a section heading asserting no proposition, and no honest falsifier is draftable for it); (c) the annotation determination B2 recorded Glossa-side in the application record (under the declared profile the falsifier is declared not-applicable for the annotation kind, proposal section 5.3; the validator change itself is VEXA-side and is not touched). Serialization: this cascade executed four times. The first execution ran over the 1,133-line build and completed both its commits (application 60f47aa2, completion 11acef04) on this branch; before its pull request opened, main advanced under PR #808 (Spec 109 G1 enriched) and PR #810 (Spec 110 registration; the ledger to 1,139 lines; its own re-derivation at re_derivations[31]), so the first execution was superseded unmerged and the cascade was re-executed over the merged build. The second execution (application c2341efc, completion fa96c744) reached CI 10/10 on PR #811, but before it merged, main advanced under PR #809 (Spec 111 registration; the ledger to 1,147 lines; its own re-derivation at re_derivations[32]), and the merge was blocked on conflicts in every cascade artifact. The third execution (application 03fa03ea, completion 271c4d29) completed both its commits on this branch over the merged 1,151-line build, but before it was pushed, main advanced under PR #812 (Spec 110 revision registration; the ledger to 1,152 lines; its own re-derivation at re_derivations[33]). The branch was therefore rebuilt from the new main a third time, and the whole cascade was re-executed a fourth time over the merged build, which is the landing this entry documents. The four amendment entries are byte-identical across the four executions. This entry gives those acts effect over the merged 1,156-line build.",
+   "reason": "The claims ledger grew by append-only amendment: four reclassification entries dated 2026-11-27 were appended through glossa_lab.ledger_intake.append_entry \u2014 three carrying the conditional falsifier text for the superseded entries (falsifier: null -> the appended text; no status or stage moved; the two myth fragments and the language fragment already stand contradicted) and one carrying the retirement of statisti_0004 (status: \"untested\" -> \"superseded\", program-map-defs v1 section 4.2, class closed_other; no falsifier appended, none being draftable). No existing entry was modified, and no other standing, verdict or tally moved.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "18369a65f0f4b5f3f199abed194f47e8b65b0af9eb733fc7854fbe50a1a32026",
+    "lines": 1152
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "a09fb02f61a62a5d3952ade640c6820626da42a89cac3677049385a5297dc632",
+    "lines": 1156
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T030313Z-22d2a2, full-register settling-20261128T030313Z-459a6b); both result blocks are byte-equal to the superseded generation's (settling-20261128T020148Z-9f5fe0 and settling-20261128T020148Z-75cdce), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations. The assignment-set materialization was re-run (settling-20261128T030334Z-9e1d17); the sets of record are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "18369a65f0f4b5f3f199abed194f47e8b65b0af9eb733fc7854fbe50a1a32026",
-   "lines": 1152
+   "sha256_canonical": "a09fb02f61a62a5d3952ade640c6820626da42a89cac3677049385a5297dc632",
+   "lines": 1156
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",

@@ -2,9 +2,9 @@
  "coverage": {
   "claims": {
    "by_class": {
-    "closed_other": 1,
+    "closed_other": 2,
     "negative": 7,
-    "open": 1089,
+    "open": 1088,
     "positive": 10
    },
    "by_population": {
@@ -35,9 +35,9 @@
    "Claim families by study line": {
     "claims": 568,
     "claims_by_class": {
-     "closed_other": 0,
+     "closed_other": 1,
      "negative": 6,
-     "open": 560,
+     "open": 559,
      "positive": 2
     },
     "restricted_studies": 1,
@@ -15449,7 +15449,7 @@
     "subdomain": "Extracted literature claims"
    },
    {
-    "class": "open",
+    "class": "closed_other",
     "document": "ancient_writing_and_modern_technologies_51831ac9",
     "domain": "Claim families by study line",
     "falsifier_present": false,
@@ -15457,8 +15457,8 @@
     "kind": "claim",
     "population": "extracted",
     "stage": "created",
-    "standing": "Ledger standing: status untested · stage created · falsifier absent",
-    "status": "untested",
+    "standing": "Ledger standing: status superseded · stage created · falsifier absent",
+    "status": "superseded",
     "study": null,
     "subdomain": "Extracted literature claims"
    },
@@ -17519,9 +17519,9 @@
  },
  "stamp": {
   "ledger_latest_entry_date": "2026-11-27",
-  "ledger_lines": 1152,
+  "ledger_lines": 1156,
   "ledger_schema": "ledger-schema v1",
-  "ledger_sha256": "18369a65f0f4b5f3f199abed194f47e8b65b0af9eb733fc7854fbe50a1a32026",
+  "ledger_sha256": "a09fb02f61a62a5d3952ade640c6820626da42a89cac3677049385a5297dc632",
   "program_map_defs": "program-map-defs v1",
   "program_map_taxonomy": "program-map-taxonomy v2"
  },

@@ -74,16 +74,18 @@ def test_model_generic_layer_names_no_script_specific_assumption():
 def test_indus_claims_census_unchanged():
     rows = _ledger_rows()
     claims = [r for r in rows if r.get("kind") == "claim"]
-    assert len(rows) == 1152
+    assert len(rows) == 1156
     assert len(claims) == 1107
-    # Non-claim lines: 31 annotations, plus fourteen
+    # Non-claim lines: 31 annotations, plus eighteen
     # reclassifications (the C101-1 adjudication and the five E6
-    # falsifier amendments of 2026-11-27, Spec 091; and the eight
+    # falsifier amendments of 2026-11-27, Spec 091; the eight
     # Spec 098 standing-cascade entries of 2026-11-27, the standing
-    # change draft -> strongly_supported).
+    # change draft -> strongly_supported; and the four E6 rulings
+    # amendments of 2026-11-27, Spec 091 — the three conditional
+    # falsifier amendments and the statisti_0004 retirement).
     annotations = [r for r in rows if r.get("kind") == "annotation"]
     assert len(annotations) == 31
-    assert len(rows) - len(claims) - len(annotations) == 14
+    assert len(rows) - len(claims) - len(annotations) == 18
     # Falsifier coverage: 1098 of 1107; the 9 without are GR-088-21.
     assert sum(1 for r in claims if r.get("falsifier")) == 1098
     # Claim -> Sign linkage: exactly one claim carries sign_refs
