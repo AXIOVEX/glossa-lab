@@ -1563,7 +1563,7 @@
  ],
  "out_of_frame_note": "Register records outside the settled frame (their frame is unnamed in the anchors file — UNMEASURED, SETTLING-SEMANTICS.md §2): counted here, assigned by no set of record in v1.",
  "producing_run": {
-  "run_id": "settling-20261128T092534Z-fe9b95",
+  "run_id": "settling-20261128T104053Z-c68cfb",
   "surface": "settling",
   "command": "materialize-sets"
  }

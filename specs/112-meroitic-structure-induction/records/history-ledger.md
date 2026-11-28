@@ -47,3 +47,24 @@
   produced (TC-112-04); Spec 102 and Spec 109
   Stage 5 untouched (TC-112-08). Record:
   records/preflight-2026-11-28.md.
+- **2026-11-28 — Revision registration.** Under
+  kill criterion KC-1 and claim C112-7, the study's
+  response to the failed preflight is a revised
+  search design, registered inside Spec 112 in the
+  Spec 110 form (records/revision-registration-
+  2026-11-28.md): the whole-form segmentation class
+  is abolished and the inventory support floor set
+  to 2 distinct host forms; the positional-band slot
+  model is replaced by a sequence-anchored grammar
+  with induced frame, offering anchor, and filiation
+  paradigms; partial proposals are made
+  segmenter-based under a null-derived threshold.
+  No floor, ground-truth set, or scoring rule
+  changed. Four claims (C112-8..C112-11) intaken
+  through the sanctioned importer at stage
+  `created`, status `draft`; AEE assessment filed
+  (outcome iterate, draft-capped). Fixture proofs
+  are registered as a precondition to the revision's
+  preflight (TC-112-10). No execution yet; no corpus
+  output exists; no standing moved. Cascade record:
+  records/revision-cascade-2026-11-28.md.
