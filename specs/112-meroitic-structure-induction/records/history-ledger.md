@@ -68,3 +68,33 @@
   preflight (TC-112-10). No execution yet; no corpus
   output exists; no standing moved. Cascade record:
   records/revision-cascade-2026-11-28.md.
+- **2026-11-28 — Revision execution: preflight
+  failed; revision closed as filed.** Freeze at
+  commit `3a2b5807` (harness and verifier
+  committed before computation; ground-truth
+  sets re-extracted byte-identical). Fixture
+  proofs (TC-112-10) passed in full: no
+  one-segment candidates, the planted
+  segmentation beat the character fallback on
+  2,193 of 2,193 planted forms, fixture median
+  F1 1.0 on both fixtures. Preflight, judged by
+  independent recomputation (TC-112-11, 20 of
+  20 checks agree after a disclosed verifier
+  correction): P-1 median boundary F1 0 against
+  0.80 (308 of 1,719 forms exact); P-2 match
+  73/95 against 90%, the name-slot sub-leg held
+  (presentation entropy 9.237 bits, strictly
+  greatest); P-3 precision 5/14 against 0.80,
+  character-shuffle ratio 3/14 and slot-yield
+  ratio 1/3, both above the 0.20 cap. Corpus
+  induction NOT RUN (the harness's induce
+  subcommand refuses on this verdict, exit 2).
+  The revision closes as filed under the
+  revision kill criterion and is not revised
+  again under this registration. Records:
+  records/execution-freeze-rev-2026-11-28.md,
+  records/fixture-proofs-rev.json,
+  records/preflight-rev-output.json,
+  records/preflight-rev-2026-11-28.md,
+  records/verify-rev-output.json,
+  records/close-rev-2026-11-28.md.

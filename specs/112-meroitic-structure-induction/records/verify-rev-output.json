@@ -1,0 +1,106 @@
+{
+ "agree": 20,
+ "checks": [
+  {
+   "agree": true,
+   "check": "P-1 per-form F1 values",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-1 median F1",
+   "detail": "recomputed 0 vs filed 0"
+  },
+  {
+   "agree": true,
+   "check": "P-1 pass flag",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-1 form count",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-2 labeled count",
+   "detail": "recomputed 95"
+  },
+  {
+   "agree": true,
+   "check": "P-2 per-text labels",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-2 match rate",
+   "detail": "recomputed 73/95 = 73/95"
+  },
+  {
+   "agree": true,
+   "check": "P-2 slot entropies",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-2 name-slot argmax",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-2 pass flag",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-2 yield recount",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-2 shuffle yield recount",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-3 gold union",
+   "detail": "recomputed 24 strings"
+  },
+  {
+   "agree": true,
+   "check": "P-3 proposal counts consistent",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-3 tau is the null maximum",
+   "detail": "recomputed 10"
+  },
+  {
+   "agree": true,
+   "check": "P-3 precision",
+   "detail": "recomputed 5/14"
+  },
+  {
+   "agree": true,
+   "check": "P-3 shuffle proposal ratio",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-3 slot yield ratio",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "P-3 pass flag",
+   "detail": ""
+  },
+  {
+   "agree": true,
+   "check": "pass_in_full consistency",
+   "detail": ""
+  }
+ ],
+ "total": 20
+}
