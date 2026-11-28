@@ -1,0 +1,172 @@
+{
+"claims": [
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"A leg of this study executed under a design other than its registration; a corpus other than the pinned corpus scored; a floor or threshold adjusted after the preflight ran; an output filed that is not the mechanical consequence of the registered induction over the filed pins."
+],
+"id": "C112-1",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "The corpus pins of spec.md section 2, the three induction targets of section 3, the preflight of section 4, the execution sequence of section 6, and the kill criteria of section 7 are the Meroitic structure-induction study of this spec, and no leg of it runs under any other design. Does not establish: that the induction's outputs are correct, that Meroitic has the structure the targets presuppose, or that any structure found is a fact about the language rather than a candidate about the corpus.",
+"uncertainty": "insufficient_evidence"
+},
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"A scoreable corpus output filed before a full preflight pass; a preflight figure that the independent recomputation does not reproduce; a floor met by redefinition after the run."
+],
+"id": "C112-2",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "The conformance preflight of spec.md section 4 (P-1 segmentation recovery, P-2 formula-slot recovery, P-3 partial validity with its shuffle control), judged against the registered floors by independent recomputation, runs and passes in full before any corpus output of this study is scoreable. Does not establish: that a passed preflight makes the induction's corpus outputs true (it licenses them as candidates, nothing more), or that the ground-truth sets are beyond challenge by the program's expert-verification routes.",
+"uncertainty": "insufficient_evidence"
+},
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"A filed segmentation without its provenance; a segmentation presented anywhere as the form's established analysis; a candidate set filed without its margins."
+],
+"id": "C112-3",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "Each segmentation candidate this study files carries its score, its rank, and its full generation provenance (search state, seed, data pins), and is filed as a candidate for adjudication, never as a reading of the form. Does not establish: that the top-ranked segmentation of any form is its morpheme structure, or that Meroitic morphology is agglutinative in the way the target's form presupposes.",
+"uncertainty": "insufficient_evidence"
+},
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"A partial filed without its support or positional profile; a partial identified anywhere in this study's records as a morpheme, an affix with a function, or a word."
+],
+"id": "C112-4",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "Each partial this study files carries its support, its positional profile, and its host-form set, and is claimed as a recurrent distributional object in the pinned corpus only. Does not establish: that a recurrent partial is a morpheme, that it carries a meaning or a grammatical function, or that its recurrence is not an artefact of the corpus's formulaic composition.",
+"uncertainty": "insufficient_evidence"
+},
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"The Class B template, or any labeling derived from it, present in the induction's inputs; an induced grammar whose filed form was edited toward the template after the run."
+],
+"id": "C112-5",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "The slot grammar of spec.md section 3 is induced from the funerary text stream without the Class B template as an input; the template enters only at the preflight (P-2) and at the filed comparison of the induced grammar against it. Does not establish: that the induced slots are the formula's functional slots, that the template's received readings are correct, or that slot structure in the funerary stratum generalises to the corpus's other genres.",
+"uncertainty": "insufficient_evidence"
+},
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"An output of this study entered as an input to Spec 102's vocabulary, gates, or scoring, or to Spec 109 Stage 5, without a new registration deciding that use on its own record; a gloss assigned to a Meroitic form anywhere in this study's records."
+],
+"id": "C112-6",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "This study is corpus-internal structure only: it supplies no vocabulary to Spec 102, changes no gate or source rule of Spec 102, assigns no gloss to any form, and leaves Spec 109 Stage 5 gated on Spec 102 exactly as registered. Does not establish: that this study's structures could never legitimately inform those studies; only that any such use is a separate, registered decision, not a consequence of this one.",
+"uncertainty": "insufficient_evidence"
+},
+{
+"boundary": [],
+"conflicts_with": [],
+"depends_on": [],
+"evidence": [
+{
+"description": "The owner's directives of 2026-11-27 (discovery governance: generation separate from adjudication, conformance preflights on known ground truth, kill-criterion discipline) and 2026-11-28 (Meroitic the sole active front; doing nothing on the data in hand is not an option) in the Glossa-Lab chat, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 091, 097, 102, 105, 106, 107, and 109.",
+"direction": "supports",
+"kind": "asserted",
+"ref": "spec.md",
+"source_quality": "unknown"
+}
+],
+"falsification_tests": [
+"The study continuing past a failed preflight leg; a floor lowered, a control weakened, or a ground-truth set re-cut after a failure, within this registration."
+],
+"id": "C112-7",
+"kind": "requirement",
+"source_ref": "spec.md",
+"stage": "created",
+"status": "draft",
+"text": "If any preflight leg fails its registered floor, or the shuffle control yields structure above its cap, the study closes with the failing leg and the counted shortfall on the record, and the response is a revised design under a new registration, never a lowered bar. Does not establish: that a closed study falsifies structure induction for Meroitic in general; a closure is a finding about this design at this corpus.",
+"uncertainty": "insufficient_evidence"
+}
+]
+}
