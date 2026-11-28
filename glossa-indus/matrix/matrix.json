@@ -3,8 +3,8 @@
  "generated_from": "glossa-indus/ledger/claims.jsonl",
  "generated_by": "tools/ledger/generate_matrix.py (backend/glossa_lab/matrix_generate.py)",
  "as_of": {
-  "ledger_sha256": "7f01d66eaff2e3e2fae55c208db3344706b92844e0da9dddbd2ee9446025ba32",
-  "ledger_lines": 1163,
+  "ledger_sha256": "0eb3f3ffe82bcf35304f01b1be52a203643814971aefe1b7c0fad3be22e16039",
+  "ledger_lines": 1167,
   "ledger_date": "2026-11-28",
   "ledger_schema": "ledger-schema v1",
   "matrix_defs": "matrix-defs v1"
@@ -6693,6 +6693,30 @@
    "population": "bundle",
    "status": "draft",
    "stage": "created"
+  },
+  {
+   "id": "112-meroitic-structure-induction/C112-10",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "112-meroitic-structure-induction/C112-9",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "112-meroitic-structure-induction/C112-8",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
+  },
+  {
+   "id": "112-meroitic-structure-induction/C112-11",
+   "population": "bundle",
+   "status": "draft",
+   "stage": null
   }
  ],
  "columns": [
@@ -7206,6 +7230,10 @@
   },
   {
    "id": "records/revision-registration-2026-11-27.md",
+   "class": "documents"
+  },
+  {
+   "id": "records/revision-registration-2026-11-28.md",
    "class": "documents"
   },
   {
@@ -27067,6 +27095,28 @@
    ]
   },
   {
+   "row": "112-meroitic-structure-induction/C112-10",
+   "column": "records/revision-registration-2026-11-28.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "112-meroitic-structure-induction/C112-10",
+    "records/revision-registration-2026-11-28.md"
+   ]
+  },
+  {
+   "row": "112-meroitic-structure-induction/C112-11",
+   "column": "records/revision-registration-2026-11-28.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "112-meroitic-structure-induction/C112-11",
+    "records/revision-registration-2026-11-28.md"
+   ]
+  },
+  {
    "row": "112-meroitic-structure-induction/C112-2",
    "column": "spec.md",
    "column_class": "documents",
@@ -27130,6 +27180,28 @@
    "citations": [
     "112-meroitic-structure-induction/C112-7",
     "spec.md"
+   ]
+  },
+  {
+   "row": "112-meroitic-structure-induction/C112-8",
+   "column": "records/revision-registration-2026-11-28.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "112-meroitic-structure-induction/C112-8",
+    "records/revision-registration-2026-11-28.md"
+   ]
+  },
+  {
+   "row": "112-meroitic-structure-induction/C112-9",
+   "column": "records/revision-registration-2026-11-28.md",
+   "column_class": "documents",
+   "relation": "supports",
+   "rule": "R2",
+   "citations": [
+    "112-meroitic-structure-induction/C112-9",
+    "records/revision-registration-2026-11-28.md"
    ]
   },
   {
@@ -27300,8 +27372,8 @@
   }
  ],
  "coverage": {
-  "rows_total": 1114,
-  "rows_with_cells": 1100,
+  "rows_total": 1118,
+  "rows_with_cells": 1104,
   "empty_rows": [
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0002",
    "ancient_writing_and_modern_technologies_51831ac9_sign_val_0003",
@@ -27320,7 +27392,7 @@
   ],
   "columns_by_class": {
    "studies": 10,
-   "documents": 320,
+   "documents": 321,
    "research_checks": 31,
    "anchors": 287,
    "corpus_texts": 0
@@ -27659,30 +27731,30 @@
    ],
    "corpus_texts": []
   },
-  "cells_total": 1637,
+  "cells_total": 1641,
   "cells_by_relation": {
-   "supports": 1630,
+   "supports": 1634,
    "opposes": 7,
    "constrains": 0
   },
   "cells_by_class": {
    "studies": 7,
-   "documents": 1630,
+   "documents": 1634,
    "research_checks": 0,
    "anchors": 0,
    "corpus_texts": 0
   },
   "falsifier_coverage": {
-   "covered": 1105,
-   "total": 1114,
+   "covered": 1109,
+   "total": 1118,
    "by_population": {
     "extracted": {
      "covered": 14,
      "total": 23
     },
     "bundle": {
-     "covered": 1091,
-     "total": 1091
+     "covered": 1095,
+     "total": 1095
     }
    }
   },
@@ -31005,6 +31077,30 @@
    {
     "from": "087-node-system-tightening/C087-8",
     "to": "087-node-system-tightening/C087-4"
+   },
+   {
+    "from": "112-meroitic-structure-induction/C112-10",
+    "to": "112-meroitic-structure-induction/C112-7"
+   },
+   {
+    "from": "112-meroitic-structure-induction/C112-10",
+    "to": "112-meroitic-structure-induction/C112-9"
+   },
+   {
+    "from": "112-meroitic-structure-induction/C112-11",
+    "to": "112-meroitic-structure-induction/C112-6"
+   },
+   {
+    "from": "112-meroitic-structure-induction/C112-8",
+    "to": "112-meroitic-structure-induction/C112-1"
+   },
+   {
+    "from": "112-meroitic-structure-induction/C112-9",
+    "to": "112-meroitic-structure-induction/C112-2"
+   },
+   {
+    "from": "112-meroitic-structure-induction/C112-9",
+    "to": "112-meroitic-structure-induction/C112-8"
    }
   ]
  },

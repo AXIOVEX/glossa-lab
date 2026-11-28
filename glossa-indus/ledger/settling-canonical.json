@@ -585,14 +585,31 @@
    },
    "expectations_changed": false,
    "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T092257Z-31e57c, full-register settling-20261128T092422Z-7b9cea); both result blocks are byte-equal to the superseded generation's (settling-20261128T030313Z-22d2a2, settling-20261128T030313Z-459a6b), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T092534Z-fe9b95): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
+  },
+  {
+   "date": "2026-11-28",
+   "act": "Spec 112 revision registration (branch spec-112-revision; record: specs/112-meroitic-structure-induction/records/revision-cascade-2026-11-28.md). Four claims (C112-8..C112-11) of the Spec 112 revision were intaken at registration through the sanctioned importer. The revision answers the first execution's preflight failure (PR #814, merge 63408e1c; all three legs failed and the study closed as filed under kill criterion KC-1) by revising the search design only: the whole-form segmentation class is abolished and the inventory support floor set to 2 distinct host forms; the positional-band slot model is replaced by a sequence-anchored grammar with induced frame, offering anchor, and filiation paradigms; partial proposals are made segmenter-based under a null-derived threshold. No floor, ground-truth set, or scoring rule changed, and the revision registers fixture proofs as a precondition to its preflight. No standing, verdict or tally moved.",
+   "reason": "The claims ledger grew by append-only intake: four proposition entries dated 2026-11-28 were appended through tools/ledger/import_bundle.py from specs/112-meroitic-structure-induction/claims-revision.json, each at stage created, status draft, carrying its falsifier and its does-not-establish line. No existing entry was modified, and no other standing, verdict or tally moved.",
+   "prior_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "7f01d66eaff2e3e2fae55c208db3344706b92844e0da9dddbd2ee9446025ba32",
+    "lines": 1163
+   },
+   "new_ledger_pin": {
+    "path": "glossa-indus/ledger/claims.jsonl",
+    "sha256_canonical": "0eb3f3ffe82bcf35304f01b1be52a203643814971aefe1b7c0fad3be22e16039",
+    "lines": 1167
+   },
+   "expectations_changed": false,
+   "verification": "tools/ledger/run_settling.py verify-canonicals over the grown build: 6/6 registered canonicals reproduce (the five scenarios and the one comparison), field-for-field, before the pin was refreshed. The T405 pair was re-executed over the grown build (incumbent settling-20261128T104041Z-9c65d4, full-register settling-20261128T104041Z-5585a9); both result blocks are byte-equal to the superseded generation's (settling-20261128T092257Z-31e57c, settling-20261128T092422Z-7b9cea), verified by direct comparison of the stored records, and every non-ledger input pin is identical across the generations. The Stage 4 dual-run comparison was re-filed at specs/086-winning-combination-adoption/records/stage-4-dual-run-comparison.json; its diff against the previous filing is exactly the ledger pin (sha256 + lines). Materialization re-run (settling-20261128T104053Z-c68cfb): the assignment sets are unchanged (incumbent 94 assignments, full-register 286, H003 out of frame)."
   }
  ],
  "label": "Computation over ledgered relations under glossa-settle-1 semantics. Establishes what the ledger implies under these rules, not what the script says.",
  "provenance": {
   "ledger": {
    "path": "glossa-indus/ledger/claims.jsonl",
-   "sha256_canonical": "7f01d66eaff2e3e2fae55c208db3344706b92844e0da9dddbd2ee9446025ba32",
-   "lines": 1163
+   "sha256_canonical": "0eb3f3ffe82bcf35304f01b1be52a203643814971aefe1b7c0fad3be22e16039",
+   "lines": 1167
   },
   "anchors_register": {
    "path": "backend/reports/INDUS_FINAL_ANCHORS.json",

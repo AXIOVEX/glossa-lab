@@ -54,3 +54,35 @@ and any execution under it write nothing into Spec
 rule, or pin of either, and assign no gloss to any
 Meroitic form; verified by tree diff over both specs
 at the close of any stage.
+
+**TC-112-09 (revision package form).** The revision
+package verifies in form: claims-revision.json ids
+and order equal claims.md C112-8..C112-11; every
+revision claim carries a falsifier and a
+does-not-establish line in both files; the revision
+registration names the three filed failure
+mechanisms and the design answers, and states that
+no floor, ground-truth set, or scoring rule changed.
+
+**TC-112-10 (fixture proofs).** The revision's
+fixture proofs run at the freeze, before the
+preflight, over the registered fixtures: (a) no
+one-segment candidate appears in any top-5
+segmentation; (b) on the easy fixture the planted
+segmentation outscores the all-single-character
+fallback on the planted forms; (c) the median
+boundary F1 on the easy fixture and on the hard
+fixture (recurrent root pieces, the 24 gold strings
+as the planted inventory, stacked suffixes, bare
+stems, defective spellings) is at least 0.80. Any
+failure closes the revision as filed without a
+preflight run.
+
+**TC-112-11 (revision two-implementation
+agreement).** The revision's preflight figures (P-1
+median boundary F1, P-2 slot match rate, name-slot
+variance rank, and slot yield; P-3 precision, the
+null-derived threshold, and the shuffle yield ratio)
+are recomputed by an independent implementation from
+the filed outputs and agree exactly (rational
+figures) or to the carried tolerance (entropies).
