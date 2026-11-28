@@ -3,16 +3,16 @@
 Generated from `glossa-indus/ledger/claims.jsonl` by `tools/ledger/generate_matrix.py`. Do not hand-edit; regenerate.
 
 Definitions: matrix-defs v1 (`glossa-indus/matrix/DEFINITIONS.md`). Ledger schema: ledger-schema v1.
-As-of: ledger sha256 `a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa`; 1139 ledger lines; ledger date 2026-11-27.
+As-of: ledger sha256 `70097435f564959f5e3e20e9b8dd5a1d96aea096ba1d7d61c0d1eb42b3f564b9`; 1147 ledger lines; ledger date 2026-11-27.
 
-Rows: 1094 claims. Cells: 1617 (supports 1610, opposes 7, constrains 0).
+Rows: 1102 claims. Cells: 1625 (supports 1618, opposes 7, constrains 0).
 
 ## Cells by column class
 
 | Class | Columns | Borne | Cells | Supports | Opposes | Constrains |
 |---|---|---|---|---|---|---|
 | studies | 10 | 4 | 7 | 0 | 7 | 0 |
-| documents | 317 | 317 | 1610 | 1610 | 0 | 0 |
+| documents | 317 | 317 | 1618 | 1618 | 0 | 0 |
 | research_checks | 31 | 0 | 0 | 0 | 0 | 0 |
 | anchors | 287 | 0 | 0 | 0 | 0 | 0 |
 | corpus_texts | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -188,7 +188,7 @@ Rows: 1094 claims. Cells: 1617 (supports 1610, opposes 7, constrains 0).
 | scripts/global_class_stability.py | 2 | 2 | 0 | 0 |
 | spec section 0 (FF-6); reports/phase441_results.json census.token_999 | 1 | 1 | 0 | 0 |
 | spec section 3 (inputs) | 1 | 1 | 0 | 0 |
-| spec.md | 326 | 326 | 0 | 0 |
+| spec.md | 334 | 334 | 0 | 0 |
 | specs/019-phase125-cross-compilation-positional/spec.md | 1 | 1 | 0 | 0 |
 | specs/021-phase130-intake-pack/spec.md | 5 | 5 | 0 | 0 |
 | specs/023-keyed-transcription-layer/spec.md | 2 | 2 | 0 | 0 |
@@ -355,14 +355,14 @@ Rows: 1094 claims. Cells: 1617 (supports 1610, opposes 7, constrains 0).
 ```text
 Matrix generation — glossa-indus/matrix/ (matrix-defs v1; ledger-schema v1)
 generated from: glossa-indus/ledger/claims.jsonl
-ledger sha256: a914984740310a301cb3e1c1a8780a58d5edc212bf9998772a4114f37f1d62fa
-ledger lines: 1139; ledger date: 2026-11-27
-rows: 1094 claims (1080 with at least one cell; 14 empty)
+ledger sha256: 70097435f564959f5e3e20e9b8dd5a1d96aea096ba1d7d61c0d1eb42b3f564b9
+ledger lines: 1147; ledger date: 2026-11-27
+rows: 1102 claims (1088 with at least one cell; 14 empty)
 columns: studies 10, documents 317, research_checks 31, anchors 287, corpus_texts 0
-cells: 1617 (supports 1610, opposes 7, constrains 0)
-cells by class: studies 7, documents 1610, research_checks 0, anchors 0, corpus_texts 0
-falsifier coverage: 1085 of 1094 claim entries carry a falsifier
-falsifier coverage by population: bundle 1071/1071, extracted 14/23
+cells: 1625 (supports 1618, opposes 7, constrains 0)
+cells by class: studies 7, documents 1618, research_checks 0, anchors 0, corpus_texts 0
+falsifier coverage: 1093 of 1102 claim entries carry a falsifier
+falsifier coverage by population: bundle 1079/1079, extracted 14/23
 Coverage
 empty rows: 14
   ancient_writing_and_modern_technologies_51831ac9_sign_val_0002, ancient_writing_and_modern_technologies_51831ac9_sign_val_0003, indus_valley_script_deciphered_from_myth_65ff0a26_manual_001, indus_valley_script_deciphered_from_myth_65ff0a26_manual_002, indus_valley_script_deciphered_from_myth_65ff0a26_manual_003, indus_valley_script_deciphered_from_myth_65ff0a26_manual_004, parpola_2010_dravidian_solution_manual_001, parpola_2010_dravidian_solution_manual_002, the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0001, the_archaeology_and_epigraphy_of_indus_w_27f45a68_sign_val_0002, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_001, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_002, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_004, without_kings_or_conquests_the_indus_scr_ce9d98cc_manual_005

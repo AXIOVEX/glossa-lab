@@ -1,0 +1,1456 @@
+{
+  "schema_version": "1.0",
+  "methodology_version": "2.0",
+  "project": "glossa-lab",
+  "phase": "after_plan",
+  "outcome": "iterate",
+  "summary": "Assessed 8 claim(s); found 33 failure mode(s); 8 claim(s) below the 0.70 confidence threshold. Shared evidence: 1 supporting source(s) shared across 8 of 8 claim(s); the same evidence set supports multiple claims (FR-2.8, reporting only, no outcome effect in this phase). Draft cap: 8 draft claim(s) capped at gather_evidence/iterate (FR-2.3). Stage cap: 8 claim(s) below stage 'explained'; the outcome cannot be 'pass' (Spec 004 R1.4). Not understood: 16 residual unknown(s) are recorded on this assessment (Spec 004 R5.2). Lane 1 (machine verification): outcome iterate; 0 claim(s) at or above the 0.70 threshold, 8 below. Lane 2 (human acceptance): stages by effective stage: created 8. Lane-2 lag: 8 claim(s) below explained.",
+  "created_at": "2026-11-28T00:33:47.823123Z",
+  "claims": [
+    {
+      "id": "C111-1",
+      "text": "The hypothesis statement of spec.md section 1, the four predictions of section 2, the grading rule of section 3, and the two evidence legs of section 4 are the evaluation of this study, and no grade in this study was entered under any other design. Does not establish: that the four predictions exhaust what the hypothesis could predict under a different formulation, or that the grading scale is the only defensible one; the claim registers this evaluation's design and its discipline, not the hypothesis's fate under every formulation.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A grade entered in this study's records that is not one of P1-P4 as spec.md section 2 states them; a grade entered without its decisive evidence cited in the evaluation record; a record of this study presenting the hypothesis as assumed, as dismissed by posture, or as proven impossible."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-1-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-1",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-1-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-1",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-1-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-1",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-2, C111-3, C111-4, C111-5, C111-6, C111-7, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-1-DRAFT-CAP",
+          "claim_id": "C111-1",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-2",
+      "text": "P1 (cross-system inheritance) is NOT SUPPORTED: the documented derivations give the three systems three separate, local, mutually unrelated origins (Meroitic from Egyptian hieroglyphic and demotic forms; the Cypriot syllabary from Cypro-Minoan in the Linear A tradition; the Indus script from local antecedent marks with no demonstrated external parent); their numerical practices share no convention beyond the tally principle; and the distributional measurement filed at records/p1-measurement-raw-output.json finds no clustering of the three systems' structural profiles relative to the program's deciphered control and a matched synthetic null (within-trio mean distance 3.819 vs trio-to-controls mean 3.643, on the filed feature set). Does not establish: that no contact ever occurred between the cultures (contact is documented and is not common descent), or that a paleographic comparison could not be run with data the program does not hold (C111-7).",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A demonstrated shared derived feature set (sign forms with values, structural conventions, or numerical practices) among two or more of the three systems, traceable to a common ancestor and exceeding what chance and independent invention predict; or a re-run of the filed measurement under its filed feature set showing the trio clustering against the controls."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-2-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-2",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-2-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-2",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-2-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-2",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-3, C111-4, C111-5, C111-6, C111-7, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-2-DRAFT-CAP",
+          "claim_id": "C111-2",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-3",
+      "text": "P2 (developmental discontinuity) is NOT SUPPORTED: each script has local developmental precursors in the stratified or documentary record: Indus antecedent marks in the Ravi phase (c. 3300-2800 BCE) continuing through the Kot Diji phase (c. 2800-2600 BCE) into the mature script at Harappa; the Cypriot syllabary preceded by roughly five centuries of Cypro-Minoan on the same island; the Meroitic script preceded by centuries of Egyptian writing in Kush and derived from Egyptian forms. Does not establish: that development was smooth, continuous in every generation, or uninfluenced by contact; only that the precursor trails P2 requires to be absent are present.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A demonstration that a named phase in one of these precursor sequences does not exist, is misdated out of sequence, or does not connect to the script it precedes (e.g. that the Ravi/Kot Diji marks bear no relation to the mature Indus signary, shown against the excavated corpus)."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-3-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-3",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-3-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-3",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-3-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-3",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-2, C111-4, C111-5, C111-6, C111-7, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-3-DRAFT-CAP",
+          "claim_id": "C111-3",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-4",
+      "text": "P3 (chronological anomaly) is NOT SUPPORTED: no script in the program and no demonstrated direct ancestor of one is securely dated materially earlier than the standard chronology allows; the earliest Indus antecedent marks (c. 3300 BCE) are contemporary with proto-cuneiform and inside the standard account; and the claimed older writing cases (Jiahu marks, Vinca symbols, the Dispilio tablet) stand in the scholarly record as sign use or proto-writing not demonstrated to encode language, none of them ancestral to a program script. Does not establish: that no older sign use existed (it demonstrably did), or that an earlier find is impossible; only that none currently meets the prediction's terms.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A written artifact, signs in sequence in a system ancestral to a program script, from a sealed, independently dated context materially before 3400 BCE, published with its dating and its ancestral relation demonstrated; or a peer-reviewed demonstration that one of the three labeled cases is a language-encoding script ancestral to a later tradition."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-4-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-4",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-4-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-4",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-4-COUNTEREXAMPLE-CHALLENGE",
+          "claim_id": "C111-4",
+          "challenge": "Counterexample challenge",
+          "breakpoint": "Absolute language is used without a bounded domain",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Narrow the claim or document evidence covering the entire domain.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-4-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-4",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-2, C111-3, C111-5, C111-6, C111-7, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-4-DRAFT-CAP",
+          "claim_id": "C111-4",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-5",
+      "text": "P4 (content residue) is NOT SUPPORTED overall: the earliest readable texts of the Eteocypriot and Meroitic traditions carry ordinary content within their cultures' documented attainment (the Amathus bilingual's civic-religious dedication; Meroitic royal and funerary formulae on Egyptian-derived templates); the Indus leg is UNTESTABLE in content while the script is unread, and unsupported in form, since the corpus's brevity (derivation-set mean 4.2 signs per text) cannot carry the treatise content P4 requires. Does not establish: anything about the content of the unread Indus corpus beyond its format limits, or about later texts of any tradition (P4 grades the earliest stratum).",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A demonstrated reading of an earliest-stratum text of any of the three traditions encoding astronomical, mathematical, or calendrical knowledge beyond that culture's independently documented attainment at that date."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.08875000000000002,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-5-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-5",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-5-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-5",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-5-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-5",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-2, C111-3, C111-4, C111-6, C111-7, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-5-DRAFT-CAP",
+          "claim_id": "C111-5",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-6",
+      "text": "The distributional measurement is as filed: the measurement at records/p1-measurement-harness.py, run on the Spec 105 custody token streams and the Spec 107 Latin donor text under its declared six-feature set, returns the profiles and distances filed at records/p1-measurement-raw-output.json (SHA-256 6022f09a...): within-trio mean distance 3.819, trio-to-controls mean 3.643, Meroitic-Latin the closest program-system pair at 3.130; and its limits (small system count, one real control, the Eteocypriot derivation subset of 14 texts / 69 tokens, Latin sentence-texts) are stated on its face. Does not establish: that a richer feature set or a larger control set could not find structure this measurement misses; it is a descriptive, low-power leg, and the claim is about its fidelity, not its sufficiency.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A re-run of the filed harness over the pinned custody inputs returning materially different profiles or distances; a filed limit found understated against the custody data (which triggers spec.md section 6 kill criterion 3)."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-6-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-6",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-6-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-6",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-6-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-6",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-2, C111-3, C111-4, C111-5, C111-7, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-6-DRAFT-CAP",
+          "claim_id": "C111-6",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-7",
+      "text": "P1's paleographic leg is UNTESTABLE ON CURRENT EVIDENCE: the program holds no comparable sign-shape dataset (form features with provenance) for the three systems and their documented parents, so no shape-similarity measurement was run; the evaluation record section 5 states what acquiring the data would take, including that Indus sign images are statistics-only under the CISI terms this program observes. Does not establish: that the paleographic question is unanswerable in principle, or that the published derivations (which are substantially paleographic arguments) are weak; only that the program cannot currently run the leg itself.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "Production of a program-held, comparable sign-shape dataset for the three systems that this evaluation overlooked."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.08875000000000002,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-7-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-7",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-7-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-7",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-7-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-7",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-2, C111-3, C111-4, C111-5, C111-6, C111-8 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-7-DRAFT-CAP",
+          "claim_id": "C111-7",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    },
+    {
+      "id": "C111-8",
+      "text": "The closing accounting is as filed: the evaluation record section 7 states what the hypothesis explains that the standard account does not (near-simultaneous emergence and recurrent Neolithic sign use, both of which the standard account also addresses), what it costs in unsupported assumptions (a pre-3400 BCE literate civilization leaving no written artifact; a transmission channel crossing more than eight thousand years unattested; recipient traditions independently producing the local precursor trails the standard account predicts), and the single most decision-changing piece of new evidence (a sealed, independently dated pre-3400 BCE written artifact demonstrably ancestral to a program script). Does not establish: that the balance could not change with new evidence; the accounting is dated 2026-11-27 and is re-gradable on any find of the kind C111-4's falsifier names.",
+      "kind": "requirement",
+      "status": "draft",
+      "boundary": [],
+      "depends_on": [],
+      "conflicts_with": [],
+      "evidence": [
+        {
+          "ref": "spec.md",
+          "kind": "asserted",
+          "direction": "supports",
+          "source_quality": "unknown",
+          "description": "The owner's directive of 2026-11-27 in the Glossa-Lab chat ordering an evaluation of the deep-antiquity / lost-civilization transmission hypothesis for the program's three scripts, under his standing blanket approval of 2026-11-27 04:05 ET, and the program record as filed in Specs 096, 097, 102, 105, 106, 107, 108, and 109 and their records, together with the scholarly sources cited claim by claim in records/evaluation-2026-11-27.md.",
+          "source_id": "",
+          "independent_of": [],
+          "observed_at": null,
+          "content_hash": null
+        }
+      ],
+      "assumptions": [],
+      "alternatives": [],
+      "falsification_tests": [
+        "A material cost or explanatory gain of the hypothesis, on evidence available at the evaluation date, that the accounting omits."
+      ],
+      "uncertainty": "insufficient_evidence",
+      "severity": "medium",
+      "source_ref": "spec.md",
+      "domain": "",
+      "confidence": 0.16375000000000003,
+      "confidence_band": "low",
+      "failures": [
+        {
+          "id": "AEE-C111-8-BOUNDARY-CHALLENGE",
+          "claim_id": "C111-8",
+          "challenge": "Boundary challenge",
+          "breakpoint": "Scope and operating assumptions are not explicit",
+          "severity": "high",
+          "category": "assumption_unvalidated",
+          "recovery_hint": "Declare where, when, and under which assumptions the claim holds.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-8-IRREDUCIBILITY-CHALLENGE",
+          "claim_id": "C111-8",
+          "challenge": "Irreducibility challenge",
+          "breakpoint": "Claim may contain multiple independently falsifiable propositions",
+          "severity": "medium",
+          "category": "coverage_gap",
+          "recovery_hint": "Split the claim into atomic propositions and link them explicitly.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-8-INDEPENDENCE-UNMODELED",
+          "claim_id": "C111-8",
+          "challenge": "Shared-evidence independence challenge",
+          "breakpoint": "Supporting evidence 'spec.md' (ref(s): spec.md) is shared with claim(s) C111-1, C111-2, C111-3, C111-4, C111-5, C111-6, C111-7 and no independence is declared for it; the same evidence may be counted as independent corroboration in each claim",
+          "severity": "medium",
+          "category": "independence_unmodeled",
+          "recovery_hint": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+          "resolved": false,
+          "disposition": null
+        },
+        {
+          "id": "AEE-C111-8-DRAFT-CAP",
+          "claim_id": "C111-8",
+          "challenge": "Draft outcome cap",
+          "breakpoint": "Claim status is draft: the assessment outcome is capped at gather_evidence/iterate and policy verdicts below accept regardless of score (Spec 003 FR-2.3); a human ratification (status change) lifts the cap",
+          "severity": "low",
+          "category": "draft_cap",
+          "recovery_hint": "Ratify the claim (change its status from draft) to lift the cap.",
+          "resolved": false,
+          "disposition": null
+        }
+      ],
+      "metadata": {},
+      "dispositions": [],
+      "stage": "created",
+      "stage_events": [],
+      "headline": false,
+      "role": null
+    }
+  ],
+  "scores": {
+    "C111-1": {
+      "claim_id": "C111-1",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-2": {
+      "claim_id": "C111-2",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-3": {
+      "claim_id": "C111-3",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-4": {
+      "claim_id": "C111-4",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-5": {
+      "claim_id": "C111-5",
+      "direct_score": 0.08875000000000002,
+      "propagated_score": 0.08875000000000002,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 0.5,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Falsification test \"A demonstrated reading of an earliest-stratum text of any of the three traditions encoding astronomical, mathematical, or calendrical knowledge beyond that culture's independently documented attainment at that date.\" earns partial credit (FR-8.7): failed criteria: no checkable condition (no numeric bound, comparator, or observation/action term)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-6": {
+      "claim_id": "C111-6",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-7": {
+      "claim_id": "C111-7",
+      "direct_score": 0.08875000000000002,
+      "propagated_score": 0.08875000000000002,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 0.5,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Falsification test 'Production of a program-held, comparable sign-shape dataset for the three systems that this evaluation overlooked.' earns partial credit (FR-8.7): failed criteria: no checkable condition (no numeric bound, comparator, or observation/action term)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    },
+    "C111-8": {
+      "claim_id": "C111-8",
+      "direct_score": 0.16375000000000003,
+      "propagated_score": 0.16375000000000003,
+      "band": "low",
+      "components": {
+        "evidence": 0.025000000000000022,
+        "independence": 0.5,
+        "falsifiability": 1.0,
+        "boundary": 0.0,
+        "contradiction_penalty": 0
+      },
+      "declared_state": {
+        "status": "draft",
+        "uncertainty": "insufficient_evidence",
+        "severity": "medium",
+        "conflicts_with": []
+      },
+      "propagation": {
+        "status": "propagated",
+        "cycle_component": []
+      },
+      "notes": [
+        "No observed supporting evidence",
+        "Fewer than two independent supporting sources",
+        "Independence basis: inferred-from-references (distinct references counted as independent; may overstate independence when references share an origin)",
+        "Freshness penalty 0.100 on the supporting set: 0 fresh, 0 recent, 0 stale, 1 unknown of 1 item(s); unknown freshness counts as stale (FR-8.6)"
+      ]
+    }
+  },
+  "verdicts": {},
+  "recoveries": [
+    {
+      "failure_id": "AEE-C111-1-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-1",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-2-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-2",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-3-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-3",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-4-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-4",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-4-COUNTEREXAMPLE-CHALLENGE",
+      "claim_id": "C111-4",
+      "strategy": "narrow_boundary",
+      "action": "Narrow the claim or document evidence covering the entire domain.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-5-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-5",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-6-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-6",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-7-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-7",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-8-BOUNDARY-CHALLENGE",
+      "claim_id": "C111-8",
+      "strategy": "narrow_boundary",
+      "action": "Declare where, when, and under which assumptions the claim holds.",
+      "priority": 2,
+      "verification": "The claim identifies its applicable system, population, time, and conditions."
+    },
+    {
+      "failure_id": "AEE-C111-1-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-1",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-1-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-1",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-2-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-2",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-2-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-2",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-3-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-3",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-3-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-3",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-4-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-4",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-4-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-4",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-5-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-5",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-5-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-5",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-6-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-6",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-6-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-6",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-7-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-7",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-7-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-7",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-8-INDEPENDENCE-UNMODELED",
+      "claim_id": "C111-8",
+      "strategy": "clarify",
+      "action": "Declare independent_of between the evidence items, or record that the corroboration is shared.",
+      "priority": 3,
+      "verification": "Independence between the shared evidence items is declared, or the shared corroboration is recorded as shared."
+    },
+    {
+      "failure_id": "AEE-C111-8-IRREDUCIBILITY-CHALLENGE",
+      "claim_id": "C111-8",
+      "strategy": "decompose",
+      "action": "Split the claim into atomic propositions and link them explicitly.",
+      "priority": 3,
+      "verification": "Every resulting claim contains one independently falsifiable proposition."
+    },
+    {
+      "failure_id": "AEE-C111-1-DRAFT-CAP",
+      "claim_id": "C111-1",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-2-DRAFT-CAP",
+      "claim_id": "C111-2",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-3-DRAFT-CAP",
+      "claim_id": "C111-3",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-4-DRAFT-CAP",
+      "claim_id": "C111-4",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-5-DRAFT-CAP",
+      "claim_id": "C111-5",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-6-DRAFT-CAP",
+      "claim_id": "C111-6",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-7-DRAFT-CAP",
+      "claim_id": "C111-7",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    },
+    {
+      "failure_id": "AEE-C111-8-DRAFT-CAP",
+      "claim_id": "C111-8",
+      "strategy": "define_falsifier",
+      "action": "Ratify the claim (change its status from draft) to lift the cap.",
+      "priority": 4,
+      "verification": "A concrete observation that would refute the claim is documented."
+    }
+  ],
+  "metadata": {
+    "threshold": 0.7,
+    "input": "specs/111-deep-antiquity-evaluation/aee-claims.json",
+    "ledger": {
+      "mode": "disabled",
+      "path": null
+    },
+    "engine_version": "1.5.3"
+  },
+  "reported_statuses": {
+    "C111-1": "draft",
+    "C111-2": "draft",
+    "C111-3": "draft",
+    "C111-4": "draft",
+    "C111-5": "draft",
+    "C111-6": "draft",
+    "C111-7": "draft",
+    "C111-8": "draft"
+  },
+  "stage_caps": [],
+  "not_understood": [
+    "C111-1: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-1: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-2: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-2: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-3: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-3: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-4: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-4: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-5: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-5: propagated score 0.089 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-6: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-6: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-7: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-7: propagated score 0.089 is below the 0.70 threshold - the claim is not established by its evidence as recorded.",
+    "C111-8: open challenges this assessment does not resolve: assumption_unvalidated, coverage_gap, independence_unmodeled.",
+    "C111-8: propagated score 0.164 is below the 0.70 threshold - the claim is not established by its evidence as recorded."
+  ],
+  "lanes": {
+    "lane_1": {
+      "label": "machine verification",
+      "outcome": "iterate",
+      "threshold": 0.7,
+      "claims_at_or_above_threshold": 0,
+      "claims_below_threshold": 8
+    },
+    "lane_2": {
+      "label": "human acceptance",
+      "stage_counts": {
+        "created": 8,
+        "checked": 0,
+        "explained": 0,
+        "accepted": 0,
+        "digested": 0
+      },
+      "claims_below_explained": 8,
+      "exposition_covered_claims": 0,
+      "exposition_missing_claims": 8,
+      "verified_unexplained_claims": 0,
+      "stage_capped_claims": 0,
+      "attribution_contested_claims": 0
+    },
+    "per_claim": {
+      "C111-1": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-2": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-3": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-4": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-5": {
+        "lane_1": {
+          "score": 0.08875000000000002,
+          "direct_score": 0.08875000000000002,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-6": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-7": {
+        "lane_1": {
+          "score": 0.08875000000000002,
+          "direct_score": 0.08875000000000002,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      },
+      "C111-8": {
+        "lane_1": {
+          "score": 0.16375000000000003,
+          "direct_score": 0.16375000000000003,
+          "author_status": "draft",
+          "at_or_above_threshold": false
+        },
+        "lane_2": {
+          "stage": "created",
+          "stored_stage": "created",
+          "stage_capped": false,
+          "cap_reasons": [],
+          "exposition": false,
+          "explainers": [],
+          "verified_unexplained": false,
+          "attribution_contested": false
+        }
+      }
+    }
+  },
+  "digestion": {
+    "C111-1": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-2": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-3": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-4": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-5": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-6": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-7": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    },
+    "C111-8": {
+      "stage": "created",
+      "exposition_present": false,
+      "explainers": []
+    }
+  }
+}
