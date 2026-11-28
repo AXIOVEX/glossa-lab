@@ -212,7 +212,7 @@ Source: the captured session responses at the goal's
 | ID | Recommendation (one line) | Status | Evidence / reason |
 |---|---|---|---|
 | Q-I-1 | Correct the entropy quantities' meanings: Spec 110's A4 is H_all - H(Y|X), not bigram mutual information, and A4 = H_all(1-A3) is algebraically linked to A3, not independent; Spec 111's filed conditional entropy subtracts H_all instead of H_X | done | APPLY; sustained algebraically and from the filed aggregates (Indus H_all 6.265061399, H_X 6.499966322, H_Y 5.491198311, H_XY 10.240560673, proper I(X;Y) 1.750603959, frozen A4 2.524467047, Spec 111 filed value 3.975499274; two-sequence witness [a,b], [a,c] returns A4 = 0.5 and filed conditional entropy = -0.5 against true MI 0 / conditional entropy 1 bit); discharged by `specs/110-obfuscation-hypothesis/records/correction-2026-11-28.md` and the cross-reference note `specs/111-deep-antiquity-evaluation/records/correction-2026-11-28.md`; frozen outputs preserved; A4 not to be described as mutual information in any adjudication; adjudication §1 |
-| Q-I-2 | Repair Spec 111 §6.1's P4 premise and bound its negative content inference: ICS 196 is the city honouring Ariston, son of Aristonax, per ETE-CON-03, not "honoring the goddess"; no demonstrated positive instance is the bounded meaning | done | APPLY WITH MODIFICATION; the factual correction and bounded statement discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §§(a)-(b): pooled P4 NOT SUPPORTED retained only as "no demonstrated positive instance"; Indus content stays UNTESTABLE, absence of extended texts a format observation, not a refutation of short-form residue; adjudication §1 |
+| Q-I-2 | Repair Spec 111 §6.1's P4 premise and bound its negative content inference: ICS 196 is the city honouring Ariston, son of Aristonax, per ETE-CON-03, not "honoring the goddess"; no demonstrated positive instance is the bounded meaning | done | APPLY WITH MODIFICATION; the factual correction and bounded statement discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §§(a)-(b): pooled P4 NOT SUPPORTED retained only as "no demonstrated positive instance"; Indus content stays UNTESTABLE, absence of extended texts a format observation, not a refutation of short-form residue; P4 GRADE-BASIS DISPOSITION DECIDED 2026-11-28 under the owner's recommended-answer delegation (2026-11-27), jointly with Q-E-2: the Eteocypriot P4 leg remains NOT SUPPORTED under that bounded meaning, with the explicit qualification that content-based inference is bounded by what the corpus's known texts can show; no grade in the claims ledger changes; adjudication §1 and the Round Q dated disposition entry (2026-11-28) |
 | Q-I-3 | Name the auxiliary assumptions linking the broad transmission hypothesis to the registered predictions, describe proximal derivations as such (not proof of unrelated ultimate origins), and narrow the §7 one-artifact claim to the chronology/ancestry claims such an artifact would actually establish | done | APPLY WITH MODIFICATION; discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §(c); frozen predictions and historical grades preserved; adjudication §1 |
 | Q-I-4 | Correct the numerical errata: the chronology gap is roughly 6.3-7.7 millennia on the stated dates, not over eight; the closest listed pair is the Indus-synthetic null at 2.0865, Meroitic-Latin at 3.1301 being closest among real-system pairs only | done | APPLY; discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §(d); original matrix preserved; adjudication §1 |
 
@@ -338,8 +338,8 @@ Source: the captured session responses at the goal's
 
 | ID | Recommendation (one line) | Status | Evidence / reason |
 |---|---|---|---|
-| Q-E-1 | Qualify the Stage 4 conformance claim: the shuffle controls are not the registered derangements in 3 of 5 replications (rep 1: lo, so, so active in the planted anchored set; rep 4: o, ma, mi; rep 5: re), and the verifier repeats the construction, so "preflight met in full" must be qualified | accepted | APPLY; sustained on reconstruction of the seeded mappings at adjudication; the conformance addendum is filed at `specs/109-generative-decipherment-engine/records/stage-4-round-q-addenda-2026-11-28.md` §(a) ("numerical floors met on the executed controls; the registered derangement construction not met"; observed recoveries and RANKING NULL arithmetic preserved); the disposition of the clause-S / full-conformance labels and any license consequence is referred to the owner and not decided in this round, so the row stands accepted; adjudication §2 |
-| Q-E-2 | Correct the Spec 111 §§5-6 P4 content assertion: the ICS 196 honoree error (as Q-I-2) and the categorical corpus-content negative, which the unread Eteocypriot language cannot support | accepted | APPLY WITH MODIFICATION; the factual correction and bounded replacement statement are discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §§(a)-(b); the Eteocypriot P4 grade-basis disposition is referred to the owner and recorded as referred, not decided, so the row stands accepted as modified; adjudication §2 |
+| Q-E-1 | Qualify the Stage 4 conformance claim: the shuffle controls are not the registered derangements in 3 of 5 replications (rep 1: lo, so, so active in the planted anchored set; rep 4: o, ma, mi; rep 5: re), and the verifier repeats the construction, so "preflight met in full" must be qualified | done | APPLY; sustained on reconstruction of the seeded mappings at adjudication; the conformance addendum is filed at `specs/109-generative-decipherment-engine/records/stage-4-round-q-addenda-2026-11-28.md` §(a) ("numerical floors met on the executed controls; the registered derangement construction not met"; observed recoveries and RANKING NULL arithmetic preserved); DISPOSITION DECIDED 2026-11-28 under the owner's recommended-answer delegation (2026-11-27): the Eteocypriot continuation license (OD-O-2) carries a third standing qualification — the Stage 4 preflight's conformance is qualified: numerical floors met on the executed controls, the registered derangement construction not met; no license language claims full conformance and "preflight met in full" is not reinstated anywhere; row updated from accepted to done on this ruling; adjudication §2 and its dated disposition entry (2026-11-28) |
+| Q-E-2 | Correct the Spec 111 §§5-6 P4 content assertion: the ICS 196 honoree error (as Q-I-2) and the categorical corpus-content negative, which the unread Eteocypriot language cannot support | done | APPLY WITH MODIFICATION; the factual correction and bounded replacement statement are discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §§(a)-(b); DISPOSITION DECIDED 2026-11-28 under the owner's recommended-answer delegation (2026-11-27): the Eteocypriot P4 leg remains NOT SUPPORTED under the bounded meaning "no demonstrated positive instance", with the explicit qualification that content-based inference is bounded by what the corpus's known texts can show and the Indus content leg stays UNTESTABLE; the ICS 196 factual correction already landed stands as the factual basis; no grade in the claims ledger changes; row updated from accepted to done on this ruling; adjudication §2 and its dated disposition entry (2026-11-28) |
 | Q-E-3 | Correct the "real skeleton" description: filed lengths [2,3,5,4,3,6,9,7,7,2,5] (total 53) against the actual [2,3,5,4,3,6,10,7,7,2,5] (total 54); distinguish pool from realized types; the five fixtures are isomorphic under relabeling and the recovery is a planted implementation control | done | APPLY WITH MODIFICATION; discharged by `specs/109-generative-decipherment-engine/records/stage-4-round-q-addenda-2026-11-28.md` §(b); no revised fixtures or power study commissioned; the observed five 1.000 recoveries stand as filed; adjudication §2 |
 | Q-E-4 | Correct the deep-antiquity chronology gap arithmetic (the same error as Q-I-4 ground A): roughly 6.3-7.7 millennia on the stated dates, not over eight | done | APPLY; discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §(d); original evaluation bytes preserved; adjudication §2 |
 
@@ -506,9 +506,9 @@ Source: the captured session responses at the goal's
 | Eteocypriot, Round P | 3 | 3 | 0 | 0 | 0 | 0 |
 | Meroitic, Round P | 4 | 4 | 0 | 0 | 0 | 0 |
 | Indus, Round Q | 4 | 4 | 0 | 0 | 0 | 0 |
-| Eteocypriot, Round Q | 4 | 2 | 2 | 0 | 0 | 0 |
+| Eteocypriot, Round Q | 4 | 4 | 0 | 0 | 0 | 0 |
 | Meroitic, Round Q | 2 | 1 | 1 | 0 | 0 | 0 |
-| **Total** | **168** | **121** | **26** | **0** | **0** | **21** |
+| **Total** | **168** | **123** | **24** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -910,6 +910,27 @@ published in Round Q, no paper text was edited, and no
 standing, verdict, or tally moved. Totals after Round Q:
 168 rows - 121 done, 26 accepted, 0 open, 21 rejected
 (Indus 54, Eteocypriot 50, Meroitic 64).
+
+Round Q referred dispositions decided (2026-11-28). The
+two items referred in the cross-check above were decided
+by the coordinator under the owner's recommended-answer
+delegation of 2026-11-27, as dated disposition entries in
+the Round Q adjudication record: (1) Q-E-1 — the
+Eteocypriot continuation license (OD-O-2) carries a third
+standing qualification (Stage 4 preflight conformance
+qualified: numerical floors met on the executed controls;
+the registered derangement construction not met), and the
+row moves from accepted to done; (2) Q-E-2 / Q-I-2 — the
+Eteocypriot P4 leg remains NOT SUPPORTED under the bounded
+meaning "no demonstrated positive instance", with the
+explicit qualification that content-based inference is
+bounded by what the corpus's known texts can show and
+the Indus content leg stays UNTESTABLE; Q-E-2 moves from
+accepted to done and Q-I-2 stands done with its evidence
+supplemented. Totals after these dispositions: 168 rows
+- 123 done, 24 accepted, 0 open, 21 rejected (Indus 54,
+Eteocypriot 50, Meroitic 64). No grade in the claims
+ledger changes, and no standing, verdict, or tally moves.
 
 ## Briefing rule (closing note)
 
