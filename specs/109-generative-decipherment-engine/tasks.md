@@ -125,13 +125,23 @@
 
 ## Stage 4 — Eteocypriot reading candidates
 
-- [ ] T401 Part 5 executed under registration §6:
-  generator preflight clauses run; freeze filed with
-  the comparanda closed and the component drop
-  restated; candidates generated and ranked per text;
-  permutation-null recomputation filed; ranked sets
-  and outcome record filed with no licensing language;
-  TC-109-07 and TC-109-03 run.
+- [x] T401 Part 5 executed under registration §6:
+  generator preflight clauses run (clause N 9/9;
+  clause S median recovery 1.000 at the 0.80 floor,
+  shuffle control 0.167); freeze filed with the
+  comparanda closed at (a) alone (the (b) reduction
+  stated on its face) and the component drop
+  restated; candidates generated and ranked per text
+  (ICS 196: A1, J, A2); permutation-null
+  recomputation filed (B = 999, seed 109401, p99 2
+  against top key1 2); ranked set and outcome record
+  filed with no licensing language; TC-109-07 and
+  TC-109-03 run (verification 31/31). Verdict
+  RANKING NULL. Records:
+  records/stage-4-freeze-2026-11-27.md,
+  records/stage-4-preflight-2026-11-27.md,
+  records/stage-4-outcome-2026-11-27.md,
+  records/stage-4-close-2026-11-27.md.
 
 ## Stage 5 — Meroitic gloss induction (gated)
 
