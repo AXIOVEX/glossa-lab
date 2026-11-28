@@ -201,6 +201,21 @@ carry no rows, as with OD-O-1 and OD-O-2.
 | P-I-4 | §4.2: attach the 178 one-token groups to the Meroitic sandbox total, not to the neighbourless digit | done | APPLY WITH MODIFICATION (the rewrite preserves every number and the neighbourlessness statement; the Meroitic session read the original as the aggregate context and confirmed the figures); applied and confirmed at iteration 2; adjudication §3 U6 |
 | P-I-5 | §2.2: repair the "three outcomes" enumeration, which the revised aggregation paragraph no longer matches | done | APPLY (the session's own replacement sentence, applied verbatim after iteration 2); confirmed at iteration 3; adjudication §3 U8 |
 
+### Round Q — sweep (2026-11-28)
+
+Source: the captured session responses at the goal's
+`hidden_files/round-q-2026-11-28/` (`resp-indus.txt`,
+`resp-eteo.txt`, `resp-meroitic.txt`), briefs pinned at
+`37213fa7`; adjudication
+`records/coscientist-sweep-adjudication-2026-11-28-round-q.md`.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| Q-I-1 | Correct the entropy quantities' meanings: Spec 110's A4 is H_all - H(Y|X), not bigram mutual information, and A4 = H_all(1-A3) is algebraically linked to A3, not independent; Spec 111's filed conditional entropy subtracts H_all instead of H_X | done | APPLY; sustained algebraically and from the filed aggregates (Indus H_all 6.265061399, H_X 6.499966322, H_Y 5.491198311, H_XY 10.240560673, proper I(X;Y) 1.750603959, frozen A4 2.524467047, Spec 111 filed value 3.975499274; two-sequence witness [a,b], [a,c] returns A4 = 0.5 and filed conditional entropy = -0.5 against true MI 0 / conditional entropy 1 bit); discharged by `specs/110-obfuscation-hypothesis/records/correction-2026-11-28.md` and the cross-reference note `specs/111-deep-antiquity-evaluation/records/correction-2026-11-28.md`; frozen outputs preserved; A4 not to be described as mutual information in any adjudication; adjudication §1 |
+| Q-I-2 | Repair Spec 111 §6.1's P4 premise and bound its negative content inference: ICS 196 is the city honouring Ariston, son of Aristonax, per ETE-CON-03, not "honoring the goddess"; no demonstrated positive instance is the bounded meaning | done | APPLY WITH MODIFICATION; the factual correction and bounded statement discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §§(a)-(b): pooled P4 NOT SUPPORTED retained only as "no demonstrated positive instance"; Indus content stays UNTESTABLE, absence of extended texts a format observation, not a refutation of short-form residue; adjudication §1 |
+| Q-I-3 | Name the auxiliary assumptions linking the broad transmission hypothesis to the registered predictions, describe proximal derivations as such (not proof of unrelated ultimate origins), and narrow the §7 one-artifact claim to the chronology/ancestry claims such an artifact would actually establish | done | APPLY WITH MODIFICATION; discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §(c); frozen predictions and historical grades preserved; adjudication §1 |
+| Q-I-4 | Correct the numerical errata: the chronology gap is roughly 6.3-7.7 millennia on the stated dates, not over eight; the closest listed pair is the Indus-synthetic null at 2.0865, Meroitic-Latin at 3.1301 being closest among real-system pairs only | done | APPLY; discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §(d); original matrix preserved; adjudication §1 |
+
 ## Eteocypriot rows
 
 ### Round B — refresh (2026-11-22), units E-1 to E-10
@@ -312,6 +327,21 @@ recorded in the adjudication §2 and the Round P cross-check.
 | P-E-1 | §4.2: the patronymic's failure is not a maximisation tie (both derived spellings have a unique maximum of 4 at segment 6; its correspondent is segment 7) | done | APPLY (the session's proposed text); applied in the revised candidate (goal file `eteocypriot-alignment-v5-candidate-revised-2026-11-27.pdf`, SHA-256 `d6c9ff10…`) and confirmed at iteration 2; adjudication §3 PV5-E2 |
 | P-E-2 | §4.2: name LCCS by its registered expansion, longest common contiguous syllabogram subsequence, not "longest common correct sequence" | done | APPLY; applied and confirmed at iteration 2; adjudication §3 PV5-E3 |
 | P-E-3 | §3.3 and reference [3]: the Hermary & Masson sign-by-sign syllabic apparatus is at pp. 238–239, not 236–238 (the plates are at pp. 236–237) | done | APPLY; verified at adjudication against `records/androkles-intake-record-2026-11-22.md`; applied and confirmed at iteration 2; adjudication §3 PV5-E4 |
+
+### Round Q — sweep (2026-11-28)
+
+Source: the captured session responses at the goal's
+`hidden_files/round-q-2026-11-28/` (`resp-indus.txt`,
+`resp-eteo.txt`, `resp-meroitic.txt`), briefs pinned at
+`37213fa7`; adjudication
+`records/coscientist-sweep-adjudication-2026-11-28-round-q.md`.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| Q-E-1 | Qualify the Stage 4 conformance claim: the shuffle controls are not the registered derangements in 3 of 5 replications (rep 1: lo, so, so active in the planted anchored set; rep 4: o, ma, mi; rep 5: re), and the verifier repeats the construction, so "preflight met in full" must be qualified | accepted | APPLY; sustained on reconstruction of the seeded mappings at adjudication; the conformance addendum is filed at `specs/109-generative-decipherment-engine/records/stage-4-round-q-addenda-2026-11-28.md` §(a) ("numerical floors met on the executed controls; the registered derangement construction not met"; observed recoveries and RANKING NULL arithmetic preserved); the disposition of the clause-S / full-conformance labels and any license consequence is referred to the owner and not decided in this round, so the row stands accepted; adjudication §2 |
+| Q-E-2 | Correct the Spec 111 §§5-6 P4 content assertion: the ICS 196 honoree error (as Q-I-2) and the categorical corpus-content negative, which the unread Eteocypriot language cannot support | accepted | APPLY WITH MODIFICATION; the factual correction and bounded replacement statement are discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §§(a)-(b); the Eteocypriot P4 grade-basis disposition is referred to the owner and recorded as referred, not decided, so the row stands accepted as modified; adjudication §2 |
+| Q-E-3 | Correct the "real skeleton" description: filed lengths [2,3,5,4,3,6,9,7,7,2,5] (total 53) against the actual [2,3,5,4,3,6,10,7,7,2,5] (total 54); distinguish pool from realized types; the five fixtures are isomorphic under relabeling and the recovery is a planted implementation control | done | APPLY WITH MODIFICATION; discharged by `specs/109-generative-decipherment-engine/records/stage-4-round-q-addenda-2026-11-28.md` §(b); no revised fixtures or power study commissioned; the observed five 1.000 recoveries stand as filed; adjudication §2 |
+| Q-E-4 | Correct the deep-antiquity chronology gap arithmetic (the same error as Q-I-4 ground A): roughly 6.3-7.7 millennia on the stated dates, not over eight | done | APPLY; discharged by `specs/111-deep-antiquity-evaluation/records/correction-and-adjudication-2026-11-28.md` §(d); original evaluation bytes preserved; adjudication §2 |
 
 ## Meroitic rows
 
@@ -434,16 +464,29 @@ Source: the captured outputs at the goal's
 | P-M-3 | §2.2: state the registered refutation condition — non-derivation is not refutation; refutation requires a surviving derivation of the negation (framework §8.1) | done | APPLY; applied and confirmed at iteration 2 by all three sessions; adjudication §3 U3(a) |
 | P-M-4 | §5: state the Eteocypriot inventory gate's exemption of the unread mark ? (35 marks checked, 34 value-carrying) | done | APPLY; verified at adjudication against `specs/105-elsewhere-sandbox/records/stage-6-outcome-2026-11-25.md`; applied and confirmed at iteration 2; adjudication §3 U7 |
 
+### Round Q — sweep (2026-11-28)
+
+Source: the captured session responses at the goal's
+`hidden_files/round-q-2026-11-28/` (`resp-indus.txt`,
+`resp-eteo.txt`, `resp-meroitic.txt`), briefs pinned at
+`37213fa7`; adjudication
+`records/coscientist-sweep-adjudication-2026-11-28-round-q.md`.
+
+| ID | Recommendation (one line) | Status | Evidence / reason |
+|---|---|---|---|
+| Q-M-1 | File a calibration account of the Spec 112 reference labels before the closures are read as a corpus information limit: the labels are rule-constructed by longest-suffix matching (provenances suffix-alone 1,703, suffix+filiation 12, suffix+theonym 3, filiation-alone 1 of 1,719), and P-3 precision is membership in the reference suffix inventory, not demonstrated morphemes | done | APPLY WITH MODIFICATION; discharged by `specs/112-meroitic-structure-induction/records/reference-calibration-account-2026-11-28.md`: construction rule and provenances stated, per-form independent warrant marked absent (no new annotation exercise performed), both closures standing as failures of the specified designs on the pinned inputs and operational references, not a corpus-wide information limit; the account also carries the fallback correction (the 2,193-form comparison was against the all-single-character fallback, not the whole-form fallback); adjudication §3 |
+| Q-M-2 | Adopt, as a conditional design direction only, a joint, role-conditioned, order-sensitive semi-Markov-style successor design with an actual path statistic, fixture/null contrasts, complexity control, and ablation against the uncoupled design | accepted | APPLY WITH MODIFICATION (design direction adopted); no third execution is commissioned by this row: any corpus execution requires a separate owner commission and prospective registration, and discharge requires the owner-adjudicable design proposal named in the adjudication; adjudication §3 |
+
 ## Counts
 
 | Section | Rows | done | accepted | adjudicating | open | rejected |
 |---|---|---|---|---|---|
-| Indus, Round A | 15 | 12 | 3 | 0 | 0 | 0 |
-| Indus, Round B | 24 | 21 | 2 | 0 | 0 | 1 |
+| Indus, Round A | 15 | 13 | 2 | 0 | 0 | 0 |
+| Indus, Round B | 24 | 22 | 1 | 0 | 0 | 1 |
 | Eteocypriot, Round B | 10 | 8 | 1 | 0 | 0 | 1 |
-| Meroitic, Round B | 19 | 16 | 2 | 0 | 0 | 1 |
-| Eteocypriot, Round C | 20 | 3 | 10 | 0 | 0 | 7 |
-| Meroitic, Round C | 26 | 2 | 13 | 0 | 0 | 11 |
+| Meroitic, Round B | 19 | 17 | 1 | 0 | 0 | 1 |
+| Eteocypriot, Round C | 20 | 5 | 8 | 0 | 0 | 7 |
+| Meroitic, Round C | 26 | 5 | 10 | 0 | 0 | 11 |
 | Eteocypriot, Round D | 2 | 2 | 0 | 0 | 0 | 0 |
 | Meroitic, Round D | 3 | 3 | 0 | 0 | 0 | 0 |
 | Eteocypriot, Round E | 3 | 3 | 0 | 0 | 0 | 0 |
@@ -462,7 +505,10 @@ Source: the captured outputs at the goal's
 | Indus, Round P | 5 | 5 | 0 | 0 | 0 | 0 |
 | Eteocypriot, Round P | 3 | 3 | 0 | 0 | 0 | 0 |
 | Meroitic, Round P | 4 | 4 | 0 | 0 | 0 | 0 |
-| **Total** | **158** | **106** | **31** | **0** | **0** | **21** |
+| Indus, Round Q | 4 | 4 | 0 | 0 | 0 | 0 |
+| Eteocypriot, Round Q | 4 | 2 | 2 | 0 | 0 | 0 |
+| Meroitic, Round Q | 2 | 1 | 1 | 0 | 0 | 0 |
+| **Total** | **168** | **121** | **26** | **0** | **0** | **21** |
 
 Round D cross-check against the sweep adjudication record
 (5 units: 1 APPLY / 3 APPLY WITH MODIFICATION / 1 OWNER
@@ -817,6 +863,53 @@ open, 21 rejected. The census's interim count of 159 rows /
 107 done is corrected in the census record: the data rows
 recount to the Round P totals, and this ledger's git history
 shows no change between the Round P landing and the census.
+
+Round Q cross-check (2026-11-28). The Round Q sweep
+(briefs pinned at `37213fa7`, the PR #817 merge; briefs and
+verbatim session responses held at the goal's
+`hidden_files/round-q-2026-11-28/`) opened with a census:
+no unledgered post-Round P lists were found, and all three
+sessions ended at Round P confirmations, each independently
+confirming the standing census of 158 rows (114 done, 23
+accepted, 0 open, 21 rejected, as recounted in the
+plans-census closing note above; the Counts table's
+per-section rows are updated in this landing to reflect
+that census's eight named reclassifications, which the
+table had not yet carried). The round returned ten units:
+Indus four (Q-I-1 APPLY; Q-I-2, Q-I-3 APPLY WITH
+MODIFICATION; Q-I-4 APPLY), Eteocypriot four (Q-E-1 APPLY;
+Q-E-2, Q-E-3 APPLY WITH MODIFICATION; Q-E-4 APPLY), and
+Meroitic two (Q-M-1, Q-M-2 APPLY WITH MODIFICATION). Seven
+stand done at this landing, discharged by the records named
+in their rows (the Spec 110 entropy correction and its
+Spec 111 cross-reference, the Spec 111 correction and
+adjudication record, the Spec 109 Stage 4 addenda, and the
+Spec 112 calibration account); three stand accepted
+(Q-E-1, whose conformance addendum is filed but whose
+clause-S / full-conformance label and license disposition
+is referred to the owner; Q-E-2, whose factual correction
+is discharged but whose P4 grade-basis disposition is
+referred to the owner; Q-M-2, a design direction adopted
+with any corpus execution requiring a separate owner
+commission and prospective registration). The round's
+red-team findings carry no rows: the Meroitic session's
+Spec 102 arithmetic sharpening (at least 21 additional
+outside concepts required, superseding the custody
+extraction's "13 outside" framing; filed as the Spec 102
+G-1 arithmetic addendum), its Spec 112 fallback correction
+(the 2,193-form comparison was against the
+all-single-character fallback), the Indus session's
+generator-mismatch leading alternative and its
+matched-multiset caveat on "length effects", and the
+Eteocypriot session's confirmation that RANKING NULL is
+arithmetically correct with the full null distribution
+reproduced (0: 888, 1: 3, 2: 107, 4: 1; p99 = 2). Two items
+are referred to the owner and recorded, not decided, in
+the adjudication record. Nothing was deposited or
+published in Round Q, no paper text was edited, and no
+standing, verdict, or tally moved. Totals after Round Q:
+168 rows - 121 done, 26 accepted, 0 open, 21 rejected
+(Indus 54, Eteocypriot 50, Meroitic 64).
 
 ## Briefing rule (closing note)
 
