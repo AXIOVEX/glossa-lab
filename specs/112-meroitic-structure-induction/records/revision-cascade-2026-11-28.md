@@ -107,17 +107,24 @@ established split.
 - Program map: 1,118 claims · 113 studies · 28 unjudged studies ·
   0 judgment calls; claims by governing class: positive 10,
   negative 7, open 1,099, closed_other 2.
-- Census pins updated from the regenerated actuals (33 updates):
+- Census pins updated from the regenerated actuals (41 updates
+  across three pin-correction rounds):
   `backend/tests/test_program_map_conformance.py`,
   `backend/tests/test_spec086_map.py`,
   `backend/tests/test_spec086_ledger_gate.py`,
   `backend/tests/test_spec095_stage4_instantiation.py`,
   `backend/tests/test_spec095_t403_dashboard.py` (including the
   T405 run of record, now `settling-20261128T104041Z-9c65d4`), and
-  the two frontend e2e census texts (1,118). The first census run
-  over the grown tree read **19 failed / 95 passed** — every
-  failure a census pin read from the regenerated actuals, or the
-  V11 run-binding state the completion acts clear.
+  the two frontend e2e census texts (1,118). The census rounds
+  over the grown tree read **19 failed / 95 passed**, then
+  **7 failed / 107 passed**, then **2 failed / 112 passed** —
+  every failure a census pin read from the regenerated actuals
+  (claims 1,118; draft status 1,094; supports edges 1,634;
+  documents columns 321; matrix columns 649; falsifier coverage
+  1,109; the V11 run-binding state the completion acts clear) —
+  and the last file standing, `test_spec086_map.py`, then passed
+  standalone on the final tree (**17 passed**), for 114 passed in
+  substance over the five files.
 - Ledger gate mid-cascade: **31 PASS / 1 FAIL / 1 NOT-RUN** — the
   FAIL is V11 run-binding, naming exactly the three departed
   records of the superseded T405 generation; the NOT-RUN is V7,
