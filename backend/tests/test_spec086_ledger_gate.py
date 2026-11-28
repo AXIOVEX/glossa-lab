@@ -855,7 +855,7 @@ def test_map_legs_live_and_pass_on_a_clean_map_tree(map_scratch):
     assert report.ok, report.render()
     v2 = _check(report, "V2 count equivalence — claims by status: ledger == map header")
     assert v2.status == "PASS"
-    assert "1102 claims counted across 8 statuses" in "\n".join(v2.evidence)
+    assert "1107 claims counted across 8 statuses" in "\n".join(v2.evidence)
     v5_full = _checks(report, "V5 map recomputation")[1]
     assert v5_full.name.endswith("(map-defs v1 copies)")
     assert v5_full.status == "PASS"
@@ -1108,7 +1108,7 @@ def test_v10_legs_live_and_pass_on_a_program_map_tree(pm_scratch):
     assert len(checks) == 5
     assert all(c.status == "PASS" for c in checks)
     census = "\n".join(checks[1].evidence)
-    assert "1102 claim nodes" in census
+    assert "1107 claim nodes" in census
     assert "112 study nodes" in census
     finds_evidence = "\n".join(checks[2].evidence)
     assert "bundle_less_study 28" in finds_evidence
