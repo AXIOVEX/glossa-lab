@@ -200,7 +200,7 @@ def test_header_contract_q3(built) -> None:
     data = json.loads(built.json_bytes)
     h = data["header"]
     assert h["claims_total"] == 1118
-    assert h["claims_by_status"]["draft"] == 1090
+    assert h["claims_by_status"]["draft"] == 1094
     assert sum(h["claims_by_status"].values()) == 1118
     assert h["anchors_strict"] == 94
     assert h["anchors_total"] == 287
@@ -230,7 +230,7 @@ def test_sections_census(built) -> None:
     rels = {}
     for edge in data["edges"]:
         rels[edge["rel"]] = rels.get(edge["rel"], 0) + 1
-    assert rels == {"supports": 1630, "opposes": 7}
+    assert rels == {"supports": 1634, "opposes": 7}
     assert len(data["loads"]) == 1118
     system = data["system"]
     assert system["falsifier_census"]["covered"] == 1109
@@ -390,7 +390,7 @@ def test_api_sections_serve_the_artifact(client) -> None:
     assert system["sign_inventory"]["frame_scope"] == 286
     matrix = client.get("/api/v1/indus-map/matrix").json()["matrix"]
     assert matrix["coverage"]["cells_by_relation"] == {
-        "supports": 1630,
+        "supports": 1634,
         "opposes": 7,
         "constrains": 0,
     }

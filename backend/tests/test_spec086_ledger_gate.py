@@ -867,7 +867,7 @@ def test_map_legs_live_and_pass_on_a_clean_map_tree(map_scratch):
     assert v6.status == "PASS"
     assert "287 register records, 94 of them strict" in "\n".join(v6.evidence)
     v4 = _check(report, "V4 relation-carrying citations")
-    assert "map edge census: supports 1630, opposes 7, constrains 0" in (
+    assert "map edge census: supports 1634, opposes 7, constrains 0" in (
         "\n".join(v4.evidence)
     )
 
