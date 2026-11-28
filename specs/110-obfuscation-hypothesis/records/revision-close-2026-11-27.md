@@ -73,7 +73,16 @@ the revision here.
    verified untouched), and an initial pin-refresh rewrite that
    reflowed non-ASCII lines in the canonical file was reverted and
    redone surgically (17 insertions, 0 deletions), both in the
-   cascade record.
+   cascade record. Two further incidents from the landing are
+   disclosed the same way: a first merge of the concurrently
+   landed Spec 111 registration was mis-resolved (rename/rename
+   conflicts in the run store), committed locally with conflict
+   markers, and reset and redone before any push (cascade record
+   addendum); and the frontend census pins (thousands-separated
+   forms) were missed by the local pin census and found by CI on
+   PR #812's first run, then updated from the same actuals
+   (1,107 claims) — the backend suite and the ledger gate had
+   passed on that head, and no other job failed.
 
 ## What remains open (filed, not hidden)
 
